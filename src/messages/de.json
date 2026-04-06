@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "title": "Autoankauf Deutschland - Wir kaufen Ihr Auto",
+    "description": "Verkaufen Sie Ihr Auto schnell und unkompliziert. Faire Preise, sofortige Abwicklung, deutschlandweiter Service."
+  },
+  "nav": {
+    "home": "Startseite",
+    "locations": "Standorte",
+    "howItWorks": "So funktionierts",
+    "about": "Uber uns",
+    "contact": "Kontakt",
+    "blog": "Ratgeber"
+  },
+  "hero": {
+    "title": "Wir kaufen Ihr Auto",
+    "subtitle": "Schnell, Fair, Unkompliziert",
+    "description": "Erhalten Sie innerhalb von 24 Stunden ein faires Angebot. Wir holen Ihr Fahrzeug deutschlandweit ab und zahlen sofort.",
+    "cta": "Jetzt Angebot erhalten"
+  },
+  "form": {
+    "step1": "Fahrzeugdaten",
+    "step2": "Zustand",
+    "step3": "Kontakt",
+    "make": "Marke",
+    "model": "Modell",
+    "year": "Erstzulassung",
+    "mileage": "Kilometerstand",
+    "condition": "Zustand",
+    "conditionExcellent": "Ausgezeichnet",
+    "conditionGood": "Gut",
+    "conditionFair": "Akzeptabel",
+    "conditionPoor": "Reparaturbedurftig",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "preferredContact": "Bevorzugte Kontaktart",
+    "contactPhone": "Telefon",
+    "contactEmail": "E-Mail",
+    "contactWhatsApp": "WhatsApp",
+    "postalCode": "PLZ",
+    "description": "Zusatzliche Informationen",
+    "submit": "Anfrage absenden",
+    "submitting": "Wird gesendet...",
+    "success": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "selectMake": "Marke auswahlen",
+    "selectModel": "Modell auswahlen",
+    "selectYear": "Jahr auswahlen",
+    "next": "Weiter",
+    "back": "Zuruck"
+  },
+  "howItWorks": {
+    "title": "So funktionierts",
+    "step1Title": "1. Formular ausfullen",
+    "step1Description": "Geben Sie die Daten Ihres Fahrzeugs ein. Dauert nur 2 Minuten.",
+    "step2Title": "2. Angebot erhalten",
+    "step2Description": "Wir melden uns innerhalb von 24 Stunden mit einem fairen Angebot.",
+    "step3Title": "3. Geld erhalten",
+    "step3Description": "Wir holen Ihr Auto ab und zahlen sofort per Uberweisung."
+  },
+  "whyUs": {
+    "title": "Warum Autoankauf?",
+    "reason1Title": "Faire Preise",
+    "reason1Description": "Keine algorithmische Abwertung - echte Menschen, echte Bewertungen.",
+    "reason2Title": "Schnelle Abwicklung",
+    "reason2Description": "Angebot in 24h, Abholung und Zahlung innerhalb weniger Tage.",
+    "reason3Title": "Deutschlandweit",
+    "reason3Description": "Wir holen Ihr Fahrzeug uberall in Deutschland kostenlos ab.",
+    "reason4Title": "Alle Marken",
+    "reason4Description": "Wir kaufen alle Fahrzeugmarken und -modelle."
+  },
+  "testimonials": {
+    "title": "Das sagen unsere Kunden"
+  },
+  "locations": {
+    "title": "Autoankauf in Ihrer Nahe",
+    "description": "Wir kaufen Autos in ganz Deutschland. Wahlen Sie Ihr Bundesland.",
+    "viewAll": "Alle Standorte anzeigen"
+  },
+  "faq": {
+    "title": "Haufig gestellte Fragen",
+    "q1": "Wie schnell erhalte ich ein Angebot?",
+    "a1": "In der Regel innerhalb von 24 Stunden nach Eingang Ihrer Anfrage.",
+    "q2": "Welche Autos kaufen Sie?",
+    "a2": "Wir kaufen alle Marken und Modelle - auch Fahrzeuge mit Mangeln oder ohne TUV.",
+    "q3": "Wie erfolgt die Zahlung?",
+    "a3": "Per sofortiger Bankuberweisung bei Fahrzeugubergabe.",
+    "q4": "Ist der Service wirklich kostenlos?",
+    "a4": "Ja, fur Sie entstehen keine Kosten. Wir holen das Fahrzeug kostenlos ab.",
+    "q5": "Was passiert nach meiner Anfrage?",
+    "a5": "Wir prufen Ihre Angaben und melden uns telefonisch oder per E-Mail mit einem Angebot."
+  },
+  "cta": {
+    "title": "Bereit, Ihr Auto zu verkaufen?",
+    "description": "Fullen Sie jetzt unser Formular aus und erhalten Sie ein unverbindliches Angebot.",
+    "button": "Jetzt starten"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "terms": "AGB",
+    "copyright": "© {year} Autoankauf. Alle Rechte vorbehalten."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "email": "E-Mail"
+  }
+}

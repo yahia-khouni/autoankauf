@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "title": "Autoankauf Germany - We Buy Your Car",
+    "description": "Sell your car quickly and easily. Fair prices, immediate processing, service across Germany."
+  },
+  "nav": {
+    "home": "Home",
+    "locations": "Locations",
+    "howItWorks": "How it Works",
+    "about": "About Us",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "We Buy Your Car",
+    "subtitle": "Fast, Fair, Simple",
+    "description": "Receive a fair offer within 24 hours. We pick up your vehicle anywhere in Germany and pay immediately.",
+    "cta": "Get Your Offer Now"
+  },
+  "form": {
+    "step1": "Vehicle Details",
+    "step2": "Condition",
+    "step3": "Contact",
+    "make": "Make",
+    "model": "Model",
+    "year": "First Registration",
+    "mileage": "Mileage",
+    "condition": "Condition",
+    "conditionExcellent": "Excellent",
+    "conditionGood": "Good",
+    "conditionFair": "Fair",
+    "conditionPoor": "Poor",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "preferredContact": "Preferred Contact Method",
+    "contactPhone": "Phone",
+    "contactEmail": "Email",
+    "contactWhatsApp": "WhatsApp",
+    "postalCode": "Postal Code",
+    "description": "Additional Information",
+    "submit": "Submit Request",
+    "submitting": "Submitting...",
+    "success": "Thank you! We will contact you within 24 hours.",
+    "error": "An error occurred. Please try again.",
+    "selectMake": "Select make",
+    "selectModel": "Select model",
+    "selectYear": "Select year",
+    "next": "Next",
+    "back": "Back"
+  },
+  "howItWorks": {
+    "title": "How it Works",
+    "step1Title": "1. Fill out the form",
+    "step1Description": "Enter your vehicle details. Takes only 2 minutes.",
+    "step2Title": "2. Receive an offer",
+    "step2Description": "We will contact you within 24 hours with a fair offer.",
+    "step3Title": "3. Get paid",
+    "step3Description": "We pick up your car and pay immediately via bank transfer."
+  },
+  "whyUs": {
+    "title": "Why Choose Us?",
+    "reason1Title": "Fair Prices",
+    "reason1Description": "No algorithmic lowballing - real people, real valuations.",
+    "reason2Title": "Fast Processing",
+    "reason2Description": "Offer within 24h, pickup and payment within days.",
+    "reason3Title": "Nationwide",
+    "reason3Description": "We pick up your vehicle anywhere in Germany for free.",
+    "reason4Title": "All Brands",
+    "reason4Description": "We buy all vehicle makes and models."
+  },
+  "testimonials": {
+    "title": "What Our Customers Say"
+  },
+  "locations": {
+    "title": "Car Buying Near You",
+    "description": "We buy cars throughout Germany. Select your region.",
+    "viewAll": "View All Locations"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "How quickly will I receive an offer?",
+    "a1": "Usually within 24 hours after we receive your request.",
+    "q2": "What cars do you buy?",
+    "a2": "We buy all makes and models - even vehicles with issues or without inspection.",
+    "q3": "How is payment made?",
+    "a3": "By immediate bank transfer upon vehicle handover.",
+    "q4": "Is the service really free?",
+    "a4": "Yes, there are no costs for you. We pick up the vehicle for free.",
+    "q5": "What happens after my request?",
+    "a5": "We review your information and contact you by phone or email with an offer."
+  },
+  "cta": {
+    "title": "Ready to Sell Your Car?",
+    "description": "Fill out our form now and receive a non-binding offer.",
+    "button": "Get Started"
+  },
+  "footer": {
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "terms": "Terms",
+    "copyright": "© {year} Autoankauf. All rights reserved."
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  }
+}

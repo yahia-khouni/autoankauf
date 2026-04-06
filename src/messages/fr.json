@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "title": "Autoankauf Allemagne - Nous achetons votre voiture",
+    "description": "Vendez votre voiture rapidement et facilement. Prix equitables, traitement immediat, service dans toute lAllemagne."
+  },
+  "nav": {
+    "home": "Accueil",
+    "locations": "Emplacements",
+    "howItWorks": "Comment ca marche",
+    "about": "A propos",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "Nous achetons votre voiture",
+    "subtitle": "Rapide, Equitable, Simple",
+    "description": "Recevez une offre equitable sous 24 heures. Nous recuperons votre vehicule partout en Allemagne et payons immediatement.",
+    "cta": "Obtenez votre offre maintenant"
+  },
+  "form": {
+    "step1": "Details du vehicule",
+    "step2": "Etat",
+    "step3": "Contact",
+    "make": "Marque",
+    "model": "Modele",
+    "year": "Premiere immatriculation",
+    "mileage": "Kilometrage",
+    "condition": "Etat",
+    "conditionExcellent": "Excellent",
+    "conditionGood": "Bon",
+    "conditionFair": "Acceptable",
+    "conditionPoor": "Mauvais",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Telephone",
+    "preferredContact": "Methode de contact preferee",
+    "contactPhone": "Telephone",
+    "contactEmail": "E-mail",
+    "contactWhatsApp": "WhatsApp",
+    "postalCode": "Code postal",
+    "description": "Informations supplementaires",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi en cours...",
+    "success": "Merci ! Nous vous contacterons sous 24 heures.",
+    "error": "Une erreur sest produite. Veuillez reessayer.",
+    "selectMake": "Selectionner la marque",
+    "selectModel": "Selectionner le modele",
+    "selectYear": "Selectionner lannee",
+    "next": "Suivant",
+    "back": "Retour"
+  },
+  "howItWorks": {
+    "title": "Comment ca marche",
+    "step1Title": "1. Remplissez le formulaire",
+    "step1Description": "Entrez les details de votre vehicule. Cela ne prend que 2 minutes.",
+    "step2Title": "2. Recevez une offre",
+    "step2Description": "Nous vous contactons sous 24 heures avec une offre equitable.",
+    "step3Title": "3. Soyez paye",
+    "step3Description": "Nous recuperons votre voiture et payons immediatement par virement."
+  },
+  "whyUs": {
+    "title": "Pourquoi nous choisir ?",
+    "reason1Title": "Prix equitables",
+    "reason1Description": "Pas de sous-evaluation algorithmique - de vraies personnes, de vraies evaluations.",
+    "reason2Title": "Traitement rapide",
+    "reason2Description": "Offre sous 24h, recuperation et paiement en quelques jours.",
+    "reason3Title": "National",
+    "reason3Description": "Nous recuperons votre vehicule partout en Allemagne gratuitement.",
+    "reason4Title": "Toutes marques",
+    "reason4Description": "Nous achetons toutes les marques et modeles de vehicules."
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients"
+  },
+  "locations": {
+    "title": "Achat de voitures pres de chez vous",
+    "description": "Nous achetons des voitures dans toute lAllemagne. Selectionnez votre region.",
+    "viewAll": "Voir tous les emplacements"
+  },
+  "faq": {
+    "title": "Questions frequemment posees",
+    "q1": "Combien de temps pour recevoir une offre ?",
+    "a1": "Generalement sous 24 heures apres reception de votre demande.",
+    "q2": "Quelles voitures achetez-vous ?",
+    "a2": "Nous achetons toutes les marques et modeles - meme les vehicules avec des problemes.",
+    "q3": "Comment se fait le paiement ?",
+    "a3": "Par virement bancaire immediat lors de la remise du vehicule.",
+    "q4": "Le service est-il vraiment gratuit ?",
+    "a4": "Oui, il ny a aucun frais pour vous. Nous recuperons le vehicule gratuitement.",
+    "q5": "Que se passe-t-il apres ma demande ?",
+    "a5": "Nous examinons vos informations et vous contactons par telephone ou e-mail avec une offre."
+  },
+  "cta": {
+    "title": "Pret a vendre votre voiture ?",
+    "description": "Remplissez notre formulaire maintenant et recevez une offre sans engagement.",
+    "button": "Commencer"
+  },
+  "footer": {
+    "contact": "Contact",
+    "legal": "Mentions legales",
+    "privacy": "Confidentialite",
+    "imprint": "Mentions legales",
+    "terms": "CGV",
+    "copyright": "© {year} Autoankauf. Tous droits reserves."
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Telephone",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail"
+  }
+}

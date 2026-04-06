@@ -1,0 +1,150 @@
+// Prisma Schema for Autoankauf (SQLite compatible)
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model CarMake {
+  id        String     @id @default(cuid())
+  name      String     @unique
+  slug      String     @unique
+  logoUrl   String?
+  models    CarModel[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  @@map("car_makes")
+}
+
+model CarModel {
+  id            String   @id @default(cuid())
+  name          String
+  slug          String
+  makeId        String
+  make          CarMake  @relation(fields: [makeId], references: [id], onDelete: Cascade)
+  yearsProduced String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  @@unique([makeId, slug])
+  @@map("car_models")
+}
+
+model Location {
+  id          String     @id @default(cuid())
+  type        String     // STATE or CITY
+  name        String
+  slug        String     @unique
+  stateId     String?
+  state       Location?  @relation("StateToCity", fields: [stateId], references: [id], onDelete: SetNull)
+  cities      Location[] @relation("StateToCity")
+  population  Int?
+  latitude    Float?
+  longitude   Float?
+  postalCodes String?    // JSON string for SQLite
+  metaTitle       String?
+  metaDescription String?
+  seoContent      String?  // JSON string for SQLite
+  leads       Lead[]
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  @@index([type])
+  @@index([stateId])
+  @@map("locations")
+}
+
+model Lead {
+  id                String      @id @default(cuid())
+  firstName         String
+  lastName          String
+  email             String
+  phone             String
+  preferredContact  String      @default("PHONE") // PHONE, EMAIL, WHATSAPP
+  carMake           String
+  carModel          String
+  carYear           Int
+  carMileage        Int
+  carCondition      String      // EXCELLENT, GOOD, FAIR, POOR
+  knownIssues       String?     // JSON string for SQLite
+  description       String?
+  photos            String?     // JSON string for SQLite
+  locationId        String?
+  location          Location?   @relation(fields: [locationId], references: [id])
+  postalCode        String?
+  status            String      @default("NEW") // NEW, CONTACTED, OFFER_MADE, NEGOTIATING, SOLD, LOST, SPAM
+  assignedTo        String?
+  notes             String?
+  statusHistory     String?     // JSON string for SQLite
+  source            String?
+  sourcePage        String?
+  utmSource         String?
+  utmMedium         String?
+  utmCampaign       String?
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  contactedAt       DateTime?
+  closedAt          DateTime?
+  @@index([status])
+  @@index([createdAt])
+  @@index([carMake])
+  @@index([locationId])
+  @@map("leads")
+}
+
+model BlogPost {
+  id            String    @id @default(cuid())
+  title         String
+  slug          String
+  language      String    @default("de")
+  excerpt       String?
+  content       String
+  featuredImage String?
+  metaTitle       String?
+  metaDescription String?
+  published     Boolean   @default(false)
+  publishedAt   DateTime?
+  authorName    String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  @@unique([slug, language])
+  @@index([published, language])
+  @@map("blog_posts")
+}
+
+model Admin {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String?
+  role         String   @default("ADMIN") // SUPER_ADMIN, ADMIN, VIEWER
+  lastLoginAt  DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  @@map("admins")
+}
+
+model Testimonial {
+  id          String    @id @default(cuid())
+  name        String
+  location    String?
+  carInfo     String?
+  rating      Int       @default(5)
+  text        String
+  photoUrl    String?
+  verified    Boolean   @default(false)
+  published   Boolean   @default(false)
+  language    String    @default("de")
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  @@map("testimonials")
+}
+
+model Setting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String   // JSON string for SQLite
+  updatedAt DateTime @updatedAt
+  @@map("settings")
+}
