@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Autoankauf Germany - We Buy Your Car",
-    "description": "Sell your car quickly and easily. Fair prices, immediate processing, service across Germany."
+    "title": "Car Purchase Germany - We Buy Your Car",
+    "description": "Sell your car quickly and easily. Fair prices, immediate processing, nationwide service in Germany."
   },
   "nav": {
     "home": "Home",
@@ -18,53 +18,48 @@
     "cta": "Get Your Offer Now"
   },
   "form": {
-    "step1": "Vehicle Details",
-    "step2": "Condition",
-    "step3": "Contact",
-    "make": "Make",
-    "model": "Model",
-    "year": "First Registration",
-    "mileage": "Mileage",
+    "step1Title": "Vehicle Details",
+    "step2Title": "Your Contact Details",
+    "carMake": "Make",
+    "carModel": "Model",
+    "year": "Year",
+    "mileage": "Mileage (km)",
     "condition": "Condition",
     "conditionExcellent": "Excellent",
     "conditionGood": "Good",
     "conditionFair": "Fair",
-    "conditionPoor": "Poor",
-    "name": "Name",
+    "conditionPoor": "Needs Repair",
+    "firstName": "First Name",
+    "lastName": "Last Name",
     "email": "Email",
     "phone": "Phone",
-    "preferredContact": "Preferred Contact Method",
-    "contactPhone": "Phone",
-    "contactEmail": "Email",
-    "contactWhatsApp": "WhatsApp",
-    "postalCode": "Postal Code",
-    "description": "Additional Information",
+    "contactMethod": "Preferred Contact Method",
+    "notes": "Additional Information",
+    "notesPlaceholder": "e.g. known issues, special equipment...",
+    "privacy": "I accept the privacy policy",
     "submit": "Submit Request",
     "submitting": "Submitting...",
-    "success": "Thank you! We will contact you within 24 hours.",
-    "error": "An error occurred. Please try again.",
-    "selectMake": "Select make",
-    "selectModel": "Select model",
-    "selectYear": "Select year",
     "next": "Next",
-    "back": "Back"
+    "back": "Back",
+    "successTitle": "Request Successful!",
+    "successMessage": "Thank you! We will contact you within 24 hours."
   },
   "howItWorks": {
     "title": "How it Works",
-    "step1Title": "1. Fill out the form",
-    "step1Description": "Enter your vehicle details. Takes only 2 minutes.",
-    "step2Title": "2. Receive an offer",
+    "step1Title": "Fill out the form",
+    "step1Description": "Enter your vehicle details. It only takes 2 minutes.",
+    "step2Title": "Receive an offer",
     "step2Description": "We will contact you within 24 hours with a fair offer.",
-    "step3Title": "3. Get paid",
+    "step3Title": "Get paid",
     "step3Description": "We pick up your car and pay immediately via bank transfer."
   },
   "whyUs": {
-    "title": "Why Choose Us?",
+    "title": "Why Choose Autoankauf?",
     "reason1Title": "Fair Prices",
     "reason1Description": "No algorithmic lowballing - real people, real valuations.",
     "reason2Title": "Fast Processing",
     "reason2Description": "Offer within 24h, pickup and payment within days.",
-    "reason3Title": "Nationwide",
+    "reason3Title": "Nationwide Service",
     "reason3Description": "We pick up your vehicle anywhere in Germany for free.",
     "reason4Title": "All Brands",
     "reason4Description": "We buy all vehicle makes and models."
@@ -73,7 +68,7 @@
     "title": "What Our Customers Say"
   },
   "locations": {
-    "title": "Car Buying Near You",
+    "title": "Car Purchase Near You",
     "description": "We buy cars throughout Germany. Select your region.",
     "viewAll": "View All Locations"
   },
@@ -100,13 +95,25 @@
     "legal": "Legal",
     "privacy": "Privacy Policy",
     "imprint": "Imprint",
-    "terms": "Terms",
-    "copyright": "© {year} Autoankauf. All rights reserved."
+    "terms": "Terms & Conditions",
+    "copyright": "© {year} Autoankauf Germany. All rights reserved."
   },
   "contact": {
     "title": "Contact",
     "phone": "Phone",
     "whatsapp": "WhatsApp",
     "email": "Email"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getOffer": "Get Offer",
+    "freeValuation": "Free Valuation",
+    "instantPayment": "Instant Payment",
+    "freePickup": "Free Pickup",
+    "select": "Select...",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "required": "Required"
   }
 }
