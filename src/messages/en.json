@@ -15,7 +15,16 @@
     "title": "We Buy Your Car",
     "subtitle": "Fast, Fair, Simple",
     "description": "Receive a fair offer within 24 hours. We pick up your vehicle anywhere in Germany and pay immediately.",
-    "cta": "Get Your Offer Now"
+    "cta": "Get Your Offer Now",
+    "formTitle": "Free Offer",
+    "formSubtitle": "We will respond to you within 24 hours.",
+    "statsVehicles": "Vehicles",
+    "statsRating": "Rating",
+    "statsOffer": "Offer in 24h",
+    "titleLine1": "Sell your car",
+    "cyclingWord1": "Simply",
+    "cyclingWord2": "Quickly",
+    "cyclingWord3": "Fairly"
   },
   "form": {
     "step1Title": "Vehicle Details",
@@ -51,7 +60,9 @@
     "step2Title": "Receive an offer",
     "step2Description": "We will contact you within 24 hours with a fair offer.",
     "step3Title": "Get paid",
-    "step3Description": "We pick up your car and pay immediately via bank transfer."
+    "step3Description": "We pick up your car and pay immediately via bank transfer.",
+    "badge": "Simple Process",
+    "subtitle": "In just 3 simple steps, sell your car quickly and hassle-free"
   },
   "whyUs": {
     "title": "Why Choose Autoankauf?",
@@ -62,15 +73,37 @@
     "reason3Title": "Nationwide Service",
     "reason3Description": "We pick up your vehicle anywhere in Germany for free.",
     "reason4Title": "All Brands",
-    "reason4Description": "We buy all vehicle makes and models."
+    "reason4Description": "We buy all vehicle makes and models.",
+    "subtitle": "Unlike large platforms, we offer personal service and fair prices",
+    "trust1": "TÜV Certified",
+    "trust2": "10+ Years Experience",
+    "trust3": "5,000+ Customers"
   },
   "testimonials": {
-    "title": "What Our Customers Say"
+    "title": "What Our Customers Say",
+    "badge": "Customer Reviews",
+    "ratingCount": "500+ Reviews",
+    "verified": "All reviews are from verified customers",
+    "review1Name": "Thomas M.",
+    "review1Location": "Munich",
+    "review1Car": "BMW 3 Series, 2019",
+    "review1Text": "Super fast processing! Within 2 days everything was done and the money was in my account. Very professional.",
+    "review2Name": "Sarah K.",
+    "review2Location": "Berlin",
+    "review2Car": "VW Golf, 2018",
+    "review2Text": "Finally an honest car buyer. The offer was fair and the staff very friendly. Highly recommend!",
+    "review3Name": "Michael W.",
+    "review3Location": "Hamburg",
+    "review3Car": "Audi A4, 2020",
+    "review3Text": "I was skeptical but was pleasantly surprised. Better offer than other dealers. Top service!"
   },
   "locations": {
     "title": "Car Purchase Near You",
     "description": "We buy cars throughout Germany. Select your region.",
-    "viewAll": "View All Locations"
+    "viewAll": "View All Locations",
+    "badge": "Nationwide",
+    "cities": "Cities",
+    "cityState": "City-State"
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -83,12 +116,19 @@
     "q4": "Is the service really free?",
     "a4": "Yes, there are no costs for you. We pick up the vehicle for free.",
     "q5": "What happens after my request?",
-    "a5": "We review your information and contact you by phone or email with an offer."
+    "a5": "We review your information and contact you by phone or email with an offer.",
+    "badge": "Common Questions",
+    "subtitle": "Everything you need to know about our car buying service",
+    "moreQuestions": "Do you have more questions?"
   },
   "cta": {
     "title": "Ready to Sell Your Car?",
     "description": "Fill out our form now and receive a non-binding offer.",
-    "button": "Get Started"
+    "button": "Get Started",
+    "badge": "Free & Non-binding",
+    "feature1": "No hidden costs",
+    "feature2": "Fair valuation",
+    "feature3": "Instant payment"
   },
   "footer": {
     "contact": "Contact",
@@ -96,7 +136,12 @@
     "privacy": "Privacy Policy",
     "imprint": "Imprint",
     "terms": "Terms & Conditions",
-    "copyright": "© {year} Autoankauf Germany. All rights reserved."
+    "copyright": "© {year} Autoankauf Germany. All rights reserved.",
+    "quickLinks": "Quick Links",
+    "phone": "Phone",
+    "chat": "Start chat",
+    "getOffer": "Get an offer",
+    "brandDescription": "We buy your car quickly, fairly and without complications. Nationwide premium service with immediate settlement."
   },
   "contact": {
     "title": "Contact",

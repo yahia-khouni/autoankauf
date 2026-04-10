@@ -15,7 +15,16 @@
     "title": "Nous achetons votre voiture",
     "subtitle": "Rapide, Équitable, Simple",
     "description": "Recevez une offre équitable sous 24 heures. Nous récupérons votre véhicule partout en Allemagne et payons immédiatement.",
-    "cta": "Obtenez votre offre maintenant"
+    "cta": "Obtenez votre offre maintenant",
+    "formTitle": "Offre Gratuite",
+    "formSubtitle": "Nous vous répondons dans les 24 heures.",
+    "statsVehicles": "Véhicules",
+    "statsRating": "Note",
+    "statsOffer": "Offre en 24h",
+    "titleLine1": "Vendez votre voiture",
+    "cyclingWord1": "Simplement",
+    "cyclingWord2": "Rapidement",
+    "cyclingWord3": "Équitablement"
   },
   "form": {
     "step1Title": "Détails du véhicule",
@@ -51,7 +60,9 @@
     "step2Title": "Recevez une offre",
     "step2Description": "Nous vous contactons sous 24 heures avec une offre équitable.",
     "step3Title": "Soyez payé",
-    "step3Description": "Nous récupérons votre voiture et payons immédiatement par virement."
+    "step3Description": "Nous récupérons votre voiture et payons immédiatement par virement.",
+    "badge": "Processus Simple",
+    "subtitle": "En seulement 3 étapes simples, vendez votre voiture rapidement et sans tracas"
   },
   "whyUs": {
     "title": "Pourquoi choisir Autoankauf ?",
@@ -62,15 +73,37 @@
     "reason3Title": "Service national",
     "reason3Description": "Nous récupérons votre véhicule partout en Allemagne gratuitement.",
     "reason4Title": "Toutes marques",
-    "reason4Description": "Nous achetons toutes les marques et modèles de véhicules."
+    "reason4Description": "Nous achetons toutes les marques et modèles de véhicules.",
+    "subtitle": "Contrairement aux grandes plateformes, nous offrons un service personnalisé et des prix équitables",
+    "trust1": "Certifié TÜV",
+    "trust2": "10+ ans d'expérience",
+    "trust3": "5.000+ clients"
   },
   "testimonials": {
-    "title": "Ce que disent nos clients"
+    "title": "Ce que disent nos clients",
+    "badge": "Avis clients",
+    "ratingCount": "500+ avis",
+    "verified": "Tous les avis sont de clients vérifiés",
+    "review1Name": "Thomas M.",
+    "review1Location": "Munich",
+    "review1Car": "BMW Série 3, 2019",
+    "review1Text": "Traitement super rapide ! En 2 jours tout était réglé et l'argent sur mon compte. Très professionnel.",
+    "review2Name": "Sarah K.",
+    "review2Location": "Berlin",
+    "review2Car": "VW Golf, 2018",
+    "review2Text": "Enfin un acheteur automobile honnête. L'offre était équitable et le personnel très sympathique. Je recommande vivement !",
+    "review3Name": "Michael W.",
+    "review3Location": "Hambourg",
+    "review3Car": "Audi A4, 2020",
+    "review3Text": "J'étais sceptique, mais j'ai été agréablement surpris. Meilleure offre que chez les autres concessionnaires. Service exceptionnel !"
   },
   "locations": {
     "title": "Achat de voitures près de chez vous",
     "description": "Nous achetons des voitures dans toute l'Allemagne. Sélectionnez votre région.",
-    "viewAll": "Voir tous les emplacements"
+    "viewAll": "Voir tous les emplacements",
+    "badge": "Partout en Allemagne",
+    "cities": "Villes",
+    "cityState": "Ville-État"
   },
   "faq": {
     "title": "Questions fréquentes",
@@ -83,12 +116,19 @@
     "q4": "Le service est-il vraiment gratuit ?",
     "a4": "Oui, il n'y a aucun frais pour vous. Nous récupérons le véhicule gratuitement.",
     "q5": "Que se passe-t-il après ma demande ?",
-    "a5": "Nous examinons vos informations et vous contactons par téléphone ou e-mail avec une offre."
+    "a5": "Nous examinons vos informations et vous contactons par téléphone ou e-mail avec une offre.",
+    "badge": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur notre service d'achat automobile",
+    "moreQuestions": "Vous avez d'autres questions ?"
   },
   "cta": {
     "title": "Prêt à vendre votre voiture ?",
     "description": "Remplissez notre formulaire maintenant et recevez une offre sans engagement.",
-    "button": "Commencer"
+    "button": "Commencer",
+    "badge": "Gratuit & Sans engagement",
+    "feature1": "Pas de frais cachés",
+    "feature2": "Évaluation équitable",
+    "feature3": "Paiement immédiat"
   },
   "footer": {
     "contact": "Contact",
@@ -96,7 +136,12 @@
     "privacy": "Confidentialité",
     "imprint": "Mentions légales",
     "terms": "CGV",
-    "copyright": "© {year} Autoankauf Allemagne. Tous droits réservés."
+    "copyright": "© {year} Autoankauf Allemagne. Tous droits réservés.",
+    "quickLinks": "Liens Rapides",
+    "phone": "Téléphone",
+    "chat": "Démarrer le chat",
+    "getOffer": "Obtenir une offre",
+    "brandDescription": "Nous achetons votre voiture rapidement, équitablement et sans complications. Service premium dans toute l'Allemagne avec règlement immédiat."
   },
   "contact": {
     "title": "Contact",
