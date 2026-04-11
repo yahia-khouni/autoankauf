@@ -8,7 +8,7 @@ export function HeroSection() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative min-h-[100svh] lg:min-h-[90vh] overflow-hidden">
+    <section className="relative min-h-[100svh] lg:min-h-[90vh] overflow-hidden pt-32 sm:pt-40">
       {/* Premium Background */}
       <div className="absolute inset-0 gradient-hero" />
       <div className="absolute inset-0 bg-hero-pattern opacity-50" />
@@ -19,7 +19,7 @@ export function HeroSection() {
       <div className="hidden md:block absolute top-1/2 left-1/4 w-2 h-2 bg-gold-400 rounded-full animate-float" />
       <div className="hidden md:block absolute top-1/3 right-1/3 w-3 h-3 bg-gold-300 rounded-full animate-float animation-delay-200" />
 
-      <div className="container relative z-10 py-8 sm:py-12 lg:py-24">
+      <div className="container relative z-10 pb-8 sm:pb-12 lg:pb-24">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8 text-white text-center lg:text-left">
@@ -100,19 +100,19 @@ export function HeroSection() {
           {/* Form Card */}
           <div
             id="lead-form"
-            className="relative lg:pl-8 animate-fade-in-up animation-delay-200 scroll-mt-20"
+            className="relative lg:pl-8 lg:max-w-[500px] lg:justify-self-end w-full animate-fade-in-up animation-delay-200 scroll-mt-20"
           >
             {/* Ambient spotlight */}
-            <div className="absolute -inset-10 bg-gold-400/10 blur-3xl rounded-full pointer-events-none -z-10" />
+            <div className="absolute -inset-10 bg-gold-400/20 blur-3xl rounded-full pointer-events-none -z-10" />
 
             <div className="relative">
               {/* Glow Effect - Reduced on mobile */}
-              <div className="absolute -inset-1 bg-gradient-gold rounded-2xl sm:rounded-3xl blur-xl opacity-20 animate-pulse-glow" />
+              <div className="absolute -inset-1 bg-gradient-gold rounded-2xl sm:rounded-3xl blur-2xl opacity-40 animate-pulse-glow" />
 
               {/* Form Container */}
-              <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-premium-lg border border-slate-200/60 p-4 sm:p-6 lg:p-8 overflow-hidden">
+              <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-premium-lg border border-slate-200/60 p-4 sm:p-5 lg:p-7 overflow-hidden">
                 {/* Decorative Corner */}
-                <div className="absolute top-0 right-0 w-24 sm:w-32 h-24 sm:h-32 bg-gradient-to-br from-gold-100 to-transparent rounded-bl-full opacity-50" />
+                <div className="absolute top-0 right-0 w-32 sm:w-40 h-32 sm:h-40 bg-gradient-to-br from-gold-300/50 via-gold-200/20 to-transparent rounded-bl-full opacity-100 pointer-events-none" />
 
                 <div className="relative">
                   <div className="flex items-center gap-2 sm:gap-3 mb-2">

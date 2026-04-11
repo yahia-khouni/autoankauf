@@ -43,12 +43,12 @@ export function TestimonialsSection() {
   const allTestimonials = [...testimonials, ...testimonials];
 
   return (
-    <section className="py-12 sm:py-20 lg:py-32 bg-gradient-to-b from-slate-50 via-white to-slate-50 relative overflow-hidden">
-      {/* Decorative Elements - Hidden on Mobile */}
-      <div className="hidden sm:block absolute top-0 left-1/4 w-72 h-72 bg-gold-400/10 rounded-full blur-3xl" />
-      <div className="hidden sm:block absolute bottom-0 right-1/4 w-96 h-96 bg-navy-900/5 rounded-full blur-3xl" />
+    <section className="py-16 sm:py-24 lg:py-32 bg-slate-50 relative overflow-hidden">
+      {/* Ambient Golden Light - More visible now */}
+      <div className="absolute top-1/4 left-0 w-[30rem] sm:w-[40rem] h-[30rem] sm:h-[40rem] bg-gold-400/20 rounded-full blur-[80px] sm:blur-[120px] pointer-events-none" />
+      <div className="absolute -bottom-1/4 -right-10 w-[25rem] sm:w-[35rem] h-[25rem] sm:h-[35rem] bg-gold-500/15 rounded-full blur-[60px] sm:blur-[100px] pointer-events-none" />
 
-      <div className="container relative px-4 sm:px-6">
+      <div className="container relative z-10 px-4 sm:px-6">
         {/* Header - Mobile Optimized */}
         <div className="text-center mb-8 sm:mb-16">
           <div className="inline-flex items-center gap-1.5 sm:gap-2 rounded-full bg-gold-100 border border-gold-200 px-3 py-1.5 sm:px-4 sm:py-2 mb-4 sm:mb-6">

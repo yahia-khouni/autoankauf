@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { germanStates } from "@/data/locations";
@@ -35,68 +36,76 @@ export function LocationsMapSection() {
           </div>
         </AnimateOnScroll>
 
-        {/* Location Cards Grid - 2 cols on mobile, 3 on lg */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 sm:gap-4">
-          {germanStates.map((state, index) => (
-            <Link
-              key={state.slug}
-              href={`/standorte/${state.slug}`}
-              className="group relative bg-white rounded-xl sm:rounded-2xl border border-slate-200/80 p-3 sm:p-5 hover:border-gold-400 hover:shadow-[0_4px_20px_rgba(212,175,55,0.12)] transition-all duration-300 active:scale-[0.98] sm:active:scale-100"
-              style={{ animationDelay: `${index * 50}ms` }}
-            >
-              {/* Hover Glow - Desktop Only */}
-              <div className="hidden sm:block absolute inset-0 rounded-2xl bg-gradient-to-br from-gold-400/0 to-gold-400/0 group-hover:from-gold-400/5 group-hover:to-gold-400/10 transition-all duration-300" />
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          {/* Left: Artistic Map */}
+          <AnimateOnScroll delay={100} className="relative order-2 lg:order-1 flex justify-center">
+            <div className="relative w-full max-w-[600px] aspect-square rounded-full flex items-center justify-center">
+              {/* Glow layers */}
+              <div className="absolute inset-0 bg-gold-400/20 blur-[100px] rounded-full pointer-events-none" />
+              
+              {/* Image Map */}
+              <Image 
+                src="/images/map.png"
+                alt="Germany Locations Map"
+                width={800}
+                height={800}
+                className="relative z-10 w-full h-auto object-contain filter drop-shadow-2xl"
+              />
+            </div>
+          </AnimateOnScroll>
 
-              {/* Mobile: Compact Vertical Layout */}
-              <div className="relative sm:hidden flex flex-col items-center text-center gap-2">
-                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-gold-50 to-gold-100 flex items-center justify-center group-hover:from-gold-100 group-hover:to-gold-200 transition-colors duration-300">
-                  <MapPin className="pin-bounce h-4 w-4 text-navy-600 group-hover:text-gold-600 transition-colors" />
-                </div>
-                <div className="min-w-0">
-                  <p className="font-semibold text-xs text-navy-900 truncate group-hover:text-gold-600 transition-colors">
-                    {state.name}
-                  </p>
-                  <p className="text-[10px] text-slate-500">
-                    {state.cities.length > 0
-                      ? `${state.cities.length} ${t("cities")}`
-                      : t("cityState")}
-                  </p>
+          {/* Right: Scrollable Location List */}
+          <div className="order-1 lg:order-2 flex flex-col h-full">
+            <div className="bg-navy-900 rounded-3xl shadow-premium-lg border border-navy-800 overflow-hidden flex flex-col h-[500px]">
+              <div className="p-6 sm:p-8 border-b border-navy-800 bg-navy-950/50 backdrop-blur-sm relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl" />
+                <h3 className="relative text-xl sm:text-2xl font-bold text-white mb-2">Verfügbar in ganz Deutschland</h3>
+                <p className="relative text-sm text-slate-300">Wählen Sie Ihr Bundesland aus, um lokale Händler zu finden.</p>
+              </div>
+              
+              <div className="overflow-y-auto flex-1 p-4 sm:p-6 sn-scrollbar">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                  {germanStates.map((state, index) => (
+                    <Link
+                      key={state.slug}
+                      href={`/standorte/${state.slug}`}
+                      className="group flex flex-col p-4 rounded-2xl border border-navy-800 bg-navy-950/30 hover:bg-navy-800 hover:border-gold-400/50 transition-all duration-300 active:scale-[0.98]"
+                    >
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 rounded-full bg-navy-900 flex items-center justify-center border border-navy-700 group-hover:border-gold-500/30 group-hover:bg-navy-900/50 transition-colors">
+                            <MapPin className="h-3.5 w-3.5 text-gold-400 group-hover:text-gold-300 transition-colors" />
+                          </div>
+                          <span className="font-semibold text-slate-100 group-hover:text-white transition-colors">
+                            {state.name}
+                          </span>
+                        </div>
+                        <ChevronRight className="h-4 w-4 text-slate-500 group-hover:text-gold-400 group-hover:translate-x-1 transition-transform" />
+                      </div>
+                      <p className="text-xs text-slate-400 pl-11">
+                        {state.cities.length > 0
+                          ? `${state.cities.length} ${t("cities")} `
+                          : t("cityState")}
+                      </p>
+                    </Link>
+                  ))}
                 </div>
               </div>
-
-              {/* Desktop: Horizontal Layout */}
-              <div className="relative hidden sm:flex items-center gap-4">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold-50 to-gold-100 flex items-center justify-center group-hover:from-gold-100 group-hover:to-gold-200 transition-colors duration-300">
-                  <MapPin className="pin-bounce h-5 w-5 text-navy-600 group-hover:text-gold-600 transition-colors" />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <p className="font-semibold text-navy-900 truncate group-hover:text-gold-600 transition-colors">
-                    {state.name}
-                  </p>
-                  <p className="text-xs text-slate-500">
-                    {state.cities.length > 0
-                      ? `${state.cities.length} ${t("cities")}`
-                      : t("cityState")}
-                  </p>
-                </div>
-                <ChevronRight className="h-5 w-5 text-slate-400 group-hover:text-gold-500 group-hover:translate-x-1 transition-all" />
-              </div>
-            </Link>
-          ))}
-        </div>
-
-        {/* View All Button - Mobile Optimized */}
-        <AnimateOnScroll delay={150}>
-          <div className="text-center mt-8 sm:mt-12">
-            <Link
-              href="/standorte"
-              className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-sm sm:text-base bg-navy-900 text-white hover:bg-navy-800 hover:shadow-[0_4px_20px_rgba(16,42,67,0.25)] transition-all group active:scale-[0.98] border border-navy-700 hover:border-gold-500"
-            >
-              {t("viewAll")}
-              <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </div>
+            
+            {/* View All Button */}
+            <AnimateOnScroll delay={150} className="mt-8 text-center lg:text-left">
+              <Link
+                href="/standorte"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-semibold text-base bg-navy-900 text-white hover:bg-navy-800 shadow-lg shadow-navy-900/20 hover:shadow-[0_8px_25px_rgba(16,42,67,0.35)] transition-all group active:scale-[0.98] border border-navy-700 hover:border-gold-500 relative overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-gradient-to-r from-gold-400/0 via-gold-400/20 to-gold-400/0 -translate-x-full group-hover:animate-shimmer" />
+                <span className="relative z-10">{t("viewAll")}</span>
+                <ChevronRight className="h-5 w-5 relative z-10 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            </AnimateOnScroll>
           </div>
-        </AnimateOnScroll>
+        </div>
       </div>
     </section>
   );

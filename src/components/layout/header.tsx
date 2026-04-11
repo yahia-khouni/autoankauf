@@ -44,40 +44,41 @@ export function Header() {
 
   return (
     <header className={cn(
-      "sticky top-0 z-50 w-full transition-all duration-300",
+      "fixed top-0 left-0 right-0 z-50 w-full transition-all duration-500 ease-in-out",
       isScrolled 
-        ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-slate-100" 
-        : "bg-transparent"
+        ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-slate-200/50 py-1" 
+        : "bg-navy-950/20 backdrop-blur-sm border-b border-white/10 py-3"
     )}>
       {/* Top Bar - Desktop Only */}
       <div className={cn(
-        "hidden md:block transition-all duration-300 overflow-hidden",
-        isScrolled ? "h-0 opacity-0" : "h-auto opacity-100"
+        "hidden md:block transition-all duration-500 ease-in-out overflow-hidden origin-top",
+        isScrolled ? "max-h-0 opacity-0" : "max-h-12 opacity-100 mb-2"
       )}>
-        <div className="bg-navy-900 text-white py-2.5">
-          <div className="container flex justify-between items-center text-sm">
+        <div className="bg-transparent text-white/90 py-1">
+          <div className="container flex justify-between items-center text-xs font-medium tracking-wide">
             <div className="flex items-center gap-6">
               <a href="tel:+4912345678900" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
-                <Phone className="h-4 w-4 text-gold-400" />
+                <Phone className="h-3.5 w-3.5 text-gold-400" />
                 +49 123 456 789 00
               </a>
+              <div className="w-px h-3 bg-white/20" />
               <a 
                 href="https://wa.me/4912345678900" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-gold-400 transition-colors"
               >
-                <MessageCircle className="h-4 w-4 text-gold-400" />
+                <MessageCircle className="h-3.5 w-3.5 text-gold-400" />
                 WhatsApp
               </a>
             </div>
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
-                <Star className="h-4 w-4 text-gold-400 fill-gold-400" />
-                <span className="text-slate-300">Über 5.000 Autos angekauft</span>
+                <Star className="h-3.5 w-3.5 text-gold-400 fill-gold-400" />
+                <span>Über 5.000 Autos angekauft</span>
               </div>
-              <div className="h-4 w-px bg-slate-600" />
-              <LanguageSwitcher />
+              <div className="w-px h-3 bg-white/20" />
+              <LanguageSwitcher variant="dark" />
             </div>
           </div>
         </div>
@@ -85,19 +86,25 @@ export function Header() {
       
       {/* Main Nav */}
       <div className={cn(
-        "container flex items-center justify-between transition-all duration-300",
-        isScrolled ? "h-16" : "h-16 md:h-20"
+        "container flex items-center justify-between transition-all duration-500 ease-in-out",
+        isScrolled ? "h-[60px]" : "h-[70px] md:h-[80px]"
       )}>
         <Link href="/" className="flex items-center gap-2 sm:gap-3 group">
-          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-gold flex items-center justify-center shadow-gold group-hover:scale-110 transition-transform">
-            <span className="text-base sm:text-lg font-bold text-navy-900">A</span>
+          <div className={cn(
+            "w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center shadow-gold group-hover:scale-105 transition-all duration-300",
+            isScrolled ? "bg-gradient-gold text-navy-900" : "bg-white/10 backdrop-blur-md border border-white/20 text-gold-400 group-hover:bg-gold-500 group-hover:border-gold-500 group-hover:text-navy-900"
+          )}>
+            <span className="text-base sm:text-lg font-bold">A</span>
           </div>
           <div className={cn(
-            "transition-colors",
+            "transition-colors flex flex-col -gap-1",
             isScrolled ? "text-navy-900" : "text-white"
           )}>
-            <span className="text-lg sm:text-xl font-bold">Autoankauf</span>
-            <span className="hidden sm:inline text-gold-500 font-semibold ml-1">Deutschland</span>
+            <span className="text-xl sm:text-2xl font-black tracking-tight leading-none">Autoankauf</span>
+            <span className={cn(
+              "text-[10px] sm:text-xs font-semibold tracking-wider uppercase",
+              isScrolled ? "text-gold-600" : "text-gold-400"
+            )}>Deutschland</span>
           </div>
         </Link>
 
@@ -107,10 +114,10 @@ export function Header() {
               key={item.href}
               href={item.href}
               className={cn(
-                "px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 animated-underline",
+                "px-5 py-2.5 text-sm font-semibold rounded-full transition-all duration-300",
                 isScrolled 
-                  ? "text-slate-700 hover:text-navy-900 hover:bg-slate-50" 
-                  : "text-white/90 hover:text-white hover:bg-white/10"
+                  ? "text-slate-600 hover:text-navy-900 hover:bg-slate-50" 
+                  : "text-white/90 hover:text-white hover:bg-white/10 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]"
               )}
             >
               {item.label}
@@ -119,32 +126,36 @@ export function Header() {
         </nav>
 
         <div className="hidden lg:flex items-center gap-4">
-          {isScrolled && <LanguageSwitcher />}
+          {isScrolled && <div className="scale-95 origin-right opacity-90 transition-opacity"><LanguageSwitcher variant="light" /></div>}
           <Link
             href="/#lead-form"
-            className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-300 bg-gradient-gold text-navy-900 hover:shadow-gold-lg hover:scale-105"
+            className={cn(
+              "group inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-sm transition-all duration-300 hover:scale-105 hover:shadow-gold-lg",
+              isScrolled 
+                ? "bg-gradient-gold text-navy-900" 
+                : "bg-white text-navy-900 border border-white/20 hover:bg-gradient-gold hover:border-gold-400 shadow-[0_4px_14px_rgba(0,0,0,0.1)]"
+            )}
           >
             {tHero("cta")}
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           className={cn(
-            "lg:hidden p-2.5 rounded-xl transition-all duration-200",
+            "lg:hidden p-2.5 rounded-full transition-all duration-300",
             isScrolled 
               ? "hover:bg-slate-100 active:bg-slate-200" 
-              : "hover:bg-white/10 active:bg-white/20",
+              : "bg-white/10 hover:bg-white/20 active:bg-white/30 backdrop-blur-md border border-white/20",
             isOpen && "bg-gold-500 hover:bg-gold-500"
           )}
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
           {isOpen ? (
-            <X className="h-6 w-6 text-navy-900" />
+            <X className="h-5 w-5 text-navy-900" />
           ) : (
-            <Menu className={cn("h-6 w-6", isScrolled ? "text-navy-900" : "text-white")} />
+            <Menu className={cn("h-5 w-5", isScrolled ? "text-navy-900" : "text-white")} />
           )}
         </button>
       </div>
@@ -245,7 +256,7 @@ export function Header() {
             
             {/* Language Switcher */}
             <div className="flex items-center justify-center pt-2">
-              <LanguageSwitcher />
+              <LanguageSwitcher variant="light" />
             </div>
           </div>
         </div>

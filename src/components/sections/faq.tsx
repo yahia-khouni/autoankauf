@@ -20,66 +20,79 @@ export function FAQSection() {
   ];
 
   return (
-    <section className="py-12 sm:py-20 lg:py-32 bg-white relative overflow-hidden">
-      {/* Decorative Background - Hidden on Mobile */}
-      <div className="hidden sm:block absolute top-0 right-0 w-96 h-96 bg-gold-400/5 rounded-full blur-3xl" />
-      <div className="hidden sm:block absolute bottom-0 left-0 w-72 h-72 bg-navy-900/5 rounded-full blur-3xl" />
+    <section className="py-16 sm:py-24 lg:py-32 bg-slate-50 relative overflow-hidden">
+      {/* Decorative Background */}
+      <div className="absolute top-0 right-0 w-[40rem] h-[40rem] bg-gold-400/10 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[30rem] h-[30rem] bg-navy-900/5 rounded-full blur-[80px] pointer-events-none" />
 
-      <div className="container max-w-4xl relative px-4 sm:px-6">
-        {/* Header - Mobile Optimized */}
-        <AnimateOnScroll delay={0}>
-          <div className="text-center mb-8 sm:mb-16">
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 rounded-full bg-navy-50 border border-navy-100 px-3 py-1.5 sm:px-4 sm:py-2 mb-4 sm:mb-6">
-              <HelpCircle className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-navy-600" />
-              <span className="text-xs sm:text-sm font-medium text-navy-700">
-                {t("badge")}
-              </span>
-            </div>
-            <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4 text-navy-900">
-              {t("title")}
-            </h2>
-            <p className="text-sm sm:text-lg text-slate-600 max-w-2xl mx-auto px-2">
-              {t("subtitle")}
-            </p>
+      <div className="container relative px-4 sm:px-6 z-10">
+        <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-start align-top">
+          
+          {/* Left Column: Heading & Contact Card */}
+          <div className="lg:col-span-4 lg:sticky lg:top-32 space-y-8">
+            <AnimateOnScroll delay={0}>
+              <div className="inline-flex items-center gap-2 rounded-full bg-white shadow-sm border border-navy-100 px-4 py-2 mb-6">
+                <HelpCircle className="h-4 w-4 text-gold-500" />
+                <span className="text-sm font-bold text-navy-800 tracking-wide uppercase">
+                  {t("badge")}
+                </span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 text-navy-900 leading-tight">
+                {t("title")}
+              </h2>
+              <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-8">
+                {t("subtitle")}
+              </p>
+              
+              {/* Contact Card to fill space */}
+              <div className="bg-white rounded-2xl p-6 shadow-premium border border-slate-100">
+                <div className="w-12 h-12 rounded-full bg-gold-50 flex items-center justify-center mb-4">
+                  <Phone className="h-6 w-6 text-gold-600" />
+                </div>
+                <h3 className="text-xl font-bold text-navy-900 mb-2">Noch Fragen offen?</h3>
+                <p className="text-slate-600 text-sm mb-6">Rufen Sie uns an oder schreiben Sie uns. Wir sind an 7 Tagen die Woche für Sie da.</p>
+                <a
+                  href="tel:+4930123456789"
+                  className="group flex items-center justify-between bg-navy-900 hover:bg-navy-800 text-white rounded-xl px-5 py-4 font-semibold text-base transition-all active:scale-[0.98] shadow-lg hover:shadow-navy-900/30"
+                >
+                  <span className="group-hover:translate-x-1 transition-transform">030 123 456 789</span>
+                  <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-colors">
+                    <Phone className="h-4 w-4 text-white" />
+                  </div>
+                </a>
+              </div>
+            </AnimateOnScroll>
           </div>
-        </AnimateOnScroll>
 
-        {/* FAQ Accordion + Contact CTA */}
-        <AnimateOnScroll delay={100}>
-          {/* Accordion - No wrapper box, sits directly in container */}
-          <Accordion type="single" collapsible className="w-full">
-            {faqs.map((faq, index) => (
-              <AccordionItem
-                key={index}
-                value={`item-${index}`}
-                className="faq-item border-0 data-[state=open]:bg-gold-50/40 transition-all duration-300 px-2 sm:px-4"
-              >
-                <AccordionTrigger className="text-left py-5 sm:py-7 hover:no-underline [&[data-state=open]>span]:text-gold-600 [&>span]:transition-colors">
-                  <span className="font-semibold text-sm sm:text-base text-navy-900 hover:text-gold-600 transition-colors pr-3 sm:pr-4">
-                    {faq.q}
-                  </span>
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600 pb-5 sm:pb-7 px-0 leading-relaxed text-sm sm:text-base">
-                  {faq.a}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-
-          {/* Contact CTA - Mobile Optimized */}
-          <div className="mt-8 sm:mt-12 text-center">
-            <p className="text-sm sm:text-base text-slate-600 mb-3 sm:mb-4">
-              {t("moreQuestions")}
-            </p>
-            <a
-              href="tel:+4930123456789"
-              className="inline-flex items-center gap-2 sm:gap-3 bg-navy-900 hover:bg-navy-800 text-white rounded-xl sm:rounded-2xl px-5 sm:px-6 py-3 sm:py-4 font-semibold text-sm sm:text-base transition-all active:scale-[0.98] shadow-lg hover:shadow-[0_4px_20px_rgba(16,42,67,0.3)]"
-            >
-              <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
-              <span>030 123 456 789</span>
-            </a>
+          {/* Right Column: FAQ Accordion */}
+          <div className="lg:col-span-8">
+            <AnimateOnScroll delay={100}>
+              <div className="bg-white rounded-3xl shadow-lg border border-slate-100 overflow-hidden p-2 sm:p-4">
+                <Accordion type="single" collapsible className="w-full">
+                  {faqs.map((faq, index) => (
+                    <AccordionItem
+                      key={index}
+                      value={`item-${index}`}
+                      className="border-b border-slate-100 last:border-0 data-[state=open]:bg-slate-50/50 rounded-xl transition-all duration-300 px-4 sm:px-6"
+                    >
+                      <AccordionTrigger className="text-left py-6 hover:no-underline [&[data-state=open]>svg]:rotate-180 group">
+                        <span className="font-bold text-base sm:text-lg text-navy-900 group-hover:text-gold-600 transition-colors pr-4 leading-snug">
+                          {faq.q}
+                        </span>
+                      </AccordionTrigger>
+                      <AccordionContent className="text-slate-600 pb-8 px-0 leading-relaxed text-sm sm:text-base">
+                        <div className="pt-2">
+                          {faq.a}
+                        </div>
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </div>
+            </AnimateOnScroll>
           </div>
-        </AnimateOnScroll>
+          
+        </div>
       </div>
     </section>
   );
