@@ -7,7 +7,7 @@ export function CTASection() {
   const t = useTranslations("cta");
 
   return (
-    <section className="py-12 sm:py-20 lg:py-32 relative overflow-hidden">
+    <section className="py-8 sm:py-12 lg:py-24 relative overflow-hidden">
       {/* Premium Background */}
       <div className="absolute inset-0 gradient-premium" />
       <div className="absolute inset-0 bg-hero-pattern opacity-30" />

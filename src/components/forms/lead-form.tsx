@@ -227,9 +227,7 @@ export function LeadForm() {
             onClick={() => setStep(2)}
             disabled={!canProceedStep1}
           >
-            <Sparkles className="mr-2 h-4 w-4 sm:h-5 sm:w-5 opacity-70" />
             {t("next")}
-            <ChevronRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
       )}

@@ -61,11 +61,11 @@ export function WhyUsSection() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
           {reasons.map((reason, index) => (
             <AnimateOnScroll key={index} delay={index * 100}>
-              <div className="group relative card-gradient-border h-full">
+              <div className="group relative card-gradient-border rounded-xl sm:rounded-3xl h-full z-0">
                 {/* Card Glow Effect - Desktop Only */}
-                <div className="hidden sm:block absolute -inset-0.5 bg-gradient-to-r from-gold-400/0 via-gold-400/0 to-gold-400/0 rounded-2xl blur group-hover:from-gold-400/20 group-hover:via-gold-400/30 group-hover:to-gold-400/20 transition-all duration-500" />
+                <div className="hidden sm:block absolute -inset-0.5 bg-gradient-to-r from-gold-400/0 via-gold-400/0 to-gold-400/0 rounded-xl sm:rounded-3xl blur group-hover:from-gold-400/20 group-hover:via-gold-400/30 group-hover:to-gold-400/20 transition-all duration-500 -z-10" />
 
-                <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl sm:rounded-2xl p-4 sm:p-8 h-full hover:bg-white/10 hover:border-gold-400/30 transition-all duration-500 active:scale-[0.98] sm:active:scale-100 overflow-hidden">
+                <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl sm:rounded-3xl p-4 sm:p-8 h-full hover:bg-white/10 hover:border-gold-400/30 transition-all duration-500 active:scale-[0.98] sm:active:scale-100 overflow-hidden">
                   {/* Icon Container */}
                   <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-gold-400/15 border border-gold-400/20 flex items-center justify-center mx-auto mb-3 sm:mb-6 group-hover:bg-gold-400/28 group-hover:-translate-y-1 transition-all duration-300">
                     <reason.icon className="h-5 w-5 sm:h-8 sm:w-8 text-gold-400" />

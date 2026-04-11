@@ -38,18 +38,17 @@ export function LocationsMapSection() {
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left: Artistic Map */}
-          <AnimateOnScroll delay={100} className="relative order-2 lg:order-1 flex justify-center">
-            <div className="relative w-full max-w-[600px] aspect-square rounded-full flex items-center justify-center">
+          <AnimateOnScroll delay={100} className="relative order-2 lg:order-1 flex justify-center items-center h-full">
+            <div className="relative w-full max-w-[500px] h-[400px] sm:h-[500px] rounded-[2rem] flex items-center justify-center group overflow-hidden shadow-[0_20px_60px_-15px_rgba(16,42,67,0.4)] border border-slate-200/60 transition-transform duration-500 hover:scale-[1.02] bg-white">
               {/* Glow layers */}
-              <div className="absolute inset-0 bg-gold-400/20 blur-[100px] rounded-full pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-tr from-gold-400/10 via-transparent to-navy-900/5 mix-blend-overlay z-20 pointer-events-none" />
               
               {/* Image Map */}
               <Image 
                 src="/images/map.png"
                 alt="Germany Locations Map"
-                width={800}
-                height={800}
-                className="relative z-10 w-full h-auto object-contain filter drop-shadow-2xl"
+                fill
+                className="relative z-10 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
           </AnimateOnScroll>
@@ -59,8 +58,19 @@ export function LocationsMapSection() {
             <div className="bg-navy-900 rounded-3xl shadow-premium-lg border border-navy-800 overflow-hidden flex flex-col h-[500px]">
               <div className="p-6 sm:p-8 border-b border-navy-800 bg-navy-950/50 backdrop-blur-sm relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl" />
-                <h3 className="relative text-xl sm:text-2xl font-bold text-white mb-2">Verfügbar in ganz Deutschland</h3>
-                <p className="relative text-sm text-slate-300">Wählen Sie Ihr Bundesland aus, um lokale Händler zu finden.</p>
+                <div className="relative flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Verfügbar in ganz Deutschland</h3>
+                    <p className="text-sm text-slate-300">Wählen Sie Ihr Bundesland aus, um lokale Händler zu finden.</p>
+                  </div>
+                  <Link 
+                    href="/standorte" 
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-gold-400 hover:text-gold-300 transition-colors group whitespace-nowrap mt-1"
+                  >
+                    {t("viewAll")}
+                    <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </div>
               </div>
               
               <div className="overflow-y-auto flex-1 p-4 sm:p-6 sn-scrollbar">
@@ -92,18 +102,6 @@ export function LocationsMapSection() {
                 </div>
               </div>
             </div>
-            
-            {/* View All Button */}
-            <AnimateOnScroll delay={150} className="mt-8 text-center lg:text-left">
-              <Link
-                href="/standorte"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-semibold text-base bg-navy-900 text-white hover:bg-navy-800 shadow-lg shadow-navy-900/20 hover:shadow-[0_8px_25px_rgba(16,42,67,0.35)] transition-all group active:scale-[0.98] border border-navy-700 hover:border-gold-500 relative overflow-hidden"
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-gold-400/0 via-gold-400/20 to-gold-400/0 -translate-x-full group-hover:animate-shimmer" />
-                <span className="relative z-10">{t("viewAll")}</span>
-                <ChevronRight className="h-5 w-5 relative z-10 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </AnimateOnScroll>
           </div>
         </div>
       </div>

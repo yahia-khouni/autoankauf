@@ -47,14 +47,14 @@ export function Header() {
       "fixed top-0 left-0 right-0 z-50 w-full transition-all duration-500 ease-in-out",
       isScrolled 
         ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-slate-200/50 py-1" 
-        : "bg-navy-950/20 backdrop-blur-sm border-b border-white/10 py-3"
+        : "bg-navy-950/20 backdrop-blur-sm border-b border-white/10"
     )}>
       {/* Top Bar - Desktop Only */}
       <div className={cn(
         "hidden md:block transition-all duration-500 ease-in-out overflow-hidden origin-top",
-        isScrolled ? "max-h-0 opacity-0" : "max-h-12 opacity-100 mb-2"
+        isScrolled ? "max-h-0 opacity-0" : "max-h-12 opacity-100"
       )}>
-        <div className="bg-transparent text-white/90 py-1">
+        <div className="bg-black border-b border-white/10 text-white/90 py-1.5">
           <div className="container flex justify-between items-center text-xs font-medium tracking-wide">
             <div className="flex items-center gap-6">
               <a href="tel:+4912345678900" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
@@ -87,7 +87,7 @@ export function Header() {
       {/* Main Nav */}
       <div className={cn(
         "container flex items-center justify-between transition-all duration-500 ease-in-out",
-        isScrolled ? "h-[60px]" : "h-[70px] md:h-[80px]"
+        isScrolled ? "h-[60px]" : "h-[64px] md:h-[70px]"
       )}>
         <Link href="/" className="flex items-center gap-2 sm:gap-3 group">
           <div className={cn(

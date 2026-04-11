@@ -17,6 +17,7 @@ export function FAQSection() {
     { q: t("q3"), a: t("a3") },
     { q: t("q4"), a: t("a4") },
     { q: t("q5"), a: t("a5") },
+    { q: t("q6"), a: t("a6") },
   ];
 
   return (
@@ -26,26 +27,28 @@ export function FAQSection() {
       <div className="absolute bottom-0 left-0 w-[30rem] h-[30rem] bg-navy-900/5 rounded-full blur-[80px] pointer-events-none" />
 
       <div className="container relative px-4 sm:px-6 z-10">
-        <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-start align-top">
+        <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-stretch">
           
           {/* Left Column: Heading & Contact Card */}
-          <div className="lg:col-span-4 lg:sticky lg:top-32 space-y-8">
-            <AnimateOnScroll delay={0}>
-              <div className="inline-flex items-center gap-2 rounded-full bg-white shadow-sm border border-navy-100 px-4 py-2 mb-6">
-                <HelpCircle className="h-4 w-4 text-gold-500" />
-                <span className="text-sm font-bold text-navy-800 tracking-wide uppercase">
-                  {t("badge")}
-                </span>
+          <div className="lg:col-span-4 flex flex-col justify-between">
+            <AnimateOnScroll delay={0} className="flex flex-col h-full justify-between">
+              <div className="mb-12">
+                <div className="inline-flex items-center gap-2 rounded-full bg-white shadow-sm border border-navy-100 px-4 py-2 mb-6">
+                  <HelpCircle className="h-4 w-4 text-gold-500" />
+                  <span className="text-sm font-bold text-navy-800 tracking-wide uppercase">
+                    {t("badge")}
+                  </span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 text-navy-900 leading-tight">
+                  {t("title")}
+                </h2>
+                <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
+                  {t("subtitle")}
+                </p>
               </div>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 text-navy-900 leading-tight">
-                {t("title")}
-              </h2>
-              <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-8">
-                {t("subtitle")}
-              </p>
               
-              {/* Contact Card to fill space */}
-              <div className="bg-white rounded-2xl p-6 shadow-premium border border-slate-100">
+              {/* Contact Card pushed to bottom */}
+              <div className="bg-white rounded-2xl p-6 shadow-premium border border-slate-100 mt-auto">
                 <div className="w-12 h-12 rounded-full bg-gold-50 flex items-center justify-center mb-4">
                   <Phone className="h-6 w-6 text-gold-600" />
                 </div>
@@ -65,10 +68,10 @@ export function FAQSection() {
           </div>
 
           {/* Right Column: FAQ Accordion */}
-          <div className="lg:col-span-8">
-            <AnimateOnScroll delay={100}>
-              <div className="bg-white rounded-3xl shadow-lg border border-slate-100 overflow-hidden p-2 sm:p-4">
-                <Accordion type="single" collapsible className="w-full">
+          <div className="lg:col-span-8 h-full">
+            <AnimateOnScroll delay={100} className="h-full">
+              <div className="bg-white rounded-3xl shadow-lg border border-slate-100 overflow-hidden p-2 sm:p-4 h-full flex flex-col">
+                <Accordion type="single" collapsible className="w-full h-full flex-1">
                   {faqs.map((faq, index) => (
                     <AccordionItem
                       key={index}

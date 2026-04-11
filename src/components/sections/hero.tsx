@@ -16,8 +16,6 @@ export function HeroSection() {
       {/* Decorative Elements - Hidden on small mobile for performance */}
       <div className="hidden sm:block absolute top-20 left-10 w-72 h-72 bg-gold-500/10 rounded-full blur-3xl animate-pulse-glow" />
       <div className="hidden sm:block absolute bottom-20 right-10 w-96 h-96 bg-gold-400/5 rounded-full blur-3xl" />
-      <div className="hidden md:block absolute top-1/2 left-1/4 w-2 h-2 bg-gold-400 rounded-full animate-float" />
-      <div className="hidden md:block absolute top-1/3 right-1/3 w-3 h-3 bg-gold-300 rounded-full animate-float animation-delay-200" />
 
       <div className="container relative z-10 pb-8 sm:pb-12 lg:pb-24">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
@@ -115,32 +113,15 @@ export function HeroSection() {
                 <div className="absolute top-0 right-0 w-32 sm:w-40 h-32 sm:h-40 bg-gradient-to-br from-gold-300/50 via-gold-200/20 to-transparent rounded-bl-full opacity-100 pointer-events-none" />
 
                 <div className="relative">
-                  <div className="flex items-center gap-2 sm:gap-3 mb-2">
-                    <div className="p-1.5 sm:p-2 rounded-lg sm:rounded-xl bg-gradient-gold shadow-gold">
-                      <Banknote className="h-4 w-4 sm:h-5 sm:w-5 text-navy-900" />
-                    </div>
-                    <h2 className="text-lg sm:text-xl font-bold text-navy-900">
+                  <div className="mb-2">
+                    <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">
                       {t("formTitle")}
                     </h2>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-500 mb-4 sm:mb-6 pl-9 sm:pl-12">
+                  <p className="text-sm sm:text-base text-slate-500 mb-4 sm:mb-6">
                     {t("formSubtitle")}
                   </p>
                   <LeadForm />
-                  <div className="flex items-center justify-center gap-3 mt-6 pt-5 border-t border-slate-100/60">
-                    <div className="flex items-center gap-0.5">
-                      {[...Array(5)].map((_, i) => (
-                        <Star
-                          key={i}
-                          className="h-3.5 w-3.5 fill-gold-400 text-gold-400 animate-star-pop"
-                          style={{ animationDelay: `${i * 80}ms` }}
-                        />
-                      ))}
-                    </div>
-                    <span className="text-xs text-slate-500 font-medium">
-                      4.9 · 500+ {t("statsRating")}
-                    </span>
-                  </div>
                 </div>
               </div>
             </div>
