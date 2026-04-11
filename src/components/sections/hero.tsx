@@ -43,9 +43,6 @@ export function HeroSection() {
                   />
                 </span>
               </h1>
-              <p className="text-xl sm:text-2xl md:text-3xl font-light text-gold-gradient">
-                {t("subtitle")}
-              </p>
             </div>
 
             <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-lg mx-auto lg:mx-0 leading-relaxed animate-fade-in-up animation-delay-200">
