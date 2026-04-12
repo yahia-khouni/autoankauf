@@ -207,123 +207,145 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu - Premium Full Screen Overlay */}
+      {/* Mobile Menu Panel */}
       <div className={cn(
-        "xl:hidden fixed inset-0 z-50 transition-all duration-[800ms]",
+        "xl:hidden fixed inset-0 z-50",
         isOpen ? "visible" : "invisible pointer-events-none"
       )}>
         {/* Backdrop */}
-        <div 
+        <div
           className={cn(
-            "absolute inset-0 bg-navy-950/80 backdrop-blur-[4px] transition-opacity duration-[800ms]",
+            "absolute inset-0 bg-navy-950/70 backdrop-blur-sm transition-opacity duration-500",
             isOpen ? "opacity-100" : "opacity-0"
           )}
           onClick={() => setIsOpen(false)}
         />
-        
-        {/* Menu Panel */}
+
+        {/* Panel */}
         <div className={cn(
-          "absolute right-0 top-0 flex h-[100dvh] w-[80vw] max-w-[400px] flex-col shadow-2xl transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] overflow-hidden z-50",
+          "absolute right-0 top-0 flex h-[100dvh] w-[82vw] max-w-[380px] flex-col overflow-hidden z-50",
+          "transition-transform duration-500 ease-[cubic-bezier(0.32,0,0.08,1)]",
           isOpen ? "translate-x-0" : "translate-x-full"
         )}>
-          {/* Background exactly matching hero section */}
-          <div className="absolute inset-0 bg-navy-900 z-[-2]" />
-          <div className="absolute inset-0 gradient-hero z-[-1]" />
-          <div className="absolute inset-0 bg-hero-pattern opacity-50 z-[-1]" />
+          {/* Base background */}
+          <div className="absolute inset-0 bg-[#0d1f31] z-[-2]" />
+          <div className="absolute inset-0 bg-hero-pattern opacity-30 z-[-1]" />
+          {/* Subtle gold orb */}
+          <div className="absolute top-0 right-0 w-64 h-64 bg-gold-400/8 rounded-full blur-3xl pointer-events-none z-[-1]" />
 
-          {/* Header */}
-          <div className="flex items-center justify-between p-6 pt-safe border-b border-white/10 shrink-0">
+          {/* Panel header */}
+          <div className="flex items-center justify-between px-6 py-5 border-b border-white/8 shrink-0">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-gold flex items-center justify-center shadow-gold">
-                <span className="text-lg font-bold text-navy-900">A</span>
+              <div className="w-9 h-9 rounded-xl bg-gradient-gold flex items-center justify-center shadow-gold">
+                <span className="text-base font-black text-navy-900">A</span>
               </div>
-              <span className="text-xl font-black text-white tracking-tight">Autoankauf</span>
+              <div>
+                <span className="text-lg font-black text-white tracking-tight leading-none block">Autoankauf</span>
+                <span className="text-[10px] font-semibold text-gold-400 uppercase tracking-widest">Deutschland</span>
+              </div>
             </div>
-            <button 
+            <button
               onClick={() => setIsOpen(false)}
-              className="p-2 -mr-2 rounded-full hover:bg-white/5 active:scale-95 transition-all text-white/70 hover:text-white"
+              className="w-8 h-8 rounded-full bg-white/6 hover:bg-white/12 border border-white/10 flex items-center justify-center text-white/60 hover:text-white transition-all active:scale-95"
+              aria-label="Close menu"
             >
-              <X className="h-6 w-6" />
+              <X className="h-4 w-4" />
             </button>
           </div>
-          
-          {/* Scrollable Content Container */}
-          <div className="flex-1 overflow-y-auto flex flex-col pt-4 pb-24 space-y-6 shrink-0 min-h-0">
-            {/* Navigation Links */}
-            <nav className="px-4 space-y-1">
+
+          {/* Scrollable content */}
+          <div className="flex-1 overflow-y-auto flex flex-col min-h-0">
+
+            {/* Nav label */}
+            <p className="px-6 pt-6 pb-2 text-[10px] font-black text-white/25 uppercase tracking-[0.18em]">Navigation</p>
+
+            {/* Nav links */}
+            <nav className="px-3 space-y-0.5">
               {navItems.map((item, index) => (
                 <Link
                   key={item.href}
                   href={getLocalizedHref(item.href)}
-                  className="group flex items-center justify-between py-4 px-4 rounded-2xl hover:bg-white/5 text-white/90 hover:text-white transition-all duration-300 active:scale-[0.98]"
+                  className="group flex items-center justify-between py-3.5 px-4 rounded-xl text-white/80 hover:text-white hover:bg-white/6 transition-all duration-200 active:scale-[0.98]"
                   onClick={() => setIsOpen(false)}
-                  style={{ 
-                    transitionDelay: `${isOpen ? 400 + index * 250 : 0}ms`,
-                    transform: isOpen ? "translateY(0)" : "translateY(24px)",
+                  style={{
+                    transitionDelay: `${isOpen ? 80 + index * 45 : 0}ms`,
                     opacity: isOpen ? 1 : 0,
-                    transition: "all 1000ms cubic-bezier(0.16,1,0.3,1)"
+                    transform: isOpen ? "translateX(0)" : "translateX(12px)",
+                    transition: "opacity 450ms cubic-bezier(0.32,0,0.08,1), transform 450ms cubic-bezier(0.32,0,0.08,1)",
                   }}
                 >
-                  <span className="text-xl font-medium tracking-wide block">{item.label}</span>
-                  <ChevronRight className="h-5 w-5 text-white/30 group-hover:text-gold-500 group-hover:translate-x-2 transition-all duration-[400ms]" />
+                  <div className="flex items-center gap-3">
+                    <span className="w-5 h-5 rounded-md bg-white/6 flex items-center justify-center text-[9px] font-black text-white/30">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <span className="text-[15px] font-semibold tracking-wide">{item.label}</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-white/20 group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all duration-200" />
                 </Link>
               ))}
             </nav>
 
-            <div className="h-px bg-white/10 mx-8 flex-none shrink-0" />
+            {/* Divider */}
+            <div className="mx-6 my-5 h-px bg-white/6" />
 
-            {/* Contact Info Block */}
-            <div className="px-6 space-y-2">
-              <a 
-                href="tel:+49123456789" 
-                className="flex items-center gap-4 py-3 px-4 rounded-xl hover:bg-white/5 text-white/80 hover:text-white transition-all active:scale-[0.98]"
-                style={{
-                  transitionDelay: `${isOpen ? 400 + navItems.length * 250 + 150 : 0}ms`,
-                  transform: isOpen ? "translateY(0)" : "translateY(24px)",
-                  opacity: isOpen ? 1 : 0,
-                  transition: "all 1000ms cubic-bezier(0.16,1,0.3,1)"
-                }}
+            {/* Contact section */}
+            <p className="px-6 pb-2 text-[10px] font-black text-white/25 uppercase tracking-[0.18em]">Kontakt</p>
+
+            <div className="px-3 space-y-0.5"
+              style={{
+                transitionDelay: `${isOpen ? 80 + navItems.length * 45 + 60 : 0}ms`,
+                opacity: isOpen ? 1 : 0,
+                transform: isOpen ? "translateX(0)" : "translateX(12px)",
+                transition: "opacity 450ms cubic-bezier(0.32,0,0.08,1), transform 450ms cubic-bezier(0.32,0,0.08,1)",
+              }}
+            >
+              <a
+                href="tel:+49123456789"
+                className="group flex items-center gap-3.5 py-3.5 px-4 rounded-xl hover:bg-white/6 text-white/75 hover:text-white transition-all active:scale-[0.98]"
               >
-                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-gold-400">
-                  <Phone className="h-5 w-5" />
+                <div className="w-9 h-9 rounded-xl bg-white/6 border border-white/8 flex items-center justify-center text-gold-400 flex-shrink-0">
+                  <Phone className="h-4 w-4" />
                 </div>
-                <span className="text-lg font-medium">+49 (0) 123 456 789</span>
+                <div>
+                  <p className="text-[10px] font-bold text-white/30 uppercase tracking-wider">Telefon</p>
+                  <p className="text-sm font-semibold text-white/85">+49 (0) 123 456 789</p>
+                </div>
               </a>
-              
-              <a 
-                href="https://wa.me/49123456789" 
+
+              <a
+                href="https://wa.me/49123456789"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 py-3 px-4 rounded-xl hover:bg-white/5 text-white/80 hover:text-white transition-all active:scale-[0.98]"
-                style={{
-                  transitionDelay: `${isOpen ? 400 + navItems.length * 250 + 400 : 0}ms`,
-                  transform: isOpen ? "translateY(0)" : "translateY(24px)",
-                  opacity: isOpen ? 1 : 0,
-                  transition: "all 1000ms cubic-bezier(0.16,1,0.3,1)"
-                }}
+                className="group flex items-center gap-3.5 py-3.5 px-4 rounded-xl hover:bg-white/6 text-white/75 hover:text-white transition-all active:scale-[0.98]"
               >
-                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-[#25D366]/20 text-[#25D366]">
-                  <MessageCircle className="h-5 w-5" />
+                <div className="w-9 h-9 rounded-xl bg-[#25D366]/15 border border-[#25D366]/20 flex items-center justify-center text-[#25D366] flex-shrink-0">
+                  <MessageCircle className="h-4 w-4" />
                 </div>
-                <span className="text-lg font-medium">WhatsApp Support</span>
+                <div>
+                  <p className="text-[10px] font-bold text-white/30 uppercase tracking-wider">WhatsApp</p>
+                  <p className="text-sm font-semibold text-white/85">Support verfügbar</p>
+                </div>
               </a>
             </div>
           </div>
 
-          {/* CTA Button Fixed at Bottom */}
-          <div className="p-6 pt-0 mt-auto shrink-0 bg-transparent" style={{
-                transitionDelay: `${isOpen ? 400 + navItems.length * 250 + 650 : 0}ms`,
-                transform: isOpen ? "translateY(0)" : "translateY(24px)",
-                opacity: isOpen ? 1 : 0,
-                transition: "all 1000ms cubic-bezier(0.16,1,0.3,1)"
-              }}>
+          {/* CTA footer */}
+          <div
+            className="p-4 border-t border-white/8 shrink-0"
+            style={{
+              transitionDelay: `${isOpen ? 80 + navItems.length * 45 + 160 : 0}ms`,
+              opacity: isOpen ? 1 : 0,
+              transform: isOpen ? "translateY(0)" : "translateY(10px)",
+              transition: "opacity 450ms cubic-bezier(0.32,0,0.08,1), transform 450ms cubic-bezier(0.32,0,0.08,1)",
+            }}
+          >
             <Link
               href={leadFormHref}
               onClick={() => setIsOpen(false)}
-              className="flex items-center justify-center gap-2 w-full px-6 py-4 rounded-full font-bold text-navy-900 bg-gradient-gold hover:shadow-gold-lg transition-all duration-300 active:scale-[0.98]"
+              className="group flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl font-bold text-navy-900 bg-gradient-gold hover:shadow-gold transition-all duration-300 active:scale-[0.98]"
             >
               {tHero("cta")}
-              <ArrowRight className="h-5 w-5" />
+              <ArrowRight className="h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
         </div>
