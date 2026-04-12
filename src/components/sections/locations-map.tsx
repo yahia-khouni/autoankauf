@@ -38,7 +38,7 @@ export function LocationsMapSection() {
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left: Artistic Map */}
-          <AnimateOnScroll delay={100} className="relative order-2 lg:order-1 flex justify-center items-center h-full">
+          <AnimateOnScroll delay={100} className="relative order-1 lg:order-1 flex justify-center items-center h-full">
             <div className="relative w-full max-w-[500px] h-[400px] sm:h-[500px] rounded-[2rem] flex items-center justify-center group overflow-hidden shadow-[0_20px_60px_-15px_rgba(16,42,67,0.4)] border border-slate-200/60 transition-transform duration-500 hover:scale-[1.02] bg-white">
               {/* Glow layers */}
               <div className="absolute inset-0 bg-gradient-to-tr from-gold-400/10 via-transparent to-navy-900/5 mix-blend-overlay z-20 pointer-events-none" />
@@ -54,7 +54,7 @@ export function LocationsMapSection() {
           </AnimateOnScroll>
 
           {/* Right: Scrollable Location List */}
-          <div className="order-1 lg:order-2 flex flex-col h-full">
+          <div className="order-2 lg:order-2 flex flex-col h-full">
             <div className="bg-navy-900 rounded-3xl shadow-premium-lg border border-navy-800 overflow-hidden flex flex-col h-[500px]">
               <div className="p-6 sm:p-8 border-b border-navy-800 bg-navy-950/50 backdrop-blur-sm relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl" />

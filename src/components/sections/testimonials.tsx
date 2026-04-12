@@ -97,23 +97,18 @@ export function TestimonialsSection() {
           </div>
         </div>
 
-        {/* Mobile: Horizontal Scroll */}
-        <div className="flex sm:hidden gap-4 overflow-x-auto pb-4 -mx-4 px-4 snap-x snap-mandatory scrollbar-hide">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="flex-shrink-0 w-[85vw] max-w-[320px] snap-center testimonial-card"
-            >
-              <TestimonialCard testimonial={testimonial} compact />
-            </div>
-          ))}
-        </div>
-
-        {/* Mobile Scroll Dots */}
-        <div className="flex sm:hidden justify-center gap-2 mt-4">
-          {testimonials.map((_, index) => (
-            <div key={index} className="w-2 h-2 rounded-full bg-slate-300" />
-          ))}
+        {/* Mobile: Animated Marquee */}
+        <div className="sm:hidden overflow-hidden w-full -mx-4 px-4 pb-4">
+          <div className="flex gap-4 animate-marquee testimonials-track cursor-default" style={{ animationDuration: '20s' }}>
+            {allTestimonials.map((testimonial, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 w-[85vw] max-w-[320px] testimonial-card"
+              >
+                <TestimonialCard testimonial={testimonial} compact />
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Trust Indicator */}

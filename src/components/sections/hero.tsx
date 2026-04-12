@@ -8,7 +8,7 @@ export function HeroSection() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative min-h-[100svh] lg:min-h-[90vh] overflow-hidden pt-32 sm:pt-40">
+    <section className="relative overflow-hidden pt-24 sm:pt-28 lg:pt-36 lg:min-h-[90vh]">
       {/* Premium Background */}
       <div className="absolute inset-0 gradient-hero" />
       <div className="absolute inset-0 bg-hero-pattern opacity-50" />
@@ -17,8 +17,8 @@ export function HeroSection() {
       <div className="hidden sm:block absolute top-20 left-10 w-72 h-72 bg-gold-500/10 rounded-full blur-3xl animate-pulse-glow" />
       <div className="hidden sm:block absolute bottom-20 right-10 w-96 h-96 bg-gold-400/5 rounded-full blur-3xl" />
 
-      <div className="container relative z-10 pb-8 sm:pb-12 lg:pb-24">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+      <div className="container relative z-10 pb-8 sm:pb-10 lg:pb-20">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-14 items-center">
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8 text-white text-center lg:text-left">
             {/* Premium Badge */}
@@ -95,27 +95,27 @@ export function HeroSection() {
           {/* Form Card */}
           <div
             id="lead-form"
-            className="relative lg:pl-8 lg:max-w-[500px] lg:justify-self-end w-full animate-fade-in-up animation-delay-200 scroll-mt-20"
+            className="relative lg:pl-6 lg:max-w-[480px] lg:justify-self-end w-full animate-fade-in-up animation-delay-200 scroll-mt-20"
           >
             {/* Ambient spotlight */}
-            <div className="absolute -inset-10 bg-gold-400/20 blur-3xl rounded-full pointer-events-none -z-10" />
+            <div className="absolute -inset-8 sm:-inset-10 bg-gold-400/20 blur-3xl rounded-full pointer-events-none -z-10" />
 
             <div className="relative">
               {/* Glow Effect - Reduced on mobile */}
               <div className="absolute -inset-1 bg-gradient-gold rounded-2xl sm:rounded-3xl blur-2xl opacity-40 animate-pulse-glow" />
 
               {/* Form Container */}
-              <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-premium-lg border border-slate-200/60 p-4 sm:p-5 lg:p-7 overflow-hidden">
+              <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-premium-lg border border-slate-200/60 p-3 sm:p-4 lg:p-6 overflow-hidden">
                 {/* Decorative Corner */}
                 <div className="absolute top-0 right-0 w-32 sm:w-40 h-32 sm:h-40 bg-gradient-to-br from-gold-300/50 via-gold-200/20 to-transparent rounded-bl-full opacity-100 pointer-events-none" />
 
                 <div className="relative">
                   <div className="mb-2">
-                    <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-navy-900">
                       {t("formTitle")}
                     </h2>
                   </div>
-                  <p className="text-sm sm:text-base text-slate-500 mb-4 sm:mb-6">
+                  <p className="text-sm sm:text-base text-slate-500 mb-3 sm:mb-4">
                     {t("formSubtitle")}
                   </p>
                   <LeadForm />
