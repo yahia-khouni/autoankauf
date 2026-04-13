@@ -17,7 +17,7 @@ export function HeroSection() {
       <div className="hidden sm:block absolute top-20 left-10 w-72 h-72 bg-gold-500/10 rounded-full blur-3xl animate-pulse-glow" />
       <div className="hidden sm:block absolute bottom-20 right-10 w-96 h-96 bg-gold-400/5 rounded-full blur-3xl" />
 
-      <div className="container relative z-10 pb-8 sm:pb-10 lg:pb-20">
+      <div className="container relative z-10 pb-12 sm:pb-10 lg:pb-20">
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-14 items-center">
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8 text-white text-center lg:text-left">
@@ -95,7 +95,7 @@ export function HeroSection() {
           {/* Form Card */}
           <div
             id="lead-form"
-            className="relative lg:pl-6 lg:max-w-[480px] lg:justify-self-end w-full animate-fade-in-up animation-delay-200 scroll-mt-20"
+            className="relative lg:pl-6 lg:max-w-[480px] lg:justify-self-end w-full animate-fade-in-up animation-delay-200 scroll-mt-20 mt-4 sm:mt-6 lg:mt-0"
           >
             {/* Ambient spotlight */}
             <div className="absolute -inset-8 sm:-inset-10 bg-gold-400/20 blur-3xl rounded-full pointer-events-none -z-10" />

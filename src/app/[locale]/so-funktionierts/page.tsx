@@ -12,10 +12,10 @@ import {
 import {
   ClipboardList, MessageSquare, Handshake, CreditCard,
   Search, FileText, ShieldCheck, Banknote,
-  CheckCircle, Star, Shield, Zap, ArrowRight, Phone,
-  Car, Clock, Award, MapPin, ChevronDown, Sparkles,
-  Users, TrendingUp, Lock, CircleDot, Gauge,
-  ChevronRight, HelpCircle,
+  CheckCircle, Shield, Zap, ArrowRight, Phone,
+  Car, Clock, Award, MapPin, Sparkles, Star,
+  Users, TrendingUp, Lock, CircleDot,
+  HelpCircle, XCircle, ThumbsUp,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -82,24 +82,172 @@ function CountUp({ value, suffix = "" }: { value: string; suffix?: string }) {
 }
 
 /* ══════════════════════════════════════════════
+   COMPARISON — modern split-table design
+   ══════════════════════════════════════════════ */
+type TFn = ReturnType<typeof useTranslations>;
+
+/* Animated row — slides + fades in when visible */
+function CompRow({
+  icon: Icon, label, trad, us, delay,
+}: { icon: React.ElementType; label: string; trad: string; us: string; delay: number }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [v, setV] = useState(false);
+  useEffect(() => {
+    const el = ref.current; if (!el) return;
+    const obs = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) { setTimeout(() => setV(true), delay); obs.disconnect(); }
+    }, { threshold: 0.15 });
+    obs.observe(el); return () => obs.disconnect();
+  }, [delay]);
+
+  return (
+    <div
+      ref={ref}
+      className="grid grid-cols-[1fr_auto_1fr] sm:grid-cols-[1fr_180px_1fr] items-center gap-3 sm:gap-4 py-4 border-b border-slate-100 last:border-0 transition-all duration-700"
+      style={{ opacity: v ? 1 : 0, transform: v ? "none" : "translateY(18px)" }}
+    >
+      {/* Traditional column */}
+      <div className="flex items-center gap-2 min-w-0">
+        <div className="w-5 h-5 flex-shrink-0 rounded-full bg-red-50 border border-red-100 flex items-center justify-center">
+          <XCircle className="h-3 w-3 text-red-400" />
+        </div>
+        <span className="text-xs sm:text-sm text-slate-400 line-through leading-snug">{trad}</span>
+      </div>
+
+      {/* Center label */}
+      <div className="flex flex-col items-center gap-1.5 px-1">
+        <div className="w-8 h-8 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center">
+          <Icon className="h-4 w-4 text-navy-500" />
+        </div>
+        <p className="text-[10px] sm:text-xs font-bold text-navy-700 text-center uppercase tracking-wide leading-tight">{label}</p>
+      </div>
+
+      {/* autoankauf column */}
+      <div className="flex items-center justify-end gap-2 min-w-0">
+        <span className="text-xs sm:text-sm font-bold text-navy-800 text-right leading-snug">{us}</span>
+        <div className="w-5 h-5 flex-shrink-0 rounded-full bg-gold-50 border border-gold-200 flex items-center justify-center">
+          <CheckCircle className="h-3 w-3 text-gold-500" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ComparisonSection({ t }: { t: TFn }) {
+  const rows = [
+    { icon: Clock, label: t("cmpRow1Label"), trad: t("cmpRow1Trad"), us: t("cmpRow1Us") },
+    { icon: Car, label: t("cmpRow2Label"), trad: t("cmpRow2Trad"), us: t("cmpRow2Us") },
+    { icon: ThumbsUp, label: t("cmpRow3Label"), trad: t("cmpRow3Trad"), us: t("cmpRow3Us") },
+    { icon: Shield, label: t("cmpRow4Label"), trad: t("cmpRow4Trad"), us: t("cmpRow4Us") },
+    { icon: FileText, label: t("cmpRow5Label"), trad: t("cmpRow5Trad"), us: t("cmpRow5Us") },
+    { icon: Zap, label: t("cmpRow6Label"), trad: t("cmpRow6Trad"), us: t("cmpRow6Us") },
+  ];
+
+  return (
+    <section className="py-16 sm:py-24 bg-slate-50 relative overflow-hidden">
+      {/* Ambient blobs */}
+      <div className="absolute top-0 right-0 w-[36rem] h-[36rem] bg-gold-400/[0.06] rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[28rem] h-[28rem] bg-navy-900/[0.03] rounded-full blur-[80px] pointer-events-none" />
+
+      <div className="container relative z-10 px-4 sm:px-6 max-w-5xl mx-auto">
+
+        {/* Header */}
+        <Reveal delay={0} className="text-center mb-12 sm:mb-16">
+          <div className="inline-flex items-center gap-2 rounded-full bg-white border border-slate-200 shadow-sm px-4 py-1.5 mb-5">
+            <TrendingUp className="h-3.5 w-3.5 text-gold-500" />
+            <span className="text-xs font-black text-navy-700 uppercase tracking-[0.12em]">{t("cmpBadge")}</span>
+          </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-navy-900 tracking-tight mb-3">
+            {(() => {
+              const title = t("cmpTitle");
+              const hl = "autoankauf.de";
+              const idx = title.indexOf(hl);
+              if (idx === -1) return title;
+              return (<>{title.slice(0, idx)}<span className="text-gold-gradient">{hl}</span>{title.slice(idx + hl.length)}</>);
+            })()}
+          </h2>
+          <p className="text-slate-500 text-sm sm:text-base max-w-xl mx-auto">{t("cmpSubtitle")}</p>
+        </Reveal>
+
+        {/* Main comparison card */}
+        <Reveal delay={60}>
+          <div className="bg-white rounded-3xl border border-slate-100 shadow-[0_4px_40px_rgba(10,25,41,0.07)] overflow-hidden">
+
+            {/* Column headers */}
+            <div className="grid grid-cols-[1fr_auto_1fr] sm:grid-cols-[1fr_180px_1fr] px-6 sm:px-10 py-4 bg-slate-50 border-b border-slate-100">
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-red-300 flex-shrink-0" />
+                <span className="text-xs font-black text-slate-500 uppercase tracking-widest">{t("cmpColTrad")}</span>
+              </div>
+              <div className="flex items-center justify-center">
+                <span className="text-[10px] text-slate-300 uppercase tracking-widest">vs</span>
+              </div>
+              <div className="flex items-center justify-end gap-2">
+                <span className="text-xs font-black text-navy-700 uppercase tracking-widest">{t("cmpColUs")}</span>
+                <span className="w-2 h-2 rounded-full bg-gold-400 flex-shrink-0" />
+              </div>
+            </div>
+
+            {/* Comparison rows */}
+            <div className="px-6 sm:px-10">
+              {rows.map((row, i) => (
+                <CompRow key={i} icon={row.icon} label={row.label} trad={row.trad} us={row.us} delay={i * 100} />
+              ))}
+            </div>
+
+            {/* Bottom CTA strip */}
+            <div className="relative overflow-hidden bg-gradient-to-br from-navy-900 to-navy-950 px-6 sm:px-10 py-6 sm:py-8 mt-0">
+              {/* Glow */}
+              <div className="absolute top-0 right-0 w-48 h-48 bg-gold-400/15 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gold-400/10 rounded-full blur-2xl pointer-events-none" />
+
+              <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-5">
+                <div className="flex flex-col gap-2 text-center sm:text-left">
+                  <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-2">
+                    {[t("cmpRow1Us"), t("cmpRow4Us"), t("cmpRow6Us")].map((feat, i) => (
+                      <span key={i} className="flex items-center gap-1.5 text-xs text-slate-300">
+                        <CheckCircle className="h-3.5 w-3.5 text-gold-400 flex-shrink-0" />
+                        {feat}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <a
+                  href="/#lead-form"
+                  className="group relative flex-shrink-0 flex items-center gap-3 bg-gradient-gold text-navy-900 font-bold rounded-xl px-7 py-3.5 text-sm hover:shadow-[0_4px_24px_rgba(251,191,36,0.45)] transition-all duration-300 active:scale-[0.98] overflow-hidden"
+                >
+                  <div className="absolute inset-0 bg-gradient-gold-shine bg-[length:200%_100%] animate-shine opacity-30" />
+                  <span className="relative">{t("cmpCtaBtn")}</span>
+                  <ArrowRight className="relative h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+      </div>
+    </section>
+  );
+}
+
+/* ══════════════════════════════════════════════
    PAGE
    ══════════════════════════════════════════════ */
 export default function SoFunktioniertsPage() {
   const t = useTranslations("soFunktionierts");
   const [tab, setTab] = useState<"seller" | "buyer">("seller");
-  const [activeStep, setActiveStep] = useState(0);
 
   const sellerSteps = [
     { icon: ClipboardList, num: "01", title: t("sellerStep1Title"), sub: t("sellerStep1Sub"), desc: t("sellerStep1Desc"), details: [t("sellerStep1D1"), t("sellerStep1D2"), t("sellerStep1D3"), t("sellerStep1D4")] },
     { icon: MessageSquare, num: "02", title: t("sellerStep2Title"), sub: t("sellerStep2Sub"), desc: t("sellerStep2Desc"), details: [t("sellerStep2D1"), t("sellerStep2D2"), t("sellerStep2D3"), t("sellerStep2D4")] },
-    { icon: Handshake,     num: "03", title: t("sellerStep3Title"), sub: t("sellerStep3Sub"), desc: t("sellerStep3Desc"), details: [t("sellerStep3D1"), t("sellerStep3D2"), t("sellerStep3D3"), t("sellerStep3D4")] },
-    { icon: CreditCard,    num: "04", title: t("sellerStep4Title"), sub: t("sellerStep4Sub"), desc: t("sellerStep4Desc"), details: [t("sellerStep4D1"), t("sellerStep4D2"), t("sellerStep4D3"), t("sellerStep4D4")] },
+    { icon: Handshake, num: "03", title: t("sellerStep3Title"), sub: t("sellerStep3Sub"), desc: t("sellerStep3Desc"), details: [t("sellerStep3D1"), t("sellerStep3D2"), t("sellerStep3D3"), t("sellerStep3D4")] },
+    { icon: CreditCard, num: "04", title: t("sellerStep4Title"), sub: t("sellerStep4Sub"), desc: t("sellerStep4Desc"), details: [t("sellerStep4D1"), t("sellerStep4D2"), t("sellerStep4D3"), t("sellerStep4D4")] },
   ];
   const buyerSteps = [
-    { icon: Search,      num: "01", title: t("buyerStep1Title"), sub: t("buyerStep1Sub"), desc: t("buyerStep1Desc"), details: [t("buyerStep1D1"), t("buyerStep1D2"), t("buyerStep1D3"), t("buyerStep1D4")] },
-    { icon: FileText,    num: "02", title: t("buyerStep2Title"), sub: t("buyerStep2Sub"), desc: t("buyerStep2Desc"), details: [t("buyerStep2D1"), t("buyerStep2D2"), t("buyerStep2D3"), t("buyerStep2D4")] },
+    { icon: Search, num: "01", title: t("buyerStep1Title"), sub: t("buyerStep1Sub"), desc: t("buyerStep1Desc"), details: [t("buyerStep1D1"), t("buyerStep1D2"), t("buyerStep1D3"), t("buyerStep1D4")] },
+    { icon: FileText, num: "02", title: t("buyerStep2Title"), sub: t("buyerStep2Sub"), desc: t("buyerStep2Desc"), details: [t("buyerStep2D1"), t("buyerStep2D2"), t("buyerStep2D3"), t("buyerStep2D4")] },
     { icon: ShieldCheck, num: "03", title: t("buyerStep3Title"), sub: t("buyerStep3Sub"), desc: t("buyerStep3Desc"), details: [t("buyerStep3D1"), t("buyerStep3D2"), t("buyerStep3D3"), t("buyerStep3D4")] },
-    { icon: Banknote,    num: "04", title: t("buyerStep4Title"), sub: t("buyerStep4Sub"), desc: t("buyerStep4Desc"), details: [t("buyerStep4D1"), t("buyerStep4D2"), t("buyerStep4D3"), t("buyerStep4D4")] },
+    { icon: Banknote, num: "04", title: t("buyerStep4Title"), sub: t("buyerStep4Sub"), desc: t("buyerStep4Desc"), details: [t("buyerStep4D1"), t("buyerStep4D2"), t("buyerStep4D3"), t("buyerStep4D4")] },
   ];
 
   const handleTabChange = useCallback((newTab: "seller" | "buyer") => {
@@ -110,24 +258,18 @@ export default function SoFunktioniertsPage() {
 
   const stats = [
     { val: "5000", suffix: "+", label: t("stat1Label"), icon: Users },
-    { val: "4.9",  suffix: "★", label: t("stat2Label"), icon: Star  },
-    { val: "24",   suffix: "h", label: t("stat3Label"), icon: Clock },
-    { val: "100",  suffix: "%", label: t("stat4Label"), icon: Shield },
+    { val: "4.9", suffix: "★", label: t("stat2Label"), icon: Star },
+    { val: "24", suffix: "h", label: t("stat3Label"), icon: Clock },
+    { val: "100", suffix: "%", label: t("stat4Label"), icon: Shield },
   ];
 
   const advantages = [
-    { icon: Zap,        title: t("adv1Title"), desc: t("adv1Desc") },
-    { icon: Shield,     title: t("adv2Title"), desc: t("adv2Desc") },
+    { icon: Zap, title: t("adv1Title"), desc: t("adv1Desc") },
+    { icon: Shield, title: t("adv2Title"), desc: t("adv2Desc") },
     { icon: TrendingUp, title: t("adv3Title"), desc: t("adv3Desc") },
-    { icon: MapPin,     title: t("adv4Title"), desc: t("adv4Desc") },
-    { icon: Award,      title: t("adv5Title"), desc: t("adv5Desc") },
-    { icon: Lock,       title: t("adv6Title"), desc: t("adv6Desc") },
-  ];
-
-  const reviews = [
-    { name: t("r1Name"), loc: t("r1Loc"), car: t("r1Car"), role: t("r1Role"), text: t("r1Text"), stars: 5 },
-    { name: t("r2Name"), loc: t("r2Loc"), car: t("r2Car"), role: t("r2Role"), text: t("r2Text"), stars: 5 },
-    { name: t("r3Name"), loc: t("r3Loc"), car: t("r3Car"), role: t("r3Role"), text: t("r3Text"), stars: 5 },
+    { icon: MapPin, title: t("adv4Title"), desc: t("adv4Desc") },
+    { icon: Award, title: t("adv5Title"), desc: t("adv5Desc") },
+    { icon: Lock, title: t("adv6Title"), desc: t("adv6Desc") },
   ];
 
   const faqs = [
@@ -140,8 +282,8 @@ export default function SoFunktioniertsPage() {
   const tlItems = [
     { icon: ClipboardList, time: t("tl1Time"), title: t("tl1Title"), desc: t("tl1Desc") },
     { icon: MessageSquare, time: t("tl2Time"), title: t("tl2Title"), desc: t("tl2Desc") },
-    { icon: Handshake,     time: t("tl3Time"), title: t("tl3Title"), desc: t("tl3Desc") },
-    { icon: CreditCard,    time: t("tl4Time"), title: t("tl4Title"), desc: t("tl4Desc") },
+    { icon: Handshake, time: t("tl3Time"), title: t("tl3Title"), desc: t("tl3Desc") },
+    { icon: CreditCard, time: t("tl4Time"), title: t("tl4Title"), desc: t("tl4Desc") },
   ];
 
   /* ════════════════════════════════════════════════
@@ -159,12 +301,6 @@ export default function SoFunktioniertsPage() {
         <div className="absolute bottom-16 left-10 w-64 h-64 bg-gold-500/8 rounded-full blur-3xl animate-pulse-glow pointer-events-none" />
         <div className="absolute -bottom-10 right-0 w-80 h-80 bg-gold-400/6 rounded-full blur-[80px] pointer-events-none" />
 
-        {/* Diagonal bottom wedge */}
-        <div className="absolute bottom-0 left-0 right-0 overflow-hidden pointer-events-none">
-          <svg viewBox="0 0 1440 80" preserveAspectRatio="none" className="w-full h-14 sm:h-20 fill-white">
-            <polygon points="0,80 1440,10 1440,80" />
-          </svg>
-        </div>
 
         <div className="container relative z-10 px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
@@ -202,7 +338,7 @@ export default function SoFunktioniertsPage() {
               <div className="inline-flex items-center p-1 rounded-2xl bg-white/8 backdrop-blur-md border border-white/15 gap-1">
                 {[
                   { key: "seller" as const, icon: Car, label: t("tabSell") },
-                  { key: "buyer"  as const, icon: Search, label: t("tabBuy") },
+                  { key: "buyer" as const, icon: Search, label: t("tabBuy") },
                 ].map(({ key, icon: Icon, label }) => (
                   <button
                     key={key}
@@ -392,8 +528,8 @@ export default function SoFunktioniertsPage() {
                   <div className={cn(
                     "h-1 w-full bg-gradient-to-r transition-all duration-500",
                     i % 3 === 0 ? "from-gold-400 to-gold-300" :
-                    i % 3 === 1 ? "from-navy-700 to-navy-500" :
-                    "from-gold-300 to-gold-500"
+                      i % 3 === 1 ? "from-navy-700 to-navy-500" :
+                        "from-gold-300 to-gold-500"
                   )} />
 
                   <div className="p-6 sm:p-8">
@@ -416,64 +552,8 @@ export default function SoFunktioniertsPage() {
         </div>
       </section>
 
-      {/* ─── ⑥ REVIEWS — minimal cards ────────────────── */}
-      <section className="py-16 sm:py-24 bg-white relative overflow-hidden">
-        <div className="absolute top-1/4 -right-20 w-[32rem] h-[32rem] bg-gold-400/[0.05] rounded-full blur-[80px] pointer-events-none" />
-
-        <div className="container relative z-10 px-4 sm:px-6">
-          <Reveal delay={0} className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 rounded-full bg-gold-50 border border-gold-200 px-4 py-1.5 mb-4">
-              <div className="flex gap-0.5">
-                {[...Array(5)].map((_, k) => <Star key={k} className="h-3.5 w-3.5 fill-gold-400 text-gold-400" />)}
-              </div>
-              <span className="text-xs font-bold text-gold-700">{t("reviewsBadge")}</span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-navy-900 tracking-tight mb-3">{t("reviewsTitle")}</h2>
-            <p className="text-slate-500 text-sm sm:text-base max-w-xl mx-auto">{t("reviewsSubtitle")}</p>
-          </Reveal>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-6 max-w-5xl mx-auto">
-            {reviews.map((r, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className={cn(
-                  "group relative flex flex-col bg-white border border-slate-100 rounded-3xl p-6 sm:p-8 hover:shadow-[0_8px_40px_rgba(10,25,41,0.08)] hover:border-gold-200/60 transition-all duration-500",
-                  i === 1 ? "sm:translate-y-6" : ""
-                )}>
-                  {/* faint quote mark */}
-                  <div className="absolute top-4 right-5 text-5xl font-serif text-slate-100 leading-none select-none group-hover:text-gold-100 transition-colors">"</div>
-
-                  {/* Stars */}
-                  <div className="flex gap-0.5 mb-3">
-                    {[...Array(r.stars)].map((_, k) => <Star key={k} className="h-4 w-4 fill-gold-400 text-gold-400" />)}
-                  </div>
-
-                  {/* Role pill */}
-                  <div className="inline-flex items-center gap-1.5 mb-3 bg-navy-50 border border-navy-100/80 rounded-full px-2.5 py-1 w-fit">
-                    <Gauge className="h-3 w-3 text-navy-500" />
-                    <span className="text-[11px] font-bold text-navy-700">{r.role}</span>
-                  </div>
-
-                  <p className="text-slate-700 text-sm sm:text-[15px] leading-relaxed flex-1 mb-6">"{r.text}"</p>
-
-                  {/* Author */}
-                  <div className="flex items-center gap-3 pt-5 border-t border-slate-100">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-navy-800 to-navy-950 flex items-center justify-center text-gold-400 font-black text-sm flex-shrink-0">
-                      {r.name.charAt(0)}
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <p className="font-bold text-navy-900 text-sm truncate">{r.name}</p>
-                      <p className="text-xs text-slate-400 truncate">{r.loc} · {r.car}</p>
-                    </div>
-                    <div className="w-6 h-6 rounded-full bg-green-50 border border-green-200 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="h-3.5 w-3.5 text-green-500" />
-                    </div>
-                  </div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* ─── ⑥ COMPARISON — Traditional vs autoankauf.de ── */}
+      <ComparisonSection t={t} />
 
       {/* ─── ⑦ FAQ — matches homepage style ──────────── */}
       <section className="py-16 sm:py-24 lg:py-32 bg-slate-50 relative overflow-hidden">

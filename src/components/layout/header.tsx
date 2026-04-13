@@ -79,8 +79,8 @@ export function Header() {
   return (
     <header className={cn(
       "fixed top-0 left-0 right-0 z-50 w-full transition-all duration-500 ease-in-out",
-      isScrolled 
-        ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-slate-200/50 py-1" 
+      isScrolled
+        ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-slate-200/50 py-1"
         : "bg-navy-950/20 backdrop-blur-sm border-b border-white/10"
     )}>
       {/* Top Bar - Desktop Only */}
@@ -96,9 +96,9 @@ export function Header() {
                 +49 123 456 789 00
               </a>
               <div className="w-px h-3 bg-white/20" />
-              <a 
-                href="https://wa.me/4912345678900" 
-                target="_blank" 
+              <a
+                href="https://wa.me/4912345678900"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-gold-400 transition-colors"
               >
@@ -117,30 +117,56 @@ export function Header() {
           </div>
         </div>
       </div>
-      
+
       {/* Main Nav */}
       <div className={cn(
         "container flex items-center justify-between transition-all duration-500 ease-in-out",
         isScrolled ? "h-[60px]" : "h-[64px] md:h-[70px]"
       )}>
-        <Link href={getLocalizedHref("/")} className="flex items-center gap-2 sm:gap-3 group">
+        {/* ── LOGO ── */}
+        <Link
+          href={getLocalizedHref("/")}
+          className="flex items-center gap-2.5 sm:gap-3 group flex-shrink-0"
+          aria-label="Autoankauf Deutschland"
+        >
+          {/* Icon badge */}
           <div className={cn(
-            "w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center shadow-gold group-hover:scale-105 transition-all duration-300",
-            isScrolled ? "bg-gradient-gold text-navy-900" : "bg-white/10 backdrop-blur-md border border-white/20 text-gold-400 group-hover:bg-gold-500 group-hover:border-gold-500 group-hover:text-navy-900"
+            "relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden transition-all duration-300 group-hover:scale-105",
+            isScrolled
+              ? "bg-navy-900 shadow-[0_2px_10px_rgba(10,25,41,0.25)]"
+              : "bg-navy-900/70 backdrop-blur-md border border-white/15 shadow-[0_2px_12px_rgba(0,0,0,0.3)]"
           )}>
-            <span className="text-base sm:text-lg font-bold">A</span>
+            {/* Car SVG icon in gold */}
+            <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 11l2.5-5h9L19 11" stroke="#FBBF24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+              <rect x="3" y="11" width="18" height="6" rx="1.5" fill="#FBBF24" fillOpacity="0.12" stroke="#FBBF24" strokeWidth="1.5"/>
+              <circle cx="7.5" cy="17.5" r="1.5" fill="#FBBF24"/>
+              <circle cx="16.5" cy="17.5" r="1.5" fill="#FBBF24"/>
+              <path d="M3 14h18" stroke="#FBBF24" strokeWidth="1" strokeOpacity="0.4"/>
+            </svg>
+            {/* Gold corner accent dot */}
+            <span className="absolute top-1 right-1 w-1 h-1 rounded-full bg-gold-400" />
           </div>
-          <div className={cn(
-            "transition-colors flex flex-col -gap-1",
-            isScrolled ? "text-navy-900" : "text-white"
-          )}>
-            <span className="text-xl sm:text-2xl font-black tracking-tight leading-none">Autoankauf</span>
-            <span className={cn(
-              "text-[10px] sm:text-xs font-semibold tracking-wider uppercase",
-              isScrolled ? "text-gold-600" : "text-gold-400"
-            )}>Deutschland</span>
+
+          {/* Wordmark */}
+          <div className="flex flex-col leading-none gap-0.5">
+            <div className="flex items-baseline">
+              <span className={cn(
+                "text-lg sm:text-xl font-black tracking-tight transition-colors duration-300",
+                isScrolled ? "text-navy-900" : "text-white"
+              )}>Auto</span>
+              <span className="text-lg sm:text-xl font-black tracking-tight text-gold-400">ankauf</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span className={cn(
+                "text-[9px] font-bold uppercase tracking-[0.22em] transition-colors duration-300",
+                isScrolled ? "text-slate-400" : "text-white/45"
+              )}>Deutschland</span>
+              <span className="inline-flex items-center rounded-sm bg-gold-400/20 border border-gold-400/30 px-1 text-[8px] font-black text-gold-400 leading-[14px] tracking-wider">DE</span>
+            </div>
           </div>
         </Link>
+
 
         <nav className="hidden xl:flex items-center gap-1">
           {navItems.map((item) => (
@@ -149,8 +175,8 @@ export function Header() {
               href={getLocalizedHref(item.href)}
               className={cn(
                 "px-5 py-2.5 text-sm font-semibold rounded-full transition-all duration-300",
-                isScrolled 
-                  ? "text-slate-600 hover:text-navy-900 hover:bg-slate-50" 
+                isScrolled
+                  ? "text-slate-600 hover:text-navy-900 hover:bg-slate-50"
                   : "text-white/90 hover:text-white hover:bg-white/10 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]"
               )}
             >
@@ -165,8 +191,8 @@ export function Header() {
             href={leadFormHref}
             className={cn(
               "group inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-sm transition-all duration-300 hover:scale-105 hover:shadow-gold-lg",
-              isScrolled 
-                ? "bg-gradient-gold text-navy-900" 
+              isScrolled
+                ? "bg-gradient-gold text-navy-900"
                 : "bg-white text-navy-900 border border-white/20 hover:bg-gradient-gold hover:border-gold-400 shadow-[0_4px_14px_rgba(0,0,0,0.1)]"
             )}
           >
@@ -180,27 +206,27 @@ export function Header() {
           <button
             className={cn(
               "relative p-2 rounded-full transition-all duration-300 active:scale-95",
-              isScrolled 
-                ? "hover:bg-slate-100 active:bg-slate-200" 
+              isScrolled
+                ? "hover:bg-slate-100 active:bg-slate-200"
                 : "bg-white/10 hover:bg-white/20 active:bg-white/30 backdrop-blur-md border border-white/20"
             )}
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
             <div className="relative flex items-center justify-center w-5 h-5">
-              <Menu 
+              <Menu
                 className={cn(
-                  "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-[600ms] ease-in-out w-[18px] h-[18px]", 
-                  isOpen ? "opacity-0 rotate-90 scale-50" : "opacity-100 rotate-0 scale-100", 
+                  "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-[600ms] ease-in-out w-[18px] h-[18px]",
+                  isOpen ? "opacity-0 rotate-90 scale-50" : "opacity-100 rotate-0 scale-100",
                   isScrolled && !isOpen ? "text-navy-900" : "text-white"
-                )} 
+                )}
               />
-              <X 
+              <X
                 className={cn(
-                  "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-[600ms] ease-in-out w-[18px] h-[18px]", 
-                  isOpen ? "opacity-100 rotate-0 scale-100 text-white" : "opacity-0 -rotate-90 scale-50", 
+                  "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-[600ms] ease-in-out w-[18px] h-[18px]",
+                  isOpen ? "opacity-100 rotate-0 scale-100 text-white" : "opacity-0 -rotate-90 scale-50",
                   isScrolled && !isOpen ? "text-navy-900" : "text-white"
-                )} 
+                )}
               />
             </div>
           </button>
@@ -235,13 +261,26 @@ export function Header() {
 
           {/* Panel header */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/8 shrink-0">
+            {/* Logo in mobile panel */}
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-gradient-gold flex items-center justify-center shadow-gold">
-                <span className="text-base font-black text-navy-900">A</span>
+              <div className="w-9 h-9 rounded-xl bg-navy-900 border border-white/10 flex items-center justify-center flex-shrink-0 shadow-[0_2px_12px_rgba(0,0,0,0.4)]">
+                <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 11l2.5-5h9L19 11" stroke="#FBBF24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+                  <rect x="3" y="11" width="18" height="6" rx="1.5" fill="#FBBF24" fillOpacity="0.12" stroke="#FBBF24" strokeWidth="1.5"/>
+                  <circle cx="7.5" cy="17.5" r="1.5" fill="#FBBF24"/>
+                  <circle cx="16.5" cy="17.5" r="1.5" fill="#FBBF24"/>
+                  <path d="M3 14h18" stroke="#FBBF24" strokeWidth="1" strokeOpacity="0.4"/>
+                </svg>
               </div>
-              <div>
-                <span className="text-lg font-black text-white tracking-tight leading-none block">Autoankauf</span>
-                <span className="text-[10px] font-semibold text-gold-400 uppercase tracking-widest">Deutschland</span>
+              <div className="flex flex-col leading-none gap-0.5">
+                <div className="flex items-baseline">
+                  <span className="text-lg font-black tracking-tight text-white">Auto</span>
+                  <span className="text-lg font-black tracking-tight text-gold-400">ankauf</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-white/40">Deutschland</span>
+                  <span className="inline-flex items-center rounded-sm bg-gold-400/20 border border-gold-400/30 px-1 text-[8px] font-black text-gold-400 leading-[14px] tracking-wider">DE</span>
+                </div>
               </div>
             </div>
             <button

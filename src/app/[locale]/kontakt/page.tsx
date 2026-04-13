@@ -307,12 +307,6 @@ export default function KontaktPage() {
         <div className="absolute bottom-16 left-10 w-64 h-64 bg-gold-500/8 rounded-full blur-3xl animate-pulse-glow pointer-events-none" />
         <div className="absolute -bottom-10 right-0 w-80 h-80 bg-gold-400/6 rounded-full blur-[80px] pointer-events-none" />
 
-        {/* Diagonal bottom wedge */}
-        <div className="absolute bottom-0 left-0 right-0 overflow-hidden pointer-events-none">
-          <svg viewBox="0 0 1440 80" preserveAspectRatio="none" className="w-full h-14 sm:h-20 fill-white">
-            <polygon points="0,80 1440,10 1440,80" />
-          </svg>
-        </div>
 
         <div className="container relative z-10 text-center px-4 sm:px-6">
           <Reveal delay={0}>
