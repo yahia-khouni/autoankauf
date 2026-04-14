@@ -291,8 +291,8 @@ export default function KontaktPage() {
 
   const trustItems = [
     { icon: Users, title: t("trust1Title"), desc: t("trust1Desc") },
-    { icon: Star,   title: t("trust2Title"), desc: t("trust2Desc") },
-    { icon: Lock,   title: t("trust3Title"), desc: t("trust3Desc") },
+    { icon: Star, title: t("trust2Title"), desc: t("trust2Desc") },
+    { icon: Lock, title: t("trust3Title"), desc: t("trust3Desc") },
     { icon: Shield, title: t("trust4Title"), desc: t("trust4Desc") },
   ];
 
