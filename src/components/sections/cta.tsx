@@ -1,10 +1,14 @@
+"use client";
+
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { ArrowRight, Sparkles, Phone } from "lucide-react";
 import { MagneticButton } from "@/components/ui/magnetic-button";
 
 export function CTASection() {
   const t = useTranslations("cta");
+  const locale = useLocale();
+  const leadFormHref = locale === "de" ? "/#lead-form" : `/${locale}/#lead-form`;
 
   return (
     <section className="py-8 sm:py-12 lg:py-24 relative overflow-hidden">
@@ -44,7 +48,7 @@ export function CTASection() {
             {/* Primary CTA */}
             <MagneticButton>
               <Link
-                href="/#lead-form"
+                href={leadFormHref}
                 className="group relative inline-flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto px-10 sm:px-12 py-4 sm:py-6 rounded-xl sm:rounded-2xl font-bold text-base sm:text-xl overflow-hidden transition-all duration-300 btn-cta-glow"
               >
                 {/* Button Background */}

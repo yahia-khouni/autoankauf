@@ -26,6 +26,12 @@ export default async function StandortePage({
   
   const t = await getTranslations("locations");
 
+  const getLocalizedHref = (path: string) => {
+    if (locale === "de") return path;
+    if (path === "/") return `/${locale}`;
+    return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+  };
+
   const totalCities = germanStates.reduce((sum, state) => sum + state.cities.length, 0);
 
   return (
@@ -42,7 +48,7 @@ export default async function StandortePage({
         <div className="grid gap-8">
           {germanStates.map((state) => (
             <div key={state.slug} className="border rounded-xl p-6 hover:shadow-lg transition-shadow">
-              <Link href={`/standorte/${state.slug}`} className="flex items-start justify-between mb-4 group">
+              <Link href={getLocalizedHref(`/standorte/${state.slug}`)} className="flex items-start justify-between mb-4 group">
                 <div className="flex items-center gap-3">
                   <MapPin className="h-6 w-6 text-primary" />
                   <div>
@@ -62,7 +68,7 @@ export default async function StandortePage({
                   {state.cities.slice(0, 8).map((city) => (
                     <Link
                       key={city.slug}
-                      href={`/standorte/${state.slug}/${city.slug}`}
+                      href={getLocalizedHref(`/standorte/${state.slug}/${city.slug}`)}
                       className="text-sm px-3 py-1.5 bg-slate-100 hover:bg-primary hover:text-white rounded-full transition-colors"
                     >
                       {city.name}
@@ -70,7 +76,7 @@ export default async function StandortePage({
                   ))}
                   {state.cities.length > 8 && (
                     <Link
-                      href={`/standorte/${state.slug}`}
+                      href={getLocalizedHref(`/standorte/${state.slug}`)}
                       className="text-sm px-3 py-1.5 text-primary hover:underline"
                     >
                       +{state.cities.length - 8} mehr
@@ -88,7 +94,7 @@ export default async function StandortePage({
             Kein Problem! Wir kaufen Autos in ganz Deutschland an. Kontaktieren Sie uns einfach.
           </p>
           <Link
-            href="/#lead-form"
+            href={getLocalizedHref("/#lead-form")}
             className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-primary/90"
           >
             Jetzt Angebot erhalten

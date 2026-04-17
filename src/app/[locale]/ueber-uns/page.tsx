@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import {
   Users, Award, Clock, Car, Euro, Shield, Heart,
@@ -117,6 +117,8 @@ function ValCard({ icon: Icon, title, desc, delay }: { icon: React.ElementType; 
    ══════════════════════════════════════════════ */
 export default function UeberUnsPage() {
   const t = useTranslations("ueberUns");
+  const locale = useLocale();
+  const leadFormHref = locale === "de" ? "/#lead-form" : `/${locale}/#lead-form`;
 
   const stats = [
     { icon: Car, end: 5000, suffix: "+", label: t("stat1Label") },
@@ -200,7 +202,7 @@ export default function UeberUnsPage() {
             <Reveal delay={200}>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
-                  href="/#lead-form"
+                  href={leadFormHref}
                   className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-2xl font-bold text-base overflow-hidden btn-cta-glow"
                 >
                   <div className="absolute inset-0 bg-gradient-gold" />
@@ -505,7 +507,7 @@ export default function UeberUnsPage() {
           <Reveal delay={180}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/#lead-form"
+                href={leadFormHref}
                 className="group relative w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl font-bold text-base overflow-hidden btn-cta-glow"
               >
                 <div className="absolute inset-0 bg-gradient-gold" />

@@ -119,6 +119,10 @@
     "a5": "We will transfer the sale price to your bank account immediately and absolutely securely after the sale. You will receive your money comfortably, reliably and safely. A cash payment is unfortunately not possible for security and organizational reasons.",
     "q6": "You have any other questions?",
     "a6": "If you have any further questions, you will find the answer in our FAQ section. What our more than 5 million satisfied customers think about us, you will find in our experience area.",
+    "contactTitle": "Any questions left?",
+    "contactDesc": "Call us or message us. We’re available 7 days a week.",
+    "contactCall": "Call us",
+    "contactPhone": "+49 123 456 789 00",
     "badge": "Common Questions",
     "subtitle": "Everything you need to know about our car buying service",
     "moreQuestions": "Do you have more questions?"
@@ -293,6 +297,7 @@
     "faqSubtitle": "Still have open questions? Here you will find answers to the most common questions from our customers.",
     "faqContact": "More questions?",
     "faqContactDesc": "Our team is available for you 7 days a week — by phone, WhatsApp or email.",
+    "faqCall": "Call us",
     "faq1Q": "What documents do I need to sell my vehicle?",
     "faq1A": "You need: vehicle registration document (Part II), vehicle registration certificate (Part I), all available keys and if applicable the service booklet. We help you with all further formalities.",
     "faq2Q": "How quickly will I receive an offer for my vehicle?",

@@ -119,6 +119,10 @@
     "a5": "Nous transférerons le prix de vente sur votre compte bancaire immédiatement et de manière absolument sécurisée après la vente. Vous recevrez votre argent de manière pratique, fiable et sécurisée. Un paiement en espèces n'est malheureusement pas possible pour des raisons de sécurité et d'organisation.",
     "q6": "Avez-vous d'autres questions ?",
     "a6": "Si vous avez d'autres questions, vous trouverez la réponse dans notre section FAQ. Ce que pensent nos plus de 5 millions de clients satisfaits de nous, vous le trouverez dans notre section expériences.",
+    "contactTitle": "Encore des questions ?",
+    "contactDesc": "Appelez-nous ou écrivez-nous. Nous sommes disponibles 7 jours sur 7.",
+    "contactCall": "Nous appeler",
+    "contactPhone": "+49 123 456 789 00",
     "badge": "Questions fréquentes",
     "subtitle": "Tout ce que vous devez savoir sur notre service d'achat automobile",
     "moreQuestions": "Vous avez d'autres questions ?"
@@ -293,6 +297,7 @@
     "faqSubtitle": "Vous avez encore des questions ? Retrouvez ici les réponses aux questions les plus fréquentes de nos clients.",
     "faqContact": "Encore plus de questions ?",
     "faqContactDesc": "Notre équipe est disponible pour vous 7 jours sur 7 — par téléphone, WhatsApp ou e-mail.",
+    "faqCall": "Nous appeler",
     "faq1Q": "Quels documents me faut-il pour vendre mon véhicule ?",
     "faq1A": "Il vous faut : le certificat d'immatriculation (partie II), la carte grise (partie I), toutes les clés disponibles et si applicable le carnet d'entretien. Nous vous aidons pour toutes les autres formalités.",
     "faq2Q": "Dans quel délai vais-je recevoir une offre pour mon véhicule ?",

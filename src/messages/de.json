@@ -119,6 +119,10 @@
     "a5": "Wir überweisen Ihnen den Verkaufspreis nach dem Verkauf umgehend und absolut sicher auf Ihr Bankkonto. Sie erhalten Ihr Geld bequem, zuverlässig und sicher. Eine Barzahlung ist aus sicherheitstechnischen und organisatorischen Gründen leider nicht möglich.",
     "q6": "Haben Sie noch weitere Fragen?",
     "a6": "Sollten Sie noch weitere Fragen haben, finden Sie die Antwort in unserem FAQ-Bereich. Was unsere mehr als 5 Millionen zufriedenen Kunden über uns denken, finden Sie in unserem Erfahrungsbereich.",
+    "contactTitle": "Noch Fragen offen?",
+    "contactDesc": "Rufen Sie uns an oder schreiben Sie uns. Wir sind an 7 Tagen die Woche für Sie da.",
+    "contactCall": "Jetzt anrufen",
+    "contactPhone": "+49 123 456 789 00",
     "badge": "Häufige Fragen",
     "subtitle": "Alles, was Sie über unseren Autoankauf-Service wissen müssen",
     "moreQuestions": "Haben Sie weitere Fragen?"
@@ -293,6 +297,7 @@
     "faqSubtitle": "Haben Sie noch offene Fragen? Hier finden Sie Antworten auf die häufigsten Fragen unserer Kunden.",
     "faqContact": "Noch mehr Fragen?",
     "faqContactDesc": "Unser Team ist 7 Tage die Woche für Sie da — per Telefon, WhatsApp oder E-Mail.",
+    "faqCall": "Jetzt anrufen",
     "faq1Q": "Welche Unterlagen benötige ich für den Fahrzeugverkauf?",
     "faq1A": "Sie benötigen: Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), alle vorhandenen Schlüssel sowie ggf. das Serviceheft. Wir helfen Ihnen bei allen weiteren Formalitäten.",
     "faq2Q": "Wie schnell erhalte ich ein Angebot für mein Fahrzeug?",

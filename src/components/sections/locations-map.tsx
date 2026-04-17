@@ -1,12 +1,21 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { germanStates } from "@/data/locations";
 import { MapPin, ChevronRight, Map } from "lucide-react";
 import { AnimateOnScroll } from "@/components/ui/animate-on-scroll";
 
 export function LocationsMapSection() {
   const t = useTranslations("locations");
+  const locale = useLocale();
+
+  const getLocalizedHref = (path: string) => {
+    if (locale === "de") return path;
+    if (path === "/") return `/${locale}`;
+    return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+  };
 
   return (
     <section className="py-12 sm:py-20 lg:py-32 bg-gradient-to-b from-white via-slate-50/50 to-white relative overflow-hidden">
@@ -64,7 +73,7 @@ export function LocationsMapSection() {
                     <p className="text-sm text-slate-300">Wählen Sie Ihr Bundesland aus, um lokale Händler zu finden.</p>
                   </div>
                   <Link 
-                    href="/standorte" 
+                    href={getLocalizedHref("/standorte")} 
                     className="inline-flex items-center gap-1 text-sm font-semibold text-gold-400 hover:text-gold-300 transition-colors group whitespace-nowrap mt-1"
                   >
                     {t("viewAll")}
@@ -78,7 +87,7 @@ export function LocationsMapSection() {
                   {germanStates.map((state, index) => (
                     <Link
                       key={state.slug}
-                      href={`/standorte/${state.slug}`}
+                      href={getLocalizedHref(`/standorte/${state.slug}`)}
                       className="group flex flex-col p-4 rounded-2xl border border-navy-800 bg-navy-950/30 hover:bg-navy-800 hover:border-gold-400/50 transition-all duration-300 active:scale-[0.98]"
                     >
                       <div className="flex items-center justify-between mb-2">

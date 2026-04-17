@@ -3,11 +3,12 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+import { FaqContactCard } from "@/components/sections/faq-contact-card";
 import {
   Search, Clock, Calendar, ArrowRight, BookOpen,
   ChevronDown, ChevronUp, Car, Euro, FileText, HelpCircle,
   TrendingUp, Zap, Shield, CheckCircle, Star, Phone,
-  MessageCircle, Sparkles, Filter, X, AlertCircle,
+  Sparkles, Filter, X, AlertCircle,
   Wrench, BarChart2, Users, List, BookMarked, Tag,
   Lightbulb, Info,
 } from "lucide-react";
@@ -466,9 +467,9 @@ const CATEGORY_ICONS: Record<string, React.ElementType> = {
    INLINE ARTICLE CONTENT (expands inside the card, no scroll)
    ════════════════════════════════════════════════════════════ */
 function ArticleInlineContent({
-  post, locale, t, isOpen,
+  post, locale, t, isOpen, leadFormHref,
 }: {
-  post: BlogPost; locale: Locale; t: (k: string) => string; isOpen: boolean;
+  post: BlogPost; locale: Locale; t: (k: string) => string; isOpen: boolean; leadFormHref: string;
 }) {
   const bodyRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
@@ -555,7 +556,7 @@ function ArticleInlineContent({
             <p className="text-[11px] text-slate-500">{t("articleCtaDesc")}</p>
           </div>
           <Link
-            href="/#lead-form"
+            href={leadFormHref}
             className="group inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-navy-900 text-white text-xs font-bold hover:bg-navy-800 transition-colors flex-shrink-0"
           >
             {t("articleCtaBtn")}
@@ -571,10 +572,10 @@ function ArticleInlineContent({
    BLOG CARD — expands in-place, no scrolling
    ════════════════════════════════════════════════════════════ */
 function BlogCard({
-  post, locale, t, delay, isExpanded, onExpand,
+  post, locale, t, delay, isExpanded, onExpand, leadFormHref,
 }: {
   post: BlogPost; locale: Locale; t: (key: string) => string;
-  delay: number; isExpanded: boolean; onExpand: () => void;
+  delay: number; isExpanded: boolean; onExpand: () => void; leadFormHref: string;
 }) {
   const Icon = post.icon;
   const CategoryIcon = CATEGORY_ICONS[post.categoryKey] || Tag;
@@ -655,57 +656,8 @@ function BlogCard({
           locale={locale}
           t={t}
           isOpen={isExpanded}
+          leadFormHref={leadFormHref}
         />
-      </div>
-    </Reveal>
-  );
-}
-
-/* ════════════════════════════════════════════════════════════
-   FAQ ACCORDION ITEM
-   ════════════════════════════════════════════════════════════ */
-function FaqItem({ q, a, index }: { q: string; a: string; index: number }) {
-  const [open, setOpen] = useState(false);
-  const answerRef = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState(0);
-
-  useEffect(() => {
-    if (answerRef.current) {
-      setHeight(open ? answerRef.current.scrollHeight : 0);
-    }
-  }, [open]);
-
-  return (
-    <Reveal delay={index * 50}>
-      <div className={`group rounded-2xl border transition-all duration-300 overflow-hidden
-        ${open
-          ? "border-gold-300/70 bg-gradient-to-br from-gold-50/80 to-white shadow-[0_4px_20px_rgba(251,191,36,0.12)]"
-          : "border-slate-100 bg-white hover:border-gold-200/50 hover:shadow-sm"
-        }`}>
-        <button
-          onClick={() => setOpen(!open)}
-          className="w-full flex items-start justify-between gap-4 px-5 py-4 sm:px-6 sm:py-5 text-left"
-          aria-expanded={open}
-        >
-          <div className="flex items-start gap-3 flex-1">
-            <div className={`flex-shrink-0 w-6 h-6 rounded-lg flex items-center justify-center mt-0.5 transition-colors duration-200 ${open ? "bg-gold-400" : "bg-slate-100 group-hover:bg-gold-100"}`}>
-              <HelpCircle className={`h-3.5 w-3.5 transition-colors ${open ? "text-navy-900" : "text-slate-400 group-hover:text-gold-600"}`} />
-            </div>
-            <span className={`text-sm sm:text-[15px] font-semibold leading-snug transition-colors ${open ? "text-navy-900" : "text-slate-700"}`}>{q}</span>
-          </div>
-          <div className={`flex-shrink-0 w-6 h-6 rounded-full border flex items-center justify-center mt-0.5 transition-all duration-300 ${open ? "bg-gold-400 border-gold-400 rotate-180" : "bg-white border-slate-200 group-hover:border-gold-300"}`}>
-            <ChevronDown className={`h-3.5 w-3.5 transition-colors ${open ? "text-navy-900" : "text-slate-400"}`} />
-          </div>
-        </button>
-        <div
-          style={{ height, transition: "height .38s cubic-bezier(.16,1,.3,1)", overflow: "hidden" }}
-        >
-          <div ref={answerRef} className="px-5 sm:px-6 pb-5">
-            <div className="ml-9 border-l-2 border-gold-200 pl-4">
-              <p className="text-sm sm:text-[15px] text-slate-600 leading-relaxed">{a}</p>
-            </div>
-          </div>
-        </div>
       </div>
     </Reveal>
   );
@@ -717,10 +669,12 @@ function FaqItem({ q, a, index }: { q: string; a: string; index: number }) {
 export default function BlogPage() {
   const t = useTranslations("blogPage");
   const locale = useLocale() as Locale;
+  const leadFormHref = locale === "de" ? "/#lead-form" : `/${locale}/#lead-form`;
 
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("all");
   const [expandedSlug, setExpandedSlug] = useState<string | null>(null);
+  const [faqOpenIndex, setFaqOpenIndex] = useState<number | null>(null);
 
   const gridRef = useRef<HTMLDivElement>(null);
 
@@ -778,6 +732,7 @@ export default function BlogPage() {
         delay={i * 45}
         isExpanded={expandedSlug === post.slug}
         onExpand={() => handleExpand(post.slug)}
+        leadFormHref={leadFormHref}
       />
     ));
   }
@@ -996,11 +951,10 @@ export default function BlogPage() {
                     key={cat.key}
                     id={`filter-${cat.key}`}
                     onClick={() => { setActiveCategory(cat.key); setExpandedSlug(null); }}
-                    className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold border transition-all duration-250 ${
-                      activeCategory === cat.key
+                    className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold border transition-all duration-250 ${activeCategory === cat.key
                         ? "bg-navy-900 text-white border-navy-900 shadow-sm"
                         : "bg-white text-slate-600 border-slate-200 hover:border-gold-300 hover:text-navy-700"
-                    }`}
+                      }`}
                   >
                     {CatIcon && <CatIcon className="h-3 w-3" />}
                     {t(cat.labelKey)}
@@ -1070,7 +1024,7 @@ export default function BlogPage() {
                       </div>
                     ))}
                   </div>
-                  <Link href="/#lead-form" className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gold-400 text-navy-900 text-sm font-bold hover:bg-gold-300 transition-colors shadow-gold">
+                  <Link href={leadFormHref} className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gold-400 text-navy-900 text-sm font-bold hover:bg-gold-300 transition-colors shadow-gold">
                     {t("sellGuideCta")}
                     <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
@@ -1105,65 +1059,106 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* ─── ⑥ FAQ ──────────────────────────────────────── */}
-      <section className="py-16 sm:py-24 relative overflow-hidden">
-        <div className="absolute inset-0 gradient-premium" />
-        <div className="absolute inset-0 bg-hero-pattern opacity-20" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold-400/40 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold-400/40 to-transparent" />
+      {/* ─── ⑥ FAQ — same layout as homepage FAQSection ───────────────── */}
+      <section className="py-16 sm:py-24 lg:py-32 bg-slate-50 relative">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 right-0 w-[40rem] h-[40rem] bg-gold-400/10 rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 left-0 w-[30rem] h-[30rem] bg-navy-900/5 rounded-full blur-[80px]" />
+        </div>
 
-        <div className="container relative z-10 px-4 sm:px-6 max-w-4xl mx-auto">
-          <Reveal delay={0} className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/8 border border-white/15 backdrop-blur-sm px-4 py-1.5 mb-5">
-              <HelpCircle className="h-3.5 w-3.5 text-gold-400" />
-              <span className="text-xs font-bold text-gold-300 tracking-[0.12em] uppercase">{t("faqBadge")}</span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">{t("faqTitle")}</h2>
-            <p className="text-slate-400 text-base max-w-xl mx-auto">{t("faqSubtitle")}</p>
-          </Reveal>
-
-          <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-5 sm:p-8 shadow-luxury">
-            {/* FAQ group labels */}
-            <div className="mb-5">
-              <p className="text-xs font-black text-slate-300 uppercase tracking-[0.18em] mb-3">{t("faqGroupSell")}</p>
-              <div className="space-y-2.5">
-                {faqItems.slice(0, 4).map((item, i) => (
-                  <FaqItem key={i} q={item.q} a={item.a} index={i} />
-                ))}
-              </div>
-            </div>
-
-            <div className="my-5 h-px bg-slate-100" />
-
-            <div>
-              <p className="text-xs font-black text-slate-300 uppercase tracking-[0.18em] mb-3">{t("faqGroupBuy")}</p>
-              <div className="space-y-2.5">
-                {faqItems.slice(4).map((item, i) => (
-                  <FaqItem key={i + 4} q={item.q} a={item.a} index={i + 4} />
-                ))}
-              </div>
-            </div>
-
-            {/* Contact prompt */}
-            <div className="mt-7 flex flex-col sm:flex-row items-center justify-between gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100">
-              <div className="flex items-center gap-3 text-center sm:text-left">
-                <div className="w-10 h-10 rounded-xl bg-gold-50 border border-gold-200 flex items-center justify-center flex-shrink-0">
-                  <MessageCircle className="h-5 w-5 text-gold-600" />
+        <div className="container relative px-4 sm:px-6 z-10">
+          <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
+            <div className="lg:col-span-4 lg:sticky lg:top-28 lg:self-start lg:h-max">
+              <div className="mb-8">
+                <div className="inline-flex items-center gap-2 rounded-full bg-white shadow-sm border border-navy-100 px-4 py-2 mb-6">
+                  <HelpCircle className="h-4 w-4 text-gold-500" />
+                  <span className="text-sm font-bold text-navy-800 tracking-wide uppercase">{t("faqBadge")}</span>
                 </div>
-                <div>
-                  <p className="text-sm font-bold text-navy-900">{t("faqContactTitle")}</p>
-                  <p className="text-xs text-slate-500">{t("faqContactDesc")}</p>
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-5 text-navy-900 leading-tight">{t("faqTitle")}</h2>
+                <p className="text-base sm:text-lg text-slate-600 leading-relaxed">{t("faqSubtitle")}</p>
+              </div>
+
+              <FaqContactCard
+                title={t("faqContactTitle")}
+                description={t("faqContactDesc")}
+                ctaLabel={t("faqCall")}
+                phoneDisplay="+49 123 456 789 00"
+                phoneHref="tel:+4912345678900"
+              />
+            </div>
+
+            <div className="lg:col-span-8">
+              <div className="rounded-3xl shadow-lg border border-slate-100 overflow-hidden bg-white">
+                  <div className="h-1 bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500" />
+                  <div className="flex items-center justify-between px-5 sm:px-7 py-4 border-b border-slate-100 bg-slate-50/60">
+                    <span className="text-xs font-black text-slate-400 uppercase tracking-[0.15em]">
+                      {faqItems.length} Fragen &amp; Antworten
+                    </span>
+                    <span className="text-xs text-slate-300 font-medium">
+                      {faqOpenIndex !== null ? `${faqOpenIndex + 1} / ${faqItems.length}` : "Klicken zum öffnen"}
+                    </span>
+                  </div>
+
+                  <div className="divide-y divide-slate-100">
+                    {faqItems.map((item, i) => {
+                      const isOpen = faqOpenIndex === i;
+                      return (
+                        <div key={i} className={`transition-colors duration-300 ${isOpen ? "bg-gold-50/30" : "bg-white hover:bg-slate-50/50"}`}>
+                          <button
+                            type="button"
+                            onClick={() => setFaqOpenIndex(faqOpenIndex === i ? null : i)}
+                            className="w-full flex items-center gap-4 px-5 sm:px-7 py-5 text-left group focus:outline-none"
+                            aria-expanded={isOpen}
+                          >
+                            <span
+                              className={`flex-shrink-0 w-7 h-7 rounded-lg flex items-center justify-center text-[11px] font-black transition-all duration-300 ${
+                                isOpen
+                                  ? "bg-gold-400 text-navy-900 shadow-[0_2px_8px_rgba(251,191,36,0.4)]"
+                                  : "bg-slate-100 text-slate-400 group-hover:bg-gold-100 group-hover:text-gold-700"
+                              }`}
+                            >
+                              {String(i + 1).padStart(2, "0")}
+                            </span>
+                            <span
+                              className={`flex-1 font-semibold text-base sm:text-[17px] leading-snug transition-colors duration-200 ${
+                                isOpen ? "text-navy-900" : "text-navy-800 group-hover:text-navy-900"
+                              }`}
+                            >
+                              {item.q}
+                            </span>
+                            <span
+                              className={`flex-shrink-0 w-7 h-7 rounded-full border flex items-center justify-center transition-all duration-300 ${
+                                isOpen
+                                  ? "bg-gold-400 border-gold-400 rotate-180 shadow-[0_2px_8px_rgba(251,191,36,0.35)]"
+                                  : "border-slate-200 bg-white group-hover:border-gold-300 group-hover:bg-gold-50"
+                              }`}
+                            >
+                              <ChevronDown
+                                className={`h-3.5 w-3.5 transition-colors ${isOpen ? "text-navy-900" : "text-slate-400 group-hover:text-gold-600"}`}
+                              />
+                            </span>
+                          </button>
+                          <div
+                            style={{
+                              display: "grid",
+                              gridTemplateRows: isOpen ? "1fr" : "0fr",
+                              transition: "grid-template-rows 0.38s cubic-bezier(0.16,1,0.3,1)",
+                            }}
+                          >
+                            <div className="overflow-hidden">
+                              <div className="pl-16 pr-5 sm:pr-7 pb-6 pt-1">
+                                <div className="flex gap-3">
+                                  <div className="flex-shrink-0 w-0.5 rounded-full bg-gradient-to-b from-gold-400 to-gold-200 self-stretch" />
+                                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">{item.a}</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-2.5">
-                <a href="tel:+4912345678900" className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-navy-900 text-white text-sm font-semibold hover:bg-navy-800 transition-colors">
-                  <Phone className="h-3.5 w-3.5" />{t("faqCall")}
-                </a>
-                <a href="https://wa.me/4912345678900" target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#25D366] text-white text-sm font-semibold hover:bg-[#1da851] transition-colors">
-                  <MessageCircle className="h-3.5 w-3.5" />WhatsApp
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -1219,7 +1214,7 @@ export default function BlogPage() {
           </Reveal>
           <Reveal delay={180}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/#lead-form" id="blog-cta-btn"
+              <Link href={leadFormHref} id="blog-cta-btn"
                 className="group relative w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl font-bold text-base overflow-hidden btn-cta-glow">
                 <div className="absolute inset-0 bg-gradient-gold" />
                 <div className="absolute inset-0 bg-gradient-gold-shine bg-[length:200%_100%] animate-shine opacity-40" />

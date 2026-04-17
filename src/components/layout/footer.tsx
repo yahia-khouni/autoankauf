@@ -1,5 +1,7 @@
+"use client";
+
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import {
   Phone,
   Mail,
@@ -13,7 +15,14 @@ import {
 export function Footer() {
   const t = useTranslations("footer");
   const tNav = useTranslations("nav");
+  const locale = useLocale();
   const currentYear = new Date().getFullYear();
+
+  const getLocalizedHref = (path: string) => {
+    if (locale === "de") return path;
+    if (path === "/") return `/${locale}`;
+    return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+  };
 
   return (
     <footer className="relative overflow-hidden">
@@ -30,7 +39,7 @@ export function Footer() {
           {/* Brand Column - Full Width on Mobile */}
           <div className="col-span-2 lg:col-span-1 mb-4 lg:mb-0">
             <Link
-              href="/"
+              href={getLocalizedHref("/")}
               className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6"
             >
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-gold flex items-center justify-center shadow-gold">
@@ -134,10 +143,10 @@ export function Footer() {
             <h4 className="footer-heading">{t("quickLinks")}</h4>
             <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
               {[
-                { href: "/standorte", label: tNav("locations") },
-                { href: "/so-funktionierts", label: tNav("howItWorks") },
-                { href: "/ueber-uns", label: tNav("about") },
-                { href: "/kontakt", label: tNav("contact") },
+                { href: getLocalizedHref("/standorte"), label: tNav("locations") },
+                { href: getLocalizedHref("/so-funktionierts"), label: tNav("howItWorks") },
+                { href: getLocalizedHref("/ueber-uns"), label: tNav("about") },
+                { href: getLocalizedHref("/kontakt"), label: tNav("contact") },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -158,7 +167,7 @@ export function Footer() {
             <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
               <li>
                 <Link
-                  href="/impressum"
+                  href={getLocalizedHref("/impressum")}
                   className="group flex items-center gap-1.5 sm:gap-2 text-slate-400 hover:text-white transition-colors"
                 >
                   <ArrowRight className="h-2.5 w-2.5 sm:h-3 sm:w-3 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-gold-400" />
@@ -167,7 +176,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/datenschutz"
+                  href={getLocalizedHref("/datenschutz")}
                   className="group flex items-center gap-1.5 sm:gap-2 text-slate-400 hover:text-white transition-colors"
                 >
                   <ArrowRight className="h-2.5 w-2.5 sm:h-3 sm:w-3 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-gold-400" />
@@ -176,7 +185,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/agb"
+                  href={getLocalizedHref("/agb")}
                   className="group flex items-center gap-1.5 sm:gap-2 text-slate-400 hover:text-white transition-colors"
                 >
                   <ArrowRight className="h-2.5 w-2.5 sm:h-3 sm:w-3 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-gold-400" />

@@ -46,11 +46,17 @@ export default async function StatePage({ params }: Props) {
     notFound();
   }
 
+  const getLocalizedHref = (path: string) => {
+    if (locale === "de") return path;
+    if (path === "/") return `/${locale}`;
+    return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+  };
+
   return (
     <div className="py-12">
       <div className="container">
         <Link
-          href="/standorte"
+          href={getLocalizedHref("/standorte")}
           className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary mb-6"
         >
           <ArrowLeft className="h-4 w-4" />
@@ -90,7 +96,7 @@ export default async function StatePage({ params }: Props) {
                 {state.cities.map((city) => (
                   <Link
                     key={city.slug}
-                    href={`/standorte/${state.slug}/${city.slug}`}
+                    href={getLocalizedHref(`/standorte/${state.slug}/${city.slug}`)}
                     className="flex items-center justify-between p-4 border rounded-lg hover:border-primary hover:bg-primary/5 transition-all group"
                   >
                     <div className="flex items-center gap-3">

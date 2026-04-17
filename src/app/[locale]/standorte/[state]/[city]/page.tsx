@@ -54,6 +54,12 @@ export default async function CityPage({ params }: Props) {
 
   const otherCities = state.cities.filter((c) => c.slug !== city.slug).slice(0, 6);
 
+  const getLocalizedHref = (path: string) => {
+    if (locale === "de") return path;
+    if (path === "/") return `/${locale}`;
+    return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+  };
+
   return (
     <div className="relative">
       {/* Hero Section */}
@@ -65,11 +71,11 @@ export default async function CityPage({ params }: Props) {
         <div className="container relative">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm mb-8">
-            <Link href="/standorte" className="text-slate-400 hover:text-gold-400 transition-colors">
+            <Link href={getLocalizedHref("/standorte")} className="text-slate-400 hover:text-gold-400 transition-colors">
               Standorte
             </Link>
             <span className="text-slate-600">/</span>
-            <Link href={`/standorte/${state.slug}`} className="text-slate-400 hover:text-gold-400 transition-colors">
+            <Link href={getLocalizedHref(`/standorte/${state.slug}`)} className="text-slate-400 hover:text-gold-400 transition-colors">
               {state.name}
             </Link>
             <span className="text-slate-600">/</span>
@@ -214,7 +220,7 @@ export default async function CityPage({ params }: Props) {
                   {otherCities.map((c) => (
                     <Link
                       key={c.slug}
-                      href={`/standorte/${state.slug}/${c.slug}`}
+                      href={getLocalizedHref(`/standorte/${state.slug}/${c.slug}`)}
                       className="px-5 py-2.5 bg-white border border-slate-200 hover:border-gold-400 hover:shadow-md rounded-xl text-sm font-medium text-navy-700 transition-all"
                     >
                       {c.name}
@@ -222,7 +228,7 @@ export default async function CityPage({ params }: Props) {
                   ))}
                   {state.cities.length > 7 && (
                     <Link
-                      href={`/standorte/${state.slug}`}
+                      href={getLocalizedHref(`/standorte/${state.slug}`)}
                       className="px-5 py-2.5 text-gold-600 hover:text-gold-700 text-sm font-semibold"
                     >
                       Alle Städte →

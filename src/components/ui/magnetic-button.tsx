@@ -1,36 +1,31 @@
 "use client";
 
-import { useRef, ReactNode } from "react";
+import { ReactNode } from "react";
 
 interface MagneticButtonProps {
   children: ReactNode;
-  strength?: number;
+  strength?: number; // kept for API compatibility, unused
 }
 
-export function MagneticButton({ children, strength = 0.2 }: MagneticButtonProps) {
-  const ref = useRef<HTMLDivElement>(null);
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!ref.current) return;
-    const rect = ref.current.getBoundingClientRect();
-    const x = e.clientX - (rect.left + rect.width / 2);
-    const y = e.clientY - (rect.top + rect.height / 2);
-    ref.current.style.transform = `translate(${x * strength}px, ${y * strength}px)`;
-    ref.current.style.transition = "transform 0.12s ease";
-  };
-
-  const handleMouseLeave = () => {
-    if (!ref.current) return;
-    ref.current.style.transform = "translate(0, 0)";
-    ref.current.style.transition = "transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94)";
-  };
-
+export function MagneticButton({ children }: MagneticButtonProps) {
   return (
     <div
-      ref={ref}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
-      className="inline-block"
+      className="inline-block transition-transform duration-300 ease-out hover:scale-105 active:scale-[0.98]"
+      style={{
+        filter: "drop-shadow(0 0 0px rgba(251,191,36,0))",
+        transition:
+          "transform 0.3s cubic-bezier(0.34,1.56,0.64,1), filter 0.3s ease",
+      }}
+      onMouseEnter={(e) => {
+        (e.currentTarget as HTMLDivElement).style.filter =
+          "drop-shadow(0 6px 24px rgba(251,191,36,0.55))";
+        (e.currentTarget as HTMLDivElement).style.transform = "scale(1.05)";
+      }}
+      onMouseLeave={(e) => {
+        (e.currentTarget as HTMLDivElement).style.filter =
+          "drop-shadow(0 0 0px rgba(251,191,36,0))";
+        (e.currentTarget as HTMLDivElement).style.transform = "scale(1)";
+      }}
     >
       {children}
     </div>

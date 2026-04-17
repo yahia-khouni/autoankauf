@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 import { LeadForm } from "@/components/forms/lead-form";
 import {
   Phone,
@@ -233,6 +234,30 @@ function GeneralContactForm() {
 /* ══════════════════════════════════════════════════════════ */
 export default function KontaktPage() {
   const t = useTranslations("kontaktPage");
+  const locale = useLocale();
+  const mapAnimRef = useRef<HTMLDivElement>(null);
+  const [mapInView, setMapInView] = useState(false);
+  const getLocalizedHref = (path: string) => {
+    if (locale === "de") return path;
+    if (path === "/") return `/${locale}`;
+    return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+  };
+
+  useEffect(() => {
+    const el = mapAnimRef.current;
+    if (!el || mapInView) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setMapInView(true);
+          obs.disconnect();
+        }
+      },
+      { threshold: 0.28, rootMargin: "0px 0px -40px 0px" }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [mapInView]);
 
   const channels = [
     {
@@ -294,6 +319,17 @@ export default function KontaktPage() {
     { icon: Star, title: t("trust2Title"), desc: t("trust2Desc") },
     { icon: Lock, title: t("trust3Title"), desc: t("trust3Desc") },
     { icon: Shield, title: t("trust4Title"), desc: t("trust4Desc") },
+  ];
+
+  const mapPoints = [
+    { id: "hh", label: "Hamburg", x: 53, y: 20 },
+    { id: "hb", label: "Bremen", x: 45, y: 25 },
+    { id: "be", label: "Berlin", x: 71, y: 30 },
+    { id: "nrw", label: "NRW", x: 36, y: 42 },
+    { id: "he", label: "Hessen", x: 46, y: 52 },
+    { id: "sn", label: "Sachsen", x: 67, y: 56 },
+    { id: "bw", label: "Baden-W.", x: 42, y: 73 },
+    { id: "by", label: "Bayern", x: 60, y: 77 },
   ];
 
   return (
@@ -465,7 +501,7 @@ export default function KontaktPage() {
                         {t("addressLine1")}<br />{t("addressLine2")}<br />{t("addressLine3")}
                       </p>
                       <Link
-                        href="/standorte"
+                        href={getLocalizedHref("/standorte")}
                         className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-gold-600 hover:text-gold-700 transition-colors"
                       >
                         <span className="inline-flex items-center gap-1 bg-gold-50 border border-gold-200 rounded-full px-2 py-0.5">
@@ -566,20 +602,68 @@ export default function KontaktPage() {
 
             {/* Map placeholder — premium styled */}
             <Reveal delay={0} dir="left">
-              <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-navy-900 via-navy-800 to-navy-950 aspect-[4/3] shadow-premium-lg flex items-center justify-center group">
-                <div className="absolute inset-0 bg-hero-pattern opacity-20" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                  <div className="relative flex items-center justify-center">
-                    <div className="absolute w-24 h-24 rounded-full bg-gold-400/20 animate-ping" />
-                    <div className="absolute w-16 h-16 rounded-full bg-gold-400/30 animate-pulse" />
-                    <div className="relative w-12 h-12 rounded-full bg-gradient-gold flex items-center justify-center shadow-gold">
-                      <MapPin className="h-6 w-6 text-navy-900" />
+              <div
+                ref={mapAnimRef}
+                className={`map-circuit-wrap relative rounded-3xl overflow-hidden aspect-[4/3] shadow-premium-lg border border-slate-200/70 bg-gradient-to-br from-slate-900 via-navy-900 to-navy-950 group ${mapInView ? "is-visible" : ""}`}
+              >
+                <div className="absolute inset-0">
+                  <Image
+                    src="/images/map.png"
+                    alt="Germany map with state locations"
+                    fill
+                    className="object-cover scale-[1.02] sm:scale-[1.04] opacity-85 mix-blend-screen"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-navy-900/35 via-transparent to-navy-900/55" />
+                </div>
+
+                {/* soft route circuits */}
+                <svg
+                  className="absolute inset-0 w-full h-full pointer-events-none"
+                  viewBox="0 0 100 100"
+                  preserveAspectRatio="none"
+                  aria-hidden="true"
+                >
+                  <path className="map-circuit-path path-1" d="M36 42 C 41 34, 48 28, 53 20" stroke="rgba(251,191,36,0.42)" strokeWidth="0.4" fill="none" strokeDasharray="1.4 1.2" />
+                  <path className="map-circuit-path path-2" d="M53 20 C 59 22, 65 26, 71 30" stroke="rgba(251,191,36,0.34)" strokeWidth="0.35" fill="none" strokeDasharray="1.2 1.1" />
+                  <path className="map-circuit-path path-3" d="M36 42 C 38 49, 42 53, 46 52" stroke="rgba(251,191,36,0.34)" strokeWidth="0.35" fill="none" strokeDasharray="1.2 1.1" />
+                  <path className="map-circuit-path path-4" d="M46 52 C 53 56, 61 58, 67 56" stroke="rgba(251,191,36,0.34)" strokeWidth="0.35" fill="none" strokeDasharray="1.2 1.1" />
+                  <path className="map-circuit-path path-5" d="M46 52 C 45 63, 43 69, 42 73" stroke="rgba(251,191,36,0.36)" strokeWidth="0.35" fill="none" strokeDasharray="1.2 1.1" />
+                  <path className="map-circuit-path path-6" d="M46 52 C 52 63, 56 71, 60 77" stroke="rgba(251,191,36,0.4)" strokeWidth="0.4" fill="none" strokeDasharray="1.4 1.2" />
+                  <path className="map-circuit-path path-7" d="M45 25 C 47 24, 50 23, 53 20" stroke="rgba(96,165,250,0.40)" strokeWidth="0.3" fill="none" strokeDasharray="1.1 1.1" />
+                  <path className="map-circuit-path path-8" d="M53 20 C 56 26, 58 34, 60 44" stroke="rgba(96,165,250,0.36)" strokeWidth="0.3" fill="none" strokeDasharray="1.1 1.1" />
+                  <path className="map-circuit-path path-9" d="M71 30 C 69 38, 68 47, 67 56" stroke="rgba(96,165,250,0.38)" strokeWidth="0.3" fill="none" strokeDasharray="1.1 1.1" />
+                  <path className="map-circuit-path path-10" d="M36 42 C 44 43, 52 44, 60 44" stroke="rgba(96,165,250,0.34)" strokeWidth="0.28" fill="none" strokeDasharray="1 1" />
+                  <path className="map-circuit-path path-11" d="M60 44 C 56 49, 51 51, 46 52" stroke="rgba(96,165,250,0.34)" strokeWidth="0.28" fill="none" strokeDasharray="1 1" />
+                  <path className="map-circuit-path path-12" d="M60 44 C 62 50, 64 54, 67 56" stroke="rgba(96,165,250,0.34)" strokeWidth="0.28" fill="none" strokeDasharray="1 1" />
+                  <path className="map-circuit-path path-13" d="M46 52 C 50 58, 54 64, 57 70" stroke="rgba(96,165,250,0.30)" strokeWidth="0.26" fill="none" strokeDasharray="0.9 1" />
+                  <path className="map-circuit-path path-14" d="M57 70 C 58 74, 59 76, 60 77" stroke="rgba(96,165,250,0.30)" strokeWidth="0.26" fill="none" strokeDasharray="0.9 1" />
+                  <path className="map-circuit-path path-15" d="M46 52 C 44 60, 43 67, 42 73" stroke="rgba(96,165,250,0.32)" strokeWidth="0.28" fill="none" strokeDasharray="1 1" />
+                  <path className="map-circuit-path path-16" d="M36 42 C 33 36, 32 30, 33 24" stroke="rgba(96,165,250,0.28)" strokeWidth="0.24" fill="none" strokeDasharray="0.9 1.1" />
+                </svg>
+
+                {/* state markers */}
+                {mapPoints.map((point) => (
+                  <div
+                    key={point.id}
+                    className={`absolute -translate-x-1/2 -translate-y-1/2 map-node node-${point.id}`}
+                    style={{ left: `${point.x}%`, top: `${point.y}%` }}
+                  >
+                    <div className="relative group/point">
+                      <span className="absolute inset-0 rounded-full bg-gold-300/40 blur-[3px] scale-150 node-glow" />
+                      <span className="absolute inset-0 rounded-full bg-sky-300/35 blur-[4px] scale-[1.8] node-blue-glow" />
+                      <span className="absolute inset-[-9px] rounded-full border border-gold-300/40 node-ring" />
+                      <span className="absolute inset-[-12px] rounded-full border border-sky-300/35 node-ring-blue" />
+                      <span className="relative flex h-3.5 w-3.5 rounded-full border border-gold-200/80 bg-gradient-to-br from-gold-300 via-gold-400 to-sky-300 shadow-[0_0_0_2px_rgba(15,23,42,0.55)] node-core" />
+                      <span className="absolute -top-6 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] font-semibold tracking-wide text-gold-100/90 opacity-0 group-hover/point:opacity-100 transition-opacity">
+                        {point.label}
+                      </span>
                     </div>
                   </div>
-                </div>
+                ))}
+
                 <div className="absolute bottom-6 left-6 right-6">
-                  <div className="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl p-4">
-                    <p className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-1">{t("addressTitle")}</p>
+                  <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4">
+                    <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-1">{t("locationsBadge")}</p>
                     <p className="text-sm text-white font-medium">{t("addressLine1")}, {t("addressLine2")}</p>
                   </div>
                 </div>
@@ -629,6 +713,95 @@ export default function KontaktPage() {
           </div>
         </div>
       </section>
+      <style jsx>{`
+        .map-circuit-path {
+          stroke-dasharray: 120;
+          stroke-dashoffset: 120;
+          opacity: 0;
+        }
+        .map-circuit-wrap.is-visible .map-circuit-path {
+          animation: drawCircuit 1.1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .map-circuit-wrap.is-visible .path-2 { animation-delay: 120ms; }
+        .map-circuit-wrap.is-visible .path-3 { animation-delay: 220ms; }
+        .map-circuit-wrap.is-visible .path-4 { animation-delay: 320ms; }
+        .map-circuit-wrap.is-visible .path-5 { animation-delay: 420ms; }
+        .map-circuit-wrap.is-visible .path-6 { animation-delay: 520ms; }
+        .map-circuit-wrap.is-visible .path-7 { animation-delay: 610ms; }
+        .map-circuit-wrap.is-visible .path-8 { animation-delay: 680ms; }
+        .map-circuit-wrap.is-visible .path-9 { animation-delay: 750ms; }
+        .map-circuit-wrap.is-visible .path-10 { animation-delay: 820ms; }
+        .map-circuit-wrap.is-visible .path-11 { animation-delay: 890ms; }
+        .map-circuit-wrap.is-visible .path-12 { animation-delay: 960ms; }
+        .map-circuit-wrap.is-visible .path-13 { animation-delay: 1030ms; }
+        .map-circuit-wrap.is-visible .path-14 { animation-delay: 1100ms; }
+        .map-circuit-wrap.is-visible .path-15 { animation-delay: 1170ms; }
+        .map-circuit-wrap.is-visible .path-16 { animation-delay: 1240ms; }
+
+        .map-node {
+          opacity: 0;
+          transform: translate(-50%, -50%) scale(0.45);
+        }
+        .map-circuit-wrap.is-visible .map-node {
+          animation: popNode 460ms cubic-bezier(0.2, 0.9, 0.2, 1) forwards;
+        }
+        .map-circuit-wrap.is-visible .node-hh { animation-delay: 640ms; }
+        .map-circuit-wrap.is-visible .node-hb { animation-delay: 690ms; }
+        .map-circuit-wrap.is-visible .node-be { animation-delay: 740ms; }
+        .map-circuit-wrap.is-visible .node-nrw { animation-delay: 790ms; }
+        .map-circuit-wrap.is-visible .node-he { animation-delay: 840ms; }
+        .map-circuit-wrap.is-visible .node-sn { animation-delay: 890ms; }
+        .map-circuit-wrap.is-visible .node-bw { animation-delay: 940ms; }
+        .map-circuit-wrap.is-visible .node-by { animation-delay: 990ms; }
+        .map-circuit-wrap.is-visible .map-node .node-ring {
+          animation: ringPulse 2.4s ease-out infinite;
+        }
+        .map-circuit-wrap.is-visible .map-node .node-ring-blue {
+          animation: ringPulseBlue 2.8s ease-out infinite 250ms;
+        }
+        .map-circuit-wrap.is-visible .map-node .node-glow {
+          animation: glowPulse 2s ease-in-out infinite;
+        }
+        .map-circuit-wrap.is-visible .map-node .node-blue-glow {
+          animation: glowPulseBlue 2.2s ease-in-out infinite;
+        }
+        .map-circuit-wrap.is-visible .map-node .node-core {
+          animation: nodeFloat 2.6s ease-in-out infinite;
+        }
+
+        @keyframes drawCircuit {
+          0% { stroke-dashoffset: 120; opacity: 0; }
+          20% { opacity: 1; }
+          100% { stroke-dashoffset: 0; opacity: 1; }
+        }
+        @keyframes popNode {
+          0% { opacity: 0; transform: translate(-50%, -50%) scale(0.45); }
+          65% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+          100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+        }
+        @keyframes ringPulse {
+          0% { opacity: 0.75; transform: scale(0.35); }
+          80% { opacity: 0; transform: scale(1.55); }
+          100% { opacity: 0; transform: scale(1.55); }
+        }
+        @keyframes glowPulse {
+          0%, 100% { opacity: 0.45; }
+          50% { opacity: 0.9; }
+        }
+        @keyframes ringPulseBlue {
+          0% { opacity: 0.6; transform: scale(0.32); }
+          80% { opacity: 0; transform: scale(1.75); }
+          100% { opacity: 0; transform: scale(1.75); }
+        }
+        @keyframes glowPulseBlue {
+          0%, 100% { opacity: 0.3; }
+          50% { opacity: 0.78; }
+        }
+        @keyframes nodeFloat {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-1.5px); }
+        }
+      `}</style>
     </div>
   );
 }
