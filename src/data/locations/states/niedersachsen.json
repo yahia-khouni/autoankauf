@@ -1,0 +1,20 @@
+{
+  "id": "niedersachsen",
+  "name": "Niedersachsen",
+  "slug": "niedersachsen",
+  "stateCode": "NI",
+  "capital": "Hannover",
+  "area": 47614,
+  "population": 8027031,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Niedersachsen | Auto verkaufen in Niedersachsen",
+    "description": "Verkaufen Sie Ihr Auto in Niedersachsen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Hannover, Braunschweig, Osnabrück und 3 weiteren Städten.",
+    "keywords": ["Autoankauf Niedersachsen", "Auto verkaufen Niedersachsen", "PKW Ankauf NI", "Gebrauchtwagen Ankauf Hannover", "KFZ Ankauf Braunschweig"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Niedersachsen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Hannover bis Wolfsburg, in allen Städten des Bundeslandes.",
+    "seoText": "Niedersachsen ist das zweitgrößte Bundesland Deutschlands und Heimat des Volkswagen-Konzerns in Wolfsburg. Von der Messestadt Hannover über das Forschungszentrum Braunschweig bis zum Osnabrücker Land — wir kaufen Ihr Fahrzeug in ganz Niedersachsen zu fairen Konditionen."
+  },
+  "cities": ["hannover", "braunschweig", "osnabrueck", "oldenburg", "wolfsburg", "goettingen"]
+}

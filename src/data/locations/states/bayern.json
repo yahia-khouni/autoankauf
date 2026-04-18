@@ -1,0 +1,20 @@
+{
+  "id": "bayern",
+  "name": "Bayern",
+  "slug": "bayern",
+  "stateCode": "BY",
+  "capital": "München",
+  "area": 70550,
+  "population": 13176989,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Bayern | Auto verkaufen in Bayern",
+    "description": "Verkaufen Sie Ihr Auto in Bayern. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in München, Nürnberg, Augsburg und 5 weiteren Städten.",
+    "keywords": ["Autoankauf Bayern", "Auto verkaufen Bayern", "PKW Ankauf BY", "Gebrauchtwagen Ankauf München", "KFZ Ankauf Nürnberg"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Bayern zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von München bis Nürnberg, in allen Städten des Freistaats.",
+    "seoText": "Bayern ist das flächengrößte Bundesland Deutschlands und ein Zentrum der Automobilindustrie mit BMW und Audi. Ob Sie in der Landeshauptstadt München oder in einer der vielen anderen Städte Bayerns leben — wir kommen zu Ihnen und kaufen Ihr Fahrzeug zu fairen Konditionen."
+  },
+  "cities": ["muenchen", "nuernberg", "augsburg", "regensburg", "ingolstadt", "wuerzburg", "fuerth", "erlangen"]
+}

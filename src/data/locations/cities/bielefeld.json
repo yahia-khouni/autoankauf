@@ -1,0 +1,58 @@
+{
+  "id": "bielefeld",
+  "name": "Bielefeld",
+  "slug": "bielefeld",
+  "stateSlug": "nordrhein-westfalen",
+  "stateCode": "NW",
+  "stateName": "Nordrhein-Westfalen",
+  "population": 334195,
+  "postalCodeRange": "33602–33739",
+  "coordinates": {
+    "lat": 52.0302,
+    "lng": 8.5325
+  },
+  "meta": {
+    "title": "Autoankauf Bielefeld | Auto verkaufen in Bielefeld",
+    "description": "Autoankauf in Bielefeld: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Bielefeld. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Bielefeld",
+      "Auto verkaufen Bielefeld",
+      "PKW Ankauf Bielefeld",
+      "Gebrauchtwagen Ankauf Bielefeld",
+      "KFZ Ankauf Bielefeld"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Bielefeld schnell, fair und unkompliziert. Mit über 334.195 Einwohnern ist Bielefeld ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
+    "localContent": "Bielefeld liegt am Teutoburger Wald in Ostwestfalen-Lippe und ist ein bedeutender Wirtschaftsstandort mit rund 334.000 Einwohnern."
+  },
+  "landmarks": [
+    "Sparrenburg",
+    "Kunsthalle",
+    "Dr.-Oetker-Welt",
+    "Tierpark Olderdissen"
+  ],
+  "nearbyCities": [
+    "osnabrueck",
+    "dortmund",
+    "hannover"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Bielefeld verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Bielefeld innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Bielefeld und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Bielefeld?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "darmstadt",
+  "name": "Darmstadt",
+  "slug": "darmstadt",
+  "stateSlug": "hessen",
+  "stateCode": "HE",
+  "stateName": "Hessen",
+  "population": 162643,
+  "postalCodeRange": "64283–64297",
+  "coordinates": {
+    "lat": 49.8728,
+    "lng": 8.6512
+  },
+  "meta": {
+    "title": "Autoankauf Darmstadt | Auto verkaufen in Darmstadt",
+    "description": "Autoankauf in Darmstadt: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Darmstadt. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Darmstadt",
+      "Auto verkaufen Darmstadt",
+      "PKW Ankauf Darmstadt",
+      "Gebrauchtwagen Ankauf Darmstadt",
+      "KFZ Ankauf Darmstadt"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Darmstadt schnell, fair und unkompliziert. Mit über 162.643 Einwohnern ist Darmstadt ein bedeutender Automobilmarkt in Hessen.",
+    "localContent": "Darmstadt ist die 'Wissenschaftsstadt' Hessens und Sitz der TU Darmstadt sowie ESA-Kontrollzentrum. Die Stadt hat rund 163.000 Einwohner."
+  },
+  "landmarks": [
+    "Mathildenhöhe",
+    "TU Darmstadt",
+    "Waldspirale",
+    "Schloss"
+  ],
+  "nearbyCities": [
+    "frankfurt",
+    "wiesbaden",
+    "offenbach"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Darmstadt verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Darmstadt innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Darmstadt und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Darmstadt?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "rostock",
+  "name": "Rostock",
+  "slug": "rostock",
+  "stateSlug": "mecklenburg-vorpommern",
+  "stateCode": "MV",
+  "stateName": "Mecklenburg-Vorpommern",
+  "population": 209191,
+  "postalCodeRange": "18055–18147",
+  "coordinates": {
+    "lat": 54.0924,
+    "lng": 12.0991
+  },
+  "meta": {
+    "title": "Autoankauf Rostock | Auto verkaufen in Rostock",
+    "description": "Autoankauf in Rostock: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Rostock. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Rostock",
+      "Auto verkaufen Rostock",
+      "PKW Ankauf Rostock",
+      "Gebrauchtwagen Ankauf Rostock",
+      "KFZ Ankauf Rostock"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Rostock schnell, fair und unkompliziert. Mit über 209.191 Einwohnern ist Rostock ein bedeutender Automobilmarkt in Mecklenburg-Vorpommern.",
+    "localContent": "Rostock ist die größte Stadt Mecklenburg-Vorpommerns und ein bedeutender Ostseehafen. Mit dem Seebad Warnemünde ist die Stadt auch ein beliebtes touristisches Ziel."
+  },
+  "landmarks": [
+    "Warnemünde",
+    "Kröpeliner Straße",
+    "Hafen",
+    "Universität Rostock"
+  ],
+  "nearbyCities": [
+    "schwerin"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Rostock verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Rostock innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Rostock und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Rostock?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hamburg",
+  "name": "Hamburg",
+  "slug": "hamburg",
+  "stateCode": "HH",
+  "capital": "Hamburg",
+  "area": 755,
+  "population": 1906411,
+  "isStateCity": true,
+  "meta": {
+    "title": "Autoankauf Hamburg | Auto verkaufen in Hamburg",
+    "description": "Verkaufen Sie Ihr Auto in Hamburg. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in der gesamten Hansestadt. Jetzt Angebot erhalten!",
+    "keywords": ["Autoankauf Hamburg", "Auto verkaufen Hamburg", "PKW Ankauf Hamburg", "Gebrauchtwagen Ankauf Hamburg", "KFZ Ankauf Hamburg"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Hamburg zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — im gesamten Stadtgebiet der Hansestadt.",
+    "seoText": "Hamburg ist die zweitgrößte Stadt Deutschlands und ein bedeutender Automobilstandort. Als Stadtstaat bieten wir unseren Ankauf-Service im gesamten Hamburger Stadtgebiet an — von Altona bis Bergedorf, von Harburg bis Wandsbek. Unser Team kommt direkt zu Ihnen."
+  },
+  "cities": []
+}

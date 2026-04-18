@@ -1,0 +1,20 @@
+{
+  "id": "mecklenburg-vorpommern",
+  "name": "Mecklenburg-Vorpommern",
+  "slug": "mecklenburg-vorpommern",
+  "stateCode": "MV",
+  "capital": "Schwerin",
+  "area": 23212,
+  "population": 1628378,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Mecklenburg-Vorpommern | Auto verkaufen in MV",
+    "description": "Verkaufen Sie Ihr Auto in Mecklenburg-Vorpommern. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Rostock, Schwerin und Umgebung.",
+    "keywords": ["Autoankauf Mecklenburg-Vorpommern", "Auto verkaufen MV", "PKW Ankauf Rostock", "Gebrauchtwagen Ankauf Schwerin", "KFZ Ankauf Mecklenburg"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Mecklenburg-Vorpommern zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Rostock, Schwerin und dem gesamten Bundesland.",
+    "seoText": "Mecklenburg-Vorpommern liegt im Nordosten Deutschlands an der Ostseeküste. Mit Rostock als größter Stadt und der Landeshauptstadt Schwerin bieten wir einen zuverlässigen Ankauf-Service. Auch in ländlichen Regionen sind wir für Sie unterwegs — wir kommen direkt zu Ihnen."
+  },
+  "cities": ["rostock", "schwerin"]
+}

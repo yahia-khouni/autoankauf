@@ -1,0 +1,49 @@
+{
+  "id": "deutschland",
+  "name": "Deutschland",
+  "slug": "deutschland",
+  "locale": "de",
+  "meta": {
+    "title": "Autoankauf Standorte in Deutschland | Alle Bundesländer & Städte",
+    "description": "Autoankauf in ganz Deutschland. Finden Sie unseren Service in Ihrem Bundesland oder Ihrer Stadt. Bayern, NRW, Berlin, Hamburg und mehr. Schnell, fair und unkompliziert.",
+    "keywords": [
+      "Autoankauf Deutschland",
+      "Auto verkaufen Deutschland",
+      "Gebrauchtwagen Ankauf",
+      "PKW Ankauf deutschlandweit",
+      "Auto Ankauf alle Bundesländer",
+      "Fahrzeug verkaufen",
+      "KFZ Ankauf"
+    ]
+  },
+  "stats": {
+    "totalStates": 16,
+    "totalCities": 80,
+    "averageRating": 4.9,
+    "totalReviews": 2500
+  },
+  "content": {
+    "heroTitle": "Autoankauf in ganz Deutschland",
+    "heroSubtitle": "Wir kaufen Ihr Auto in allen 16 Bundesländern und über 80 Städten. Schnell, fair und mit sofortiger Auszahlung — egal wo Sie sich befinden.",
+    "whyUsTitle": "Der zuverlässige Autoankauf-Service in Deutschland",
+    "whyUsDescription": "Seit Jahren kaufen wir Fahrzeuge in ganz Deutschland an. Unser Netzwerk ermöglicht es uns, schnell und unkompliziert zu reagieren — egal ob Sie in einer Großstadt oder auf dem Land wohnen."
+  },
+  "stateOrder": [
+    "nordrhein-westfalen",
+    "bayern",
+    "baden-wuerttemberg",
+    "niedersachsen",
+    "hessen",
+    "sachsen",
+    "berlin",
+    "hamburg",
+    "rheinland-pfalz",
+    "schleswig-holstein",
+    "brandenburg",
+    "sachsen-anhalt",
+    "thueringen",
+    "mecklenburg-vorpommern",
+    "bremen",
+    "saarland"
+  ]
+}

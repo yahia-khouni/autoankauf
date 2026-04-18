@@ -1,0 +1,58 @@
+{
+  "id": "offenbach",
+  "name": "Offenbach am Main",
+  "slug": "offenbach",
+  "stateSlug": "hessen",
+  "stateCode": "HE",
+  "stateName": "Hessen",
+  "population": 132045,
+  "postalCodeRange": "63065–63075",
+  "coordinates": {
+    "lat": 50.0956,
+    "lng": 8.7761
+  },
+  "meta": {
+    "title": "Autoankauf Offenbach am Main | Auto verkaufen in Offenbach am Main",
+    "description": "Autoankauf in Offenbach am Main: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Offenbach am Main. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Offenbach am Main",
+      "Auto verkaufen Offenbach am Main",
+      "PKW Ankauf Offenbach am Main",
+      "Gebrauchtwagen Ankauf Offenbach am Main",
+      "KFZ Ankauf Offenbach am Main"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Offenbach am Main schnell, fair und unkompliziert. Mit über 132.045 Einwohnern ist Offenbach am Main ein bedeutender Automobilmarkt in Hessen.",
+    "localContent": "Offenbach am Main grenzt direkt an Frankfurt und hat rund 132.000 Einwohner. Die Stadt ist Sitz des Deutschen Wetterdienstes und ein multikultureller Wirtschaftsstandort."
+  },
+  "landmarks": [
+    "Büsingpalais",
+    "Hafen",
+    "DWD",
+    "Ledermuseum"
+  ],
+  "nearbyCities": [
+    "frankfurt",
+    "darmstadt",
+    "wiesbaden"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Offenbach am Main verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Offenbach am Main innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Offenbach am Main und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Offenbach am Main?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

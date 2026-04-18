@@ -1,0 +1,57 @@
+{
+  "id": "kiel",
+  "name": "Kiel",
+  "slug": "kiel",
+  "stateSlug": "schleswig-holstein",
+  "stateCode": "SH",
+  "stateName": "Schleswig-Holstein",
+  "population": 249023,
+  "postalCodeRange": "24103–24159",
+  "coordinates": {
+    "lat": 54.3213,
+    "lng": 10.1349
+  },
+  "meta": {
+    "title": "Autoankauf Kiel | Auto verkaufen in Kiel",
+    "description": "Autoankauf in Kiel: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Kiel. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Kiel",
+      "Auto verkaufen Kiel",
+      "PKW Ankauf Kiel",
+      "Gebrauchtwagen Ankauf Kiel",
+      "KFZ Ankauf Kiel"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Kiel schnell, fair und unkompliziert. Mit über 249.023 Einwohnern ist Kiel ein bedeutender Automobilmarkt in Schleswig-Holstein.",
+    "localContent": "Kiel ist die Landeshauptstadt Schleswig-Holsteins und liegt an der Ostsee. Die Kieler Woche ist das größte Segelsport-Ereignis der Welt."
+  },
+  "landmarks": [
+    "Kieler Förde",
+    "Holtenauer Schleuse",
+    "Rathaus",
+    "Kieler Woche"
+  ],
+  "nearbyCities": [
+    "luebeck",
+    "flensburg"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Kiel verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Kiel innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Kiel und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Kiel?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

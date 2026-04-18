@@ -99,10 +99,10 @@ export function LanguageSwitcher({ variant = 'dark', compact = false }: Language
             compact ? "text-[9px] px-1.5 py-1 tracking-[0.08em]" : "text-[10px] px-2.5 py-1.5 tracking-widest",
             locale === l
               ? variant === 'dark'
-                ? "bg-gradient-gold text-navy-900 shadow-md shadow-gold-500/20"
+                ? "bg-white/15 text-white shadow-[0_2px_8px_rgba(0,0,0,0.2)]"
                 : "bg-white text-navy-900 shadow-sm border border-slate-200/60"
               : variant === 'dark'
-                ? "text-white/60 hover:text-white hover:bg-white/10"
+                ? "text-white/60 hover:text-white hover:bg-white/5"
                 : "text-slate-500 hover:text-navy-900 hover:bg-slate-200/60"
           )}
         >

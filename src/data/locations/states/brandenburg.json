@@ -1,0 +1,20 @@
+{
+  "id": "brandenburg",
+  "name": "Brandenburg",
+  "slug": "brandenburg",
+  "stateCode": "BB",
+  "capital": "Potsdam",
+  "area": 29654,
+  "population": 2573135,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Brandenburg | Auto verkaufen in Brandenburg",
+    "description": "Verkaufen Sie Ihr Auto in Brandenburg. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Potsdam, Cottbus und Frankfurt (Oder).",
+    "keywords": ["Autoankauf Brandenburg", "Auto verkaufen Brandenburg", "PKW Ankauf BB", "Gebrauchtwagen Ankauf Potsdam", "KFZ Ankauf Cottbus"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Brandenburg zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Potsdam und im gesamten Umland von Berlin.",
+    "seoText": "Brandenburg umgibt die Bundeshauptstadt Berlin und ist ein wichtiger Wirtschaftsstandort in Ostdeutschland. Mit der Tesla-Gigafactory in Grünheide wächst auch der Automobilmarkt. Wir kaufen Ihr Fahrzeug in allen Städten Brandenburgs — von Potsdam bis zur Lausitz."
+  },
+  "cities": ["potsdam", "cottbus", "frankfurt-oder"]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "kaiserslautern",
+  "name": "Kaiserslautern",
+  "slug": "kaiserslautern",
+  "stateSlug": "rheinland-pfalz",
+  "stateCode": "RP",
+  "stateName": "Rheinland-Pfalz",
+  "population": 99845,
+  "postalCodeRange": "67655–67663",
+  "coordinates": {
+    "lat": 49.4401,
+    "lng": 7.7491
+  },
+  "meta": {
+    "title": "Autoankauf Kaiserslautern | Auto verkaufen in Kaiserslautern",
+    "description": "Autoankauf in Kaiserslautern: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Kaiserslautern. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Kaiserslautern",
+      "Auto verkaufen Kaiserslautern",
+      "PKW Ankauf Kaiserslautern",
+      "Gebrauchtwagen Ankauf Kaiserslautern",
+      "KFZ Ankauf Kaiserslautern"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Kaiserslautern schnell, fair und unkompliziert. Mit über 99.845 Einwohnern ist Kaiserslautern ein bedeutender Automobilmarkt in Rheinland-Pfalz.",
+    "localContent": "Kaiserslautern liegt im Pfälzerwald und ist eine traditionsreiche Industriestadt. Die Stadt hat rund 100.000 Einwohner und ist Standort einer TU."
+  },
+  "landmarks": [
+    "Japanischer Garten",
+    "Fritz-Walter-Stadion",
+    "Pfalzgalerie",
+    "Kaiserpfalz"
+  ],
+  "nearbyCities": [
+    "saarbruecken",
+    "mannheim",
+    "mainz"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Kaiserslautern verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Kaiserslautern innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Kaiserslautern und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Kaiserslautern?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "potsdam",
+  "name": "Potsdam",
+  "slug": "potsdam",
+  "stateSlug": "brandenburg",
+  "stateCode": "BB",
+  "stateName": "Brandenburg",
+  "population": 183154,
+  "postalCodeRange": "14467–14482",
+  "coordinates": {
+    "lat": 52.3906,
+    "lng": 13.0645
+  },
+  "meta": {
+    "title": "Autoankauf Potsdam | Auto verkaufen in Potsdam",
+    "description": "Autoankauf in Potsdam: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Potsdam. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Potsdam",
+      "Auto verkaufen Potsdam",
+      "PKW Ankauf Potsdam",
+      "Gebrauchtwagen Ankauf Potsdam",
+      "KFZ Ankauf Potsdam"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Potsdam schnell, fair und unkompliziert. Mit über 183.154 Einwohnern ist Potsdam ein bedeutender Automobilmarkt in Brandenburg.",
+    "localContent": "Potsdam ist die Landeshauptstadt Brandenburgs und liegt direkt südwestlich von Berlin. Die Stadt der Schlösser und Gärten ist UNESCO-Welterbe und hat rund 183.000 Einwohner."
+  },
+  "landmarks": [
+    "Schloss Sanssouci",
+    "Holländisches Viertel",
+    "Filmpark Babelsberg",
+    "Cecilienhof"
+  ],
+  "nearbyCities": [
+    "cottbus",
+    "frankfurt-oder"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Potsdam verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Potsdam innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Potsdam und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Potsdam?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

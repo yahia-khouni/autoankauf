@@ -1,0 +1,58 @@
+{
+  "id": "kassel",
+  "name": "Kassel",
+  "slug": "kassel",
+  "stateSlug": "hessen",
+  "stateCode": "HE",
+  "stateName": "Hessen",
+  "population": 202137,
+  "postalCodeRange": "34117–34134",
+  "coordinates": {
+    "lat": 51.3127,
+    "lng": 9.4797
+  },
+  "meta": {
+    "title": "Autoankauf Kassel | Auto verkaufen in Kassel",
+    "description": "Autoankauf in Kassel: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Kassel. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Kassel",
+      "Auto verkaufen Kassel",
+      "PKW Ankauf Kassel",
+      "Gebrauchtwagen Ankauf Kassel",
+      "KFZ Ankauf Kassel"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Kassel schnell, fair und unkompliziert. Mit über 202.137 Einwohnern ist Kassel ein bedeutender Automobilmarkt in Hessen.",
+    "localContent": "Kassel liegt in Nordhessen und ist weltweit bekannt als Austragungsort der documenta. Der Bergpark Wilhelmshöhe mit dem Herkules gehört zum UNESCO-Welterbe."
+  },
+  "landmarks": [
+    "Bergpark Wilhelmshöhe",
+    "documenta",
+    "Herkules",
+    "Orangerie"
+  ],
+  "nearbyCities": [
+    "frankfurt",
+    "goettingen",
+    "erfurt"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Kassel verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Kassel innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Kassel und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Kassel?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

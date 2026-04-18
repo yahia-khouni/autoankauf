@@ -1,0 +1,58 @@
+{
+  "id": "braunschweig",
+  "name": "Braunschweig",
+  "slug": "braunschweig",
+  "stateSlug": "niedersachsen",
+  "stateCode": "NI",
+  "stateName": "Niedersachsen",
+  "population": 252738,
+  "postalCodeRange": "38100–38126",
+  "coordinates": {
+    "lat": 52.2689,
+    "lng": 10.5268
+  },
+  "meta": {
+    "title": "Autoankauf Braunschweig | Auto verkaufen in Braunschweig",
+    "description": "Autoankauf in Braunschweig: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Braunschweig. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Braunschweig",
+      "Auto verkaufen Braunschweig",
+      "PKW Ankauf Braunschweig",
+      "Gebrauchtwagen Ankauf Braunschweig",
+      "KFZ Ankauf Braunschweig"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Braunschweig schnell, fair und unkompliziert. Mit über 252.738 Einwohnern ist Braunschweig ein bedeutender Automobilmarkt in Niedersachsen.",
+    "localContent": "Braunschweig ist ein wichtiger Forschungs- und Wissenschaftsstandort und Sitz der ältesten TU Deutschlands. Die Löwenstadt hat rund 253.000 Einwohner."
+  },
+  "landmarks": [
+    "Burgplatz",
+    "Braunschweiger Dom",
+    "Magniviertel",
+    "Schloss Richmond"
+  ],
+  "nearbyCities": [
+    "hannover",
+    "wolfsburg",
+    "goettingen"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Braunschweig verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Braunschweig innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Braunschweig und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Braunschweig?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

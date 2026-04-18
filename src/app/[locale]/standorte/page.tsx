@@ -1,44 +1,35 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { getTranslations, setRequestLocale } from "next-intl/server";
-import { germanStates } from "@/data/locations";
-import { MapPin, ChevronRight, ArrowRight, Shield, Zap, Star, TrendingUp, Phone } from "lucide-react";
+import { setRequestLocale } from "next-intl/server";
+import { getNationData, getAllStates, getCitiesByState } from "@/data/location-data";
+import { MapPin, ArrowRight, Shield, Zap, Star, TrendingUp, Phone, CheckCircle } from "lucide-react";
 import { locales, type Locale } from "@/lib/i18n";
+import { StateCard } from "@/components/locations/state-card";
+import { StatsCounter } from "@/components/locations/stats-counter";
+import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
+import { GermanyMapSvg } from "@/components/locations/germany-map-svg";
+import { BreadcrumbSchema } from "@/components/seo/schema-markup";
+import { formatNumber } from "@/lib/utils";
+
+const nation = getNationData();
 
 export const metadata: Metadata = {
-  title: "Autoankauf Standorte in Deutschland | Alle Bundesländer & Städte",
-  description:
-    "Autoankauf in ganz Deutschland. Finden Sie unseren Service in Ihrem Bundesland oder Ihrer Stadt. Bayern, NRW, Berlin, Hamburg und mehr. Schnell, fair und unkompliziert.",
+  title: nation.meta.title,
+  description: nation.meta.description,
+  keywords: nation.meta.keywords,
 };
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-const stateEmojis: Record<string, string> = {
-  "bayern": "🏔️",
-  "nordrhein-westfalen": "🏭",
-  "berlin": "🐻",
-  "hamburg": "⚓",
-  "hessen": "🏛️",
-  "niedersachsen": "🌾",
-  "sachsen": "🏰",
-  "rheinland-pfalz": "🍷",
-  "thueringen": "🌲",
-  "schleswig-holstein": "⛵",
-  "sachsen-anhalt": "🏞️",
-  "mecklenburg-vorpommern": "🌊",
-  "bremen": "🦅",
-  "saarland": "⛏️",
-  "brandenburg": "🦌",
-  "baden-wuerttemberg": "⚙️",
-};
+// Large states that get a double-wide card
+const LARGE_STATES = ["nordrhein-westfalen", "bayern", "baden-wuerttemberg"];
 
 const trustStats = [
-  { value: "16", label: "Bundesländer", icon: MapPin },
-  { value: "100+", label: "Städte", icon: TrendingUp },
-  { value: "24h", label: "Angebot", icon: Zap },
-  { value: "5.0★", label: "Bewertung", icon: Star },
+  { value: "TÜV Zertifiziert", iconName: "ShieldCheck" as const },
+  { value: "10+ Jahre Erfahrung", iconName: "Award" as const },
+  { value: "5.000+ Kunden", iconName: "CarFront" as const },
 ];
 
 export default async function StandortePage({
@@ -49,30 +40,55 @@ export default async function StandortePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const totalCities = germanStates.reduce((sum, state) => sum + state.cities.length, 0);
+  const states = getAllStates();
+  const totalCities = states.reduce((sum, state) => sum + state.cities.length, 0);
+
+  // Build state cards data with city names for pills
+  const stateCards = states.map((state) => {
+    const cities = getCitiesByState(state.slug);
+    return {
+      slug: state.slug,
+      name: state.name,
+      stateCode: state.stateCode,
+      cityCount: state.cities.length,
+      topCities: cities.slice(0, 4).map((c) => ({ slug: c.slug, name: c.name })),
+      isLarge: LARGE_STATES.includes(state.slug),
+    };
+  });
+
+  const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
 
   return (
     <div className="relative overflow-hidden">
+      {/* Schema.org Breadcrumb */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: baseUrl },
+          { name: "Standorte", url: `${baseUrl}/standorte` },
+        ]}
+      />
+
       {/* ── HERO ── */}
-      <section className="relative py-20 lg:py-28 overflow-hidden">
+      <section className="relative pt-32 pb-40 lg:pt-40 lg:pb-56 min-h-[70vh] lg:min-h-[90vh] overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0 gradient-hero" />
         <div className="absolute inset-0 bg-hero-pattern opacity-20" />
 
+        {/* Decorative Germany map */}
+        <GermanyMapSvg className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[600px] text-gold-400 pointer-events-none hidden lg:block" />
+
         {/* Decorative orbs */}
         <div className="absolute top-10 right-1/4 w-96 h-96 bg-gold-500/8 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-10 w-72 h-72 bg-navy-400/15 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gold-400/4 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="container relative">
+        <div className="container relative z-10">
           {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm mb-8">
-            <Link href="/" className="text-slate-400 hover:text-gold-400 transition-colors">
-              Home
-            </Link>
-            <span className="text-slate-600">/</span>
-            <span className="text-gold-400">Standorte</span>
-          </nav>
+          <LocationBreadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Standorte" },
+            ]}
+          />
 
           {/* Badge */}
           <div className="inline-flex items-center gap-2 rounded-full bg-white/10 border border-gold-400/30 backdrop-blur-sm px-4 py-2 mb-6">
@@ -82,38 +98,31 @@ export default async function StandortePage({
 
           <div className="max-w-3xl mb-12">
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Autoankauf in{" "}
+              {nation.content.heroTitle.split("ganz Deutschland")[0]}
               <span className="text-gold-gradient">ganz Deutschland</span>
             </h1>
-            <p className="text-xl text-slate-300 leading-relaxed">
-              Wir kaufen Ihr Auto in allen <strong className="text-white">16 Bundesländern</strong> und
-              über <strong className="text-white">{totalCities} Städten</strong>. Schnell, fair und mit
+            <p className="text-xl text-slate-300 leading-relaxed max-w-[80%]">
+              Wir kaufen Ihr Auto in allen{" "}
+              <strong className="text-white">16 Bundesländern</strong> und über{" "}
+              <strong className="text-white">{totalCities} Städten</strong>. Schnell, fair und mit
               sofortiger Auszahlung — egal wo Sie sich befinden.
             </p>
           </div>
 
-          {/* Stats row */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {trustStats.map((stat, i) => (
-              <div
-                key={i}
-                className="bg-white/8 backdrop-blur-sm border border-white/15 rounded-2xl p-4 text-center"
-              >
-                <stat.icon className="h-5 w-5 text-gold-400 mx-auto mb-2" />
-                <div className="text-2xl font-bold text-white">{stat.value}</div>
-                <div className="text-xs text-slate-400 mt-0.5">{stat.label}</div>
-              </div>
-            ))}
-          </div>
+          {/* Animated Stats */}
+          <StatsCounter stats={trustStats} />
         </div>
+
+        {/* Bottom Gradient Fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 bg-gradient-to-t from-background to-transparent pointer-events-none" />
       </section>
 
       {/* ── STATES GRID ── */}
-      <section className="py-16 lg:py-24 bg-slate-50/50">
+      <section className="relative py-16 lg:py-24 bg-gradient-to-b from-background via-slate-50/80 to-slate-100">
         <div className="container">
           {/* Section header */}
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 bg-gold-50 border border-gold-200 text-gold-700 rounded-full px-4 py-1.5 text-sm font-semibold mb-4">
+            <div className="inline-flex items-center gap-2 bg-gold-500/15 text-gold-600 rounded-full px-4 py-1.5 text-sm font-bold mb-4">
               <MapPin className="h-4 w-4" />
               Alle Bundesländer
             </div>
@@ -125,70 +134,11 @@ export default async function StandortePage({
             </p>
           </div>
 
-          {/* States grid */}
+          {/* States grid — large states get double width */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {germanStates.map((state) => {
-              const topCities = state.cities.slice(0, 4);
-              const emoji = stateEmojis[state.slug] || "📍";
-
-              return (
-                <div
-                  key={state.slug}
-                  className="group relative bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-gold-200 hover:shadow-gold transition-all duration-400 card-hover"
-                >
-                  {/* Gradient accent top bar */}
-                  <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
-                  {/* Card header */}
-                  <Link href={`/standorte/${state.slug}`} className="block p-5">
-                    <div className="flex items-start justify-between mb-3">
-                      <div className="flex items-center gap-3">
-                        <div className="text-2xl">{emoji}</div>
-                        <div>
-                          <h3 className="font-bold text-navy-900 group-hover:text-gold-600 transition-colors text-sm leading-tight">
-                            Autoankauf {state.name}
-                          </h3>
-                          <p className="text-xs text-slate-400 mt-0.5">
-                            {state.cities.length > 0
-                              ? `${state.cities.length} ${state.cities.length === 1 ? "Stadt" : "Städte"}`
-                              : "Stadtstaatservice"}
-                          </p>
-                        </div>
-                      </div>
-                      <div className="w-7 h-7 rounded-full bg-slate-50 group-hover:bg-gold-50 border border-slate-200 group-hover:border-gold-200 flex items-center justify-center transition-all flex-shrink-0">
-                        <ChevronRight className="h-3.5 w-3.5 text-slate-400 group-hover:text-gold-500 group-hover:translate-x-0.5 transition-all" />
-                      </div>
-                    </div>
-                  </Link>
-
-                  {/* City pills */}
-                  {topCities.length > 0 && (
-                    <div className="px-5 pb-5">
-                      <div className="h-px bg-slate-100 mb-3" />
-                      <div className="flex flex-wrap gap-1.5">
-                        {topCities.map((city) => (
-                          <Link
-                            key={city.slug}
-                            href={`/standorte/${state.slug}/${city.slug}`}
-                            className="text-xs px-2.5 py-1 bg-slate-50 hover:bg-gold-50 text-slate-600 hover:text-gold-700 border border-slate-200 hover:border-gold-200 rounded-lg transition-all font-medium"
-                          >
-                            {city.name}
-                          </Link>
-                        ))}
-                        {state.cities.length > 4 && (
-                          <Link
-                            href={`/standorte/${state.slug}`}
-                            className="text-xs px-2.5 py-1 text-gold-600 hover:text-gold-700 font-semibold transition-colors"
-                          >
-                            +{state.cities.length - 4} mehr →
-                          </Link>
-                        )}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
+            {stateCards.map((state) => (
+              <StateCard key={state.slug} {...state} />
+            ))}
           </div>
         </div>
       </section>
@@ -203,12 +153,28 @@ export default async function StandortePage({
                 Warum uns wählen
               </div>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy-900 mb-6 leading-tight">
-                Der zuverlässige Autoankauf-Service in Deutschland
+                {nation.content.whyUsTitle}
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Seit Jahren kaufen wir Fahrzeuge in ganz Deutschland an. Unser Netzwerk ermöglicht es uns,
-                schnell und unkompliziert zu reagieren — egal ob Sie in einer Großstadt oder auf dem Land wohnen.
+                {nation.content.whyUsDescription}
               </p>
+
+              {/* Trust stats strip */}
+              <div className="flex flex-wrap gap-3 mb-8">
+                {[
+                  { value: "7+", label: "Jahre Erfahrung" },
+                  { value: formatNumber(50000) + "+", label: "Fahrzeuge" },
+                  { value: "4.9★", label: "Bewertung" },
+                ].map((stat, i) => (
+                  <div
+                    key={i}
+                    className="flex items-center gap-2 bg-gold-50 border border-gold-200 rounded-xl px-4 py-2.5"
+                  >
+                    <span className="text-lg font-bold text-gold-700">{stat.value}</span>
+                    <span className="text-xs text-gold-600 font-medium">{stat.label}</span>
+                  </div>
+                ))}
+              </div>
 
               <div className="space-y-4">
                 {[
@@ -234,7 +200,6 @@ export default async function StandortePage({
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-gold rounded-3xl blur-2xl opacity-10" />
               <div className="relative bg-gradient-hero rounded-3xl p-8 lg:p-10 text-white overflow-hidden border border-white/10">
-                {/* Decorative pattern */}
                 <div className="absolute inset-0 bg-hero-pattern opacity-20" />
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gold-400/10 rounded-full blur-2xl" />
 
@@ -275,6 +240,52 @@ export default async function StandortePage({
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── FULL CITY INDEX (SEO value) ── */}
+      <section className="py-12 lg:py-16 bg-slate-50/50 border-t border-slate-100">
+        <div className="container">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl lg:text-3xl font-bold text-navy-900 mb-3">
+              Alle Standorte auf einen Blick
+            </h2>
+            <p className="text-slate-500 max-w-lg mx-auto text-sm">
+              Direkte Links zu allen Städten, in denen wir Ihren Autoankauf abwickeln.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {states
+              .filter((s) => s.cities.length > 0)
+              .map((state) => {
+                const cities = getCitiesByState(state.slug);
+                return (
+                  <div key={state.slug}>
+                    <Link
+                      href={`/standorte/${state.slug}`}
+                      className="flex items-center gap-2 text-sm font-bold text-navy-900 hover:text-gold-600 transition-colors mb-2"
+                    >
+                      <span className="w-6 h-6 rounded-full bg-gold-50 border border-gold-200 flex items-center justify-center text-[10px] font-bold text-gold-700">
+                        {state.stateCode}
+                      </span>
+                      {state.name}
+                    </Link>
+                    <div className="flex flex-col gap-0.5">
+                      {cities.map((city) => (
+                        <Link
+                          key={city.slug}
+                          href={`/standorte/${state.slug}/${city.slug}`}
+                          className="text-xs text-slate-500 hover:text-gold-600 transition-colors py-0.5 pl-8 flex items-center gap-1"
+                        >
+                          <CheckCircle className="h-2.5 w-2.5 text-gold-300 flex-shrink-0" />
+                          {city.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </section>

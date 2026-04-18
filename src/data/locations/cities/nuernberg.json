@@ -1,0 +1,58 @@
+{
+  "id": "nuernberg",
+  "name": "Nürnberg",
+  "slug": "nuernberg",
+  "stateSlug": "bayern",
+  "stateCode": "BY",
+  "stateName": "Bayern",
+  "population": 523026,
+  "postalCodeRange": "90402–90491",
+  "coordinates": {
+    "lat": 49.4521,
+    "lng": 11.0767
+  },
+  "meta": {
+    "title": "Autoankauf Nürnberg | Auto verkaufen in Nürnberg",
+    "description": "Autoankauf in Nürnberg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Nürnberg. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Nürnberg",
+      "Auto verkaufen Nürnberg",
+      "PKW Ankauf Nürnberg",
+      "Gebrauchtwagen Ankauf Nürnberg",
+      "KFZ Ankauf Nürnberg"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Nürnberg schnell, fair und unkompliziert. Mit über 523.026 Einwohnern ist Nürnberg ein bedeutender Automobilmarkt in Bayern.",
+    "localContent": "Nürnberg ist mit rund 523.000 Einwohnern die zweitgrößte Stadt Bayerns und ein bedeutendes Wirtschaftszentrum in Franken."
+  },
+  "landmarks": [
+    "Kaiserburg",
+    "Altstadt",
+    "Germanisches Nationalmuseum",
+    "Christkindlesmarkt"
+  ],
+  "nearbyCities": [
+    "fuerth",
+    "erlangen",
+    "regensburg"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Nürnberg verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Nürnberg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Nürnberg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Nürnberg?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

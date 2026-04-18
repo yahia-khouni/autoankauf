@@ -1,0 +1,58 @@
+{
+  "id": "pforzheim",
+  "name": "Pforzheim",
+  "slug": "pforzheim",
+  "stateSlug": "baden-wuerttemberg",
+  "stateCode": "BW",
+  "stateName": "Baden-Württemberg",
+  "population": 125542,
+  "postalCodeRange": "75172–75181",
+  "coordinates": {
+    "lat": 48.8922,
+    "lng": 8.6946
+  },
+  "meta": {
+    "title": "Autoankauf Pforzheim | Auto verkaufen in Pforzheim",
+    "description": "Autoankauf in Pforzheim: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Pforzheim. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Pforzheim",
+      "Auto verkaufen Pforzheim",
+      "PKW Ankauf Pforzheim",
+      "Gebrauchtwagen Ankauf Pforzheim",
+      "KFZ Ankauf Pforzheim"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Pforzheim schnell, fair und unkompliziert. Mit über 125.542 Einwohnern ist Pforzheim ein bedeutender Automobilmarkt in Baden-Württemberg.",
+    "localContent": "Pforzheim ist als Goldstadt bekannt und liegt am Nordrand des Schwarzwalds. Mit rund 126.000 Einwohnern ist sie das Zentrum der deutschen Schmuckindustrie."
+  },
+  "landmarks": [
+    "Schmuckmuseum",
+    "Wildpark",
+    "Gasometer",
+    "Kupferhammer"
+  ],
+  "nearbyCities": [
+    "karlsruhe",
+    "stuttgart",
+    "heidelberg"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Pforzheim verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Pforzheim innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Pforzheim und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Pforzheim?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

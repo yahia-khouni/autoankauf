@@ -1,0 +1,28 @@
+{
+  "id": "stuttgart",
+  "name": "Stuttgart",
+  "slug": "stuttgart",
+  "stateSlug": "baden-wuerttemberg",
+  "stateCode": "BW",
+  "stateName": "Baden-Württemberg",
+  "population": 635911,
+  "postalCodeRange": "70173–70619",
+  "coordinates": { "lat": 48.7758, "lng": 9.1829 },
+  "meta": {
+    "title": "Autoankauf Stuttgart | Auto verkaufen in Stuttgart",
+    "description": "Autoankauf in Stuttgart: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Stuttgart. Jetzt Angebot erhalten!",
+    "keywords": ["Autoankauf Stuttgart", "Auto verkaufen Stuttgart", "PKW Ankauf Stuttgart", "Gebrauchtwagen Ankauf Stuttgart", "KFZ Ankauf Stuttgart"]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Stuttgart schnell, fair und unkompliziert. Als Landeshauptstadt von Baden-Württemberg und Sitz von Mercedes-Benz und Porsche ist Stuttgart das Herz der deutschen Automobilindustrie.",
+    "localContent": "Stuttgart ist die Landeshauptstadt von Baden-Württemberg und mit rund 636.000 Einwohnern die sechstgrößte Stadt Deutschlands. Als Heimat von Mercedes-Benz und Porsche ist Stuttgart das Zentrum der deutschen Automobilindustrie."
+  },
+  "landmarks": ["Mercedes-Benz Museum", "Porsche Museum", "Schlossplatz", "Wilhelma", "Fernsehturm"],
+  "nearbyCities": ["heilbronn", "pforzheim", "reutlingen"],
+  "faq": [
+    { "question": "Wie schnell kann ich mein Auto in Stuttgart verkaufen?", "answer": "In der Regel können wir den gesamten Ankauf in Stuttgart innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller." },
+    { "question": "Muss ich mein Auto nach Stuttgart bringen?", "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Stuttgart und der gesamten Region. Wir kommen direkt zu Ihnen." },
+    { "question": "Welche Unterlagen benötige ich?", "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft." },
+    { "question": "Kaufen Sie auch Autos mit Mängeln in Stuttgart?", "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand." }
+  ]
+}

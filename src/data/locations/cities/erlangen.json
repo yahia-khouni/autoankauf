@@ -1,0 +1,58 @@
+{
+  "id": "erlangen",
+  "name": "Erlangen",
+  "slug": "erlangen",
+  "stateSlug": "bayern",
+  "stateCode": "BY",
+  "stateName": "Bayern",
+  "population": 113292,
+  "postalCodeRange": "91052–91058",
+  "coordinates": {
+    "lat": 49.5897,
+    "lng": 11.012
+  },
+  "meta": {
+    "title": "Autoankauf Erlangen | Auto verkaufen in Erlangen",
+    "description": "Autoankauf in Erlangen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Erlangen. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Erlangen",
+      "Auto verkaufen Erlangen",
+      "PKW Ankauf Erlangen",
+      "Gebrauchtwagen Ankauf Erlangen",
+      "KFZ Ankauf Erlangen"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Erlangen schnell, fair und unkompliziert. Mit über 113.292 Einwohnern ist Erlangen ein bedeutender Automobilmarkt in Bayern.",
+    "localContent": "Erlangen ist eine Universitätsstadt und Sitz des Siemens-Healthineers-Konzerns. Mit rund 113.000 Einwohnern ist die Stadt Teil der Metropolregion Nürnberg."
+  },
+  "landmarks": [
+    "Schlossgarten",
+    "Markgräfliches Schloss",
+    "Siemens Campus",
+    "Botanischer Garten"
+  ],
+  "nearbyCities": [
+    "nuernberg",
+    "fuerth",
+    "wuerzburg"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Erlangen verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Erlangen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Erlangen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Erlangen?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

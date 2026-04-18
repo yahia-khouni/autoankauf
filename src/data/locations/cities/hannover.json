@@ -1,0 +1,58 @@
+{
+  "id": "hannover",
+  "name": "Hannover",
+  "slug": "hannover",
+  "stateSlug": "niedersachsen",
+  "stateCode": "NI",
+  "stateName": "Niedersachsen",
+  "population": 545061,
+  "postalCodeRange": "30159–30659",
+  "coordinates": {
+    "lat": 52.3759,
+    "lng": 9.732
+  },
+  "meta": {
+    "title": "Autoankauf Hannover | Auto verkaufen in Hannover",
+    "description": "Autoankauf in Hannover: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Hannover. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Hannover",
+      "Auto verkaufen Hannover",
+      "PKW Ankauf Hannover",
+      "Gebrauchtwagen Ankauf Hannover",
+      "KFZ Ankauf Hannover"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Hannover schnell, fair und unkompliziert. Mit über 545.061 Einwohnern ist Hannover ein bedeutender Automobilmarkt in Niedersachsen.",
+    "localContent": "Hannover ist die Landeshauptstadt Niedersachsens und weltbekannt als Messestadt. Mit rund 545.000 Einwohnern ist die Stadt ein bedeutender Verkehrsknotenpunkt."
+  },
+  "landmarks": [
+    "Herrenhäuser Gärten",
+    "Neues Rathaus",
+    "Maschsee",
+    "Hannover Messe"
+  ],
+  "nearbyCities": [
+    "braunschweig",
+    "wolfsburg",
+    "goettingen"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Hannover verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Hannover innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Hannover und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Hannover?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

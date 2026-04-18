@@ -1,0 +1,58 @@
+{
+  "id": "muenster",
+  "name": "Münster",
+  "slug": "muenster",
+  "stateSlug": "nordrhein-westfalen",
+  "stateCode": "NW",
+  "stateName": "Nordrhein-Westfalen",
+  "population": 317713,
+  "postalCodeRange": "48143–48167",
+  "coordinates": {
+    "lat": 51.9607,
+    "lng": 7.6261
+  },
+  "meta": {
+    "title": "Autoankauf Münster | Auto verkaufen in Münster",
+    "description": "Autoankauf in Münster: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Münster. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Münster",
+      "Auto verkaufen Münster",
+      "PKW Ankauf Münster",
+      "Gebrauchtwagen Ankauf Münster",
+      "KFZ Ankauf Münster"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Münster schnell, fair und unkompliziert. Mit über 317.713 Einwohnern ist Münster ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
+    "localContent": "Münster ist eine Universitätsstadt und wurde mehrfach als lebenswerteste Stadt der Welt ausgezeichnet. Die Fahrradstadt hat rund 318.000 Einwohner."
+  },
+  "landmarks": [
+    "Prinzipalmarkt",
+    "Aasee",
+    "Schloss Münster",
+    "Dom St. Paulus"
+  ],
+  "nearbyCities": [
+    "osnabrueck",
+    "bielefeld",
+    "dortmund"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Münster verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Münster innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Münster und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Münster?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

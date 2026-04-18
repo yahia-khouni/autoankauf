@@ -1,0 +1,20 @@
+{
+  "id": "berlin",
+  "name": "Berlin",
+  "slug": "berlin",
+  "stateCode": "BE",
+  "capital": "Berlin",
+  "area": 891,
+  "population": 3677472,
+  "isStateCity": true,
+  "meta": {
+    "title": "Autoankauf Berlin | Auto verkaufen in Berlin",
+    "description": "Verkaufen Sie Ihr Auto in Berlin. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in der gesamten Hauptstadt. Jetzt Angebot erhalten!",
+    "keywords": ["Autoankauf Berlin", "Auto verkaufen Berlin", "PKW Ankauf Berlin", "Gebrauchtwagen Ankauf Berlin", "KFZ Ankauf Berlin"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Berlin zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — im gesamten Stadtgebiet der Hauptstadt.",
+    "seoText": "Berlin ist die bevölkerungsreichste Stadt Deutschlands und ein dynamischer Automobilmarkt. Als Stadtstaat bieten wir unseren Ankauf-Service im gesamten Berliner Stadtgebiet an — von Mitte bis Spandau, von Pankow bis Neukölln. Egal in welchem Bezirk Sie wohnen, wir kommen direkt zu Ihnen."
+  },
+  "cities": []
+}

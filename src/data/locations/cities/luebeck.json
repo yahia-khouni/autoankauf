@@ -1,0 +1,57 @@
+{
+  "id": "luebeck",
+  "name": "Lübeck",
+  "slug": "luebeck",
+  "stateSlug": "schleswig-holstein",
+  "stateCode": "SH",
+  "stateName": "Schleswig-Holstein",
+  "population": 217198,
+  "postalCodeRange": "23552–23570",
+  "coordinates": {
+    "lat": 53.8655,
+    "lng": 10.6866
+  },
+  "meta": {
+    "title": "Autoankauf Lübeck | Auto verkaufen in Lübeck",
+    "description": "Autoankauf in Lübeck: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Lübeck. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Lübeck",
+      "Auto verkaufen Lübeck",
+      "PKW Ankauf Lübeck",
+      "Gebrauchtwagen Ankauf Lübeck",
+      "KFZ Ankauf Lübeck"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Lübeck schnell, fair und unkompliziert. Mit über 217.198 Einwohnern ist Lübeck ein bedeutender Automobilmarkt in Schleswig-Holstein.",
+    "localContent": "Lübeck ist die 'Königin der Hanse' und UNESCO-Welterbestadt. Die Stadt hat rund 217.000 Einwohner und ist bekannt für ihr Marzipan und die gotische Backsteinarchitektur."
+  },
+  "landmarks": [
+    "Holstentor",
+    "Altstadt",
+    "Buddenbrookhaus",
+    "Marzipan-Museum"
+  ],
+  "nearbyCities": [
+    "kiel",
+    "hamburg"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Lübeck verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Lübeck innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Lübeck und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Lübeck?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "schleswig-holstein",
+  "name": "Schleswig-Holstein",
+  "slug": "schleswig-holstein",
+  "stateCode": "SH",
+  "capital": "Kiel",
+  "area": 15804,
+  "population": 2922005,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Schleswig-Holstein | Auto verkaufen in SH",
+    "description": "Verkaufen Sie Ihr Auto in Schleswig-Holstein. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Kiel, Lübeck, Flensburg und Umgebung.",
+    "keywords": ["Autoankauf Schleswig-Holstein", "Auto verkaufen Schleswig-Holstein", "PKW Ankauf SH", "Gebrauchtwagen Ankauf Kiel", "KFZ Ankauf Lübeck"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Schleswig-Holstein zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Kiel bis Lübeck, im gesamten nördlichsten Bundesland.",
+    "seoText": "Schleswig-Holstein ist das nördlichste Bundesland Deutschlands, gelegen zwischen Nord- und Ostsee. Die Landeshauptstadt Kiel und die Hansestadt Lübeck sind die wichtigsten Wirtschaftszentren. Wir bieten einen zuverlässigen Autoankauf-Service in der gesamten Region."
+  },
+  "cities": ["kiel", "luebeck", "flensburg"]
+}

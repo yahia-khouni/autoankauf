@@ -1,0 +1,57 @@
+{
+  "id": "chemnitz",
+  "name": "Chemnitz",
+  "slug": "chemnitz",
+  "stateSlug": "sachsen",
+  "stateCode": "SN",
+  "stateName": "Sachsen",
+  "population": 249922,
+  "postalCodeRange": "09111–09131",
+  "coordinates": {
+    "lat": 50.8278,
+    "lng": 12.9214
+  },
+  "meta": {
+    "title": "Autoankauf Chemnitz | Auto verkaufen in Chemnitz",
+    "description": "Autoankauf in Chemnitz: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Chemnitz. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Chemnitz",
+      "Auto verkaufen Chemnitz",
+      "PKW Ankauf Chemnitz",
+      "Gebrauchtwagen Ankauf Chemnitz",
+      "KFZ Ankauf Chemnitz"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Chemnitz schnell, fair und unkompliziert. Mit über 249.922 Einwohnern ist Chemnitz ein bedeutender Automobilmarkt in Sachsen.",
+    "localContent": "Chemnitz ist die drittgrößte Stadt Sachsens und Europas Kulturhauptstadt 2025. Die Stadt war ein Zentrum der Industrialisierung und entwickelt sich zur modernen Technologiestadt."
+  },
+  "landmarks": [
+    "Industriemuseum",
+    "Karl-Marx-Monument",
+    "Schlossberg",
+    "Kunstsammlungen"
+  ],
+  "nearbyCities": [
+    "leipzig",
+    "dresden"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Chemnitz verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Chemnitz innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Chemnitz und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Chemnitz?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

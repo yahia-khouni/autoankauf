@@ -1,0 +1,58 @@
+{
+  "id": "wolfsburg",
+  "name": "Wolfsburg",
+  "slug": "wolfsburg",
+  "stateSlug": "niedersachsen",
+  "stateCode": "NI",
+  "stateName": "Niedersachsen",
+  "population": 128227,
+  "postalCodeRange": "38440–38448",
+  "coordinates": {
+    "lat": 52.4227,
+    "lng": 10.7865
+  },
+  "meta": {
+    "title": "Autoankauf Wolfsburg | Auto verkaufen in Wolfsburg",
+    "description": "Autoankauf in Wolfsburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Wolfsburg. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Wolfsburg",
+      "Auto verkaufen Wolfsburg",
+      "PKW Ankauf Wolfsburg",
+      "Gebrauchtwagen Ankauf Wolfsburg",
+      "KFZ Ankauf Wolfsburg"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Wolfsburg schnell, fair und unkompliziert. Mit über 128.227 Einwohnern ist Wolfsburg ein bedeutender Automobilmarkt in Niedersachsen.",
+    "localContent": "Wolfsburg ist die Heimat von Volkswagen und mit der Autostadt ein weltweit bekannter Automobilstandort. Die Stadt hat rund 128.000 Einwohner."
+  },
+  "landmarks": [
+    "Autostadt",
+    "VW-Werk",
+    "Phæno",
+    "Allerpark"
+  ],
+  "nearbyCities": [
+    "braunschweig",
+    "hannover",
+    "magdeburg"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Wolfsburg verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Wolfsburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Wolfsburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Wolfsburg?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

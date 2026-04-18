@@ -2,11 +2,10 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
-import { germanStates, getStateBySlug } from "@/data/locations";
+import { getAllStates, getStateBySlug, getCitiesByState } from "@/data/location-data";
+import { germanStates } from "@/data/locations";
 import {
   MapPin,
-  ChevronRight,
-  ArrowLeft,
   ArrowRight,
   Users,
   Zap,
@@ -21,6 +20,9 @@ import {
 import { formatNumber } from "@/lib/utils";
 import { LeadForm } from "@/components/forms/lead-form";
 import { locales, type Locale } from "@/lib/i18n";
+import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
+import { CityCard } from "@/components/locations/city-card";
+import { BreadcrumbSchema, LocalBusinessSchema } from "@/components/seo/schema-markup";
 
 type Props = {
   params: Promise<{ locale: Locale; state: string }>;
@@ -43,8 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!state) return { title: "Nicht gefunden" };
 
   return {
-    title: `Autoankauf ${state.name} | Auto verkaufen in ${state.name}`,
-    description: `Verkaufen Sie Ihr Auto in ${state.name}. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in allen Städten von ${state.name}. Jetzt Angebot erhalten!`,
+    title: state.meta.title,
+    description: state.meta.description,
+    keywords: state.meta.keywords,
   };
 }
 
@@ -53,25 +56,25 @@ const featureCards = [
     icon: Clock,
     title: "24h Angebot",
     desc: "Schnelle Reaktion",
-    gradient: "from-amber-400 to-orange-500",
+    gradient: "from-gold-400 to-gold-600",
   },
   {
     icon: Euro,
     title: "Faire Preise",
     desc: "Marktgerechter Wert",
-    gradient: "from-emerald-400 to-teal-600",
+    gradient: "from-gold-500 to-amber-600",
   },
   {
     icon: Car,
     title: "Alle Marken",
     desc: "Jedes Fahrzeug",
-    gradient: "from-blue-400 to-indigo-600",
+    gradient: "from-navy-600 to-navy-800",
   },
   {
     icon: Phone,
     title: "Persönlich",
     desc: "Kein Callcenter",
-    gradient: "from-purple-400 to-pink-600",
+    gradient: "from-navy-500 to-navy-700",
   },
 ];
 
@@ -82,36 +85,65 @@ export default async function StatePage({ params }: Props) {
   const state = getStateBySlug(stateSlug);
   if (!state) notFound();
 
-  const totalPop = state.cities.reduce((s, c) => s + c.population, 0);
+  const cities = getCitiesByState(stateSlug);
+  const allStatesData = getAllStates();
+  const totalPop = cities.reduce((s, c) => s + c.population, 0);
+  const maxPop = cities.length > 0 ? Math.max(...cities.map((c) => c.population)) : 0;
+
+  const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
 
   return (
     <div className="relative overflow-hidden">
+      {/* Schema.org */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: baseUrl },
+          { name: "Standorte", url: `${baseUrl}/standorte` },
+          { name: state.name, url: `${baseUrl}/standorte/${state.slug}` },
+        ]}
+      />
+      <LocalBusinessSchema
+        name={`Autoankauf ${state.name}`}
+        description={state.meta.description}
+        url={`${baseUrl}/standorte/${state.slug}`}
+        areaServed={state.name}
+        address={{
+          addressLocality: state.capital,
+          addressRegion: state.name,
+          addressCountry: "DE",
+        }}
+      />
+
       {/* ── HERO ── */}
-      <section className="relative py-16 lg:py-24 overflow-hidden">
+      <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 gradient-hero" />
         <div className="absolute inset-0 bg-hero-pattern opacity-20" />
+
+        {/* State code watermark */}
+        <div className="absolute top-1/2 right-8 -translate-y-1/2 text-[200px] lg:text-[280px] font-black text-white/[0.03] leading-none pointer-events-none select-none hidden lg:block">
+          {state.stateCode}
+        </div>
+
         <div className="absolute top-10 right-10 w-80 h-80 bg-gold-400/8 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-navy-400/15 rounded-full blur-3xl pointer-events-none" />
 
         <div className="container relative">
           {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm mb-8">
-            <Link href="/" className="text-slate-400 hover:text-gold-400 transition-colors">
-              Home
-            </Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/standorte" className="text-slate-400 hover:text-gold-400 transition-colors">
-              Standorte
-            </Link>
-            <span className="text-slate-600">/</span>
-            <span className="text-gold-400">{state.name}</span>
-          </nav>
+          <LocationBreadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Standorte", href: "/standorte" },
+              { label: state.name },
+            ]}
+          />
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               {/* Badge */}
               <div className="inline-flex items-center gap-2 rounded-full bg-white/10 border border-gold-400/30 backdrop-blur-sm px-4 py-2 mb-6">
-                <MapPin className="h-4 w-4 text-gold-400" />
+                <div className="w-6 h-6 rounded-full bg-gold-400/20 border border-gold-400/40 flex items-center justify-center">
+                  <span className="text-[10px] font-bold text-gold-300">{state.stateCode}</span>
+                </div>
                 <span className="text-sm font-medium text-gold-300">
                   {state.cities.length > 0
                     ? `${state.cities.length} Städte verfügbar`
@@ -121,19 +153,15 @@ export default async function StatePage({ params }: Props) {
 
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight">
                 Autoankauf{" "}
-                <span className="text-gold-gradient">{state.name}</span>
+                <span className="text-gold-gradient block sm:inline">{state.name}</span>
               </h1>
 
-              <p className="text-lg text-slate-300 leading-relaxed mb-8">
-                Wir kaufen Ihr Auto in{" "}
-                <strong className="text-white">{state.name}</strong> zu fairen
-                Marktpreisen. Schnell, unkompliziert und mit sofortiger
-                Auszahlung — überall in{" "}
-                {state.cities.length > 0 ? "allen Städten des Bundeslandes" : "ganz {state.name}"}.
+              <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-[80%]">
+                {state.content.heroDescription}
               </p>
 
               {/* Mini stats */}
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap gap-3">
                 {state.cities.length > 0 && (
                   <div className="flex items-center gap-2 bg-white/8 border border-white/15 rounded-xl px-4 py-2.5 backdrop-blur-sm">
                     <MapPin className="h-4 w-4 text-gold-400" />
@@ -239,31 +267,21 @@ export default async function StatePage({ params }: Props) {
                   Wählen Sie Ihre Stadt für spezifische lokale Informationen.
                 </p>
 
-                {state.cities.length > 0 ? (
+                {cities.length > 0 ? (
                   <div className="grid sm:grid-cols-2 gap-3">
-                    {state.cities.map((city) => (
-                      <Link
-                        key={city.slug}
-                        href={`/standorte/${state.slug}/${city.slug}`}
-                        className="group flex items-center justify-between p-4 bg-white rounded-2xl border border-slate-100 hover:border-gold-200 hover:shadow-gold transition-all duration-300 card-gradient-border"
-                      >
-                        <div className="flex items-center gap-3 relative z-10">
-                          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-gold-50 to-amber-50 border border-gold-100 flex items-center justify-center group-hover:border-gold-200 transition-colors">
-                            <MapPin className="h-4 w-4 text-gold-500 pin-bounce" />
-                          </div>
-                          <div>
-                            <div className="font-semibold text-navy-900 group-hover:text-gold-700 transition-colors text-sm">
-                              Autoankauf {city.name}
-                            </div>
-                            <div className="text-xs text-slate-400 flex items-center gap-1 mt-0.5">
-                              <Users className="h-3 w-3" />
-                              {formatNumber(city.population)} Einwohner
-                            </div>
-                          </div>
-                        </div>
-                        <ChevronRight className="h-4 w-4 text-slate-300 group-hover:text-gold-500 group-hover:translate-x-1 transition-all relative z-10 flex-shrink-0" />
-                      </Link>
-                    ))}
+                    {cities
+                      .sort((a, b) => b.population - a.population)
+                      .map((city, i) => (
+                        <CityCard
+                          key={city.slug}
+                          stateSlug={state.slug}
+                          slug={city.slug}
+                          name={city.name}
+                          population={city.population}
+                          maxPopulation={maxPop}
+                          index={i}
+                        />
+                      ))}
                   </div>
                 ) : (
                   <div className="bg-gradient-to-br from-navy-50 to-slate-50 border border-navy-100 rounded-2xl p-6 text-slate-600">
@@ -340,11 +358,7 @@ export default async function StatePage({ params }: Props) {
               {/* SEO Prose */}
               <div className="prose prose-lg max-w-none prose-headings:text-navy-900 prose-headings:font-bold prose-p:text-slate-600 prose-strong:text-navy-800 prose-li:text-slate-600">
                 <h2>Warum Autoankauf in {state.name}?</h2>
-                <p>
-                  Sie möchten Ihr Auto in {state.name} verkaufen? Wir bieten Ihnen einen schnellen,
-                  fairen und unkomplizierten Service. Egal ob Ihr Fahrzeug noch gut in Schuss ist
-                  oder schon einige Gebrauchsspuren hat — wir machen Ihnen ein faires Angebot.
-                </p>
+                <p>{state.content.seoText}</p>
 
                 <h3>Welche Fahrzeuge kaufen wir in {state.name}?</h3>
                 <ul>
@@ -397,7 +411,7 @@ export default async function StatePage({ params }: Props) {
                       <div className="space-y-2.5">
                         {[
                           "Keine Provision, kein Risiko",
-                          "Abholung in ganz {state.name}",
+                          `Abholung in ganz ${state.name}`,
                           "Sofortige Auszahlung garantiert",
                         ].map((t, i) => (
                           <div key={i} className="flex items-center gap-2.5">
@@ -429,7 +443,7 @@ export default async function StatePage({ params }: Props) {
             </Link>
           </div>
           <div className="flex flex-wrap gap-2">
-            {germanStates
+            {allStatesData
               .filter((s) => s.slug !== state.slug)
               .slice(0, 10)
               .map((s) => (
@@ -438,7 +452,9 @@ export default async function StatePage({ params }: Props) {
                   href={`/standorte/${s.slug}`}
                   className="inline-flex items-center gap-1.5 px-4 py-2 bg-white border border-slate-200 hover:border-gold-300 hover:bg-gold-50 hover:text-gold-700 text-sm font-medium text-slate-700 rounded-xl transition-all"
                 >
-                  <MapPin className="h-3.5 w-3.5 text-slate-400" />
+                  <span className="w-5 h-5 rounded-full bg-gold-50 border border-gold-200 flex items-center justify-center text-[8px] font-bold text-gold-700">
+                    {s.stateCode}
+                  </span>
                   {s.name}
                 </Link>
               ))}

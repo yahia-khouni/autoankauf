@@ -1,0 +1,58 @@
+{
+  "id": "wuppertal",
+  "name": "Wuppertal",
+  "slug": "wuppertal",
+  "stateSlug": "nordrhein-westfalen",
+  "stateCode": "NW",
+  "stateName": "Nordrhein-Westfalen",
+  "population": 359012,
+  "postalCodeRange": "42103–42399",
+  "coordinates": {
+    "lat": 51.2562,
+    "lng": 7.1508
+  },
+  "meta": {
+    "title": "Autoankauf Wuppertal | Auto verkaufen in Wuppertal",
+    "description": "Autoankauf in Wuppertal: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Wuppertal. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Wuppertal",
+      "Auto verkaufen Wuppertal",
+      "PKW Ankauf Wuppertal",
+      "Gebrauchtwagen Ankauf Wuppertal",
+      "KFZ Ankauf Wuppertal"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Wuppertal schnell, fair und unkompliziert. Mit über 359.012 Einwohnern ist Wuppertal ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
+    "localContent": "Wuppertal ist weltweit bekannt für seine einzigartige Schwebebahn. Die Stadt im Bergischen Land hat rund 359.000 Einwohner."
+  },
+  "landmarks": [
+    "Schwebebahn",
+    "Von der Heydt-Museum",
+    "Zoologischer Garten",
+    "Historische Stadthalle"
+  ],
+  "nearbyCities": [
+    "duesseldorf",
+    "koeln",
+    "bochum"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Wuppertal verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Wuppertal innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Wuppertal und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Wuppertal?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "baden-wuerttemberg",
+  "name": "Baden-Württemberg",
+  "slug": "baden-wuerttemberg",
+  "stateCode": "BW",
+  "capital": "Stuttgart",
+  "area": 35751,
+  "population": 11103043,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Baden-Württemberg | Auto verkaufen in Baden-Württemberg",
+    "description": "Verkaufen Sie Ihr Auto in Baden-Württemberg. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Stuttgart, Karlsruhe, Mannheim und 6 weiteren Städten.",
+    "keywords": ["Autoankauf Baden-Württemberg", "Auto verkaufen Baden-Württemberg", "PKW Ankauf BW", "Gebrauchtwagen Ankauf Stuttgart", "KFZ Ankauf Mannheim"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Baden-Württemberg zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Stuttgart bis Freiburg, in allen Städten des Bundeslandes.",
+    "seoText": "Baden-Württemberg ist das Stammland der Automobilindustrie — Heimat von Mercedes-Benz, Porsche und Bosch. Ob Ihr Fahrzeug ein schwäbisches Premiummodell oder ein zuverlässiger Alltagswagen ist, wir machen Ihnen ein faires Angebot. Unser Service deckt alle Großstädte und viele weitere Orte in Baden-Württemberg ab."
+  },
+  "cities": ["stuttgart", "karlsruhe", "mannheim", "freiburg", "heidelberg", "ulm", "heilbronn", "pforzheim", "reutlingen"]
+}

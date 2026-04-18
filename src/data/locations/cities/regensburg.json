@@ -1,0 +1,58 @@
+{
+  "id": "regensburg",
+  "name": "Regensburg",
+  "slug": "regensburg",
+  "stateSlug": "bayern",
+  "stateCode": "BY",
+  "stateName": "Bayern",
+  "population": 153094,
+  "postalCodeRange": "93047–93059",
+  "coordinates": {
+    "lat": 49.0134,
+    "lng": 12.1016
+  },
+  "meta": {
+    "title": "Autoankauf Regensburg | Auto verkaufen in Regensburg",
+    "description": "Autoankauf in Regensburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Regensburg. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Regensburg",
+      "Auto verkaufen Regensburg",
+      "PKW Ankauf Regensburg",
+      "Gebrauchtwagen Ankauf Regensburg",
+      "KFZ Ankauf Regensburg"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Regensburg schnell, fair und unkompliziert. Mit über 153.094 Einwohnern ist Regensburg ein bedeutender Automobilmarkt in Bayern.",
+    "localContent": "Regensburg liegt an der Donau und ist UNESCO-Welterbestadt. Mit rund 153.000 Einwohnern ist die Stadt ein wichtiger Standort für BMW und Continental."
+  },
+  "landmarks": [
+    "Steinerne Brücke",
+    "Dom St. Peter",
+    "Altstadt",
+    "Walhalla"
+  ],
+  "nearbyCities": [
+    "nuernberg",
+    "ingolstadt",
+    "muenchen"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Regensburg verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Regensburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Regensburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Regensburg?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "goettingen",
+  "name": "Göttingen",
+  "slug": "goettingen",
+  "stateSlug": "niedersachsen",
+  "stateCode": "NI",
+  "stateName": "Niedersachsen",
+  "population": 117665,
+  "postalCodeRange": "37073–37085",
+  "coordinates": {
+    "lat": 51.5413,
+    "lng": 9.9158
+  },
+  "meta": {
+    "title": "Autoankauf Göttingen | Auto verkaufen in Göttingen",
+    "description": "Autoankauf in Göttingen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Göttingen. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Göttingen",
+      "Auto verkaufen Göttingen",
+      "PKW Ankauf Göttingen",
+      "Gebrauchtwagen Ankauf Göttingen",
+      "KFZ Ankauf Göttingen"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Göttingen schnell, fair und unkompliziert. Mit über 117.665 Einwohnern ist Göttingen ein bedeutender Automobilmarkt in Niedersachsen.",
+    "localContent": "Göttingen ist eine renommierte Universitätsstadt in Südniedersachsen. Die Georg-August-Universität hat zahlreiche Nobelpreisträger hervorgebracht."
+  },
+  "landmarks": [
+    "Gänseliesel",
+    "Georg-August-Universität",
+    "Altes Rathaus",
+    "Botanischer Garten"
+  ],
+  "nearbyCities": [
+    "kassel",
+    "hannover",
+    "braunschweig"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Göttingen verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Göttingen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Göttingen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Göttingen?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

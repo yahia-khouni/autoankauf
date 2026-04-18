@@ -1,0 +1,20 @@
+{
+  "id": "saarland",
+  "name": "Saarland",
+  "slug": "saarland",
+  "stateCode": "SL",
+  "capital": "Saarbrücken",
+  "area": 2570,
+  "population": 990509,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Saarland | Auto verkaufen im Saarland",
+    "description": "Verkaufen Sie Ihr Auto im Saarland. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Saarbrücken und Umgebung.",
+    "keywords": ["Autoankauf Saarland", "Auto verkaufen Saarland", "PKW Ankauf SL", "Gebrauchtwagen Ankauf Saarbrücken", "KFZ Ankauf Saarland"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto im Saarland zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Saarbrücken und dem gesamten Bundesland.",
+    "seoText": "Das Saarland ist das kleinste Flächenland Deutschlands, liegt an der Grenze zu Frankreich und Luxemburg und hat eine starke Automobilzulieferer-Industrie. In der Landeshauptstadt Saarbrücken und im gesamten Saarland bieten wir Ihnen einen schnellen und fairen Ankauf-Service."
+  },
+  "cities": ["saarbruecken"]
+}

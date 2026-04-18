@@ -13,6 +13,8 @@ export type CarCondition = "EXCELLENT" | "GOOD" | "FAIR" | "POOR";
 
 export type LocationType = "STATE" | "CITY";
 
+// ─── Car Types ───────────────────────────────────────────────
+
 export interface CarMake {
   id: string;
   name: string;
@@ -28,6 +30,84 @@ export interface CarModel {
   yearsProduced?: string;
 }
 
+// ─── Location Types (JSON Data Architecture) ─────────────────
+
+export interface Coordinates {
+  lat: number;
+  lng: number;
+}
+
+export interface LocationMeta {
+  title: string;
+  description: string;
+  keywords: string[];
+}
+
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
+export interface NationData {
+  id: string;
+  name: string;
+  slug: string;
+  locale: string;
+  meta: LocationMeta;
+  stats: {
+    totalStates: number;
+    totalCities: number;
+    averageRating: number;
+    totalReviews: number;
+  };
+  content: {
+    heroTitle: string;
+    heroSubtitle: string;
+    whyUsTitle: string;
+    whyUsDescription: string;
+  };
+  stateOrder: string[];
+}
+
+export interface StateData {
+  id: string;
+  name: string;
+  slug: string;
+  stateCode: string;
+  capital: string;
+  area: number;
+  population: number;
+  isStateCity: boolean;
+  meta: LocationMeta;
+  content: {
+    heroDescription: string;
+    seoText: string;
+  };
+  cities: string[];
+}
+
+export interface CityData {
+  id: string;
+  name: string;
+  slug: string;
+  stateSlug: string;
+  stateCode: string;
+  stateName: string;
+  population: number;
+  postalCodeRange: string;
+  coordinates: Coordinates;
+  meta: LocationMeta;
+  content: {
+    heroDescription: string;
+    localContent: string;
+  };
+  landmarks: string[];
+  nearbyCities: string[];
+  faq: FAQ[];
+}
+
+// ─── Legacy Location Type (kept for backward compat) ─────────
+
 export interface Location {
   id: string;
   type: LocationType;
@@ -38,6 +118,8 @@ export interface Location {
   latitude?: number;
   longitude?: number;
 }
+
+// ─── Lead Types ──────────────────────────────────────────────
 
 export interface LeadFormData {
   makeId: string;

@@ -1,0 +1,58 @@
+{
+  "id": "erfurt",
+  "name": "Erfurt",
+  "slug": "erfurt",
+  "stateSlug": "thueringen",
+  "stateCode": "TH",
+  "stateName": "Thüringen",
+  "population": 214969,
+  "postalCodeRange": "99084–99099",
+  "coordinates": {
+    "lat": 50.9848,
+    "lng": 11.0299
+  },
+  "meta": {
+    "title": "Autoankauf Erfurt | Auto verkaufen in Erfurt",
+    "description": "Autoankauf in Erfurt: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Erfurt. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Erfurt",
+      "Auto verkaufen Erfurt",
+      "PKW Ankauf Erfurt",
+      "Gebrauchtwagen Ankauf Erfurt",
+      "KFZ Ankauf Erfurt"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Erfurt schnell, fair und unkompliziert. Mit über 214.969 Einwohnern ist Erfurt ein bedeutender Automobilmarkt in Thüringen.",
+    "localContent": "Erfurt ist die Landeshauptstadt Thüringens und eine der besterhaltenen mittelalterlichen Städte Deutschlands. Die Krämerbrücke ist die längste bebaute Brücke Europas."
+  },
+  "landmarks": [
+    "Krämerbrücke",
+    "Dom",
+    "Zitadelle Petersberg",
+    "EGA-Park"
+  ],
+  "nearbyCities": [
+    "jena",
+    "gera",
+    "kassel"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Erfurt verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Erfurt innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Erfurt und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Erfurt?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

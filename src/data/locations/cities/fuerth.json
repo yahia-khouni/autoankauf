@@ -1,0 +1,58 @@
+{
+  "id": "fuerth",
+  "name": "Fürth",
+  "slug": "fuerth",
+  "stateSlug": "bayern",
+  "stateCode": "BY",
+  "stateName": "Bayern",
+  "population": 128497,
+  "postalCodeRange": "90762–90768",
+  "coordinates": {
+    "lat": 49.4774,
+    "lng": 10.9888
+  },
+  "meta": {
+    "title": "Autoankauf Fürth | Auto verkaufen in Fürth",
+    "description": "Autoankauf in Fürth: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Fürth. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Fürth",
+      "Auto verkaufen Fürth",
+      "PKW Ankauf Fürth",
+      "Gebrauchtwagen Ankauf Fürth",
+      "KFZ Ankauf Fürth"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Fürth schnell, fair und unkompliziert. Mit über 128.497 Einwohnern ist Fürth ein bedeutender Automobilmarkt in Bayern.",
+    "localContent": "Fürth liegt direkt neben Nürnberg und bildet mit ihr einen gemeinsamen Ballungsraum. Die Stadt hat rund 128.500 Einwohner und ist eng mit der Geschichte der Eisenbahn verbunden."
+  },
+  "landmarks": [
+    "Stadttheater",
+    "Stadthalle",
+    "Jüdisches Museum Franken",
+    "Stadtpark"
+  ],
+  "nearbyCities": [
+    "nuernberg",
+    "erlangen",
+    "ingolstadt"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Fürth verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Fürth innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Fürth und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Fürth?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

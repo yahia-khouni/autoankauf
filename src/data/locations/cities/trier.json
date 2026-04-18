@@ -1,0 +1,58 @@
+{
+  "id": "trier",
+  "name": "Trier",
+  "slug": "trier",
+  "stateSlug": "rheinland-pfalz",
+  "stateCode": "RP",
+  "stateName": "Rheinland-Pfalz",
+  "population": 111528,
+  "postalCodeRange": "54290–54296",
+  "coordinates": {
+    "lat": 49.749,
+    "lng": 6.6371
+  },
+  "meta": {
+    "title": "Autoankauf Trier | Auto verkaufen in Trier",
+    "description": "Autoankauf in Trier: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Trier. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Trier",
+      "Auto verkaufen Trier",
+      "PKW Ankauf Trier",
+      "Gebrauchtwagen Ankauf Trier",
+      "KFZ Ankauf Trier"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Trier schnell, fair und unkompliziert. Mit über 111.528 Einwohnern ist Trier ein bedeutender Automobilmarkt in Rheinland-Pfalz.",
+    "localContent": "Trier ist die älteste Stadt Deutschlands und wurde von den Römern gegründet. Die Porta Nigra und die römischen Baudenkmäler gehören zum UNESCO-Welterbe."
+  },
+  "landmarks": [
+    "Porta Nigra",
+    "Dom",
+    "Kaiserthermen",
+    "Karl-Marx-Haus"
+  ],
+  "nearbyCities": [
+    "koblenz",
+    "saarbruecken",
+    "mainz"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Trier verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Trier innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Trier und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Trier?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

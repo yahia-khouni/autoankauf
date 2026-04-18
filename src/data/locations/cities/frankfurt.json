@@ -1,0 +1,60 @@
+{
+  "id": "frankfurt",
+  "name": "Frankfurt am Main",
+  "slug": "frankfurt",
+  "stateSlug": "hessen",
+  "stateCode": "HE",
+  "stateName": "Hessen",
+  "population": 764104,
+  "postalCodeRange": "60306–60599",
+  "coordinates": {
+    "lat": 50.1109,
+    "lng": 8.6821
+  },
+  "meta": {
+    "title": "Autoankauf Frankfurt am Main | Auto verkaufen in Frankfurt am Main",
+    "description": "Autoankauf in Frankfurt am Main: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Frankfurt am Main. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Frankfurt am Main",
+      "Auto verkaufen Frankfurt am Main",
+      "PKW Ankauf Frankfurt am Main",
+      "Gebrauchtwagen Ankauf Frankfurt am Main",
+      "KFZ Ankauf Frankfurt am Main"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Frankfurt am Main schnell, fair und unkompliziert. Mit über 764.104 Einwohnern ist Frankfurt am Main ein bedeutender Automobilmarkt in Hessen.",
+    "localContent": "Frankfurt am Main ist die fünftgrößte Stadt Deutschlands und das Finanzzentrum Europas. Die Mainmetropole hat rund 764.000 Einwohner und einen der größten Flughäfen des Kontinents."
+  },
+  "landmarks": [
+    "Römer",
+    "Skyline",
+    "Palmengarten",
+    "Sachsenhausen",
+    "Alte Oper"
+  ],
+  "nearbyCities": [
+    "wiesbaden",
+    "darmstadt",
+    "offenbach",
+    "mainz"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Frankfurt am Main verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Frankfurt am Main innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Frankfurt am Main und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Frankfurt am Main?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

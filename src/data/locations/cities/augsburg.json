@@ -1,0 +1,58 @@
+{
+  "id": "augsburg",
+  "name": "Augsburg",
+  "slug": "augsburg",
+  "stateSlug": "bayern",
+  "stateCode": "BY",
+  "stateName": "Bayern",
+  "population": 299637,
+  "postalCodeRange": "86150–86199",
+  "coordinates": {
+    "lat": 48.3705,
+    "lng": 10.8978
+  },
+  "meta": {
+    "title": "Autoankauf Augsburg | Auto verkaufen in Augsburg",
+    "description": "Autoankauf in Augsburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Augsburg. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Augsburg",
+      "Auto verkaufen Augsburg",
+      "PKW Ankauf Augsburg",
+      "Gebrauchtwagen Ankauf Augsburg",
+      "KFZ Ankauf Augsburg"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Augsburg schnell, fair und unkompliziert. Mit über 299.637 Einwohnern ist Augsburg ein bedeutender Automobilmarkt in Bayern.",
+    "localContent": "Augsburg ist eine der ältesten Städte Deutschlands und mit rund 300.000 Einwohnern die drittgrößte Stadt Bayerns. Die Stadt liegt an der Romantischen Straße."
+  },
+  "landmarks": [
+    "Fuggerei",
+    "Rathaus",
+    "Perlachturm",
+    "Augsburger Puppenkiste"
+  ],
+  "nearbyCities": [
+    "muenchen",
+    "ulm",
+    "ingolstadt"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Augsburg verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Augsburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Augsburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Augsburg?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

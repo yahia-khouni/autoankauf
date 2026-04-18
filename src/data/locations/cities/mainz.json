@@ -1,0 +1,58 @@
+{
+  "id": "mainz",
+  "name": "Mainz",
+  "slug": "mainz",
+  "stateSlug": "rheinland-pfalz",
+  "stateCode": "RP",
+  "stateName": "Rheinland-Pfalz",
+  "population": 220552,
+  "postalCodeRange": "55116–55131",
+  "coordinates": {
+    "lat": 49.9929,
+    "lng": 8.2473
+  },
+  "meta": {
+    "title": "Autoankauf Mainz | Auto verkaufen in Mainz",
+    "description": "Autoankauf in Mainz: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Mainz. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Mainz",
+      "Auto verkaufen Mainz",
+      "PKW Ankauf Mainz",
+      "Gebrauchtwagen Ankauf Mainz",
+      "KFZ Ankauf Mainz"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Mainz schnell, fair und unkompliziert. Mit über 220.552 Einwohnern ist Mainz ein bedeutender Automobilmarkt in Rheinland-Pfalz.",
+    "localContent": "Mainz ist die Landeshauptstadt von Rheinland-Pfalz und die Gutenberg-Stadt. Am Rhein und gegenüber von Wiesbaden gelegen, hat die Stadt rund 221.000 Einwohner."
+  },
+  "landmarks": [
+    "Mainzer Dom",
+    "Gutenberg-Museum",
+    "Altstadt",
+    "Zitadelle"
+  ],
+  "nearbyCities": [
+    "wiesbaden",
+    "frankfurt",
+    "darmstadt"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Mainz verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Mainz innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Mainz und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Mainz?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

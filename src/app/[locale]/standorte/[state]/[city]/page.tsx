@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
-import { germanStates, getStateBySlug, getCityBySlug } from "@/data/locations";
+import { germanStates } from "@/data/locations";
+import { getStateBySlug, getCityBySlug, getCitiesByState } from "@/data/location-data";
 import {
   MapPin,
   ArrowRight,
@@ -17,10 +18,13 @@ import {
   Zap,
   TrendingUp,
   ChevronRight,
+  ChevronDown,
 } from "lucide-react";
 import { formatNumber } from "@/lib/utils";
 import { LeadForm } from "@/components/forms/lead-form";
 import { locales, type Locale } from "@/lib/i18n";
+import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
+import { BreadcrumbSchema, LocalBusinessSchema, FAQSchema } from "@/components/seo/schema-markup";
 
 type Props = {
   params: Promise<{ locale: Locale; state: string; city: string }>;
@@ -40,70 +44,28 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state: stateSlug, city: citySlug } = await params;
-  const state = getStateBySlug(stateSlug);
-  const city = state ? getCityBySlug(stateSlug, citySlug) : null;
+  const city = getCityBySlug(stateSlug, citySlug);
 
-  if (!state || !city) return { title: "Nicht gefunden" };
+  if (!city) return { title: "Nicht gefunden" };
 
   return {
-    title: `Autoankauf ${city.name} | Auto verkaufen in ${city.name} (${state.name})`,
-    description: `Autoankauf in ${city.name}: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in ${city.name}. Jetzt Angebot erhalten!`,
-    keywords: [
-      `Autoankauf ${city.name}`,
-      `Auto verkaufen ${city.name}`,
-      `PKW Ankauf ${city.name}`,
-      `Gebrauchtwagen Ankauf ${city.name}`,
-      `Auto Ankauf ${state.name}`,
-    ],
+    title: city.meta.title,
+    description: city.meta.description,
+    keywords: city.meta.keywords,
   };
 }
 
 const featureCards = [
-  {
-    icon: Clock,
-    title: "24h Angebot",
-    desc: "Schnelle Reaktion",
-    gradient: "from-amber-400 to-orange-500",
-  },
-  {
-    icon: Euro,
-    title: "Faire Preise",
-    desc: "Marktgerecht",
-    gradient: "from-emerald-400 to-teal-600",
-  },
-  {
-    icon: Car,
-    title: "Alle Marken",
-    desc: "Jedes Modell",
-    gradient: "from-blue-400 to-indigo-600",
-  },
-  {
-    icon: Phone,
-    title: "Persönlich",
-    desc: "Kein Callcenter",
-    gradient: "from-purple-400 to-pink-600",
-  },
+  { icon: Clock, title: "24h Angebot", desc: "Schnelle Reaktion", gradient: "from-gold-400 to-gold-600" },
+  { icon: Euro, title: "Faire Preise", desc: "Marktgerecht", gradient: "from-gold-500 to-amber-600" },
+  { icon: Car, title: "Alle Marken", desc: "Jedes Modell", gradient: "from-navy-600 to-navy-800" },
+  { icon: Phone, title: "Persönlich", desc: "Kein Callcenter", gradient: "from-navy-500 to-navy-700" },
 ];
 
 const testimonials = [
-  {
-    name: "Thomas K.",
-    rating: 5,
-    text: "Unkomplizierter Ablauf, faires Angebot. Auto abgeholt und sofort bezahlt. Sehr empfehlenswert!",
-    car: "BMW 3er",
-  },
-  {
-    name: "Sandra M.",
-    rating: 5,
-    text: "Innerhalb von 24h ein super Angebot erhalten. Die Abwicklung war blitzschnell und transparent.",
-    car: "VW Golf",
-  },
-  {
-    name: "Markus L.",
-    rating: 5,
-    text: "Hatte ein Unfallfahrzeug — trotzdem ein faires Angebot. Sofort bar bezahlt. Top Service!",
-    car: "Mercedes C-Klasse",
-  },
+  { name: "Thomas K.", rating: 5, text: "Unkomplizierter Ablauf, faires Angebot. Auto abgeholt und sofort bezahlt. Sehr empfehlenswert!", car: "BMW 3er" },
+  { name: "Sandra M.", rating: 5, text: "Innerhalb von 24h ein super Angebot erhalten. Die Abwicklung war blitzschnell und transparent.", car: "VW Golf" },
+  { name: "Markus L.", rating: 5, text: "Hatte ein Unfallfahrzeug — trotzdem ein faires Angebot. Sofort bar bezahlt. Top Service!", car: "Mercedes C-Klasse" },
 ];
 
 export default async function CityPage({ params }: Props) {
@@ -111,18 +73,47 @@ export default async function CityPage({ params }: Props) {
   setRequestLocale(locale);
 
   const state = getStateBySlug(stateSlug);
-  const city = state ? getCityBySlug(stateSlug, citySlug) : null;
+  const city = getCityBySlug(stateSlug, citySlug);
 
   if (!state || !city) notFound();
 
-  const otherCities = state.cities.filter((c) => c.slug !== city.slug).slice(0, 6);
+  const allCities = getCitiesByState(stateSlug);
+  const otherCities = allCities.filter((c) => c.slug !== city.slug).slice(0, 6);
+  const nearbyCityData = city.nearbyCities
+    .map((slug) => allCities.find((c) => c.slug === slug))
+    .filter(Boolean);
+
+  const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
 
   return (
     <div className="relative overflow-hidden">
+      {/* Schema.org */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: baseUrl },
+          { name: "Standorte", url: `${baseUrl}/standorte` },
+          { name: state.name, url: `${baseUrl}/standorte/${state.slug}` },
+          { name: city.name, url: `${baseUrl}/standorte/${state.slug}/${city.slug}` },
+        ]}
+      />
+      <LocalBusinessSchema
+        name={`Autoankauf ${city.name}`}
+        description={city.meta.description}
+        url={`${baseUrl}/standorte/${state.slug}/${city.slug}`}
+        areaServed={city.name}
+        address={{
+          addressLocality: city.name,
+          addressRegion: state.name,
+          postalCode: city.postalCodeRange.split("–")[0],
+          addressCountry: "DE",
+        }}
+      />
+      {city.faq.length > 0 && <FAQSchema items={city.faq} />}
+
       {/* ══════════════════════════════════════════
           HERO
       ══════════════════════════════════════════ */}
-      <section className="relative py-16 lg:py-24 overflow-hidden">
+      <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 gradient-hero" />
         <div className="absolute inset-0 bg-hero-pattern opacity-20" />
         <div className="absolute top-10 right-10 w-80 h-80 bg-gold-400/8 rounded-full blur-3xl pointer-events-none" />
@@ -131,31 +122,23 @@ export default async function CityPage({ params }: Props) {
 
         <div className="container relative">
           {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm mb-8" aria-label="Breadcrumb">
-            <Link href="/" className="text-slate-400 hover:text-gold-400 transition-colors">
-              Home
-            </Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/standorte" className="text-slate-400 hover:text-gold-400 transition-colors">
-              Standorte
-            </Link>
-            <span className="text-slate-600">/</span>
-            <Link
-              href={`/standorte/${state.slug}`}
-              className="text-slate-400 hover:text-gold-400 transition-colors"
-            >
-              {state.name}
-            </Link>
-            <span className="text-slate-600">/</span>
-            <span className="text-gold-400">{city.name}</span>
-          </nav>
+          <LocationBreadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Standorte", href: "/standorte" },
+              { label: state.name, href: `/standorte/${state.slug}` },
+              { label: city.name },
+            ]}
+          />
 
           <div className="grid lg:grid-cols-5 gap-12 items-center">
             {/* Left: Headline */}
             <div className="lg:col-span-3">
               {/* Location badge */}
               <div className="inline-flex items-center gap-2 rounded-full bg-white/10 border border-gold-400/30 backdrop-blur-sm px-4 py-2 mb-6">
-                <MapPin className="h-4 w-4 text-gold-400" />
+                <div className="w-6 h-6 rounded-full bg-gold-400/20 border border-gold-400/40 flex items-center justify-center">
+                  <span className="text-[10px] font-bold text-gold-300">{city.stateCode}</span>
+                </div>
                 <span className="text-sm font-medium text-gold-300">
                   {city.name}, {state.name}
                 </span>
@@ -163,14 +146,11 @@ export default async function CityPage({ params }: Props) {
 
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight">
                 Autoankauf{" "}
-                <span className="text-gold-gradient">{city.name}</span>
+                <span className="text-gold-gradient block sm:inline">{city.name}</span>
               </h1>
 
-              <p className="text-xl text-slate-300 leading-relaxed mb-8">
-                Verkaufen Sie Ihr Auto in <strong className="text-white">{city.name}</strong> schnell,
-                fair und unkompliziert. Mit über{" "}
-                <strong className="text-white">{formatNumber(city.population)}</strong> Einwohnern ist{" "}
-                {city.name} eine der wichtigsten Städte in {state.name} — und wir sind direkt für Sie da.
+              <p className="text-xl text-slate-300 leading-relaxed mb-8 max-w-[80%]">
+                {city.content.heroDescription}
               </p>
 
               {/* Trust pills */}
@@ -201,7 +181,7 @@ export default async function CityPage({ params }: Props) {
                     <span className="text-gold-300 font-semibold text-sm">5.0 Sterne Bewertung</span>
                   </div>
                   <p className="text-slate-300 text-sm leading-relaxed mb-6">
-                    "Schnell, fair und professionell. Bestes Autoankauf-Erlebnis in {city.name}!"
+                    &ldquo;Schnell, fair und professionell. Bestes Autoankauf-Erlebnis in {city.name}!&rdquo;
                   </p>
                   <div className="grid grid-cols-3 gap-2 mb-6">
                     {[
@@ -271,11 +251,29 @@ export default async function CityPage({ params }: Props) {
                   Auto verkaufen in {city.name} — So einfach geht&apos;s
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
-                  Sie möchten Ihr Auto in {city.name} verkaufen? Wir machen es Ihnen so einfach wie
-                  möglich. Füllen Sie einfach unser kurzes Formular aus und erhalten Sie innerhalb
-                  von 24 Stunden ein faires, unverbindliches Angebot für Ihr Fahrzeug.
+                  {city.content.localContent}
                 </p>
               </div>
+
+              {/* Landmarks / Local Highlights */}
+              {city.landmarks.length > 0 && (
+                <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl border border-slate-100 p-6">
+                  <h3 className="text-sm font-bold text-navy-900 mb-3 flex items-center gap-2">
+                    <MapPin className="h-4 w-4 text-gold-500" />
+                    Bekannt in {city.name}
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {city.landmarks.map((landmark, i) => (
+                      <span
+                        key={i}
+                        className="text-xs px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-slate-600 font-medium"
+                      >
+                        {landmark}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Benefits Block */}
               <div className="bg-gradient-to-br from-navy-50 to-slate-50 rounded-3xl border border-navy-100 p-6 lg:p-8">
@@ -307,25 +305,13 @@ export default async function CityPage({ params }: Props) {
               {/* Process */}
               <div className="bg-gradient-to-br from-gold-50 to-amber-50 rounded-3xl border border-gold-200 p-6 lg:p-8">
                 <h3 className="text-xl font-bold text-navy-900 mb-6">
-                  Der Ablauf – In 3 Schritten zum Verkauf
+                  Der Ablauf — In 3 Schritten zum Verkauf
                 </h3>
                 <div className="space-y-5">
                   {[
-                    {
-                      step: "01",
-                      title: "Anfrage stellen",
-                      desc: `Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten.`,
-                    },
-                    {
-                      step: "02",
-                      title: "Angebot erhalten",
-                      desc: `Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege.`,
-                    },
-                    {
-                      step: "03",
-                      title: "Fahrzeug übergeben & kassieren",
-                      desc: `Bei Einigung kommen wir zu Ihnen in ${city.name}, prüfen das Fahrzeug und bezahlen sofort aus.`,
-                    },
+                    { step: "01", title: "Anfrage stellen", desc: `Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten.` },
+                    { step: "02", title: "Angebot erhalten", desc: `Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege.` },
+                    { step: "03", title: "Fahrzeug übergeben & kassieren", desc: `Bei Einigung kommen wir zu Ihnen in ${city.name}, prüfen das Fahrzeug und bezahlen sofort aus.` },
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-4 group">
                       <div className="w-12 h-12 rounded-2xl bg-gradient-gold flex items-center justify-center font-bold text-navy-900 flex-shrink-0 shadow-gold text-sm group-hover:scale-105 transition-transform">
@@ -398,55 +384,45 @@ export default async function CityPage({ params }: Props) {
                 </div>
               </div>
 
-              {/* FAQ */}
-              <div>
-                <h3 className="text-xl font-bold text-navy-900 mb-6">
-                  Häufig gestellte Fragen zum Autoankauf in {city.name}
-                </h3>
-                <div className="space-y-4">
-                  {[
-                    {
-                      q: "Wie lange dauert der gesamte Prozess?",
-                      a: `In der Regel können wir den gesamten Ankauf in ${city.name} innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller.`,
-                    },
-                    {
-                      q: `Muss ich mein Auto nach ${city.name} bringen?`,
-                      a: `Nein! Wir bieten einen kostenlosen Abholservice in ${city.name} und der gesamten Umgebung. Sie müssen sich um nichts kümmern.`,
-                    },
-                    {
-                      q: "Welche Unterlagen benötige ich?",
-                      a: "Für den Verkauf benötigen Sie: Fahrzeugbrief (Teil II), Fahrzeugschein (Teil I), HU-Bescheinigung (falls vorhanden), Serviceheft und alle Fahrzeugschlüssel.",
-                    },
-                    {
-                      q: "Kaufen Sie auch Autos mit Mängeln?",
-                      a: `Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, solche mit Motorschäden oder hohem Kilometerstand. Rufen Sie uns einfach an!`,
-                    },
-                  ].map((faq, i) => (
-                    <div
-                      key={i}
-                      className="bg-white border border-slate-100 hover:border-gold-100 rounded-2xl p-5 transition-colors"
-                    >
-                      <h4 className="font-bold text-navy-900 mb-2 text-sm">{faq.q}</h4>
-                      <p className="text-sm text-slate-600 leading-relaxed">{faq.a}</p>
-                    </div>
-                  ))}
+              {/* FAQ — from city JSON data */}
+              {city.faq.length > 0 && (
+                <div>
+                  <h3 className="text-xl font-bold text-navy-900 mb-6">
+                    Häufig gestellte Fragen zum Autoankauf in {city.name}
+                  </h3>
+                  <div className="space-y-3">
+                    {city.faq.map((faq, i) => (
+                      <details
+                        key={i}
+                        className="group bg-white border border-slate-100 hover:border-gold-100 rounded-2xl overflow-hidden transition-colors"
+                      >
+                        <summary className="flex items-center justify-between p-5 cursor-pointer list-none">
+                          <h4 className="font-bold text-navy-900 text-sm pr-4">{faq.question}</h4>
+                          <ChevronDown className="h-4 w-4 text-slate-400 group-open:rotate-180 transition-transform flex-shrink-0" />
+                        </summary>
+                        <div className="px-5 pb-5 -mt-1">
+                          <p className="text-sm text-slate-600 leading-relaxed">{faq.answer}</p>
+                        </div>
+                      </details>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
-              {/* Other Cities */}
-              {otherCities.length > 0 && (
+              {/* Nearby Cities */}
+              {nearbyCityData.length > 0 && (
                 <div className="bg-slate-50 rounded-3xl p-6 lg:p-8">
                   <h3 className="text-lg font-bold text-navy-900 mb-2">
-                    Autoankauf in weiteren Städten in {state.name}
+                    Autoankauf in der Nähe von {city.name}
                   </h3>
                   <p className="text-sm text-slate-500 mb-5">
                     Wir sind auch in diesen Städten für Sie da:
                   </p>
                   <div className="flex flex-wrap gap-2.5">
-                    {otherCities.map((c) => (
+                    {nearbyCityData.map((c) => c && (
                       <Link
                         key={c.slug}
-                        href={`/standorte/${state.slug}/${c.slug}`}
+                        href={`/standorte/${stateSlug}/${c.slug}`}
                         className="group inline-flex items-center gap-1.5 px-4 py-2.5 bg-white border border-slate-200 hover:border-gold-300 hover:bg-gold-50 rounded-xl text-sm font-medium text-navy-700 hover:text-gold-700 transition-all shadow-sm hover:shadow-md"
                       >
                         <MapPin className="h-3.5 w-3.5 text-slate-400 group-hover:text-gold-500 transition-colors" />
@@ -454,9 +430,31 @@ export default async function CityPage({ params }: Props) {
                         <ChevronRight className="h-3 w-3 text-slate-300 group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all" />
                       </Link>
                     ))}
-                    {state.cities.length > 7 && (
+                  </div>
+                </div>
+              )}
+
+              {/* Other Cities in same state */}
+              {otherCities.length > 0 && (
+                <div className="bg-slate-50 rounded-3xl p-6 lg:p-8">
+                  <h3 className="text-lg font-bold text-navy-900 mb-2">
+                    Weitere Städte in {state.name}
+                  </h3>
+                  <div className="flex flex-wrap gap-2.5">
+                    {otherCities.map((c) => (
                       <Link
-                        href={`/standorte/${state.slug}`}
+                        key={c.slug}
+                        href={`/standorte/${stateSlug}/${c.slug}`}
+                        className="group inline-flex items-center gap-1.5 px-4 py-2.5 bg-white border border-slate-200 hover:border-gold-300 hover:bg-gold-50 rounded-xl text-sm font-medium text-navy-700 hover:text-gold-700 transition-all shadow-sm hover:shadow-md"
+                      >
+                        <MapPin className="h-3.5 w-3.5 text-slate-400 group-hover:text-gold-500 transition-colors" />
+                        {c.name}
+                        <ChevronRight className="h-3 w-3 text-slate-300 group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all" />
+                      </Link>
+                    ))}
+                    {allCities.length > 7 && (
+                      <Link
+                        href={`/standorte/${stateSlug}`}
                         className="inline-flex items-center gap-1 px-4 py-2.5 text-gold-600 hover:text-gold-700 text-sm font-bold transition-colors"
                       >
                         Alle Städte in {state.name}
@@ -526,6 +524,12 @@ export default async function CityPage({ params }: Props) {
                   <div className="text-xs text-slate-400">
                     Einwohner in {city.name} — ein großer lokaler Automarkt mit echtem Bedarf.
                   </div>
+                  {city.postalCodeRange && (
+                    <div className="mt-3 pt-3 border-t border-navy-700">
+                      <div className="text-[10px] text-slate-500 uppercase tracking-wider mb-1">PLZ-Bereich</div>
+                      <div className="text-sm text-gold-400 font-semibold">{city.postalCodeRange}</div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
