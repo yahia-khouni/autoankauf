@@ -1,0 +1,16 @@
+{
+  "city": "München",
+  "state": "Bayern",
+  "state_code": "BY",
+  "population": 1488202,
+  "keywords": [
+    "Auto verkaufen München",
+    "Gebrauchtwagen Ankauf München",
+    "Auto ankaufen München",
+    "KFZ Ankauf München",
+    "Auto loswerden München"
+  ],
+  "landmarks": ["Marienplatz", "Olympiapark", "Englischer Garten"],
+  "nearby_cities": ["Augsburg", "Ingolstadt", "Landsberg am Lech"],
+  "slug": "muenchen"
+}

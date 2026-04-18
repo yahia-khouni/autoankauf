@@ -1,0 +1,58 @@
+{
+  "id": "gera",
+  "name": "Gera",
+  "slug": "gera",
+  "stateSlug": "thueringen",
+  "stateCode": "TH",
+  "stateName": "Thüringen",
+  "population": 93125,
+  "postalCodeRange": "07545–07554",
+  "coordinates": {
+    "lat": 50.881,
+    "lng": 12.0833
+  },
+  "meta": {
+    "title": "Autoankauf Gera | Auto verkaufen in Gera",
+    "description": "Autoankauf in Gera: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Gera. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Gera",
+      "Auto verkaufen Gera",
+      "PKW Ankauf Gera",
+      "Gebrauchtwagen Ankauf Gera",
+      "KFZ Ankauf Gera"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Gera schnell, fair und unkompliziert. Mit über 93.125 Einwohnern ist Gera ein bedeutender Automobilmarkt in Thüringen.",
+    "localContent": "Gera ist die drittgrößte Stadt Thüringens und liegt an der Weißen Elster. Die Stadt ist bekannt für ihre Villenkultur und die unterirdischen Höhler."
+  },
+  "landmarks": [
+    "Rathaus",
+    "Höhler",
+    "Orangerie",
+    "Tierpark"
+  ],
+  "nearbyCities": [
+    "jena",
+    "erfurt",
+    "chemnitz"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Gera verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Gera innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Gera und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Gera?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

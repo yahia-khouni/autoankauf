@@ -1,0 +1,58 @@
+{
+  "id": "oldenburg",
+  "name": "Oldenburg",
+  "slug": "oldenburg",
+  "stateSlug": "niedersachsen",
+  "stateCode": "NI",
+  "stateName": "Niedersachsen",
+  "population": 172747,
+  "postalCodeRange": "26121–26135",
+  "coordinates": {
+    "lat": 53.1435,
+    "lng": 8.2146
+  },
+  "meta": {
+    "title": "Autoankauf Oldenburg | Auto verkaufen in Oldenburg",
+    "description": "Autoankauf in Oldenburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Oldenburg. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Oldenburg",
+      "Auto verkaufen Oldenburg",
+      "PKW Ankauf Oldenburg",
+      "Gebrauchtwagen Ankauf Oldenburg",
+      "KFZ Ankauf Oldenburg"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Oldenburg schnell, fair und unkompliziert. Mit über 172.747 Einwohnern ist Oldenburg ein bedeutender Automobilmarkt in Niedersachsen.",
+    "localContent": "Oldenburg liegt im Nordwesten Niedersachsens und hat rund 173.000 Einwohner. Die ehemalige Residenzstadt ist ein wichtiges Zentrum im Oldenburger Münsterland."
+  },
+  "landmarks": [
+    "Schloss Oldenburg",
+    "Schlossgarten",
+    "Lappan",
+    "Horst-Janssen-Museum"
+  ],
+  "nearbyCities": [
+    "bremen-stadt",
+    "hannover",
+    "osnabrueck"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Oldenburg verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Oldenburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Oldenburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Oldenburg?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

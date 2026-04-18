@@ -1,0 +1,59 @@
+{
+  "id": "muenchen",
+  "name": "München",
+  "slug": "muenchen",
+  "stateSlug": "bayern",
+  "stateCode": "BY",
+  "stateName": "Bayern",
+  "population": 1488202,
+  "postalCodeRange": "80331–81929",
+  "coordinates": {
+    "lat": 48.1351,
+    "lng": 11.582
+  },
+  "meta": {
+    "title": "Autoankauf München | Auto verkaufen in München",
+    "description": "Autoankauf in München: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in München. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf München",
+      "Auto verkaufen München",
+      "PKW Ankauf München",
+      "Gebrauchtwagen Ankauf München",
+      "KFZ Ankauf München"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in München schnell, fair und unkompliziert. Mit über 1.488.202 Einwohnern ist München ein bedeutender Automobilmarkt in Bayern.",
+    "localContent": "München ist die Landeshauptstadt Bayerns und mit rund 1,5 Millionen Einwohnern die drittgrößte Stadt Deutschlands. Als Sitz von BMW und zahlreichen Automobilzulieferern ist München ein zentraler Ort für den Fahrzeughandel."
+  },
+  "landmarks": [
+    "Marienplatz",
+    "BMW Welt",
+    "Olympiapark",
+    "Englischer Garten",
+    "Allianz Arena"
+  ],
+  "nearbyCities": [
+    "augsburg",
+    "ingolstadt",
+    "regensburg"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in München verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in München innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in München und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in München?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ingolstadt",
+  "name": "Ingolstadt",
+  "slug": "ingolstadt",
+  "stateSlug": "bayern",
+  "stateCode": "BY",
+  "stateName": "Bayern",
+  "population": 139130,
+  "postalCodeRange": "85049–85057",
+  "coordinates": {
+    "lat": 48.7665,
+    "lng": 11.4258
+  },
+  "meta": {
+    "title": "Autoankauf Ingolstadt | Auto verkaufen in Ingolstadt",
+    "description": "Autoankauf in Ingolstadt: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Ingolstadt. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Ingolstadt",
+      "Auto verkaufen Ingolstadt",
+      "PKW Ankauf Ingolstadt",
+      "Gebrauchtwagen Ankauf Ingolstadt",
+      "KFZ Ankauf Ingolstadt"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Ingolstadt schnell, fair und unkompliziert. Mit über 139.130 Einwohnern ist Ingolstadt ein bedeutender Automobilmarkt in Bayern.",
+    "localContent": "Ingolstadt ist der Hauptsitz von Audi und ein bedeutender Automobilstandort. Mit rund 139.000 Einwohnern liegt die Stadt an der Donau zwischen München und Nürnberg."
+  },
+  "landmarks": [
+    "Audi Forum",
+    "Klenzepark",
+    "Neues Schloss",
+    "Liebfrauenmünster"
+  ],
+  "nearbyCities": [
+    "muenchen",
+    "nuernberg",
+    "augsburg"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Ingolstadt verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Ingolstadt innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Ingolstadt und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Ingolstadt?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

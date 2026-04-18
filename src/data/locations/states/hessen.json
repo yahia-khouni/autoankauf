@@ -1,0 +1,20 @@
+{
+  "id": "hessen",
+  "name": "Hessen",
+  "slug": "hessen",
+  "stateCode": "HE",
+  "capital": "Wiesbaden",
+  "area": 21115,
+  "population": 6295017,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Hessen | Auto verkaufen in Hessen",
+    "description": "Verkaufen Sie Ihr Auto in Hessen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Frankfurt, Wiesbaden, Kassel, Darmstadt und Offenbach.",
+    "keywords": ["Autoankauf Hessen", "Auto verkaufen Hessen", "PKW Ankauf HE", "Gebrauchtwagen Ankauf Frankfurt", "KFZ Ankauf Wiesbaden"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Hessen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Frankfurt bis Kassel, in allen Städten des Bundeslandes.",
+    "seoText": "Hessen ist ein wirtschaftlich starkes Bundesland mit Frankfurt am Main als Finanzmetropole. Die Region Rhein-Main gehört zu den dynamischsten Automobilmärkten Deutschlands. Ob Sie in der Bankenstadt Frankfurt, der Landeshauptstadt Wiesbaden oder im nordhessischen Kassel leben — wir kaufen Ihr Auto zu fairen Preisen."
+  },
+  "cities": ["frankfurt", "wiesbaden", "kassel", "darmstadt", "offenbach"]
+}

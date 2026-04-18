@@ -1,0 +1,58 @@
+{
+  "id": "heidelberg",
+  "name": "Heidelberg",
+  "slug": "heidelberg",
+  "stateSlug": "baden-wuerttemberg",
+  "stateCode": "BW",
+  "stateName": "Baden-Württemberg",
+  "population": 162273,
+  "postalCodeRange": "69115–69126",
+  "coordinates": {
+    "lat": 49.3988,
+    "lng": 8.6724
+  },
+  "meta": {
+    "title": "Autoankauf Heidelberg | Auto verkaufen in Heidelberg",
+    "description": "Autoankauf in Heidelberg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Heidelberg. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Heidelberg",
+      "Auto verkaufen Heidelberg",
+      "PKW Ankauf Heidelberg",
+      "Gebrauchtwagen Ankauf Heidelberg",
+      "KFZ Ankauf Heidelberg"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Heidelberg schnell, fair und unkompliziert. Mit über 162.273 Einwohnern ist Heidelberg ein bedeutender Automobilmarkt in Baden-Württemberg.",
+    "localContent": "Heidelberg ist eine Universitätsstadt am Neckar und weltberühmt für ihr Schloss und die romantische Altstadt. Mit rund 162.000 Einwohnern ist sie ein wichtiger Wissenschaftsstandort."
+  },
+  "landmarks": [
+    "Heidelberger Schloss",
+    "Alte Brücke",
+    "Philosophenweg",
+    "Universität Heidelberg"
+  ],
+  "nearbyCities": [
+    "mannheim",
+    "karlsruhe",
+    "heilbronn"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Heidelberg verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Heidelberg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Heidelberg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Heidelberg?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

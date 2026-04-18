@@ -1,0 +1,58 @@
+{
+  "id": "duisburg",
+  "name": "Duisburg",
+  "slug": "duisburg",
+  "stateSlug": "nordrhein-westfalen",
+  "stateCode": "NW",
+  "stateName": "Nordrhein-Westfalen",
+  "population": 502634,
+  "postalCodeRange": "47051–47279",
+  "coordinates": {
+    "lat": 51.4344,
+    "lng": 6.7623
+  },
+  "meta": {
+    "title": "Autoankauf Duisburg | Auto verkaufen in Duisburg",
+    "description": "Autoankauf in Duisburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Duisburg. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Duisburg",
+      "Auto verkaufen Duisburg",
+      "PKW Ankauf Duisburg",
+      "Gebrauchtwagen Ankauf Duisburg",
+      "KFZ Ankauf Duisburg"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Duisburg schnell, fair und unkompliziert. Mit über 502.634 Einwohnern ist Duisburg ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
+    "localContent": "Duisburg liegt am Zusammenfluss von Rhein und Ruhr und besitzt den größten Binnenhafen Europas. Die Stadt hat rund 503.000 Einwohner."
+  },
+  "landmarks": [
+    "Landschaftspark Duisburg-Nord",
+    "Innenhafen",
+    "Tiger & Turtle",
+    "Zoo Duisburg"
+  ],
+  "nearbyCities": [
+    "duesseldorf",
+    "essen",
+    "bochum"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Duisburg verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Duisburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Duisburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Duisburg?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

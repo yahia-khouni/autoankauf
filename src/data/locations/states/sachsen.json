@@ -1,0 +1,20 @@
+{
+  "id": "sachsen",
+  "name": "Sachsen",
+  "slug": "sachsen",
+  "stateCode": "SN",
+  "capital": "Dresden",
+  "area": 18416,
+  "population": 4056941,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Sachsen | Auto verkaufen in Sachsen",
+    "description": "Verkaufen Sie Ihr Auto in Sachsen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Leipzig, Dresden und Chemnitz.",
+    "keywords": ["Autoankauf Sachsen", "Auto verkaufen Sachsen", "PKW Ankauf SN", "Gebrauchtwagen Ankauf Leipzig", "KFZ Ankauf Dresden"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Sachsen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Leipzig, Dresden, Chemnitz und dem gesamten Freistaat.",
+    "seoText": "Sachsen ist ein bedeutender Industriestandort in Ostdeutschland. Mit dem Volkswagen-Werk in Zwickau, dem Porsche- und BMW-Werk in Leipzig und der Halbleiterindustrie in Dresden ist die Region ein wichtiger Automobilmarkt. Wir kaufen Ihr Fahrzeug in allen sächsischen Großstädten."
+  },
+  "cities": ["leipzig", "dresden", "chemnitz"]
+}

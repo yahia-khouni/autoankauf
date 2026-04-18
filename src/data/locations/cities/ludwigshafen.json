@@ -1,0 +1,58 @@
+{
+  "id": "ludwigshafen",
+  "name": "Ludwigshafen am Rhein",
+  "slug": "ludwigshafen",
+  "stateSlug": "rheinland-pfalz",
+  "stateCode": "RP",
+  "stateName": "Rheinland-Pfalz",
+  "population": 172557,
+  "postalCodeRange": "67059–67071",
+  "coordinates": {
+    "lat": 49.4774,
+    "lng": 8.4452
+  },
+  "meta": {
+    "title": "Autoankauf Ludwigshafen am Rhein | Auto verkaufen in Ludwigshafen am Rhein",
+    "description": "Autoankauf in Ludwigshafen am Rhein: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Ludwigshafen am Rhein. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Ludwigshafen am Rhein",
+      "Auto verkaufen Ludwigshafen am Rhein",
+      "PKW Ankauf Ludwigshafen am Rhein",
+      "Gebrauchtwagen Ankauf Ludwigshafen am Rhein",
+      "KFZ Ankauf Ludwigshafen am Rhein"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Ludwigshafen am Rhein schnell, fair und unkompliziert. Mit über 172.557 Einwohnern ist Ludwigshafen am Rhein ein bedeutender Automobilmarkt in Rheinland-Pfalz.",
+    "localContent": "Ludwigshafen am Rhein ist Sitz des Chemiekonzerns BASF und liegt direkt gegenüber von Mannheim am Rhein. Die Stadt hat rund 173.000 Einwohner."
+  },
+  "landmarks": [
+    "BASF",
+    "Wilhelm-Hack-Museum",
+    "Rheinpromenade",
+    "Ebertpark"
+  ],
+  "nearbyCities": [
+    "mannheim",
+    "heidelberg",
+    "mainz"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Ludwigshafen am Rhein verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Ludwigshafen am Rhein innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Ludwigshafen am Rhein und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Ludwigshafen am Rhein?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

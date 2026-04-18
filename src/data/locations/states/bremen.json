@@ -1,0 +1,20 @@
+{
+  "id": "bremen",
+  "name": "Bremen",
+  "slug": "bremen",
+  "stateCode": "HB",
+  "capital": "Bremen",
+  "area": 419,
+  "population": 685032,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Bremen | Auto verkaufen in Bremen",
+    "description": "Verkaufen Sie Ihr Auto in Bremen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Bremen und Bremerhaven.",
+    "keywords": ["Autoankauf Bremen", "Auto verkaufen Bremen", "PKW Ankauf HB", "Gebrauchtwagen Ankauf Bremen", "KFZ Ankauf Bremerhaven"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Bremen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in der Hansestadt Bremen und in Bremerhaven.",
+    "seoText": "Das Bundesland Bremen besteht aus den beiden Städten Bremen und Bremerhaven. Als Handels- und Hafenstadt hat Bremen eine lange Tradition im Fahrzeughandel. Wir bieten Ihnen einen fairen Ankaufspreis für Ihr Auto — egal ob Neuwagen oder Gebrauchtwagen mit hoher Laufleistung."
+  },
+  "cities": ["bremen-stadt", "bremerhaven"]
+}

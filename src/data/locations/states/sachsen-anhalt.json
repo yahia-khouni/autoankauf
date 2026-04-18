@@ -1,0 +1,20 @@
+{
+  "id": "sachsen-anhalt",
+  "name": "Sachsen-Anhalt",
+  "slug": "sachsen-anhalt",
+  "stateCode": "ST",
+  "capital": "Magdeburg",
+  "area": 20452,
+  "population": 2180684,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Sachsen-Anhalt | Auto verkaufen in Sachsen-Anhalt",
+    "description": "Verkaufen Sie Ihr Auto in Sachsen-Anhalt. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Halle (Saale) und Magdeburg.",
+    "keywords": ["Autoankauf Sachsen-Anhalt", "Auto verkaufen Sachsen-Anhalt", "PKW Ankauf ST", "Gebrauchtwagen Ankauf Halle", "KFZ Ankauf Magdeburg"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Sachsen-Anhalt zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Halle, Magdeburg und dem gesamten Bundesland.",
+    "seoText": "Sachsen-Anhalt liegt im Herzen Deutschlands und bietet mit der Universitätsstadt Halle (Saale) und der Landeshauptstadt Magdeburg zwei wichtige Wirtschaftszentren. Wir kaufen Ihr Fahrzeug in beiden Städten und der gesamten Region — schnell, fair und ohne versteckte Kosten."
+  },
+  "cities": ["halle", "magdeburg"]
+}

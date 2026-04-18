@@ -1,0 +1,58 @@
+{
+  "id": "koblenz",
+  "name": "Koblenz",
+  "slug": "koblenz",
+  "stateSlug": "rheinland-pfalz",
+  "stateCode": "RP",
+  "stateName": "Rheinland-Pfalz",
+  "population": 114052,
+  "postalCodeRange": "56068–56077",
+  "coordinates": {
+    "lat": 50.3569,
+    "lng": 7.589
+  },
+  "meta": {
+    "title": "Autoankauf Koblenz | Auto verkaufen in Koblenz",
+    "description": "Autoankauf in Koblenz: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Koblenz. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Koblenz",
+      "Auto verkaufen Koblenz",
+      "PKW Ankauf Koblenz",
+      "Gebrauchtwagen Ankauf Koblenz",
+      "KFZ Ankauf Koblenz"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Koblenz schnell, fair und unkompliziert. Mit über 114.052 Einwohnern ist Koblenz ein bedeutender Automobilmarkt in Rheinland-Pfalz.",
+    "localContent": "Koblenz liegt am Zusammenfluss von Rhein und Mosel und ist eine 2000 Jahre alte Stadt. Das Deutsche Eck mit dem Reiterstandbild ist ein Wahrzeichen."
+  },
+  "landmarks": [
+    "Deutsches Eck",
+    "Festung Ehrenbreitstein",
+    "Altstadt",
+    "Seilbahn"
+  ],
+  "nearbyCities": [
+    "bonn",
+    "mainz",
+    "trier"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Koblenz verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Koblenz innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Koblenz und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Koblenz?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

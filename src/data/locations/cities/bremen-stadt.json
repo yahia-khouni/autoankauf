@@ -1,0 +1,58 @@
+{
+  "id": "bremen-stadt",
+  "name": "Bremen",
+  "slug": "bremen-stadt",
+  "stateSlug": "bremen",
+  "stateCode": "HB",
+  "stateName": "Bremen",
+  "population": 569352,
+  "postalCodeRange": "28195–28359",
+  "coordinates": {
+    "lat": 53.0793,
+    "lng": 8.8017
+  },
+  "meta": {
+    "title": "Autoankauf Bremen | Auto verkaufen in Bremen",
+    "description": "Autoankauf in Bremen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Bremen. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Bremen",
+      "Auto verkaufen Bremen",
+      "PKW Ankauf Bremen",
+      "Gebrauchtwagen Ankauf Bremen",
+      "KFZ Ankauf Bremen"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Bremen schnell, fair und unkompliziert. Mit über 569.352 Einwohnern ist Bremen ein bedeutender Automobilmarkt in Bremen.",
+    "localContent": "Bremen ist eine Hansestadt an der Weser und mit rund 569.000 Einwohnern die zehntgrößte Stadt Deutschlands. Die Stadt ist bekannt für ihre maritime Tradition und das Daimler-Werk."
+  },
+  "landmarks": [
+    "Bremer Stadtmusikanten",
+    "Marktplatz",
+    "Schnoor",
+    "Universum Bremen"
+  ],
+  "nearbyCities": [
+    "bremerhaven",
+    "oldenburg",
+    "hannover"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Bremen verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Bremen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Bremen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Bremen?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

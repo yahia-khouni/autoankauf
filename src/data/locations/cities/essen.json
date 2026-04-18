@@ -1,0 +1,59 @@
+{
+  "id": "essen",
+  "name": "Essen",
+  "slug": "essen",
+  "stateSlug": "nordrhein-westfalen",
+  "stateCode": "NW",
+  "stateName": "Nordrhein-Westfalen",
+  "population": 583084,
+  "postalCodeRange": "45127–45359",
+  "coordinates": {
+    "lat": 51.4556,
+    "lng": 7.0116
+  },
+  "meta": {
+    "title": "Autoankauf Essen | Auto verkaufen in Essen",
+    "description": "Autoankauf in Essen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Essen. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Essen",
+      "Auto verkaufen Essen",
+      "PKW Ankauf Essen",
+      "Gebrauchtwagen Ankauf Essen",
+      "KFZ Ankauf Essen"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Essen schnell, fair und unkompliziert. Mit über 583.084 Einwohnern ist Essen ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
+    "localContent": "Essen ist die zweitgrößte Stadt im Ruhrgebiet und war 2017 Grüne Hauptstadt Europas. Die Zeche Zollverein ist UNESCO-Welterbe."
+  },
+  "landmarks": [
+    "Zeche Zollverein",
+    "Villa Hügel",
+    "Grugapark",
+    "Baldeneysee"
+  ],
+  "nearbyCities": [
+    "duisburg",
+    "dortmund",
+    "bochum",
+    "duesseldorf"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Essen verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Essen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Essen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Essen?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

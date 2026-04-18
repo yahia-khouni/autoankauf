@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { germanStates } from "@/data/locations";
+import { getAllStates, getCitiesByState } from "@/data/location-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
@@ -34,7 +34,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  germanStates.forEach((state) => {
+  const states = getAllStates();
+
+  states.forEach((state) => {
     locales.forEach((locale) => {
       const stateUrl = locale === "de"
         ? `${baseUrl}/standorte/${state.slug}`
@@ -47,7 +49,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
       });
 
-      state.cities.forEach((city) => {
+      const cities = getCitiesByState(state.slug);
+      cities.forEach((city) => {
         const cityUrl = locale === "de"
           ? `${baseUrl}/standorte/${state.slug}/${city.slug}`
           : `${baseUrl}/${locale}/standorte/${state.slug}/${city.slug}`;

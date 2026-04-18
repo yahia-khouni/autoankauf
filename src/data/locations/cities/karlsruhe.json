@@ -1,0 +1,27 @@
+{
+  "id": "karlsruhe",
+  "name": "Karlsruhe",
+  "slug": "karlsruhe",
+  "stateSlug": "baden-wuerttemberg",
+  "stateCode": "BW",
+  "stateName": "Baden-Württemberg",
+  "population": 313092,
+  "postalCodeRange": "76131–76229",
+  "coordinates": { "lat": 49.0069, "lng": 8.4037 },
+  "meta": {
+    "title": "Autoankauf Karlsruhe | Auto verkaufen in Karlsruhe",
+    "description": "Autoankauf in Karlsruhe: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort. Jetzt Angebot erhalten!",
+    "keywords": ["Autoankauf Karlsruhe", "Auto verkaufen Karlsruhe", "PKW Ankauf Karlsruhe", "Gebrauchtwagen Ankauf Karlsruhe"]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Karlsruhe schnell, fair und unkompliziert. Die Fächerstadt am Oberrhein bietet einen lebhaften Automobilmarkt.",
+    "localContent": "Karlsruhe ist mit rund 313.000 Einwohnern die zweitgrößte Stadt Baden-Württembergs. Als Sitz des Bundesgerichtshofs und des Bundesverfassungsgerichts ist Karlsruhe die 'Residenz des Rechts'."
+  },
+  "landmarks": ["Schloss Karlsruhe", "ZKM", "Bundesverfassungsgericht", "Botanischer Garten"],
+  "nearbyCities": ["pforzheim", "mannheim", "heidelberg"],
+  "faq": [
+    { "question": "Wie schnell kann ich mein Auto in Karlsruhe verkaufen?", "answer": "In der Regel innerhalb von 2–3 Tagen. Kontaktieren Sie uns für ein unverbindliches Angebot." },
+    { "question": "Bieten Sie einen Abholservice in Karlsruhe?", "answer": "Ja, wir holen Ihr Fahrzeug kostenlos in Karlsruhe und Umgebung ab." },
+    { "question": "Kaufen Sie auch ältere Fahrzeuge?", "answer": "Ja, wir kaufen Fahrzeuge jeden Alters und Zustands — von Neuwagen bis Oldtimer." }
+  ]
+}

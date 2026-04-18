@@ -1,0 +1,20 @@
+{
+  "id": "rheinland-pfalz",
+  "name": "Rheinland-Pfalz",
+  "slug": "rheinland-pfalz",
+  "stateCode": "RP",
+  "capital": "Mainz",
+  "area": 19854,
+  "population": 4106485,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Rheinland-Pfalz | Auto verkaufen in Rheinland-Pfalz",
+    "description": "Verkaufen Sie Ihr Auto in Rheinland-Pfalz. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Mainz, Ludwigshafen, Koblenz und Trier.",
+    "keywords": ["Autoankauf Rheinland-Pfalz", "Auto verkaufen Rheinland-Pfalz", "PKW Ankauf RP", "Gebrauchtwagen Ankauf Mainz", "KFZ Ankauf Koblenz"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Rheinland-Pfalz zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Mainz bis Trier, in allen Städten des Bundeslandes.",
+    "seoText": "Rheinland-Pfalz liegt im Südwesten Deutschlands und ist bekannt für seine Weinregionen und die romantische Rheinlandschaft. Die Landeshauptstadt Mainz und die Industriestadt Ludwigshafen bilden zusammen mit dem hessischen Frankfurt einen bedeutenden Wirtschaftsraum. Wir kaufen Ihr Auto in der gesamten Region."
+  },
+  "cities": ["mainz", "ludwigshafen", "koblenz", "trier", "kaiserslautern"]
+}

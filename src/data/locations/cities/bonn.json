@@ -1,0 +1,58 @@
+{
+  "id": "bonn",
+  "name": "Bonn",
+  "slug": "bonn",
+  "stateSlug": "nordrhein-westfalen",
+  "stateCode": "NW",
+  "stateName": "Nordrhein-Westfalen",
+  "population": 333243,
+  "postalCodeRange": "53111–53229",
+  "coordinates": {
+    "lat": 50.7374,
+    "lng": 7.0982
+  },
+  "meta": {
+    "title": "Autoankauf Bonn | Auto verkaufen in Bonn",
+    "description": "Autoankauf in Bonn: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Bonn. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Bonn",
+      "Auto verkaufen Bonn",
+      "PKW Ankauf Bonn",
+      "Gebrauchtwagen Ankauf Bonn",
+      "KFZ Ankauf Bonn"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Bonn schnell, fair und unkompliziert. Mit über 333.243 Einwohnern ist Bonn ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
+    "localContent": "Bonn ist die ehemalige Bundeshauptstadt und Geburtsstadt Ludwig van Beethovens. Die UN-Stadt am Rhein hat rund 333.000 Einwohner."
+  },
+  "landmarks": [
+    "Beethoven-Haus",
+    "Museumsmeile",
+    "Bundesviertel",
+    "Poppelsdorfer Schloss"
+  ],
+  "nearbyCities": [
+    "koeln",
+    "koblenz",
+    "duesseldorf"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Bonn verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Bonn innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Bonn und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Bonn?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

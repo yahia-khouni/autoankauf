@@ -1,0 +1,20 @@
+{
+  "id": "thueringen",
+  "name": "Thüringen",
+  "slug": "thueringen",
+  "stateCode": "TH",
+  "capital": "Erfurt",
+  "area": 16202,
+  "population": 2120237,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Thüringen | Auto verkaufen in Thüringen",
+    "description": "Verkaufen Sie Ihr Auto in Thüringen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Erfurt, Jena und Gera.",
+    "keywords": ["Autoankauf Thüringen", "Auto verkaufen Thüringen", "PKW Ankauf TH", "Gebrauchtwagen Ankauf Erfurt", "KFZ Ankauf Jena"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Thüringen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Erfurt, Jena und dem gesamten Freistaat.",
+    "seoText": "Thüringen liegt im Herzen Deutschlands und ist bekannt als das grüne Herz der Republik. Die Landeshauptstadt Erfurt, die Universitätsstadt Jena und das traditionsreiche Gera sind wichtige regionale Zentren. Wir kaufen Ihr Fahrzeug in allen Städten Thüringens — fair, schnell und unkompliziert."
+  },
+  "cities": ["erfurt", "jena", "gera"]
+}

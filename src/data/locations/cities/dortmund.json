@@ -1,0 +1,58 @@
+{
+  "id": "dortmund",
+  "name": "Dortmund",
+  "slug": "dortmund",
+  "stateSlug": "nordrhein-westfalen",
+  "stateCode": "NW",
+  "stateName": "Nordrhein-Westfalen",
+  "population": 588250,
+  "postalCodeRange": "44135–44388",
+  "coordinates": {
+    "lat": 51.5136,
+    "lng": 7.4653
+  },
+  "meta": {
+    "title": "Autoankauf Dortmund | Auto verkaufen in Dortmund",
+    "description": "Autoankauf in Dortmund: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Dortmund. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Dortmund",
+      "Auto verkaufen Dortmund",
+      "PKW Ankauf Dortmund",
+      "Gebrauchtwagen Ankauf Dortmund",
+      "KFZ Ankauf Dortmund"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Dortmund schnell, fair und unkompliziert. Mit über 588.250 Einwohnern ist Dortmund ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
+    "localContent": "Dortmund ist die größte Stadt im Ruhrgebiet und bekannt für Borussia Dortmund und den Strukturwandel von der Stahl- zur Technologiestadt."
+  },
+  "landmarks": [
+    "Signal Iduna Park",
+    "Westfalenpark",
+    "Dortmunder U",
+    "Phoenixsee"
+  ],
+  "nearbyCities": [
+    "essen",
+    "bochum",
+    "bielefeld"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Dortmund verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Dortmund innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Dortmund und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Dortmund?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}

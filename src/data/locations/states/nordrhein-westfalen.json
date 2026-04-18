@@ -1,0 +1,20 @@
+{
+  "id": "nordrhein-westfalen",
+  "name": "Nordrhein-Westfalen",
+  "slug": "nordrhein-westfalen",
+  "stateCode": "NW",
+  "capital": "Düsseldorf",
+  "area": 34110,
+  "population": 17924591,
+  "isStateCity": false,
+  "meta": {
+    "title": "Autoankauf Nordrhein-Westfalen | Auto verkaufen in NRW",
+    "description": "Verkaufen Sie Ihr Auto in Nordrhein-Westfalen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Köln, Düsseldorf, Dortmund und 7 weiteren Städten.",
+    "keywords": ["Autoankauf NRW", "Auto verkaufen Nordrhein-Westfalen", "PKW Ankauf Köln", "Gebrauchtwagen Ankauf Düsseldorf", "KFZ Ankauf Dortmund"]
+  },
+  "content": {
+    "heroDescription": "Wir kaufen Ihr Auto in Nordrhein-Westfalen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Köln bis Bielefeld, in allen Städten des bevölkerungsreichsten Bundeslandes.",
+    "seoText": "Nordrhein-Westfalen ist mit knapp 18 Millionen Einwohnern das bevölkerungsreichste Bundesland Deutschlands. Das Ruhrgebiet, die Rheinschiene und Ostwestfalen bilden einen der größten Automobilmärkte Europas. Ob Ford in Köln, Opel in Bochum oder die zahlreichen Zulieferer in der Region — NRW und Auto gehören zusammen."
+  },
+  "cities": ["koeln", "duesseldorf", "dortmund", "essen", "duisburg", "bochum", "wuppertal", "bielefeld", "bonn", "muenster"]
+}

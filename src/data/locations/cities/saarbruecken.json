@@ -1,0 +1,57 @@
+{
+  "id": "saarbruecken",
+  "name": "Saarbrücken",
+  "slug": "saarbruecken",
+  "stateSlug": "saarland",
+  "stateCode": "SL",
+  "stateName": "Saarland",
+  "population": 181959,
+  "postalCodeRange": "66111–66133",
+  "coordinates": {
+    "lat": 49.2402,
+    "lng": 6.9969
+  },
+  "meta": {
+    "title": "Autoankauf Saarbrücken | Auto verkaufen in Saarbrücken",
+    "description": "Autoankauf in Saarbrücken: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Saarbrücken. Jetzt Angebot erhalten!",
+    "keywords": [
+      "Autoankauf Saarbrücken",
+      "Auto verkaufen Saarbrücken",
+      "PKW Ankauf Saarbrücken",
+      "Gebrauchtwagen Ankauf Saarbrücken",
+      "KFZ Ankauf Saarbrücken"
+    ]
+  },
+  "content": {
+    "heroDescription": "Verkaufen Sie Ihr Auto in Saarbrücken schnell, fair und unkompliziert. Mit über 181.959 Einwohnern ist Saarbrücken ein bedeutender Automobilmarkt in Saarland.",
+    "localContent": "Saarbrücken ist die Landeshauptstadt des Saarlands und liegt an der Grenze zu Frankreich. Die Stadt verbindet deutsche und französische Kultur."
+  },
+  "landmarks": [
+    "Deutsch-Französischer Garten",
+    "Ludwigskirche",
+    "Saarbrücker Schloss",
+    "St. Johanner Markt"
+  ],
+  "nearbyCities": [
+    "kaiserslautern",
+    "trier"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Saarbrücken verkaufen?",
+      "answer": "In der Regel können wir den gesamten Ankauf in Saarbrücken innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+    },
+    {
+      "question": "Muss ich mein Auto zu Ihnen bringen?",
+      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Saarbrücken und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+    },
+    {
+      "question": "Welche Unterlagen benötige ich für den Verkauf?",
+      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Mängeln in Saarbrücken?",
+      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+    }
+  ]
+}
