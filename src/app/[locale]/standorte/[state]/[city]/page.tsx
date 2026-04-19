@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import { germanStates } from "@/data/locations";
 import { getStateBySlug, getCityBySlug, getCitiesByState } from "@/data/location-data";
 import {
@@ -55,22 +55,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const featureCards = [
-  { icon: Clock, title: "24h Angebot", desc: "Schnelle Reaktion", gradient: "from-gold-400 to-gold-600" },
-  { icon: Euro, title: "Faire Preise", desc: "Marktgerecht", gradient: "from-gold-500 to-amber-600" },
-  { icon: Car, title: "Alle Marken", desc: "Jedes Modell", gradient: "from-navy-600 to-navy-800" },
-  { icon: Phone, title: "Persönlich", desc: "Kein Callcenter", gradient: "from-navy-500 to-navy-700" },
-];
-
-const testimonials = [
-  { name: "Thomas K.", rating: 5, text: "Unkomplizierter Ablauf, faires Angebot. Auto abgeholt und sofort bezahlt. Sehr empfehlenswert!", car: "BMW 3er" },
-  { name: "Sandra M.", rating: 5, text: "Innerhalb von 24h ein super Angebot erhalten. Die Abwicklung war blitzschnell und transparent.", car: "VW Golf" },
-  { name: "Markus L.", rating: 5, text: "Hatte ein Unfallfahrzeug — trotzdem ein faires Angebot. Sofort bar bezahlt. Top Service!", car: "Mercedes C-Klasse" },
-];
-
 export default async function CityPage({ params }: Props) {
   const { locale, state: stateSlug, city: citySlug } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("locations");
+
+  const featureCards = [
+    { icon: Clock, title: t("featureClockTitle"), desc: t("featureClockDesc"), gradient: "from-gold-400 to-gold-600" },
+    { icon: Euro, title: t("featureEuroTitle"), desc: t("featureEuroDesc"), gradient: "from-gold-500 to-amber-600" },
+    { icon: Car, title: t("featureCarTitle"), desc: t("featureCarDesc2"), gradient: "from-navy-600 to-navy-800" },
+    { icon: Phone, title: t("feature4Title"), desc: t("feature4Desc"), gradient: "from-navy-500 to-navy-700" },
+  ];
+
+  const testimonials = [
+    { name: "Thomas K.", rating: 5, text: t("testimonial1"), car: "BMW 3er" },
+    { name: "Sandra M.", rating: 5, text: t("testimonial2"), car: "VW Golf" },
+    { name: "Markus L.", rating: 5, text: t("testimonial3"), car: "Mercedes C-Klasse" },
+  ];
 
   const state = getStateBySlug(stateSlug);
   const city = getCityBySlug(stateSlug, citySlug);
@@ -185,7 +186,7 @@ export default async function CityPage({ params }: Props) {
                   </p>
                   <div className="grid grid-cols-3 gap-2 mb-6">
                     {[
-                      { val: "24h", label: "Angebot" },
+                      { val: "24h", label: t("offer") },
                       { val: "0€", label: "Provision" },
                       { val: "Bar", label: "Zahlung" },
                     ].map((s, i) => (
@@ -413,7 +414,7 @@ export default async function CityPage({ params }: Props) {
               {nearbyCityData.length > 0 && (
                 <div className="bg-slate-50 rounded-3xl p-6 lg:p-8">
                   <h3 className="text-lg font-bold text-navy-900 mb-2">
-                    Autoankauf in der Nähe von {city.name}
+                    {t("nearbyAutoankauf", { city: city.name })}
                   </h3>
                   <p className="text-sm text-slate-500 mb-5">
                     Wir sind auch in diesen Städten für Sie da:
@@ -481,7 +482,7 @@ export default async function CityPage({ params }: Props) {
                     <div className="flex items-center gap-2 mb-1">
                       <Star className="h-4 w-4 text-gold-500 fill-gold-500" />
                       <span className="text-xs font-semibold text-gold-600 uppercase tracking-wide">
-                        Premium Service
+                        {t("premiumService")}
                       </span>
                     </div>
 

@@ -752,3 +752,61 @@ html {
     opacity: 1;
     transform: translateY(0);
 }
+
+@keyframes sweep { 0% { transform: translateX(-150%) skewX(-30deg); opacity: 0; } 10% { transform: translateX(-150%) skewX(-30deg); opacity: 0; } 12% { transform: translateX(-150%) skewX(-30deg); opacity: 1; } 18% { transform: translateX(150%) skewX(-30deg); opacity: 1; } 100% { transform: translateX(150%) skewX(-30deg); opacity: 0; } }
+.animate-sweep { animation: sweep 8s ease-in-out infinite; }
+
+/* Custom Scrollbar for specific sections */
+.custom-scrollbar {
+    scrollbar-width: thin !important;
+    scrollbar-color: hsl(45 93% 47%) hsl(var(--navy-100)) !important;
+    -ms-overflow-style: auto !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+    display: block !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent !important;
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: hsl(45 93% 47%) !important;
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: hsl(45 100% 55%) !important;
+}
+
+
+/* Dark Scrollbar for Blue Card */
+.dark-scrollbar {
+    scrollbar-width: thin !important;
+    scrollbar-color: hsl(45 93% 47%) rgba(255, 255, 255, 0.05) !important;
+    -ms-overflow-style: auto !important;
+}
+
+.dark-scrollbar::-webkit-scrollbar {
+    width: 6px !important;
+    display: block !important;
+}
+
+.dark-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 4px;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb {
+    background: hsl(45 93% 47%) !important;
+    border-radius: 4px;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: hsl(45 100% 55%) !important;
+}
+

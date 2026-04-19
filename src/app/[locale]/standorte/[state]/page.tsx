@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllStates, getStateBySlug, getCitiesByState } from "@/data/location-data";
 import { germanStates } from "@/data/locations";
 import {
@@ -51,36 +51,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const featureCards = [
-  {
-    icon: Clock,
-    title: "24h Angebot",
-    desc: "Schnelle Reaktion",
-    gradient: "from-gold-400 to-gold-600",
-  },
-  {
-    icon: Euro,
-    title: "Faire Preise",
-    desc: "Marktgerechter Wert",
-    gradient: "from-gold-500 to-amber-600",
-  },
-  {
-    icon: Car,
-    title: "Alle Marken",
-    desc: "Jedes Fahrzeug",
-    gradient: "from-navy-600 to-navy-800",
-  },
-  {
-    icon: Phone,
-    title: "Persönlich",
-    desc: "Kein Callcenter",
-    gradient: "from-navy-500 to-navy-700",
-  },
-];
-
 export default async function StatePage({ params }: Props) {
   const { locale, state: stateSlug } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("locations");
 
   const state = getStateBySlug(stateSlug);
   if (!state) notFound();
@@ -91,6 +65,33 @@ export default async function StatePage({ params }: Props) {
   const maxPop = cities.length > 0 ? Math.max(...cities.map((c) => c.population)) : 0;
 
   const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
+
+  const featureCards = [
+    {
+      icon: Clock,
+      title: t("featureClockTitle"),
+      desc: t("featureClockDesc"),
+      gradient: "from-gold-400 to-gold-600",
+    },
+    {
+      icon: Euro,
+      title: t("featureEuroTitle"),
+      desc: t("featureEuroDesc"),
+      gradient: "from-gold-500 to-amber-600",
+    },
+    {
+      icon: Car,
+      title: t("featureCarTitle"),
+      desc: t("featureCarDesc"),
+      gradient: "from-navy-600 to-navy-800",
+    },
+    {
+      icon: Phone,
+      title: t("feature4Title"),
+      desc: t("feature4Desc"),
+      gradient: "from-navy-500 to-navy-700",
+    },
+  ];
 
   return (
     <div className="relative overflow-hidden">
@@ -146,13 +147,13 @@ export default async function StatePage({ params }: Props) {
                 </div>
                 <span className="text-sm font-medium text-gold-300">
                   {state.cities.length > 0
-                    ? `${state.cities.length} Städte verfügbar`
-                    : "Stadtstaatservice"}
+                    ? t("citiesAvailable", { count: state.cities.length })
+                    : t("cityStateService")}
                 </span>
               </div>
 
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight">
-                Autoankauf{" "}
+                {t("carPurchase")}{" "}
                 <span className="text-gold-gradient block sm:inline">{state.name}</span>
               </h1>
 
@@ -166,7 +167,7 @@ export default async function StatePage({ params }: Props) {
                   <div className="flex items-center gap-2 bg-white/8 border border-white/15 rounded-xl px-4 py-2.5 backdrop-blur-sm">
                     <MapPin className="h-4 w-4 text-gold-400" />
                     <span className="text-sm text-white font-medium">
-                      {state.cities.length} Städte
+                      {state.cities.length} {t("cities")}
                     </span>
                   </div>
                 )}
@@ -174,13 +175,13 @@ export default async function StatePage({ params }: Props) {
                   <div className="flex items-center gap-2 bg-white/8 border border-white/15 rounded-xl px-4 py-2.5 backdrop-blur-sm">
                     <Users className="h-4 w-4 text-gold-400" />
                     <span className="text-sm text-white font-medium">
-                      {formatNumber(totalPop)}+ Einwohner
+                      {formatNumber(totalPop)}+ {t("inhabitants")}
                     </span>
                   </div>
                 )}
                 <div className="flex items-center gap-2 bg-white/8 border border-white/15 rounded-xl px-4 py-2.5 backdrop-blur-sm">
                   <Zap className="h-4 w-4 text-gold-400" />
-                  <span className="text-sm text-white font-medium">24h Angebot</span>
+                  <span className="text-sm text-white font-medium">24h {t("offer")}</span>
                 </div>
               </div>
             </div>
@@ -192,27 +193,27 @@ export default async function StatePage({ params }: Props) {
                 <div className="relative bg-white/8 backdrop-blur-md border border-white/20 rounded-3xl p-8">
                   <div className="flex items-center gap-2 mb-4">
                     <Star className="h-5 w-5 text-gold-400 fill-gold-400" />
-                    <span className="text-gold-300 font-semibold text-sm">Premium Service</span>
+                    <span className="text-gold-300 font-semibold text-sm">{t("premiumService")}</span>
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2">
-                    Kostenloses Angebot
+                    {t("freeOffer")}
                   </h3>
                   <p className="text-slate-400 text-sm mb-6">
-                    Für Ihr Auto in {state.name} — unverbindlich & schnell
+                    {t("forYourCarIn", { state: state.name })}
                   </p>
                   <Link
                     href="#lead-form-section"
                     id={`state-hero-cta-${state.slug}`}
                     className="group flex items-center justify-center gap-2 w-full bg-gradient-gold text-navy-900 font-bold px-6 py-4 rounded-2xl transition-all hover:shadow-gold-lg btn-cta-glow"
                   >
-                    Jetzt Angebot anfordern
+                    {t("reqOffer")}
                     <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                   <div className="mt-4 grid grid-cols-3 gap-3 text-center">
                     {[
-                      { val: "24h", label: "Angebot" },
-                      { val: "100%", label: "Kostenlos" },
-                      { val: "Sofort", label: "Zahlung" },
+                      { val: "24h", label: t("offer") },
+                      { val: "100%", label: t("free") },
+                      { val: "Sofort", label: t("payment") },
                     ].map((s, i) => (
                       <div key={i} className="bg-white/8 rounded-xl p-3">
                         <div className="text-lg font-bold text-gold-400">{s.val}</div>
@@ -261,10 +262,10 @@ export default async function StatePage({ params }: Props) {
               {/* Cities Grid */}
               <div>
                 <h2 className="text-2xl lg:text-3xl font-bold text-navy-900 mb-2">
-                  Autoankauf in Städten von {state.name}
+                  {t("citiesInState", { state: state.name })}
                 </h2>
                 <p className="text-slate-500 mb-6">
-                  Wählen Sie Ihre Stadt für spezifische lokale Informationen.
+                  {t("chooseCity")}
                 </p>
 
                 {cities.length > 0 ? (
@@ -285,9 +286,10 @@ export default async function StatePage({ params }: Props) {
                   </div>
                 ) : (
                   <div className="bg-gradient-to-br from-navy-50 to-slate-50 border border-navy-100 rounded-2xl p-6 text-slate-600">
-                    Als Stadtstaat bieten wir unseren Service im gesamten Gebiet
-                    von <strong>{state.name}</strong> an. Nutzen Sie das Formular, um ein
-                    kostenloses Angebot zu erhalten.
+                    {t.rich("cityStateText", {
+                      state: state.name,
+                      strong: (chunks) => <strong className="font-bold text-navy-900">{chunks}</strong>,
+                    })}
                   </div>
                 )}
               </div>

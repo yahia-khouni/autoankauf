@@ -12,10 +12,10 @@ export function GermanyMapSvg({ className = "" }: { className?: string }) {
     { id: 1, cx: 466, cy: 198, delay: "0.4s" },  // Hamburg
     { id: 2, cx: 643, cy: 922, delay: "1.5s" },  // Bayern (München)
     { id: 3, cx: 108, cy: 509, delay: "0.2s" },  // NRW (Düsseldorf)
-    { id: 4, cx: 272, cy: 662, delay: "1.0s" },  // Hessen (Wiesbaden)
+    { id: 4, cx: 312, cy: 632, delay: "1.0s" },  // Hessen (Wiesbaden)
     { id: 5, cx: 376, cy: 836, delay: "0.8s" },  // Baden-Württemberg (Stuttgart)
     { id: 6, cx: 437, cy: 356, delay: "0.5s" },  // Niedersachsen (Hannover)
-    { id: 7, cx: 883, cy: 532, delay: "1.2s" },  // Sachsen (Dresden)
+    { id: 7, cx: 853, cy: 532, delay: "1.2s" },  // Sachsen (Dresden)
     { id: 8, cx: 582, cy: 541, delay: "0.7s" },  // Thüringen (Erfurt)
     { id: 9, cx: 648, cy: 389, delay: "0.9s" },  // Sachsen-Anhalt (Magdeburg)
     { id: 10, cx: 808, cy: 353, delay: "0.3s" }, // Brandenburg (Potsdam)
@@ -23,7 +23,7 @@ export function GermanyMapSvg({ className = "" }: { className?: string }) {
     { id: 12, cx: 482, cy: 95, delay: "0.6s" },  // Schleswig-Holstein (Kiel)
     { id: 13, cx: 334, cy: 262, delay: "1.4s" }, // Bremen
     { id: 14, cx: 272, cy: 674, delay: "1.3s" }, // Rheinland-Pfalz (Mainz)
-    { id: 15, cx: 132, cy: 774, delay: "0.1s" }, // Saarland (Saarbrücken)
+    { id: 15, cx: 172, cy: 724, delay: "0.1s" }, // Saarland (Saarbrücken)
   ];
 
   const connections = [
@@ -92,15 +92,13 @@ export function GermanyMapSvg({ className = "" }: { className?: string }) {
             .animate-float {
               animation: map-float 16s ease-in-out infinite;
             }
-            @keyframes draw-line {
-              0% { stroke-dashoffset: 1000; opacity: 0; }
-              20% { opacity: 0.1; }
-              80% { opacity: 0.1; }
-              100% { stroke-dashoffset: 0; opacity: 0.25; }
+            @keyframes road-flow {
+              100% { stroke-dashoffset: -24; }
             }
             .web-line {
-              stroke-dasharray: 1000;
-              animation: draw-line 12s ease-in-out infinite alternate;
+              stroke-dasharray: 6 8;
+              opacity: 0.8;
+              animation: road-flow 2s linear infinite;
             }
           `}
         </style>
@@ -131,9 +129,9 @@ export function GermanyMapSvg({ className = "" }: { className?: string }) {
               y1={fromDot.cy}
               x2={toDot.cx}
               y2={toDot.cy}
-              stroke="url(#germany-stroke)"
-              strokeWidth="2"
-              className="web-line mix-blend-screen"
+              stroke="#FCD34D"
+              strokeWidth="2.5"
+              className="web-line"
               style={{ animationDelay: `${i * 0.2}s` }}
             />
           );
