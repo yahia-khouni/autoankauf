@@ -62,7 +62,12 @@
     "step3Title": "Geld erhalten",
     "step3Description": "Wir holen Ihr Auto ab und zahlen sofort per Überweisung.",
     "badge": "Einfacher Prozess",
-    "subtitle": "In nur 3 einfachen Schritten verkaufen Sie Ihr Auto schnell und unkompliziert"
+    "subtitle": "In nur 3 einfachen Schritten verkaufen Sie Ihr Auto schnell und unkompliziert",
+    "step1Details": "Füllen Sie unser einfaches Online-Formular mit den wichtigsten Fahrzeugdaten aus. Das dauert nur 2 Minuten und ist absolut kostenlos.",
+    "step2Details": "Nach Prüfung Ihrer Angaben erhalten Sie von uns umgehend ein faires und unverbindliches Angebot für Ihr Fahrzeug.",
+    "step3Details": "Wir bieten flexible Zahlungsmöglichkeiten: Barzahlung bei Abholung oder eine schnelle und sichere Sofortüberweisung direkt auf Ihr Konto.",
+    "paymentCash": "Bargeld",
+    "paymentTransfer": "Banküberweisung"
   },
   "whyUs": {
     "title": "Warum Autoankauf Deutschland?",

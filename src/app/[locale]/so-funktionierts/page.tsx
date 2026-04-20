@@ -176,7 +176,7 @@ function ComparisonSection({ t, leadFormHref }: { t: TFn; leadFormHref: string }
                 <span className="text-xs font-black text-slate-500 uppercase tracking-widest">{t("cmpColTrad")}</span>
               </div>
               <div className="flex items-center justify-center">
-                <span className="text-[10px] text-slate-300 uppercase tracking-widest">vs</span>
+                <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">vs</span>
               </div>
               <div className="flex items-center justify-end gap-2">
                 <span className="text-xs font-black text-navy-700 uppercase tracking-widest">{t("cmpColUs")}</span>
@@ -310,7 +310,7 @@ export default function SoFunktioniertsPage() {
     <div className="antialiased">
 
       {/* ─── HERO ─────────────────────────────────────── */}
-      <section className="relative overflow-hidden min-h-[88vh] flex items-center pt-28 pb-20 sm:pt-36 sm:pb-28">
+      <section className="relative overflow-hidden min-h-[70vh] lg:min-h-[90vh] flex items-center pt-28 pb-20 sm:pt-36 sm:pb-28">
         <div className="absolute inset-0 gradient-hero" />
         <div className="absolute inset-0 bg-hero-pattern opacity-30" />
 
@@ -322,9 +322,9 @@ export default function SoFunktioniertsPage() {
         <div className="container relative z-10 px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <Reveal delay={0}>
-              <div className="inline-flex items-center gap-2 rounded-full bg-white/8 backdrop-blur-md border border-white/15 px-4 py-1.5 mb-7">
-                <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
-                <span className="text-sm font-medium text-gold-300 tracking-wide">{t("heroBadge")}</span>
+              <div className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold-500/20 to-gold-400/10 border border-gold-400/30 px-5 py-2 backdrop-blur-sm mb-7">
+                <ClipboardList className="h-4 w-4 text-gold-400" />
+                <span className="text-sm font-medium text-gold-300">{t("heroBadge")}</span>
               </div>
             </Reveal>
 
@@ -350,32 +350,12 @@ export default function SoFunktioniertsPage() {
               </p>
             </Reveal>
 
-            {/* Tab switcher — pill style */}
-            <Reveal delay={200}>
-              <div className="inline-flex items-center p-1 rounded-2xl bg-white/8 backdrop-blur-md border border-white/15 gap-1">
-                {[
-                  { key: "seller" as const, icon: Car, label: t("tabSell") },
-                  { key: "buyer" as const, icon: Search, label: t("tabBuy") },
-                ].map(({ key, icon: Icon, label }) => (
-                  <button
-                    key={key}
-                    id={`tab-${key}`}
-                    onClick={() => handleTabChange(key)}
-                    className={cn(
-                      "relative flex items-center gap-2.5 px-6 sm:px-8 py-3 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300",
-                      tab === key
-                        ? "bg-gradient-gold text-navy-900 shadow-[0_4px_20px_rgba(251,191,36,0.35)]"
-                        : "text-white/70 hover:text-white hover:bg-white/8"
-                    )}
-                  >
-                    <Icon className="h-4 w-4" />
-                    {label}
-                  </button>
-                ))}
-              </div>
-            </Reveal>
+
           </div>
         </div>
+
+        {/* Bottom Gradient Fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-12 sm:h-16 bg-gradient-to-t from-background to-transparent pointer-events-none" />
       </section>
 
       {/* ─── ② STEPS — clean card grid ─────────────────── */}
@@ -407,7 +387,7 @@ export default function SoFunktioniertsPage() {
                       <div className="w-13 h-13 w-12 h-12 rounded-xl bg-gradient-to-br from-gold-400 to-gold-500 flex items-center justify-center shadow-gold group-hover:scale-110 transition-transform duration-300">
                         <step.icon className="h-6 w-6 text-navy-900" />
                       </div>
-                      <span className="text-4xl font-black text-slate-100 leading-none select-none">{step.num}</span>
+                      <span className="text-4xl font-black text-slate-200 leading-none select-none">{step.num}</span>
                     </div>
 
                     <p className="text-xs font-bold text-gold-500 uppercase tracking-widest mb-1.5">{step.sub}</p>
@@ -491,7 +471,7 @@ export default function SoFunktioniertsPage() {
 
         <div className="container relative z-10 px-4 sm:px-6">
           <Reveal delay={0} className="text-center mb-10">
-            <p className="text-xs font-black text-slate-300 uppercase tracking-[0.18em]">{t("trustTitle")}</p>
+            <p className="text-xs font-black text-slate-600 uppercase tracking-[0.18em]">{t("trustTitle")}</p>
           </Reveal>
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">

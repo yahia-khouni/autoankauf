@@ -15,19 +15,19 @@ export function HowItWorksSection() {
       icon: ClipboardList,
       title: t("step1Title"),
       description: t("step1Description"),
-      details: "Füllen Sie unser einfaches Online-Formular mit den wichtigsten Fahrzeugdaten aus. Das dauert nur 2 Minuten und ist absolut kostenlos.",
+      details: t("step1Details"),
     },
     {
       icon: MessageSquare,
       title: t("step2Title"),
       description: t("step2Description"),
-      details: "Nach Prüfung Ihrer Angaben erhalten Sie von uns umgehend ein faires und unverbindliches Angebot für Ihr Fahrzeug.",
+      details: t("step2Details"),
     },
     {
       icon: CreditCard,
       title: t("step3Title"),
       description: t("step3Description"),
-      details: "Wir bieten flexible Zahlungsmöglichkeiten: Barzahlung bei Abholung oder eine schnelle und sichere Sofortüberweisung direkt auf Ihr Konto.",
+      details: t("step3Details"),
       isPayment: true,
     },
   ];
@@ -137,11 +137,11 @@ export function HowItWorksSection() {
                             isOpen ? "bg-navy-800/50 border-white/5" : "bg-slate-50 border-slate-100"
                           )}>
                             <div className={cn("flex items-center gap-2 font-medium text-sm", isOpen ? "text-slate-200" : "text-slate-700")}>
-                              <Banknote className="h-4 w-4 text-emerald-400" /> Bargeld
+                              <Banknote className="h-4 w-4 text-emerald-400" /> {t("paymentCash")}
                             </div>
                             <div className={cn("hidden sm:block w-px h-4", isOpen ? "bg-white/10" : "bg-slate-200")} />
                             <div className={cn("flex items-center gap-2 font-medium text-sm", isOpen ? "text-slate-200" : "text-slate-700")}>
-                              <ShieldCheck className="h-4 w-4 text-blue-400" /> Banküberweisung
+                              <ShieldCheck className="h-4 w-4 text-blue-400" /> {t("paymentTransfer")}
                             </div>
                           </div>
                         )}

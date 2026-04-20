@@ -69,8 +69,8 @@ export function LocationsMapSection() {
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl" />
                 <div className="relative flex flex-col sm:flex-row sm:items-start justify-between gap-4">
                   <div>
-                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Verfügbar in ganz Deutschland</h3>
-                    <p className="text-sm text-slate-300">Wählen Sie Ihr Bundesland aus, um lokale Händler zu finden.</p>
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">{t("selectStateTitle")}</h3>
+                    <p className="text-sm text-slate-300">{t("selectStateDesc")}</p>
                   </div>
                   <Link 
                     href={getLocalizedHref("/standorte")} 

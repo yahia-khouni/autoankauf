@@ -161,7 +161,7 @@ export default function UeberUnsPage() {
     <div className="antialiased">
 
       {/* ─── ① HERO ─────────────────────────────────────── */}
-      <section className="relative overflow-hidden min-h-[72vh] flex items-center pt-28 pb-20 sm:pt-36 sm:pb-28">
+      <section className="relative overflow-hidden min-h-[70vh] lg:min-h-[90vh] flex items-center pt-28 pb-20 sm:pt-36 sm:pb-28">
         <div className="absolute inset-0 gradient-hero" />
         <div className="absolute inset-0 bg-hero-pattern opacity-30" />
         <div className="absolute bottom-16 left-10 w-64 h-64 bg-gold-500/8 rounded-full blur-3xl animate-pulse-glow pointer-events-none" />
@@ -171,9 +171,9 @@ export default function UeberUnsPage() {
         <div className="container relative z-10 px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <Reveal delay={0}>
-              <div className="inline-flex items-center gap-2 rounded-full bg-white/8 backdrop-blur-md border border-white/15 px-4 py-1.5 mb-7">
-                <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
-                <span className="text-sm font-medium text-gold-300 tracking-wide">{t("heroBadge")}</span>
+              <div className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold-500/20 to-gold-400/10 border border-gold-400/30 px-5 py-2 backdrop-blur-sm mb-7">
+                <Users className="h-4 w-4 text-gold-400" />
+                <span className="text-sm font-medium text-gold-300">{t("heroBadge")}</span>
               </div>
             </Reveal>
 
@@ -221,6 +221,9 @@ export default function UeberUnsPage() {
             </Reveal>
           </div>
         </div>
+
+        {/* Bottom Gradient Fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-12 sm:h-16 bg-gradient-to-t from-background to-transparent pointer-events-none" />
       </section>
 
       {/* ─── ② STATS ─────────────────────────────────────── */}
@@ -228,7 +231,7 @@ export default function UeberUnsPage() {
         <div className="absolute left-0 top-0 bottom-0 w-[40%] bg-gradient-to-r from-gold-50/50 to-transparent pointer-events-none" />
         <div className="container relative z-10 px-4 sm:px-6">
           <Reveal delay={0} className="text-center mb-12">
-            <p className="text-xs font-black text-slate-300 uppercase tracking-[0.18em]">{t("statsBadge")}</p>
+            <p className="text-xs font-black text-slate-600 uppercase tracking-[0.18em]">{t("statsBadge")}</p>
           </Reveal>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8">
             {stats.map((s, i) => (
@@ -456,7 +459,7 @@ export default function UeberUnsPage() {
       <section className="py-10 sm:py-12 bg-slate-50 border-y border-slate-100">
         <div className="container px-4 sm:px-6">
           <Reveal delay={0} className="text-center mb-7">
-            <p className="text-xs font-black text-slate-300 uppercase tracking-[0.18em]">{t("trustBadge")}</p>
+            <p className="text-xs font-black text-slate-600 uppercase tracking-[0.18em]">{t("trustBadge")}</p>
           </Reveal>
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[

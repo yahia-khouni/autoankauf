@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import { useState, useEffect } from "react";
@@ -27,6 +28,14 @@ export function Header() {
     }
 
     return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+  };
+
+  const isActive = (path: string) => {
+    const localizedPath = getLocalizedHref(path);
+    if (path === "/") {
+      return pathname === localizedPath || pathname === `/${locale}`;
+    }
+    return pathname === localizedPath || pathname.startsWith(localizedPath + "/");
   };
 
   const leadFormHref = `${getLocalizedHref("/")}#lead-form`;
@@ -80,7 +89,7 @@ export function Header() {
     <header className={cn(
       "fixed top-0 left-0 right-0 z-50 w-full transition-all duration-500 ease-in-out",
       isScrolled
-        ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-slate-200/50 py-1"
+        ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-slate-200/50"
         : "bg-navy-950/20 backdrop-blur-sm border-b border-white/10"
     )}>
       {/* Top Bar - Desktop Only */}
@@ -126,63 +135,69 @@ export function Header() {
         {/* ── LOGO ── */}
         <Link
           href={getLocalizedHref("/")}
-          className="flex items-center gap-2.5 sm:gap-3 group flex-shrink-0"
-          aria-label="Autoankauf Deutschland"
+          className="flex items-center gap-3 sm:gap-4 group flex-shrink-0 self-stretch -ml-8 sm:ml-0"
+          aria-label="Autoankauf Deutschland – Ihr Premium Autoankauf"
         >
-          {/* Icon badge */}
+          {/* Logo image — flush left on mobile, rounded on desktop */}
           <div className={cn(
-            "relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden transition-all duration-300 group-hover:scale-105",
-            isScrolled
-              ? "bg-navy-900 shadow-[0_2px_10px_rgba(10,25,41,0.25)]"
-              : "bg-navy-900/70 backdrop-blur-md border border-white/15 shadow-[0_2px_12px_rgba(0,0,0,0.3)]"
+            "relative flex-shrink-0 self-stretch overflow-hidden transition-all duration-300",
+            "w-[140px] sm:w-[120px]",
+            "rounded-none sm:rounded-xl",
+            "group-hover:shadow-[0_0_0_2px_rgba(251,191,36,0.6)]",
+            "bg-black shadow-[0_4px_14px_rgba(0,0,0,0.35)] ring-1",
+            isScrolled ? "ring-black/10" : "ring-white/15"
           )}>
-            {/* Car SVG icon in gold */}
-            <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 11l2.5-5h9L19 11" stroke="#FBBF24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-              <rect x="3" y="11" width="18" height="6" rx="1.5" fill="#FBBF24" fillOpacity="0.12" stroke="#FBBF24" strokeWidth="1.5"/>
-              <circle cx="7.5" cy="17.5" r="1.5" fill="#FBBF24"/>
-              <circle cx="16.5" cy="17.5" r="1.5" fill="#FBBF24"/>
-              <path d="M3 14h18" stroke="#FBBF24" strokeWidth="1" strokeOpacity="0.4"/>
-            </svg>
-            {/* Gold corner accent dot */}
-            <span className="absolute top-1 right-1 w-1 h-1 rounded-full bg-gold-400" />
+            <Image
+              src="/images/LOGO-SVG.svg"
+              alt="Autoankauf Deutschland Logo"
+              fill
+              className="object-contain"
+              priority
+              sizes="132px"
+            />
           </div>
 
-          {/* Wordmark */}
-          <div className="flex flex-col leading-none gap-0.5">
-            <div className="flex items-baseline">
+          {/* Wordmark + Tagline */}
+          <div className="flex flex-col leading-none gap-[3px]">
+            {/* Brand name – two-tone */}
+            <div className="flex items-baseline gap-0">
               <span className={cn(
-                "text-lg sm:text-xl font-black tracking-tight transition-colors duration-300",
-                isScrolled ? "text-navy-900" : "text-white"
+                "text-[15px] sm:text-[23px] font-black tracking-tight transition-colors duration-300",
+                isScrolled ? "text-navy-900" : "text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.45)]"
               )}>Auto</span>
-              <span className="text-lg sm:text-xl font-black tracking-tight text-gold-400">ankauf</span>
+              <span className="text-[15px] sm:text-[23px] font-black tracking-tight text-gold-400 drop-shadow-[0_1px_6px_rgba(251,191,36,0.35)]">ankauf</span>
             </div>
-            <div className="flex items-center gap-1.5">
-              <span className={cn(
-                "text-[9px] font-bold uppercase tracking-[0.22em] transition-colors duration-300",
-                isScrolled ? "text-slate-400" : "text-white/45"
-              )}>Deutschland</span>
-              <span className="inline-flex items-center rounded-sm bg-gold-400/20 border border-gold-400/30 px-1 text-[8px] font-black text-gold-400 leading-[14px] tracking-wider">DE</span>
-            </div>
+            {/* Tagline — visible on all screens, no decorative lines */}
+            <span className={cn(
+              "text-[6px] sm:text-[8.5px] font-bold uppercase tracking-[0.18em] transition-colors duration-300",
+              isScrolled ? "text-slate-400" : "text-white/55"
+            )}>Ihr Premium Autoankauf</span>
           </div>
         </Link>
 
 
         <nav className="hidden xl:flex items-center gap-1">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={getLocalizedHref(item.href)}
-              className={cn(
-                "px-5 py-2.5 text-sm font-semibold rounded-full transition-all duration-300",
-                isScrolled
-                  ? "text-slate-600 hover:text-navy-900 hover:bg-slate-50"
-                  : "text-white/90 hover:text-white hover:bg-white/10 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]"
-              )}
-            >
-              {item.label}
-            </Link>
-          ))}
+          {navItems.map((item) => {
+            const active = isActive(item.href);
+            return (
+              <Link
+                key={item.href}
+                href={getLocalizedHref(item.href)}
+                className={cn(
+                  "px-5 py-2.5 text-sm font-semibold rounded-full transition-all duration-300",
+                  active
+                    ? isScrolled
+                      ? "text-amber-700 bg-gold-400/25 shadow-[inset_0_1px_0_rgba(251,191,36,0.3)]"
+                      : "text-gold-300 bg-gold-400/15 shadow-[inset_0_1px_0_rgba(251,191,36,0.15)]"
+                    : isScrolled
+                      ? "text-slate-600 hover:text-navy-900 hover:bg-slate-50"
+                      : "text-white/90 hover:text-white hover:bg-white/10 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]"
+                )}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="hidden xl:flex items-center gap-4">
@@ -261,26 +276,16 @@ export function Header() {
 
           {/* Panel header */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/8 shrink-0">
-            {/* Logo in mobile panel */}
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-navy-900 border border-white/10 flex items-center justify-center flex-shrink-0 shadow-[0_2px_12px_rgba(0,0,0,0.4)]">
-                <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 11l2.5-5h9L19 11" stroke="#FBBF24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-                  <rect x="3" y="11" width="18" height="6" rx="1.5" fill="#FBBF24" fillOpacity="0.12" stroke="#FBBF24" strokeWidth="1.5"/>
-                  <circle cx="7.5" cy="17.5" r="1.5" fill="#FBBF24"/>
-                  <circle cx="16.5" cy="17.5" r="1.5" fill="#FBBF24"/>
-                  <path d="M3 14h18" stroke="#FBBF24" strokeWidth="1" strokeOpacity="0.4"/>
-                </svg>
+            {/* Wordmark only — no image in side panel */}
+            <div className="flex flex-col leading-none gap-1">
+              <div className="flex items-baseline">
+                <span className="text-[19px] font-black tracking-tight text-white">Auto</span>
+                <span className="text-[19px] font-black tracking-tight text-gold-400">ankauf</span>
               </div>
-              <div className="flex flex-col leading-none gap-0.5">
-                <div className="flex items-baseline">
-                  <span className="text-lg font-black tracking-tight text-white">Auto</span>
-                  <span className="text-lg font-black tracking-tight text-gold-400">ankauf</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-white/40">Deutschland</span>
-                  <span className="inline-flex items-center rounded-sm bg-gold-400/20 border border-gold-400/30 px-1 text-[8px] font-black text-gold-400 leading-[14px] tracking-wider">DE</span>
-                </div>
+              <div className="flex items-center gap-1.5">
+                <div className="h-px w-3 rounded-full bg-gold-400/50" />
+                <span className="text-[8px] font-bold uppercase tracking-[0.2em] text-white/50">Ihr Premium Autoankauf</span>
+                <div className="h-px w-3 rounded-full bg-gold-400/50" />
               </div>
             </div>
             <button
@@ -300,28 +305,49 @@ export function Header() {
 
             {/* Nav links */}
             <nav className="px-3 space-y-0.5">
-              {navItems.map((item, index) => (
-                <Link
-                  key={item.href}
-                  href={getLocalizedHref(item.href)}
-                  className="group flex items-center justify-between py-3.5 px-4 rounded-xl text-white/80 hover:text-white hover:bg-white/6 transition-all duration-200 active:scale-[0.98]"
-                  onClick={() => setIsOpen(false)}
-                  style={{
-                    transitionDelay: `${isOpen ? 80 + index * 45 : 0}ms`,
-                    opacity: isOpen ? 1 : 0,
-                    transform: isOpen ? "translateX(0)" : "translateX(12px)",
-                    transition: "opacity 450ms cubic-bezier(0.32,0,0.08,1), transform 450ms cubic-bezier(0.32,0,0.08,1)",
-                  }}
-                >
-                  <div className="flex items-center gap-3">
-                    <span className="w-5 h-5 rounded-md bg-white/6 flex items-center justify-center text-[9px] font-black text-white/30">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                    <span className="text-[15px] font-semibold tracking-wide">{item.label}</span>
-                  </div>
-                  <ChevronRight className="h-4 w-4 text-white/20 group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all duration-200" />
-                </Link>
-              ))}
+              {navItems.map((item, index) => {
+                const active = isActive(item.href);
+                return (
+                  <Link
+                    key={item.href}
+                    href={getLocalizedHref(item.href)}
+                    className={cn(
+                      "group flex items-center justify-between py-3.5 px-4 rounded-xl transition-all duration-200 active:scale-[0.98]",
+                      active
+                        ? "bg-gold-400/10 border border-gold-400/20 text-white"
+                        : "text-white/80 hover:text-white hover:bg-white/6"
+                    )}
+                    onClick={() => setIsOpen(false)}
+                    style={{
+                      transitionDelay: `${isOpen ? 80 + index * 45 : 0}ms`,
+                      opacity: isOpen ? 1 : 0,
+                      transform: isOpen ? "translateX(0)" : "translateX(12px)",
+                      transition: "opacity 450ms cubic-bezier(0.32,0,0.08,1), transform 450ms cubic-bezier(0.32,0,0.08,1)",
+                    }}
+                  >
+                    <div className="flex items-center gap-3">
+                      <span className={cn(
+                        "w-5 h-5 rounded-md flex items-center justify-center text-[9px] font-black transition-colors duration-200",
+                        active
+                          ? "bg-gold-400/20 text-gold-400"
+                          : "bg-white/6 text-white/30"
+                      )}>
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <span className={cn(
+                        "text-[15px] font-semibold tracking-wide transition-colors duration-200",
+                        active ? "text-gold-300" : ""
+                      )}>{item.label}</span>
+                    </div>
+                    <ChevronRight className={cn(
+                      "h-4 w-4 transition-all duration-200",
+                      active
+                        ? "text-gold-400 translate-x-0.5"
+                        : "text-white/20 group-hover:text-gold-400 group-hover:translate-x-0.5"
+                    )} />
+                  </Link>
+                );
+              })}
             </nav>
 
             {/* Divider */}

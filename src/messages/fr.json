@@ -62,7 +62,12 @@
     "step3Title": "Soyez payé",
     "step3Description": "Nous récupérons votre voiture et payons immédiatement par virement.",
     "badge": "Processus Simple",
-    "subtitle": "En seulement 3 étapes simples, vendez votre voiture rapidement et sans tracas"
+    "subtitle": "En seulement 3 étapes simples, vendez votre voiture rapidement et sans tracas",
+    "step1Details": "Remplissez notre simple formulaire en ligne avec les principales données du véhicule. Cela ne prend que 2 minutes et est entièrement gratuit.",
+    "step2Details": "Après examen de vos informations, nous vous enverrons rapidement une offre équitable et sans engagement pour votre véhicule.",
+    "step3Details": "Nous proposons des options de paiement flexibles : paiement en espèces lors de la collecte ou un virement bancaire instantané rapide et sécurisé directement sur votre compte.",
+    "paymentCash": "Espèces",
+    "paymentTransfer": "Virement bancaire"
   },
   "whyUs": {
     "title": "Pourquoi choisir Autoankauf ?",

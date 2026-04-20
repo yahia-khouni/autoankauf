@@ -741,7 +741,7 @@ export default function BlogPage() {
     <div className="antialiased">
 
       {/* ─── ① HERO ─────────────────────────────────────── */}
-      <section className="relative overflow-hidden min-h-[70vh] flex items-center pt-28 pb-24 sm:pt-36 sm:pb-32">
+      <section className="relative overflow-hidden min-h-[70vh] lg:min-h-[90vh] flex items-center pt-28 pb-24 sm:pt-36 sm:pb-32">
         <div className="absolute inset-0 gradient-hero" />
         <div className="absolute inset-0 bg-hero-pattern opacity-30" />
         <div className="absolute bottom-20 left-10 w-72 h-72 bg-gold-500/8 rounded-full blur-3xl animate-pulse-glow pointer-events-none" />
@@ -750,9 +750,9 @@ export default function BlogPage() {
         <div className="container relative z-10 px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <Reveal delay={0}>
-              <div className="inline-flex items-center gap-2 rounded-full bg-white/8 backdrop-blur-md border border-white/15 px-4 py-1.5 mb-7">
-                <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
-                <span className="text-sm font-medium text-gold-300 tracking-wide">{t("heroBadge")}</span>
+              <div className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold-500/20 to-gold-400/10 border border-gold-400/30 px-5 py-2 backdrop-blur-sm mb-7">
+                <BookOpen className="h-4 w-4 text-gold-400" />
+                <span className="text-sm font-medium text-gold-300">{t("heroBadge")}</span>
               </div>
             </Reveal>
 

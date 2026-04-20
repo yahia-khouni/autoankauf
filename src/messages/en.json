@@ -62,7 +62,12 @@
     "step3Title": "Get paid",
     "step3Description": "We pick up your car and pay immediately via bank transfer.",
     "badge": "Simple Process",
-    "subtitle": "In just 3 simple steps, sell your car quickly and hassle-free"
+    "subtitle": "In just 3 simple steps, sell your car quickly and hassle-free",
+    "step1Details": "Fill out our simple online form with the key vehicle details. It only takes 2 minutes and is completely free.",
+    "step2Details": "Once we have reviewed your information, we will promptly send you a fair and non-binding offer for your vehicle.",
+    "step3Details": "We offer flexible payment options: cash on pickup or a quick and secure instant bank transfer directly to your account.",
+    "paymentCash": "Cash",
+    "paymentTransfer": "Bank Transfer"
   },
   "whyUs": {
     "title": "Why Choose Autoankauf?",
