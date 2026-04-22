@@ -12,19 +12,21 @@
     "lng": 11.9688
   },
   "meta": {
-    "title": "Autoankauf Halle (Saale) | Auto verkaufen in Halle (Saale)",
-    "description": "Autoankauf in Halle (Saale): Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Halle (Saale). Jetzt Angebot erhalten!",
+    "title": "Ihr Autoankauf in Halle (Saale) | Bestpreis-Garantie",
+    "description": "Autoankauf Halle (Saale) — in Händels Geburtsstadt bieten wir den perfekten Akkord aus fairem Preis, schneller Abwicklung und kostenloser Fahrzeugabholung.",
     "keywords": [
       "Autoankauf Halle (Saale)",
       "Auto verkaufen Halle (Saale)",
-      "PKW Ankauf Halle (Saale)",
       "Gebrauchtwagen Ankauf Halle (Saale)",
-      "KFZ Ankauf Halle (Saale)"
+      "Fahrzeugankauf Halle (Saale)",
+      "Fahrzeug verkaufen Halle (Saale)",
+      "Auto ohne TÜV verkaufen Halle (Saale)",
+      "Gebrauchtwagenhandel Halle (Saale)"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Halle (Saale) schnell, fair und unkompliziert. Mit über 242.083 Einwohnern ist Halle (Saale) ein bedeutender Automobilmarkt in Sachsen-Anhalt.",
-    "localContent": "Halle (Saale) ist die größte Stadt Sachsen-Anhalts und Geburtsstadt Georg Friedrich Händels. Die Universitätsstadt hat rund 242.000 Einwohner."
+    "heroDescription": "In der Saalestadt Halle verbinden wir mitteldeutsche Bodenständigkeit mit professionellem Autoankauf. Faire Bewertung, persönlicher Service und sofortige Auszahlung.",
+    "localContent": "Halle (Saale) ist die größte Stadt Sachsen-Anhalts und Geburtsstadt des Komponisten Georg Friedrich Händel. Die rund 242.000 Einwohner zählende Universitätsstadt liegt an der Saale und bildet mit dem nahegelegenen Leipzig einen gemeinsamen Wirtschaftsraum. Die Martin-Luther-Universität und zahlreiche Forschungsinstitute sorgen für akademische Prägung und Kaufkraft. Die A9, A14 und A38 verbinden Halle optimal mit Berlin, Leipzig und dem mitteldeutschen Raum."
   },
   "landmarks": [
     "Marktkirche",
@@ -38,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Halle (Saale) verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Halle (Saale) innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Halle (Saale) an?",
+      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Halle (Saale) ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Halle (Saale) und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Halle (Saale)?",
+      "answer": "Für den Verkauf in Halle (Saale) benötigen Sie: Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), Ihren gültigen Personalausweis und alle Fahrzeugschlüssel. Serviceheft und TÜV-Bericht sind hilfreich, aber nicht zwingend erforderlich."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Halle (Saale) verkaufen?",
+      "answer": "Ja, auch Fahrzeuge ohne gültige Hauptuntersuchung kaufen wir in Halle (Saale) an. Der abgelaufene TÜV wird in der Bewertung berücksichtigt, ist aber kein Hindernis für den Verkauf."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Halle (Saale)?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Muss mein Fahrzeug für den Verkauf in Halle (Saale) noch angemeldet sein?",
+      "answer": "Eine Anmeldung ist nicht erforderlich. In Halle (Saale) kaufen wir sowohl zugelassene als auch abgemeldete Fahrzeuge. Die Ummeldung können wir bei Bedarf auch für Sie übernehmen."
+    },
+    {
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Halle (Saale) um?",
+      "answer": "Kein Motor zu kaputt: In Halle (Saale) kaufen wir Fahrzeuge mit Motorschäden jeder Art. Durch unser Verwertungsnetzwerk können wir auch bei schweren Defekten noch faire Preise bieten."
     }
   ]
 }

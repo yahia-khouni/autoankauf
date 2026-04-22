@@ -12,19 +12,20 @@
     "lng": 10.5268
   },
   "meta": {
-    "title": "Autoankauf Braunschweig | Auto verkaufen in Braunschweig",
-    "description": "Autoankauf in Braunschweig: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Braunschweig. Jetzt Angebot erhalten!",
+    "title": "Ihr Autoankauf in Braunschweig | Bestpreis-Garantie",
+    "description": "Autoankauf Braunschweig — die Löwenstadt bietet Bestpreise mit persönlicher Beratung. Bewertung durch Experten, Gratis-Abholung und Barauszahlung bei Übergabe.",
     "keywords": [
       "Autoankauf Braunschweig",
       "Auto verkaufen Braunschweig",
-      "PKW Ankauf Braunschweig",
-      "Gebrauchtwagen Ankauf Braunschweig",
-      "KFZ Ankauf Braunschweig"
+      "KFZ Ankauf Braunschweig",
+      "Unfallwagen verkaufen Braunschweig",
+      "Fahrzeug verkaufen Braunschweig",
+      "Gebrauchtwagenhandel Braunschweig"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Braunschweig schnell, fair und unkompliziert. Mit über 252.738 Einwohnern ist Braunschweig ein bedeutender Automobilmarkt in Niedersachsen.",
-    "localContent": "Braunschweig ist ein wichtiger Forschungs- und Wissenschaftsstandort und Sitz der ältesten TU Deutschlands. Die Löwenstadt hat rund 253.000 Einwohner."
+    "heroDescription": "In der traditionsreichen Löwenstadt erwartet Sie ein Autoankauf mit Biss: faire Bewertung, persönlicher Service und Sofortauszahlung direkt in Braunschweig.",
+    "localContent": "Braunschweig, die Löwenstadt, ist ein bedeutender Forschungs- und Wissenschaftsstandort mit der ältesten Technischen Universität Deutschlands und zahlreichen Forschungsinstituten. Die rund 253.000 Einwohner zählende Stadt liegt im Dreieck zwischen Hannover und Wolfsburg und profitiert von der Nähe zum VW-Hauptwerk. Die A2 und A39 machen Braunschweig zum ostwestlichen Verkehrsknotenpunkt mit Zugang zum gesamten norddeutschen Fahrzeugmarkt."
   },
   "landmarks": [
     "Burgplatz",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Braunschweig verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Braunschweig innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Braunschweig an?",
+      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Braunschweig ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Braunschweig und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Braunschweig?",
+      "answer": "Notwendig sind Fahrzeugschein und Fahrzeugbrief, ein gültiger Lichtbildausweis sowie die Schlüssel. Haben Sie ein Scheckheft oder ein aktuelles Gutachten, kann das den Ankaufspreis positiv beeinflussen."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Braunschweig verkaufen?",
+      "answer": "Ja, auch Fahrzeuge ohne gültige Hauptuntersuchung kaufen wir in Braunschweig an. Der abgelaufene TÜV wird in der Bewertung berücksichtigt, ist aber kein Hindernis für den Verkauf."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Braunschweig?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Muss mein Fahrzeug für den Verkauf in Braunschweig noch angemeldet sein?",
+      "answer": "Nein, Ihr Auto muss für den Verkauf in Braunschweig nicht angemeldet sein. Wir kaufen auch stillgelegte und bereits abgemeldete Fahrzeuge an."
+    },
+    {
+      "question": "Nehmen Sie auch Leasingrückläufer oder Mietwagen in Braunschweig an?",
+      "answer": "Ja, sofern Sie der Eigentümer sind oder die Leasinggesellschaft dem Verkauf zustimmt, kaufen wir auch Leasingfahrzeuge in Braunschweig an. Wir beraten Sie gerne zu den Abläufen."
     }
   ]
 }

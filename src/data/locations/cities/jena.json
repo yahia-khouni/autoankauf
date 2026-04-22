@@ -12,19 +12,20 @@
     "lng": 11.5892
   },
   "meta": {
-    "title": "Autoankauf Jena | Auto verkaufen in Jena",
-    "description": "Autoankauf in Jena: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Jena. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Jena — Faire Preise & Sofortzahlung",
+    "description": "Autoankauf Jena — die Optikstadt bietet glasklare Preise und transparente Abwicklung. Carl Zeiss und Schott geben den Qualitätsmaßstab: auch bei unserem Autoankauf.",
     "keywords": [
       "Autoankauf Jena",
       "Auto verkaufen Jena",
-      "PKW Ankauf Jena",
-      "Gebrauchtwagen Ankauf Jena",
-      "KFZ Ankauf Jena"
+      "Gebrauchtwagen verkaufen Jena",
+      "Fahrzeugankauf Jena",
+      "Auto sofort verkaufen Jena",
+      "PKW verkaufen Jena"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Jena schnell, fair und unkompliziert. Mit über 111.407 Einwohnern ist Jena ein bedeutender Automobilmarkt in Thüringen.",
-    "localContent": "Jena ist eine Universitäts- und Optikstadt in Thüringen. Als Sitz von Zeiss und Schott ist Jena ein bedeutender Technologiestandort mit rund 111.000 Einwohnern."
+    "heroDescription": "In der Lichtstadt Jena sehen wir klar, was Ihr Auto wert ist. Transparente Bewertung, persönlicher Service und Sofortauszahlung — so funktioniert moderner Autoankauf.",
+    "localContent": "Jena ist die Lichtstadt Thüringens und als Sitz von Zeiss und Schott ein bedeutender Technologiestandort. Die rund 111.000 Einwohner zählende Universitätsstadt im Saaletal verbindet optische Tradition mit innovativer Forschung. Die Friedrich-Schiller-Universität und zahlreiche Hightech-Unternehmen sorgen für eine junge, kaufkräftige Bevölkerung. Die A4 und A9 in unmittelbarer Nähe verbinden Jena mit Erfurt, Leipzig und dem gesamten mitteldeutschen Raum."
   },
   "landmarks": [
     "JenTower",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Jena verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Jena innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Jena an?",
+      "answer": "Unser kostenloser Abholservice deckt Jena und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Jena und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Jena?",
+      "answer": "Definitiv. Ob Hagelschaden, Motordefekt oder Rost — wir kaufen Ihr Fahrzeug in Jena in jedem Zustand an. Ehrliche Angaben helfen uns, Ihnen schnell ein faires Angebot zu machen."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Jena?",
+      "answer": "Bei Übergabe Ihres Fahrzeugs in Jena zahlen wir wahlweise in bar oder per Sofortüberweisung. Das Geld ist unmittelbar verfügbar und es entstehen keine zusätzlichen Kosten."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Jena?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kann ich mein Auto in Jena auch am Wochenende verkaufen?",
+      "answer": "Ja, für Kunden in Jena bieten wir auch Wochenendtermine an. Schreiben Sie uns oder rufen Sie an, und wir finden einen passenden Zeitpunkt."
+    },
+    {
+      "question": "Kann ich vorab eine telefonische Einschätzung für mein Auto in Jena erhalten?",
+      "answer": "Ja, der schnellste Weg: Rufen Sie an, nennen Sie die Eckdaten, und wir geben Ihnen direkt am Telefon eine erste Einschätzung — auch für Fahrzeuge in Jena und Umgebung."
     }
   ]
 }

@@ -12,19 +12,21 @@
     "lng": 7.0116
   },
   "meta": {
-    "title": "Autoankauf Essen | Auto verkaufen in Essen",
-    "description": "Autoankauf in Essen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Essen. Jetzt Angebot erhalten!",
+    "title": "Essen: Auto schnell & fair verkaufen | Autoankauf",
+    "description": "Essen — Auto verkaufen in der Grünen Hauptstadt Europas. Nachhaltig und fair: Wir bewerten Ihr Fahrzeug individuell und zahlen sofort bei Abholung vor Ort.",
     "keywords": [
       "Autoankauf Essen",
       "Auto verkaufen Essen",
       "PKW Ankauf Essen",
-      "Gebrauchtwagen Ankauf Essen",
-      "KFZ Ankauf Essen"
+      "Unfallwagen verkaufen Essen",
+      "Fahrzeugankauf Essen",
+      "Auto ohne TÜV verkaufen Essen",
+      "Fahrzeugbewertung Essen"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Essen schnell, fair und unkompliziert. Mit über 583.084 Einwohnern ist Essen ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
-    "localContent": "Essen ist die zweitgrößte Stadt im Ruhrgebiet und war 2017 Grüne Hauptstadt Europas. Die Zeche Zollverein ist UNESCO-Welterbe."
+    "heroDescription": "Europas Grüne Hauptstadt 2017 bietet grünes Licht für Ihren Autoverkauf. In Essen erhalten Sie eine professionelle Bewertung und sofortige Auszahlung — fair und transparent.",
+    "localContent": "Essen ist mit rund 583.000 Einwohnern die zweitgrößte Stadt im Ruhrgebiet und wurde 2017 als Grüne Hauptstadt Europas ausgezeichnet. Die Zeche Zollverein, UNESCO-Welterbe und ehemaliges Steinkohlebergwerk, symbolisiert den gelungenen Strukturwandel. Internationale Konzerne wie ThyssenKrupp, RWE und Aldi haben ihren Hauptsitz hier. Die A40, A42 und A52 verbinden Essen eng mit den Nachbarstädten im Revier."
   },
   "landmarks": [
     "Zeche Zollverein",
@@ -40,20 +42,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Essen verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Essen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Essen an?",
+      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Essen ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Essen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Essen?",
+      "answer": "Ja, wir kaufen in Essen Fahrzeuge in jedem Zustand — ob Unfallschäden, Motorprobleme, Getriebeschäden oder hohe Laufleistung. Jedes Auto hat bei uns einen fairen Wert."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Nach der Bewertung kontaktieren wir Sie mit einem konkreten Angebot. Sind Sie einverstanden, vereinbaren wir einen Termin in Essen zur Besichtigung und sofortigen Kaufabwicklung."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Essen?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Essen an?",
+      "answer": "Es gibt keine Marke, die wir in Essen nicht ankaufen. Unser Käufernetzwerk umfasst alle Hersteller — von Alfa Romeo bis Volvo, Exoten und Nischenfahrzeuge eingeschlossen."
+    },
+    {
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Essen um?",
+      "answer": "Fahrzeuge mit Motorschaden kaufen wir in Essen routinemäßig an. Der Schaden wird fair bewertet und Sie erhalten ein ehrliches Angebot, das den tatsächlichen Restwert widerspiegelt."
     }
   ]
 }

@@ -12,19 +12,21 @@
     "lng": 9.732
   },
   "meta": {
-    "title": "Autoankauf Hannover | Auto verkaufen in Hannover",
-    "description": "Autoankauf in Hannover: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Hannover. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen Hannover — Schnell, sicher & unkompliziert",
+    "description": "Auto verkaufen in Hannover — die Messestadt bietet Top-Konditionen für Ihren Gebrauchtwagen. Express-Bewertung, kostenlose Abholung und sichere Sofortauszahlung.",
     "keywords": [
       "Autoankauf Hannover",
       "Auto verkaufen Hannover",
       "PKW Ankauf Hannover",
       "Gebrauchtwagen Ankauf Hannover",
-      "KFZ Ankauf Hannover"
+      "Autoverkauf Hannover",
+      "Fahrzeugbewertung Hannover",
+      "Autoankauf in der Nähe Hannover"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Hannover schnell, fair und unkompliziert. Mit über 545.061 Einwohnern ist Hannover ein bedeutender Automobilmarkt in Niedersachsen.",
-    "localContent": "Hannover ist die Landeshauptstadt Niedersachsens und weltbekannt als Messestadt. Mit rund 545.000 Einwohnern ist die Stadt ein bedeutender Verkehrsknotenpunkt."
+    "heroDescription": "In der niedersächsischen Landeshauptstadt profitieren Sie von unserer Messekompetenz: schnelle Bewertungen, transparente Prozesse und sofortige Auszahlung für Ihr Fahrzeug.",
+    "localContent": "Hannover ist die Landeshauptstadt Niedersachsens und weltbekannt als Messestadt mit der größten Industriemesse der Welt. Mit rund 545.000 Einwohnern ist die Stadt ein bedeutender Verkehrsknotenpunkt im Herzen Norddeutschlands. Die Automobilindustrie ist mit VW Nutzfahrzeuge und Continental stark vertreten. Das Autobahnkreuz Hannover, wo sich A2, A7 und A37 treffen, macht die Messestadt zum logistischen Zentrum Niedersachsens."
   },
   "landmarks": [
     "Herrenhäuser Gärten",
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Hannover verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Hannover innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Schnelligkeit ist unser Markenzeichen: In Hannover schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Hannover und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Hannover berechnet?",
+      "answer": "Unser Bewertungsverfahren in Hannover basiert auf der Schwacke-Liste, aktuellen Marktpreisen und dem individuellen Zustand Ihres Fahrzeugs. So garantieren wir einen marktgerechten Ankaufspreis."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Sie erhalten zunächst eine unverbindliche Online-Schätzung. Im nächsten Schritt besichtigen wir das Fahrzeug in Hannover, bestätigen den Preis und zahlen sofort — bar oder per Echtzeitüberweisung."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Hannover?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Hannover an?",
+      "answer": "Wir kaufen in Hannover alle Marken an: von deutschen Premium-Herstellern wie BMW, Mercedes und Audi bis zu Ford, Opel und VW. Auch japanische und koreanische Marken wie Toyota und Hyundai sind willkommen."
+    },
+    {
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Hannover?",
+      "answer": "Unser Unterschied in Hannover: persönlicher Kontakt, ehrliche Bewertung und ein Rundum-Service, der Ihnen den Papierkram und Stress komplett abnimmt. Dafür stehen unsere Kundenbewertungen."
     }
   ]
 }

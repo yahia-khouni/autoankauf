@@ -12,19 +12,21 @@
     "lng": 8.2398
   },
   "meta": {
-    "title": "Autoankauf Wiesbaden | Auto verkaufen in Wiesbaden",
-    "description": "Autoankauf in Wiesbaden: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Wiesbaden. Jetzt Angebot erhalten!",
+    "title": "Gebrauchtwagen verkaufen Wiesbaden — Bester Preis garantiert",
+    "description": "Gebrauchtwagen verkaufen in Wiesbaden — die hessische Landeshauptstadt am Rhein bietet Premium-Service. Bestpreis für Ihren PKW mit Express-Bewertung und Sofortzahlung.",
     "keywords": [
       "Autoankauf Wiesbaden",
       "Auto verkaufen Wiesbaden",
-      "PKW Ankauf Wiesbaden",
-      "Gebrauchtwagen Ankauf Wiesbaden",
-      "KFZ Ankauf Wiesbaden"
+      "KFZ Ankauf Wiesbaden",
+      "Gebrauchtwagen verkaufen Wiesbaden",
+      "Fahrzeug verkaufen Wiesbaden",
+      "Gebrauchtwagenhandel Wiesbaden",
+      "Fahrzeugbewertung Wiesbaden"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Wiesbaden schnell, fair und unkompliziert. Mit über 283.083 Einwohnern ist Wiesbaden ein bedeutender Automobilmarkt in Hessen.",
-    "localContent": "Wiesbaden ist die Landeshauptstadt Hessens und eine traditionsreiche Kurstadt. Mit rund 283.000 Einwohnern liegt sie am Rhein gegenüber von Mainz."
+    "heroDescription": "In der eleganten Kurstadt Wiesbaden bieten wir einen Autoankauf-Service, der zu Ihrem Standard passt — diskret, professionell und mit sofortiger Auszahlung.",
+    "localContent": "Wiesbaden ist die Landeshauptstadt Hessens und eine traditionsreiche Kurstadt mit rund 283.000 Einwohnern. Am Rhein gelegen und gegenüber von Mainz bietet Wiesbaden eine gehobene Wohnqualität und eine wohlhabende Bevölkerung. Als Sitz vieler Versicherungen und Ministerien prägen gut verdienende Berufstätige den lokalen Automarkt. Die Nähe zu Frankfurt und die Anbindung über A66 und A643 machen Wiesbaden zu einem attraktiven Standort im Rhein-Main-Gebiet."
   },
   "landmarks": [
     "Kurhaus",
@@ -39,20 +41,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Wiesbaden verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Wiesbaden innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Wiesbaden?",
+      "answer": "Notwendig sind Fahrzeugschein und Fahrzeugbrief, ein gültiger Lichtbildausweis sowie die Schlüssel. Haben Sie ein Scheckheft oder ein aktuelles Gutachten, kann das den Ankaufspreis positiv beeinflussen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Wiesbaden und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Wiesbaden berechnet?",
+      "answer": "Wir ermitteln den Wert anhand aktueller Marktdaten, Fahrzeugzustand, Kilometerstand, Ausstattung und regionaler Nachfrage in Wiesbaden. Sie erhalten ein transparentes Angebot ohne versteckte Abzüge."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Nach der Bewertung kontaktieren wir Sie mit einem konkreten Angebot. Sind Sie einverstanden, vereinbaren wir einen Termin in Wiesbaden zur Besichtigung und sofortigen Kaufabwicklung."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Wiesbaden?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Muss mein Fahrzeug für den Verkauf in Wiesbaden noch angemeldet sein?",
+      "answer": "Eine Anmeldung ist nicht erforderlich. In Wiesbaden kaufen wir sowohl zugelassene als auch abgemeldete Fahrzeuge. Die Ummeldung können wir bei Bedarf auch für Sie übernehmen."
+    },
+    {
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Wiesbaden gültig?",
+      "answer": "Unser Angebot für Ihr Fahrzeug in Wiesbaden ist in der Regel 7 Tage gültig. So haben Sie genug Zeit, in Ruhe zu vergleichen und sich zu entscheiden."
     }
   ]
 }

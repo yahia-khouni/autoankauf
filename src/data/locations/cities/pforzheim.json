@@ -12,19 +12,20 @@
     "lng": 8.6946
   },
   "meta": {
-    "title": "Autoankauf Pforzheim | Auto verkaufen in Pforzheim",
-    "description": "Autoankauf in Pforzheim: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Pforzheim. Jetzt Angebot erhalten!",
+    "title": "Fahrzeugankauf Pforzheim | Alle Marken & Zustände",
+    "description": "Fahrzeugankauf Pforzheim — die Goldstadt bietet auch für Ihren Gebrauchtwagen Goldwert. Alle Marken, alle Zustände, kostenlose Bewertung und Abholung inklusive.",
     "keywords": [
       "Autoankauf Pforzheim",
       "Auto verkaufen Pforzheim",
-      "PKW Ankauf Pforzheim",
-      "Gebrauchtwagen Ankauf Pforzheim",
-      "KFZ Ankauf Pforzheim"
+      "KFZ Ankauf Pforzheim",
+      "Gebrauchtwagen verkaufen Pforzheim",
+      "Motorschaden Ankauf Pforzheim",
+      "Gebrauchtwagenhandel Pforzheim"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Pforzheim schnell, fair und unkompliziert. Mit über 125.542 Einwohnern ist Pforzheim ein bedeutender Automobilmarkt in Baden-Württemberg.",
-    "localContent": "Pforzheim ist als Goldstadt bekannt und liegt am Nordrand des Schwarzwalds. Mit rund 126.000 Einwohnern ist sie das Zentrum der deutschen Schmuckindustrie."
+    "heroDescription": "In der Goldstadt erwartet Sie ein goldrichtiges Angebot für Ihr Auto. Wir bewerten fair, holen kostenlos ab und zahlen sofort — alles direkt in Pforzheim.",
+    "localContent": "Pforzheim, die Goldstadt am Nordrand des Schwarzwalds, ist das Zentrum der deutschen Schmuck- und Uhrenindustrie. Mit rund 126.000 Einwohnern liegt die Stadt strategisch zwischen Karlsruhe und Stuttgart an der A8. Die handwerkliche Tradition Pforzheims spiegelt sich auch im Umgang mit Qualität wider — genau das bringen wir in unseren Fahrzeugankauf ein. Die Region um Pforzheim mit dem Enzkreis bietet ein großes Einzugsgebiet für den Autohandel."
   },
   "landmarks": [
     "Schmuckmuseum",
@@ -40,19 +41,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Pforzheim verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Pforzheim innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Der gesamte Verkaufsprozess in Pforzheim dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Pforzheim und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Pforzheim verkaufen?",
+      "answer": "Absolut. In Pforzheim kaufen wir auch Autos mit abgelaufenem TÜV. Sie sparen sich die Kosten für eine erneute Prüfung — wir kümmern uns um alles Weitere."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Muss mein Fahrzeug für den Verkauf in Pforzheim noch angemeldet sein?",
+      "answer": "Eine Anmeldung ist nicht erforderlich. In Pforzheim kaufen wir sowohl zugelassene als auch abgemeldete Fahrzeuge. Die Ummeldung können wir bei Bedarf auch für Sie übernehmen."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Pforzheim?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Pforzheim?",
+      "answer": "Drei Dinge: Wir zahlen marktgerechte Preise, bieten einen vollständigen Service von Bewertung bis Abmeldung in Pforzheim und behandeln jedes Fahrzeug individuell — kein Massenankauf."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Pforzheim versteckte Kosten für mich?",
+      "answer": "Bei uns in Pforzheim gibt es keine versteckten Gebühren, keine Provisionen und keine nachträglichen Abzüge. Der vereinbarte Ankaufspreis wird zu 100 % an Sie ausgezahlt."
     }
   ]
 }

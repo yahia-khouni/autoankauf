@@ -12,19 +12,20 @@
     "lng": 9.9158
   },
   "meta": {
-    "title": "Autoankauf Göttingen | Auto verkaufen in Göttingen",
-    "description": "Autoankauf in Göttingen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Göttingen. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Göttingen | Professionell & Fair",
+    "description": "Autoankauf Göttingen — die Universitätsstadt bietet kurze Wege zum professionellen Fahrzeugverkauf. Faire Preise, kostenlose Abholung und sofortige Bezahlung.",
     "keywords": [
       "Autoankauf Göttingen",
       "Auto verkaufen Göttingen",
-      "PKW Ankauf Göttingen",
       "Gebrauchtwagen Ankauf Göttingen",
-      "KFZ Ankauf Göttingen"
+      "Unfallwagen verkaufen Göttingen",
+      "Fahrzeug verkaufen Göttingen",
+      "Auto ohne TÜV verkaufen Göttingen"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Göttingen schnell, fair und unkompliziert. Mit über 117.665 Einwohnern ist Göttingen ein bedeutender Automobilmarkt in Niedersachsen.",
-    "localContent": "Göttingen ist eine renommierte Universitätsstadt in Südniedersachsen. Die Georg-August-Universität hat zahlreiche Nobelpreisträger hervorgebracht."
+    "heroDescription": "Die traditionsreiche Universitätsstadt Göttingen verbindet Wissen mit Service. Profitieren Sie von einer datenbasierten Fahrzeugbewertung und sofortiger Auszahlung.",
+    "localContent": "Göttingen ist eine renommierte Universitätsstadt in Südniedersachsen, deren Georg-August-Universität zahlreiche Nobelpreisträger hervorgebracht hat. Die rund 118.000 Einwohner zählende Stadt ist geprägt von Forschung und Wissenschaft mit dem Max-Planck-Campus und dem DLR. Der hohe Anteil an Wissenschaftlern und Studierenden sorgt für einen regen Fahrzeugmarkt. Die A7 als Nord-Süd-Verbindung macht Göttingen zum Bindeglied zwischen Hannover und Kassel."
   },
   "landmarks": [
     "Gänseliesel",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Göttingen verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Göttingen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Göttingen an?",
+      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Göttingen ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Göttingen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Göttingen verkaufen?",
+      "answer": "Selbstverständlich. Viele Verkäufer in Göttingen möchten kein Geld mehr in den TÜV investieren — das verstehen wir und kaufen Ihr Auto auch ohne gültige HU an."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Die Online-Bewertung gibt Ihnen eine erste Preisindikation. Bei einem kurzen Vor-Ort-Termin in Göttingen prüfen wir das Fahrzeug und nennen Ihnen den verbindlichen Ankaufspreis."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Göttingen?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Muss mein Fahrzeug für den Verkauf in Göttingen noch angemeldet sein?",
+      "answer": "Nein, auch abgemeldete Autos kaufen wir in Göttingen problemlos an. Falls Ihr Fahrzeug noch zugelassen ist, können wir die Abmeldung anschließend gerne für Sie erledigen."
+    },
+    {
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Göttingen gültig?",
+      "answer": "Nach der Bewertung in Göttingen gilt unser Angebot eine Woche. In dieser Zeit können Sie sich ohne Druck entscheiden — es gibt keinerlei versteckte Fristen."
     }
   ]
 }

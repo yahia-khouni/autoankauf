@@ -12,19 +12,21 @@
     "lng": 8.5325
   },
   "meta": {
-    "title": "Autoankauf Bielefeld | Auto verkaufen in Bielefeld",
-    "description": "Autoankauf in Bielefeld: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Bielefeld. Jetzt Angebot erhalten!",
+    "title": "Ihr Autoankauf in Bielefeld | Bestpreis-Garantie",
+    "description": "Autoankauf Bielefeld — Ostwestfalens größte Stadt bietet starke Ankaufspreise. Persönliche Bewertung, Gratis-Abholung am Teutoburger Wald und garantierte Sofortzahlung.",
     "keywords": [
       "Autoankauf Bielefeld",
       "Auto verkaufen Bielefeld",
       "PKW Ankauf Bielefeld",
-      "Gebrauchtwagen Ankauf Bielefeld",
-      "KFZ Ankauf Bielefeld"
+      "Gebrauchtwagen verkaufen Bielefeld",
+      "Auto sofort verkaufen Bielefeld",
+      "Motorschaden Ankauf Bielefeld",
+      "PKW verkaufen Bielefeld"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Bielefeld schnell, fair und unkompliziert. Mit über 334.195 Einwohnern ist Bielefeld ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
-    "localContent": "Bielefeld liegt am Teutoburger Wald in Ostwestfalen-Lippe und ist ein bedeutender Wirtschaftsstandort mit rund 334.000 Einwohnern."
+    "heroDescription": "Am Teutoburger Wald und im wirtschaftsstarken Ostwestfalen-Lippe bieten wir Ihnen einen zuverlässigen Autoankauf mit Bestpreisgarantie und persönlichem Service.",
+    "localContent": "Bielefeld am Teutoburger Wald ist mit rund 334.000 Einwohnern die größte Stadt in Ostwestfalen-Lippe und ein bedeutender Wirtschaftsstandort. Bekannte Unternehmen wie Dr. Oetker, Schüco und Böllhoff haben hier ihren Sitz. Die Sparrenburg thront über der Stadt und erinnert an die mittelalterlichen Wurzeln. Als östlicher Brückenkopf zwischen Ruhrgebiet und Norddeutschland profitiert Bielefeld von der A2."
   },
   "landmarks": [
     "Sparrenburg",
@@ -39,20 +41,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Bielefeld verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Bielefeld innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Bielefeld?",
+      "answer": "Für den Verkauf in Bielefeld benötigen Sie: Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), Ihren gültigen Personalausweis und alle Fahrzeugschlüssel. Serviceheft und TÜV-Bericht sind hilfreich, aber nicht zwingend erforderlich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Bielefeld und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Bielefeld?",
+      "answer": "Ja, gerade Firmenkunden in Bielefeld schätzen unseren schnellen und unbürokratischen Ankauf. Ob Einzelfahrzeug oder ganze Flotte — wir kümmern uns um alle Details."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Bielefeld?",
+      "answer": "Wir bezahlen direkt bei der Fahrzeugübergabe in Bielefeld — entweder bar oder per Banküberweisung in Echtzeit. Sie erhalten Ihr Geld sofort, ganz ohne Wartezeit."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Bielefeld?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kann ich mein Auto in Bielefeld auch am Wochenende verkaufen?",
+      "answer": "Ja, wir sind auch an Samstagen für Besichtigungen und Ankäufe in Bielefeld verfügbar. Vereinbaren Sie einfach einen Wochenendtermin über unser Kontaktformular."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Bielefeld versteckte Kosten für mich?",
+      "answer": "Bei uns in Bielefeld gibt es keine versteckten Gebühren, keine Provisionen und keine nachträglichen Abzüge. Der vereinbarte Ankaufspreis wird zu 100 % an Sie ausgezahlt."
     }
   ]
 }

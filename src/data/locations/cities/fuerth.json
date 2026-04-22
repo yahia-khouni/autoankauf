@@ -12,19 +12,20 @@
     "lng": 10.9888
   },
   "meta": {
-    "title": "Autoankauf Fürth | Auto verkaufen in Fürth",
-    "description": "Autoankauf in Fürth: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Fürth. Jetzt Angebot erhalten!",
+    "title": "KFZ Ankauf Fürth — Kostenlose Bewertung & Abholung",
+    "description": "KFZ Ankauf in Fürth — direkt neben Nürnberg gelegen, bieten wir schnellen Service und faire Preise. Kostenlose Bewertung, Abholung und Zahlung am selben Tag.",
     "keywords": [
       "Autoankauf Fürth",
       "Auto verkaufen Fürth",
       "PKW Ankauf Fürth",
-      "Gebrauchtwagen Ankauf Fürth",
-      "KFZ Ankauf Fürth"
+      "Unfallwagen verkaufen Fürth",
+      "Autoverkauf Fürth",
+      "Motorschaden Ankauf Fürth"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Fürth schnell, fair und unkompliziert. Mit über 128.497 Einwohnern ist Fürth ein bedeutender Automobilmarkt in Bayern.",
-    "localContent": "Fürth liegt direkt neben Nürnberg und bildet mit ihr einen gemeinsamen Ballungsraum. Die Stadt hat rund 128.500 Einwohner und ist eng mit der Geschichte der Eisenbahn verbunden."
+    "heroDescription": "In der Kleeblattstadt werden Qualität und Fairness großgeschrieben — auch beim Autoankauf. Wir bieten Ihnen in Fürth Bestpreise mit komfortablem Rundum-Service.",
+    "localContent": "Fürth grenzt unmittelbar an Nürnberg und bildet mit ihr einen gemeinsamen Ballungsraum in der Metropolregion. Die rund 128.500 Einwohner zählende Stadt ist eng mit der Geschichte der Eisenbahn verbunden — hier fuhr 1835 die erste deutsche Eisenbahn. Heute zeichnet sich die Kleeblattstadt durch eine vielfältige Wirtschaftsstruktur mit Schwerpunkten in Solarenergie und Medien aus. Die enge Verzahnung mit Nürnberg und Erlangen schafft einen der aktivsten Fahrzeugmärkte Frankens."
   },
   "landmarks": [
     "Stadttheater",
@@ -40,19 +41,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Fürth verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Fürth innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Wir wickeln den Autoankauf in Fürth meist innerhalb von 24 bis 48 Stunden ab. Kontaktieren Sie uns am Morgen — oft können wir noch am selben Tag ein verbindliches Angebot machen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Fürth und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Fürth?",
+      "answer": "Bei Übergabe Ihres Fahrzeugs in Fürth zahlen wir wahlweise in bar oder per Sofortüberweisung. Das Geld ist unmittelbar verfügbar und es entstehen keine zusätzlichen Kosten."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Muss mein Fahrzeug für den Verkauf in Fürth noch angemeldet sein?",
+      "answer": "Nein, Ihr Auto muss für den Verkauf in Fürth nicht angemeldet sein. Wir kaufen auch stillgelegte und bereits abgemeldete Fahrzeuge an."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Fürth?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Fürth?",
+      "answer": "Wir kombinieren die Reichweite eines großen Ankaufsdienstes mit persönlicher Betreuung vor Ort in Fürth. Keine Call-Center, keine Warteschleifen — stattdessen direkte Ansprechpartner."
+    },
+    {
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Fürth gültig?",
+      "answer": "Das Angebot ist ab Datum der Bewertung 7 Tage lang bindend. Sollten Sie mehr Zeit benötigen, kontaktieren Sie uns in Fürth einfach erneut für eine Aktualisierung."
     }
   ]
 }

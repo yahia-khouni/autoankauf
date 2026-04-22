@@ -12,19 +12,20 @@
     "lng": 9.4797
   },
   "meta": {
-    "title": "Autoankauf Kassel | Auto verkaufen in Kassel",
-    "description": "Autoankauf in Kassel: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Kassel. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Kassel — Faire Preise & Sofortzahlung",
+    "description": "Autoankauf Kassel — faire Preise in der documenta-Stadt. Ihr Fahrzeug wird individuell bewertet, kostenlos abgeholt und sofort bar bezahlt. Nordhessen vertraut uns.",
     "keywords": [
       "Autoankauf Kassel",
       "Auto verkaufen Kassel",
-      "PKW Ankauf Kassel",
       "Gebrauchtwagen Ankauf Kassel",
-      "KFZ Ankauf Kassel"
+      "Wagen verkaufen Kassel",
+      "Motorschaden Ankauf Kassel",
+      "PKW verkaufen Kassel"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Kassel schnell, fair und unkompliziert. Mit über 202.137 Einwohnern ist Kassel ein bedeutender Automobilmarkt in Hessen.",
-    "localContent": "Kassel liegt in Nordhessen und ist weltweit bekannt als Austragungsort der documenta. Der Bergpark Wilhelmshöhe mit dem Herkules gehört zum UNESCO-Welterbe."
+    "heroDescription": "Die documenta-Stadt Kassel steht für Weltoffenheit und Qualität — Werte, die auch unseren Autoankauf in Nordhessen prägen. Fair, schnell und transparent.",
+    "localContent": "Kassel liegt zentral in Nordhessen und ist weltweit bekannt als Austragungsort der documenta, einer der bedeutendsten Ausstellungen zeitgenössischer Kunst. Der Bergpark Wilhelmshöhe mit dem imposanten Herkules gehört zum UNESCO-Welterbe. Die rund 202.000 Einwohner zählende Stadt ist ein wichtiger Industriestandort mit VW- und Daimler-Werken in der Region. Als Knotenpunkt der A7, A44 und A49 verbindet Kassel Norddeutschland mit Süddeutschland."
   },
   "landmarks": [
     "Bergpark Wilhelmshöhe",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Kassel verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Kassel innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Kassel an?",
+      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Kassel ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Kassel und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Kassel?",
+      "answer": "Ja, wir kaufen in Kassel Fahrzeuge in jedem Zustand — ob Unfallschäden, Motorprobleme, Getriebeschäden oder hohe Laufleistung. Jedes Auto hat bei uns einen fairen Wert."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Kassel verkaufen?",
+      "answer": "Absolut. In Kassel kaufen wir auch Autos mit abgelaufenem TÜV. Sie sparen sich die Kosten für eine erneute Prüfung — wir kümmern uns um alles Weitere."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Kassel?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Kassel an?",
+      "answer": "Jede Marke ist willkommen! In Kassel kaufen wir deutsche, japanische, koreanische, französische und amerikanische Fahrzeuge gleichermaßen an."
+    },
+    {
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Kassel um?",
+      "answer": "Kein Motor zu kaputt: In Kassel kaufen wir Fahrzeuge mit Motorschäden jeder Art. Durch unser Verwertungsnetzwerk können wir auch bei schweren Defekten noch faire Preise bieten."
     }
   ]
 }

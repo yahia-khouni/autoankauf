@@ -12,19 +12,21 @@
     "lng": 8.2146
   },
   "meta": {
-    "title": "Autoankauf Oldenburg | Auto verkaufen in Oldenburg",
-    "description": "Autoankauf in Oldenburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Oldenburg. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Oldenburg — Ihr lokaler Partner für Autoverkauf",
+    "description": "Autoankauf Oldenburg — Ihr regionaler Ankaufspartner im Nordwesten. Persönliche Beratung, individuelle Fahrzeugbewertung und garantierte Sofortauszahlung.",
     "keywords": [
       "Autoankauf Oldenburg",
       "Auto verkaufen Oldenburg",
       "PKW Ankauf Oldenburg",
-      "Gebrauchtwagen Ankauf Oldenburg",
-      "KFZ Ankauf Oldenburg"
+      "Gebrauchtwagen verkaufen Oldenburg",
+      "Auto sofort verkaufen Oldenburg",
+      "PKW verkaufen Oldenburg",
+      "Autoankauf in der Nähe Oldenburg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Oldenburg schnell, fair und unkompliziert. Mit über 172.747 Einwohnern ist Oldenburg ein bedeutender Automobilmarkt in Niedersachsen.",
-    "localContent": "Oldenburg liegt im Nordwesten Niedersachsens und hat rund 173.000 Einwohner. Die ehemalige Residenzstadt ist ein wichtiges Zentrum im Oldenburger Münsterland."
+    "heroDescription": "In der ehemaligen Residenzstadt Oldenburg setzen wir auf persönlichen Service und faire Bewertungen. Ihr Auto verdient mehr als einen Standardpreis — wir liefern den Beweis.",
+    "localContent": "Oldenburg liegt im Nordwesten Niedersachsens und hat als ehemalige Residenzstadt ein vornehmes Stadtbild bewahrt. Die rund 173.000 Einwohner, darunter viele Studierende der Carl von Ossietzky Universität, sorgen für einen lebendigen Fahrzeugmarkt. Als wirtschaftliches Zentrum des Oldenburger Münsterlandes verfügt die Region über solide Kaufkraft. Die A28 und A29 verbinden Oldenburg mit Bremen und der Nordseeküste."
   },
   "landmarks": [
     "Schloss Oldenburg",
@@ -39,20 +41,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Oldenburg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Oldenburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Oldenburg an?",
+      "answer": "Unser kostenloser Abholservice deckt Oldenburg und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Oldenburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Oldenburg berechnet?",
+      "answer": "Die Preisberechnung berücksichtigt Marke, Modell, Baujahr, Kilometerstand, Zusatzausstattung und den Zustand. In Oldenburg nutzen wir tagesaktuelle Händlerdaten für eine faire Bewertung."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Oldenburg?",
+      "answer": "Selbstverständlich! In Oldenburg übernehmen wir Firmenfahrzeuge jeder Größe — vom einzelnen Geschäftswagen bis zu ganzen Fuhrparks. Wir erstellen Ihnen ein attraktives Paketangebot."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Oldenburg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Oldenburg um?",
+      "answer": "Motorschäden sind kein Problem. Wir haben ein Netzwerk von Werkstätten und Verwertern, sodass wir auch in Oldenburg für defekte Motoren den bestmöglichen Restwert ermitteln."
+    },
+    {
+      "question": "Kann ich vorab eine telefonische Einschätzung für mein Auto in Oldenburg erhalten?",
+      "answer": "Ja, rufen Sie uns einfach an. Anhand Ihrer Angaben zu Marke, Modell, Baujahr und Zustand geben wir Ihnen sofort eine erste Preiseinschätzung für Ihr Auto aus Oldenburg."
     }
   ]
 }

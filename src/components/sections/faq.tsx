@@ -6,11 +6,19 @@ import { HelpCircle, ChevronDown } from "lucide-react";
 import { AnimateOnScroll } from "@/components/ui/animate-on-scroll";
 import { FaqContactCard } from "@/components/sections/faq-contact-card";
 
-export function FAQSection() {
+export function FAQSection({
+  title,
+  subtitle,
+  faqs: propFaqs,
+}: {
+  title?: string;
+  subtitle?: string;
+  faqs?: { q: string; a: string; }[];
+} = {}) {
   const t = useTranslations("faq");
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const faqs = [
+  const defaultFaqs = [
     { q: t("q1"), a: t("a1") },
     { q: t("q2"), a: t("a2") },
     { q: t("q3"), a: t("a3") },
@@ -18,6 +26,10 @@ export function FAQSection() {
     { q: t("q5"), a: t("a5") },
     { q: t("q6"), a: t("a6") },
   ];
+
+  const faqs = propFaqs || defaultFaqs;
+  const displayTitle = title || t("title");
+  const displaySubtitle = subtitle || t("subtitle");
 
   const toggle = (i: number) => setOpenIndex(openIndex === i ? null : i);
   const phoneDisplay = t("contactPhone");
@@ -48,10 +60,10 @@ export function FAQSection() {
                   </span>
                 </div>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-5 text-navy-900 leading-tight">
-                  {t("title")}
+                  {displayTitle}
                 </h2>
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-                  {t("subtitle")}
+                  {displaySubtitle}
                 </p>
               </div>
 

@@ -12,19 +12,21 @@
     "lng": 9.4469
   },
   "meta": {
-    "title": "Autoankauf Flensburg | Auto verkaufen in Flensburg",
-    "description": "Autoankauf in Flensburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Flensburg. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Flensburg | Professionell & Fair",
+    "description": "Autoankauf Flensburg — die nördlichste Großstadt Deutschlands bietet grenzenlos faire Ankaufspreise. Sitz des KBA: Wir verstehen Autos. Gratis-Bewertung und Sofortzahlung.",
     "keywords": [
       "Autoankauf Flensburg",
       "Auto verkaufen Flensburg",
       "PKW Ankauf Flensburg",
-      "Gebrauchtwagen Ankauf Flensburg",
-      "KFZ Ankauf Flensburg"
+      "Fahrzeugankauf Flensburg",
+      "Fahrzeug verkaufen Flensburg",
+      "Auto ohne TÜV verkaufen Flensburg",
+      "Autoankauf in der Nähe Flensburg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Flensburg schnell, fair und unkompliziert. Mit über 91.113 Einwohnern ist Flensburg ein bedeutender Automobilmarkt in Schleswig-Holstein.",
-    "localContent": "Flensburg liegt an der deutsch-dänischen Grenze und ist bekannt als Sitz des Kraftfahrt-Bundesamtes. Die nördlichste Großstadt Deutschlands hat rund 91.000 Einwohner."
+    "heroDescription": "Am Sitz des Kraftfahrt-Bundesamtes kennen wir jedes Detail rund ums Auto. In Flensburg profitieren Sie von Expertenwissen, fairen Preisen und sofortiger Bezahlung.",
+    "localContent": "Flensburg liegt an der deutsch-dänischen Grenze und ist die nördlichste Großstadt Deutschlands. Als Sitz des Kraftfahrt-Bundesamtes (KBA) ist Flensburg in ganz Deutschland ein Begriff für alles rund ums Auto. Die rund 91.000 Einwohner zählende Fördestadt verbindet deutsche und dänische Kultur und profitiert vom grenzüberschreitenden Handel. Die A7 und die Grenze zu Dänemark eröffnen interessante Möglichkeiten für den internationalen Fahrzeughandel."
   },
   "landmarks": [
     "Hafen",
@@ -38,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Flensburg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Flensburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Flensburg an?",
+      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Flensburg ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Flensburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Flensburg berechnet?",
+      "answer": "Wir ermitteln den Wert anhand aktueller Marktdaten, Fahrzeugzustand, Kilometerstand, Ausstattung und regionaler Nachfrage in Flensburg. Sie erhalten ein transparentes Angebot ohne versteckte Abzüge."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Flensburg verkaufen?",
+      "answer": "Kein Problem. Ob der TÜV erst kürzlich oder schon seit Jahren abgelaufen ist — in Flensburg kaufen wir Ihr Fahrzeug trotzdem an und erstellen ein faires Angebot."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Flensburg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Flensburg an?",
+      "answer": "Es gibt keine Marke, die wir in Flensburg nicht ankaufen. Unser Käufernetzwerk umfasst alle Hersteller — von Alfa Romeo bis Volvo, Exoten und Nischenfahrzeuge eingeschlossen."
+    },
+    {
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Flensburg um?",
+      "answer": "Fahrzeuge mit Motorschaden kaufen wir in Flensburg routinemäßig an. Der Schaden wird fair bewertet und Sie erhalten ein ehrliches Angebot, das den tatsächlichen Restwert widerspiegelt."
     }
   ]
 }

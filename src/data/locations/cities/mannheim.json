@@ -12,19 +12,21 @@
     "lng": 8.466
   },
   "meta": {
-    "title": "Autoankauf Mannheim | Auto verkaufen in Mannheim",
-    "description": "Autoankauf in Mannheim: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Mannheim. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen in Mannheim | Kostenloses Angebot in 24h",
+    "description": "Auto verkaufen in Mannheim — die Quadratestadt bietet kurze Wege zum Verkauf. Kostenlose Fahrzeugbewertung, Abholung am Wunschort und Bezahlung innerhalb von 24 Stunden.",
     "keywords": [
       "Autoankauf Mannheim",
       "Auto verkaufen Mannheim",
       "PKW Ankauf Mannheim",
-      "Gebrauchtwagen Ankauf Mannheim",
-      "KFZ Ankauf Mannheim"
+      "Gebrauchtwagen verkaufen Mannheim",
+      "Autoverkauf Mannheim",
+      "Gebrauchtwagenhandel Mannheim",
+      "Fahrzeugbewertung Mannheim"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Mannheim schnell, fair und unkompliziert. Mit über 311.831 Einwohnern ist Mannheim ein bedeutender Automobilmarkt in Baden-Württemberg.",
-    "localContent": "Mannheim ist die drittgrößte Stadt Baden-Württembergs und liegt an der Mündung des Neckars in den Rhein. Die Quadratestadt ist ein bedeutender Wirtschafts- und Universitätsstandort."
+    "heroDescription": "Ihr Auto verdient in der Quadratestadt einen fairen Preis — wir sorgen dafür. Mannheim verbindet wirtschaftliche Stärke mit exzellenter Verkehrsanbindung und einem lebhaften Gebrauchtwagenmarkt.",
+    "localContent": "Mannheim, die zweitgrößte Stadt Baden-Württembergs, liegt strategisch am Zusammenfluss von Rhein und Neckar. Hier meldete Carl Benz 1886 das erste Automobil zum Patent an — der Geburtsort der Automobilgeschichte. Mit rund 312.000 Einwohnern und einem der wichtigsten Binnenhäfen Europas ist die Quadratestadt ein bedeutender Industrie- und Handelsplatz. Die Autobahnen A5, A6 und A656 machen Mannheim zu einem natürlichen Knotenpunkt im Fahrzeughandel der Metropolregion Rhein-Neckar."
   },
   "landmarks": [
     "Wasserturm",
@@ -39,20 +41,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Mannheim verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Mannheim innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Mannheim an?",
+      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Mannheim ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Mannheim und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Mannheim?",
+      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Mannheim verkaufen?",
+      "answer": "Ja, auch Fahrzeuge ohne gültige Hauptuntersuchung kaufen wir in Mannheim an. Der abgelaufene TÜV wird in der Bewertung berücksichtigt, ist aber kein Hindernis für den Verkauf."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Mannheim?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Mannheim?",
+      "answer": "Transparenz, faire Preise und Geschwindigkeit. In Mannheim setzen wir auf persönliche Beratung statt anonyme Online-Formulare. Dazu gibt es bei uns keine versteckten Gebühren oder Provisionen."
+    },
+    {
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Mannheim gültig?",
+      "answer": "Unser Angebot für Ihr Fahrzeug in Mannheim ist in der Regel 7 Tage gültig. So haben Sie genug Zeit, in Ruhe zu vergleichen und sich zu entscheiden."
     }
   ]
 }

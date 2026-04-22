@@ -12,19 +12,21 @@
     "lng": 7.0982
   },
   "meta": {
-    "title": "Autoankauf Bonn | Auto verkaufen in Bonn",
-    "description": "Autoankauf in Bonn: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Bonn. Jetzt Angebot erhalten!",
+    "title": "Fahrzeugankauf Bonn | Alle Marken & Zustände",
+    "description": "Fahrzeugankauf Bonn — die Beethovenstadt bietet erstklassige Konditionen. UN-Stadt mit internationalem Flair: Alle Marken und alle Zustände willkommen.",
     "keywords": [
       "Autoankauf Bonn",
       "Auto verkaufen Bonn",
-      "PKW Ankauf Bonn",
       "Gebrauchtwagen Ankauf Bonn",
-      "KFZ Ankauf Bonn"
+      "Unfallwagen verkaufen Bonn",
+      "Autoverkauf Bonn",
+      "Fahrzeugbewertung Bonn",
+      "Autoankauf in der Nähe Bonn"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Bonn schnell, fair und unkompliziert. Mit über 333.243 Einwohnern ist Bonn ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
-    "localContent": "Bonn ist die ehemalige Bundeshauptstadt und Geburtsstadt Ludwig van Beethovens. Die UN-Stadt am Rhein hat rund 333.000 Einwohner."
+    "heroDescription": "Die ehemalige Bundeshauptstadt und heutige UN-Stadt bietet international faire Konditionen auch beim Autoverkauf. Schnell, professionell und mit Sofortzahlung.",
+    "localContent": "Bonn ist die ehemalige Bundeshauptstadt Deutschlands und heute zweiter Regierungssitz sowie Standort zahlreicher UN-Organisationen. Die rund 333.000 Einwohner zählende Beethovenstadt am Rhein verbindet politische Bedeutung mit kulturellem Reichtum. Die Museumsmeile und die Universität Bonn ziehen Menschen aus aller Welt an. Der gehobene Lebensstandard sorgt für einen Premiumfahrzeugmarkt, während die A555 und A565 Bonn nahtlos mit dem Kölner Markt verbinden."
   },
   "landmarks": [
     "Beethoven-Haus",
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Bonn verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Bonn innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Wir wickeln den Autoankauf in Bonn meist innerhalb von 24 bis 48 Stunden ab. Kontaktieren Sie uns am Morgen — oft können wir noch am selben Tag ein verbindliches Angebot machen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Bonn und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Bonn?",
+      "answer": "Selbstverständlich! Auch Unfallwagen, Fahrzeuge mit Motorschaden oder abgelaufenem TÜV kaufen wir in Bonn gerne an. Beschreiben Sie uns den Zustand und Sie erhalten umgehend eine Bewertung."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Bonn?",
+      "answer": "Absolut. Ob Mercedes Pagode, VW Käfer oder Porsche 911 — in Bonn kaufen wir auch klassische Fahrzeuge an und wissen ihren besonderen Wert zu schätzen."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Bonn?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Bonn um?",
+      "answer": "Auch Autos mit Motorschaden haben einen Wert — und den ermitteln wir fair. In Bonn kaufen wir regelmäßig Fahrzeuge mit Motorproblemen, vom Zahnriemenriss bis zum Kolbenfresser."
+    },
+    {
+      "question": "Kann ich vorab eine telefonische Einschätzung für mein Auto in Bonn erhalten?",
+      "answer": "Natürlich! Ein kurzes Telefonat genügt, und Sie erhalten eine erste Orientierung zum Marktwert Ihres Fahrzeugs in Bonn. Unverbindlich und selbstverständlich kostenlos."
     }
   ]
 }

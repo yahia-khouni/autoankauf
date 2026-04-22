@@ -12,19 +12,20 @@
     "lng": 8.5809
   },
   "meta": {
-    "title": "Autoankauf Bremerhaven | Auto verkaufen in Bremerhaven",
-    "description": "Autoankauf in Bremerhaven: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Bremerhaven. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen in Bremerhaven | Sofortzahlung & Top-Service",
+    "description": "Auto verkaufen in Bremerhaven — Europas größter Fahrzeugumschlagplatz bietet beste Marktbedingungen. Kostenlose Bewertung, Abholung und Sofortzahlung inklusive.",
     "keywords": [
       "Autoankauf Bremerhaven",
       "Auto verkaufen Bremerhaven",
-      "PKW Ankauf Bremerhaven",
-      "Gebrauchtwagen Ankauf Bremerhaven",
-      "KFZ Ankauf Bremerhaven"
+      "Gebrauchtwagen verkaufen Bremerhaven",
+      "Fahrzeugankauf Bremerhaven",
+      "Auto Export Bremerhaven",
+      "PKW verkaufen Bremerhaven"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Bremerhaven schnell, fair und unkompliziert. Mit über 114.024 Einwohnern ist Bremerhaven ein bedeutender Automobilmarkt in Bremen.",
-    "localContent": "Bremerhaven liegt an der Wesermündung und ist einer der größten Fahrzeugumschlagplätze Europas. Die Seestadt hat rund 114.000 Einwohner."
+    "heroDescription": "Bremerhaven ist Europas größter Fahrzeugumschlagsplatz — nirgends kennt man den Wert eines Autos besser. Profitieren Sie von unserem Fachwissen und verkaufen Sie fair.",
+    "localContent": "Bremerhaven liegt an der Wesermündung und ist einer der größten Fahrzeugumschlagplätze Europas — jährlich werden hier über zwei Millionen Fahrzeuge verschifft. Die rund 114.000 Einwohner zählende Seestadt verbindet maritime Tradition mit moderner Logistik-Infrastruktur. Diese einzigartige Position im Autohandel ermöglicht es uns, besonders gute Preise für Gebrauchtwagen zu erzielen."
   },
   "landmarks": [
     "Klimahaus",
@@ -38,20 +39,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Bremerhaven verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Bremerhaven innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Bremerhaven an?",
+      "answer": "Absolut. In Bremerhaven und dem gesamten Umkreis bieten wir eine kostenlose Fahrzeugabholung an. Sie müssen keinen Meter fahren — wir kommen zu Ihnen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Bremerhaven und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Bremerhaven berechnet?",
+      "answer": "Die Preisberechnung berücksichtigt Marke, Modell, Baujahr, Kilometerstand, Zusatzausstattung und den Zustand. In Bremerhaven nutzen wir tagesaktuelle Händlerdaten für eine faire Bewertung."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Bremerhaven?",
+      "answer": "Unser Zahlungsversprechen in Bremerhaven: Sie erhalten den vereinbarten Betrag sofort bei Fahrzeugübergabe. Ob Barzahlung oder Überweisung — Sie entscheiden, was Ihnen lieber ist."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Bremerhaven?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Bremerhaven?",
+      "answer": "Transparenz, faire Preise und Geschwindigkeit. In Bremerhaven setzen wir auf persönliche Beratung statt anonyme Online-Formulare. Dazu gibt es bei uns keine versteckten Gebühren oder Provisionen."
+    },
+    {
+      "question": "Nehmen Sie auch Leasingrückläufer oder Mietwagen in Bremerhaven an?",
+      "answer": "Leasingfahrzeuge und Ex-Mietwagen kaufen wir in Bremerhaven gerne an, sofern die Eigentumsverhältnisse geklärt sind. Sprechen Sie uns an — wir kennen alle gängigen Prozesse."
     }
   ]
 }

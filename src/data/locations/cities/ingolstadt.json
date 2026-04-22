@@ -12,19 +12,20 @@
     "lng": 11.4258
   },
   "meta": {
-    "title": "Autoankauf Ingolstadt | Auto verkaufen in Ingolstadt",
-    "description": "Autoankauf in Ingolstadt: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Ingolstadt. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen in Ingolstadt | Kostenloses Angebot in 24h",
+    "description": "Auto verkaufen in Ingolstadt — der Audi-Stadt. Top-Ankaufspreise durch die starke lokale Automobilnachfrage. Kostenlose Bewertung und Sofortzahlung in 24 Stunden.",
     "keywords": [
       "Autoankauf Ingolstadt",
       "Auto verkaufen Ingolstadt",
-      "PKW Ankauf Ingolstadt",
-      "Gebrauchtwagen Ankauf Ingolstadt",
-      "KFZ Ankauf Ingolstadt"
+      "Gebrauchtwagen verkaufen Ingolstadt",
+      "Fahrzeugankauf Ingolstadt",
+      "Auto sofort verkaufen Ingolstadt",
+      "Gebrauchtwagenhandel Ingolstadt"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Ingolstadt schnell, fair und unkompliziert. Mit über 139.130 Einwohnern ist Ingolstadt ein bedeutender Automobilmarkt in Bayern.",
-    "localContent": "Ingolstadt ist der Hauptsitz von Audi und ein bedeutender Automobilstandort. Mit rund 139.000 Einwohnern liegt die Stadt an der Donau zwischen München und Nürnberg."
+    "heroDescription": "In der Audi-Stadt Ingolstadt kennen wir den Wert guter Automobile. Profitieren Sie von schnellem Ankauf, fairen Bewertungen und sofortiger Bezahlung vor Ort.",
+    "localContent": "Ingolstadt an der Donau ist der Hauptsitz der AUDI AG und damit einer der wichtigsten Automobilstandorte Deutschlands. Die rund 139.000 Einwohner zählende Stadt profitiert wirtschaftlich stark von der Automobilindustrie, was sich auch in einem besonders regen Gebrauchtwagenmarkt niederschlägt. Durch die Audi-Fertigung vor Ort besteht eine hohe Nachfrage nach Fahrzeugen aller Marken. Die A9 zwischen München und Nürnberg führt direkt durch das Stadtgebiet."
   },
   "landmarks": [
     "Audi Forum",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Ingolstadt verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Ingolstadt innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Ingolstadt an?",
+      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Ingolstadt ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Ingolstadt und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Ingolstadt berechnet?",
+      "answer": "Unser Bewertungsverfahren in Ingolstadt basiert auf der Schwacke-Liste, aktuellen Marktpreisen und dem individuellen Zustand Ihres Fahrzeugs. So garantieren wir einen marktgerechten Ankaufspreis."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Ingolstadt?",
+      "answer": "Selbstverständlich! In Ingolstadt übernehmen wir Firmenfahrzeuge jeder Größe — vom einzelnen Geschäftswagen bis zu ganzen Fuhrparks. Wir erstellen Ihnen ein attraktives Paketangebot."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Ingolstadt?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Ingolstadt an?",
+      "answer": "Grundsätzlich kaufen wir in Ingolstadt jede Automarke an. Besonders häufig handeln wir mit Volkswagen, BMW, Mercedes-Benz, Audi, Opel, Ford, Skoda, Seat, Toyota und Hyundai."
+    },
+    {
+      "question": "Kann ich vorab eine telefonische Einschätzung für mein Auto in Ingolstadt erhalten?",
+      "answer": "Natürlich! Ein kurzes Telefonat genügt, und Sie erhalten eine erste Orientierung zum Marktwert Ihres Fahrzeugs in Ingolstadt. Unverbindlich und selbstverständlich kostenlos."
     }
   ]
 }

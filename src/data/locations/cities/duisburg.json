@@ -12,24 +12,26 @@
     "lng": 6.7623
   },
   "meta": {
-    "title": "Autoankauf Duisburg | Auto verkaufen in Duisburg",
-    "description": "Autoankauf in Duisburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Duisburg. Jetzt Angebot erhalten!",
+    "title": "KFZ Ankauf Duisburg — Kostenlose Bewertung & Abholung",
+    "description": "KFZ Ankauf Duisburg — am größten Binnenhafen Europas kennen wir den Wert von Mobilität. Professionelle Bewertung, gratis Abholung und sofortige Barauszahlung.",
     "keywords": [
       "Autoankauf Duisburg",
       "Auto verkaufen Duisburg",
-      "PKW Ankauf Duisburg",
-      "Gebrauchtwagen Ankauf Duisburg",
-      "KFZ Ankauf Duisburg"
+      "KFZ Ankauf Duisburg",
+      "Gebrauchtwagen verkaufen Duisburg",
+      "Auto Export Duisburg",
+      "Motorschaden Ankauf Duisburg",
+      "PKW verkaufen Duisburg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Duisburg schnell, fair und unkompliziert. Mit über 502.634 Einwohnern ist Duisburg ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
-    "localContent": "Duisburg liegt am Zusammenfluss von Rhein und Ruhr und besitzt den größten Binnenhafen Europas. Die Stadt hat rund 503.000 Einwohner."
+    "heroDescription": "Am größten Binnenhafen Europas wissen wir: Jedes Fahrzeug hat seinen Preis. In Duisburg erhalten Sie eine transparente Bewertung und sofortige, faire Bezahlung.",
+    "localContent": "Duisburg liegt am Zusammenfluss von Rhein und Ruhr und besitzt den größten Binnenhafen Europas — den Duisport. Die rund 503.000 Einwohner zählende Stadt hat sich vom reinen Stahlstandort zu einem vielseitigen Logistikzentrum gewandelt. Der Landschaftspark Duisburg-Nord und die Skulptur Tiger and Turtle stehen für die kreative Neuerfindung der Stadt. Die A40, A42, A57 und A59 machen Duisburg zu einem Top-Standort für den Fahrzeughandel im westlichen Ruhrgebiet."
   },
   "landmarks": [
     "Landschaftspark Duisburg-Nord",
     "Innenhafen",
-    "Tiger & Turtle",
+    "Tiger and Turtle",
     "Zoo Duisburg"
   ],
   "nearbyCities": [
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Duisburg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Duisburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Schnelligkeit ist unser Markenzeichen: In Duisburg schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Duisburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Duisburg berechnet?",
+      "answer": "Wir kombinieren professionelle Fahrzeugbewertung mit aktuellen Marktanalysen. Jedes Detail zählt — von der Motorleistung bis zur Pflegehistorie. In Duisburg erhalten Sie stets einen marktgerechten Preis."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Duisburg?",
+      "answer": "Sie haben in Duisburg die Wahl: Barzahlung bei Übergabe oder Sofortüberweisung auf Ihr Konto. Beide Varianten sind kostenlos und absolut sicher."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Duisburg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Duisburg?",
+      "answer": "Selbstverständlich! Oldtimer und Klassiker aus Duisburg sind bei uns willkommen. Wir kennen den Sammlerwert und bieten entsprechend faire Preise."
+    },
+    {
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Duisburg gültig?",
+      "answer": "Unser Angebot für Ihr Fahrzeug in Duisburg ist in der Regel 7 Tage gültig. So haben Sie genug Zeit, in Ruhe zu vergleichen und sich zu entscheiden."
     }
   ]
 }

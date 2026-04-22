@@ -12,19 +12,21 @@
     "lng": 10.8978
   },
   "meta": {
-    "title": "Autoankauf Augsburg | Auto verkaufen in Augsburg",
-    "description": "Autoankauf in Augsburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Augsburg. Jetzt Angebot erhalten!",
+    "title": "Gebrauchtwagen verkaufen Augsburg — Bester Preis garantiert",
+    "description": "Gebrauchtwagen verkaufen in Augsburg — eine der ältesten Städte Deutschlands bietet moderne Ankaufskonditionen. Bestpreis, Gratisabholung und Expressbezahlung.",
     "keywords": [
       "Autoankauf Augsburg",
       "Auto verkaufen Augsburg",
-      "PKW Ankauf Augsburg",
       "Gebrauchtwagen Ankauf Augsburg",
-      "KFZ Ankauf Augsburg"
+      "Unfallwagen verkaufen Augsburg",
+      "Autoverkauf Augsburg",
+      "Auto ohne TÜV verkaufen Augsburg",
+      "PKW verkaufen Augsburg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Augsburg schnell, fair und unkompliziert. Mit über 299.637 Einwohnern ist Augsburg ein bedeutender Automobilmarkt in Bayern.",
-    "localContent": "Augsburg ist eine der ältesten Städte Deutschlands und mit rund 300.000 Einwohnern die drittgrößte Stadt Bayerns. Die Stadt liegt an der Romantischen Straße."
+    "heroDescription": "In der 2.000 Jahre alten Fuggerstadt erhalten Sie zeitgemäßen Service beim Autoverkauf: transparente Bewertung, schnelle Abwicklung und sofortige Auszahlung.",
+    "localContent": "Augsburg ist eine der ältesten Städte Deutschlands und mit rund 300.000 Einwohnern die drittgrößte Stadt Bayerns. Die Stadt an der Romantischen Straße verbindet historisches Erbe mit moderner Industrie. Als Standort des MAN-Werks und der Premium-Aerotec hat Augsburg enge Verbindungen zur Automobil- und Luftfahrtbranche. Die B17 und die Autobahn A8 verbinden Augsburg direkt mit München und Stuttgart und schaffen ein großes Einzugsgebiet für den Fahrzeughandel."
   },
   "landmarks": [
     "Fuggerei",
@@ -39,20 +41,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Augsburg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Augsburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Augsburg?",
+      "answer": "Notwendig sind Fahrzeugschein und Fahrzeugbrief, ein gültiger Lichtbildausweis sowie die Schlüssel. Haben Sie ein Scheckheft oder ein aktuelles Gutachten, kann das den Ankaufspreis positiv beeinflussen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Augsburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Augsburg verkaufen?",
+      "answer": "Kein Problem. Ob der TÜV erst kürzlich oder schon seit Jahren abgelaufen ist — in Augsburg kaufen wir Ihr Fahrzeug trotzdem an und erstellen ein faires Angebot."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Muss mein Fahrzeug für den Verkauf in Augsburg noch angemeldet sein?",
+      "answer": "Das spielt keine Rolle. Ob Ihr Auto in Augsburg aktuell zugelassen oder bereits stillgelegt ist — wir kaufen es in beiden Fällen an und kümmern uns um die Formalitäten."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Augsburg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kann ich mein Auto in Augsburg auch am Wochenende verkaufen?",
+      "answer": "Wir richten uns nach Ihrem Zeitplan. In Augsburg bieten wir Besichtigungstermine auch samstags und auf Wunsch sogar sonntags an. Kontaktieren Sie uns einfach."
+    },
+    {
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Augsburg um?",
+      "answer": "Auch Autos mit Motorschaden haben einen Wert — und den ermitteln wir fair. In Augsburg kaufen wir regelmäßig Fahrzeuge mit Motorproblemen, vom Zahnriemenriss bis zum Kolbenfresser."
     }
   ]
 }

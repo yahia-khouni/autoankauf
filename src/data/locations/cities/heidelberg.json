@@ -12,19 +12,20 @@
     "lng": 8.6724
   },
   "meta": {
-    "title": "Autoankauf Heidelberg | Auto verkaufen in Heidelberg",
-    "description": "Autoankauf in Heidelberg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Heidelberg. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Heidelberg | Sofort Bargeld für Ihr Fahrzeug",
+    "description": "Autoankauf Heidelberg — Ihr Fahrzeug verdient mehr als einen Standardpreis. Individuelle Bewertung am Neckar, kostenlose Abholung und sofortige Bargeldauszahlung.",
     "keywords": [
       "Autoankauf Heidelberg",
       "Auto verkaufen Heidelberg",
-      "PKW Ankauf Heidelberg",
       "Gebrauchtwagen Ankauf Heidelberg",
-      "KFZ Ankauf Heidelberg"
+      "Auto sofort verkaufen Heidelberg",
+      "Auto Export Heidelberg",
+      "PKW verkaufen Heidelberg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Heidelberg schnell, fair und unkompliziert. Mit über 162.273 Einwohnern ist Heidelberg ein bedeutender Automobilmarkt in Baden-Württemberg.",
-    "localContent": "Heidelberg ist eine Universitätsstadt am Neckar und weltberühmt für ihr Schloss und die romantische Altstadt. Mit rund 162.000 Einwohnern ist sie ein wichtiger Wissenschaftsstandort."
+    "heroDescription": "In der romantischen Universitätsstadt erhalten Sie für Ihr Auto eine professionelle Bewertung und sofortige Auszahlung — ohne versteckte Kosten und mit persönlichem Service.",
+    "localContent": "Heidelberg fasziniert mit seiner weltberühmten Schlossruine und der ältesten Universität Deutschlands. Die rund 162.000 Einwohner zählende Stadt am Neckar ist Teil der wachstumsstarken Metropolregion Rhein-Neckar. Als internationaler Wissenschaftsstandort mit Institutionen wie dem DKFZ und EMBL zieht Heidelberg Menschen aus aller Welt an. Der regionale Automarkt profitiert von der Lage an der A5 und der engen Verflechtung mit Mannheim und der Kurpfalz."
   },
   "landmarks": [
     "Heidelberger Schloss",
@@ -40,19 +41,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Heidelberg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Heidelberg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Nach Eingang Ihrer Anfrage aus Heidelberg erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Heidelberg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Nach Ihrer Online-Anfrage erhalten Sie ein vorläufiges Angebot. Stimmen die Angaben mit dem Fahrzeugzustand überein, wird dieses zum Festpreis. Dann erfolgt die Abholung und Sofortauszahlung in Heidelberg."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Welche Automarken kaufen Sie in Heidelberg an?",
+      "answer": "Wir kaufen in Heidelberg alle Marken an: von deutschen Premium-Herstellern wie BMW, Mercedes und Audi bis zu Ford, Opel und VW. Auch japanische und koreanische Marken wie Toyota und Hyundai sind willkommen."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Heidelberg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Heidelberg gültig?",
+      "answer": "Wir halten unsere Angebote in Heidelberg üblicherweise 5 bis 7 Werktage aufrecht. Danach kann eine Aktualisierung sinnvoll sein, da sich Marktpreise ändern können."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Heidelberg?",
+      "answer": "Selbstverständlich. Wir übernehmen die Abmeldung bei der zuständigen Behörde in Heidelberg — Sie müssen sich um nichts weiter kümmern."
     }
   ]
 }

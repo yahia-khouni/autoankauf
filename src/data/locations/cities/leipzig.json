@@ -12,19 +12,21 @@
     "lng": 12.3731
   },
   "meta": {
-    "title": "Autoankauf Leipzig | Auto verkaufen in Leipzig",
-    "description": "Autoankauf in Leipzig: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Leipzig. Jetzt Angebot erhalten!",
+    "title": "KFZ Ankauf Leipzig — Kostenlose Bewertung & Abholung",
+    "description": "KFZ Ankauf Leipzig — die boomende Messestadt bietet starke Nachfrage und beste Preise für Ihren Gebrauchtwagen. Porsche- und BMW-Stadt mit Experten-Bewertung.",
     "keywords": [
       "Autoankauf Leipzig",
       "Auto verkaufen Leipzig",
       "PKW Ankauf Leipzig",
-      "Gebrauchtwagen Ankauf Leipzig",
-      "KFZ Ankauf Leipzig"
+      "Fahrzeugankauf Leipzig",
+      "Auto sofort verkaufen Leipzig",
+      "Autoverkauf Leipzig",
+      "Gebrauchtwagenhandel Leipzig"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Leipzig schnell, fair und unkompliziert. Mit über 616.093 Einwohnern ist Leipzig ein bedeutender Automobilmarkt in Sachsen.",
-    "localContent": "Leipzig ist die größte Stadt Sachsens und eine der am schnellsten wachsenden Städte Deutschlands. Als Standort von Porsche und BMW ist Leipzig ein wichtiger Automobilstandort."
+    "heroDescription": "Leipzig boomt — und der Automarkt boomt mit. In Sachsens größter Stadt erhalten Sie Top-Preise durch die starke Nachfrage und unsere professionelle Bewertung.",
+    "localContent": "Leipzig ist mit rund 616.000 Einwohnern die größte Stadt Sachsens und eine der am schnellsten wachsenden Metropolen Deutschlands. Als Standort der Porsche- und BMW-Werke ist Leipzig ein gewichtiger Automobilstandort. Die Thomaskirche, in der Johann Sebastian Bach wirkte, und das Gewandhaus-Orchester machen Leipzig auch kulturell erstklassig. Die A9, A14 und A38 kreuzen sich bei Leipzig und schaffen einen zentralen Handelsknoten für Mitteldeutschland."
   },
   "landmarks": [
     "Völkerschlachtdenkmal",
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Leipzig verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Leipzig innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Schnelligkeit ist unser Markenzeichen: In Leipzig schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Leipzig und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Leipzig an?",
+      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Leipzig ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Leipzig verkaufen?",
+      "answer": "Absolut. In Leipzig kaufen wir auch Autos mit abgelaufenem TÜV. Sie sparen sich die Kosten für eine erneute Prüfung — wir kümmern uns um alles Weitere."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Leipzig?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Leipzig?",
+      "answer": "Sie haben in Leipzig die Wahl: Barzahlung bei Übergabe oder Sofortüberweisung auf Ihr Konto. Beide Varianten sind kostenlos und absolut sicher."
+    },
+    {
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Leipzig?",
+      "answer": "Drei Dinge: Wir zahlen marktgerechte Preise, bieten einen vollständigen Service von Bewertung bis Abmeldung in Leipzig und behandeln jedes Fahrzeug individuell — kein Massenankauf."
     }
   ]
 }

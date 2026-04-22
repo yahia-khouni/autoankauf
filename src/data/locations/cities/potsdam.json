@@ -12,19 +12,21 @@
     "lng": 13.0645
   },
   "meta": {
-    "title": "Autoankauf Potsdam | Auto verkaufen in Potsdam",
-    "description": "Autoankauf in Potsdam: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Potsdam. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen Potsdam — Schnell, sicher & unkompliziert",
+    "description": "Auto verkaufen in Potsdam — die Schlösserstadt vor den Toren Berlins bietet bequemen Service. Schnelle Abwicklung, persönliche Bewertung und Sofortzahlung garantiert.",
     "keywords": [
       "Autoankauf Potsdam",
       "Auto verkaufen Potsdam",
-      "PKW Ankauf Potsdam",
-      "Gebrauchtwagen Ankauf Potsdam",
-      "KFZ Ankauf Potsdam"
+      "KFZ Ankauf Potsdam",
+      "Gebrauchtwagen verkaufen Potsdam",
+      "Auto sofort verkaufen Potsdam",
+      "Autoverkauf Potsdam",
+      "Fahrzeugbewertung Potsdam"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Potsdam schnell, fair und unkompliziert. Mit über 183.154 Einwohnern ist Potsdam ein bedeutender Automobilmarkt in Brandenburg.",
-    "localContent": "Potsdam ist die Landeshauptstadt Brandenburgs und liegt direkt südwestlich von Berlin. Die Stadt der Schlösser und Gärten ist UNESCO-Welterbe und hat rund 183.000 Einwohner."
+    "heroDescription": "Vor den Toren Berlins bietet Potsdam ideale Bedingungen für den schnellen Autoverkauf. Nutzen Sie unsere persönliche Bewertung und erhalten Sie Ihr Geld noch am selben Tag.",
+    "localContent": "Potsdam ist die Landeshauptstadt Brandenburgs und liegt unmittelbar südwestlich von Berlin. Die Stadt der Schlösser und Gärten ist UNESCO-Welterbe und zieht mit ihrer kulturellen Vielfalt stetig neue Einwohner an — aktuell rund 183.000 Menschen. Als wachsende Stadt mit starker Anbindung an die Hauptstadt profitiert Potsdam von einem dynamischen Fahrzeugmarkt. Die Nähe zur A10 und A115 macht Potsdam zu einem idealen Ausgangspunkt für den Autoankauf in Brandenburg."
   },
   "landmarks": [
     "Schloss Sanssouci",
@@ -39,19 +41,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Potsdam verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Potsdam innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Der gesamte Verkaufsprozess in Potsdam dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Potsdam und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Potsdam?",
+      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Potsdam?",
+      "answer": "Sie haben in Potsdam die Wahl: Barzahlung bei Übergabe oder Sofortüberweisung auf Ihr Konto. Beide Varianten sind kostenlos und absolut sicher."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Potsdam?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kann ich mein Auto in Potsdam auch am Wochenende verkaufen?",
+      "answer": "Ja, für Kunden in Potsdam bieten wir auch Wochenendtermine an. Schreiben Sie uns oder rufen Sie an, und wir finden einen passenden Zeitpunkt."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Potsdam versteckte Kosten für mich?",
+      "answer": "Garantiert nicht. In Potsdam zahlen Sie keinen Cent: Bewertung, Abholung und Abmeldung sind komplett kostenlos. Was wir anbieten, ist Ihr Netto-Auszahlungspreis — ohne Abzüge."
     }
   ]
 }

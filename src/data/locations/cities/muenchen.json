@@ -12,19 +12,21 @@
     "lng": 11.582
   },
   "meta": {
-    "title": "Autoankauf München | Auto verkaufen in München",
-    "description": "Autoankauf in München: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in München. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen in München | Sofortzahlung & Top-Service",
+    "description": "Auto verkaufen in München — Bayerns Hauptstadt bietet Top-Ankaufspreise. Kostenlose Fahrzeugbewertung, Sofortzahlung vor Ort und Abholung in allen Stadtteilen.",
     "keywords": [
       "Autoankauf München",
       "Auto verkaufen München",
       "PKW Ankauf München",
       "Gebrauchtwagen Ankauf München",
-      "KFZ Ankauf München"
+      "Fahrzeugankauf München",
+      "Auto sofort verkaufen München",
+      "Fahrzeugbewertung München"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in München schnell, fair und unkompliziert. Mit über 1.488.202 Einwohnern ist München ein bedeutender Automobilmarkt in Bayern.",
-    "localContent": "München ist die Landeshauptstadt Bayerns und mit rund 1,5 Millionen Einwohnern die drittgrößte Stadt Deutschlands. Als Sitz von BMW und zahlreichen Automobilzulieferern ist München ein zentraler Ort für den Fahrzeughandel."
+    "heroDescription": "In der bayerischen Landeshauptstadt kaufen wir Ihr Auto zum Bestpreis — professionell, diskret und mit sofortiger Auszahlung. München als BMW-Standort garantiert eine hohe Nachfrage.",
+    "localContent": "München ist mit rund 1,5 Millionen Einwohnern die drittgrößte Stadt Deutschlands und wirtschaftliches Kraftzentrum Bayerns. Als Hauptsitz von BMW und Standort zahlreicher Automobilzulieferer ist München einer der bedeutendsten Automobilstandorte weltweit. Die hohe Kaufkraft und das überdurchschnittliche Wohlstandsniveau sorgen für einen besonders aktiven Gebrauchtwagenmarkt mit Premiumfahrzeugen. Die Münchner Autobahnen A8, A9 und A99 verbinden die Stadt perfekt mit dem bayerischen Umland."
   },
   "landmarks": [
     "Marienplatz",
@@ -41,19 +43,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in München verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in München innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Schnelligkeit ist unser Markenzeichen: In München schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in München und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in München?",
+      "answer": "Ja, wir kaufen in München Fahrzeuge in jedem Zustand — ob Unfallschäden, Motorprobleme, Getriebeschäden oder hohe Laufleistung. Jedes Auto hat bei uns einen fairen Wert."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in München?",
+      "answer": "Ja, wir kaufen in München auch Firmenwagen, Dienstwagen, Leasingrückläufer und komplette Flotten an. Für Unternehmen bieten wir einen diskreten und effizienten Abwicklungsprozess."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in München?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in München?",
+      "answer": "Wir bezahlen direkt bei der Fahrzeugübergabe in München — entweder bar oder per Banküberweisung in Echtzeit. Sie erhalten Ihr Geld sofort, ganz ohne Wartezeit."
+    },
+    {
+      "question": "Welche Automarken kaufen Sie in München an?",
+      "answer": "Wir kaufen in München alle Marken an: von deutschen Premium-Herstellern wie BMW, Mercedes und Audi bis zu Ford, Opel und VW. Auch japanische und koreanische Marken wie Toyota und Hyundai sind willkommen."
     }
   ]
 }

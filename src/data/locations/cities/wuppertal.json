@@ -12,19 +12,20 @@
     "lng": 7.1508
   },
   "meta": {
-    "title": "Autoankauf Wuppertal | Auto verkaufen in Wuppertal",
-    "description": "Autoankauf in Wuppertal: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Wuppertal. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen Wuppertal — Schnell, sicher & unkompliziert",
+    "description": "Auto verkaufen in Wuppertal — die Stadt der Schwebebahn bietet schnellen Autoankauf ohne Umwege. Kostenlose Bewertung, sichere Zahlung und Gratis-Abholung.",
     "keywords": [
       "Autoankauf Wuppertal",
       "Auto verkaufen Wuppertal",
-      "PKW Ankauf Wuppertal",
-      "Gebrauchtwagen Ankauf Wuppertal",
-      "KFZ Ankauf Wuppertal"
+      "KFZ Ankauf Wuppertal",
+      "Fahrzeugankauf Wuppertal",
+      "Fahrzeug verkaufen Wuppertal",
+      "Gebrauchtwagenhandel Wuppertal"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Wuppertal schnell, fair und unkompliziert. Mit über 359.012 Einwohnern ist Wuppertal ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
-    "localContent": "Wuppertal ist weltweit bekannt für seine einzigartige Schwebebahn. Die Stadt im Bergischen Land hat rund 359.000 Einwohner."
+    "heroDescription": "Wo die Schwebebahn über der Wupper schwebt, bewegen auch wir etwas für Sie: professioneller Autoankauf in Wuppertal mit persönlichem Service und Sofortauszahlung.",
+    "localContent": "Wuppertal im Bergischen Land ist weltweit bekannt für seine einzigartige Schwebebahn, die seit 1901 über der Wupper schwebt. Die rund 359.000 Einwohner zählende Stadt verbindet bergischen Charme mit einem aktiven Wirtschaftsleben. Mit Bayer als bedeutendem Arbeitgeber in der Region verfügt Wuppertal über eine vielseitige Wirtschaftsbasis. Die A1, A46 und die Nähe zu Köln und Düsseldorf eröffnen einen breiten Absatzmarkt für angekaufte Fahrzeuge."
   },
   "landmarks": [
     "Schwebebahn",
@@ -40,19 +41,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Wuppertal verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Wuppertal innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Der gesamte Verkaufsprozess in Wuppertal dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Wuppertal und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Wuppertal an?",
+      "answer": "Unser kostenloser Abholservice deckt Wuppertal und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Wuppertal berechnet?",
+      "answer": "Unser Bewertungsverfahren in Wuppertal basiert auf der Schwacke-Liste, aktuellen Marktpreisen und dem individuellen Zustand Ihres Fahrzeugs. So garantieren wir einen marktgerechten Ankaufspreis."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Wuppertal?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Muss mein Fahrzeug für den Verkauf in Wuppertal noch angemeldet sein?",
+      "answer": "Das spielt keine Rolle. Ob Ihr Auto in Wuppertal aktuell zugelassen oder bereits stillgelegt ist — wir kaufen es in beiden Fällen an und kümmern uns um die Formalitäten."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Wuppertal?",
+      "answer": "Ja, die Abmeldung ist Teil unseres Rundum-Services in Wuppertal. Wir erledigen den Behördengang für Sie und stellen Ihnen anschließend die Abmeldebestätigung zu."
     }
   ]
 }

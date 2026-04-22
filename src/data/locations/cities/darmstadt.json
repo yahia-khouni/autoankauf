@@ -12,19 +12,21 @@
     "lng": 8.6512
   },
   "meta": {
-    "title": "Autoankauf Darmstadt | Auto verkaufen in Darmstadt",
-    "description": "Autoankauf in Darmstadt: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Darmstadt. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen in Darmstadt | Kostenloses Angebot in 24h",
+    "description": "Auto verkaufen in Darmstadt — die Wissenschaftsstadt bietet kluge Lösungen für Ihren Autoverkauf. Faire Marktpreise, 24h-Angebot und kostenfreie Abholung.",
     "keywords": [
       "Autoankauf Darmstadt",
       "Auto verkaufen Darmstadt",
       "PKW Ankauf Darmstadt",
-      "Gebrauchtwagen Ankauf Darmstadt",
-      "KFZ Ankauf Darmstadt"
+      "Unfallwagen verkaufen Darmstadt",
+      "Auto sofort verkaufen Darmstadt",
+      "Autoverkauf Darmstadt",
+      "Auto Bewertung Darmstadt"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Darmstadt schnell, fair und unkompliziert. Mit über 162.643 Einwohnern ist Darmstadt ein bedeutender Automobilmarkt in Hessen.",
-    "localContent": "Darmstadt ist die 'Wissenschaftsstadt' Hessens und Sitz der TU Darmstadt sowie ESA-Kontrollzentrum. Die Stadt hat rund 163.000 Einwohner."
+    "heroDescription": "Die Wissenschaftsstadt Darmstadt verbindet Forschung mit Praxis — genau wie unser datenbasierter Ansatz beim Autoankauf. Faire Marktpreise und Sofortauszahlung garantiert.",
+    "localContent": "Darmstadt trägt den offiziellen Titel Wissenschaftsstadt und ist Sitz der renommierten TU Darmstadt, des ESA-Kontrollzentrums ESOC und mehrerer Fraunhofer-Institute. Die rund 163.000 Einwohner zählende Stadt gehört zum wirtschaftsstarken Rhein-Main-Gebiet und zeichnet sich durch eine hohe Akademikerdichte aus. Die Mathildenhöhe als UNESCO-Welterbe zeigt den kulturellen Anspruch der Stadt. Die A5 und A67 bieten schnelle Anbindung nach Frankfurt und Mannheim."
   },
   "landmarks": [
     "Mathildenhöhe",
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Darmstadt verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Darmstadt innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Der gesamte Verkaufsprozess in Darmstadt dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Darmstadt und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Nach Ihrer Online-Anfrage erhalten Sie ein vorläufiges Angebot. Stimmen die Angaben mit dem Fahrzeugzustand überein, wird dieses zum Festpreis. Dann erfolgt die Abholung und Sofortauszahlung in Darmstadt."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Darmstadt?",
+      "answer": "Ja, klassische Automobile haben bei uns einen hohen Stellenwert. Aus Darmstadt und Umgebung kaufen wir regelmäßig Liebhaberfahrzeuge zu fairen Sammlerpreisen an."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Darmstadt?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Darmstadt?",
+      "answer": "Drei Dinge: Wir zahlen marktgerechte Preise, bieten einen vollständigen Service von Bewertung bis Abmeldung in Darmstadt und behandeln jedes Fahrzeug individuell — kein Massenankauf."
+    },
+    {
+      "question": "Nehmen Sie auch Leasingrückläufer oder Mietwagen in Darmstadt an?",
+      "answer": "Wir haben in Darmstadt Erfahrung mit Leasingablöse und Mietwagenankauf. Rufen Sie uns an, und wir prüfen gemeinsam, ob ein Ankauf in Ihrem Fall sinnvoll und vorteilhaft ist."
     }
   ]
 }

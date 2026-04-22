@@ -12,19 +12,21 @@
     "lng": 6.7735
   },
   "meta": {
-    "title": "Autoankauf Düsseldorf | Auto verkaufen in Düsseldorf",
-    "description": "Autoankauf in Düsseldorf: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Düsseldorf. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Düsseldorf — Faire Preise & Sofortzahlung",
+    "description": "Autoankauf Düsseldorf — faire Preise in der Landeshauptstadt. Auf der Kö wird stilvoll eingekauft, bei uns stilvoll verkauft: Gratis-Bewertung und Sofortzahlung.",
     "keywords": [
       "Autoankauf Düsseldorf",
       "Auto verkaufen Düsseldorf",
-      "PKW Ankauf Düsseldorf",
       "Gebrauchtwagen Ankauf Düsseldorf",
-      "KFZ Ankauf Düsseldorf"
+      "Auto sofort verkaufen Düsseldorf",
+      "Autoverkauf Düsseldorf",
+      "Gebrauchtwagenhandel Düsseldorf",
+      "Auto Bewertung Düsseldorf"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Düsseldorf schnell, fair und unkompliziert. Mit über 621.877 Einwohnern ist Düsseldorf ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
-    "localContent": "Düsseldorf ist die Landeshauptstadt von Nordrhein-Westfalen und eine internationale Modestadt. Die Rheinmetropole hat rund 622.000 Einwohner."
+    "heroDescription": "Die Rheinmetropole Düsseldorf steht für Premium und Stil — genau das bieten wir beim Autoankauf. Verkaufen Sie Ihr Fahrzeug in der Landeshauptstadt zum Bestpreis.",
+    "localContent": "Düsseldorf ist die Landeshauptstadt Nordrhein-Westfalens und eine internationale Mode- und Messestadt mit rund 622.000 Einwohnern. Die Königsallee, der Medienhafen und zahlreiche internationale Konzerne wie Henkel und Vodafone prägen das gehobene Profil der Stadt. Der Premiummarkt für Gebrauchtwagen ist hier besonders ausgeprägt. Die Autobahnen A3, A44, A46 und A57 machen Düsseldorf zum bestangebundenen Automarkt am Rhein."
   },
   "landmarks": [
     "Königsallee",
@@ -41,20 +43,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Düsseldorf verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Düsseldorf innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Düsseldorf an?",
+      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Düsseldorf ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Düsseldorf und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Düsseldorf berechnet?",
+      "answer": "Wir ermitteln den Wert anhand aktueller Marktdaten, Fahrzeugzustand, Kilometerstand, Ausstattung und regionaler Nachfrage in Düsseldorf. Sie erhalten ein transparentes Angebot ohne versteckte Abzüge."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Düsseldorf?",
+      "answer": "Unser Zahlungsversprechen in Düsseldorf: Sie erhalten den vereinbarten Betrag sofort bei Fahrzeugübergabe. Ob Barzahlung oder Überweisung — Sie entscheiden, was Ihnen lieber ist."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Düsseldorf?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kann ich mein Auto in Düsseldorf auch am Wochenende verkaufen?",
+      "answer": "Ja, für Kunden in Düsseldorf bieten wir auch Wochenendtermine an. Schreiben Sie uns oder rufen Sie an, und wir finden einen passenden Zeitpunkt."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Düsseldorf?",
+      "answer": "Ja, auf Wunsch kümmern wir uns um die komplette Abmeldung Ihres Fahrzeugs bei der Zulassungsstelle in Düsseldorf. Dieser Service ist für Sie völlig kostenlos."
     }
   ]
 }

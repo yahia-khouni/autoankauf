@@ -12,19 +12,21 @@
     "lng": 8.0472
   },
   "meta": {
-    "title": "Autoankauf Osnabrück | Auto verkaufen in Osnabrück",
-    "description": "Autoankauf in Osnabrück: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Osnabrück. Jetzt Angebot erhalten!",
+    "title": "Fahrzeugankauf Osnabrück | Alle Marken & Zustände",
+    "description": "Fahrzeugankauf Osnabrück — die Friedensstadt bietet harmonische Konditionen. Alle Marken, alle Zustände: kostenlose Bewertung und Sofortzahlung im Osnabrücker Land.",
     "keywords": [
       "Autoankauf Osnabrück",
       "Auto verkaufen Osnabrück",
-      "PKW Ankauf Osnabrück",
       "Gebrauchtwagen Ankauf Osnabrück",
-      "KFZ Ankauf Osnabrück"
+      "Fahrzeugankauf Osnabrück",
+      "Wagen verkaufen Osnabrück",
+      "Motorschaden Ankauf Osnabrück",
+      "Auto Bewertung Osnabrück"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Osnabrück schnell, fair und unkompliziert. Mit über 170.880 Einwohnern ist Osnabrück ein bedeutender Automobilmarkt in Niedersachsen.",
-    "localContent": "Osnabrück ist die Friedensstadt, in der 1648 der Westfälische Friede geschlossen wurde. Die Stadt hat rund 171.000 Einwohner und liegt im Osnabrücker Land."
+    "heroDescription": "Die Friedensstadt Osnabrück verbindet historische Werte mit modernem Service. Verkaufen Sie hier Ihr Auto schnell und zu marktgerechten Konditionen.",
+    "localContent": "Osnabrück ist die Friedensstadt, in der 1648 der Westfälische Friede geschlossen wurde. Mit rund 171.000 Einwohnern ist die Stadt ein wirtschaftliches und kulturelles Zentrum zwischen Niedersachsen und Nordrhein-Westfalen. Die Universität und Hochschule sorgen für ein junges Profil und einen aktiven Gebrauchtwagenmarkt. Die Lage an der A1 und A30 verbindet Osnabrück perfekt mit dem Ruhrgebiet, Hamburg und den Benelux-Staaten."
   },
   "landmarks": [
     "Rathaus des Westfälischen Friedens",
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Osnabrück verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Osnabrück innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Nach Eingang Ihrer Anfrage aus Osnabrück erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Osnabrück und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Osnabrück?",
+      "answer": "Definitiv. Ob Hagelschaden, Motordefekt oder Rost — wir kaufen Ihr Fahrzeug in Osnabrück in jedem Zustand an. Ehrliche Angaben helfen uns, Ihnen schnell ein faires Angebot zu machen."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Osnabrück?",
+      "answer": "Ja, wir haben in Osnabrück auch Erfahrung mit dem Ankauf von Oldtimern und Youngtimern. Klassische Fahrzeuge bewerten wir mit besonderer Sorgfalt und Sachverstand."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Osnabrück?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kann ich mein Auto in Osnabrück auch am Wochenende verkaufen?",
+      "answer": "Wir richten uns nach Ihrem Zeitplan. In Osnabrück bieten wir Besichtigungstermine auch samstags und auf Wunsch sogar sonntags an. Kontaktieren Sie uns einfach."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Osnabrück versteckte Kosten für mich?",
+      "answer": "Nein, vollständige Transparenz hat für uns oberste Priorität. Alle Leistungen in Osnabrück — Bewertung, Gutachten, Abholung, Abmeldung — sind für Verkäufer komplett kostenfrei."
     }
   ]
 }

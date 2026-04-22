@@ -12,19 +12,21 @@
     "lng": 8.8017
   },
   "meta": {
-    "title": "Autoankauf Bremen | Auto verkaufen in Bremen",
-    "description": "Autoankauf in Bremen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Bremen. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Bremen — Ihr lokaler Partner für Autoverkauf",
+    "description": "Autoankauf Bremen — die Hansestadt an der Weser bietet lokalen Service mit Sofortzahlung. Mercedes-Werk vor der Tür: Wir kennen den Wert Ihres Fahrzeugs.",
     "keywords": [
       "Autoankauf Bremen",
       "Auto verkaufen Bremen",
-      "PKW Ankauf Bremen",
+      "KFZ Ankauf Bremen",
       "Gebrauchtwagen Ankauf Bremen",
-      "KFZ Ankauf Bremen"
+      "Auto sofort verkaufen Bremen",
+      "Gebrauchtwagenhandel Bremen",
+      "Autoankauf in der Nähe Bremen"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Bremen schnell, fair und unkompliziert. Mit über 569.352 Einwohnern ist Bremen ein bedeutender Automobilmarkt in Bremen.",
-    "localContent": "Bremen ist eine Hansestadt an der Weser und mit rund 569.000 Einwohnern die zehntgrößte Stadt Deutschlands. Die Stadt ist bekannt für ihre maritime Tradition und das Daimler-Werk."
+    "heroDescription": "In der Hansestadt Bremen verbinden wir norddeutsche Verlässlichkeit mit einem professionellen Autoankauf. Ihr Fahrzeug verdient eine ehrliche Bewertung — und die bekommen Sie bei uns.",
+    "localContent": "Bremen ist eine traditionsreiche Hansestadt an der Weser und mit rund 569.000 Einwohnern die zehntgrößte Stadt Deutschlands. Die Stadt beherbergt das große Mercedes-Benz-Werk, in dem unter anderem die C-Klasse und das GLC-SUV gefertigt werden. Diese industrielle Prägung sorgt für einen besonders aktiven lokalen Fahrzeugmarkt. Die A1 und A27 verbinden Bremen mit Hamburg, Hannover und der Nordseeküste."
   },
   "landmarks": [
     "Bremer Stadtmusikanten",
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Bremen verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Bremen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Schnelligkeit ist unser Markenzeichen: In Bremen schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Bremen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Bremen?",
+      "answer": "Sie brauchen den Fahrzeugbrief, den Fahrzeugschein, Ihren Ausweis und die Autoschlüssel. Alles Weitere — etwa die Abmeldung oder fehlende Papiere — klären wir gemeinsam vor Ort in Bremen."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Bremen?",
+      "answer": "Definitiv. Unternehmen in Bremen profitieren von unserem professionellen Flottenankauf. Wir bewerten jedes Fahrzeug einzeln und bieten attraktive Gesamtkonditionen."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Bremen?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Bremen?",
+      "answer": "Absolut. Ob Mercedes Pagode, VW Käfer oder Porsche 911 — in Bremen kaufen wir auch klassische Fahrzeuge an und wissen ihren besonderen Wert zu schätzen."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Bremen?",
+      "answer": "Ja, auf Wunsch kümmern wir uns um die komplette Abmeldung Ihres Fahrzeugs bei der Zulassungsstelle in Bremen. Dieser Service ist für Sie völlig kostenlos."
     }
   ]
 }

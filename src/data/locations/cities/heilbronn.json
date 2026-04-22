@@ -12,19 +12,20 @@
     "lng": 9.2109
   },
   "meta": {
-    "title": "Autoankauf Heilbronn | Auto verkaufen in Heilbronn",
-    "description": "Autoankauf in Heilbronn: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Heilbronn. Jetzt Angebot erhalten!",
+    "title": "Ihr Autoankauf in Heilbronn | Bestpreis-Garantie",
+    "description": "Autoankauf Heilbronn — wir garantieren den besten Preis für Ihr Fahrzeug am Neckar. Schnelle Abwicklung, kostenlose Abholung und sichere Sofortauszahlung.",
     "keywords": [
       "Autoankauf Heilbronn",
       "Auto verkaufen Heilbronn",
       "PKW Ankauf Heilbronn",
       "Gebrauchtwagen Ankauf Heilbronn",
-      "KFZ Ankauf Heilbronn"
+      "Fahrzeug verkaufen Heilbronn",
+      "Fahrzeugbewertung Heilbronn"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Heilbronn schnell, fair und unkompliziert. Mit über 127.480 Einwohnern ist Heilbronn ein bedeutender Automobilmarkt in Baden-Württemberg.",
-    "localContent": "Heilbronn am Neckar ist mit rund 127.000 Einwohnern eine bedeutende Industriestadt und Weinbauregion in Baden-Württemberg."
+    "heroDescription": "Im wirtschaftsstarken Heilbronn am Neckar erhalten Autoverkäufer faire Konditionen und eine unkomplizierte Abwicklung — vom ersten Kontakt bis zur Auszahlung.",
+    "localContent": "Heilbronn am Neckar ist mit rund 127.000 Einwohnern eine bedeutende Industriestadt und das Zentrum einer der wirtschaftsstärksten Regionen Baden-Württembergs. Als Weinstadt und Standort der Experimenta vereint Heilbronn Tradition mit Innovation. Die Lage zwischen Stuttgart und Heidelberg an der A6 und A81 macht die Stadt zu einem idealen Dreh- und Angelpunkt für den regionalen Fahrzeughandel."
   },
   "landmarks": [
     "Experimenta",
@@ -39,20 +40,20 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Heilbronn verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Heilbronn innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Heilbronn an?",
+      "answer": "Unser kostenloser Abholservice deckt Heilbronn und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Heilbronn und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Heilbronn?",
+      "answer": "Definitiv. Ob Hagelschaden, Motordefekt oder Rost — wir kaufen Ihr Fahrzeug in Heilbronn in jedem Zustand an. Ehrliche Angaben helfen uns, Ihnen schnell ein faires Angebot zu machen."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Heilbronn?",
+      "answer": "Wir bezahlen direkt bei der Fahrzeugübergabe in Heilbronn — entweder bar oder per Banküberweisung in Echtzeit. Sie erhalten Ihr Geld sofort, ganz ohne Wartezeit."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Heilbronn?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Nehmen Sie auch Leasingrückläufer oder Mietwagen in Heilbronn an?",
+      "answer": "Ja, sofern Sie der Eigentümer sind oder die Leasinggesellschaft dem Verkauf zustimmt, kaufen wir auch Leasingfahrzeuge in Heilbronn an. Wir beraten Sie gerne zu den Abläufen."
     }
   ]
 }

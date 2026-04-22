@@ -12,19 +12,21 @@
     "lng": 11.0299
   },
   "meta": {
-    "title": "Autoankauf Erfurt | Auto verkaufen in Erfurt",
-    "description": "Autoankauf in Erfurt: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Erfurt. Jetzt Angebot erhalten!",
+    "title": "Gebrauchtwagen verkaufen Erfurt — Bester Preis garantiert",
+    "description": "Gebrauchtwagen verkaufen in Erfurt — die Landeshauptstadt Thüringens bietet den besten Preis garantiert. Krämerbrücke trifft Autoankauf: persönlich, fair, sofort.",
     "keywords": [
       "Autoankauf Erfurt",
       "Auto verkaufen Erfurt",
-      "PKW Ankauf Erfurt",
+      "KFZ Ankauf Erfurt",
       "Gebrauchtwagen Ankauf Erfurt",
-      "KFZ Ankauf Erfurt"
+      "Autoverkauf Erfurt",
+      "Gebrauchtwagenhandel Erfurt",
+      "Auto Bewertung Erfurt"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Erfurt schnell, fair und unkompliziert. Mit über 214.969 Einwohnern ist Erfurt ein bedeutender Automobilmarkt in Thüringen.",
-    "localContent": "Erfurt ist die Landeshauptstadt Thüringens und eine der besterhaltenen mittelalterlichen Städte Deutschlands. Die Krämerbrücke ist die längste bebaute Brücke Europas."
+    "heroDescription": "In Thüringens Hauptstadt Erfurt verbinden wir mittelalterlichen Charme mit modernem Service: Ihr Auto, unser faires Angebot, sofortige Auszahlung.",
+    "localContent": "Erfurt ist die Landeshauptstadt Thüringens und eine der besterhaltenen mittelalterlichen Städte Deutschlands. Die Krämerbrücke, die längste durchgehend bebaute Brücke Europas, und der imposante Domberg sind Wahrzeichen der rund 215.000 Einwohner zählenden Stadt. Als verkehrsgünstig im Zentrum Deutschlands gelegen, profitiert Erfurt von der Kreuzung der A4 und A71. Die Nähe zur Automobilregion Eisenach sorgt für einen aktiven Fahrzeugmarkt."
   },
   "landmarks": [
     "Krämerbrücke",
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Erfurt verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Erfurt innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Schnelligkeit ist unser Markenzeichen: In Erfurt schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Erfurt und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Erfurt?",
+      "answer": "Notwendig sind Fahrzeugschein und Fahrzeugbrief, ein gültiger Lichtbildausweis sowie die Schlüssel. Haben Sie ein Scheckheft oder ein aktuelles Gutachten, kann das den Ankaufspreis positiv beeinflussen."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Erfurt?",
+      "answer": "Selbstverständlich! In Erfurt übernehmen wir Firmenfahrzeuge jeder Größe — vom einzelnen Geschäftswagen bis zu ganzen Fuhrparks. Wir erstellen Ihnen ein attraktives Paketangebot."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Erfurt?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Muss mein Fahrzeug für den Verkauf in Erfurt noch angemeldet sein?",
+      "answer": "Das spielt keine Rolle. Ob Ihr Auto in Erfurt aktuell zugelassen oder bereits stillgelegt ist — wir kaufen es in beiden Fällen an und kümmern uns um die Formalitäten."
+    },
+    {
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Erfurt gültig?",
+      "answer": "Unser Angebot für Ihr Fahrzeug in Erfurt ist in der Regel 7 Tage gültig. So haben Sie genug Zeit, in Ruhe zu vergleichen und sich zu entscheiden."
     }
   ]
 }

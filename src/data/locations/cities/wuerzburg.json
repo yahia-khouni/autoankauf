@@ -12,19 +12,20 @@
     "lng": 9.9294
   },
   "meta": {
-    "title": "Autoankauf Würzburg | Auto verkaufen in Würzburg",
-    "description": "Autoankauf in Würzburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Würzburg. Jetzt Angebot erhalten!",
+    "title": "Würzburg: Auto schnell & fair verkaufen | Autoankauf",
+    "description": "Würzburg — Auto verkaufen in der fränkischen Weinstadt. Faire Bewertung am Main, schnelle Abwicklung und kostenlose Abholung in der gesamten Region Unterfranken.",
     "keywords": [
       "Autoankauf Würzburg",
       "Auto verkaufen Würzburg",
-      "PKW Ankauf Würzburg",
-      "Gebrauchtwagen Ankauf Würzburg",
-      "KFZ Ankauf Würzburg"
+      "KFZ Ankauf Würzburg",
+      "Wagen verkaufen Würzburg",
+      "Fahrzeug verkaufen Würzburg",
+      "Autoankauf in der Nähe Würzburg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Würzburg schnell, fair und unkompliziert. Mit über 129.000 Einwohnern ist Würzburg ein bedeutender Automobilmarkt in Bayern.",
-    "localContent": "Würzburg liegt am Main in Unterfranken und ist bekannt für seine barocke Residenz, die zum UNESCO-Welterbe gehört. Die Stadt hat rund 129.000 Einwohner."
+    "heroDescription": "An der Mainbrücke zwischen Weinbergen und Welterbe erwartet Sie ein professioneller Autoankauf mit persönlichem Service. In Würzburg verkaufen Sie Ihr Auto fair und schnell.",
+    "localContent": "Würzburg liegt am Main in Unterfranken und bezaubert mit seiner barocken Residenz, die zum UNESCO-Welterbe gehört. Die rund 129.000 Einwohner zählende Universitätsstadt ist kulturelles und wirtschaftliches Zentrum der Region Mainfranken. Als Schnittpunkt der A3 und A7 ist Würzburg ein zentraler Verkehrsknotenpunkt zwischen Frankfurt und Nürnberg. Die Kombination aus studentischem Leben und gestandener Wirtschaftskraft erzeugt einen vielfältigen lokalen Fahrzeugmarkt."
   },
   "landmarks": [
     "Residenz",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Würzburg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Würzburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Würzburg?",
+      "answer": "Für den Verkauf in Würzburg benötigen Sie: Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), Ihren gültigen Personalausweis und alle Fahrzeugschlüssel. Serviceheft und TÜV-Bericht sind hilfreich, aber nicht zwingend erforderlich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Würzburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Würzburg verkaufen?",
+      "answer": "Selbstverständlich. Viele Verkäufer in Würzburg möchten kein Geld mehr in den TÜV investieren — das verstehen wir und kaufen Ihr Auto auch ohne gültige HU an."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Sie erhalten zunächst eine unverbindliche Online-Schätzung. Im nächsten Schritt besichtigen wir das Fahrzeug in Würzburg, bestätigen den Preis und zahlen sofort — bar oder per Echtzeitüberweisung."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Würzburg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Nehmen Sie auch Leasingrückläufer oder Mietwagen in Würzburg an?",
+      "answer": "Grundsätzlich ja. In Würzburg kaufen wir nach Rücksprache mit der Leasingbank auch Leasingrückläufer an. Oft können Sie so einen besseren Preis erzielen als bei der direkten Rückgabe."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Würzburg versteckte Kosten für mich?",
+      "answer": "Nein, absolut nicht. Unser Service in Würzburg ist für Sie zu 100 % kostenlos — von der Erstbewertung über die Abholung bis zur Abmeldung. Der genannte Preis ist Ihr Auszahlungsbetrag."
     }
   ]
 }

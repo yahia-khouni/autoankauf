@@ -12,19 +12,20 @@
     "lng": 6.6371
   },
   "meta": {
-    "title": "Autoankauf Trier | Auto verkaufen in Trier",
-    "description": "Autoankauf in Trier: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Trier. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Trier — Faire Preise & Sofortzahlung",
+    "description": "Autoankauf Trier — die älteste Stadt Deutschlands bietet zeitgemäßen Fahrzeugankauf. Faire Preise, persönlicher Service an der Mosel und sofortige Auszahlung.",
     "keywords": [
       "Autoankauf Trier",
       "Auto verkaufen Trier",
       "PKW Ankauf Trier",
-      "Gebrauchtwagen Ankauf Trier",
-      "KFZ Ankauf Trier"
+      "Unfallwagen verkaufen Trier",
+      "Fahrzeug verkaufen Trier",
+      "Auto Export Trier"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Trier schnell, fair und unkompliziert. Mit über 111.528 Einwohnern ist Trier ein bedeutender Automobilmarkt in Rheinland-Pfalz.",
-    "localContent": "Trier ist die älteste Stadt Deutschlands und wurde von den Römern gegründet. Die Porta Nigra und die römischen Baudenkmäler gehören zum UNESCO-Welterbe."
+    "heroDescription": "In der ältesten Stadt Deutschlands verbinden wir 2.000 Jahre Handelsgeschichte mit einem modernen Autoankauf: persönlich, fair und sofort.",
+    "localContent": "Trier ist die älteste Stadt Deutschlands, gegründet als Augusta Treverorum durch die Römer. Die Porta Nigra und die römischen Baudenkmäler sind UNESCO-Welterbestätten. Die rund 112.000 Einwohner zählende Stadt an der Mosel liegt unweit der Grenzen zu Luxemburg und Frankreich, was sie zu einem Dreh- und Angelpunkt für den grenzüberschreitenden Fahrzeughandel macht."
   },
   "landmarks": [
     "Porta Nigra",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Trier verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Trier innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Trier an?",
+      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Trier ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Trier und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Trier berechnet?",
+      "answer": "Die Preisberechnung berücksichtigt Marke, Modell, Baujahr, Kilometerstand, Zusatzausstattung und den Zustand. In Trier nutzen wir tagesaktuelle Händlerdaten für eine faire Bewertung."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Trier verkaufen?",
+      "answer": "Selbstverständlich. Viele Verkäufer in Trier möchten kein Geld mehr in den TÜV investieren — das verstehen wir und kaufen Ihr Auto auch ohne gültige HU an."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Trier?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Trier an?",
+      "answer": "Wir kaufen in Trier alle Marken an: von deutschen Premium-Herstellern wie BMW, Mercedes und Audi bis zu Ford, Opel und VW. Auch japanische und koreanische Marken wie Toyota und Hyundai sind willkommen."
+    },
+    {
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Trier um?",
+      "answer": "Motorschäden sind kein Problem. Wir haben ein Netzwerk von Werkstätten und Verwertern, sodass wir auch in Trier für defekte Motoren den bestmöglichen Restwert ermitteln."
     }
   ]
 }

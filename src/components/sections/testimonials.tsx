@@ -10,10 +10,18 @@ type TestimonialItem = {
   verified: boolean;
 };
 
-export function TestimonialsSection() {
+export function TestimonialsSection({
+  title,
+  badge,
+  testimonials: propTestimonials,
+}: {
+  title?: string;
+  badge?: string;
+  testimonials?: TestimonialItem[];
+} = {}) {
   const t = useTranslations("testimonials");
 
-  const testimonials: TestimonialItem[] = [
+  const defaultTestimonials: TestimonialItem[] = [
     {
       name: t("review1Name"),
       location: t("review1Location"),
@@ -40,6 +48,10 @@ export function TestimonialsSection() {
     },
   ];
 
+  const testimonials = propTestimonials || defaultTestimonials;
+  const displayTitle = title || t("title");
+  const displayBadge = badge || t("badge");
+
   const allTestimonials = [...testimonials, ...testimonials];
 
   return (
@@ -54,12 +66,12 @@ export function TestimonialsSection() {
           <div className="inline-flex items-center gap-1.5 sm:gap-2 rounded-full bg-gold-100 border border-gold-200 px-3 py-1.5 sm:px-4 sm:py-2 mb-4 sm:mb-6">
             <Star className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-gold-600 fill-gold-500" />
             <span className="text-xs sm:text-sm font-medium text-gold-700">
-              {t("badge")}
+              {displayBadge}
             </span>
           </div>
 
           <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4 sm:mb-6 text-navy-900">
-            {t("title")}
+            {displayTitle}
           </h2>
 
           {/* Rating Summary - Compact on Mobile */}

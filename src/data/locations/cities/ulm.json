@@ -12,19 +12,20 @@
     "lng": 9.9876
   },
   "meta": {
-    "title": "Autoankauf Ulm | Auto verkaufen in Ulm",
-    "description": "Autoankauf in Ulm: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Ulm. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen Ulm — Schnell, sicher & unkompliziert",
+    "description": "Auto verkaufen in Ulm an der Donau — schnell, sicher und mit bestem Preis. Professionelle Bewertung, gratis Abholung und Zahlung am selben Tag möglich.",
     "keywords": [
       "Autoankauf Ulm",
       "Auto verkaufen Ulm",
-      "PKW Ankauf Ulm",
-      "Gebrauchtwagen Ankauf Ulm",
-      "KFZ Ankauf Ulm"
+      "Gebrauchtwagen verkaufen Ulm",
+      "Wagen verkaufen Ulm",
+      "Autoverkauf Ulm",
+      "Auto ohne TÜV verkaufen Ulm"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Ulm schnell, fair und unkompliziert. Mit über 128.928 Einwohnern ist Ulm ein bedeutender Automobilmarkt in Baden-Württemberg.",
-    "localContent": "Ulm liegt an der Donau und ist bekannt für das Ulmer Münster mit dem höchsten Kirchturm der Welt. Die Stadt hat rund 129.000 Einwohner und liegt an der Grenze zu Bayern."
+    "heroDescription": "An der Donau, im Schatten des höchsten Kirchturms der Welt, bieten wir Ihnen den besten Preis für Ihr Fahrzeug — unkompliziert und in Rekordzeit.",
+    "localContent": "Ulm liegt an der Donau und ist mit dem höchsten Kirchturm der Welt ein Wahrzeichen von Schwaben. Die rund 129.000 Einwohner zählende Stadt an der Grenze zu Bayern ist ein bedeutender Wissenschafts- und Wirtschaftsstandort. Die Doppelstadt Ulm/Neu-Ulm verbindet zwei Bundesländer und schafft einen großen zusammenhängenden Wirtschaftsraum. Durch die Lage an A7 und A8 ist Ulm ein wichtiger Verkehrsknotenpunkt für den Süden Deutschlands."
   },
   "landmarks": [
     "Ulmer Münster",
@@ -40,19 +41,19 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Ulm verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Ulm innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Schnelligkeit ist unser Markenzeichen: In Ulm schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Ulm und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Ulm?",
+      "answer": "Für den Verkauf in Ulm benötigen Sie: Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), Ihren gültigen Personalausweis und alle Fahrzeugschlüssel. Serviceheft und TÜV-Bericht sind hilfreich, aber nicht zwingend erforderlich."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Ulm?",
+      "answer": "Ja, wir kaufen in Ulm auch Firmenwagen, Dienstwagen, Leasingrückläufer und komplette Flotten an. Für Unternehmen bieten wir einen diskreten und effizienten Abwicklungsprozess."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Ulm?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kann ich mein Auto in Ulm auch am Wochenende verkaufen?",
+      "answer": "Ja, wir sind auch an Samstagen für Besichtigungen und Ankäufe in Ulm verfügbar. Vereinbaren Sie einfach einen Wochenendtermin über unser Kontaktformular."
     }
   ]
 }

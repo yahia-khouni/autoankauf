@@ -12,24 +12,26 @@
     "lng": 10.7865
   },
   "meta": {
-    "title": "Autoankauf Wolfsburg | Auto verkaufen in Wolfsburg",
-    "description": "Autoankauf in Wolfsburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Wolfsburg. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen in Wolfsburg | Sofortzahlung & Top-Service",
+    "description": "Auto verkaufen in Wolfsburg — die VW-Stadt kennt den Wert guter Autos. Profitieren Sie von Top-Bewertungen, Gratis-Abholung und sofortiger Bezahlung in bar.",
     "keywords": [
       "Autoankauf Wolfsburg",
       "Auto verkaufen Wolfsburg",
-      "PKW Ankauf Wolfsburg",
-      "Gebrauchtwagen Ankauf Wolfsburg",
-      "KFZ Ankauf Wolfsburg"
+      "KFZ Ankauf Wolfsburg",
+      "Fahrzeugankauf Wolfsburg",
+      "Autoverkauf Wolfsburg",
+      "Gebrauchtwagenhandel Wolfsburg",
+      "Fahrzeugbewertung Wolfsburg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Wolfsburg schnell, fair und unkompliziert. Mit über 128.227 Einwohnern ist Wolfsburg ein bedeutender Automobilmarkt in Niedersachsen.",
-    "localContent": "Wolfsburg ist die Heimat von Volkswagen und mit der Autostadt ein weltweit bekannter Automobilstandort. Die Stadt hat rund 128.000 Einwohner."
+    "heroDescription": "In der Automobilstadt Wolfsburg sprechen wir Ihre Sprache — die Sprache des fairen Geschäfts. Hier kennen wir den Wert jedes Fahrzeugs und zahlen entsprechend.",
+    "localContent": "Wolfsburg ist die Heimat von Volkswagen und mit der Autostadt ein weltweit einzigartiger Automobilstandort. Das VW-Werk ist das größte Automobilwerk der Welt und beschäftigt tausende Mitarbeiter. Die rund 128.000 Einwohner zählende Stadt lebt von und für das Automobil — entsprechend groß ist die Expertise im lokalen Fahrzeugmarkt. Die A2 bietet direkte Verbindung nach Berlin und ins Ruhrgebiet."
   },
   "landmarks": [
     "Autostadt",
     "VW-Werk",
-    "Phæno",
+    "Phaeno",
     "Allerpark"
   ],
   "nearbyCities": [
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Wolfsburg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Wolfsburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Der gesamte Verkaufsprozess in Wolfsburg dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Wolfsburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Wolfsburg?",
+      "answer": "Für den Verkauf in Wolfsburg benötigen Sie: Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), Ihren gültigen Personalausweis und alle Fahrzeugschlüssel. Serviceheft und TÜV-Bericht sind hilfreich, aber nicht zwingend erforderlich."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Wolfsburg?",
+      "answer": "Bei Übergabe Ihres Fahrzeugs in Wolfsburg zahlen wir wahlweise in bar oder per Sofortüberweisung. Das Geld ist unmittelbar verfügbar und es entstehen keine zusätzlichen Kosten."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Wolfsburg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Wolfsburg an?",
+      "answer": "Grundsätzlich kaufen wir in Wolfsburg jede Automarke an. Besonders häufig handeln wir mit Volkswagen, BMW, Mercedes-Benz, Audi, Opel, Ford, Skoda, Seat, Toyota und Hyundai."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Wolfsburg?",
+      "answer": "Gerne! Nach dem Kauf melden wir das Fahrzeug in Wolfsburg ab und kümmern uns um sämtliche Formalitäten. Das ist in unserem Service bereits enthalten."
     }
   ]
 }

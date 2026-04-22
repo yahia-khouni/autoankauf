@@ -12,19 +12,20 @@
     "lng": 12.0833
   },
   "meta": {
-    "title": "Autoankauf Gera | Auto verkaufen in Gera",
-    "description": "Autoankauf in Gera: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Gera. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen in Gera | Kostenloses Angebot in 24h",
+    "description": "Auto verkaufen in Gera — die Villenstadt an der Weißen Elster bietet Ihnen ein 24h-Angebot. Kostenlose Bewertung, faire Preise und Sofortzahlung bei Übergabe.",
     "keywords": [
       "Autoankauf Gera",
       "Auto verkaufen Gera",
       "PKW Ankauf Gera",
       "Gebrauchtwagen Ankauf Gera",
-      "KFZ Ankauf Gera"
+      "Wagen verkaufen Gera",
+      "Motorschaden Ankauf Gera"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Gera schnell, fair und unkompliziert. Mit über 93.125 Einwohnern ist Gera ein bedeutender Automobilmarkt in Thüringen.",
-    "localContent": "Gera ist die drittgrößte Stadt Thüringens und liegt an der Weißen Elster. Die Stadt ist bekannt für ihre Villenkultur und die unterirdischen Höhler."
+    "heroDescription": "In Gera an der Weißen Elster erwartet Sie ein Autoankauf ohne Umwege: unkomplizierte Bewertung, persönlicher Service und sofortige Auszahlung.",
+    "localContent": "Gera ist die drittgrößte Stadt Thüringens und liegt malerisch an der Weißen Elster. Die Stadt ist bekannt für ihre beeindruckende Villenkultur aus der Gründerzeit und die unterirdischen Höhler — ein einzigartiges Kellerlabyrinth unter der Altstadt. Die rund 93.000 Einwohner zählende Stadt verbindet Tradition mit einem wachsenden Dienstleistungssektor. Die B92 und die Nähe zur A4 und A9 verbinden Gera mit Chemnitz, Leipzig und Jena."
   },
   "landmarks": [
     "Rathaus",
@@ -40,19 +41,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Gera verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Gera innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Der gesamte Verkaufsprozess in Gera dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Gera und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Gera verkaufen?",
+      "answer": "Absolut. In Gera kaufen wir auch Autos mit abgelaufenem TÜV. Sie sparen sich die Kosten für eine erneute Prüfung — wir kümmern uns um alles Weitere."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Die Online-Bewertung gibt Ihnen eine erste Preisindikation. Bei einem kurzen Vor-Ort-Termin in Gera prüfen wir das Fahrzeug und nennen Ihnen den verbindlichen Ankaufspreis."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Gera?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Gera?",
+      "answer": "Absolut. Ob Mercedes Pagode, VW Käfer oder Porsche 911 — in Gera kaufen wir auch klassische Fahrzeuge an und wissen ihren besonderen Wert zu schätzen."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Gera versteckte Kosten für mich?",
+      "answer": "Nein, vollständige Transparenz hat für uns oberste Priorität. Alle Leistungen in Gera — Bewertung, Gutachten, Abholung, Abmeldung — sind für Verkäufer komplett kostenfrei."
     }
   ]
 }

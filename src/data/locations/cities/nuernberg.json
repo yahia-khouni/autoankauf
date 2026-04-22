@@ -12,19 +12,21 @@
     "lng": 11.0767
   },
   "meta": {
-    "title": "Autoankauf Nürnberg | Auto verkaufen in Nürnberg",
-    "description": "Autoankauf in Nürnberg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Nürnberg. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Nürnberg | Professionell & Fair",
+    "description": "Autoankauf Nürnberg — professioneller Fahrzeugankauf in Frankens größter Stadt. Wir bewerten Ihr Auto individuell, holen es gratis ab und zahlen sofort bar aus.",
     "keywords": [
       "Autoankauf Nürnberg",
       "Auto verkaufen Nürnberg",
-      "PKW Ankauf Nürnberg",
-      "Gebrauchtwagen Ankauf Nürnberg",
-      "KFZ Ankauf Nürnberg"
+      "KFZ Ankauf Nürnberg",
+      "Gebrauchtwagen verkaufen Nürnberg",
+      "Fahrzeug verkaufen Nürnberg",
+      "Motorschaden Ankauf Nürnberg",
+      "Auto Bewertung Nürnberg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Nürnberg schnell, fair und unkompliziert. Mit über 523.026 Einwohnern ist Nürnberg ein bedeutender Automobilmarkt in Bayern.",
-    "localContent": "Nürnberg ist mit rund 523.000 Einwohnern die zweitgrößte Stadt Bayerns und ein bedeutendes Wirtschaftszentrum in Franken."
+    "heroDescription": "Nürnberg als zweitgrößte Stadt Bayerns bietet einen dynamischen Automarkt — und wir bieten Ihnen den besten Zugang dazu. Schneller Ankauf, faire Preise und null Risiko.",
+    "localContent": "Nürnberg ist mit rund 523.000 Einwohnern die zweitgrößte Stadt Bayerns und das kulturelle sowie wirtschaftliche Zentrum Frankens. Die Metropolregion Nürnberg zählt über 3,5 Millionen Menschen und bildet einen der größten Ballungsräume Süddeutschlands. Als Standort internationaler Unternehmen wie MAN, Siemens und DATEV verfügt Nürnberg über eine starke Wirtschaftsbasis. Die zentrale Lage an den Autobahnachsen A3, A6 und A9 macht die Stadt zu einem natürlichen Handelsplatz für den Fahrzeugmarkt in Franken."
   },
   "landmarks": [
     "Kaiserburg",
@@ -39,20 +41,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Nürnberg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Nürnberg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Nürnberg an?",
+      "answer": "Absolut. In Nürnberg und dem gesamten Umkreis bieten wir eine kostenlose Fahrzeugabholung an. Sie müssen keinen Meter fahren — wir kommen zu Ihnen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Nürnberg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Nürnberg berechnet?",
+      "answer": "Wir kombinieren professionelle Fahrzeugbewertung mit aktuellen Marktanalysen. Jedes Detail zählt — von der Motorleistung bis zur Pflegehistorie. In Nürnberg erhalten Sie stets einen marktgerechten Preis."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Nach Ihrer Online-Anfrage erhalten Sie ein vorläufiges Angebot. Stimmen die Angaben mit dem Fahrzeugzustand überein, wird dieses zum Festpreis. Dann erfolgt die Abholung und Sofortauszahlung in Nürnberg."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Nürnberg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Nürnberg?",
+      "answer": "Unser Unterschied in Nürnberg: persönlicher Kontakt, ehrliche Bewertung und ein Rundum-Service, der Ihnen den Papierkram und Stress komplett abnimmt. Dafür stehen unsere Kundenbewertungen."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Nürnberg versteckte Kosten für mich?",
+      "answer": "Nein, vollständige Transparenz hat für uns oberste Priorität. Alle Leistungen in Nürnberg — Bewertung, Gutachten, Abholung, Abmeldung — sind für Verkäufer komplett kostenfrei."
     }
   ]
 }

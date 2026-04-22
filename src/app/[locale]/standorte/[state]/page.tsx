@@ -357,27 +357,61 @@ export default async function StatePage({ params }: Props) {
                 </div>
               </div>
 
-              {/* SEO Prose */}
-              <div className="prose prose-lg max-w-none prose-headings:text-navy-900 prose-headings:font-bold prose-p:text-slate-600 prose-strong:text-navy-800 prose-li:text-slate-600">
-                <h2>Warum Autoankauf in {state.name}?</h2>
-                <p>{state.content.seoText}</p>
+              {/* SEO Content */}
+              <div className="bg-white rounded-3xl border border-slate-100 p-8 lg:p-10 shadow-sm mt-12 space-y-8">
+                <div>
+                  <h2 className="text-2xl font-bold text-navy-900 mb-4 flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-gold-400/20 flex items-center justify-center flex-shrink-0">
+                      <Star className="h-4 w-4 text-gold-600" />
+                    </div>
+                    Warum Autoankauf in {state.name}?
+                  </h2>
+                  <p className="text-slate-600 leading-relaxed">
+                    {state.content.seoText}
+                  </p>
+                </div>
 
-                <h3>Welche Fahrzeuge kaufen wir in {state.name}?</h3>
-                <ul>
-                  <li>Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)</li>
-                  <li>Volkswagen, Opel, Ford und andere Volumenmarken</li>
-                  <li>Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)</li>
-                  <li>Nutzfahrzeuge, Transporter und Kombis</li>
-                  <li>Fahrzeuge mit hoher Laufleistung oder Mängeln</li>
-                  <li>Unfallfahrzeuge und nicht fahrtüchtige Autos</li>
-                </ul>
+                <hr className="border-slate-100" />
 
-                <h3>Sofort-Auszahlung in {state.name}</h3>
-                <p>
-                  Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar
-                  oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine
-                  Ausreden. Das ist unser Versprechen an alle Kunden in {state.name}.
-                </p>
+                <div>
+                  <h3 className="text-xl font-bold text-navy-900 mb-4 flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-gold-400/20 flex items-center justify-center flex-shrink-0">
+                      <Car className="h-4 w-4 text-gold-600" />
+                    </div>
+                    Welche Fahrzeuge kaufen wir in {state.name}?
+                  </h3>
+                  <ul className="grid sm:grid-cols-2 gap-3 mt-4">
+                    {[
+                      "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+                      "Volkswagen, Opel, Ford und andere Volumenmarken",
+                      "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+                      "Nutzfahrzeuge, Transporter und Kombis",
+                      "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+                      "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+                    ].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-gold-500 flex-shrink-0 mt-0.5" />
+                        <span className="text-slate-600">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <hr className="border-slate-100" />
+
+                <div>
+                  <h3 className="text-xl font-bold text-navy-900 mb-4 flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-gold-400/20 flex items-center justify-center flex-shrink-0">
+                      <Euro className="h-4 w-4 text-gold-600" />
+                    </div>
+                    Sofort-Auszahlung in {state.name}
+                  </h3>
+                  <p className="text-slate-600 leading-relaxed">
+                    Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar
+                    oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine
+                    Ausreden. Das ist unser Versprechen an alle Kunden in {state.name}.
+                  </p>
+                </div>
               </div>
             </div>
 

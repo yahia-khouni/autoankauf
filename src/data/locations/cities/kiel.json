@@ -12,19 +12,20 @@
     "lng": 10.1349
   },
   "meta": {
-    "title": "Autoankauf Kiel | Auto verkaufen in Kiel",
-    "description": "Autoankauf in Kiel: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Kiel. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Kiel — Ihr lokaler Partner für Autoverkauf",
+    "description": "Autoankauf Kiel — die Fördestadt am Meer bietet lokalen Service mit Sofortzahlung. Landeshauptstadt Schleswig-Holsteins: Wir kommen direkt zu Ihnen an die Ostsee.",
     "keywords": [
       "Autoankauf Kiel",
       "Auto verkaufen Kiel",
-      "PKW Ankauf Kiel",
-      "Gebrauchtwagen Ankauf Kiel",
-      "KFZ Ankauf Kiel"
+      "KFZ Ankauf Kiel",
+      "Gebrauchtwagen verkaufen Kiel",
+      "Auto sofort verkaufen Kiel",
+      "Fahrzeugbewertung Kiel"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Kiel schnell, fair und unkompliziert. Mit über 249.023 Einwohnern ist Kiel ein bedeutender Automobilmarkt in Schleswig-Holstein.",
-    "localContent": "Kiel ist die Landeshauptstadt Schleswig-Holsteins und liegt an der Ostsee. Die Kieler Woche ist das größte Segelsport-Ereignis der Welt."
+    "heroDescription": "An der Kieler Förde segeln wir auf Erfolgskurs — auch beim Autoankauf. Schnelle Bewertung, kostenlose Abholung und sofortige Bezahlung direkt in Kiel.",
+    "localContent": "Kiel ist die Landeshauptstadt Schleswig-Holsteins und liegt malerisch an der Kieler Förde. Die Kieler Woche, das größte Segelsportereignis der Welt, zieht jährlich Millionen Besucher an. Die rund 249.000 Einwohner profitieren von der Christian-Albrechts-Universität und dem Marinestützpunkt. Die A215 und B76 verbinden Kiel mit Hamburg und der Ostseeküste. Als Tor zur Ostsee bietet Kiel auch interessante Möglichkeiten für den internationalen Fahrzeugexport nach Skandinavien."
   },
   "landmarks": [
     "Kieler Förde",
@@ -38,20 +39,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Kiel verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Kiel innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Kiel an?",
+      "answer": "Absolut. In Kiel und dem gesamten Umkreis bieten wir eine kostenlose Fahrzeugabholung an. Sie müssen keinen Meter fahren — wir kommen zu Ihnen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Kiel und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Kiel?",
+      "answer": "Sie brauchen den Fahrzeugbrief, den Fahrzeugschein, Ihren Ausweis und die Autoschlüssel. Alles Weitere — etwa die Abmeldung oder fehlende Papiere — klären wir gemeinsam vor Ort in Kiel."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Kiel?",
+      "answer": "Ja, gerade Firmenkunden in Kiel schätzen unseren schnellen und unbürokratischen Ankauf. Ob Einzelfahrzeug oder ganze Flotte — wir kümmern uns um alle Details."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Kiel?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Kiel?",
+      "answer": "Ja, wir haben in Kiel auch Erfahrung mit dem Ankauf von Oldtimern und Youngtimern. Klassische Fahrzeuge bewerten wir mit besonderer Sorgfalt und Sachverstand."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Kiel?",
+      "answer": "Selbstverständlich. Wir übernehmen die Abmeldung bei der zuständigen Behörde in Kiel — Sie müssen sich um nichts weiter kümmern."
     }
   ]
 }

@@ -12,19 +12,21 @@
     "lng": 13.7373
   },
   "meta": {
-    "title": "Autoankauf Dresden | Auto verkaufen in Dresden",
-    "description": "Autoankauf in Dresden: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Dresden. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Dresden | Sofort Bargeld für Ihr Fahrzeug",
+    "description": "Autoankauf Dresden — im Elbflorenz erwartet Sie ein stilvoller Verkaufsprozess. Gläserne Transparenz bei der Bewertung, kostenlose Abholung und Sofortauszahlung.",
     "keywords": [
       "Autoankauf Dresden",
       "Auto verkaufen Dresden",
-      "PKW Ankauf Dresden",
+      "KFZ Ankauf Dresden",
       "Gebrauchtwagen Ankauf Dresden",
-      "KFZ Ankauf Dresden"
+      "Unfallwagen verkaufen Dresden",
+      "Fahrzeug verkaufen Dresden",
+      "Fahrzeugbewertung Dresden"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Dresden schnell, fair und unkompliziert. Mit über 563.011 Einwohnern ist Dresden ein bedeutender Automobilmarkt in Sachsen.",
-    "localContent": "Dresden ist die Landeshauptstadt Sachsens und als Elbflorenz bekannt. Die Stadt hat rund 563.000 Einwohner und ist Sitz der Volkswagen-Gläsernen Manufaktur."
+    "heroDescription": "Im Elbflorenz bieten wir einen Autoankauf, der so transparent ist wie die Gläserne Manufaktur: offene Preisfindung, persönlicher Service und sofortige Bezahlung.",
+    "localContent": "Dresden ist die Landeshauptstadt Sachsens und als Elbflorenz weltweit für seine barocke Pracht bekannt. Die wiederaufgebaute Frauenkirche, der Zwinger und die Semperoper ziehen Millionen Besucher an. Mit rund 563.000 Einwohnern und der Gläsernen Manufaktur von Volkswagen verbindet Dresden Kultur mit Hightech. Die Chipindustrie im Silicon Saxony sorgt für gut bezahlte Arbeitsplätze und einen gehobenen Fahrzeugmarkt. Die A4, A13 und A17 machen Dresden zur Drehscheibe zwischen Berlin, Prag und Leipzig."
   },
   "landmarks": [
     "Frauenkirche",
@@ -38,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Dresden verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Dresden innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Dresden?",
+      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Dresden und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Dresden berechnet?",
+      "answer": "Unser Bewertungsverfahren in Dresden basiert auf der Schwacke-Liste, aktuellen Marktpreisen und dem individuellen Zustand Ihres Fahrzeugs. So garantieren wir einen marktgerechten Ankaufspreis."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Muss mein Fahrzeug für den Verkauf in Dresden noch angemeldet sein?",
+      "answer": "Nein, Ihr Auto muss für den Verkauf in Dresden nicht angemeldet sein. Wir kaufen auch stillgelegte und bereits abgemeldete Fahrzeuge an."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Dresden?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Dresden an?",
+      "answer": "Grundsätzlich kaufen wir in Dresden jede Automarke an. Besonders häufig handeln wir mit Volkswagen, BMW, Mercedes-Benz, Audi, Opel, Ford, Skoda, Seat, Toyota und Hyundai."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Dresden?",
+      "answer": "Gerne! Nach dem Kauf melden wir das Fahrzeug in Dresden ab und kümmern uns um sämtliche Formalitäten. Das ist in unserem Service bereits enthalten."
     }
   ]
 }

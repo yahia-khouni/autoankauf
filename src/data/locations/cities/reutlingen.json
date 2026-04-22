@@ -12,19 +12,20 @@
     "lng": 9.2148
   },
   "meta": {
-    "title": "Autoankauf Reutlingen | Auto verkaufen in Reutlingen",
-    "description": "Autoankauf in Reutlingen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Reutlingen. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Reutlingen — Ihr lokaler Partner für Autoverkauf",
+    "description": "Autoankauf Reutlingen — Ihr Fahrzeug am Fuße der Schwäbischen Alb zum Bestpreis verkaufen. Lokaler Partner mit kostenloser Bewertung, Abholung und Sofortauszahlung.",
     "keywords": [
       "Autoankauf Reutlingen",
       "Auto verkaufen Reutlingen",
-      "PKW Ankauf Reutlingen",
       "Gebrauchtwagen Ankauf Reutlingen",
-      "KFZ Ankauf Reutlingen"
+      "Wagen verkaufen Reutlingen",
+      "Auto sofort verkaufen Reutlingen",
+      "PKW verkaufen Reutlingen"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Reutlingen schnell, fair und unkompliziert. Mit über 117.166 Einwohnern ist Reutlingen ein bedeutender Automobilmarkt in Baden-Württemberg.",
-    "localContent": "Reutlingen liegt am Fuße der Schwäbischen Alb und hat rund 117.000 Einwohner. Die Stadt beherbergt die engste Straße der Welt — die Spreuerhofstraße."
+    "heroDescription": "Am Fuße der Schwäbischen Alb erhalten Sie für Ihr Auto den besten Preis — lokal, persönlich und ohne Umwege. Unser Service in Reutlingen überzeugt durch Schnelligkeit und Fairness.",
+    "localContent": "Reutlingen liegt am Fuße der Schwäbischen Alb und beherbergt mit der Spreuerhofstraße die engste Straße der Welt. Die rund 117.000 Einwohner zählende Großstadt ist fest in der schwäbischen Wirtschaftslandschaft verankert und als Textilstandort historisch bedeutsam. Die Nähe zu Stuttgart und Tübingen sowie die Anbindung an die B27 und B28 machen Reutlingen zu einem wichtigen Knotenpunkt in der Region Neckar-Alb."
   },
   "landmarks": [
     "Marienkirche",
@@ -39,20 +40,20 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Reutlingen verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Reutlingen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Reutlingen?",
+      "answer": "Sie brauchen den Fahrzeugbrief, den Fahrzeugschein, Ihren Ausweis und die Autoschlüssel. Alles Weitere — etwa die Abmeldung oder fehlende Papiere — klären wir gemeinsam vor Ort in Reutlingen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Reutlingen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Reutlingen berechnet?",
+      "answer": "Die Preisberechnung berücksichtigt Marke, Modell, Baujahr, Kilometerstand, Zusatzausstattung und den Zustand. In Reutlingen nutzen wir tagesaktuelle Händlerdaten für eine faire Bewertung."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich mein Auto in Reutlingen auch am Wochenende verkaufen?",
+      "answer": "Selbstverständlich. Gerade berufstätige Kunden in Reutlingen schätzen unsere flexible Terminvergabe — auch samstags und nach regulärem Feierabend."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Reutlingen?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Reutlingen um?",
+      "answer": "Motorschäden sind kein Problem. Wir haben ein Netzwerk von Werkstätten und Verwertern, sodass wir auch in Reutlingen für defekte Motoren den bestmöglichen Restwert ermitteln."
     }
   ]
 }

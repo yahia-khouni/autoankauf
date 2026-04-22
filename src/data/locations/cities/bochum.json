@@ -12,19 +12,20 @@
     "lng": 7.2162
   },
   "meta": {
-    "title": "Autoankauf Bochum | Auto verkaufen in Bochum",
-    "description": "Autoankauf in Bochum: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Bochum. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Bochum | Sofort Bargeld für Ihr Fahrzeug",
+    "description": "Autoankauf Bochum — im Herzen des Ruhrgebiets erhalten Sie sofort Bargeld für Ihr Auto. Ehemalige Opel-Stadt mit starker Automobilkompetenz: Wir kennen jeden Wagen.",
     "keywords": [
       "Autoankauf Bochum",
       "Auto verkaufen Bochum",
-      "PKW Ankauf Bochum",
       "Gebrauchtwagen Ankauf Bochum",
-      "KFZ Ankauf Bochum"
+      "Wagen verkaufen Bochum",
+      "Autoverkauf Bochum",
+      "Autoankauf in der Nähe Bochum"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Bochum schnell, fair und unkompliziert. Mit über 365.529 Einwohnern ist Bochum ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
-    "localContent": "Bochum liegt im Herzen des Ruhrgebiets und ist bekannt für das Musical Starlight Express und die Ruhr-Universität."
+    "heroDescription": "Im Herzen des Ruhrgebiets bieten wir Ihnen einen rundum professionellen Autoankauf: von der Wertermittlung bis zur Auszahlung in einem Schritt — direkt in Bochum.",
+    "localContent": "Bochum liegt im Herzen des Ruhrgebiets und ist mit rund 366.000 Einwohnern ein bedeutender Standort der Region. Das Deutsche Bergbau-Museum und das weltberühmte Musical Starlight Express prägen das kulturelle Profil. Nach der Schließung des Opel-Werks hat sich die Stadt erfolgreich als Technologie- und Gesundheitsstandort neu erfunden. Die Ruhr-Universität mit über 40.000 Studierenden bringt Dynamik in den lokalen Fahrzeugmarkt."
   },
   "landmarks": [
     "Deutsches Bergbau-Museum",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Bochum verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Bochum innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Bochum?",
+      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Bochum und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Bochum verkaufen?",
+      "answer": "Kein Problem. Ob der TÜV erst kürzlich oder schon seit Jahren abgelaufen ist — in Bochum kaufen wir Ihr Fahrzeug trotzdem an und erstellen ein faires Angebot."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Nach Ihrer Online-Anfrage erhalten Sie ein vorläufiges Angebot. Stimmen die Angaben mit dem Fahrzeugzustand überein, wird dieses zum Festpreis. Dann erfolgt die Abholung und Sofortauszahlung in Bochum."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Bochum?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Bochum?",
+      "answer": "Transparenz, faire Preise und Geschwindigkeit. In Bochum setzen wir auf persönliche Beratung statt anonyme Online-Formulare. Dazu gibt es bei uns keine versteckten Gebühren oder Provisionen."
+    },
+    {
+      "question": "Nehmen Sie auch Leasingrückläufer oder Mietwagen in Bochum an?",
+      "answer": "Grundsätzlich ja. In Bochum kaufen wir nach Rücksprache mit der Leasingbank auch Leasingrückläufer an. Oft können Sie so einen besseren Preis erzielen als bei der direkten Rückgabe."
     }
   ]
 }

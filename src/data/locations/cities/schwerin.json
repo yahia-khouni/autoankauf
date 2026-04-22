@@ -12,19 +12,20 @@
     "lng": 11.4012
   },
   "meta": {
-    "title": "Autoankauf Schwerin | Auto verkaufen in Schwerin",
-    "description": "Autoankauf in Schwerin: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Schwerin. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Schwerin | Sofort Bargeld für Ihr Fahrzeug",
+    "description": "Autoankauf Schwerin — in Mecklenburgs Landeshauptstadt kaufen wir Ihr Auto sofort. Bargeldzahlung bei Übergabe, kostenlose Abholung und faire Marktbewertung.",
     "keywords": [
       "Autoankauf Schwerin",
       "Auto verkaufen Schwerin",
-      "PKW Ankauf Schwerin",
-      "Gebrauchtwagen Ankauf Schwerin",
-      "KFZ Ankauf Schwerin"
+      "Gebrauchtwagen verkaufen Schwerin",
+      "Wagen verkaufen Schwerin",
+      "Fahrzeug verkaufen Schwerin",
+      "Auto ohne TÜV verkaufen Schwerin"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Schwerin schnell, fair und unkompliziert. Mit über 99.609 Einwohnern ist Schwerin ein bedeutender Automobilmarkt in Mecklenburg-Vorpommern.",
-    "localContent": "Schwerin ist die Landeshauptstadt von Mecklenburg-Vorpommern und bekannt für das malerische Schweriner Schloss inmitten des Schweriner Sees."
+    "heroDescription": "Im malerischen Schwerin, der Stadt der sieben Seen, bieten wir Ihnen einen unkomplizierten Autoankauf — persönlich, transparent und mit sofortiger Auszahlung.",
+    "localContent": "Schwerin ist die Landeshauptstadt von Mecklenburg-Vorpommern und besticht durch das märchenhafte Schweriner Schloss inmitten des Schweriner Sees. Mit rund 100.000 Einwohnern ist die Stadt kompakt, aber als Regierungssitz wirtschaftlich bedeutend. Die Lage an der A14 und die Nähe zu Hamburg und Rostock macht Schwerin zu einem Verbindungspunkt zwischen Metropolen."
   },
   "landmarks": [
     "Schweriner Schloss",
@@ -37,20 +38,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Schwerin verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Schwerin innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Schwerin?",
+      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Schwerin und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Schwerin?",
+      "answer": "Selbstverständlich! Auch Unfallwagen, Fahrzeuge mit Motorschaden oder abgelaufenem TÜV kaufen wir in Schwerin gerne an. Beschreiben Sie uns den Zustand und Sie erhalten umgehend eine Bewertung."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Schwerin?",
+      "answer": "Ja, wir kaufen in Schwerin auch Firmenwagen, Dienstwagen, Leasingrückläufer und komplette Flotten an. Für Unternehmen bieten wir einen diskreten und effizienten Abwicklungsprozess."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Schwerin?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kann ich mein Auto in Schwerin auch am Wochenende verkaufen?",
+      "answer": "Selbstverständlich. Gerade berufstätige Kunden in Schwerin schätzen unsere flexible Terminvergabe — auch samstags und nach regulärem Feierabend."
+    },
+    {
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Schwerin gültig?",
+      "answer": "Wir halten unsere Angebote in Schwerin üblicherweise 5 bis 7 Werktage aufrecht. Danach kann eine Aktualisierung sinnvoll sein, da sich Marktpreise ändern können."
     }
   ]
 }

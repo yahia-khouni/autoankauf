@@ -12,19 +12,21 @@
     "lng": 11.6276
   },
   "meta": {
-    "title": "Autoankauf Magdeburg | Auto verkaufen in Magdeburg",
-    "description": "Autoankauf in Magdeburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Magdeburg. Jetzt Angebot erhalten!",
+    "title": "Fahrzeugankauf Magdeburg | Alle Marken & Zustände",
+    "description": "Fahrzeugankauf Magdeburg — die Ottostadt an der Elbe bietet marktgerechte Preise. Kostenlose Bewertung, Abholung vor Ort und sofortige Barauszahlung garantiert.",
     "keywords": [
       "Autoankauf Magdeburg",
       "Auto verkaufen Magdeburg",
       "PKW Ankauf Magdeburg",
-      "Gebrauchtwagen Ankauf Magdeburg",
-      "KFZ Ankauf Magdeburg"
+      "KFZ Ankauf Magdeburg",
+      "Unfallwagen verkaufen Magdeburg",
+      "Autoverkauf Magdeburg",
+      "Auto Bewertung Magdeburg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Magdeburg schnell, fair und unkompliziert. Mit über 239.364 Einwohnern ist Magdeburg ein bedeutender Automobilmarkt in Sachsen-Anhalt.",
-    "localContent": "Magdeburg ist die Landeshauptstadt Sachsen-Anhalts und liegt an der Elbe. Die Stadt ist bekannt für den Magdeburger Dom, den ältesten gotischen Dom Deutschlands."
+    "heroDescription": "In der Ottostadt an der Elbe erwartet Sie ein professioneller Autoankauf mit fairen Preisen, gratis Abholung und sofortiger Bezahlung — zuverlässig wie der Magdeburger Dom.",
+    "localContent": "Magdeburg ist die Landeshauptstadt Sachsen-Anhalts und liegt an der Elbe. Der Magdeburger Dom ist der älteste gotische Sakralbau Deutschlands und die Grüne Zitadelle von Friedensreich Hundertwasser ein modernes Wahrzeichen. Die rund 239.000 Einwohner profitieren vom Standort wichtiger Unternehmen. Als Knotenpunkt der A2 und A14 liegt Magdeburg zentral zwischen Berlin und Hannover — eine ideale Lage für den überregionalen Fahrzeughandel in Sachsen-Anhalt."
   },
   "landmarks": [
     "Dom",
@@ -40,19 +42,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Magdeburg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Magdeburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Der gesamte Verkaufsprozess in Magdeburg dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Magdeburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Magdeburg berechnet?",
+      "answer": "Wir kombinieren professionelle Fahrzeugbewertung mit aktuellen Marktanalysen. Jedes Detail zählt — von der Motorleistung bis zur Pflegehistorie. In Magdeburg erhalten Sie stets einen marktgerechten Preis."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Magdeburg?",
+      "answer": "Unser Zahlungsversprechen in Magdeburg: Sie erhalten den vereinbarten Betrag sofort bei Fahrzeugübergabe. Ob Barzahlung oder Überweisung — Sie entscheiden, was Ihnen lieber ist."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Magdeburg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Was unterscheidet Sie von anderen Autoankäufern in Magdeburg?",
+      "answer": "Transparenz, faire Preise und Geschwindigkeit. In Magdeburg setzen wir auf persönliche Beratung statt anonyme Online-Formulare. Dazu gibt es bei uns keine versteckten Gebühren oder Provisionen."
+    },
+    {
+      "question": "Kann ich vorab eine telefonische Einschätzung für mein Auto in Magdeburg erhalten?",
+      "answer": "Ja, rufen Sie uns einfach an. Anhand Ihrer Angaben zu Marke, Modell, Baujahr und Zustand geben wir Ihnen sofort eine erste Preiseinschätzung für Ihr Auto aus Magdeburg."
     }
   ]
 }

@@ -12,19 +12,20 @@
     "lng": 14.3329
   },
   "meta": {
-    "title": "Autoankauf Cottbus | Auto verkaufen in Cottbus",
-    "description": "Autoankauf in Cottbus: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Cottbus. Jetzt Angebot erhalten!",
+    "title": "Ihr Autoankauf in Cottbus | Bestpreis-Garantie",
+    "description": "Autoankauf Cottbus — in der Lausitz erhalten Sie Bestpreise für Ihr Fahrzeug. Persönliche Beratung, kostenlose Begutachtung und Barauszahlung bei Fahrzeugübergabe.",
     "keywords": [
       "Autoankauf Cottbus",
       "Auto verkaufen Cottbus",
       "PKW Ankauf Cottbus",
-      "Gebrauchtwagen Ankauf Cottbus",
-      "KFZ Ankauf Cottbus"
+      "Wagen verkaufen Cottbus",
+      "Auto ohne TÜV verkaufen Cottbus",
+      "PKW verkaufen Cottbus"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Cottbus schnell, fair und unkompliziert. Mit über 99.678 Einwohnern ist Cottbus ein bedeutender Automobilmarkt in Brandenburg.",
-    "localContent": "Cottbus ist die zweitgrößte Stadt Brandenburgs und das Zentrum der Lausitz. Mit rund 100.000 Einwohnern ist die Stadt ein wichtiger Wirtschaftsstandort in Ostbrandenburg."
+    "heroDescription": "Im Herzen der Lausitz verkaufen Sie Ihr Auto zu fairen Bedingungen — mit kostenloser Bewertung, Gratis-Abholung und sofortiger Bezahlung direkt in Cottbus.",
+    "localContent": "Cottbus ist die zweitgrößte Stadt Brandenburgs und das wirtschaftliche Zentrum der Lausitz. Mit rund 100.000 Einwohnern befindet sich die Stadt im Strukturwandel und entwickelt sich vom Kohlestandort zum Innovations- und Wissenschaftszentrum. Die Brandenburgische Technische Universität und neue Ansiedlungen bringen frischen Wind in die Region. Die A15 und B97 verbinden Cottbus mit Dresden und Berlin."
   },
   "landmarks": [
     "Branitzer Park",
@@ -38,20 +39,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Cottbus verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Cottbus innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Cottbus an?",
+      "answer": "Unser kostenloser Abholservice deckt Cottbus und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Cottbus und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Cottbus?",
+      "answer": "Definitiv. Ob Hagelschaden, Motordefekt oder Rost — wir kaufen Ihr Fahrzeug in Cottbus in jedem Zustand an. Ehrliche Angaben helfen uns, Ihnen schnell ein faires Angebot zu machen."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Cottbus verkaufen?",
+      "answer": "Ja, auch Fahrzeuge ohne gültige Hauptuntersuchung kaufen wir in Cottbus an. Der abgelaufene TÜV wird in der Bewertung berücksichtigt, ist aber kein Hindernis für den Verkauf."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Cottbus?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Wie gehen Sie mit Autos mit Motorschaden in Cottbus um?",
+      "answer": "Fahrzeuge mit Motorschaden kaufen wir in Cottbus routinemäßig an. Der Schaden wird fair bewertet und Sie erhalten ein ehrliches Angebot, das den tatsächlichen Restwert widerspiegelt."
+    },
+    {
+      "question": "Kann ich vorab eine telefonische Einschätzung für mein Auto in Cottbus erhalten?",
+      "answer": "Selbstverständlich bieten wir telefonische Erstbewertungen für Kunden in Cottbus an. In wenigen Minuten haben Sie eine realistische Preiseinschätzung für Ihr Fahrzeug."
     }
   ]
 }

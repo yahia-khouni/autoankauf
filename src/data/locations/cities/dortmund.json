@@ -12,19 +12,20 @@
     "lng": 7.4653
   },
   "meta": {
-    "title": "Autoankauf Dortmund | Auto verkaufen in Dortmund",
-    "description": "Autoankauf in Dortmund: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Dortmund. Jetzt Angebot erhalten!",
+    "title": "Auto verkaufen in Dortmund | Kostenloses Angebot in 24h",
+    "description": "Auto verkaufen in Dortmund — das Ruhrgebiet bietet starke Nachfrage für Ihren Gebrauchtwagen. Profitieren Sie von unserer Erfahrung: 24h-Angebot und Sofortbezahlung.",
     "keywords": [
       "Autoankauf Dortmund",
       "Auto verkaufen Dortmund",
-      "PKW Ankauf Dortmund",
+      "KFZ Ankauf Dortmund",
       "Gebrauchtwagen Ankauf Dortmund",
-      "KFZ Ankauf Dortmund"
+      "Wagen verkaufen Dortmund",
+      "Motorschaden Ankauf Dortmund"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Dortmund schnell, fair und unkompliziert. Mit über 588.250 Einwohnern ist Dortmund ein bedeutender Automobilmarkt in Nordrhein-Westfalen.",
-    "localContent": "Dortmund ist die größte Stadt im Ruhrgebiet und bekannt für Borussia Dortmund und den Strukturwandel von der Stahl- zur Technologiestadt."
+    "heroDescription": "Die größte Stadt im Ruhrgebiet bietet einen riesigen Markt für Gebrauchtwagen — und wir bieten Ihnen den besten Zugang. Schneller Ankauf und faire Preise in Dortmund.",
+    "localContent": "Dortmund ist mit rund 588.000 Einwohnern die größte Stadt im Ruhrgebiet und hat den Wandel von der Kohle- und Stahlstadt zur modernen Technologie- und Dienstleistungsmetropole vollzogen. Signal Iduna Park und das kreative Dortmunder U prägen das neue Stadtbild. Die A1, A2 und A45 kreuzen sich in Dortmund und schaffen ein optimales Netzwerk für den Fahrzeughandel im östlichen Ruhrgebiet."
   },
   "landmarks": [
     "Signal Iduna Park",
@@ -40,19 +41,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Dortmund verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Dortmund innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Nach Eingang Ihrer Anfrage aus Dortmund erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Dortmund und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Dortmund?",
+      "answer": "Sie brauchen den Fahrzeugbrief, den Fahrzeugschein, Ihren Ausweis und die Autoschlüssel. Alles Weitere — etwa die Abmeldung oder fehlende Papiere — klären wir gemeinsam vor Ort in Dortmund."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kann ich ein Auto ohne gültigen TÜV in Dortmund verkaufen?",
+      "answer": "Absolut. In Dortmund kaufen wir auch Autos mit abgelaufenem TÜV. Sie sparen sich die Kosten für eine erneute Prüfung — wir kümmern uns um alles Weitere."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Dortmund?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Muss mein Fahrzeug für den Verkauf in Dortmund noch angemeldet sein?",
+      "answer": "Eine Anmeldung ist nicht erforderlich. In Dortmund kaufen wir sowohl zugelassene als auch abgemeldete Fahrzeuge. Die Ummeldung können wir bei Bedarf auch für Sie übernehmen."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Dortmund versteckte Kosten für mich?",
+      "answer": "Garantiert nicht. In Dortmund zahlen Sie keinen Cent: Bewertung, Abholung und Abmeldung sind komplett kostenlos. Was wir anbieten, ist Ihr Netto-Auszahlungspreis — ohne Abzüge."
     }
   ]
 }

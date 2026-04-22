@@ -12,19 +12,21 @@
     "lng": 6.9969
   },
   "meta": {
-    "title": "Autoankauf Saarbrücken | Auto verkaufen in Saarbrücken",
-    "description": "Autoankauf in Saarbrücken: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Saarbrücken. Jetzt Angebot erhalten!",
+    "title": "Saarbrücken: Auto schnell & fair verkaufen | Autoankauf",
+    "description": "Saarbrücken — Auto verkaufen an der französischen Grenze. Profitieren Sie von internationaler Nachfrage und fairen Preisen. Kostenlose Bewertung und Sofortauszahlung.",
     "keywords": [
       "Autoankauf Saarbrücken",
       "Auto verkaufen Saarbrücken",
-      "PKW Ankauf Saarbrücken",
       "Gebrauchtwagen Ankauf Saarbrücken",
-      "KFZ Ankauf Saarbrücken"
+      "Gebrauchtwagen verkaufen Saarbrücken",
+      "Auto Export Saarbrücken",
+      "Motorschaden Ankauf Saarbrücken",
+      "Fahrzeugbewertung Saarbrücken"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Saarbrücken schnell, fair und unkompliziert. Mit über 181.959 Einwohnern ist Saarbrücken ein bedeutender Automobilmarkt in Saarland.",
-    "localContent": "Saarbrücken ist die Landeshauptstadt des Saarlands und liegt an der Grenze zu Frankreich. Die Stadt verbindet deutsche und französische Kultur."
+    "heroDescription": "An der Grenze zu Frankreich verbinden wir deutsche Gründlichkeit mit Savoir-vivre. In Saarbrücken erhalten Sie faire Preise und einen besonders schnellen Autoankauf.",
+    "localContent": "Saarbrücken ist die Landeshauptstadt des Saarlands und liegt direkt an der französischen Grenze. Die rund 182.000 Einwohner zählende Stadt vereint deutsche und französische Kultur und profitiert wirtschaftlich von ihrer Brückenfunktion. Die Automobilindustrie mit dem Ford-Werk in Saarlouis und ZF in der Region prägt den Arbeitsmarkt. Die A6, A620 und die B51 nach Luxemburg und Frankreich eröffnen einzigartige Verwertungsmöglichkeiten für angekaufte Fahrzeuge im internationalen Markt."
   },
   "landmarks": [
     "Deutsch-Französischer Garten",
@@ -38,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Saarbrücken verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Saarbrücken innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Saarbrücken?",
+      "answer": "Sie brauchen den Fahrzeugbrief, den Fahrzeugschein, Ihren Ausweis und die Autoschlüssel. Alles Weitere — etwa die Abmeldung oder fehlende Papiere — klären wir gemeinsam vor Ort in Saarbrücken."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Saarbrücken und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Saarbrücken berechnet?",
+      "answer": "Wir ermitteln den Wert anhand aktueller Marktdaten, Fahrzeugzustand, Kilometerstand, Ausstattung und regionaler Nachfrage in Saarbrücken. Sie erhalten ein transparentes Angebot ohne versteckte Abzüge."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Die Online-Bewertung gibt Ihnen eine erste Preisindikation. Bei einem kurzen Vor-Ort-Termin in Saarbrücken prüfen wir das Fahrzeug und nennen Ihnen den verbindlichen Ankaufspreis."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Saarbrücken?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Saarbrücken?",
+      "answer": "Selbstverständlich! Oldtimer und Klassiker aus Saarbrücken sind bei uns willkommen. Wir kennen den Sammlerwert und bieten entsprechend faire Preise."
+    },
+    {
+      "question": "Nehmen Sie auch Leasingrückläufer oder Mietwagen in Saarbrücken an?",
+      "answer": "Wir haben in Saarbrücken Erfahrung mit Leasingablöse und Mietwagenankauf. Rufen Sie uns an, und wir prüfen gemeinsam, ob ein Ankauf in Ihrem Fall sinnvoll und vorteilhaft ist."
     }
   ]
 }

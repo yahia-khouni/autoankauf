@@ -12,19 +12,20 @@
     "lng": 12.1016
   },
   "meta": {
-    "title": "Autoankauf Regensburg | Auto verkaufen in Regensburg",
-    "description": "Autoankauf in Regensburg: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Regensburg. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Regensburg — Faire Preise & Sofortzahlung",
+    "description": "Autoankauf Regensburg — in der UNESCO-Welterbestadt erhalten Sie faire Preise und erstklassigen Service. Vor-Ort-Bewertung, Gratis-Abholung und Sofortzahlung garantiert.",
     "keywords": [
       "Autoankauf Regensburg",
       "Auto verkaufen Regensburg",
       "PKW Ankauf Regensburg",
-      "Gebrauchtwagen Ankauf Regensburg",
-      "KFZ Ankauf Regensburg"
+      "Fahrzeugankauf Regensburg",
+      "Auto Export Regensburg",
+      "Fahrzeugbewertung Regensburg"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Regensburg schnell, fair und unkompliziert. Mit über 153.094 Einwohnern ist Regensburg ein bedeutender Automobilmarkt in Bayern.",
-    "localContent": "Regensburg liegt an der Donau und ist UNESCO-Welterbestadt. Mit rund 153.000 Einwohnern ist die Stadt ein wichtiger Standort für BMW und Continental."
+    "heroDescription": "Die UNESCO-Welterbestadt an der Donau bietet nicht nur kulturelle Schätze, sondern auch erstklassige Konditionen beim Autoverkauf. Wir kaufen Ihr Fahrzeug in Regensburg schnell und fair an.",
+    "localContent": "Regensburg liegt am nördlichsten Punkt der Donau und wurde als mittelalterliches Stadtzentrum zum UNESCO-Welterbe erklärt. Die rund 153.000-Einwohner-Stadt ist ein boomender Wirtschaftsstandort und beherbergt ein großes BMW-Werk sowie Continental als bedeutenden Arbeitgeber. Die Universität Regensburg und die OTH tragen zu einem jungen, dynamischen Stadtbild bei. Die Lage an der A3 und A93 macht Regensburg zu einem wichtigen Verkehrsknotenpunkt in der Oberpfalz."
   },
   "landmarks": [
     "Steinerne Brücke",
@@ -40,19 +41,23 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Regensburg verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Regensburg innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Nach Eingang Ihrer Anfrage aus Regensburg erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Regensburg und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Regensburg?",
+      "answer": "Selbstverständlich! Auch Unfallwagen, Fahrzeuge mit Motorschaden oder abgelaufenem TÜV kaufen wir in Regensburg gerne an. Beschreiben Sie uns den Zustand und Sie erhalten umgehend eine Bewertung."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Regensburg?",
+      "answer": "Ja, wir haben in Regensburg auch Erfahrung mit dem Ankauf von Oldtimern und Youngtimern. Klassische Fahrzeuge bewerten wir mit besonderer Sorgfalt und Sachverstand."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Regensburg?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Regensburg?",
+      "answer": "Gerne! Nach dem Kauf melden wir das Fahrzeug in Regensburg ab und kümmern uns um sämtliche Formalitäten. Das ist in unserem Service bereits enthalten."
+    },
+    {
+      "question": "Wie lange ist Ihr Angebot für mein Auto in Regensburg gültig?",
+      "answer": "Nach der Bewertung in Regensburg gilt unser Angebot eine Woche. In dieser Zeit können Sie sich ohne Druck entscheiden — es gibt keinerlei versteckte Fristen."
     }
   ]
 }

@@ -7,21 +7,54 @@
   "stateName": "Baden-Württemberg",
   "population": 313092,
   "postalCodeRange": "76131–76229",
-  "coordinates": { "lat": 49.0069, "lng": 8.4037 },
+  "coordinates": {
+    "lat": 49.0069,
+    "lng": 8.4037
+  },
   "meta": {
-    "title": "Autoankauf Karlsruhe | Auto verkaufen in Karlsruhe",
-    "description": "Autoankauf in Karlsruhe: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort. Jetzt Angebot erhalten!",
-    "keywords": ["Autoankauf Karlsruhe", "Auto verkaufen Karlsruhe", "PKW Ankauf Karlsruhe", "Gebrauchtwagen Ankauf Karlsruhe"]
+    "title": "Karlsruhe: Auto schnell & fair verkaufen | Autoankauf",
+    "description": "Karlsruhe — Auto verkaufen in der Residenz des Rechts. Faire Bewertung, kostenlose Abholung im gesamten Stadtgebiet und sofortige Auszahlung. Unverbindlich anfragen!",
+    "keywords": [
+      "Autoankauf Karlsruhe",
+      "Auto verkaufen Karlsruhe",
+      "KFZ Ankauf Karlsruhe",
+      "Fahrzeugankauf Karlsruhe",
+      "Fahrzeug verkaufen Karlsruhe",
+      "PKW verkaufen Karlsruhe",
+      "Auto Bewertung Karlsruhe"
+    ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Karlsruhe schnell, fair und unkompliziert. Die Fächerstadt am Oberrhein bietet einen lebhaften Automobilmarkt.",
-    "localContent": "Karlsruhe ist mit rund 313.000 Einwohnern die zweitgrößte Stadt Baden-Württembergs. Als Sitz des Bundesgerichtshofs und des Bundesverfassungsgerichts ist Karlsruhe die 'Residenz des Rechts'."
+    "heroDescription": "Verkaufen Sie Ihr Fahrzeug in der Fächerstadt unkompliziert und zu marktgerechten Konditionen. In Karlsruhe verbinden sich Technologiekompetenz und ein starker regionaler Automarkt.",
+    "localContent": "Karlsruhe ist mit rund 313.000 Einwohnern die drittgrößte Stadt Baden-Württembergs und als Sitz des Bundesgerichtshofs und Bundesverfassungsgerichts die Residenz des Rechts. Die fächerförmig angelegte Stadt am Oberrhein ist auch ein bedeutender Technologie- und IT-Standort mit dem KIT als einer der führenden Technischen Universitäten. Die zentrale Lage an der A5 und A8 sowie die Nähe zum Elsass machen Karlsruhe zu einem attraktiven Standort für den überregionalen Fahrzeughandel."
   },
-  "landmarks": ["Schloss Karlsruhe", "ZKM", "Bundesverfassungsgericht", "Botanischer Garten"],
-  "nearbyCities": ["pforzheim", "mannheim", "heidelberg"],
+  "landmarks": [
+    "Schloss Karlsruhe",
+    "ZKM",
+    "Bundesverfassungsgericht",
+    "Botanischer Garten"
+  ],
+  "nearbyCities": [
+    "pforzheim",
+    "mannheim",
+    "heidelberg"
+  ],
   "faq": [
-    { "question": "Wie schnell kann ich mein Auto in Karlsruhe verkaufen?", "answer": "In der Regel innerhalb von 2–3 Tagen. Kontaktieren Sie uns für ein unverbindliches Angebot." },
-    { "question": "Bieten Sie einen Abholservice in Karlsruhe?", "answer": "Ja, wir holen Ihr Fahrzeug kostenlos in Karlsruhe und Umgebung ab." },
-    { "question": "Kaufen Sie auch ältere Fahrzeuge?", "answer": "Ja, wir kaufen Fahrzeuge jeden Alters und Zustands — von Neuwagen bis Oldtimer." }
+    {
+      "question": "Wie schnell kann ich mein Auto in Karlsruhe verkaufen?",
+      "answer": "Der gesamte Verkaufsprozess in Karlsruhe dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
+    },
+    {
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Karlsruhe?",
+      "answer": "Ja, wir kaufen in Karlsruhe Fahrzeuge in jedem Zustand — ob Unfallschäden, Motorprobleme, Getriebeschäden oder hohe Laufleistung. Jedes Auto hat bei uns einen fairen Wert."
+    },
+    {
+      "question": "Muss mein Fahrzeug für den Verkauf in Karlsruhe noch angemeldet sein?",
+      "answer": "Nein, Ihr Auto muss für den Verkauf in Karlsruhe nicht angemeldet sein. Wir kaufen auch stillgelegte und bereits abgemeldete Fahrzeuge an."
+    },
+    {
+      "question": "Kann ich vorab eine telefonische Einschätzung für mein Auto in Karlsruhe erhalten?",
+      "answer": "Ja, rufen Sie uns einfach an. Anhand Ihrer Angaben zu Marke, Modell, Baujahr und Zustand geben wir Ihnen sofort eine erste Preiseinschätzung für Ihr Auto aus Karlsruhe."
+    }
   ]
 }

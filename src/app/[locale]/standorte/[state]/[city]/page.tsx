@@ -25,6 +25,8 @@ import { LeadForm } from "@/components/forms/lead-form";
 import { locales, type Locale } from "@/lib/i18n";
 import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
 import { BreadcrumbSchema, LocalBusinessSchema, FAQSchema } from "@/components/seo/schema-markup";
+import { TestimonialsSection } from "@/components/sections/testimonials";
+import { FAQSection } from "@/components/sections/faq";
 
 type Props = {
   params: Promise<{ locale: Locale; state: string; city: string }>;
@@ -67,16 +69,16 @@ export default async function CityPage({ params }: Props) {
     { icon: Phone, title: t("feature4Title"), desc: t("feature4Desc"), gradient: "from-navy-500 to-navy-700" },
   ];
 
-  const testimonials = [
-    { name: "Thomas K.", rating: 5, text: t("testimonial1"), car: "BMW 3er" },
-    { name: "Sandra M.", rating: 5, text: t("testimonial2"), car: "VW Golf" },
-    { name: "Markus L.", rating: 5, text: t("testimonial3"), car: "Mercedes C-Klasse" },
-  ];
-
   const state = getStateBySlug(stateSlug);
   const city = getCityBySlug(stateSlug, citySlug);
 
   if (!state || !city) notFound();
+
+  const testimonials = [
+    { name: "Thomas K.", location: city.name, rating: 5, text: t("testimonial1"), car: "BMW 3er", verified: true },
+    { name: "Sandra M.", location: city.name, rating: 5, text: t("testimonial2"), car: "VW Golf", verified: true },
+    { name: "Markus L.", location: city.name, rating: 5, text: t("testimonial3"), car: "Mercedes C-Klasse", verified: true },
+  ];
 
   const allCities = getCitiesByState(stateSlug);
   const otherCities = allCities.filter((c) => c.slug !== city.slug).slice(0, 6);
@@ -353,63 +355,6 @@ export default async function CityPage({ params }: Props) {
                 </div>
               </div>
 
-              {/* Testimonials */}
-              <div>
-                <h3 className="text-xl font-bold text-navy-900 mb-6">
-                  Das sagen unsere Kunden
-                </h3>
-                <div className="grid sm:grid-cols-1 gap-4">
-                  {testimonials.map((t, i) => (
-                    <div
-                      key={i}
-                      className="testimonial-card bg-white border border-slate-100 hover:border-gold-200 rounded-2xl p-5 transition-all duration-300 hover:shadow-md"
-                    >
-                      <div className="flex items-start justify-between mb-3">
-                        <div>
-                          <div className="font-bold text-navy-900 text-sm">{t.name}</div>
-                          <div className="text-xs text-slate-400">{t.car}</div>
-                        </div>
-                        <div className="flex gap-0.5">
-                          {Array.from({ length: t.rating }).map((_, j) => (
-                            <Star
-                              key={j}
-                              className="h-4 w-4 text-gold-400 fill-gold-400 animate-star-pop"
-                              style={{ animationDelay: `${j * 60}ms` }}
-                            />
-                          ))}
-                        </div>
-                      </div>
-                      <p className="text-sm text-slate-600 leading-relaxed">&ldquo;{t.text}&rdquo;</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* FAQ — from city JSON data */}
-              {city.faq.length > 0 && (
-                <div>
-                  <h3 className="text-xl font-bold text-navy-900 mb-6">
-                    Häufig gestellte Fragen zum Autoankauf in {city.name}
-                  </h3>
-                  <div className="space-y-3">
-                    {city.faq.map((faq, i) => (
-                      <details
-                        key={i}
-                        className="group bg-white border border-slate-100 hover:border-gold-100 rounded-2xl overflow-hidden transition-colors"
-                      >
-                        <summary className="flex items-center justify-between p-5 cursor-pointer list-none">
-                          <h4 className="font-bold text-navy-900 text-sm pr-4">{faq.question}</h4>
-                          <ChevronDown className="h-4 w-4 text-slate-400 group-open:rotate-180 transition-transform flex-shrink-0" />
-                        </summary>
-                        <div className="px-5 pb-5 -mt-1">
-                          <p className="text-sm text-slate-600 leading-relaxed">{faq.answer}</p>
-                        </div>
-                      </details>
-                    ))}
-                  </div>
-                </div>
-              )}
-
               {/* Nearby Cities */}
               {nearbyCityData.length > 0 && (
                 <div className="bg-slate-50 rounded-3xl p-6 lg:p-8">
@@ -537,6 +482,20 @@ export default async function CityPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      <TestimonialsSection 
+        title="Das sagen unsere Kunden" 
+        badge="Bewertungen" 
+        testimonials={testimonials} 
+      />
+
+      {city.faq.length > 0 && (
+        <FAQSection 
+          title={`Häufig gestellte Fragen zum Autoankauf in ${city.name}`}
+          subtitle={`Alles was Sie über den Autoverkauf in ${city.name} wissen müssen`}
+          faqs={city.faq.map(f => ({ q: f.question, a: f.answer }))} 
+        />
+      )}
 
       {/* ══════════════════════════════════════════
           BOTTOM CTA BANNER

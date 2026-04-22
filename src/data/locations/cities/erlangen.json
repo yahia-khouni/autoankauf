@@ -12,19 +12,20 @@
     "lng": 11.012
   },
   "meta": {
-    "title": "Autoankauf Erlangen | Auto verkaufen in Erlangen",
-    "description": "Autoankauf in Erlangen: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Erlangen. Jetzt Angebot erhalten!",
+    "title": "Autoankauf Erlangen | Sofort Bargeld für Ihr Fahrzeug",
+    "description": "Autoankauf Erlangen — in der Siemens-Stadt erwartet Sie ein erstklassiger Service. Sofortige Bargeldauszahlung bei Übergabe, kostenlose Abholung im gesamten Stadtgebiet.",
     "keywords": [
       "Autoankauf Erlangen",
       "Auto verkaufen Erlangen",
-      "PKW Ankauf Erlangen",
       "Gebrauchtwagen Ankauf Erlangen",
-      "KFZ Ankauf Erlangen"
+      "Fahrzeugankauf Erlangen",
+      "PKW verkaufen Erlangen",
+      "Auto Bewertung Erlangen"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Erlangen schnell, fair und unkompliziert. Mit über 113.292 Einwohnern ist Erlangen ein bedeutender Automobilmarkt in Bayern.",
-    "localContent": "Erlangen ist eine Universitätsstadt und Sitz des Siemens-Healthineers-Konzerns. Mit rund 113.000 Einwohnern ist die Stadt Teil der Metropolregion Nürnberg."
+    "heroDescription": "Erlangen verbindet Wissenschaft mit Wirtschaftskraft — und wir verbinden Ihren Autoverkauf mit dem besten Preis. Professionelle Bewertung und diskrete Abwicklung.",
+    "localContent": "Erlangen ist eine renommierte Universitätsstadt und globaler Hauptsitz von Siemens Healthineers. Mit rund 113.000 Einwohnern ist sie die kleinste Großstadt der Metropolregion Nürnberg, aber wirtschaftlich äußerst bedeutsam. Die hohe Dichte an Fachkräften und Ingenieuren sorgt für überdurchschnittliche Kaufkraft und einen lebendigen Premiumfahrzeugmarkt. Die A3 und A73 verbinden Erlangen direkt mit Nürnberg, Bamberg und der gesamten Region Oberfranken."
   },
   "landmarks": [
     "Schlossgarten",
@@ -39,20 +40,24 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Erlangen verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Erlangen innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "question": "Bieten Sie einen kostenlosen Abholservice in Erlangen an?",
+      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Erlangen ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Erlangen und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Erlangen?",
+      "answer": "Ja, bei uns in Erlangen gibt es keinen Zustand, der uns abschreckt. Ob Kratzer, Beulen, Motorschaden oder sogar Totalschaden — wir machen Ihnen ein ehrliches Angebot."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "answer": "Die Online-Bewertung gibt Ihnen eine erste Preisindikation. Bei einem kurzen Vor-Ort-Termin in Erlangen prüfen wir das Fahrzeug und nennen Ihnen den verbindlichen Ankaufspreis."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Erlangen?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Kaufen Sie auch Oldtimer und Liebhaberfahrzeuge in Erlangen?",
+      "answer": "Selbstverständlich! Oldtimer und Klassiker aus Erlangen sind bei uns willkommen. Wir kennen den Sammlerwert und bieten entsprechend faire Preise."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Erlangen?",
+      "answer": "Ja, die Abmeldung ist Teil unseres Rundum-Services in Erlangen. Wir erledigen den Behördengang für Sie und stellen Ihnen anschließend die Abmeldebestätigung zu."
     }
   ]
 }

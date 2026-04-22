@@ -7,22 +7,58 @@
   "stateName": "Baden-Württemberg",
   "population": 635911,
   "postalCodeRange": "70173–70619",
-  "coordinates": { "lat": 48.7758, "lng": 9.1829 },
+  "coordinates": {
+    "lat": 48.7758,
+    "lng": 9.1829
+  },
   "meta": {
-    "title": "Autoankauf Stuttgart | Auto verkaufen in Stuttgart",
-    "description": "Autoankauf in Stuttgart: Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Stuttgart. Jetzt Angebot erhalten!",
-    "keywords": ["Autoankauf Stuttgart", "Auto verkaufen Stuttgart", "PKW Ankauf Stuttgart", "Gebrauchtwagen Ankauf Stuttgart", "KFZ Ankauf Stuttgart"]
+    "title": "Autoankauf Stuttgart — Faire Preise & Sofortzahlung",
+    "description": "Autoankauf Stuttgart — profitieren Sie von fairen Preisen in der Automobilhauptstadt. Mercedes, Porsche & alle Marken: kostenlose Vor-Ort-Bewertung mit Sofortauszahlung.",
+    "keywords": [
+      "Autoankauf Stuttgart",
+      "Auto verkaufen Stuttgart",
+      "Gebrauchtwagen Ankauf Stuttgart",
+      "Fahrzeugankauf Stuttgart",
+      "Auto sofort verkaufen Stuttgart",
+      "Fahrzeugbewertung Stuttgart"
+    ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Stuttgart schnell, fair und unkompliziert. Als Landeshauptstadt von Baden-Württemberg und Sitz von Mercedes-Benz und Porsche ist Stuttgart das Herz der deutschen Automobilindustrie.",
-    "localContent": "Stuttgart ist die Landeshauptstadt von Baden-Württemberg und mit rund 636.000 Einwohnern die sechstgrößte Stadt Deutschlands. Als Heimat von Mercedes-Benz und Porsche ist Stuttgart das Zentrum der deutschen Automobilindustrie."
+    "heroDescription": "Verkaufen Sie Ihr Auto in der Wiege der Automobilindustrie — schnell, fair und professionell. Stuttgart ist Heimat von Mercedes-Benz und Porsche und einer der stärksten Gebrauchtwagenmärkte Deutschlands.",
+    "localContent": "Stuttgart, eingebettet im Talkessel zwischen Weinbergen und Wäldern, ist Landeshauptstadt von Baden-Württemberg und Herzstück der deutschen Automobilbranche. Als Hauptsitz von Daimler und Porsche genießt die Stadt weltweiten Ruf als Ingenieursmetropole. Mit rund 636.000 Einwohnern und einer kaufkräftigen Bevölkerung bildet Stuttgart einen der aktivsten Fahrzeugmärkte der Republik. Die exzellente Anbindung über A8 und A81 macht den Standort besonders attraktiv für den Fahrzeughandel."
   },
-  "landmarks": ["Mercedes-Benz Museum", "Porsche Museum", "Schlossplatz", "Wilhelma", "Fernsehturm"],
-  "nearbyCities": ["heilbronn", "pforzheim", "reutlingen"],
+  "landmarks": [
+    "Mercedes-Benz Museum",
+    "Porsche Museum",
+    "Schlossplatz",
+    "Wilhelma",
+    "Fernsehturm"
+  ],
+  "nearbyCities": [
+    "heilbronn",
+    "pforzheim",
+    "reutlingen"
+  ],
   "faq": [
-    { "question": "Wie schnell kann ich mein Auto in Stuttgart verkaufen?", "answer": "In der Regel können wir den gesamten Ankauf in Stuttgart innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller." },
-    { "question": "Muss ich mein Auto nach Stuttgart bringen?", "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Stuttgart und der gesamten Region. Wir kommen direkt zu Ihnen." },
-    { "question": "Welche Unterlagen benötige ich?", "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft." },
-    { "question": "Kaufen Sie auch Autos mit Mängeln in Stuttgart?", "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand." }
+    {
+      "question": "Wie schnell kann ich mein Auto in Stuttgart verkaufen?",
+      "answer": "Wir wickeln den Autoankauf in Stuttgart meist innerhalb von 24 bis 48 Stunden ab. Kontaktieren Sie uns am Morgen — oft können wir noch am selben Tag ein verbindliches Angebot machen."
+    },
+    {
+      "question": "Wie wird der Ankaufspreis für mein Auto in Stuttgart berechnet?",
+      "answer": "Unser Bewertungsverfahren in Stuttgart basiert auf der Schwacke-Liste, aktuellen Marktpreisen und dem individuellen Zustand Ihres Fahrzeugs. So garantieren wir einen marktgerechten Ankaufspreis."
+    },
+    {
+      "question": "Wie erfolgt die Bezahlung beim Autoankauf in Stuttgart?",
+      "answer": "Sie haben in Stuttgart die Wahl: Barzahlung bei Übergabe oder Sofortüberweisung auf Ihr Konto. Beide Varianten sind kostenlos und absolut sicher."
+    },
+    {
+      "question": "Übernehmen Sie die Abmeldung des Fahrzeugs in Stuttgart?",
+      "answer": "Ja, auf Wunsch kümmern wir uns um die komplette Abmeldung Ihres Fahrzeugs bei der Zulassungsstelle in Stuttgart. Dieser Service ist für Sie völlig kostenlos."
+    },
+    {
+      "question": "Gibt es beim Autoankauf in Stuttgart versteckte Kosten für mich?",
+      "answer": "Nein, absolut nicht. Unser Service in Stuttgart ist für Sie zu 100 % kostenlos — von der Erstbewertung über die Abholung bis zur Abmeldung. Der genannte Preis ist Ihr Auszahlungsbetrag."
+    }
   ]
 }

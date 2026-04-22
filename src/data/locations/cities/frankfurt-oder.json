@@ -12,19 +12,21 @@
     "lng": 14.5506
   },
   "meta": {
-    "title": "Autoankauf Frankfurt (Oder) | Auto verkaufen in Frankfurt (Oder)",
-    "description": "Autoankauf in Frankfurt (Oder): Verkaufen Sie Ihr Auto schnell und fair. Kostenlose Bewertung, sofortige Auszahlung, Abholung vor Ort in Frankfurt (Oder). Jetzt Angebot erhalten!",
+    "title": "Fahrzeugankauf Frankfurt (Oder) | Alle Marken & Zustände",
+    "description": "Fahrzeugankauf Frankfurt (Oder) — an der Grenze zu Polen bieten wir marktgerechte Preise für alle Fahrzeugtypen. Unkompliziert, schnell und ohne versteckte Kosten.",
     "keywords": [
       "Autoankauf Frankfurt (Oder)",
       "Auto verkaufen Frankfurt (Oder)",
-      "PKW Ankauf Frankfurt (Oder)",
       "Gebrauchtwagen Ankauf Frankfurt (Oder)",
-      "KFZ Ankauf Frankfurt (Oder)"
+      "Unfallwagen verkaufen Frankfurt (Oder)",
+      "Fahrzeug verkaufen Frankfurt (Oder)",
+      "Auto Export Frankfurt (Oder)",
+      "Motorschaden Ankauf Frankfurt (Oder)"
     ]
   },
   "content": {
-    "heroDescription": "Verkaufen Sie Ihr Auto in Frankfurt (Oder) schnell, fair und unkompliziert. Mit über 57.015 Einwohnern ist Frankfurt (Oder) ein bedeutender Automobilmarkt in Brandenburg.",
-    "localContent": "Frankfurt (Oder) liegt an der deutsch-polnischen Grenze und ist Standort der Europa-Universität Viadrina. Die Stadt hat rund 57.000 Einwohner."
+    "heroDescription": "An der deutsch-polnischen Grenze bieten wir Ihnen einen unkomplizierten Fahrzeugankauf — schnelle Bewertung, fairer Preis und persönlicher Service in Frankfurt (Oder).",
+    "localContent": "Frankfurt (Oder) liegt an der deutsch-polnischen Grenze und ist Standort der Europa-Universität Viadrina. Die rund 57.000 Einwohner zählende Stadt erlebt als Brückenstadt zwischen Ost und West eine positive Entwicklung. Die A12 verbindet Frankfurt (Oder) direkt mit Berlin und der polnischen Grenze, was die Stadt zu einem interessanten Standort für den internationalen Fahrzeughandel macht. Besonders Autos mit Export-Potenzial finden hier schnell einen Käufer."
   },
   "landmarks": [
     "Kleist-Museum",
@@ -39,19 +41,19 @@
   "faq": [
     {
       "question": "Wie schnell kann ich mein Auto in Frankfurt (Oder) verkaufen?",
-      "answer": "In der Regel können wir den gesamten Ankauf in Frankfurt (Oder) innerhalb von 2–3 Tagen abschließen. Bei dringenden Fällen geht es oft noch schneller."
+      "answer": "Nach Eingang Ihrer Anfrage aus Frankfurt (Oder) erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
     },
     {
-      "question": "Muss ich mein Auto zu Ihnen bringen?",
-      "answer": "Nein! Wir bieten einen kostenlosen Abholservice in Frankfurt (Oder) und der gesamten Umgebung. Wir kommen direkt zu Ihnen."
+      "question": "Wie wird der Ankaufspreis für mein Auto in Frankfurt (Oder) berechnet?",
+      "answer": "Wir ermitteln den Wert anhand aktueller Marktdaten, Fahrzeugzustand, Kilometerstand, Ausstattung und regionaler Nachfrage in Frankfurt (Oder). Sie erhalten ein transparentes Angebot ohne versteckte Abzüge."
     },
     {
-      "question": "Welche Unterlagen benötige ich für den Verkauf?",
-      "answer": "Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), gültiger Personalausweis, alle vorhandenen Fahrzeugschlüssel und ggf. das Serviceheft."
+      "question": "Muss mein Fahrzeug für den Verkauf in Frankfurt (Oder) noch angemeldet sein?",
+      "answer": "Nein, auch abgemeldete Autos kaufen wir in Frankfurt (Oder) problemlos an. Falls Ihr Fahrzeug noch zugelassen ist, können wir die Abmeldung anschließend gerne für Sie erledigen."
     },
     {
-      "question": "Kaufen Sie auch Autos mit Mängeln in Frankfurt (Oder)?",
-      "answer": "Ja, wir kaufen Fahrzeuge in jedem Zustand — auch Unfallfahrzeuge, Autos mit Motorschäden oder hohem Kilometerstand."
+      "question": "Welche Automarken kaufen Sie in Frankfurt (Oder) an?",
+      "answer": "Es gibt keine Marke, die wir in Frankfurt (Oder) nicht ankaufen. Unser Käufernetzwerk umfasst alle Hersteller — von Alfa Romeo bis Volvo, Exoten und Nischenfahrzeuge eingeschlossen."
     }
   ]
 }
