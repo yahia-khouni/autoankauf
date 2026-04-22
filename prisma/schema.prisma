@@ -1,10 +1,9 @@
-// Prisma Schema for Autoankauf (SQLite compatible)
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "mysql"
   url      = env("DATABASE_URL")
 }
 
@@ -56,41 +55,56 @@ model Location {
 }
 
 model Lead {
-  id                String      @id @default(cuid())
+  id                String              @id @default(cuid())
   firstName         String
   lastName          String
   email             String
   phone             String
-  preferredContact  String      @default("PHONE") // PHONE, EMAIL, WHATSAPP
+  preferredContact  String              @default("PHONE")
   carMake           String
   carModel          String
   carYear           Int
   carMileage        Int
-  carCondition      String      // EXCELLENT, GOOD, FAIR, POOR
-  knownIssues       String?     // JSON string for SQLite
+  carCondition      String
+  knownIssues       String?
   description       String?
-  photos            String?     // JSON string for SQLite
+  photos            String?
   locationId        String?
-  location          Location?   @relation(fields: [locationId], references: [id])
+  location          Location?           @relation(fields: [locationId], references: [id])
   postalCode        String?
-  status            String      @default("NEW") // NEW, CONTACTED, OFFER_MADE, NEGOTIATING, SOLD, LOST, SPAM
+  status            String              @default("NEW")
   assignedTo        String?
   notes             String?
-  statusHistory     String?     // JSON string for SQLite
+  adminNotes        String?             @db.Text
+  statusHistory     LeadStatusHistory[]
   source            String?
   sourcePage        String?
   utmSource         String?
   utmMedium         String?
   utmCampaign       String?
-  createdAt         DateTime    @default(now())
-  updatedAt         DateTime    @updatedAt
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
   contactedAt       DateTime?
   closedAt          DateTime?
   @@index([status])
   @@index([createdAt])
   @@index([carMake])
+  @@index([email])
   @@index([locationId])
   @@map("leads")
+}
+
+model LeadStatusHistory {
+  id        String   @id @default(cuid())
+  leadId    String
+  lead      Lead     @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  from      String
+  to        String
+  note      String?  @db.Text
+  changedBy String?
+  createdAt DateTime @default(now())
+  @@index([leadId])
+  @@map("lead_status_history")
 }
 
 model BlogPost {
