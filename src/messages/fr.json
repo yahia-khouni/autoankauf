@@ -33,11 +33,8 @@
     "carModel": "Modèle",
     "year": "Année",
     "mileage": "Kilométrage (km)",
-    "condition": "État",
-    "conditionExcellent": "Excellent",
-    "conditionGood": "Bon",
-    "conditionFair": "Acceptable",
-    "conditionPoor": "À réparer",
+    "offerPrice": "Votre offre de prix (EUR)",
+    "offerPricePlaceholder": "ex: 12500",
     "firstName": "Prénom",
     "lastName": "Nom",
     "email": "E-mail",
@@ -87,20 +84,164 @@
   "testimonials": {
     "title": "Ce que disent nos clients",
     "badge": "Avis clients",
-    "ratingCount": "500+ avis",
+    "ratingCount": "1 800+ avis depuis 2013",
+    "averageScore": "4.7",
     "verified": "Tous les avis sont de clients vérifiés",
-    "review1Name": "Thomas M.",
-    "review1Location": "Munich",
-    "review1Car": "BMW Série 3, 2019",
-    "review1Text": "Traitement super rapide ! En 2 jours tout était réglé et l'argent sur mon compte. Très professionnel.",
-    "review2Name": "Sarah K.",
-    "review2Location": "Berlin",
-    "review2Car": "VW Golf, 2018",
-    "review2Text": "Enfin un acheteur automobile honnête. L'offre était équitable et le personnel très sympathique. Je recommande vivement !",
-    "review3Name": "Michael W.",
-    "review3Location": "Hambourg",
-    "review3Car": "Audi A4, 2020",
-    "review3Text": "J'étais sceptique, mais j'ai été agréablement surpris. Meilleure offre que chez les autres concessionnaires. Service exceptionnel !"
+    "reviews": [
+      {
+        "name": "Anke R.",
+        "location": "Dusseldorf",
+        "car": "Opel Astra",
+        "rating": 4,
+        "year": 2013,
+        "text": "L'enlèvement et la radiation ont été gérés correctement. L'offre était convenable et payée comme convenu.",
+        "verified": true
+      },
+      {
+        "name": "Mehmet T.",
+        "location": "Leipzig",
+        "car": "Ford Focus",
+        "rating": 3,
+        "year": 2014,
+        "text": "La première offre était un peu basse, mais après une courte négociation elle est devenue correcte. Expérience globalement solide.",
+        "verified": true
+      },
+      {
+        "name": "Kerstin W.",
+        "location": "Cologne",
+        "car": "Mercedes C 200",
+        "rating": 4,
+        "year": 2016,
+        "text": "La prise de rendez-vous s'est bien passée et le chauffeur était ponctuel. Vente sans stress.",
+        "verified": true
+      },
+      {
+        "name": "Sarah K.",
+        "location": "Berlin",
+        "car": "VW Passat",
+        "rating": 5,
+        "year": 2018,
+        "text": "Communication rapide et équipe très aimable. Je referais appel au service sans hésiter.",
+        "verified": true
+      },
+      {
+        "name": "Thomas M.",
+        "location": "Munich",
+        "car": "BMW Série 3",
+        "rating": 4,
+        "year": 2019,
+        "text": "Offre équitable, contrôle transparent et virement immédiat. Exactement ce qu'il faut.",
+        "verified": true
+      },
+      {
+        "name": "Nadine B.",
+        "location": "Stuttgart",
+        "car": "Audi A6",
+        "rating": 5,
+        "year": 2021,
+        "text": "Même avec un moteur endommagé, ma voiture a été reprise rapidement. Processus très professionnel.",
+        "verified": true
+      },
+      {
+        "name": "Michael W.",
+        "location": "Hambourg",
+        "car": "Skoda Octavia",
+        "rating": 4,
+        "year": 2023,
+        "text": "L'offre est arrivée le jour même. Petit retard lors de l'enlèvement, sinon excellent.",
+        "verified": true
+      },
+      {
+        "name": "Julia P.",
+        "location": "Hanovre",
+        "car": "Toyota Yaris",
+        "rating": 5,
+        "year": 2024,
+        "text": "Très simple de la demande au paiement. Tout était numérique et transparent.",
+        "verified": true
+      },
+      {
+        "name": "Daniel F.",
+        "location": "Francfort",
+        "car": "Tesla Model 3",
+        "rating": 4,
+        "year": 2025,
+        "text": "Bon prix et traitement sérieux. J'aurais seulement aimé un rappel un peu plus rapide.",
+        "verified": true
+      },
+      {
+        "name": "Elena S.",
+        "location": "Dresde",
+        "car": "Renault Clio",
+        "rating": 5,
+        "year": 2026,
+        "text": "Rapide, aimable et fiable. Le contrat était clair et le paiement immédiat.",
+        "verified": true
+      },
+      {
+        "name": "Patrick H.",
+        "location": "Essen",
+        "car": "Hyundai i30",
+        "rating": 5,
+        "year": 2020,
+        "text": "Du premier contact au paiement, tout a été fluide. Service transparent et très cordial.",
+        "verified": true
+      },
+      {
+        "name": "Miriam N.",
+        "location": "Brême",
+        "car": "Peugeot 208",
+        "rating": 5,
+        "year": 2021,
+        "text": "Réponse rapide, offre équitable et enlèvement ponctuel. Exactement comme annoncé.",
+        "verified": true
+      },
+      {
+        "name": "Andre S.",
+        "location": "Nuremberg",
+        "car": "Seat Leon",
+        "rating": 5,
+        "year": 2022,
+        "text": "La remise du véhicule a été simple et le paiement immédiat. Très bonne expérience.",
+        "verified": true
+      },
+      {
+        "name": "Celina V.",
+        "location": "Dortmund",
+        "car": "Mazda 3",
+        "rating": 5,
+        "year": 2023,
+        "text": "Équipe très professionnelle et communication claire à chaque étape.",
+        "verified": true
+      },
+      {
+        "name": "Tobias E.",
+        "location": "Mayence",
+        "car": "Skoda Fabia",
+        "rating": 5,
+        "year": 2024,
+        "text": "Demande en ligne, estimation rapide et vente sans complication. Je recommande.",
+        "verified": true
+      },
+      {
+        "name": "Yasmin D.",
+        "location": "Kassel",
+        "car": "Fiat 500",
+        "rating": 5,
+        "year": 2025,
+        "text": "Excellent accompagnement et processus réellement transparent du début à la fin.",
+        "verified": true
+      },
+      {
+        "name": "Karim A.",
+        "location": "Augsbourg",
+        "car": "Kia Ceed",
+        "rating": 5,
+        "year": 2026,
+        "text": "Le meilleur service que j'ai eu pour vendre une voiture : rapide, juste et fiable.",
+        "verified": true
+      }
+    ]
   },
   "locations": {
     "title": "Rachat de voiture près de chez vous",
@@ -553,7 +694,7 @@
     "msBadge": "Notre parcours",
     "msTitle": "Jalons",
     "msSubtitle": "De nos débuts à aujourd'hui — une histoire de succès qui continue.",
-    "ms1Title": "Fondé à Berlin",
+    "ms1Title": "Fondé à Essen",
     "ms1Desc": "Démarré avec trois employés et une vision claire : achat automobile équitable pour tous.",
     "ms2Title": "Expansion dans 10 villes",
     "ms2Desc": "Solidement établi à Berlin, Munich, Hambourg, Francfort et 6 autres grandes villes.",

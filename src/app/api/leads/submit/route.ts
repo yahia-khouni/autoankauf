@@ -13,7 +13,7 @@ export async function POST(request: NextRequest) {
       model,
       year,
       mileage,
-      condition,
+      offeredPrice,
       firstName,
       lastName,
       email,
@@ -23,9 +23,17 @@ export async function POST(request: NextRequest) {
       privacyAccepted,
     } = body;
 
-    if (!make || !model || !year || !mileage || !condition) {
+    if (!make || !model || !year || !mileage || !offeredPrice) {
       return NextResponse.json(
         { error: "Bitte fullen Sie alle Fahrzeugdaten aus" },
+        { status: 400 }
+      );
+    }
+
+    const parsedOfferedPrice = parseInt(String(offeredPrice).replace(/\D/g, ""), 10);
+    if (!Number.isFinite(parsedOfferedPrice) || parsedOfferedPrice <= 0) {
+      return NextResponse.json(
+        { error: "Bitte geben Sie einen gultigen Preisvorschlag ein" },
         { status: 400 }
       );
     }
@@ -52,19 +60,23 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const cleanNotes = typeof notes === "string" ? notes.trim() : "";
+    const customerOfferNote = `Kundenangebot: ${parsedOfferedPrice.toLocaleString("de-DE")} EUR`;
+    const combinedNotes = cleanNotes ? `${customerOfferNote}\n\n${cleanNotes}` : customerOfferNote;
+
     const lead = await prisma.lead.create({
       data: {
         carMake: make,
         carModel: model,
         carYear: parseInt(year),
         carMileage: parseInt(mileage),
-        carCondition: condition.toUpperCase(),
+        carCondition: "GOOD",
         firstName,
         lastName,
         email,
         phone,
         preferredContact: contactMethod?.toUpperCase() || "PHONE",
-        notes: notes || null,
+        notes: combinedNotes,
         source: "website",
         status: "NEW",
       },
@@ -84,6 +96,7 @@ export async function POST(request: NextRequest) {
             <li><strong>Modell:</strong> ${model}</li>
             <li><strong>Baujahr:</strong> ${year}</li>
             <li><strong>Kilometerstand:</strong> ${parseInt(mileage).toLocaleString("de-DE")} km</li>
+            <li><strong>Ihr Preisvorschlag:</strong> ${parsedOfferedPrice.toLocaleString("de-DE")} EUR</li>
           </ul>
           <p>Wir werden uns innerhalb von 24 Stunden mit einem Angebot bei Ihnen melden.</p>
           <p>Mit freundlichen Grussen,<br>Ihr Autoankauf Deutschland Team</p>
@@ -102,7 +115,7 @@ export async function POST(request: NextRequest) {
             <li><strong>Modell:</strong> ${model}</li>
             <li><strong>Baujahr:</strong> ${year}</li>
             <li><strong>Kilometerstand:</strong> ${parseInt(mileage).toLocaleString("de-DE")} km</li>
-            <li><strong>Zustand:</strong> ${condition}</li>
+            <li><strong>Preisvorschlag Kunde:</strong> ${parsedOfferedPrice.toLocaleString("de-DE")} EUR</li>
           </ul>
           <h2>Kontaktdaten:</h2>
           <ul>
@@ -111,7 +124,7 @@ export async function POST(request: NextRequest) {
             <li><strong>Telefon:</strong> ${phone}</li>
             <li><strong>Bevorzugter Kontakt:</strong> ${contactMethod}</li>
           </ul>
-          ${notes ? `<h2>Anmerkungen:</h2><p>${notes}</p>` : ""}
+          ${cleanNotes ? `<h2>Anmerkungen:</h2><p>${cleanNotes}</p>` : ""}
           <p><a href="${process.env.NEXT_PUBLIC_URL}/admin/leads/${lead.id}">Lead im Admin-Bereich ansehen</a></p>
         `,
       });

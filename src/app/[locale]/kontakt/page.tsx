@@ -1,14 +1,11 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { useTranslations, useLocale } from "next-intl";
-import Link from "next/link";
-import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { LeadForm } from "@/components/forms/lead-form";
 import {
   Phone,
   Mail,
-  MapPin,
   Clock,
   MessageCircle,
   CheckCircle,
@@ -234,30 +231,6 @@ function GeneralContactForm() {
 /* ══════════════════════════════════════════════════════════ */
 export default function KontaktPage() {
   const t = useTranslations("kontaktPage");
-  const locale = useLocale();
-  const mapAnimRef = useRef<HTMLDivElement>(null);
-  const [mapInView, setMapInView] = useState(false);
-  const getLocalizedHref = (path: string) => {
-    if (locale === "de") return path;
-    if (path === "/") return `/${locale}`;
-    return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
-  };
-
-  useEffect(() => {
-    const el = mapAnimRef.current;
-    if (!el || mapInView) return;
-    const obs = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setMapInView(true);
-          obs.disconnect();
-        }
-      },
-      { threshold: 0.28, rootMargin: "0px 0px -40px 0px" }
-    );
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, [mapInView]);
 
   const channels = [
     {
@@ -319,17 +292,6 @@ export default function KontaktPage() {
     { icon: Star, title: t("trust2Title"), desc: t("trust2Desc") },
     { icon: Lock, title: t("trust3Title"), desc: t("trust3Desc") },
     { icon: Shield, title: t("trust4Title"), desc: t("trust4Desc") },
-  ];
-
-  const mapPoints = [
-    { id: "hh", label: "Hamburg", x: 53, y: 20 },
-    { id: "hb", label: "Bremen", x: 45, y: 25 },
-    { id: "be", label: "Berlin", x: 71, y: 30 },
-    { id: "nrw", label: "NRW", x: 36, y: 42 },
-    { id: "he", label: "Hessen", x: 46, y: 52 },
-    { id: "sn", label: "Sachsen", x: 67, y: 56 },
-    { id: "bw", label: "Baden-W.", x: 42, y: 73 },
-    { id: "by", label: "Bayern", x: 60, y: 77 },
   ];
 
   return (
@@ -488,61 +450,6 @@ export default function KontaktPage() {
 
             {/* ── Right: General inquiry form + info ── */}
             <div className="space-y-6">
-              {/* Address + Hours info card */}
-              <Reveal delay={80} dir="right">
-                <div className="bg-white rounded-2xl border border-slate-200/60 shadow-sm overflow-hidden">
-                  <div className="grid sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-slate-100">
-                    {/* Address */}
-                    <div className="p-6">
-                      <div className="flex items-center gap-2 mb-4">
-                        <div className="w-9 h-9 rounded-xl bg-navy-50 border border-navy-100 flex items-center justify-center">
-                          <MapPin className="h-5 w-5 text-navy-700" />
-                        </div>
-                        <span className="font-bold text-navy-900">{t("addressTitle")}</span>
-                      </div>
-                      <p className="text-sm text-slate-600 leading-relaxed">
-                        {t("addressLine1")}<br />{t("addressLine2")}<br />{t("addressLine3")}
-                      </p>
-                      <Link
-                        href={getLocalizedHref("/standorte")}
-                        className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-gold-600 hover:text-gold-700 transition-colors"
-                      >
-                        <span className="inline-flex items-center gap-1 bg-gold-50 border border-gold-200 rounded-full px-2 py-0.5">
-                          {t("locationsBadge")}
-                        </span>
-                        <ArrowRight className="h-3 w-3" />
-                        {t("locationsLink")}
-                      </Link>
-                    </div>
-
-                    {/* Hours */}
-                    <div className="p-6">
-                      <div className="flex items-center gap-2 mb-4">
-                        <div className="w-9 h-9 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center">
-                          <Clock className="h-5 w-5 text-slate-600" />
-                        </div>
-                        <span className="font-bold text-navy-900">{t("hoursTitle")}</span>
-                      </div>
-                      <ul className="space-y-1.5 text-sm text-slate-600">
-                        <li className="flex items-center gap-2">
-                          <span className="w-2 h-2 rounded-full bg-green-400 flex-shrink-0" />
-                          {t("hoursMoFr")}
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <span className="w-2 h-2 rounded-full bg-yellow-400 flex-shrink-0" />
-                          {t("hoursSa")}
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <span className="w-2 h-2 rounded-full bg-slate-300 flex-shrink-0" />
-                          {t("hoursSo")}
-                        </li>
-                      </ul>
-                      <p className="mt-3 text-xs text-slate-400 italic">{t("hoursNote")}</p>
-                    </div>
-                  </div>
-                </div>
-              </Reveal>
-
               {/* General inquiry form */}
               <Reveal delay={140} dir="right">
                 <div className="bg-white rounded-3xl border border-slate-200/60 shadow-sm overflow-hidden">
@@ -593,127 +500,6 @@ export default function KontaktPage() {
                 </div>
               </Reveal>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ══ 5. MAP PLACEHOLDER + final CTA ═══════════════════ */}
-      <section className="py-14 sm:py-20 bg-white relative overflow-hidden">
-        <div className="absolute top-0 -right-24 w-[35rem] h-[35rem] bg-gold-400/5 rounded-full blur-[100px] pointer-events-none" />
-        <div className="container relative z-10 px-4 sm:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-
-            {/* Map placeholder — premium styled */}
-            <Reveal delay={0} dir="left">
-              <div
-                className="relative rounded-3xl overflow-hidden aspect-[4/5] w-full max-w-[340px] sm:max-w-[380px] mx-auto shadow-premium bg-navy-950 group border border-slate-200/50"
-              >
-                <div className="absolute inset-0">
-                  <Image
-                    src="/images/map.png"
-                    alt="Germany map with state locations"
-                    fill
-                    className="object-cover opacity-50 mix-blend-screen grayscale"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/20 to-navy-950/40" />
-                </div>
-
-                {/* clean state markers */}
-                {mapPoints.map((point) => (
-                  <div
-                    key={point.id}
-                    className="absolute -translate-x-1/2 -translate-y-1/2"
-                    style={{ left: `${point.x}%`, top: `${point.y}%` }}
-                  >
-                    <div className="relative group/point cursor-pointer z-10">
-                      <span className="absolute inset-[-6px] rounded-full bg-gold-400/30 blur-[2px] animate-pulse" />
-                      <span className="relative flex h-3.5 w-3.5 rounded-full border-2 border-navy-950 bg-gold-400 shadow-[0_0_12px_rgba(251,191,36,0.6)] group-hover/point:scale-125 transition-transform duration-300" />
-                      
-                      <div className="absolute -top-10 left-1/2 -translate-x-1/2 whitespace-nowrap opacity-0 -translate-y-2 group-hover/point:opacity-100 group-hover/point:translate-y-0 transition-all duration-300 pointer-events-none">
-                        <div className="bg-navy-900 border border-gold-400/20 shadow-xl rounded-lg px-3 py-1.5 flex items-center gap-1.5">
-                          <MapPin className="h-3 w-3 text-gold-400" />
-                          <span className="text-[11px] font-bold text-white tracking-wide">{point.label}</span>
-                        </div>
-                        {/* Triangle pointer */}
-                        <div className="w-2 h-2 bg-navy-900 border-b border-r border-gold-400/20 rotate-45 mx-auto -mt-1.5" />
-                      </div>
-                    </div>
-                  </div>
-                ))}
-
-                {/* Bottom info card */}
-                <div className="absolute bottom-5 sm:bottom-6 left-5 sm:left-6 right-5 sm:right-6">
-                  <div className="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 flex items-center gap-3.5 shadow-lg">
-                     <div className="w-10 h-10 rounded-full bg-gold-400/20 flex-shrink-0 flex items-center justify-center border border-gold-400/20">
-                       <MapPin className="h-4 w-4 text-gold-300" />
-                     </div>
-                     <div>
-                       <p className="text-[10px] font-bold text-gold-300 uppercase tracking-widest leading-none mb-1.5">{t("locationsBadge")}</p>
-                       <p className="text-sm text-white font-medium leading-none">{t("addressLine1")}, {t("addressLine2")}</p>
-                     </div>
-                  </div>
-                </div>
-              </div>
-            </Reveal>
-
-            {/* CTA text */}
-            <Reveal delay={100} dir="right">
-              <div className="space-y-6 lg:pl-8">
-                <div>
-                  <div className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 border border-slate-200/60 px-3 py-1.5 mb-4">
-                    <MapPin className="h-3.5 w-3.5 text-navy-600" />
-                    <span className="text-[10px] font-bold text-navy-700 tracking-wider uppercase">{t("locationsBadge")}</span>
-                  </div>
-
-                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-navy-900 tracking-tight leading-[1.05] mb-4">
-                    {t("locationsLink")}
-                  </h2>
-
-                  <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-md">
-                    {t("channelsSectionSubtitle")}
-                  </p>
-                </div>
-
-                <div className="flex flex-col gap-2.5 pt-2">
-                  {[
-                    { icon: Phone, label: t("phoneNumber"), href: "tel:+4912345678900", title: "Hotline" },
-                    { icon: MessageCircle, label: "+49 123 456 789 00", href: "https://wa.me/4912345678900", title: "WhatsApp" },
-                    { icon: Mail, label: t("emailAddress"), href: "mailto:info@autoankauf.de", title: "Email" },
-                  ].map((item, i) => (
-                    <a
-                      key={i}
-                      href={item.href}
-                      target={item.href.startsWith("http") ? "_blank" : undefined}
-                      rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                      className="group flex items-center justify-between p-3.5 sm:p-4 rounded-2xl bg-slate-50/50 hover:bg-white border border-transparent hover:border-slate-200 hover:shadow-[0_8px_30px_rgba(10,25,41,0.04)] transition-all duration-300"
-                    >
-                      <div className="flex items-center gap-3.5">
-                        <div className="w-10 h-10 rounded-full bg-white border border-slate-100 shadow-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                          <item.icon className="h-4 w-4 text-navy-700 group-hover:text-gold-500 transition-colors" />
-                        </div>
-                        <div>
-                          <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5">{item.title}</p>
-                          <p className="text-sm font-semibold text-navy-900 group-hover:text-gold-600 transition-colors">{item.label}</p>
-                        </div>
-                      </div>
-                      <div className="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center group-hover:border-gold-200 group-hover:bg-gold-50 transition-colors">
-                        <ArrowRight className="h-3.5 w-3.5 text-slate-400 group-hover:text-gold-500 group-hover:translate-x-0.5 transition-all" />
-                      </div>
-                    </a>
-                  ))}
-                </div>
-
-                <div className="pt-4">
-                  <Link
-                    href={getLocalizedHref("/standorte")}
-                    className="inline-flex items-center justify-center gap-2 h-14 w-full sm:w-auto px-8 rounded-xl bg-navy-900 text-white font-bold shadow-[0_8px_20px_rgba(10,25,41,0.15)] hover:bg-navy-800 hover:shadow-[0_8px_25px_rgba(10,25,41,0.25)] hover:-translate-y-0.5 transition-all duration-300"
-                  >
-                    <span>{t("locationsLink")}</span>
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </div>
-              </div>
-            </Reveal>
           </div>
         </div>
       </section>

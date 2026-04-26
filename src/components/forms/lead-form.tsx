@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { carMakes, getModelsByMake } from "@/data/car-makes";
 import { getYearRange } from "@/lib/utils";
-import { Loader2, CheckCircle, ChevronRight, ChevronLeft, Car, User, Sparkles } from "lucide-react";
+import { Loader2, CheckCircle, ChevronLeft, Car, User } from "lucide-react";
 
 const years = getYearRange();
 
@@ -19,14 +19,6 @@ export function LeadForm() {
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
-  // Translated options
-  const conditions = [
-    { value: "excellent", label: t("conditionExcellent") },
-    { value: "good", label: t("conditionGood") },
-    { value: "fair", label: t("conditionFair") },
-    { value: "poor", label: t("conditionPoor") },
-  ];
 
   const contactMethods = [
     { value: "phone", label: t("phone") },
@@ -39,7 +31,7 @@ export function LeadForm() {
     model: "",
     year: "",
     mileage: "",
-    condition: "",
+    offeredPrice: "",
     firstName: "",
     lastName: "",
     email: "",
@@ -58,7 +50,7 @@ export function LeadForm() {
     }
   };
 
-  const canProceedStep1 = formData.make && formData.model && formData.year && formData.mileage && formData.condition;
+  const canProceedStep1 = formData.make && formData.model && formData.year && formData.mileage && formData.offeredPrice;
   const canProceedStep2 = formData.firstName && formData.lastName && formData.email && formData.phone && formData.privacyAccepted;
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -203,21 +195,20 @@ export function LeadForm() {
             </div>
           </div>
 
-          {/* Condition */}
+          {/* Customer Offer */}
           <div className="space-y-1.5 sm:space-y-2">
-            <Label htmlFor="condition" className="text-xs sm:text-sm font-medium text-navy-700">{t("condition")} *</Label>
-            <Select value={formData.condition} onValueChange={(v) => updateField("condition", v)}>
-              <SelectTrigger className="h-12 sm:h-12 text-sm border-2 border-slate-200 hover:border-gold-300 focus:border-gold-400 focus:ring-4 focus:ring-gold-400/20 transition-all rounded-xl bg-white active:scale-[0.98]">
-                <SelectValue placeholder={tCommon("select")} />
-              </SelectTrigger>
-              <SelectContent className="rounded-xl border-2 shadow-premium">
-                {conditions.map((condition) => (
-                  <SelectItem key={condition.value} value={condition.value} className="rounded-lg py-3 sm:py-2">
-                    {condition.label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+            <Label htmlFor="offeredPrice" className="text-xs sm:text-sm font-medium text-navy-700">{t("offerPrice")} *</Label>
+            <Input
+              id="offeredPrice"
+              type="number"
+              inputMode="numeric"
+              min={1}
+              step={100}
+              placeholder={t("offerPricePlaceholder")}
+              className="h-12 sm:h-12 text-sm border-2 border-slate-200 hover:border-gold-300 focus:border-gold-400 focus:ring-4 focus:ring-gold-400/20 transition-all rounded-xl"
+              value={formData.offeredPrice}
+              onChange={(e) => updateField("offeredPrice", e.target.value)}
+            />
           </div>
 
           {/* Next Button - Mobile Optimized */}

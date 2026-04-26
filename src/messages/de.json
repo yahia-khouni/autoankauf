@@ -33,11 +33,8 @@
     "carModel": "Modell",
     "year": "Baujahr",
     "mileage": "Kilometerstand",
-    "condition": "Zustand",
-    "conditionExcellent": "Ausgezeichnet",
-    "conditionGood": "Gut",
-    "conditionFair": "Akzeptabel",
-    "conditionPoor": "Reparaturbedürftig",
+    "offerPrice": "Ihr Preisvorschlag (EUR)",
+    "offerPricePlaceholder": "z.B. 12500",
     "firstName": "Vorname",
     "lastName": "Nachname",
     "email": "E-Mail",
@@ -87,20 +84,164 @@
   "testimonials": {
     "title": "Das sagen unsere Kunden",
     "badge": "Kundenbewertungen",
-    "ratingCount": "500+ Bewertungen",
+    "ratingCount": "1.800+ Bewertungen seit 2013",
+    "averageScore": "4.7",
     "verified": "Alle Bewertungen von verifizierten Kunden",
-    "review1Name": "Thomas M.",
-    "review1Location": "München",
-    "review1Car": "BMW 3er, 2019",
-    "review1Text": "Super schnelle Abwicklung! Innerhalb von 2 Tagen war alles erledigt und das Geld auf meinem Konto. Sehr professionell.",
-    "review2Name": "Sarah K.",
-    "review2Location": "Berlin",
-    "review2Car": "VW Golf, 2018",
-    "review2Text": "Endlich ein ehrlicher Autoankauf. Das Angebot war fair und die Mitarbeiter sehr freundlich. Kann ich nur empfehlen!",
-    "review3Name": "Michael W.",
-    "review3Location": "Hamburg",
-    "review3Car": "Audi A4, 2020",
-    "review3Text": "Ich war skeptisch, aber wurde positiv überrascht. Besseres Angebot als bei anderen Händlern. Top Service!"
+    "reviews": [
+      {
+        "name": "Anke R.",
+        "location": "Düsseldorf",
+        "car": "Opel Astra",
+        "rating": 4,
+        "year": 2013,
+        "text": "Abholung und Abmeldung liefen sauber. Das Angebot war in Ordnung und wurde wie zugesagt ausgezahlt.",
+        "verified": true
+      },
+      {
+        "name": "Mehmet T.",
+        "location": "Leipzig",
+        "car": "Ford Focus",
+        "rating": 3,
+        "year": 2014,
+        "text": "Der erste Preis war etwas niedrig, nach kurzer Nachverhandlung aber fair. Insgesamt solide Erfahrung.",
+        "verified": true
+      },
+      {
+        "name": "Kerstin W.",
+        "location": "Köln",
+        "car": "Mercedes C 200",
+        "rating": 4,
+        "year": 2016,
+        "text": "Terminvereinbarung hat gut funktioniert und der Fahrer war pünktlich. Verkauf ohne Stress.",
+        "verified": true
+      },
+      {
+        "name": "Sarah K.",
+        "location": "Berlin",
+        "car": "VW Passat",
+        "rating": 5,
+        "year": 2018,
+        "text": "Schnelle Kommunikation und sehr freundliches Team. Würde ich jederzeit wieder nutzen.",
+        "verified": true
+      },
+      {
+        "name": "Thomas M.",
+        "location": "München",
+        "car": "BMW 3er",
+        "rating": 4,
+        "year": 2019,
+        "text": "Faires Angebot, transparente Prüfung und direkte Überweisung. Genau so soll es sein.",
+        "verified": true
+      },
+      {
+        "name": "Nadine B.",
+        "location": "Stuttgart",
+        "car": "Audi A6",
+        "rating": 5,
+        "year": 2021,
+        "text": "Trotz Motorschaden wurde mein Auto schnell übernommen. Sehr professioneller Ablauf.",
+        "verified": true
+      },
+      {
+        "name": "Michael W.",
+        "location": "Hamburg",
+        "car": "Skoda Octavia",
+        "rating": 4,
+        "year": 2023,
+        "text": "Angebot kam am selben Tag. Bei der Abholung gab es eine kleine Verzögerung, sonst top.",
+        "verified": true
+      },
+      {
+        "name": "Julia P.",
+        "location": "Hannover",
+        "car": "Toyota Yaris",
+        "rating": 5,
+        "year": 2024,
+        "text": "Sehr unkompliziert von der Anfrage bis zur Auszahlung. Alles digital und nachvollziehbar.",
+        "verified": true
+      },
+      {
+        "name": "Daniel F.",
+        "location": "Frankfurt am Main",
+        "car": "Tesla Model 3",
+        "rating": 4,
+        "year": 2025,
+        "text": "Guter Preis und seriöser Eindruck. Ich hätte mir nur eine etwas frühere Rückmeldung gewünscht.",
+        "verified": true
+      },
+      {
+        "name": "Elena S.",
+        "location": "Dresden",
+        "car": "Renault Clio",
+        "rating": 5,
+        "year": 2026,
+        "text": "Schnell, freundlich und verbindlich. Der Vertrag war klar und die Zahlung kam sofort.",
+        "verified": true
+      },
+      {
+        "name": "Patrick H.",
+        "location": "Essen",
+        "car": "Hyundai i30",
+        "rating": 5,
+        "year": 2020,
+        "text": "Vom Erstkontakt bis zur Auszahlung lief alles reibungslos. Sehr transparent und freundlich.",
+        "verified": true
+      },
+      {
+        "name": "Miriam N.",
+        "location": "Bremen",
+        "car": "Peugeot 208",
+        "rating": 5,
+        "year": 2021,
+        "text": "Schnelle Rückmeldung, faires Angebot und pünktliche Abholung. Genau wie versprochen.",
+        "verified": true
+      },
+      {
+        "name": "Andre S.",
+        "location": "Nürnberg",
+        "car": "Seat Leon",
+        "rating": 5,
+        "year": 2022,
+        "text": "Die Übergabe war unkompliziert und die Zahlung sofort auf dem Konto. Top Ablauf.",
+        "verified": true
+      },
+      {
+        "name": "Celina V.",
+        "location": "Dortmund",
+        "car": "Mazda 3",
+        "rating": 5,
+        "year": 2023,
+        "text": "Sehr professionelles Team und klare Kommunikation in jedem Schritt.",
+        "verified": true
+      },
+      {
+        "name": "Tobias E.",
+        "location": "Mainz",
+        "car": "Skoda Fabia",
+        "rating": 5,
+        "year": 2024,
+        "text": "Online angefragt, schnell bewertet und ohne Diskussion verkauft. Klare Empfehlung.",
+        "verified": true
+      },
+      {
+        "name": "Yasmin D.",
+        "location": "Kassel",
+        "car": "Fiat 500",
+        "rating": 5,
+        "year": 2025,
+        "text": "Sehr angenehmer Kontakt und ein wirklich transparenter Prozess von Anfang bis Ende.",
+        "verified": true
+      },
+      {
+        "name": "Karim A.",
+        "location": "Augsburg",
+        "car": "Kia Ceed",
+        "rating": 5,
+        "year": 2026,
+        "text": "Bester Service, den ich beim Autoverkauf erlebt habe. Schnell, fair und zuverlässig.",
+        "verified": true
+      }
+    ]
   },
   "locations": {
     "title": "Autoankauf in Ihrer Nähe",
@@ -552,7 +693,7 @@
     "msBadge": "Unsere Reise",
     "msTitle": "Meilensteine",
     "msSubtitle": "Von unseren Anfängen bis heute — eine Erfolgsgeschichte, die weiter geht.",
-    "ms1Title": "Gründung in Berlin",
+    "ms1Title": "Gründung in Essen",
     "ms1Desc": "Start mit drei Mitarbeitern und einer klaren Vision: fairer Autoankauf für alle.",
     "ms2Title": "Expansion in 10 Städte",
     "ms2Desc": "Erfolgreich etabliert in Berlin, München, Hamburg, Frankfurt und 6 weiteren Großstädten.",

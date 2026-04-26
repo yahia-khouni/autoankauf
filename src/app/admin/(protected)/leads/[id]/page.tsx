@@ -37,6 +37,9 @@ export default async function LeadDetailPage({ params }: PageProps) {
   if (!data) notFound();
 
   const { lead, clientHistory } = data;
+  const offerMatch = lead.notes?.match(/^Kundenangebot:\s*([\d.,\s]+)\s*EUR(?:\r?\n\r?\n)?([\s\S]*)?$/i);
+  const parsedOffer = offerMatch?.[1] ? parseInt(offerMatch[1].replace(/\D/g, ""), 10) : null;
+  const customerNotes = offerMatch ? offerMatch[2]?.trim() ?? "" : lead.notes?.trim() ?? "";
 
   return (
     <div>
@@ -87,9 +90,17 @@ export default async function LeadDetailPage({ params }: PageProps) {
                 label="Kilometerstand"
                 value={`${lead.carMileage.toLocaleString("de-DE")} km`}
               />
-              <InfoRow label="Zustand" value={lead.carCondition} />
+              <InfoRow
+                label="Preisvorschlag"
+                value={parsedOffer ? `${parsedOffer.toLocaleString("de-DE")} EUR` : "-"}
+              />
               {lead.knownIssues && (
                 <InfoRow label="Bekannte Mängel" value={lead.knownIssues} />
+              )}
+              {customerNotes && (
+                <div className="sm:col-span-2">
+                  <InfoRow label="Kundenhinweis" value={customerNotes} />
+                </div>
               )}
               {lead.description && (
                 <div className="sm:col-span-2">

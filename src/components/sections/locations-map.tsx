@@ -1,21 +1,59 @@
 "use client";
 
-import Image from "next/image";
+import { useState } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { germanStates } from "@/data/locations";
 import { MapPin, ChevronRight, Map } from "lucide-react";
 import { AnimateOnScroll } from "@/components/ui/animate-on-scroll";
+import type { OSMStateMapItem } from "@/components/locations/osm-state-map";
+
+const OSMStateMap = dynamic(
+  () => import("@/components/locations/osm-state-map").then((mod) => mod.OSMStateMap),
+  { ssr: false }
+);
+
+const stateCodes: Record<string, string> = {
+  "baden-wuerttemberg": "BW",
+  bayern: "BY",
+  berlin: "BE",
+  brandenburg: "BB",
+  bremen: "HB",
+  hamburg: "HH",
+  hessen: "HE",
+  "mecklenburg-vorpommern": "MV",
+  niedersachsen: "NI",
+  "nordrhein-westfalen": "NW",
+  "rheinland-pfalz": "RP",
+  saarland: "SL",
+  sachsen: "SN",
+  "sachsen-anhalt": "ST",
+  "schleswig-holstein": "SH",
+  thueringen: "TH",
+};
 
 export function LocationsMapSection() {
   const t = useTranslations("locations");
   const locale = useLocale();
+  const [activeStateSlug, setActiveStateSlug] = useState<string | null>(null);
+  const activeState = activeStateSlug
+    ? germanStates.find((state) => state.slug === activeStateSlug) || null
+    : null;
 
   const getLocalizedHref = (path: string) => {
     if (locale === "de") return path;
     if (path === "/") return `/${locale}`;
     return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
   };
+
+  const mapStates: OSMStateMapItem[] = germanStates.map((state) => ({
+    slug: state.slug,
+    name: state.name,
+    stateCode: stateCodes[state.slug] ?? state.name.slice(0, 2).toUpperCase(),
+    cityCount: state.cities.length,
+    href: getLocalizedHref(`/standorte/${state.slug}`),
+  }));
 
   return (
     <section className="py-12 sm:py-20 lg:py-32 bg-gradient-to-b from-white via-slate-50/50 to-white relative overflow-hidden">
@@ -46,19 +84,33 @@ export function LocationsMapSection() {
         </AnimateOnScroll>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Left: Artistic Map */}
+          {/* Left: Interactive OpenStreetMap */}
           <AnimateOnScroll delay={100} className="relative order-1 lg:order-1 flex justify-center items-center h-full">
-            <div className="relative w-full max-w-[500px] h-[400px] sm:h-[500px] rounded-[2rem] flex items-center justify-center group overflow-hidden shadow-[0_20px_60px_-15px_rgba(16,42,67,0.4)] border border-slate-200/60 transition-transform duration-500 hover:scale-[1.02] bg-white">
-              {/* Glow layers */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-gold-400/10 via-transparent to-navy-900/5 mix-blend-overlay z-20 pointer-events-none" />
-              
-              {/* Image Map */}
-              <Image 
-                src="/images/map.png"
-                alt="Germany Locations Map"
-                fill
-                className="relative z-10 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
+            <div className="relative w-full max-w-[500px] h-[420px] sm:h-[520px] rounded-[2rem] flex items-center justify-center group overflow-hidden shadow-[0_20px_60px_-15px_rgba(16,42,67,0.4)] border border-slate-200/60 transition-transform duration-500 hover:scale-[1.02] bg-navy-950">
+              <div className="absolute inset-0 z-10">
+                <OSMStateMap
+                  states={mapStates}
+                  activeStateSlug={activeStateSlug}
+                  onActiveStateChange={setActiveStateSlug}
+                />
+              </div>
+
+              <div className="absolute inset-0 bg-gradient-to-tr from-gold-400/10 via-transparent to-navy-900/20 mix-blend-overlay z-20 pointer-events-none" />
+
+              <div className="absolute left-4 top-4 z-30 rounded-full border border-white/30 bg-white/85 px-3 py-1 text-[11px] font-semibold text-navy-800 backdrop-blur-sm pointer-events-none">
+                OpenStreetMap
+              </div>
+
+              <div className="absolute left-4 right-4 bottom-4 z-30 rounded-xl border border-navy-700 bg-navy-900/85 backdrop-blur-sm px-4 py-3 pointer-events-none">
+                <p className="text-sm font-semibold text-white truncate">
+                  {activeState ? activeState.name : t("selectStateTitle")}
+                </p>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  {activeState
+                    ? `${activeState.cities.length} ${activeState.cities.length === 1 ? t("cityState") : t("cities")}`
+                    : t("selectStateDesc")}
+                </p>
+              </div>
             </div>
           </AnimateOnScroll>
 
@@ -84,11 +136,19 @@ export function LocationsMapSection() {
               
               <div className="overflow-y-auto flex-1 p-4 sm:p-6 sn-scrollbar">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
-                  {germanStates.map((state, index) => (
+                  {germanStates.map((state) => (
                     <Link
                       key={state.slug}
                       href={getLocalizedHref(`/standorte/${state.slug}`)}
-                      className="group flex flex-col p-4 rounded-2xl border border-navy-800 bg-navy-950/30 hover:bg-navy-800 hover:border-gold-400/50 transition-all duration-300 active:scale-[0.98]"
+                      onMouseEnter={() => setActiveStateSlug(state.slug)}
+                      onFocus={() => setActiveStateSlug(state.slug)}
+                      onMouseLeave={() => setActiveStateSlug(null)}
+                      onBlur={() => setActiveStateSlug(null)}
+                      className={`group flex flex-col p-4 rounded-2xl border transition-all duration-300 active:scale-[0.98] ${
+                        activeStateSlug === state.slug
+                          ? "border-gold-400/60 bg-navy-800"
+                          : "border-navy-800 bg-navy-950/30 hover:bg-navy-800 hover:border-gold-400/50"
+                      }`}
                     >
                       <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center gap-3">

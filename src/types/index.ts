@@ -221,7 +221,7 @@ export interface LeadFormData {
   modelId: string;
   year: number;
   mileage: number;
-  condition: CarCondition;
+  offeredPrice: number;
   knownIssues: string[];
   photos: File[];
   name: string;
