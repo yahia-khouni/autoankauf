@@ -8,13 +8,124 @@
   "population": 2120237,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Thüringen | Auto verkaufen in Thüringen",
-    "description": "Verkaufen Sie Ihr Auto in Thüringen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Erfurt, Jena und Gera.",
-    "keywords": ["Autoankauf Thüringen", "Auto verkaufen Thüringen", "PKW Ankauf TH", "Gebrauchtwagen Ankauf Erfurt", "KFZ Ankauf Jena"]
+    "title": "Autoankauf Thüringen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Thüringen: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Erfurt, Jena, Gera. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Thüringen",
+      "Auto verkaufen Thüringen",
+      "PKW Ankauf TH",
+      "Gebrauchtwagen Ankauf Erfurt",
+      "KFZ Ankauf Jena"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Thüringen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Erfurt, Jena und dem gesamten Freistaat.",
-    "seoText": "Thüringen liegt im Herzen Deutschlands und ist bekannt als das grüne Herz der Republik. Die Landeshauptstadt Erfurt, die Universitätsstadt Jena und das traditionsreiche Gera sind wichtige regionale Zentren. Wir kaufen Ihr Fahrzeug in allen Städten Thüringens — fair, schnell und unkompliziert."
+    "seoText": "Thüringen liegt im Herzen Deutschlands und ist bekannt als das grüne Herz der Republik. Die Landeshauptstadt Erfurt, die Universitätsstadt Jena und das traditionsreiche Gera sind wichtige regionale Zentren. Wir kaufen Ihr Fahrzeug in allen Städten Thüringens — fair, schnell und unkompliziert.",
+    "page": {
+      "heroHighlight": "In ganz Thüringen kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Thüringen",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Thüringen",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Thüringen, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Thüringen aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Thüringen täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Thüringen entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Erfurt sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Thüringen bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Thüringen?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Thüringen",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Thüringen.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Thüringen",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Thüringen tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Thüringen",
+        "Auto verkaufen Thüringen",
+        "KFZ Ankauf Thüringen",
+        "Wagen verkaufen Thüringen",
+        "Gebrauchtwagen Ankauf Thüringen",
+        "Auto ohne TÜV verkaufen Thüringen",
+        "Unfallwagen verkaufen Thüringen",
+        "Motorschaden Ankauf Thüringen",
+        "PKW Ankauf TH",
+        "Gebrauchtwagen Ankauf Erfurt",
+        "KFZ Ankauf Jena"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Thüringen",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Thüringen",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Thüringen. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Thüringen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Thüringen inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Thüringen",
+      "seoSectionTitle": "Warum Autoankauf in Thüringen?"
+    }
   },
-  "cities": ["erfurt", "jena", "gera"]
+  "cities": [
+    "erfurt",
+    "jena",
+    "gera"
+  ]
 }

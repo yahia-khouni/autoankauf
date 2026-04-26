@@ -8,13 +8,122 @@
   "population": 685032,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Bremen | Auto verkaufen in Bremen",
-    "description": "Verkaufen Sie Ihr Auto in Bremen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Bremen und Bremerhaven.",
-    "keywords": ["Autoankauf Bremen", "Auto verkaufen Bremen", "PKW Ankauf HB", "Gebrauchtwagen Ankauf Bremen", "KFZ Ankauf Bremerhaven"]
+    "title": "Autoankauf Bremen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Bremen: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Bremen, Bremerhaven. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Bremen",
+      "Auto verkaufen Bremen",
+      "PKW Ankauf HB",
+      "Gebrauchtwagen Ankauf Bremen",
+      "KFZ Ankauf Bremerhaven"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Bremen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in der Hansestadt Bremen und in Bremerhaven.",
-    "seoText": "Das Bundesland Bremen besteht aus den beiden Städten Bremen und Bremerhaven. Als Handels- und Hafenstadt hat Bremen eine lange Tradition im Fahrzeughandel. Wir bieten Ihnen einen fairen Ankaufspreis für Ihr Auto — egal ob Neuwagen oder Gebrauchtwagen mit hoher Laufleistung."
+    "seoText": "Das Bundesland Bremen besteht aus den beiden Städten Bremen und Bremerhaven. Als Handels- und Hafenstadt hat Bremen eine lange Tradition im Fahrzeughandel. Wir bieten Ihnen einen fairen Ankaufspreis für Ihr Auto — egal ob Neuwagen oder Gebrauchtwagen mit hoher Laufleistung.",
+    "page": {
+      "heroHighlight": "In ganz Bremen kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Bremen",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Bremen",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Bremen, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Bremen aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Bremen täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Bremen entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Bremen sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Bremen bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Bremen?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Bremen",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Bremen.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Bremen",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Bremen tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Bremen",
+        "Auto verkaufen Bremen",
+        "KFZ Ankauf Bremen",
+        "Wagen verkaufen Bremen",
+        "Gebrauchtwagen Ankauf Bremen",
+        "Auto ohne TÜV verkaufen Bremen",
+        "Unfallwagen verkaufen Bremen",
+        "Motorschaden Ankauf Bremen",
+        "PKW Ankauf HB",
+        "KFZ Ankauf Bremerhaven"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Bremen",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Bremen",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Bremen. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Bremen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Bremen inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Bremen",
+      "seoSectionTitle": "Warum Autoankauf in Bremen?"
+    }
   },
-  "cities": ["bremen-stadt", "bremerhaven"]
+  "cities": [
+    "bremen-stadt",
+    "bremerhaven"
+  ]
 }

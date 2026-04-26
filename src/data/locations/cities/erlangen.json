@@ -12,20 +12,171 @@
     "lng": 11.012
   },
   "meta": {
-    "title": "Autoankauf Erlangen | Sofort Bargeld für Ihr Fahrzeug",
-    "description": "Autoankauf Erlangen — in der Siemens-Stadt erwartet Sie ein erstklassiger Service. Sofortige Bargeldauszahlung bei Übergabe, kostenlose Abholung im gesamten Stadtgebiet.",
+    "title": "Autoankauf Erlangen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Erlangen: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 91052–91058 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Erlangen",
       "Auto verkaufen Erlangen",
       "Gebrauchtwagen Ankauf Erlangen",
       "Fahrzeugankauf Erlangen",
       "PKW verkaufen Erlangen",
-      "Auto Bewertung Erlangen"
+      "Auto Bewertung Erlangen",
+      "Autoankauf nahe Schlossgarten Erlangen"
     ]
   },
   "content": {
     "heroDescription": "Erlangen verbindet Wissenschaft mit Wirtschaftskraft — und wir verbinden Ihren Autoverkauf mit dem besten Preis. Professionelle Bewertung und diskrete Abwicklung.",
-    "localContent": "Erlangen ist eine renommierte Universitätsstadt und globaler Hauptsitz von Siemens Healthineers. Mit rund 113.000 Einwohnern ist sie die kleinste Großstadt der Metropolregion Nürnberg, aber wirtschaftlich äußerst bedeutsam. Die hohe Dichte an Fachkräften und Ingenieuren sorgt für überdurchschnittliche Kaufkraft und einen lebendigen Premiumfahrzeugmarkt. Die A3 und A73 verbinden Erlangen direkt mit Nürnberg, Bamberg und der gesamten Region Oberfranken."
+    "localContent": "Erlangen ist eine renommierte Universitätsstadt und globaler Hauptsitz von Siemens Healthineers. Mit rund 113.000 Einwohnern ist sie die kleinste Großstadt der Metropolregion Nürnberg, aber wirtschaftlich äußerst bedeutsam. Die hohe Dichte an Fachkräften und Ingenieuren sorgt für überdurchschnittliche Kaufkraft und einen lebendigen Premiumfahrzeugmarkt. Die A3 und A73 verbinden Erlangen direkt mit Nürnberg, Bamberg und der gesamten Region Oberfranken.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Erlangen",
+        "Auto verkaufen Erlangen",
+        "KFZ Ankauf Erlangen",
+        "Gebrauchtwagen verkaufen Erlangen"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Erlangen kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Erlangen — So einfach geht's",
+      "localHooksTitle": "Warum viele in Erlangen ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 91052–91058 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Schlossgarten werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Erlangen entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Erlangen wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Bayern",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Erlangen gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Erlangen",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Erlangen",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Erlangen, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Erlangen erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Erlangen",
+        "Unfallwagen verkaufen Erlangen",
+        "Motorschaden Ankauf Erlangen",
+        "Leasingrückläufer in Erlangen ankaufen",
+        "Firmenwagen in Erlangen bewerten",
+        "Auto sofort verkaufen Erlangen"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Erlangen?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Erlangen",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Erlangen",
+        "Auto verkaufen Erlangen",
+        "KFZ Ankauf Erlangen",
+        "Wagen verkaufen Erlangen",
+        "Gebrauchtwagen Ankauf Erlangen",
+        "Auto ohne TÜV verkaufen Erlangen",
+        "Unfallwagen verkaufen Erlangen",
+        "Motorschaden Ankauf Erlangen",
+        "PKW verkaufen Bayern",
+        "Fahrzeugankauf Erlangen",
+        "PKW verkaufen Erlangen",
+        "Auto Bewertung Erlangen"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Erlangen",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Erlangen, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Bayern",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Erlangen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 91052–91058",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Erlangen — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Erlangen",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Erlangen wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Erlangen zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Bayern ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Erlangen",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Schlossgarten",
@@ -40,15 +191,15 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Erlangen an?",
-      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Erlangen ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
+      "question": "Welche Bereiche in Erlangen deckt Ihr kostenloser Abholservice ab?",
+      "answer": "Wir holen Fahrzeuge im kompletten Gebiet 91052–91058 kostenfrei ab. Ob in der Innenstadt oder in der Nähe des Schlossgartens: Die Abholung passt sich Ihrem Terminplan an."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Erlangen?",
       "answer": "Ja, bei uns in Erlangen gibt es keinen Zustand, der uns abschreckt. Ob Kratzer, Beulen, Motorschaden oder sogar Totalschaden — wir machen Ihnen ein ehrliches Angebot."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Erlangen?",
       "answer": "Die Online-Bewertung gibt Ihnen eine erste Preisindikation. Bei einem kurzen Vor-Ort-Termin in Erlangen prüfen wir das Fahrzeug und nennen Ihnen den verbindlichen Ankaufspreis."
     },
     {

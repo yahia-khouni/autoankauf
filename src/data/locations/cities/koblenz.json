@@ -12,8 +12,8 @@
     "lng": 7.589
   },
   "meta": {
-    "title": "Gebrauchtwagen verkaufen Koblenz — Bester Preis garantiert",
-    "description": "Gebrauchtwagen verkaufen in Koblenz — am Deutschen Eck bieten wir faire Konditionen. Kostenlose Vor-Ort-Bewertung zwischen Rhein und Mosel und sofortige Bezahlung.",
+    "title": "Autoankauf Koblenz - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Koblenz: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 56068–56077 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Koblenz",
       "Auto verkaufen Koblenz",
@@ -21,12 +21,163 @@
       "Wagen verkaufen Koblenz",
       "Autoverkauf Koblenz",
       "Auto ohne TÜV verkaufen Koblenz",
-      "Autoankauf in der Nähe Koblenz"
+      "Autoankauf in der Nähe Koblenz",
+      "Autoankauf nahe Deutsches Eck Koblenz"
     ]
   },
   "content": {
     "heroDescription": "Am Zusammenfluss von Rhein und Mosel steht unser Versprechen: Ihr Auto zum besten Preis, mit kostenloser Abholung und Sofortzahlung direkt in Koblenz.",
-    "localContent": "Koblenz liegt am Zusammenfluss von Rhein und Mosel — dem berühmten Deutschen Eck — und ist eine der ältesten Städte Deutschlands. Die rund 114.000 Einwohner zählende Stadt ist von Weinbergen umgeben und UNESCO-Welterbe als Teil des Oberen Mittelrheintals. Die A48 und A61 machen Koblenz zum Verkehrsknotenpunkt zwischen Köln, Mainz und Trier und eröffnen einen weit gefächerten Fahrzeugmarkt."
+    "localContent": "Koblenz liegt am Zusammenfluss von Rhein und Mosel — dem berühmten Deutschen Eck — und ist eine der ältesten Städte Deutschlands. Die rund 114.000 Einwohner zählende Stadt ist von Weinbergen umgeben und UNESCO-Welterbe als Teil des Oberen Mittelrheintals. Die A48 und A61 machen Koblenz zum Verkehrsknotenpunkt zwischen Köln, Mainz und Trier und eröffnen einen weit gefächerten Fahrzeugmarkt.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Koblenz",
+        "Auto verkaufen Koblenz",
+        "KFZ Ankauf Koblenz",
+        "Gebrauchtwagen verkaufen Koblenz"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Koblenz kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Koblenz — So einfach geht's",
+      "localHooksTitle": "Warum viele in Koblenz ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 56068–56077 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Deutsches Eck werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Koblenz entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Koblenz wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Rheinland-Pfalz",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Koblenz gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Koblenz",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Koblenz",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Koblenz, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Koblenz erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Koblenz",
+        "Unfallwagen verkaufen Koblenz",
+        "Motorschaden Ankauf Koblenz",
+        "Leasingrückläufer in Koblenz ankaufen",
+        "Firmenwagen in Koblenz bewerten",
+        "Auto sofort verkaufen Koblenz"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Koblenz?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Koblenz",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Koblenz",
+        "Auto verkaufen Koblenz",
+        "KFZ Ankauf Koblenz",
+        "Wagen verkaufen Koblenz",
+        "Gebrauchtwagen Ankauf Koblenz",
+        "Auto ohne TÜV verkaufen Koblenz",
+        "Unfallwagen verkaufen Koblenz",
+        "Motorschaden Ankauf Koblenz",
+        "PKW verkaufen Rheinland-Pfalz",
+        "Autoverkauf Koblenz",
+        "Autoankauf in der Nähe Koblenz",
+        "Autoankauf nahe Deutsches Eck Koblenz"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Koblenz",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Koblenz, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Rheinland-Pfalz",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Koblenz — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 56068–56077",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Koblenz — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Koblenz",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Koblenz wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Koblenz zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Rheinland-Pfalz ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Koblenz",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Deutsches Eck",
@@ -41,8 +192,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Koblenz verkaufen?",
-      "answer": "Schnelligkeit ist unser Markenzeichen: In Koblenz schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
+      "question": "Wie schnell kann ein Fahrzeugankauf in Koblenz verbindlich abgeschlossen werden?",
+      "answer": "Im Bereich 56068–56077 können wir oft zeitnah reagieren. Gerade in zentralen Lagen rund um das Deutsche Eck sind kurzfristige Besichtigungstermine regelmäßig möglich."
     },
     {
       "question": "Welche Unterlagen benötige ich für den Autoverkauf in Koblenz?",

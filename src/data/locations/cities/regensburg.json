@@ -12,20 +12,171 @@
     "lng": 12.1016
   },
   "meta": {
-    "title": "Autoankauf Regensburg — Faire Preise & Sofortzahlung",
-    "description": "Autoankauf Regensburg — in der UNESCO-Welterbestadt erhalten Sie faire Preise und erstklassigen Service. Vor-Ort-Bewertung, Gratis-Abholung und Sofortzahlung garantiert.",
+    "title": "Autoankauf Regensburg - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Regensburg: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 93047–93059 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Regensburg",
       "Auto verkaufen Regensburg",
       "PKW Ankauf Regensburg",
       "Fahrzeugankauf Regensburg",
       "Auto Export Regensburg",
-      "Fahrzeugbewertung Regensburg"
+      "Fahrzeugbewertung Regensburg",
+      "Autoankauf nahe Steinerne Brücke Regensburg"
     ]
   },
   "content": {
     "heroDescription": "Die UNESCO-Welterbestadt an der Donau bietet nicht nur kulturelle Schätze, sondern auch erstklassige Konditionen beim Autoverkauf. Wir kaufen Ihr Fahrzeug in Regensburg schnell und fair an.",
-    "localContent": "Regensburg liegt am nördlichsten Punkt der Donau und wurde als mittelalterliches Stadtzentrum zum UNESCO-Welterbe erklärt. Die rund 153.000-Einwohner-Stadt ist ein boomender Wirtschaftsstandort und beherbergt ein großes BMW-Werk sowie Continental als bedeutenden Arbeitgeber. Die Universität Regensburg und die OTH tragen zu einem jungen, dynamischen Stadtbild bei. Die Lage an der A3 und A93 macht Regensburg zu einem wichtigen Verkehrsknotenpunkt in der Oberpfalz."
+    "localContent": "Regensburg liegt am nördlichsten Punkt der Donau und wurde als mittelalterliches Stadtzentrum zum UNESCO-Welterbe erklärt. Die rund 153.000-Einwohner-Stadt ist ein boomender Wirtschaftsstandort und beherbergt ein großes BMW-Werk sowie Continental als bedeutenden Arbeitgeber. Die Universität Regensburg und die OTH tragen zu einem jungen, dynamischen Stadtbild bei. Die Lage an der A3 und A93 macht Regensburg zu einem wichtigen Verkehrsknotenpunkt in der Oberpfalz.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Regensburg",
+        "Auto verkaufen Regensburg",
+        "KFZ Ankauf Regensburg",
+        "Gebrauchtwagen verkaufen Regensburg"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Regensburg kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Regensburg — So einfach geht's",
+      "localHooksTitle": "Warum viele in Regensburg ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 93047–93059 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Steinerne Brücke werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Regensburg entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Regensburg wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Bayern",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Regensburg gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Regensburg",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Regensburg",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Regensburg, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Regensburg erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Regensburg",
+        "Unfallwagen verkaufen Regensburg",
+        "Motorschaden Ankauf Regensburg",
+        "Leasingrückläufer in Regensburg ankaufen",
+        "Firmenwagen in Regensburg bewerten",
+        "Auto sofort verkaufen Regensburg"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Regensburg?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Regensburg",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Regensburg",
+        "Auto verkaufen Regensburg",
+        "KFZ Ankauf Regensburg",
+        "Wagen verkaufen Regensburg",
+        "Gebrauchtwagen Ankauf Regensburg",
+        "Auto ohne TÜV verkaufen Regensburg",
+        "Unfallwagen verkaufen Regensburg",
+        "Motorschaden Ankauf Regensburg",
+        "PKW verkaufen Bayern",
+        "PKW Ankauf Regensburg",
+        "Fahrzeugankauf Regensburg",
+        "Auto Export Regensburg"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Regensburg",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Regensburg, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Bayern",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Regensburg — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 93047–93059",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Regensburg — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Regensburg",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Regensburg wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Regensburg zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Bayern ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Regensburg",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Steinerne Brücke",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Regensburg verkaufen?",
-      "answer": "Nach Eingang Ihrer Anfrage aus Regensburg erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
+      "question": "Wie schnell kann ich in Regensburg ein konkretes Ankaufangebot erhalten?",
+      "answer": "Im Gebiet 93047–93059 erhalten Sie in vielen Fällen noch am selben Tag eine konkrete Rückmeldung. Rund um die Steinerne Brücke sind kurzfristige Vor-Ort-Termine häufig machbar."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Regensburg?",

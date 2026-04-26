@@ -10,11 +10,116 @@
   "meta": {
     "title": "Autoankauf Berlin | Auto verkaufen in Berlin",
     "description": "Verkaufen Sie Ihr Auto in Berlin. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in der gesamten Hauptstadt. Jetzt Angebot erhalten!",
-    "keywords": ["Autoankauf Berlin", "Auto verkaufen Berlin", "PKW Ankauf Berlin", "Gebrauchtwagen Ankauf Berlin", "KFZ Ankauf Berlin"]
+    "keywords": [
+      "Autoankauf Berlin",
+      "Auto verkaufen Berlin",
+      "PKW Ankauf Berlin",
+      "Gebrauchtwagen Ankauf Berlin",
+      "KFZ Ankauf Berlin"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Berlin zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — im gesamten Stadtgebiet der Hauptstadt.",
-    "seoText": "Berlin ist die bevölkerungsreichste Stadt Deutschlands und ein dynamischer Automobilmarkt. Als Stadtstaat bieten wir unseren Ankauf-Service im gesamten Berliner Stadtgebiet an — von Mitte bis Spandau, von Pankow bis Neukölln. Egal in welchem Bezirk Sie wohnen, wir kommen direkt zu Ihnen."
+    "seoText": "Berlin ist die bevölkerungsreichste Stadt Deutschlands und ein dynamischer Automobilmarkt. Als Stadtstaat bieten wir unseren Ankauf-Service im gesamten Berliner Stadtgebiet an — von Mitte bis Spandau, von Pankow bis Neukölln. Egal in welchem Bezirk Sie wohnen, wir kommen direkt zu Ihnen.",
+    "page": {
+      "heroHighlight": "In ganz Berlin kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Berlin",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Berlin",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Berlin, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Berlin aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Berlin täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Berlin entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Berlin sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Berlin bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Berlin?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Berlin",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Berlin.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Berlin",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Berlin tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Berlin",
+        "Auto verkaufen Berlin",
+        "KFZ Ankauf Berlin",
+        "Wagen verkaufen Berlin",
+        "Gebrauchtwagen Ankauf Berlin",
+        "Auto ohne TÜV verkaufen Berlin",
+        "Unfallwagen verkaufen Berlin",
+        "Motorschaden Ankauf Berlin",
+        "PKW Ankauf Berlin"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Berlin",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Berlin",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Berlin. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Berlin — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Berlin inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Berlin",
+      "seoSectionTitle": "Warum Autoankauf in Berlin?"
+    }
   },
   "cities": []
 }

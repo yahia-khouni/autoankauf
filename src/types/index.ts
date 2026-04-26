@@ -48,6 +48,99 @@ export interface FAQ {
   answer: string;
 }
 
+export interface MarketingFact {
+  value: string;
+  label: string;
+}
+
+export interface MarketingStep {
+  step: string;
+  title: string;
+  desc: string;
+}
+
+export interface MarketingSignal {
+  title: string;
+  copy: string;
+}
+
+export interface StatePageContent {
+  localBusinessName: string;
+  heroHighlight: string;
+  seoSectionTitle: string;
+  benefitsTitle: string;
+  benefits: string[];
+  processTitle: string;
+  processSteps: MarketingStep[];
+  marketDepthTitle: string;
+  marketDepthIntro: string;
+  marketSignals: MarketingSignal[];
+  vehicleTypesTitle: string;
+  vehicleTypes: string[];
+  payoutTitle: string;
+  payoutText: string;
+  semanticTitle: string;
+  semanticIntro: string;
+  semanticQueries: string[];
+  cityLinksTitle: string;
+  cityLinksIntro: string;
+  trustTitle: string;
+  trustDescription: string;
+  trustFacts: MarketingFact[];
+  sidebarBadge: string;
+  sidebarTitle: string;
+  sidebarSubtitle: string;
+  sidebarTrustItems: string[];
+}
+
+export interface CityPageContent {
+  localBusinessName: string;
+  heroTitlePrefix: string;
+  linkAnchors: string[];
+  heroTrustPills: string[];
+  heroCardRatingText: string;
+  heroCardDescription: string;
+  heroCardStats: MarketingFact[];
+  heroCardCtaText: string;
+  introTitle: string;
+  localHooksTitle: string;
+  localHooksIntro: string;
+  localHooks: MarketingSignal[];
+  landmarksTitle: string;
+  benefitsTitle: string;
+  benefits: string[];
+  processTitle: string;
+  processSteps: MarketingStep[];
+  conversionTitle: string;
+  conversionIntro: string;
+  conversionItems: string[];
+  vehicleTypesTitle: string;
+  vehicleTypesIntro: string;
+  vehicleTypes: string[];
+  semanticTitle: string;
+  semanticIntro: string;
+  semanticQueries: string[];
+  trustTitle: string;
+  trustDescription: string;
+  trustFacts: MarketingFact[];
+  nearbyIntro: string;
+  otherCitiesTitle: string;
+  sidebarBadge: string;
+  sidebarTitle: string;
+  sidebarSubtitle: string;
+  sidebarTrustItems: string[];
+  populationCardTitle: string;
+  populationCardDescription: string;
+  testimonialsTitle: string;
+  testimonialsBadge: string;
+  faqTitle: string;
+  faqSubtitle: string;
+  bottomCtaBadge: string;
+  bottomCtaTitle: string;
+  bottomCtaDescription: string;
+  bottomCtaButton: string;
+}
+
 export interface NationData {
   id: string;
   name: string;
@@ -82,6 +175,7 @@ export interface StateData {
   content: {
     heroDescription: string;
     seoText: string;
+    page: StatePageContent;
   };
   cities: string[];
 }
@@ -100,6 +194,7 @@ export interface CityData {
   content: {
     heroDescription: string;
     localContent: string;
+    page: CityPageContent;
   };
   landmarks: string[];
   nearbyCities: string[];

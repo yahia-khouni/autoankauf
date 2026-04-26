@@ -12,8 +12,8 @@
     "lng": 11.6276
   },
   "meta": {
-    "title": "Fahrzeugankauf Magdeburg | Alle Marken & Zustände",
-    "description": "Fahrzeugankauf Magdeburg — die Ottostadt an der Elbe bietet marktgerechte Preise. Kostenlose Bewertung, Abholung vor Ort und sofortige Barauszahlung garantiert.",
+    "title": "Autoankauf Magdeburg - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Magdeburg: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 39104–39130 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Magdeburg",
       "Auto verkaufen Magdeburg",
@@ -21,12 +21,163 @@
       "KFZ Ankauf Magdeburg",
       "Unfallwagen verkaufen Magdeburg",
       "Autoverkauf Magdeburg",
-      "Auto Bewertung Magdeburg"
+      "Auto Bewertung Magdeburg",
+      "Autoankauf nahe Dom Magdeburg"
     ]
   },
   "content": {
     "heroDescription": "In der Ottostadt an der Elbe erwartet Sie ein professioneller Autoankauf mit fairen Preisen, gratis Abholung und sofortiger Bezahlung — zuverlässig wie der Magdeburger Dom.",
-    "localContent": "Magdeburg ist die Landeshauptstadt Sachsen-Anhalts und liegt an der Elbe. Der Magdeburger Dom ist der älteste gotische Sakralbau Deutschlands und die Grüne Zitadelle von Friedensreich Hundertwasser ein modernes Wahrzeichen. Die rund 239.000 Einwohner profitieren vom Standort wichtiger Unternehmen. Als Knotenpunkt der A2 und A14 liegt Magdeburg zentral zwischen Berlin und Hannover — eine ideale Lage für den überregionalen Fahrzeughandel in Sachsen-Anhalt."
+    "localContent": "Magdeburg ist die Landeshauptstadt Sachsen-Anhalts und liegt an der Elbe. Der Magdeburger Dom ist der älteste gotische Sakralbau Deutschlands und die Grüne Zitadelle von Friedensreich Hundertwasser ein modernes Wahrzeichen. Die rund 239.000 Einwohner profitieren vom Standort wichtiger Unternehmen. Als Knotenpunkt der A2 und A14 liegt Magdeburg zentral zwischen Berlin und Hannover — eine ideale Lage für den überregionalen Fahrzeughandel in Sachsen-Anhalt.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Magdeburg",
+        "Auto verkaufen Magdeburg",
+        "KFZ Ankauf Magdeburg",
+        "Gebrauchtwagen verkaufen Magdeburg"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Magdeburg kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Magdeburg — So einfach geht's",
+      "localHooksTitle": "Warum viele in Magdeburg ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 39104–39130 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Dom werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Magdeburg entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Magdeburg wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Sachsen-Anhalt",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Magdeburg gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Magdeburg",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Magdeburg",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Magdeburg, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Magdeburg erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Magdeburg",
+        "Unfallwagen verkaufen Magdeburg",
+        "Motorschaden Ankauf Magdeburg",
+        "Leasingrückläufer in Magdeburg ankaufen",
+        "Firmenwagen in Magdeburg bewerten",
+        "Auto sofort verkaufen Magdeburg"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Magdeburg?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Magdeburg",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Magdeburg",
+        "Auto verkaufen Magdeburg",
+        "KFZ Ankauf Magdeburg",
+        "Wagen verkaufen Magdeburg",
+        "Gebrauchtwagen Ankauf Magdeburg",
+        "Auto ohne TÜV verkaufen Magdeburg",
+        "Unfallwagen verkaufen Magdeburg",
+        "Motorschaden Ankauf Magdeburg",
+        "PKW verkaufen Sachsen-Anhalt",
+        "PKW Ankauf Magdeburg",
+        "Autoverkauf Magdeburg",
+        "Auto Bewertung Magdeburg"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Magdeburg",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Magdeburg, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Sachsen-Anhalt",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Magdeburg — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 39104–39130",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Magdeburg — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Magdeburg",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Magdeburg wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Magdeburg zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Sachsen-Anhalt ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Magdeburg",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Dom",
@@ -41,8 +192,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Magdeburg verkaufen?",
-      "answer": "Der gesamte Verkaufsprozess in Magdeburg dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
+      "question": "Wie zügig läuft ein Fahrzeugverkauf in Magdeburg in der Praxis ab?",
+      "answer": "Im Bereich 39104–39130 sind kurze Reaktionszeiten möglich. In zentralen Lagen nahe dem Dom können wir häufig eine schnelle Besichtigung und zeitnahe Auszahlung einplanen."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Magdeburg berechnet?",

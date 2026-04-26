@@ -8,13 +8,132 @@
   "population": 17924591,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Nordrhein-Westfalen | Auto verkaufen in NRW",
-    "description": "Verkaufen Sie Ihr Auto in Nordrhein-Westfalen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Köln, Düsseldorf, Dortmund und 7 weiteren Städten.",
-    "keywords": ["Autoankauf NRW", "Auto verkaufen Nordrhein-Westfalen", "PKW Ankauf Köln", "Gebrauchtwagen Ankauf Düsseldorf", "KFZ Ankauf Dortmund"]
+    "title": "Autoankauf Nordrhein-Westfalen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Nordrhein-Westfalen: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Köln, Düsseldorf, Dortmund. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf NRW",
+      "Auto verkaufen Nordrhein-Westfalen",
+      "PKW Ankauf Köln",
+      "Gebrauchtwagen Ankauf Düsseldorf",
+      "KFZ Ankauf Dortmund"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Nordrhein-Westfalen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Köln bis Bielefeld, in allen Städten des bevölkerungsreichsten Bundeslandes.",
-    "seoText": "Nordrhein-Westfalen ist mit knapp 18 Millionen Einwohnern das bevölkerungsreichste Bundesland Deutschlands. Das Ruhrgebiet, die Rheinschiene und Ostwestfalen bilden einen der größten Automobilmärkte Europas. Ob Ford in Köln, Opel in Bochum oder die zahlreichen Zulieferer in der Region — NRW und Auto gehören zusammen."
+    "seoText": "Nordrhein-Westfalen ist mit knapp 18 Millionen Einwohnern das bevölkerungsreichste Bundesland Deutschlands. Das Ruhrgebiet, die Rheinschiene und Ostwestfalen bilden einen der größten Automobilmärkte Europas. Ob Ford in Köln, Opel in Bochum oder die zahlreichen Zulieferer in der Region — NRW und Auto gehören zusammen.",
+    "page": {
+      "heroHighlight": "In ganz Nordrhein-Westfalen kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Nordrhein-Westfalen",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Nordrhein-Westfalen",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Nordrhein-Westfalen, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Nordrhein-Westfalen aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Nordrhein-Westfalen täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Nordrhein-Westfalen entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Düsseldorf sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Nordrhein-Westfalen bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Nordrhein-Westfalen?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Nordrhein-Westfalen",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Nordrhein-Westfalen.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Nordrhein-Westfalen",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Nordrhein-Westfalen tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Nordrhein-Westfalen",
+        "Auto verkaufen Nordrhein-Westfalen",
+        "KFZ Ankauf Nordrhein-Westfalen",
+        "Wagen verkaufen Nordrhein-Westfalen",
+        "Gebrauchtwagen Ankauf Nordrhein-Westfalen",
+        "Auto ohne TÜV verkaufen Nordrhein-Westfalen",
+        "Unfallwagen verkaufen Nordrhein-Westfalen",
+        "Motorschaden Ankauf Nordrhein-Westfalen",
+        "Autoankauf NRW",
+        "PKW Ankauf Köln",
+        "Gebrauchtwagen Ankauf Düsseldorf",
+        "KFZ Ankauf Dortmund"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Nordrhein-Westfalen",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Nordrhein-Westfalen",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Nordrhein-Westfalen. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Nordrhein-Westfalen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Nordrhein-Westfalen inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Nordrhein-Westfalen",
+      "seoSectionTitle": "Warum Autoankauf in Nordrhein-Westfalen?"
+    }
   },
-  "cities": ["koeln", "duesseldorf", "dortmund", "essen", "duisburg", "bochum", "wuppertal", "bielefeld", "bonn", "muenster"]
+  "cities": [
+    "koeln",
+    "duesseldorf",
+    "dortmund",
+    "essen",
+    "duisburg",
+    "bochum",
+    "wuppertal",
+    "bielefeld",
+    "bonn",
+    "muenster"
+  ]
 }

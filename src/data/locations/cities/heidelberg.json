@@ -12,20 +12,171 @@
     "lng": 8.6724
   },
   "meta": {
-    "title": "Autoankauf Heidelberg | Sofort Bargeld für Ihr Fahrzeug",
-    "description": "Autoankauf Heidelberg — Ihr Fahrzeug verdient mehr als einen Standardpreis. Individuelle Bewertung am Neckar, kostenlose Abholung und sofortige Bargeldauszahlung.",
+    "title": "Autoankauf Heidelberg - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Heidelberg: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 69115–69126 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Heidelberg",
       "Auto verkaufen Heidelberg",
       "Gebrauchtwagen Ankauf Heidelberg",
       "Auto sofort verkaufen Heidelberg",
       "Auto Export Heidelberg",
-      "PKW verkaufen Heidelberg"
+      "PKW verkaufen Heidelberg",
+      "Autoankauf nahe Heidelberger Schloss"
     ]
   },
   "content": {
     "heroDescription": "In der romantischen Universitätsstadt erhalten Sie für Ihr Auto eine professionelle Bewertung und sofortige Auszahlung — ohne versteckte Kosten und mit persönlichem Service.",
-    "localContent": "Heidelberg fasziniert mit seiner weltberühmten Schlossruine und der ältesten Universität Deutschlands. Die rund 162.000 Einwohner zählende Stadt am Neckar ist Teil der wachstumsstarken Metropolregion Rhein-Neckar. Als internationaler Wissenschaftsstandort mit Institutionen wie dem DKFZ und EMBL zieht Heidelberg Menschen aus aller Welt an. Der regionale Automarkt profitiert von der Lage an der A5 und der engen Verflechtung mit Mannheim und der Kurpfalz."
+    "localContent": "Heidelberg fasziniert mit seiner weltberühmten Schlossruine und der ältesten Universität Deutschlands. Die rund 162.000 Einwohner zählende Stadt am Neckar ist Teil der wachstumsstarken Metropolregion Rhein-Neckar. Als internationaler Wissenschaftsstandort mit Institutionen wie dem DKFZ und EMBL zieht Heidelberg Menschen aus aller Welt an. Der regionale Automarkt profitiert von der Lage an der A5 und der engen Verflechtung mit Mannheim und der Kurpfalz.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Heidelberg",
+        "Auto verkaufen Heidelberg",
+        "KFZ Ankauf Heidelberg",
+        "Gebrauchtwagen verkaufen Heidelberg"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Heidelberg kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Heidelberg — So einfach geht's",
+      "localHooksTitle": "Warum viele in Heidelberg ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 69115–69126 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Heidelberger Schloss werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Heidelberg entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Heidelberg wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Heidelberg gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Heidelberg",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Heidelberg",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Heidelberg, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Heidelberg erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Heidelberg",
+        "Unfallwagen verkaufen Heidelberg",
+        "Motorschaden Ankauf Heidelberg",
+        "Leasingrückläufer in Heidelberg ankaufen",
+        "Firmenwagen in Heidelberg bewerten",
+        "Auto sofort verkaufen Heidelberg"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Heidelberg?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Heidelberg",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Heidelberg",
+        "Auto verkaufen Heidelberg",
+        "KFZ Ankauf Heidelberg",
+        "Wagen verkaufen Heidelberg",
+        "Gebrauchtwagen Ankauf Heidelberg",
+        "Auto ohne TÜV verkaufen Heidelberg",
+        "Unfallwagen verkaufen Heidelberg",
+        "Motorschaden Ankauf Heidelberg",
+        "PKW verkaufen Baden-Württemberg",
+        "Auto sofort verkaufen Heidelberg",
+        "Auto Export Heidelberg",
+        "PKW verkaufen Heidelberg"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Heidelberg",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Heidelberg, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Heidelberg — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 69115–69126",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Heidelberg — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Heidelberg",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Heidelberg wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Heidelberg zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Heidelberg",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Heidelberger Schloss",
@@ -40,11 +191,11 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Heidelberg verkaufen?",
-      "answer": "Nach Eingang Ihrer Anfrage aus Heidelberg erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
+      "question": "Wie schnell erhalte ich in Heidelberg ein finales Ankaufangebot?",
+      "answer": "Im Gebiet 69115–69126 reagieren wir in der Regel sehr kurzfristig. In vielen Fällen ist rund um das Heidelberger Schloss ein zeitnaher Vor-Ort-Termin mit direkter Preiszusage möglich."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Heidelberg?",
       "answer": "Nach Ihrer Online-Anfrage erhalten Sie ein vorläufiges Angebot. Stimmen die Angaben mit dem Fahrzeugzustand überein, wird dieses zum Festpreis. Dann erfolgt die Abholung und Sofortauszahlung in Heidelberg."
     },
     {

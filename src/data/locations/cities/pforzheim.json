@@ -12,20 +12,171 @@
     "lng": 8.6946
   },
   "meta": {
-    "title": "Fahrzeugankauf Pforzheim | Alle Marken & Zustände",
-    "description": "Fahrzeugankauf Pforzheim — die Goldstadt bietet auch für Ihren Gebrauchtwagen Goldwert. Alle Marken, alle Zustände, kostenlose Bewertung und Abholung inklusive.",
+    "title": "Autoankauf Pforzheim - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Pforzheim: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 75172–75181 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Pforzheim",
       "Auto verkaufen Pforzheim",
       "KFZ Ankauf Pforzheim",
       "Gebrauchtwagen verkaufen Pforzheim",
       "Motorschaden Ankauf Pforzheim",
-      "Gebrauchtwagenhandel Pforzheim"
+      "Gebrauchtwagenhandel Pforzheim",
+      "Autoankauf nahe Schmuckmuseum Pforzheim"
     ]
   },
   "content": {
     "heroDescription": "In der Goldstadt erwartet Sie ein goldrichtiges Angebot für Ihr Auto. Wir bewerten fair, holen kostenlos ab und zahlen sofort — alles direkt in Pforzheim.",
-    "localContent": "Pforzheim, die Goldstadt am Nordrand des Schwarzwalds, ist das Zentrum der deutschen Schmuck- und Uhrenindustrie. Mit rund 126.000 Einwohnern liegt die Stadt strategisch zwischen Karlsruhe und Stuttgart an der A8. Die handwerkliche Tradition Pforzheims spiegelt sich auch im Umgang mit Qualität wider — genau das bringen wir in unseren Fahrzeugankauf ein. Die Region um Pforzheim mit dem Enzkreis bietet ein großes Einzugsgebiet für den Autohandel."
+    "localContent": "Pforzheim, die Goldstadt am Nordrand des Schwarzwalds, ist das Zentrum der deutschen Schmuck- und Uhrenindustrie. Mit rund 126.000 Einwohnern liegt die Stadt strategisch zwischen Karlsruhe und Stuttgart an der A8. Die handwerkliche Tradition Pforzheims spiegelt sich auch im Umgang mit Qualität wider — genau das bringen wir in unseren Fahrzeugankauf ein. Die Region um Pforzheim mit dem Enzkreis bietet ein großes Einzugsgebiet für den Autohandel.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Pforzheim",
+        "Auto verkaufen Pforzheim",
+        "KFZ Ankauf Pforzheim",
+        "Gebrauchtwagen verkaufen Pforzheim"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Pforzheim kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Pforzheim — So einfach geht's",
+      "localHooksTitle": "Warum viele in Pforzheim ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 75172–75181 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Schmuckmuseum werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Pforzheim entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Pforzheim wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Pforzheim gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Pforzheim",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Pforzheim",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Pforzheim, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Pforzheim erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Pforzheim",
+        "Unfallwagen verkaufen Pforzheim",
+        "Motorschaden Ankauf Pforzheim",
+        "Leasingrückläufer in Pforzheim ankaufen",
+        "Firmenwagen in Pforzheim bewerten",
+        "Auto sofort verkaufen Pforzheim"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Pforzheim?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Pforzheim",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Pforzheim",
+        "Auto verkaufen Pforzheim",
+        "KFZ Ankauf Pforzheim",
+        "Wagen verkaufen Pforzheim",
+        "Gebrauchtwagen Ankauf Pforzheim",
+        "Auto ohne TÜV verkaufen Pforzheim",
+        "Unfallwagen verkaufen Pforzheim",
+        "Motorschaden Ankauf Pforzheim",
+        "PKW verkaufen Baden-Württemberg",
+        "Gebrauchtwagen verkaufen Pforzheim",
+        "Gebrauchtwagenhandel Pforzheim",
+        "Autoankauf nahe Schmuckmuseum Pforzheim"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Pforzheim",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Pforzheim, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Pforzheim — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 75172–75181",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Pforzheim — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Pforzheim",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Pforzheim wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Pforzheim zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Pforzheim",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Schmuckmuseum",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Pforzheim verkaufen?",
-      "answer": "Der gesamte Verkaufsprozess in Pforzheim dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
+      "question": "Bieten Sie in Pforzheim auch schnelle Express-Termine für den Autoverkauf an?",
+      "answer": "Ja. Für den Korridor 75172–75181 vergeben wir auf Wunsch zügige Termine. In Lagen nahe dem Schmuckmuseum sind kurzfristige Besichtigungen häufig realisierbar."
     },
     {
       "question": "Kann ich ein Auto ohne gültigen TÜV in Pforzheim verkaufen?",

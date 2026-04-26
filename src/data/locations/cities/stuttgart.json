@@ -12,20 +12,171 @@
     "lng": 9.1829
   },
   "meta": {
-    "title": "Autoankauf Stuttgart — Faire Preise & Sofortzahlung",
-    "description": "Autoankauf Stuttgart — profitieren Sie von fairen Preisen in der Automobilhauptstadt. Mercedes, Porsche & alle Marken: kostenlose Vor-Ort-Bewertung mit Sofortauszahlung.",
+    "title": "Autoankauf Stuttgart - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Stuttgart: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 70173–70619 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Stuttgart",
       "Auto verkaufen Stuttgart",
       "Gebrauchtwagen Ankauf Stuttgart",
       "Fahrzeugankauf Stuttgart",
       "Auto sofort verkaufen Stuttgart",
-      "Fahrzeugbewertung Stuttgart"
+      "Fahrzeugbewertung Stuttgart",
+      "Autoankauf am Mercedes-Benz Museum Stuttgart"
     ]
   },
   "content": {
     "heroDescription": "Verkaufen Sie Ihr Auto in der Wiege der Automobilindustrie — schnell, fair und professionell. Stuttgart ist Heimat von Mercedes-Benz und Porsche und einer der stärksten Gebrauchtwagenmärkte Deutschlands.",
-    "localContent": "Stuttgart, eingebettet im Talkessel zwischen Weinbergen und Wäldern, ist Landeshauptstadt von Baden-Württemberg und Herzstück der deutschen Automobilbranche. Als Hauptsitz von Daimler und Porsche genießt die Stadt weltweiten Ruf als Ingenieursmetropole. Mit rund 636.000 Einwohnern und einer kaufkräftigen Bevölkerung bildet Stuttgart einen der aktivsten Fahrzeugmärkte der Republik. Die exzellente Anbindung über A8 und A81 macht den Standort besonders attraktiv für den Fahrzeughandel."
+    "localContent": "Stuttgart, eingebettet im Talkessel zwischen Weinbergen und Wäldern, ist Landeshauptstadt von Baden-Württemberg und Herzstück der deutschen Automobilbranche. Als Hauptsitz von Daimler und Porsche genießt die Stadt weltweiten Ruf als Ingenieursmetropole. Mit rund 636.000 Einwohnern und einer kaufkräftigen Bevölkerung bildet Stuttgart einen der aktivsten Fahrzeugmärkte der Republik. Die exzellente Anbindung über A8 und A81 macht den Standort besonders attraktiv für den Fahrzeughandel.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Stuttgart",
+        "Auto verkaufen Stuttgart",
+        "KFZ Ankauf Stuttgart",
+        "Gebrauchtwagen verkaufen Stuttgart"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Stuttgart kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Stuttgart — So einfach geht's",
+      "localHooksTitle": "Warum viele in Stuttgart ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 70173–70619 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Mercedes-Benz Museum werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Stuttgart entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Stuttgart wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Stuttgart gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Stuttgart",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Stuttgart",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Stuttgart, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Stuttgart erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Stuttgart",
+        "Unfallwagen verkaufen Stuttgart",
+        "Motorschaden Ankauf Stuttgart",
+        "Leasingrückläufer in Stuttgart ankaufen",
+        "Firmenwagen in Stuttgart bewerten",
+        "Auto sofort verkaufen Stuttgart"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Stuttgart?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Stuttgart",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Stuttgart",
+        "Auto verkaufen Stuttgart",
+        "KFZ Ankauf Stuttgart",
+        "Wagen verkaufen Stuttgart",
+        "Gebrauchtwagen Ankauf Stuttgart",
+        "Auto ohne TÜV verkaufen Stuttgart",
+        "Unfallwagen verkaufen Stuttgart",
+        "Motorschaden Ankauf Stuttgart",
+        "PKW verkaufen Baden-Württemberg",
+        "Fahrzeugankauf Stuttgart",
+        "Auto sofort verkaufen Stuttgart",
+        "Fahrzeugbewertung Stuttgart"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Stuttgart",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Stuttgart, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Stuttgart — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 70173–70619",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Stuttgart — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Stuttgart",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Stuttgart wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Stuttgart zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Stuttgart",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Mercedes-Benz Museum",
@@ -41,8 +192,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Stuttgart verkaufen?",
-      "answer": "Wir wickeln den Autoankauf in Stuttgart meist innerhalb von 24 bis 48 Stunden ab. Kontaktieren Sie uns am Morgen — oft können wir noch am selben Tag ein verbindliches Angebot machen."
+      "question": "Kann ich mein Auto in Stuttgart per Express innerhalb von 24 Stunden verkaufen?",
+      "answer": "Ja, das ist häufig möglich. Im Bereich 70173–70619 planen wir auf Wunsch eine schnelle Vor-Ort-Bewertung; rund um das Mercedes-Benz Museum sind kurzfristige Termine besonders gut verfügbar."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Stuttgart berechnet?",

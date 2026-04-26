@@ -12,8 +12,8 @@
     "lng": 7.0116
   },
   "meta": {
-    "title": "Essen: Auto schnell & fair verkaufen | Autoankauf",
-    "description": "Essen — Auto verkaufen in der Grünen Hauptstadt Europas. Nachhaltig und fair: Wir bewerten Ihr Fahrzeug individuell und zahlen sofort bei Abholung vor Ort.",
+    "title": "Autoankauf Essen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Essen: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 45127–45359 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Essen",
       "Auto verkaufen Essen",
@@ -21,12 +21,163 @@
       "Unfallwagen verkaufen Essen",
       "Fahrzeugankauf Essen",
       "Auto ohne TÜV verkaufen Essen",
-      "Fahrzeugbewertung Essen"
+      "Fahrzeugbewertung Essen",
+      "Autoankauf nahe Zeche Zollverein Essen"
     ]
   },
   "content": {
     "heroDescription": "Europas Grüne Hauptstadt 2017 bietet grünes Licht für Ihren Autoverkauf. In Essen erhalten Sie eine professionelle Bewertung und sofortige Auszahlung — fair und transparent.",
-    "localContent": "Essen ist mit rund 583.000 Einwohnern die zweitgrößte Stadt im Ruhrgebiet und wurde 2017 als Grüne Hauptstadt Europas ausgezeichnet. Die Zeche Zollverein, UNESCO-Welterbe und ehemaliges Steinkohlebergwerk, symbolisiert den gelungenen Strukturwandel. Internationale Konzerne wie ThyssenKrupp, RWE und Aldi haben ihren Hauptsitz hier. Die A40, A42 und A52 verbinden Essen eng mit den Nachbarstädten im Revier."
+    "localContent": "Essen ist mit rund 583.000 Einwohnern die zweitgrößte Stadt im Ruhrgebiet und wurde 2017 als Grüne Hauptstadt Europas ausgezeichnet. Die Zeche Zollverein, UNESCO-Welterbe und ehemaliges Steinkohlebergwerk, symbolisiert den gelungenen Strukturwandel. Internationale Konzerne wie ThyssenKrupp, RWE und Aldi haben ihren Hauptsitz hier. Die A40, A42 und A52 verbinden Essen eng mit den Nachbarstädten im Revier.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Essen",
+        "Auto verkaufen Essen",
+        "KFZ Ankauf Essen",
+        "Gebrauchtwagen verkaufen Essen"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Essen kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Essen — So einfach geht's",
+      "localHooksTitle": "Warum viele in Essen ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 45127–45359 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Zeche Zollverein werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Essen entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Essen wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Nordrhein-Westfalen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Essen gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Essen",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Essen",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Essen, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Essen erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Essen",
+        "Unfallwagen verkaufen Essen",
+        "Motorschaden Ankauf Essen",
+        "Leasingrückläufer in Essen ankaufen",
+        "Firmenwagen in Essen bewerten",
+        "Auto sofort verkaufen Essen"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Essen?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Essen",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Essen",
+        "Auto verkaufen Essen",
+        "KFZ Ankauf Essen",
+        "Wagen verkaufen Essen",
+        "Gebrauchtwagen Ankauf Essen",
+        "Auto ohne TÜV verkaufen Essen",
+        "Unfallwagen verkaufen Essen",
+        "Motorschaden Ankauf Essen",
+        "PKW verkaufen Nordrhein-Westfalen",
+        "PKW Ankauf Essen",
+        "Fahrzeugankauf Essen",
+        "Fahrzeugbewertung Essen"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Essen",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Essen, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Nordrhein-Westfalen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Essen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 45127–45359",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Essen — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Essen",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Essen wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Essen zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Nordrhein-Westfalen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Essen",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Zeche Zollverein",
@@ -42,15 +193,15 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Essen an?",
-      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Essen ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
+      "question": "In welchen Bereichen von Essen holen Sie Fahrzeuge kostenlos ab?",
+      "answer": "Unser Team deckt den gesamten PLZ-Korridor 45127–45359 ab. Von Terminen nahe der Zeche Zollverein bis in die Randlagen bleibt die Abholung in Essen für Sie komplett kostenfrei."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Essen?",
       "answer": "Ja, wir kaufen in Essen Fahrzeuge in jedem Zustand — ob Unfallschäden, Motorprobleme, Getriebeschäden oder hohe Laufleistung. Jedes Auto hat bei uns einen fairen Wert."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Essen?",
       "answer": "Nach der Bewertung kontaktieren wir Sie mit einem konkreten Angebot. Sind Sie einverstanden, vereinbaren wir einen Termin in Essen zur Besichtigung und sofortigen Kaufabwicklung."
     },
     {

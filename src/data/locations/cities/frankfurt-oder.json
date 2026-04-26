@@ -12,8 +12,8 @@
     "lng": 14.5506
   },
   "meta": {
-    "title": "Fahrzeugankauf Frankfurt (Oder) | Alle Marken & Zustände",
-    "description": "Fahrzeugankauf Frankfurt (Oder) — an der Grenze zu Polen bieten wir marktgerechte Preise für alle Fahrzeugtypen. Unkompliziert, schnell und ohne versteckte Kosten.",
+    "title": "Autoankauf Frankfurt (Oder) - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Frankfurt (Oder): kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 15230–15236 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Frankfurt (Oder)",
       "Auto verkaufen Frankfurt (Oder)",
@@ -21,12 +21,163 @@
       "Unfallwagen verkaufen Frankfurt (Oder)",
       "Fahrzeug verkaufen Frankfurt (Oder)",
       "Auto Export Frankfurt (Oder)",
-      "Motorschaden Ankauf Frankfurt (Oder)"
+      "Motorschaden Ankauf Frankfurt (Oder)",
+      "Autoankauf nahe Oderpromenade Frankfurt (Oder)"
     ]
   },
   "content": {
     "heroDescription": "An der deutsch-polnischen Grenze bieten wir Ihnen einen unkomplizierten Fahrzeugankauf — schnelle Bewertung, fairer Preis und persönlicher Service in Frankfurt (Oder).",
-    "localContent": "Frankfurt (Oder) liegt an der deutsch-polnischen Grenze und ist Standort der Europa-Universität Viadrina. Die rund 57.000 Einwohner zählende Stadt erlebt als Brückenstadt zwischen Ost und West eine positive Entwicklung. Die A12 verbindet Frankfurt (Oder) direkt mit Berlin und der polnischen Grenze, was die Stadt zu einem interessanten Standort für den internationalen Fahrzeughandel macht. Besonders Autos mit Export-Potenzial finden hier schnell einen Käufer."
+    "localContent": "Frankfurt (Oder) liegt an der deutsch-polnischen Grenze und ist Standort der Europa-Universität Viadrina. Die rund 57.000 Einwohner zählende Stadt erlebt als Brückenstadt zwischen Ost und West eine positive Entwicklung. Die A12 verbindet Frankfurt (Oder) direkt mit Berlin und der polnischen Grenze, was die Stadt zu einem interessanten Standort für den internationalen Fahrzeughandel macht. Besonders Autos mit Export-Potenzial finden hier schnell einen Käufer.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Frankfurt (Oder)",
+        "Auto verkaufen Frankfurt (Oder)",
+        "KFZ Ankauf Frankfurt (Oder)",
+        "Gebrauchtwagen verkaufen Frankfurt (Oder)"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Frankfurt (Oder) kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Frankfurt (Oder) — So einfach geht's",
+      "localHooksTitle": "Warum viele in Frankfurt (Oder) ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 15230–15236 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Kleist-Museum werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Frankfurt (Oder) entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Frankfurt (Oder) wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Brandenburg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Frankfurt (Oder) gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Frankfurt (Oder)",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Frankfurt (Oder)",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Frankfurt (Oder), prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Frankfurt (Oder) erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Frankfurt (Oder)",
+        "Unfallwagen verkaufen Frankfurt (Oder)",
+        "Motorschaden Ankauf Frankfurt (Oder)",
+        "Leasingrückläufer in Frankfurt (Oder) ankaufen",
+        "Firmenwagen in Frankfurt (Oder) bewerten",
+        "Auto sofort verkaufen Frankfurt (Oder)"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Frankfurt (Oder)?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Frankfurt (Oder)",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Frankfurt (Oder)",
+        "Auto verkaufen Frankfurt (Oder)",
+        "KFZ Ankauf Frankfurt (Oder)",
+        "Wagen verkaufen Frankfurt (Oder)",
+        "Gebrauchtwagen Ankauf Frankfurt (Oder)",
+        "Auto ohne TÜV verkaufen Frankfurt (Oder)",
+        "Unfallwagen verkaufen Frankfurt (Oder)",
+        "Motorschaden Ankauf Frankfurt (Oder)",
+        "PKW verkaufen Brandenburg",
+        "Fahrzeug verkaufen Frankfurt (Oder)",
+        "Auto Export Frankfurt (Oder)",
+        "Autoankauf nahe Oderpromenade Frankfurt (Oder)"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Frankfurt (Oder)",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Frankfurt (Oder), wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Brandenburg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Frankfurt (Oder) — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 15230–15236",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Frankfurt (Oder) — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Frankfurt (Oder)",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Frankfurt (Oder) wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Frankfurt (Oder) zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Brandenburg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Frankfurt (Oder)",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Kleist-Museum",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Frankfurt (Oder) verkaufen?",
-      "answer": "Nach Eingang Ihrer Anfrage aus Frankfurt (Oder) erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
+      "question": "Wie schnell erhalte ich in Frankfurt (Oder) ein belastbares Ankaufangebot?",
+      "answer": "Im Gebiet 15230–15236 erfolgt die Ersteinschätzung häufig noch am selben Tag. In zentralen Lagen nahe der Oderpromenade können wir Besichtigung und Abschluss oft kurzfristig einplanen."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Frankfurt (Oder) berechnet?",

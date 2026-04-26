@@ -12,20 +12,171 @@
     "lng": 9.2109
   },
   "meta": {
-    "title": "Ihr Autoankauf in Heilbronn | Bestpreis-Garantie",
-    "description": "Autoankauf Heilbronn — wir garantieren den besten Preis für Ihr Fahrzeug am Neckar. Schnelle Abwicklung, kostenlose Abholung und sichere Sofortauszahlung.",
+    "title": "Autoankauf Heilbronn - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Heilbronn: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 74072–74081 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Heilbronn",
       "Auto verkaufen Heilbronn",
       "PKW Ankauf Heilbronn",
       "Gebrauchtwagen Ankauf Heilbronn",
       "Fahrzeug verkaufen Heilbronn",
-      "Fahrzeugbewertung Heilbronn"
+      "Fahrzeugbewertung Heilbronn",
+      "Autoankauf nahe Experimenta Heilbronn"
     ]
   },
   "content": {
     "heroDescription": "Im wirtschaftsstarken Heilbronn am Neckar erhalten Autoverkäufer faire Konditionen und eine unkomplizierte Abwicklung — vom ersten Kontakt bis zur Auszahlung.",
-    "localContent": "Heilbronn am Neckar ist mit rund 127.000 Einwohnern eine bedeutende Industriestadt und das Zentrum einer der wirtschaftsstärksten Regionen Baden-Württembergs. Als Weinstadt und Standort der Experimenta vereint Heilbronn Tradition mit Innovation. Die Lage zwischen Stuttgart und Heidelberg an der A6 und A81 macht die Stadt zu einem idealen Dreh- und Angelpunkt für den regionalen Fahrzeughandel."
+    "localContent": "Heilbronn am Neckar ist mit rund 127.000 Einwohnern eine bedeutende Industriestadt und das Zentrum einer der wirtschaftsstärksten Regionen Baden-Württembergs. Als Weinstadt und Standort der Experimenta vereint Heilbronn Tradition mit Innovation. Die Lage zwischen Stuttgart und Heidelberg an der A6 und A81 macht die Stadt zu einem idealen Dreh- und Angelpunkt für den regionalen Fahrzeughandel.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Heilbronn",
+        "Auto verkaufen Heilbronn",
+        "KFZ Ankauf Heilbronn",
+        "Gebrauchtwagen verkaufen Heilbronn"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Heilbronn kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Heilbronn — So einfach geht's",
+      "localHooksTitle": "Warum viele in Heilbronn ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 74072–74081 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Experimenta werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Heilbronn entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Heilbronn wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Heilbronn gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Heilbronn",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Heilbronn",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Heilbronn, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Heilbronn erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Heilbronn",
+        "Unfallwagen verkaufen Heilbronn",
+        "Motorschaden Ankauf Heilbronn",
+        "Leasingrückläufer in Heilbronn ankaufen",
+        "Firmenwagen in Heilbronn bewerten",
+        "Auto sofort verkaufen Heilbronn"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Heilbronn?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Heilbronn",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Heilbronn",
+        "Auto verkaufen Heilbronn",
+        "KFZ Ankauf Heilbronn",
+        "Wagen verkaufen Heilbronn",
+        "Gebrauchtwagen Ankauf Heilbronn",
+        "Auto ohne TÜV verkaufen Heilbronn",
+        "Unfallwagen verkaufen Heilbronn",
+        "Motorschaden Ankauf Heilbronn",
+        "PKW verkaufen Baden-Württemberg",
+        "PKW Ankauf Heilbronn",
+        "Fahrzeug verkaufen Heilbronn",
+        "Fahrzeugbewertung Heilbronn"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Heilbronn",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Heilbronn, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Heilbronn — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 74072–74081",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Heilbronn — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Heilbronn",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Heilbronn wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Heilbronn zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Heilbronn",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Experimenta",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Heilbronn an?",
-      "answer": "Unser kostenloser Abholservice deckt Heilbronn und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
+      "question": "Übernehmen Sie in Heilbronn auch Abholungen außerhalb der Innenstadt?",
+      "answer": "Ja, wir sind im gesamten Gebiet 74072–74081 unterwegs. Von Terminen nahe der Experimenta bis in die äußeren Stadtteile bleibt die Abholung in Heilbronn kostenlos."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Heilbronn?",

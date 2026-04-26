@@ -12,20 +12,171 @@
     "lng": 8.2473
   },
   "meta": {
-    "title": "Auto verkaufen in Mainz | Sofortzahlung & Top-Service",
-    "description": "Auto verkaufen in Mainz — die Gutenberg-Stadt bietet gut durchdachte Autoankauf-Lösungen. Sofortige Zahlung, kostenlose Abholung am Rhein und faire Bewertung.",
+    "title": "Autoankauf Mainz - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Mainz: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 55116–55131 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Mainz",
       "Auto verkaufen Mainz",
       "PKW Ankauf Mainz",
       "Gebrauchtwagen Ankauf Mainz",
       "Auto sofort verkaufen Mainz",
-      "Gebrauchtwagenhandel Mainz"
+      "Gebrauchtwagenhandel Mainz",
+      "Autoankauf nahe Mainzer Dom"
     ]
   },
   "content": {
     "heroDescription": "In der Gutenberg-Stadt Mainz schreiben wir ein neues Kapitel im Autoankauf: transparent, fair und unvergesslich schnell. Ihr Auto, unser bestes Angebot.",
-    "localContent": "Mainz ist die Landeshauptstadt von Rheinland-Pfalz und als Gutenberg-Stadt ein Symbol für Innovation und Kommunikation. Am Rhein gelegen und vis-a-vis von Wiesbaden bildet Mainz einen Teil des wirtschaftsstarken Rhein-Main-Gebiets. Die rund 221.000 Einwohner profitieren von der Nähe zu Frankfurt und einer eigenen lebendigen Wirtschaftsszene mit dem ZDF und der Universität als Ankern. Die A60, A63 und die Rheinbrücke nach Wiesbaden machen Mainz zu einem idealen Standort für den Fahrzeughandel."
+    "localContent": "Mainz ist die Landeshauptstadt von Rheinland-Pfalz und als Gutenberg-Stadt ein Symbol für Innovation und Kommunikation. Am Rhein gelegen und vis-a-vis von Wiesbaden bildet Mainz einen Teil des wirtschaftsstarken Rhein-Main-Gebiets. Die rund 221.000 Einwohner profitieren von der Nähe zu Frankfurt und einer eigenen lebendigen Wirtschaftsszene mit dem ZDF und der Universität als Ankern. Die A60, A63 und die Rheinbrücke nach Wiesbaden machen Mainz zu einem idealen Standort für den Fahrzeughandel.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Mainz",
+        "Auto verkaufen Mainz",
+        "KFZ Ankauf Mainz",
+        "Gebrauchtwagen verkaufen Mainz"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Mainz kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Mainz — So einfach geht's",
+      "localHooksTitle": "Warum viele in Mainz ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 55116–55131 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Mainzer Dom werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Mainz entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Mainz wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Rheinland-Pfalz",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Mainz gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Mainz",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Mainz",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Mainz, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Mainz erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Mainz",
+        "Unfallwagen verkaufen Mainz",
+        "Motorschaden Ankauf Mainz",
+        "Leasingrückläufer in Mainz ankaufen",
+        "Firmenwagen in Mainz bewerten",
+        "Auto sofort verkaufen Mainz"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Mainz?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Mainz",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Mainz",
+        "Auto verkaufen Mainz",
+        "KFZ Ankauf Mainz",
+        "Wagen verkaufen Mainz",
+        "Gebrauchtwagen Ankauf Mainz",
+        "Auto ohne TÜV verkaufen Mainz",
+        "Unfallwagen verkaufen Mainz",
+        "Motorschaden Ankauf Mainz",
+        "PKW verkaufen Rheinland-Pfalz",
+        "PKW Ankauf Mainz",
+        "Auto sofort verkaufen Mainz",
+        "Gebrauchtwagenhandel Mainz"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Mainz",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Mainz, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Rheinland-Pfalz",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Mainz — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 55116–55131",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Mainz — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Mainz",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Mainz wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Mainz zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Rheinland-Pfalz ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Mainz",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Mainzer Dom",
@@ -40,12 +191,12 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Mainz verkaufen?",
-      "answer": "Nach Eingang Ihrer Anfrage aus Mainz erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
+      "question": "Wie schnell erhalte ich in Mainz ein verbindliches Kaufangebot?",
+      "answer": "Im Bereich 55116–55131 erstellen wir häufig noch am selben Tag eine belastbare Ersteinschätzung. Rund um den Mainzer Dom sind kurzfristige Besichtigungen oft realisierbar."
     },
     {
       "question": "Welche Unterlagen benötige ich für den Autoverkauf in Mainz?",
-      "answer": "Notwendig sind Fahrzeugschein und Fahrzeugbrief, ein gültiger Lichtbildausweis sowie die Schlüssel. Haben Sie ein Scheckheft oder ein aktuelles Gutachten, kann das den Ankaufspreis positiv beeinflussen."
+      "answer": "Bitte bringen Sie Zulassungsbescheinigung Teil I und II, einen gültigen Ausweis und alle Schlüssel mit. Für Termine im Bereich 55116–55131 in Mainz sind HU-Bericht und Serviceheft hilfreich, damit wir schneller ein verbindliches Angebot geben können."
     },
     {
       "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Mainz?",

@@ -8,13 +8,129 @@
   "population": 13176989,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Bayern | Auto verkaufen in Bayern",
-    "description": "Verkaufen Sie Ihr Auto in Bayern. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in München, Nürnberg, Augsburg und 5 weiteren Städten.",
-    "keywords": ["Autoankauf Bayern", "Auto verkaufen Bayern", "PKW Ankauf BY", "Gebrauchtwagen Ankauf München", "KFZ Ankauf Nürnberg"]
+    "title": "Autoankauf Bayern - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Bayern: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in München, Nürnberg, Augsburg. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Bayern",
+      "Auto verkaufen Bayern",
+      "PKW Ankauf BY",
+      "Gebrauchtwagen Ankauf München",
+      "KFZ Ankauf Nürnberg"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Bayern zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von München bis Nürnberg, in allen Städten des Freistaats.",
-    "seoText": "Bayern ist das flächengrößte Bundesland Deutschlands und ein Zentrum der Automobilindustrie mit BMW und Audi. Ob Sie in der Landeshauptstadt München oder in einer der vielen anderen Städte Bayerns leben — wir kommen zu Ihnen und kaufen Ihr Fahrzeug zu fairen Konditionen."
+    "seoText": "Bayern ist das flächengrößte Bundesland Deutschlands und ein Zentrum der Automobilindustrie mit BMW und Audi. Ob Sie in der Landeshauptstadt München oder in einer der vielen anderen Städte Bayerns leben — wir kommen zu Ihnen und kaufen Ihr Fahrzeug zu fairen Konditionen.",
+    "page": {
+      "heroHighlight": "In ganz Bayern kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Bayern",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Bayern",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Bayern, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Bayern aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Bayern täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Bayern entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von München sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Bayern bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Bayern?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Bayern",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Bayern.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Bayern",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Bayern tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Bayern",
+        "Auto verkaufen Bayern",
+        "KFZ Ankauf Bayern",
+        "Wagen verkaufen Bayern",
+        "Gebrauchtwagen Ankauf Bayern",
+        "Auto ohne TÜV verkaufen Bayern",
+        "Unfallwagen verkaufen Bayern",
+        "Motorschaden Ankauf Bayern",
+        "PKW Ankauf BY",
+        "Gebrauchtwagen Ankauf München",
+        "KFZ Ankauf Nürnberg"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Bayern",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Bayern",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Bayern. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Bayern — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Bayern inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Bayern",
+      "seoSectionTitle": "Warum Autoankauf in Bayern?"
+    }
   },
-  "cities": ["muenchen", "nuernberg", "augsburg", "regensburg", "ingolstadt", "wuerzburg", "fuerth", "erlangen"]
+  "cities": [
+    "muenchen",
+    "nuernberg",
+    "augsburg",
+    "regensburg",
+    "ingolstadt",
+    "wuerzburg",
+    "fuerth",
+    "erlangen"
+  ]
 }

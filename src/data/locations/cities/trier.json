@@ -12,20 +12,171 @@
     "lng": 6.6371
   },
   "meta": {
-    "title": "Autoankauf Trier — Faire Preise & Sofortzahlung",
-    "description": "Autoankauf Trier — die älteste Stadt Deutschlands bietet zeitgemäßen Fahrzeugankauf. Faire Preise, persönlicher Service an der Mosel und sofortige Auszahlung.",
+    "title": "Autoankauf Trier - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Trier: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 54290–54296 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Trier",
       "Auto verkaufen Trier",
       "PKW Ankauf Trier",
       "Unfallwagen verkaufen Trier",
       "Fahrzeug verkaufen Trier",
-      "Auto Export Trier"
+      "Auto Export Trier",
+      "Autoankauf nahe Porta Nigra Trier"
     ]
   },
   "content": {
     "heroDescription": "In der ältesten Stadt Deutschlands verbinden wir 2.000 Jahre Handelsgeschichte mit einem modernen Autoankauf: persönlich, fair und sofort.",
-    "localContent": "Trier ist die älteste Stadt Deutschlands, gegründet als Augusta Treverorum durch die Römer. Die Porta Nigra und die römischen Baudenkmäler sind UNESCO-Welterbestätten. Die rund 112.000 Einwohner zählende Stadt an der Mosel liegt unweit der Grenzen zu Luxemburg und Frankreich, was sie zu einem Dreh- und Angelpunkt für den grenzüberschreitenden Fahrzeughandel macht."
+    "localContent": "Trier ist die älteste Stadt Deutschlands, gegründet als Augusta Treverorum durch die Römer. Die Porta Nigra und die römischen Baudenkmäler sind UNESCO-Welterbestätten. Die rund 112.000 Einwohner zählende Stadt an der Mosel liegt unweit der Grenzen zu Luxemburg und Frankreich, was sie zu einem Dreh- und Angelpunkt für den grenzüberschreitenden Fahrzeughandel macht.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Trier",
+        "Auto verkaufen Trier",
+        "KFZ Ankauf Trier",
+        "Gebrauchtwagen verkaufen Trier"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Trier kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Trier — So einfach geht's",
+      "localHooksTitle": "Warum viele in Trier ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 54290–54296 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Porta Nigra werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Trier entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Trier wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Rheinland-Pfalz",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Trier gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Trier",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Trier",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Trier, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Trier erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Trier",
+        "Unfallwagen verkaufen Trier",
+        "Motorschaden Ankauf Trier",
+        "Leasingrückläufer in Trier ankaufen",
+        "Firmenwagen in Trier bewerten",
+        "Auto sofort verkaufen Trier"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Trier?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Trier",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Trier",
+        "Auto verkaufen Trier",
+        "KFZ Ankauf Trier",
+        "Wagen verkaufen Trier",
+        "Gebrauchtwagen Ankauf Trier",
+        "Auto ohne TÜV verkaufen Trier",
+        "Unfallwagen verkaufen Trier",
+        "Motorschaden Ankauf Trier",
+        "PKW verkaufen Rheinland-Pfalz",
+        "PKW Ankauf Trier",
+        "Fahrzeug verkaufen Trier",
+        "Auto Export Trier"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Trier",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Trier, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Rheinland-Pfalz",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Trier — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 54290–54296",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Trier — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Trier",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Trier wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Trier zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Rheinland-Pfalz ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Trier",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Porta Nigra",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Trier an?",
-      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Trier ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
+      "question": "Deckt Ihr kostenloser Abholservice in Trier auch Außenbezirke ab?",
+      "answer": "Ja, wir holen Fahrzeuge im gesamten Bereich 54290–54296 kostenfrei ab. Von Terminen nahe der Porta Nigra bis in Randlagen bleibt die Abholung in Trier kostenlos."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Trier berechnet?",

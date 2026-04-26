@@ -12,20 +12,171 @@
     "lng": 9.9876
   },
   "meta": {
-    "title": "Auto verkaufen Ulm — Schnell, sicher & unkompliziert",
-    "description": "Auto verkaufen in Ulm an der Donau — schnell, sicher und mit bestem Preis. Professionelle Bewertung, gratis Abholung und Zahlung am selben Tag möglich.",
+    "title": "Autoankauf Ulm - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Ulm: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 89073–89081 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Ulm",
       "Auto verkaufen Ulm",
       "Gebrauchtwagen verkaufen Ulm",
       "Wagen verkaufen Ulm",
       "Autoverkauf Ulm",
-      "Auto ohne TÜV verkaufen Ulm"
+      "Auto ohne TÜV verkaufen Ulm",
+      "Autoankauf nahe Ulmer Münster"
     ]
   },
   "content": {
     "heroDescription": "An der Donau, im Schatten des höchsten Kirchturms der Welt, bieten wir Ihnen den besten Preis für Ihr Fahrzeug — unkompliziert und in Rekordzeit.",
-    "localContent": "Ulm liegt an der Donau und ist mit dem höchsten Kirchturm der Welt ein Wahrzeichen von Schwaben. Die rund 129.000 Einwohner zählende Stadt an der Grenze zu Bayern ist ein bedeutender Wissenschafts- und Wirtschaftsstandort. Die Doppelstadt Ulm/Neu-Ulm verbindet zwei Bundesländer und schafft einen großen zusammenhängenden Wirtschaftsraum. Durch die Lage an A7 und A8 ist Ulm ein wichtiger Verkehrsknotenpunkt für den Süden Deutschlands."
+    "localContent": "Ulm liegt an der Donau und ist mit dem höchsten Kirchturm der Welt ein Wahrzeichen von Schwaben. Die rund 129.000 Einwohner zählende Stadt an der Grenze zu Bayern ist ein bedeutender Wissenschafts- und Wirtschaftsstandort. Die Doppelstadt Ulm/Neu-Ulm verbindet zwei Bundesländer und schafft einen großen zusammenhängenden Wirtschaftsraum. Durch die Lage an A7 und A8 ist Ulm ein wichtiger Verkehrsknotenpunkt für den Süden Deutschlands.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Ulm",
+        "Auto verkaufen Ulm",
+        "KFZ Ankauf Ulm",
+        "Gebrauchtwagen verkaufen Ulm"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Ulm kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Ulm — So einfach geht's",
+      "localHooksTitle": "Warum viele in Ulm ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 89073–89081 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Ulmer Münster werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Ulm entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Ulm wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Ulm gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Ulm",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Ulm",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Ulm, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Ulm erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Ulm",
+        "Unfallwagen verkaufen Ulm",
+        "Motorschaden Ankauf Ulm",
+        "Leasingrückläufer in Ulm ankaufen",
+        "Firmenwagen in Ulm bewerten",
+        "Auto sofort verkaufen Ulm"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Ulm?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Ulm",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Ulm",
+        "Auto verkaufen Ulm",
+        "KFZ Ankauf Ulm",
+        "Wagen verkaufen Ulm",
+        "Gebrauchtwagen Ankauf Ulm",
+        "Auto ohne TÜV verkaufen Ulm",
+        "Unfallwagen verkaufen Ulm",
+        "Motorschaden Ankauf Ulm",
+        "PKW verkaufen Baden-Württemberg",
+        "Gebrauchtwagen verkaufen Ulm",
+        "Autoverkauf Ulm",
+        "Autoankauf nahe Ulmer Münster"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Ulm",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Ulm, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Ulm — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 89073–89081",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Ulm — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Ulm",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Ulm wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Ulm zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Ulm",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Ulmer Münster",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Ulm verkaufen?",
-      "answer": "Schnelligkeit ist unser Markenzeichen: In Ulm schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
+      "question": "Wie schnell kann in Ulm aus einer Anfrage ein verbindlicher Ankauf werden?",
+      "answer": "Im Bereich 89073–89081 reagieren wir häufig sehr zeitnah. Rund um das Ulmer Münster sind kurzfristige Besichtigungs- und Abschlusstermine oft möglich."
     },
     {
       "question": "Welche Unterlagen benötige ich für den Autoverkauf in Ulm?",

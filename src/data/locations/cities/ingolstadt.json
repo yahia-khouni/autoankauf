@@ -12,20 +12,171 @@
     "lng": 11.4258
   },
   "meta": {
-    "title": "Auto verkaufen in Ingolstadt | Kostenloses Angebot in 24h",
-    "description": "Auto verkaufen in Ingolstadt — der Audi-Stadt. Top-Ankaufspreise durch die starke lokale Automobilnachfrage. Kostenlose Bewertung und Sofortzahlung in 24 Stunden.",
+    "title": "Autoankauf Ingolstadt - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Ingolstadt: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 85049–85057 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Ingolstadt",
       "Auto verkaufen Ingolstadt",
       "Gebrauchtwagen verkaufen Ingolstadt",
       "Fahrzeugankauf Ingolstadt",
       "Auto sofort verkaufen Ingolstadt",
-      "Gebrauchtwagenhandel Ingolstadt"
+      "Gebrauchtwagenhandel Ingolstadt",
+      "Autoankauf nahe Audi Forum Ingolstadt"
     ]
   },
   "content": {
     "heroDescription": "In der Audi-Stadt Ingolstadt kennen wir den Wert guter Automobile. Profitieren Sie von schnellem Ankauf, fairen Bewertungen und sofortiger Bezahlung vor Ort.",
-    "localContent": "Ingolstadt an der Donau ist der Hauptsitz der AUDI AG und damit einer der wichtigsten Automobilstandorte Deutschlands. Die rund 139.000 Einwohner zählende Stadt profitiert wirtschaftlich stark von der Automobilindustrie, was sich auch in einem besonders regen Gebrauchtwagenmarkt niederschlägt. Durch die Audi-Fertigung vor Ort besteht eine hohe Nachfrage nach Fahrzeugen aller Marken. Die A9 zwischen München und Nürnberg führt direkt durch das Stadtgebiet."
+    "localContent": "Ingolstadt an der Donau ist der Hauptsitz der AUDI AG und damit einer der wichtigsten Automobilstandorte Deutschlands. Die rund 139.000 Einwohner zählende Stadt profitiert wirtschaftlich stark von der Automobilindustrie, was sich auch in einem besonders regen Gebrauchtwagenmarkt niederschlägt. Durch die Audi-Fertigung vor Ort besteht eine hohe Nachfrage nach Fahrzeugen aller Marken. Die A9 zwischen München und Nürnberg führt direkt durch das Stadtgebiet.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Ingolstadt",
+        "Auto verkaufen Ingolstadt",
+        "KFZ Ankauf Ingolstadt",
+        "Gebrauchtwagen verkaufen Ingolstadt"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Ingolstadt kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Ingolstadt — So einfach geht's",
+      "localHooksTitle": "Warum viele in Ingolstadt ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 85049–85057 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Audi Forum werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Ingolstadt entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Ingolstadt wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Bayern",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Ingolstadt gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Ingolstadt",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Ingolstadt",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Ingolstadt, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Ingolstadt erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Ingolstadt",
+        "Unfallwagen verkaufen Ingolstadt",
+        "Motorschaden Ankauf Ingolstadt",
+        "Leasingrückläufer in Ingolstadt ankaufen",
+        "Firmenwagen in Ingolstadt bewerten",
+        "Auto sofort verkaufen Ingolstadt"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Ingolstadt?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Ingolstadt",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Ingolstadt",
+        "Auto verkaufen Ingolstadt",
+        "KFZ Ankauf Ingolstadt",
+        "Wagen verkaufen Ingolstadt",
+        "Gebrauchtwagen Ankauf Ingolstadt",
+        "Auto ohne TÜV verkaufen Ingolstadt",
+        "Unfallwagen verkaufen Ingolstadt",
+        "Motorschaden Ankauf Ingolstadt",
+        "PKW verkaufen Bayern",
+        "Gebrauchtwagen verkaufen Ingolstadt",
+        "Fahrzeugankauf Ingolstadt",
+        "Auto sofort verkaufen Ingolstadt"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Ingolstadt",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Ingolstadt, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Bayern",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Ingolstadt — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 85049–85057",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Ingolstadt — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Ingolstadt",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Ingolstadt wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Ingolstadt zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Bayern ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Ingolstadt",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Audi Forum",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Ingolstadt an?",
-      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Ingolstadt ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
+      "question": "Wie schnell kann Ihr Team in Ingolstadt zur Fahrzeugabholung vor Ort sein?",
+      "answer": "Im Bereich 85049–85057 sind schnelle Abholtermine möglich. Von Lagen nahe dem Audi Forum bis in angrenzende Stadtteile bleibt die Abholung in Ingolstadt kostenfrei."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Ingolstadt berechnet?",

@@ -12,20 +12,171 @@
     "lng": 7.1508
   },
   "meta": {
-    "title": "Auto verkaufen Wuppertal — Schnell, sicher & unkompliziert",
-    "description": "Auto verkaufen in Wuppertal — die Stadt der Schwebebahn bietet schnellen Autoankauf ohne Umwege. Kostenlose Bewertung, sichere Zahlung und Gratis-Abholung.",
+    "title": "Autoankauf Wuppertal - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Wuppertal: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 42103–42399 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Wuppertal",
       "Auto verkaufen Wuppertal",
       "KFZ Ankauf Wuppertal",
       "Fahrzeugankauf Wuppertal",
       "Fahrzeug verkaufen Wuppertal",
-      "Gebrauchtwagenhandel Wuppertal"
+      "Gebrauchtwagenhandel Wuppertal",
+      "Autoankauf nahe Schwebebahn Wuppertal"
     ]
   },
   "content": {
     "heroDescription": "Wo die Schwebebahn über der Wupper schwebt, bewegen auch wir etwas für Sie: professioneller Autoankauf in Wuppertal mit persönlichem Service und Sofortauszahlung.",
-    "localContent": "Wuppertal im Bergischen Land ist weltweit bekannt für seine einzigartige Schwebebahn, die seit 1901 über der Wupper schwebt. Die rund 359.000 Einwohner zählende Stadt verbindet bergischen Charme mit einem aktiven Wirtschaftsleben. Mit Bayer als bedeutendem Arbeitgeber in der Region verfügt Wuppertal über eine vielseitige Wirtschaftsbasis. Die A1, A46 und die Nähe zu Köln und Düsseldorf eröffnen einen breiten Absatzmarkt für angekaufte Fahrzeuge."
+    "localContent": "Wuppertal im Bergischen Land ist weltweit bekannt für seine einzigartige Schwebebahn, die seit 1901 über der Wupper schwebt. Die rund 359.000 Einwohner zählende Stadt verbindet bergischen Charme mit einem aktiven Wirtschaftsleben. Mit Bayer als bedeutendem Arbeitgeber in der Region verfügt Wuppertal über eine vielseitige Wirtschaftsbasis. Die A1, A46 und die Nähe zu Köln und Düsseldorf eröffnen einen breiten Absatzmarkt für angekaufte Fahrzeuge.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Wuppertal",
+        "Auto verkaufen Wuppertal",
+        "KFZ Ankauf Wuppertal",
+        "Gebrauchtwagen verkaufen Wuppertal"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Wuppertal kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Wuppertal — So einfach geht's",
+      "localHooksTitle": "Warum viele in Wuppertal ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 42103–42399 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Schwebebahn werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Wuppertal entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Wuppertal wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Nordrhein-Westfalen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Wuppertal gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Wuppertal",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Wuppertal",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Wuppertal, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Wuppertal erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Wuppertal",
+        "Unfallwagen verkaufen Wuppertal",
+        "Motorschaden Ankauf Wuppertal",
+        "Leasingrückläufer in Wuppertal ankaufen",
+        "Firmenwagen in Wuppertal bewerten",
+        "Auto sofort verkaufen Wuppertal"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Wuppertal?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Wuppertal",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Wuppertal",
+        "Auto verkaufen Wuppertal",
+        "KFZ Ankauf Wuppertal",
+        "Wagen verkaufen Wuppertal",
+        "Gebrauchtwagen Ankauf Wuppertal",
+        "Auto ohne TÜV verkaufen Wuppertal",
+        "Unfallwagen verkaufen Wuppertal",
+        "Motorschaden Ankauf Wuppertal",
+        "PKW verkaufen Nordrhein-Westfalen",
+        "Fahrzeugankauf Wuppertal",
+        "Fahrzeug verkaufen Wuppertal",
+        "Gebrauchtwagenhandel Wuppertal"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Wuppertal",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Wuppertal, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Nordrhein-Westfalen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Wuppertal — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 42103–42399",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Wuppertal — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Wuppertal",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Wuppertal wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Wuppertal zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Nordrhein-Westfalen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Wuppertal",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Schwebebahn",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Wuppertal verkaufen?",
-      "answer": "Der gesamte Verkaufsprozess in Wuppertal dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
+      "question": "Kann ich in Wuppertal auch bei Zeitdruck kurzfristig verkaufen?",
+      "answer": "Ja. Im Bereich 42103–42399 sind kurzfristige Ankauftermine möglich. Rund um die Schwebebahn koordinieren wir Besichtigung, Vertragsabschluss und Auszahlung häufig innerhalb kurzer Zeit."
     },
     {
       "question": "Bieten Sie einen kostenlosen Abholservice in Wuppertal an?",

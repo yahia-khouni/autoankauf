@@ -12,8 +12,8 @@
     "lng": 8.4037
   },
   "meta": {
-    "title": "Karlsruhe: Auto schnell & fair verkaufen | Autoankauf",
-    "description": "Karlsruhe — Auto verkaufen in der Residenz des Rechts. Faire Bewertung, kostenlose Abholung im gesamten Stadtgebiet und sofortige Auszahlung. Unverbindlich anfragen!",
+    "title": "Autoankauf Karlsruhe - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Karlsruhe: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 76131–76229 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Karlsruhe",
       "Auto verkaufen Karlsruhe",
@@ -21,12 +21,163 @@
       "Fahrzeugankauf Karlsruhe",
       "Fahrzeug verkaufen Karlsruhe",
       "PKW verkaufen Karlsruhe",
-      "Auto Bewertung Karlsruhe"
+      "Auto Bewertung Karlsruhe",
+      "Autoankauf nahe Schloss Karlsruhe"
     ]
   },
   "content": {
     "heroDescription": "Verkaufen Sie Ihr Fahrzeug in der Fächerstadt unkompliziert und zu marktgerechten Konditionen. In Karlsruhe verbinden sich Technologiekompetenz und ein starker regionaler Automarkt.",
-    "localContent": "Karlsruhe ist mit rund 313.000 Einwohnern die drittgrößte Stadt Baden-Württembergs und als Sitz des Bundesgerichtshofs und Bundesverfassungsgerichts die Residenz des Rechts. Die fächerförmig angelegte Stadt am Oberrhein ist auch ein bedeutender Technologie- und IT-Standort mit dem KIT als einer der führenden Technischen Universitäten. Die zentrale Lage an der A5 und A8 sowie die Nähe zum Elsass machen Karlsruhe zu einem attraktiven Standort für den überregionalen Fahrzeughandel."
+    "localContent": "Karlsruhe ist mit rund 313.000 Einwohnern die drittgrößte Stadt Baden-Württembergs und als Sitz des Bundesgerichtshofs und Bundesverfassungsgerichts die Residenz des Rechts. Die fächerförmig angelegte Stadt am Oberrhein ist auch ein bedeutender Technologie- und IT-Standort mit dem KIT als einer der führenden Technischen Universitäten. Die zentrale Lage an der A5 und A8 sowie die Nähe zum Elsass machen Karlsruhe zu einem attraktiven Standort für den überregionalen Fahrzeughandel.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Karlsruhe",
+        "Auto verkaufen Karlsruhe",
+        "KFZ Ankauf Karlsruhe",
+        "Gebrauchtwagen verkaufen Karlsruhe"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Karlsruhe kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Karlsruhe — So einfach geht's",
+      "localHooksTitle": "Warum viele in Karlsruhe ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 76131–76229 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Schloss Karlsruhe werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Karlsruhe entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Karlsruhe wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Karlsruhe gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Karlsruhe",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Karlsruhe",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Karlsruhe, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Karlsruhe erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Karlsruhe",
+        "Unfallwagen verkaufen Karlsruhe",
+        "Motorschaden Ankauf Karlsruhe",
+        "Leasingrückläufer in Karlsruhe ankaufen",
+        "Firmenwagen in Karlsruhe bewerten",
+        "Auto sofort verkaufen Karlsruhe"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Karlsruhe?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Karlsruhe",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Karlsruhe",
+        "Auto verkaufen Karlsruhe",
+        "KFZ Ankauf Karlsruhe",
+        "Wagen verkaufen Karlsruhe",
+        "Gebrauchtwagen Ankauf Karlsruhe",
+        "Auto ohne TÜV verkaufen Karlsruhe",
+        "Unfallwagen verkaufen Karlsruhe",
+        "Motorschaden Ankauf Karlsruhe",
+        "PKW verkaufen Baden-Württemberg",
+        "Fahrzeugankauf Karlsruhe",
+        "Fahrzeug verkaufen Karlsruhe",
+        "PKW verkaufen Karlsruhe"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Karlsruhe",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Karlsruhe, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Karlsruhe — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 76131–76229",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Karlsruhe — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Karlsruhe",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Karlsruhe wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Karlsruhe zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Karlsruhe",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Schloss Karlsruhe",
@@ -41,8 +192,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Karlsruhe verkaufen?",
-      "answer": "Der gesamte Verkaufsprozess in Karlsruhe dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
+      "question": "Ist in Karlsruhe auch ein Verkauf mit sehr kurzer Vorlaufzeit möglich?",
+      "answer": "Ja, in vielen Fällen. Für den Bereich 76131–76229 können wir eine schnelle Terminvergabe anbieten. Gerade rund um das Schloss Karlsruhe sind oft kurzfristige Besichtigungen möglich."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Karlsruhe?",

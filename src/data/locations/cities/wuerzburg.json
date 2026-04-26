@@ -12,20 +12,171 @@
     "lng": 9.9294
   },
   "meta": {
-    "title": "Würzburg: Auto schnell & fair verkaufen | Autoankauf",
-    "description": "Würzburg — Auto verkaufen in der fränkischen Weinstadt. Faire Bewertung am Main, schnelle Abwicklung und kostenlose Abholung in der gesamten Region Unterfranken.",
+    "title": "Autoankauf Würzburg - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Würzburg: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 97070–97084 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Würzburg",
       "Auto verkaufen Würzburg",
       "KFZ Ankauf Würzburg",
       "Wagen verkaufen Würzburg",
       "Fahrzeug verkaufen Würzburg",
-      "Autoankauf in der Nähe Würzburg"
+      "Autoankauf in der Nähe Würzburg",
+      "Autoankauf nahe Residenz Würzburg"
     ]
   },
   "content": {
     "heroDescription": "An der Mainbrücke zwischen Weinbergen und Welterbe erwartet Sie ein professioneller Autoankauf mit persönlichem Service. In Würzburg verkaufen Sie Ihr Auto fair und schnell.",
-    "localContent": "Würzburg liegt am Main in Unterfranken und bezaubert mit seiner barocken Residenz, die zum UNESCO-Welterbe gehört. Die rund 129.000 Einwohner zählende Universitätsstadt ist kulturelles und wirtschaftliches Zentrum der Region Mainfranken. Als Schnittpunkt der A3 und A7 ist Würzburg ein zentraler Verkehrsknotenpunkt zwischen Frankfurt und Nürnberg. Die Kombination aus studentischem Leben und gestandener Wirtschaftskraft erzeugt einen vielfältigen lokalen Fahrzeugmarkt."
+    "localContent": "Würzburg liegt am Main in Unterfranken und bezaubert mit seiner barocken Residenz, die zum UNESCO-Welterbe gehört. Die rund 129.000 Einwohner zählende Universitätsstadt ist kulturelles und wirtschaftliches Zentrum der Region Mainfranken. Als Schnittpunkt der A3 und A7 ist Würzburg ein zentraler Verkehrsknotenpunkt zwischen Frankfurt und Nürnberg. Die Kombination aus studentischem Leben und gestandener Wirtschaftskraft erzeugt einen vielfältigen lokalen Fahrzeugmarkt.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Würzburg",
+        "Auto verkaufen Würzburg",
+        "KFZ Ankauf Würzburg",
+        "Gebrauchtwagen verkaufen Würzburg"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Würzburg kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Würzburg — So einfach geht's",
+      "localHooksTitle": "Warum viele in Würzburg ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 97070–97084 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Residenz werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Würzburg entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Würzburg wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Bayern",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Würzburg gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Würzburg",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Würzburg",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Würzburg, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Würzburg erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Würzburg",
+        "Unfallwagen verkaufen Würzburg",
+        "Motorschaden Ankauf Würzburg",
+        "Leasingrückläufer in Würzburg ankaufen",
+        "Firmenwagen in Würzburg bewerten",
+        "Auto sofort verkaufen Würzburg"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Würzburg?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Würzburg",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Würzburg",
+        "Auto verkaufen Würzburg",
+        "KFZ Ankauf Würzburg",
+        "Wagen verkaufen Würzburg",
+        "Gebrauchtwagen Ankauf Würzburg",
+        "Auto ohne TÜV verkaufen Würzburg",
+        "Unfallwagen verkaufen Würzburg",
+        "Motorschaden Ankauf Würzburg",
+        "PKW verkaufen Bayern",
+        "Fahrzeug verkaufen Würzburg",
+        "Autoankauf in der Nähe Würzburg",
+        "Autoankauf nahe Residenz Würzburg"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Würzburg",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Würzburg, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Bayern",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Würzburg — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 97070–97084",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Würzburg — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Würzburg",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Würzburg wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Würzburg zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Bayern ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Würzburg",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Residenz",
@@ -40,15 +191,15 @@
   ],
   "faq": [
     {
-      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Würzburg?",
-      "answer": "Für den Verkauf in Würzburg benötigen Sie: Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), Ihren gültigen Personalausweis und alle Fahrzeugschlüssel. Serviceheft und TÜV-Bericht sind hilfreich, aber nicht zwingend erforderlich."
+      "question": "Welche Unterlagen sollte ich in Würzburg für eine schnelle Preiszusage mitbringen?",
+      "answer": "Bitte halten Sie Zulassungsbescheinigung Teil I und II, Ausweis und alle Schlüssel bereit. Im Bereich 97070–97084 prüfen wir die Unterlagen direkt beim Termin und können den Ablauf dadurch beschleunigen."
     },
     {
       "question": "Kann ich ein Auto ohne gültigen TÜV in Würzburg verkaufen?",
       "answer": "Selbstverständlich. Viele Verkäufer in Würzburg möchten kein Geld mehr in den TÜV investieren — das verstehen wir und kaufen Ihr Auto auch ohne gültige HU an."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Würzburg?",
       "answer": "Sie erhalten zunächst eine unverbindliche Online-Schätzung. Im nächsten Schritt besichtigen wir das Fahrzeug in Würzburg, bestätigen den Preis und zahlen sofort — bar oder per Echtzeitüberweisung."
     },
     {

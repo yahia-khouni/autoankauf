@@ -8,13 +8,124 @@
   "population": 1628378,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Mecklenburg-Vorpommern | Auto verkaufen in MV",
-    "description": "Verkaufen Sie Ihr Auto in Mecklenburg-Vorpommern. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Rostock, Schwerin und Umgebung.",
-    "keywords": ["Autoankauf Mecklenburg-Vorpommern", "Auto verkaufen MV", "PKW Ankauf Rostock", "Gebrauchtwagen Ankauf Schwerin", "KFZ Ankauf Mecklenburg"]
+    "title": "Autoankauf Mecklenburg-Vorpommern - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Mecklenburg-Vorpommern: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Rostock, Schwerin. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Mecklenburg-Vorpommern",
+      "Auto verkaufen MV",
+      "PKW Ankauf Rostock",
+      "Gebrauchtwagen Ankauf Schwerin",
+      "KFZ Ankauf Mecklenburg"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Mecklenburg-Vorpommern zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Rostock, Schwerin und dem gesamten Bundesland.",
-    "seoText": "Mecklenburg-Vorpommern liegt im Nordosten Deutschlands an der Ostseeküste. Mit Rostock als größter Stadt und der Landeshauptstadt Schwerin bieten wir einen zuverlässigen Ankauf-Service. Auch in ländlichen Regionen sind wir für Sie unterwegs — wir kommen direkt zu Ihnen."
+    "seoText": "Mecklenburg-Vorpommern liegt im Nordosten Deutschlands an der Ostseeküste. Mit Rostock als größter Stadt und der Landeshauptstadt Schwerin bieten wir einen zuverlässigen Ankauf-Service. Auch in ländlichen Regionen sind wir für Sie unterwegs — wir kommen direkt zu Ihnen.",
+    "page": {
+      "heroHighlight": "In ganz Mecklenburg-Vorpommern kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Mecklenburg-Vorpommern",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Mecklenburg-Vorpommern",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Mecklenburg-Vorpommern, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Mecklenburg-Vorpommern aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Mecklenburg-Vorpommern täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Mecklenburg-Vorpommern entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Schwerin sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Mecklenburg-Vorpommern bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Mecklenburg-Vorpommern?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Mecklenburg-Vorpommern",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Mecklenburg-Vorpommern.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Mecklenburg-Vorpommern",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Mecklenburg-Vorpommern tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Mecklenburg-Vorpommern",
+        "Auto verkaufen Mecklenburg-Vorpommern",
+        "KFZ Ankauf Mecklenburg-Vorpommern",
+        "Wagen verkaufen Mecklenburg-Vorpommern",
+        "Gebrauchtwagen Ankauf Mecklenburg-Vorpommern",
+        "Auto ohne TÜV verkaufen Mecklenburg-Vorpommern",
+        "Unfallwagen verkaufen Mecklenburg-Vorpommern",
+        "Motorschaden Ankauf Mecklenburg-Vorpommern",
+        "Auto verkaufen MV",
+        "PKW Ankauf Rostock",
+        "Gebrauchtwagen Ankauf Schwerin",
+        "KFZ Ankauf Mecklenburg"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Mecklenburg-Vorpommern",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Mecklenburg-Vorpommern",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Mecklenburg-Vorpommern. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Mecklenburg-Vorpommern — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Mecklenburg-Vorpommern inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Mecklenburg-Vorpommern",
+      "seoSectionTitle": "Warum Autoankauf in Mecklenburg-Vorpommern?"
+    }
   },
-  "cities": ["rostock", "schwerin"]
+  "cities": [
+    "rostock",
+    "schwerin"
+  ]
 }

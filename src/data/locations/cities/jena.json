@@ -12,20 +12,171 @@
     "lng": 11.5892
   },
   "meta": {
-    "title": "Autoankauf Jena — Faire Preise & Sofortzahlung",
-    "description": "Autoankauf Jena — die Optikstadt bietet glasklare Preise und transparente Abwicklung. Carl Zeiss und Schott geben den Qualitätsmaßstab: auch bei unserem Autoankauf.",
+    "title": "Autoankauf Jena - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Jena: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 07743–07749 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Jena",
       "Auto verkaufen Jena",
       "Gebrauchtwagen verkaufen Jena",
       "Fahrzeugankauf Jena",
       "Auto sofort verkaufen Jena",
-      "PKW verkaufen Jena"
+      "PKW verkaufen Jena",
+      "Autoankauf nahe JenTower Jena"
     ]
   },
   "content": {
     "heroDescription": "In der Lichtstadt Jena sehen wir klar, was Ihr Auto wert ist. Transparente Bewertung, persönlicher Service und Sofortauszahlung — so funktioniert moderner Autoankauf.",
-    "localContent": "Jena ist die Lichtstadt Thüringens und als Sitz von Zeiss und Schott ein bedeutender Technologiestandort. Die rund 111.000 Einwohner zählende Universitätsstadt im Saaletal verbindet optische Tradition mit innovativer Forschung. Die Friedrich-Schiller-Universität und zahlreiche Hightech-Unternehmen sorgen für eine junge, kaufkräftige Bevölkerung. Die A4 und A9 in unmittelbarer Nähe verbinden Jena mit Erfurt, Leipzig und dem gesamten mitteldeutschen Raum."
+    "localContent": "Jena ist die Lichtstadt Thüringens und als Sitz von Zeiss und Schott ein bedeutender Technologiestandort. Die rund 111.000 Einwohner zählende Universitätsstadt im Saaletal verbindet optische Tradition mit innovativer Forschung. Die Friedrich-Schiller-Universität und zahlreiche Hightech-Unternehmen sorgen für eine junge, kaufkräftige Bevölkerung. Die A4 und A9 in unmittelbarer Nähe verbinden Jena mit Erfurt, Leipzig und dem gesamten mitteldeutschen Raum.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Jena",
+        "Auto verkaufen Jena",
+        "KFZ Ankauf Jena",
+        "Gebrauchtwagen verkaufen Jena"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Jena kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Jena — So einfach geht's",
+      "localHooksTitle": "Warum viele in Jena ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 07743–07749 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um JenTower werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Jena entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Jena wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Thüringen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Jena gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Jena",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Jena",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Jena, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Jena erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Jena",
+        "Unfallwagen verkaufen Jena",
+        "Motorschaden Ankauf Jena",
+        "Leasingrückläufer in Jena ankaufen",
+        "Firmenwagen in Jena bewerten",
+        "Auto sofort verkaufen Jena"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Jena?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Jena",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Jena",
+        "Auto verkaufen Jena",
+        "KFZ Ankauf Jena",
+        "Wagen verkaufen Jena",
+        "Gebrauchtwagen Ankauf Jena",
+        "Auto ohne TÜV verkaufen Jena",
+        "Unfallwagen verkaufen Jena",
+        "Motorschaden Ankauf Jena",
+        "PKW verkaufen Thüringen",
+        "Gebrauchtwagen verkaufen Jena",
+        "Fahrzeugankauf Jena",
+        "Auto sofort verkaufen Jena"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Jena",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Jena, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Thüringen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Jena — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 07743–07749",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Jena — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Jena",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Jena wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Jena zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Thüringen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Jena",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "JenTower",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Jena an?",
-      "answer": "Unser kostenloser Abholservice deckt Jena und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
+      "question": "Welche Bereiche in Jena decken Sie bei der kostenlosen Abholung ab?",
+      "answer": "Wir bedienen den gesamten Korridor 07743–07749 und holen Fahrzeuge auch in Randlagen ab. Ob nahe JenTower oder in Wohngebieten außerhalb des Zentrums: Die Abholung ist kostenfrei."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Jena?",

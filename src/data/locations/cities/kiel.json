@@ -12,20 +12,171 @@
     "lng": 10.1349
   },
   "meta": {
-    "title": "Autoankauf Kiel — Ihr lokaler Partner für Autoverkauf",
-    "description": "Autoankauf Kiel — die Fördestadt am Meer bietet lokalen Service mit Sofortzahlung. Landeshauptstadt Schleswig-Holsteins: Wir kommen direkt zu Ihnen an die Ostsee.",
+    "title": "Autoankauf Kiel - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Kiel: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 24103–24159 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Kiel",
       "Auto verkaufen Kiel",
       "KFZ Ankauf Kiel",
       "Gebrauchtwagen verkaufen Kiel",
       "Auto sofort verkaufen Kiel",
-      "Fahrzeugbewertung Kiel"
+      "Fahrzeugbewertung Kiel",
+      "Autoankauf nahe Kieler Förde"
     ]
   },
   "content": {
     "heroDescription": "An der Kieler Förde segeln wir auf Erfolgskurs — auch beim Autoankauf. Schnelle Bewertung, kostenlose Abholung und sofortige Bezahlung direkt in Kiel.",
-    "localContent": "Kiel ist die Landeshauptstadt Schleswig-Holsteins und liegt malerisch an der Kieler Förde. Die Kieler Woche, das größte Segelsportereignis der Welt, zieht jährlich Millionen Besucher an. Die rund 249.000 Einwohner profitieren von der Christian-Albrechts-Universität und dem Marinestützpunkt. Die A215 und B76 verbinden Kiel mit Hamburg und der Ostseeküste. Als Tor zur Ostsee bietet Kiel auch interessante Möglichkeiten für den internationalen Fahrzeugexport nach Skandinavien."
+    "localContent": "Kiel ist die Landeshauptstadt Schleswig-Holsteins und liegt malerisch an der Kieler Förde. Die Kieler Woche, das größte Segelsportereignis der Welt, zieht jährlich Millionen Besucher an. Die rund 249.000 Einwohner profitieren von der Christian-Albrechts-Universität und dem Marinestützpunkt. Die A215 und B76 verbinden Kiel mit Hamburg und der Ostseeküste. Als Tor zur Ostsee bietet Kiel auch interessante Möglichkeiten für den internationalen Fahrzeugexport nach Skandinavien.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Kiel",
+        "Auto verkaufen Kiel",
+        "KFZ Ankauf Kiel",
+        "Gebrauchtwagen verkaufen Kiel"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Kiel kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Kiel — So einfach geht's",
+      "localHooksTitle": "Warum viele in Kiel ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 24103–24159 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Kieler Förde werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Kiel entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Kiel wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Schleswig-Holstein",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Kiel gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Kiel",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Kiel",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Kiel, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Kiel erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Kiel",
+        "Unfallwagen verkaufen Kiel",
+        "Motorschaden Ankauf Kiel",
+        "Leasingrückläufer in Kiel ankaufen",
+        "Firmenwagen in Kiel bewerten",
+        "Auto sofort verkaufen Kiel"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Kiel?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Kiel",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Kiel",
+        "Auto verkaufen Kiel",
+        "KFZ Ankauf Kiel",
+        "Wagen verkaufen Kiel",
+        "Gebrauchtwagen Ankauf Kiel",
+        "Auto ohne TÜV verkaufen Kiel",
+        "Unfallwagen verkaufen Kiel",
+        "Motorschaden Ankauf Kiel",
+        "PKW verkaufen Schleswig-Holstein",
+        "Gebrauchtwagen verkaufen Kiel",
+        "Auto sofort verkaufen Kiel",
+        "Fahrzeugbewertung Kiel"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Kiel",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Kiel, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Schleswig-Holstein",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Kiel — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 24103–24159",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Kiel — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Kiel",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Kiel wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Kiel zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Schleswig-Holstein ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Kiel",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Kieler Förde",
@@ -39,8 +190,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Kiel an?",
-      "answer": "Absolut. In Kiel und dem gesamten Umkreis bieten wir eine kostenlose Fahrzeugabholung an. Sie müssen keinen Meter fahren — wir kommen zu Ihnen."
+      "question": "Wie weit reicht Ihr kostenloser Abholservice in Kiel und Umgebung?",
+      "answer": "Wir decken den Bereich 24103–24159 vollständig ab und planen bei Bedarf auch angrenzende Anfahrten. Ob direkt an der Kieler Förde oder in Randlagen: Die Abholung bleibt kostenlos."
     },
     {
       "question": "Welche Unterlagen benötige ich für den Autoverkauf in Kiel?",

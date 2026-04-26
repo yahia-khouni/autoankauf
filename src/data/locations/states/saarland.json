@@ -8,13 +8,121 @@
   "population": 990509,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Saarland | Auto verkaufen im Saarland",
-    "description": "Verkaufen Sie Ihr Auto im Saarland. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Saarbrücken und Umgebung.",
-    "keywords": ["Autoankauf Saarland", "Auto verkaufen Saarland", "PKW Ankauf SL", "Gebrauchtwagen Ankauf Saarbrücken", "KFZ Ankauf Saarland"]
+    "title": "Autoankauf Saarland - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Saarland: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Saarbrücken. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Saarland",
+      "Auto verkaufen Saarland",
+      "PKW Ankauf SL",
+      "Gebrauchtwagen Ankauf Saarbrücken",
+      "KFZ Ankauf Saarland"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto im Saarland zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Saarbrücken und dem gesamten Bundesland.",
-    "seoText": "Das Saarland ist das kleinste Flächenland Deutschlands, liegt an der Grenze zu Frankreich und Luxemburg und hat eine starke Automobilzulieferer-Industrie. In der Landeshauptstadt Saarbrücken und im gesamten Saarland bieten wir Ihnen einen schnellen und fairen Ankauf-Service."
+    "seoText": "Das Saarland ist das kleinste Flächenland Deutschlands, liegt an der Grenze zu Frankreich und Luxemburg und hat eine starke Automobilzulieferer-Industrie. In der Landeshauptstadt Saarbrücken und im gesamten Saarland bieten wir Ihnen einen schnellen und fairen Ankauf-Service.",
+    "page": {
+      "heroHighlight": "In ganz Saarland kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Saarland",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Saarland",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Saarland, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Saarland aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Saarland täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Saarland entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Saarbrücken sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Saarland bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Saarland?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Saarland",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Saarland.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Saarland",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Saarland tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Saarland",
+        "Auto verkaufen Saarland",
+        "KFZ Ankauf Saarland",
+        "Wagen verkaufen Saarland",
+        "Gebrauchtwagen Ankauf Saarland",
+        "Auto ohne TÜV verkaufen Saarland",
+        "Unfallwagen verkaufen Saarland",
+        "Motorschaden Ankauf Saarland",
+        "PKW Ankauf SL",
+        "Gebrauchtwagen Ankauf Saarbrücken"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Saarland",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Saarland",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Saarland. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Saarland — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Saarland inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Saarland",
+      "seoSectionTitle": "Warum Autoankauf in Saarland?"
+    }
   },
-  "cities": ["saarbruecken"]
+  "cities": [
+    "saarbruecken"
+  ]
 }

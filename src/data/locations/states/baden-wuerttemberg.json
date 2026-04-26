@@ -8,13 +8,130 @@
   "population": 11103043,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Baden-Württemberg | Auto verkaufen in Baden-Württemberg",
-    "description": "Verkaufen Sie Ihr Auto in Baden-Württemberg. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Stuttgart, Karlsruhe, Mannheim und 6 weiteren Städten.",
-    "keywords": ["Autoankauf Baden-Württemberg", "Auto verkaufen Baden-Württemberg", "PKW Ankauf BW", "Gebrauchtwagen Ankauf Stuttgart", "KFZ Ankauf Mannheim"]
+    "title": "Autoankauf Baden-Württemberg - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Baden-Württemberg: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Stuttgart, Karlsruhe, Mannheim. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Baden-Württemberg",
+      "Auto verkaufen Baden-Württemberg",
+      "PKW Ankauf BW",
+      "Gebrauchtwagen Ankauf Stuttgart",
+      "KFZ Ankauf Mannheim"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Baden-Württemberg zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Stuttgart bis Freiburg, in allen Städten des Bundeslandes.",
-    "seoText": "Baden-Württemberg ist das Stammland der Automobilindustrie — Heimat von Mercedes-Benz, Porsche und Bosch. Ob Ihr Fahrzeug ein schwäbisches Premiummodell oder ein zuverlässiger Alltagswagen ist, wir machen Ihnen ein faires Angebot. Unser Service deckt alle Großstädte und viele weitere Orte in Baden-Württemberg ab."
+    "seoText": "Baden-Württemberg ist das Stammland der Automobilindustrie — Heimat von Mercedes-Benz, Porsche und Bosch. Ob Ihr Fahrzeug ein schwäbisches Premiummodell oder ein zuverlässiger Alltagswagen ist, wir machen Ihnen ein faires Angebot. Unser Service deckt alle Großstädte und viele weitere Orte in Baden-Württemberg ab.",
+    "page": {
+      "heroHighlight": "In ganz Baden-Württemberg kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Baden-Württemberg",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Baden-Württemberg",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Baden-Württemberg, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Baden-Württemberg aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Baden-Württemberg täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Baden-Württemberg entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Stuttgart sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Baden-Württemberg bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Baden-Württemberg?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Baden-Württemberg",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Baden-Württemberg.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Baden-Württemberg",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Baden-Württemberg tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Baden-Württemberg",
+        "Auto verkaufen Baden-Württemberg",
+        "KFZ Ankauf Baden-Württemberg",
+        "Wagen verkaufen Baden-Württemberg",
+        "Gebrauchtwagen Ankauf Baden-Württemberg",
+        "Auto ohne TÜV verkaufen Baden-Württemberg",
+        "Unfallwagen verkaufen Baden-Württemberg",
+        "Motorschaden Ankauf Baden-Württemberg",
+        "PKW Ankauf BW",
+        "Gebrauchtwagen Ankauf Stuttgart",
+        "KFZ Ankauf Mannheim"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Baden-Württemberg",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Baden-Württemberg",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Baden-Württemberg. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Baden-Württemberg — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Baden-Württemberg inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Baden-Württemberg",
+      "seoSectionTitle": "Warum Autoankauf in Baden-Württemberg?"
+    }
   },
-  "cities": ["stuttgart", "karlsruhe", "mannheim", "freiburg", "heidelberg", "ulm", "heilbronn", "pforzheim", "reutlingen"]
+  "cities": [
+    "stuttgart",
+    "karlsruhe",
+    "mannheim",
+    "freiburg",
+    "heidelberg",
+    "ulm",
+    "heilbronn",
+    "pforzheim",
+    "reutlingen"
+  ]
 }

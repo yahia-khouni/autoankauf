@@ -12,8 +12,8 @@
     "lng": 12.9214
   },
   "meta": {
-    "title": "Auto verkaufen Chemnitz — Schnell, sicher & unkompliziert",
-    "description": "Auto verkaufen in Chemnitz — Europas Kulturhauptstadt 2025 bietet auch beim Autoankauf Klasse. Faire Marktpreise, kostenlose Abholung und garantierte Sofortzahlung.",
+    "title": "Autoankauf Chemnitz - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Chemnitz: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 09111–09131 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Chemnitz",
       "Auto verkaufen Chemnitz",
@@ -21,12 +21,163 @@
       "Wagen verkaufen Chemnitz",
       "Motorschaden Ankauf Chemnitz",
       "PKW verkaufen Chemnitz",
-      "Autoankauf in der Nähe Chemnitz"
+      "Autoankauf in der Nähe Chemnitz",
+      "Autoankauf nahe Karl-Marx-Monument Chemnitz"
     ]
   },
   "content": {
     "heroDescription": "Als frisch gebackene Kulturhauptstadt Europas beweist Chemnitz: Sachsen hat Klasse. Das gilt auch für unseren Autoankauf — fair, schnell und persönlich.",
-    "localContent": "Chemnitz, Europas Kulturhauptstadt 2025, ist die drittgrößte Stadt Sachsens und steckt mitten im kulturellen Aufbruch. Die rund 250.000 Einwohner zählende Stadt am Erzgebirge war einst das sächsische Manchester der Industrialisierung. Heute setzt Chemnitz auf Maschinenbau, Automobilzulieferer und Mikroelektronik als wirtschaftliche Säulen. Volkswagen, Continental und zahlreiche Mittelständler bilden ein starkes Automotive-Netzwerk. Die A4 und A72 verbinden Chemnitz mit Leipzig, Dresden und dem Erzgebirge."
+    "localContent": "Chemnitz, Europas Kulturhauptstadt 2025, ist die drittgrößte Stadt Sachsens und steckt mitten im kulturellen Aufbruch. Die rund 250.000 Einwohner zählende Stadt am Erzgebirge war einst das sächsische Manchester der Industrialisierung. Heute setzt Chemnitz auf Maschinenbau, Automobilzulieferer und Mikroelektronik als wirtschaftliche Säulen. Volkswagen, Continental und zahlreiche Mittelständler bilden ein starkes Automotive-Netzwerk. Die A4 und A72 verbinden Chemnitz mit Leipzig, Dresden und dem Erzgebirge.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Chemnitz",
+        "Auto verkaufen Chemnitz",
+        "KFZ Ankauf Chemnitz",
+        "Gebrauchtwagen verkaufen Chemnitz"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Chemnitz kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Chemnitz — So einfach geht's",
+      "localHooksTitle": "Warum viele in Chemnitz ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 09111–09131 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Industriemuseum werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Chemnitz entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Chemnitz wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Sachsen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Chemnitz gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Chemnitz",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Chemnitz",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Chemnitz, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Chemnitz erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Chemnitz",
+        "Unfallwagen verkaufen Chemnitz",
+        "Motorschaden Ankauf Chemnitz",
+        "Leasingrückläufer in Chemnitz ankaufen",
+        "Firmenwagen in Chemnitz bewerten",
+        "Auto sofort verkaufen Chemnitz"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Chemnitz?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Chemnitz",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Chemnitz",
+        "Auto verkaufen Chemnitz",
+        "KFZ Ankauf Chemnitz",
+        "Wagen verkaufen Chemnitz",
+        "Gebrauchtwagen Ankauf Chemnitz",
+        "Auto ohne TÜV verkaufen Chemnitz",
+        "Unfallwagen verkaufen Chemnitz",
+        "Motorschaden Ankauf Chemnitz",
+        "PKW verkaufen Sachsen",
+        "Gebrauchtwagen verkaufen Chemnitz",
+        "PKW verkaufen Chemnitz",
+        "Autoankauf in der Nähe Chemnitz"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Chemnitz",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Chemnitz, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Sachsen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Chemnitz — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 09111–09131",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Chemnitz — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Chemnitz",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Chemnitz wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Chemnitz zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Sachsen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Chemnitz",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Industriemuseum",
@@ -40,15 +191,15 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Chemnitz verkaufen?",
-      "answer": "Nach Eingang Ihrer Anfrage aus Chemnitz erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
+      "question": "Wie schnell bekomme ich in Chemnitz ein verbindliches Kaufangebot?",
+      "answer": "Für Anfragen im PLZ-Gebiet 09111–09131 erhalten Sie meist innerhalb weniger Stunden ein konkretes Angebot. In zentralen Lagen rund um das Karl-Marx-Monument sind kurzfristige Termine oft möglich."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Chemnitz?",
       "answer": "Ja, wir kaufen in Chemnitz Fahrzeuge in jedem Zustand — ob Unfallschäden, Motorprobleme, Getriebeschäden oder hohe Laufleistung. Jedes Auto hat bei uns einen fairen Wert."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Chemnitz?",
       "answer": "Nach der Bewertung kontaktieren wir Sie mit einem konkreten Angebot. Sind Sie einverstanden, vereinbaren wir einen Termin in Chemnitz zur Besichtigung und sofortigen Kaufabwicklung."
     },
     {

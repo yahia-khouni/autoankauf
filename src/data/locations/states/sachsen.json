@@ -8,13 +8,124 @@
   "population": 4056941,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Sachsen | Auto verkaufen in Sachsen",
-    "description": "Verkaufen Sie Ihr Auto in Sachsen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Leipzig, Dresden und Chemnitz.",
-    "keywords": ["Autoankauf Sachsen", "Auto verkaufen Sachsen", "PKW Ankauf SN", "Gebrauchtwagen Ankauf Leipzig", "KFZ Ankauf Dresden"]
+    "title": "Autoankauf Sachsen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Sachsen: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Leipzig, Dresden, Chemnitz. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Sachsen",
+      "Auto verkaufen Sachsen",
+      "PKW Ankauf SN",
+      "Gebrauchtwagen Ankauf Leipzig",
+      "KFZ Ankauf Dresden"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Sachsen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Leipzig, Dresden, Chemnitz und dem gesamten Freistaat.",
-    "seoText": "Sachsen ist ein bedeutender Industriestandort in Ostdeutschland. Mit dem Volkswagen-Werk in Zwickau, dem Porsche- und BMW-Werk in Leipzig und der Halbleiterindustrie in Dresden ist die Region ein wichtiger Automobilmarkt. Wir kaufen Ihr Fahrzeug in allen sächsischen Großstädten."
+    "seoText": "Sachsen ist ein bedeutender Industriestandort in Ostdeutschland. Mit dem Volkswagen-Werk in Zwickau, dem Porsche- und BMW-Werk in Leipzig und der Halbleiterindustrie in Dresden ist die Region ein wichtiger Automobilmarkt. Wir kaufen Ihr Fahrzeug in allen sächsischen Großstädten.",
+    "page": {
+      "heroHighlight": "In ganz Sachsen kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Sachsen",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Sachsen",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Sachsen, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Sachsen aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Sachsen täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Sachsen entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Dresden sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Sachsen bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Sachsen?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Sachsen",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Sachsen.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Sachsen",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Sachsen tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Sachsen",
+        "Auto verkaufen Sachsen",
+        "KFZ Ankauf Sachsen",
+        "Wagen verkaufen Sachsen",
+        "Gebrauchtwagen Ankauf Sachsen",
+        "Auto ohne TÜV verkaufen Sachsen",
+        "Unfallwagen verkaufen Sachsen",
+        "Motorschaden Ankauf Sachsen",
+        "PKW Ankauf SN",
+        "Gebrauchtwagen Ankauf Leipzig",
+        "KFZ Ankauf Dresden"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Sachsen",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Sachsen",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Sachsen. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Sachsen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Sachsen inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Sachsen",
+      "seoSectionTitle": "Warum Autoankauf in Sachsen?"
+    }
   },
-  "cities": ["leipzig", "dresden", "chemnitz"]
+  "cities": [
+    "leipzig",
+    "dresden",
+    "chemnitz"
+  ]
 }

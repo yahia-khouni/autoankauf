@@ -8,13 +8,123 @@
   "population": 2180684,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Sachsen-Anhalt | Auto verkaufen in Sachsen-Anhalt",
-    "description": "Verkaufen Sie Ihr Auto in Sachsen-Anhalt. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Halle (Saale) und Magdeburg.",
-    "keywords": ["Autoankauf Sachsen-Anhalt", "Auto verkaufen Sachsen-Anhalt", "PKW Ankauf ST", "Gebrauchtwagen Ankauf Halle", "KFZ Ankauf Magdeburg"]
+    "title": "Autoankauf Sachsen-Anhalt - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Sachsen-Anhalt: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Halle (Saale), Magdeburg. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Sachsen-Anhalt",
+      "Auto verkaufen Sachsen-Anhalt",
+      "PKW Ankauf ST",
+      "Gebrauchtwagen Ankauf Halle",
+      "KFZ Ankauf Magdeburg"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Sachsen-Anhalt zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Halle, Magdeburg und dem gesamten Bundesland.",
-    "seoText": "Sachsen-Anhalt liegt im Herzen Deutschlands und bietet mit der Universitätsstadt Halle (Saale) und der Landeshauptstadt Magdeburg zwei wichtige Wirtschaftszentren. Wir kaufen Ihr Fahrzeug in beiden Städten und der gesamten Region — schnell, fair und ohne versteckte Kosten."
+    "seoText": "Sachsen-Anhalt liegt im Herzen Deutschlands und bietet mit der Universitätsstadt Halle (Saale) und der Landeshauptstadt Magdeburg zwei wichtige Wirtschaftszentren. Wir kaufen Ihr Fahrzeug in beiden Städten und der gesamten Region — schnell, fair und ohne versteckte Kosten.",
+    "page": {
+      "heroHighlight": "In ganz Sachsen-Anhalt kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Sachsen-Anhalt",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Sachsen-Anhalt",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Sachsen-Anhalt, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Sachsen-Anhalt aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Sachsen-Anhalt täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Sachsen-Anhalt entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Magdeburg sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Sachsen-Anhalt bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Sachsen-Anhalt?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Sachsen-Anhalt",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Sachsen-Anhalt.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Sachsen-Anhalt",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Sachsen-Anhalt tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Sachsen-Anhalt",
+        "Auto verkaufen Sachsen-Anhalt",
+        "KFZ Ankauf Sachsen-Anhalt",
+        "Wagen verkaufen Sachsen-Anhalt",
+        "Gebrauchtwagen Ankauf Sachsen-Anhalt",
+        "Auto ohne TÜV verkaufen Sachsen-Anhalt",
+        "Unfallwagen verkaufen Sachsen-Anhalt",
+        "Motorschaden Ankauf Sachsen-Anhalt",
+        "PKW Ankauf ST",
+        "Gebrauchtwagen Ankauf Halle",
+        "KFZ Ankauf Magdeburg"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Sachsen-Anhalt",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Sachsen-Anhalt",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Sachsen-Anhalt. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Sachsen-Anhalt — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Sachsen-Anhalt inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Sachsen-Anhalt",
+      "seoSectionTitle": "Warum Autoankauf in Sachsen-Anhalt?"
+    }
   },
-  "cities": ["halle", "magdeburg"]
+  "cities": [
+    "halle",
+    "magdeburg"
+  ]
 }

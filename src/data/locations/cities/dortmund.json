@@ -12,20 +12,169 @@
     "lng": 7.4653
   },
   "meta": {
-    "title": "Auto verkaufen in Dortmund | Kostenloses Angebot in 24h",
-    "description": "Auto verkaufen in Dortmund — das Ruhrgebiet bietet starke Nachfrage für Ihren Gebrauchtwagen. Profitieren Sie von unserer Erfahrung: 24h-Angebot und Sofortbezahlung.",
+    "title": "Autoankauf Dortmund - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Dortmund: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 44135–44388 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Dortmund",
       "Auto verkaufen Dortmund",
       "KFZ Ankauf Dortmund",
       "Gebrauchtwagen Ankauf Dortmund",
       "Wagen verkaufen Dortmund",
-      "Motorschaden Ankauf Dortmund"
+      "Motorschaden Ankauf Dortmund",
+      "Autoankauf nahe Signal Iduna Park Dortmund"
     ]
   },
   "content": {
     "heroDescription": "Die größte Stadt im Ruhrgebiet bietet einen riesigen Markt für Gebrauchtwagen — und wir bieten Ihnen den besten Zugang. Schneller Ankauf und faire Preise in Dortmund.",
-    "localContent": "Dortmund ist mit rund 588.000 Einwohnern die größte Stadt im Ruhrgebiet und hat den Wandel von der Kohle- und Stahlstadt zur modernen Technologie- und Dienstleistungsmetropole vollzogen. Signal Iduna Park und das kreative Dortmunder U prägen das neue Stadtbild. Die A1, A2 und A45 kreuzen sich in Dortmund und schaffen ein optimales Netzwerk für den Fahrzeughandel im östlichen Ruhrgebiet."
+    "localContent": "Dortmund ist mit rund 588.000 Einwohnern die größte Stadt im Ruhrgebiet und hat den Wandel von der Kohle- und Stahlstadt zur modernen Technologie- und Dienstleistungsmetropole vollzogen. Signal Iduna Park und das kreative Dortmunder U prägen das neue Stadtbild. Die A1, A2 und A45 kreuzen sich in Dortmund und schaffen ein optimales Netzwerk für den Fahrzeughandel im östlichen Ruhrgebiet.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Dortmund",
+        "Auto verkaufen Dortmund",
+        "KFZ Ankauf Dortmund",
+        "Gebrauchtwagen verkaufen Dortmund"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Dortmund kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Dortmund — So einfach geht's",
+      "localHooksTitle": "Warum viele in Dortmund ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 44135–44388 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Signal Iduna Park werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Dortmund entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Dortmund wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Nordrhein-Westfalen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Dortmund gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Dortmund",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Dortmund",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Dortmund, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Dortmund erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Dortmund",
+        "Unfallwagen verkaufen Dortmund",
+        "Motorschaden Ankauf Dortmund",
+        "Leasingrückläufer in Dortmund ankaufen",
+        "Firmenwagen in Dortmund bewerten",
+        "Auto sofort verkaufen Dortmund"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Dortmund?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Dortmund",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Dortmund",
+        "Auto verkaufen Dortmund",
+        "KFZ Ankauf Dortmund",
+        "Wagen verkaufen Dortmund",
+        "Gebrauchtwagen Ankauf Dortmund",
+        "Auto ohne TÜV verkaufen Dortmund",
+        "Unfallwagen verkaufen Dortmund",
+        "Motorschaden Ankauf Dortmund",
+        "PKW verkaufen Nordrhein-Westfalen",
+        "Autoankauf nahe Signal Iduna Park Dortmund"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Dortmund",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Dortmund, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Nordrhein-Westfalen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Dortmund — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 44135–44388",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Dortmund — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Dortmund",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Dortmund wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Dortmund zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Nordrhein-Westfalen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Dortmund",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Signal Iduna Park",
@@ -40,8 +189,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Dortmund verkaufen?",
-      "answer": "Nach Eingang Ihrer Anfrage aus Dortmund erstellen wir innerhalb weniger Stunden ein Angebot. Die komplette Abwicklung inklusive Bezahlung ist häufig schon am Folgetag abgeschlossen."
+      "question": "Gibt es in Dortmund eine Express-Abwicklung für dringende Verkäufe?",
+      "answer": "Ja. Für Anfragen im PLZ-Bereich 44135–44388 können wir eine beschleunigte Abwicklung einplanen. In der Umgebung des Signal Iduna Parks sind kurzfristige Besichtigungstermine oft am selben oder nächsten Tag möglich."
     },
     {
       "question": "Welche Unterlagen benötige ich für den Autoverkauf in Dortmund?",

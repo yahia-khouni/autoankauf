@@ -8,13 +8,126 @@
   "population": 6295017,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Hessen | Auto verkaufen in Hessen",
-    "description": "Verkaufen Sie Ihr Auto in Hessen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Frankfurt, Wiesbaden, Kassel, Darmstadt und Offenbach.",
-    "keywords": ["Autoankauf Hessen", "Auto verkaufen Hessen", "PKW Ankauf HE", "Gebrauchtwagen Ankauf Frankfurt", "KFZ Ankauf Wiesbaden"]
+    "title": "Autoankauf Hessen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Hessen: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Frankfurt am Main, Wiesbaden, Kassel. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Hessen",
+      "Auto verkaufen Hessen",
+      "PKW Ankauf HE",
+      "Gebrauchtwagen Ankauf Frankfurt",
+      "KFZ Ankauf Wiesbaden"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Hessen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Frankfurt bis Kassel, in allen Städten des Bundeslandes.",
-    "seoText": "Hessen ist ein wirtschaftlich starkes Bundesland mit Frankfurt am Main als Finanzmetropole. Die Region Rhein-Main gehört zu den dynamischsten Automobilmärkten Deutschlands. Ob Sie in der Bankenstadt Frankfurt, der Landeshauptstadt Wiesbaden oder im nordhessischen Kassel leben — wir kaufen Ihr Auto zu fairen Preisen."
+    "seoText": "Hessen ist ein wirtschaftlich starkes Bundesland mit Frankfurt am Main als Finanzmetropole. Die Region Rhein-Main gehört zu den dynamischsten Automobilmärkten Deutschlands. Ob Sie in der Bankenstadt Frankfurt, der Landeshauptstadt Wiesbaden oder im nordhessischen Kassel leben — wir kaufen Ihr Auto zu fairen Preisen.",
+    "page": {
+      "heroHighlight": "In ganz Hessen kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Hessen",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Hessen",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Hessen, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Hessen aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Hessen täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Hessen entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Wiesbaden sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Hessen bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Hessen?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Hessen",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Hessen.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Hessen",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Hessen tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Hessen",
+        "Auto verkaufen Hessen",
+        "KFZ Ankauf Hessen",
+        "Wagen verkaufen Hessen",
+        "Gebrauchtwagen Ankauf Hessen",
+        "Auto ohne TÜV verkaufen Hessen",
+        "Unfallwagen verkaufen Hessen",
+        "Motorschaden Ankauf Hessen",
+        "PKW Ankauf HE",
+        "Gebrauchtwagen Ankauf Frankfurt",
+        "KFZ Ankauf Wiesbaden"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Hessen",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Hessen",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Hessen. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Hessen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Hessen inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Hessen",
+      "seoSectionTitle": "Warum Autoankauf in Hessen?"
+    }
   },
-  "cities": ["frankfurt", "wiesbaden", "kassel", "darmstadt", "offenbach"]
+  "cities": [
+    "frankfurt",
+    "wiesbaden",
+    "kassel",
+    "darmstadt",
+    "offenbach"
+  ]
 }

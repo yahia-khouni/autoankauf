@@ -12,8 +12,8 @@
     "lng": 8.466
   },
   "meta": {
-    "title": "Auto verkaufen in Mannheim | Kostenloses Angebot in 24h",
-    "description": "Auto verkaufen in Mannheim — die Quadratestadt bietet kurze Wege zum Verkauf. Kostenlose Fahrzeugbewertung, Abholung am Wunschort und Bezahlung innerhalb von 24 Stunden.",
+    "title": "Autoankauf Mannheim - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Mannheim: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 68159–68309 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Mannheim",
       "Auto verkaufen Mannheim",
@@ -21,12 +21,163 @@
       "Gebrauchtwagen verkaufen Mannheim",
       "Autoverkauf Mannheim",
       "Gebrauchtwagenhandel Mannheim",
-      "Fahrzeugbewertung Mannheim"
+      "Fahrzeugbewertung Mannheim",
+      "Autoankauf nahe Wasserturm Mannheim"
     ]
   },
   "content": {
     "heroDescription": "Ihr Auto verdient in der Quadratestadt einen fairen Preis — wir sorgen dafür. Mannheim verbindet wirtschaftliche Stärke mit exzellenter Verkehrsanbindung und einem lebhaften Gebrauchtwagenmarkt.",
-    "localContent": "Mannheim, die zweitgrößte Stadt Baden-Württembergs, liegt strategisch am Zusammenfluss von Rhein und Neckar. Hier meldete Carl Benz 1886 das erste Automobil zum Patent an — der Geburtsort der Automobilgeschichte. Mit rund 312.000 Einwohnern und einem der wichtigsten Binnenhäfen Europas ist die Quadratestadt ein bedeutender Industrie- und Handelsplatz. Die Autobahnen A5, A6 und A656 machen Mannheim zu einem natürlichen Knotenpunkt im Fahrzeughandel der Metropolregion Rhein-Neckar."
+    "localContent": "Mannheim, die zweitgrößte Stadt Baden-Württembergs, liegt strategisch am Zusammenfluss von Rhein und Neckar. Hier meldete Carl Benz 1886 das erste Automobil zum Patent an — der Geburtsort der Automobilgeschichte. Mit rund 312.000 Einwohnern und einem der wichtigsten Binnenhäfen Europas ist die Quadratestadt ein bedeutender Industrie- und Handelsplatz. Die Autobahnen A5, A6 und A656 machen Mannheim zu einem natürlichen Knotenpunkt im Fahrzeughandel der Metropolregion Rhein-Neckar.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Mannheim",
+        "Auto verkaufen Mannheim",
+        "KFZ Ankauf Mannheim",
+        "Gebrauchtwagen verkaufen Mannheim"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Mannheim kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Mannheim — So einfach geht's",
+      "localHooksTitle": "Warum viele in Mannheim ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 68159–68309 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Wasserturm werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Mannheim entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Mannheim wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Mannheim gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Mannheim",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Mannheim",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Mannheim, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Mannheim erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Mannheim",
+        "Unfallwagen verkaufen Mannheim",
+        "Motorschaden Ankauf Mannheim",
+        "Leasingrückläufer in Mannheim ankaufen",
+        "Firmenwagen in Mannheim bewerten",
+        "Auto sofort verkaufen Mannheim"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Mannheim?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Mannheim",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Mannheim",
+        "Auto verkaufen Mannheim",
+        "KFZ Ankauf Mannheim",
+        "Wagen verkaufen Mannheim",
+        "Gebrauchtwagen Ankauf Mannheim",
+        "Auto ohne TÜV verkaufen Mannheim",
+        "Unfallwagen verkaufen Mannheim",
+        "Motorschaden Ankauf Mannheim",
+        "PKW verkaufen Baden-Württemberg",
+        "PKW Ankauf Mannheim",
+        "Gebrauchtwagen verkaufen Mannheim",
+        "Autoverkauf Mannheim"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Mannheim",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Mannheim, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Mannheim — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 68159–68309",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Mannheim — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Mannheim",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Mannheim wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Mannheim zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Mannheim",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Wasserturm",
@@ -41,12 +192,12 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Mannheim an?",
-      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Mannheim ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
+      "question": "Wie flexibel ist die Fahrzeugabholung in Mannheim zeitlich und örtlich?",
+      "answer": "Sehr flexibel: Wir holen Ihr Auto im gesamten Bereich 68159–68309 kostenlos ab. Von Terminen am Wasserturm bis in die Quadrate richten wir uns nach Ihrem Zeitfenster."
     },
     {
       "question": "Welche Unterlagen benötige ich für den Autoverkauf in Mannheim?",
-      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
+      "answer": "Bitte bringen Sie Zulassungsbescheinigung Teil I und II, einen gültigen Ausweis und alle Schlüssel mit. Für Termine im Bereich 68159–68309 in Mannheim sind HU-Bericht und Serviceheft hilfreich, damit wir schneller ein verbindliches Angebot geben können."
     },
     {
       "question": "Kann ich ein Auto ohne gültigen TÜV in Mannheim verkaufen?",

@@ -12,20 +12,171 @@
     "lng": 8.5809
   },
   "meta": {
-    "title": "Auto verkaufen in Bremerhaven | Sofortzahlung & Top-Service",
-    "description": "Auto verkaufen in Bremerhaven — Europas größter Fahrzeugumschlagplatz bietet beste Marktbedingungen. Kostenlose Bewertung, Abholung und Sofortzahlung inklusive.",
+    "title": "Autoankauf Bremerhaven - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Bremerhaven: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 27568–27580 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Bremerhaven",
       "Auto verkaufen Bremerhaven",
       "Gebrauchtwagen verkaufen Bremerhaven",
       "Fahrzeugankauf Bremerhaven",
       "Auto Export Bremerhaven",
-      "PKW verkaufen Bremerhaven"
+      "PKW verkaufen Bremerhaven",
+      "Autoankauf nahe Klimahaus Bremerhaven"
     ]
   },
   "content": {
     "heroDescription": "Bremerhaven ist Europas größter Fahrzeugumschlagsplatz — nirgends kennt man den Wert eines Autos besser. Profitieren Sie von unserem Fachwissen und verkaufen Sie fair.",
-    "localContent": "Bremerhaven liegt an der Wesermündung und ist einer der größten Fahrzeugumschlagplätze Europas — jährlich werden hier über zwei Millionen Fahrzeuge verschifft. Die rund 114.000 Einwohner zählende Seestadt verbindet maritime Tradition mit moderner Logistik-Infrastruktur. Diese einzigartige Position im Autohandel ermöglicht es uns, besonders gute Preise für Gebrauchtwagen zu erzielen."
+    "localContent": "Bremerhaven liegt an der Wesermündung und ist einer der größten Fahrzeugumschlagplätze Europas — jährlich werden hier über zwei Millionen Fahrzeuge verschifft. Die rund 114.000 Einwohner zählende Seestadt verbindet maritime Tradition mit moderner Logistik-Infrastruktur. Diese einzigartige Position im Autohandel ermöglicht es uns, besonders gute Preise für Gebrauchtwagen zu erzielen.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Bremerhaven",
+        "Auto verkaufen Bremerhaven",
+        "KFZ Ankauf Bremerhaven",
+        "Gebrauchtwagen verkaufen Bremerhaven"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Bremerhaven kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Bremerhaven — So einfach geht's",
+      "localHooksTitle": "Warum viele in Bremerhaven ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 27568–27580 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Klimahaus werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Bremerhaven entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Bremerhaven wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Bremen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Bremerhaven gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Bremerhaven",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Bremerhaven",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Bremerhaven, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Bremerhaven erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Bremerhaven",
+        "Unfallwagen verkaufen Bremerhaven",
+        "Motorschaden Ankauf Bremerhaven",
+        "Leasingrückläufer in Bremerhaven ankaufen",
+        "Firmenwagen in Bremerhaven bewerten",
+        "Auto sofort verkaufen Bremerhaven"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Bremerhaven?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Bremerhaven",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Bremerhaven",
+        "Auto verkaufen Bremerhaven",
+        "KFZ Ankauf Bremerhaven",
+        "Wagen verkaufen Bremerhaven",
+        "Gebrauchtwagen Ankauf Bremerhaven",
+        "Auto ohne TÜV verkaufen Bremerhaven",
+        "Unfallwagen verkaufen Bremerhaven",
+        "Motorschaden Ankauf Bremerhaven",
+        "PKW verkaufen Bremen",
+        "Gebrauchtwagen verkaufen Bremerhaven",
+        "Fahrzeugankauf Bremerhaven",
+        "Auto Export Bremerhaven"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Bremerhaven",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Bremerhaven, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Bremen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Bremerhaven — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 27568–27580",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Bremerhaven — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Bremerhaven",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Bremerhaven wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Bremerhaven zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Bremen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Bremerhaven",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Klimahaus",
@@ -39,8 +190,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Bremerhaven an?",
-      "answer": "Absolut. In Bremerhaven und dem gesamten Umkreis bieten wir eine kostenlose Fahrzeugabholung an. Sie müssen keinen Meter fahren — wir kommen zu Ihnen."
+      "question": "Können Sie in Bremerhaven auch kurzfristig kostenlos abholen?",
+      "answer": "Ja, im Bereich 27568–27580 planen wir auf Wunsch schnelle Abholtermine. Von den Havenwelten bis zum Umland nahe Klimahaus bleibt die Abholung kostenfrei."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Bremerhaven berechnet?",

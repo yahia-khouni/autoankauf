@@ -10,11 +10,116 @@
   "meta": {
     "title": "Autoankauf Hamburg | Auto verkaufen in Hamburg",
     "description": "Verkaufen Sie Ihr Auto in Hamburg. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in der gesamten Hansestadt. Jetzt Angebot erhalten!",
-    "keywords": ["Autoankauf Hamburg", "Auto verkaufen Hamburg", "PKW Ankauf Hamburg", "Gebrauchtwagen Ankauf Hamburg", "KFZ Ankauf Hamburg"]
+    "keywords": [
+      "Autoankauf Hamburg",
+      "Auto verkaufen Hamburg",
+      "PKW Ankauf Hamburg",
+      "Gebrauchtwagen Ankauf Hamburg",
+      "KFZ Ankauf Hamburg"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Hamburg zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — im gesamten Stadtgebiet der Hansestadt.",
-    "seoText": "Hamburg ist die zweitgrößte Stadt Deutschlands und ein bedeutender Automobilstandort. Als Stadtstaat bieten wir unseren Ankauf-Service im gesamten Hamburger Stadtgebiet an — von Altona bis Bergedorf, von Harburg bis Wandsbek. Unser Team kommt direkt zu Ihnen."
+    "seoText": "Hamburg ist die zweitgrößte Stadt Deutschlands und ein bedeutender Automobilstandort. Als Stadtstaat bieten wir unseren Ankauf-Service im gesamten Hamburger Stadtgebiet an — von Altona bis Bergedorf, von Harburg bis Wandsbek. Unser Team kommt direkt zu Ihnen.",
+    "page": {
+      "heroHighlight": "In ganz Hamburg kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Hamburg",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Hamburg",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Hamburg, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Hamburg aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Hamburg täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Hamburg entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Hamburg sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Hamburg bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Hamburg?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Hamburg",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Hamburg.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Hamburg",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Hamburg tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Hamburg",
+        "Auto verkaufen Hamburg",
+        "KFZ Ankauf Hamburg",
+        "Wagen verkaufen Hamburg",
+        "Gebrauchtwagen Ankauf Hamburg",
+        "Auto ohne TÜV verkaufen Hamburg",
+        "Unfallwagen verkaufen Hamburg",
+        "Motorschaden Ankauf Hamburg",
+        "PKW Ankauf Hamburg"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Hamburg",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Hamburg",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Hamburg. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Hamburg — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Hamburg inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Hamburg",
+      "seoSectionTitle": "Warum Autoankauf in Hamburg?"
+    }
   },
   "cities": []
 }

@@ -12,20 +12,171 @@
     "lng": 11.4012
   },
   "meta": {
-    "title": "Autoankauf Schwerin | Sofort Bargeld für Ihr Fahrzeug",
-    "description": "Autoankauf Schwerin — in Mecklenburgs Landeshauptstadt kaufen wir Ihr Auto sofort. Bargeldzahlung bei Übergabe, kostenlose Abholung und faire Marktbewertung.",
+    "title": "Autoankauf Schwerin - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Schwerin: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 19053–19063 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Schwerin",
       "Auto verkaufen Schwerin",
       "Gebrauchtwagen verkaufen Schwerin",
       "Wagen verkaufen Schwerin",
       "Fahrzeug verkaufen Schwerin",
-      "Auto ohne TÜV verkaufen Schwerin"
+      "Auto ohne TÜV verkaufen Schwerin",
+      "Autoankauf nahe Schweriner Schloss"
     ]
   },
   "content": {
     "heroDescription": "Im malerischen Schwerin, der Stadt der sieben Seen, bieten wir Ihnen einen unkomplizierten Autoankauf — persönlich, transparent und mit sofortiger Auszahlung.",
-    "localContent": "Schwerin ist die Landeshauptstadt von Mecklenburg-Vorpommern und besticht durch das märchenhafte Schweriner Schloss inmitten des Schweriner Sees. Mit rund 100.000 Einwohnern ist die Stadt kompakt, aber als Regierungssitz wirtschaftlich bedeutend. Die Lage an der A14 und die Nähe zu Hamburg und Rostock macht Schwerin zu einem Verbindungspunkt zwischen Metropolen."
+    "localContent": "Schwerin ist die Landeshauptstadt von Mecklenburg-Vorpommern und besticht durch das märchenhafte Schweriner Schloss inmitten des Schweriner Sees. Mit rund 100.000 Einwohnern ist die Stadt kompakt, aber als Regierungssitz wirtschaftlich bedeutend. Die Lage an der A14 und die Nähe zu Hamburg und Rostock macht Schwerin zu einem Verbindungspunkt zwischen Metropolen.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Schwerin",
+        "Auto verkaufen Schwerin",
+        "KFZ Ankauf Schwerin",
+        "Gebrauchtwagen verkaufen Schwerin"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Schwerin kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Schwerin — So einfach geht's",
+      "localHooksTitle": "Warum viele in Schwerin ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 19053–19063 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Schweriner Schloss werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Schwerin entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Schwerin wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Mecklenburg-Vorpommern",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Schwerin gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Schwerin",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Schwerin",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Schwerin, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Schwerin erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Schwerin",
+        "Unfallwagen verkaufen Schwerin",
+        "Motorschaden Ankauf Schwerin",
+        "Leasingrückläufer in Schwerin ankaufen",
+        "Firmenwagen in Schwerin bewerten",
+        "Auto sofort verkaufen Schwerin"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Schwerin?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Schwerin",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Schwerin",
+        "Auto verkaufen Schwerin",
+        "KFZ Ankauf Schwerin",
+        "Wagen verkaufen Schwerin",
+        "Gebrauchtwagen Ankauf Schwerin",
+        "Auto ohne TÜV verkaufen Schwerin",
+        "Unfallwagen verkaufen Schwerin",
+        "Motorschaden Ankauf Schwerin",
+        "PKW verkaufen Mecklenburg-Vorpommern",
+        "Gebrauchtwagen verkaufen Schwerin",
+        "Fahrzeug verkaufen Schwerin",
+        "Autoankauf nahe Schweriner Schloss"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Schwerin",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Schwerin, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Mecklenburg-Vorpommern",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Schwerin — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 19053–19063",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Schwerin — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Schwerin",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Schwerin wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Schwerin zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Mecklenburg-Vorpommern ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Schwerin",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Schweriner Schloss",
@@ -38,8 +189,8 @@
   ],
   "faq": [
     {
-      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Schwerin?",
-      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
+      "question": "Welche Dokumente sind in Schwerin für einen reibungslosen Ankauf besonders wichtig?",
+      "answer": "Ideal sind Zulassungsbescheinigung Teil I und II, ein gültiger Ausweis, alle Schlüssel sowie vorhandene Wartungsnachweise. Im Bereich 19053–19063 prüfen wir die Unterlagen direkt beim Termin."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Schwerin?",

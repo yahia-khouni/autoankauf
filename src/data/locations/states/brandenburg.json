@@ -8,13 +8,124 @@
   "population": 2573135,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Brandenburg | Auto verkaufen in Brandenburg",
-    "description": "Verkaufen Sie Ihr Auto in Brandenburg. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Potsdam, Cottbus und Frankfurt (Oder).",
-    "keywords": ["Autoankauf Brandenburg", "Auto verkaufen Brandenburg", "PKW Ankauf BB", "Gebrauchtwagen Ankauf Potsdam", "KFZ Ankauf Cottbus"]
+    "title": "Autoankauf Brandenburg - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Brandenburg: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Potsdam, Cottbus, Frankfurt (Oder). Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Brandenburg",
+      "Auto verkaufen Brandenburg",
+      "PKW Ankauf BB",
+      "Gebrauchtwagen Ankauf Potsdam",
+      "KFZ Ankauf Cottbus"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Brandenburg zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — in Potsdam und im gesamten Umland von Berlin.",
-    "seoText": "Brandenburg umgibt die Bundeshauptstadt Berlin und ist ein wichtiger Wirtschaftsstandort in Ostdeutschland. Mit der Tesla-Gigafactory in Grünheide wächst auch der Automobilmarkt. Wir kaufen Ihr Fahrzeug in allen Städten Brandenburgs — von Potsdam bis zur Lausitz."
+    "seoText": "Brandenburg umgibt die Bundeshauptstadt Berlin und ist ein wichtiger Wirtschaftsstandort in Ostdeutschland. Mit der Tesla-Gigafactory in Grünheide wächst auch der Automobilmarkt. Wir kaufen Ihr Fahrzeug in allen Städten Brandenburgs — von Potsdam bis zur Lausitz.",
+    "page": {
+      "heroHighlight": "In ganz Brandenburg kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Brandenburg",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Brandenburg",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Brandenburg, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Brandenburg aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Brandenburg täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Brandenburg entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Potsdam sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Brandenburg bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Brandenburg?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Brandenburg",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Brandenburg.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Brandenburg",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Brandenburg tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Brandenburg",
+        "Auto verkaufen Brandenburg",
+        "KFZ Ankauf Brandenburg",
+        "Wagen verkaufen Brandenburg",
+        "Gebrauchtwagen Ankauf Brandenburg",
+        "Auto ohne TÜV verkaufen Brandenburg",
+        "Unfallwagen verkaufen Brandenburg",
+        "Motorschaden Ankauf Brandenburg",
+        "PKW Ankauf BB",
+        "Gebrauchtwagen Ankauf Potsdam",
+        "KFZ Ankauf Cottbus"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Brandenburg",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Brandenburg",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Brandenburg. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Brandenburg — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Brandenburg inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Brandenburg",
+      "seoSectionTitle": "Warum Autoankauf in Brandenburg?"
+    }
   },
-  "cities": ["potsdam", "cottbus", "frankfurt-oder"]
+  "cities": [
+    "potsdam",
+    "cottbus",
+    "frankfurt-oder"
+  ]
 }

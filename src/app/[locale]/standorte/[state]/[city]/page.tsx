@@ -18,7 +18,6 @@ import {
   Zap,
   TrendingUp,
   ChevronRight,
-  ChevronDown,
 } from "lucide-react";
 import { formatNumber } from "@/lib/utils";
 import { LeadForm } from "@/components/forms/lead-form";
@@ -27,6 +26,15 @@ import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
 import { BreadcrumbSchema, LocalBusinessSchema, FAQSchema } from "@/components/seo/schema-markup";
 import { TestimonialsSection } from "@/components/sections/testimonials";
 import { FAQSection } from "@/components/sections/faq";
+
+function getCityAnchorText(
+  city: { name: string; content: { page: { linkAnchors: string[] } } },
+  index: number,
+): string {
+  const anchors = city.content.page.linkAnchors;
+  if (!Array.isArray(anchors) || anchors.length === 0) return city.name;
+  return anchors[index % anchors.length];
+}
 
 type Props = {
   params: Promise<{ locale: Locale; state: string; city: string }>;
@@ -85,6 +93,8 @@ export default async function CityPage({ params }: Props) {
   const nearbyCityData = city.nearbyCities
     .map((slug) => allCities.find((c) => c.slug === slug))
     .filter(Boolean);
+  const cityPageContent = city.content.page;
+  const heroPillIcons = [Zap, Shield, TrendingUp];
 
   const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
 
@@ -100,7 +110,7 @@ export default async function CityPage({ params }: Props) {
         ]}
       />
       <LocalBusinessSchema
-        name={`Autoankauf ${city.name}`}
+        name={cityPageContent.localBusinessName}
         description={city.meta.description}
         url={`${baseUrl}/standorte/${state.slug}/${city.slug}`}
         areaServed={city.name}
@@ -148,7 +158,7 @@ export default async function CityPage({ params }: Props) {
               </div>
 
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight">
-                Autoankauf{" "}
+                {cityPageContent.heroTitlePrefix}{" "}
                 <span className="text-gold-gradient block sm:inline">{city.name}</span>
               </h1>
 
@@ -158,19 +168,17 @@ export default async function CityPage({ params }: Props) {
 
               {/* Trust pills */}
               <div className="flex flex-wrap gap-3">
-                {[
-                  { icon: Zap, label: "24h Angebot" },
-                  { icon: Shield, label: "100% Kostenlos" },
-                  { icon: TrendingUp, label: "Sofortzahlung" },
-                ].map((pill, i) => (
+                {cityPageContent.heroTrustPills.map((pillLabel, i) => {
+                  const PillIcon = heroPillIcons[i] ?? Zap;
+                  return (
                   <div
                     key={i}
                     className="flex items-center gap-2 bg-white/8 border border-white/15 rounded-full px-4 py-2 backdrop-blur-sm"
                   >
-                    <pill.icon className="h-4 w-4 text-gold-400" />
-                    <span className="text-sm text-white font-medium">{pill.label}</span>
+                    <PillIcon className="h-4 w-4 text-gold-400" />
+                    <span className="text-sm text-white font-medium">{pillLabel}</span>
                   </div>
-                ))}
+                )})}
               </div>
             </div>
 
@@ -181,19 +189,15 @@ export default async function CityPage({ params }: Props) {
                 <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-7">
                   <div className="flex items-center gap-2 mb-4">
                     <Star className="h-5 w-5 text-gold-400 fill-gold-400" />
-                    <span className="text-gold-300 font-semibold text-sm">5.0 Sterne Bewertung</span>
+                    <span className="text-gold-300 font-semibold text-sm">{cityPageContent.heroCardRatingText}</span>
                   </div>
                   <p className="text-slate-300 text-sm leading-relaxed mb-6">
-                    &ldquo;Schnell, fair und professionell. Bestes Autoankauf-Erlebnis in {city.name}!&rdquo;
+                    {cityPageContent.heroCardDescription}
                   </p>
                   <div className="grid grid-cols-3 gap-2 mb-6">
-                    {[
-                      { val: "24h", label: t("offer") },
-                      { val: "0€", label: "Provision" },
-                      { val: "Bar", label: "Zahlung" },
-                    ].map((s, i) => (
+                    {cityPageContent.heroCardStats.map((s, i) => (
                       <div key={i} className="bg-white/10 rounded-xl p-3 text-center">
-                        <div className="text-base font-bold text-gold-400">{s.val}</div>
+                        <div className="text-base font-bold text-gold-400">{s.value}</div>
                         <div className="text-[10px] text-slate-400">{s.label}</div>
                       </div>
                     ))}
@@ -203,7 +207,7 @@ export default async function CityPage({ params }: Props) {
                     id={`city-hero-cta-${city.slug}`}
                     className="group flex items-center justify-center gap-2 w-full bg-gradient-gold text-navy-900 font-bold px-6 py-3.5 rounded-2xl transition-all hover:shadow-gold-lg btn-cta-glow text-sm"
                   >
-                    Jetzt Angebot erhalten
+                    {cityPageContent.heroCardCtaText}
                     <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>
@@ -251,11 +255,29 @@ export default async function CityPage({ params }: Props) {
               {/* Intro */}
               <div>
                 <h2 className="text-2xl lg:text-3xl font-bold text-navy-900 mb-4">
-                  Auto verkaufen in {city.name} — So einfach geht&apos;s
+                  {cityPageContent.introTitle}
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
                   {city.content.localContent}
                 </p>
+              </div>
+
+              {/* Local market hooks */}
+              <div className="bg-white rounded-3xl border border-slate-100 p-6 lg:p-8 shadow-sm">
+                <h3 className="text-xl font-bold text-navy-900 mb-3">
+                  {cityPageContent.localHooksTitle}
+                </h3>
+                <p className="text-slate-600 leading-relaxed mb-5">
+                  {cityPageContent.localHooksIntro}
+                </p>
+                <div className="grid md:grid-cols-3 gap-3">
+                  {cityPageContent.localHooks.map((hook, i) => (
+                    <div key={i} className="rounded-2xl border border-slate-100 bg-slate-50 p-4">
+                      <p className="text-sm font-semibold text-navy-900 mb-1">{hook.title}</p>
+                      <p className="text-xs text-slate-600 leading-relaxed">{hook.copy}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
 
               {/* Landmarks / Local Highlights */}
@@ -263,7 +285,7 @@ export default async function CityPage({ params }: Props) {
                 <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl border border-slate-100 p-6">
                   <h3 className="text-sm font-bold text-navy-900 mb-3 flex items-center gap-2">
                     <MapPin className="h-4 w-4 text-gold-500" />
-                    Bekannt in {city.name}
+                    {cityPageContent.landmarksTitle}
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {city.landmarks.map((landmark, i) => (
@@ -285,18 +307,11 @@ export default async function CityPage({ params }: Props) {
                     <Shield className="h-5 w-5 text-navy-900" />
                   </div>
                   <h3 className="text-xl font-bold text-navy-900">
-                    Ihre Vorteile beim Autoankauf in {city.name}
+                    {cityPageContent.benefitsTitle}
                   </h3>
                 </div>
                 <div className="grid sm:grid-cols-2 gap-3">
-                  {[
-                    "Lokaler Service direkt zu Ihnen",
-                    "Kostenlose professionelle Bewertung",
-                    "Sofortige Zahlung bar oder per Überweisung",
-                    "Kostenlose Abholung vor Ort",
-                    "Alle Marken: BMW, Mercedes, VW, Audi",
-                    "Auch Fahrzeuge mit Schäden",
-                  ].map((benefit, i) => (
+                  {cityPageContent.benefits.map((benefit, i) => (
                     <div key={i} className="flex items-start gap-3">
                       <CheckCircle className="h-5 w-5 text-emerald-500 flex-shrink-0 mt-0.5" />
                       <span className="text-sm text-slate-700">{benefit}</span>
@@ -308,14 +323,10 @@ export default async function CityPage({ params }: Props) {
               {/* Process */}
               <div className="bg-gradient-to-br from-gold-50 to-amber-50 rounded-3xl border border-gold-200 p-6 lg:p-8">
                 <h3 className="text-xl font-bold text-navy-900 mb-6">
-                  Der Ablauf — In 3 Schritten zum Verkauf
+                  {cityPageContent.processTitle}
                 </h3>
                 <div className="space-y-5">
-                  {[
-                    { step: "01", title: "Anfrage stellen", desc: `Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten.` },
-                    { step: "02", title: "Angebot erhalten", desc: `Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege.` },
-                    { step: "03", title: "Fahrzeug übergeben & kassieren", desc: `Bei Einigung kommen wir zu Ihnen in ${city.name}, prüfen das Fahrzeug und bezahlen sofort aus.` },
-                  ].map((item, i) => (
+                  {cityPageContent.processSteps.map((item, i) => (
                     <div key={i} className="flex items-start gap-4 group">
                       <div className="w-12 h-12 rounded-2xl bg-gradient-gold flex items-center justify-center font-bold text-navy-900 flex-shrink-0 shadow-gold text-sm group-hover:scale-105 transition-transform">
                         {item.step}
@@ -329,30 +340,76 @@ export default async function CityPage({ params }: Props) {
                 </div>
               </div>
 
+              {/* Conversion intent block */}
+              <div className="bg-gradient-to-br from-navy-50 to-blue-50 rounded-3xl border border-navy-100 p-6 lg:p-8">
+                <h3 className="text-xl font-bold text-navy-900 mb-3">
+                  {cityPageContent.conversionTitle}
+                </h3>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  {cityPageContent.conversionIntro}
+                </p>
+                <div className="grid sm:grid-cols-2 gap-2">
+                  {cityPageContent.conversionItems.map((item, i) => (
+                    <div key={i} className="flex items-start gap-2">
+                      <CheckCircle className="h-4 w-4 text-gold-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-slate-700">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               {/* Car types */}
               <div>
                 <h3 className="text-xl font-bold text-navy-900 mb-4">
-                  Welche Autos kaufen wir in {city.name}?
+                  {cityPageContent.vehicleTypesTitle}
                 </h3>
                 <p className="text-slate-600 mb-4">
-                  Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum
-                  Unfallfahrzeug. Besonders interessiert sind wir an:
+                  {cityPageContent.vehicleTypesIntro}
                 </p>
                 <div className="grid sm:grid-cols-2 gap-2">
-                  {[
-                    "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
-                    "Volkswagen, Opel, Ford & andere Volumenmarken",
-                    "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
-                    "Nutzfahrzeuge und Transporter",
-                    "Fahrzeuge mit hoher Laufleistung",
-                    "Unfallfahrzeuge & Fahrzeuge mit Mängeln",
-                  ].map((car, i) => (
+                  {cityPageContent.vehicleTypes.map((car, i) => (
                     <div key={i} className="flex items-start gap-2.5 py-2.5 border-b border-slate-100 last:border-0">
                       <Car className="h-4 w-4 text-gold-500 flex-shrink-0 mt-0.5" />
                       <span className="text-sm text-slate-700">{car}</span>
                     </div>
                   ))}
                 </div>
+              </div>
+
+              {/* Semantic keyword coverage */}
+              <div className="bg-white rounded-3xl border border-slate-100 p-6 lg:p-8 shadow-sm">
+                <h3 className="text-xl font-bold text-navy-900 mb-3">
+                  {cityPageContent.semanticTitle}
+                </h3>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  {cityPageContent.semanticIntro}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {cityPageContent.semanticQueries.map((query, i) => (
+                    <span
+                      key={i}
+                      className="text-xs px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-700"
+                    >
+                      {query}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Trust and E-E-A-T signals */}
+              <div className="bg-navy-900 rounded-3xl border border-navy-800 p-6 lg:p-8 text-white">
+                <h3 className="text-xl font-bold mb-4">{cityPageContent.trustTitle}</h3>
+                <div className="grid sm:grid-cols-3 gap-3 mb-4">
+                  {cityPageContent.trustFacts.map((fact, i) => (
+                    <div key={i} className="rounded-2xl bg-white/5 border border-white/10 p-4">
+                      <p className="text-xl font-bold text-gold-400">{fact.value}</p>
+                      <p className="text-xs text-slate-300 uppercase tracking-wide">{fact.label}</p>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-sm text-slate-300 leading-relaxed">
+                  {cityPageContent.trustDescription}
+                </p>
               </div>
 
               {/* Nearby Cities */}
@@ -362,17 +419,17 @@ export default async function CityPage({ params }: Props) {
                     {t("nearbyAutoankauf", { city: city.name })}
                   </h3>
                   <p className="text-sm text-slate-500 mb-5">
-                    Wir sind auch in diesen Städten für Sie da:
+                    {cityPageContent.nearbyIntro}
                   </p>
                   <div className="flex flex-wrap gap-2.5">
-                    {nearbyCityData.map((c) => c && (
+                    {nearbyCityData.map((c, index) => c && (
                       <Link
                         key={c.slug}
                         href={`/standorte/${stateSlug}/${c.slug}`}
                         className="group inline-flex items-center gap-1.5 px-4 py-2.5 bg-white border border-slate-200 hover:border-gold-300 hover:bg-gold-50 rounded-xl text-sm font-medium text-navy-700 hover:text-gold-700 transition-all shadow-sm hover:shadow-md"
                       >
                         <MapPin className="h-3.5 w-3.5 text-slate-400 group-hover:text-gold-500 transition-colors" />
-                        {c.name}
+                        {getCityAnchorText(c, index)}
                         <ChevronRight className="h-3 w-3 text-slate-300 group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all" />
                       </Link>
                     ))}
@@ -384,17 +441,17 @@ export default async function CityPage({ params }: Props) {
               {otherCities.length > 0 && (
                 <div className="bg-slate-50 rounded-3xl p-6 lg:p-8">
                   <h3 className="text-lg font-bold text-navy-900 mb-2">
-                    Weitere Städte in {state.name}
+                    {cityPageContent.otherCitiesTitle}
                   </h3>
                   <div className="flex flex-wrap gap-2.5">
-                    {otherCities.map((c) => (
+                    {otherCities.map((c, index) => (
                       <Link
                         key={c.slug}
                         href={`/standorte/${stateSlug}/${c.slug}`}
                         className="group inline-flex items-center gap-1.5 px-4 py-2.5 bg-white border border-slate-200 hover:border-gold-300 hover:bg-gold-50 rounded-xl text-sm font-medium text-navy-700 hover:text-gold-700 transition-all shadow-sm hover:shadow-md"
                       >
                         <MapPin className="h-3.5 w-3.5 text-slate-400 group-hover:text-gold-500 transition-colors" />
-                        {c.name}
+                        {getCityAnchorText(c, index + 1)}
                         <ChevronRight className="h-3 w-3 text-slate-300 group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all" />
                       </Link>
                     ))}
@@ -427,26 +484,22 @@ export default async function CityPage({ params }: Props) {
                     <div className="flex items-center gap-2 mb-1">
                       <Star className="h-4 w-4 text-gold-500 fill-gold-500" />
                       <span className="text-xs font-semibold text-gold-600 uppercase tracking-wide">
-                        {t("premiumService")}
+                        {cityPageContent.sidebarBadge}
                       </span>
                     </div>
 
                     <h3 className="text-2xl font-bold text-navy-900 mb-1">
-                      Kostenloses Angebot
+                      {cityPageContent.sidebarTitle}
                     </h3>
                     <p className="text-sm text-slate-500 mb-6">
-                      Für Ihr Auto in {city.name} — unverbindlich &amp; schnell
+                      {cityPageContent.sidebarSubtitle}
                     </p>
 
                     <LeadForm />
 
                     {/* Trust micro-copy */}
                     <div className="mt-5 pt-5 border-t border-slate-100 space-y-2.5">
-                      {[
-                        "Keine Kosten, kein Risiko",
-                        `Abholung direkt in ${city.name}`,
-                        "Sofortige Auszahlung garantiert",
-                      ].map((item, i) => (
+                      {cityPageContent.sidebarTrustItems.map((item, i) => (
                         <div key={i} className="flex items-center gap-2.5">
                           <CheckCircle className="h-4 w-4 text-emerald-500 flex-shrink-0" />
                           <span className="text-xs text-slate-600">{item}</span>
@@ -461,14 +514,14 @@ export default async function CityPage({ params }: Props) {
                   <div className="flex items-center gap-2 mb-3">
                     <Users className="h-4 w-4 text-gold-400" />
                     <span className="text-xs font-semibold text-gold-400 uppercase tracking-wide">
-                      Lokaler Markt
+                      {cityPageContent.populationCardTitle}
                     </span>
                   </div>
                   <div className="text-2xl font-bold text-white mb-1">
                     {formatNumber(city.population)}+
                   </div>
                   <div className="text-xs text-slate-400">
-                    Einwohner in {city.name} — ein großer lokaler Automarkt mit echtem Bedarf.
+                    {cityPageContent.populationCardDescription}
                   </div>
                   {city.postalCodeRange && (
                     <div className="mt-3 pt-3 border-t border-navy-700">
@@ -484,15 +537,15 @@ export default async function CityPage({ params }: Props) {
       </section>
 
       <TestimonialsSection 
-        title="Das sagen unsere Kunden" 
-        badge="Bewertungen" 
+        title={cityPageContent.testimonialsTitle}
+        badge={cityPageContent.testimonialsBadge}
         testimonials={testimonials} 
       />
 
       {city.faq.length > 0 && (
         <FAQSection 
-          title={`Häufig gestellte Fragen zum Autoankauf in ${city.name}`}
-          subtitle={`Alles was Sie über den Autoverkauf in ${city.name} wissen müssen`}
+          title={cityPageContent.faqTitle}
+          subtitle={cityPageContent.faqSubtitle}
           faqs={city.faq.map(f => ({ q: f.question, a: f.answer }))} 
         />
       )}
@@ -509,21 +562,20 @@ export default async function CityPage({ params }: Props) {
             <div className="relative">
               <div className="inline-flex items-center gap-1.5 bg-gold-400/20 border border-gold-400/30 text-gold-300 rounded-full px-4 py-1.5 text-sm font-medium mb-4">
                 <Zap className="h-3.5 w-3.5" />
-                Jetzt starten
+                {cityPageContent.bottomCtaBadge}
               </div>
               <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
-                Bereit Ihr Auto in {city.name} zu verkaufen?
+                {cityPageContent.bottomCtaTitle}
               </h2>
               <p className="text-slate-400 max-w-lg mx-auto mb-8">
-                Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten.
-                Unser Team in {state.name} ist für Sie da.
+                {cityPageContent.bottomCtaDescription}
               </p>
               <Link
                 href="#city-lead-form"
                 id={`city-bottom-cta-${city.slug}`}
                 className="group inline-flex items-center gap-2 bg-gradient-gold text-navy-900 font-bold px-8 py-4 rounded-2xl transition-all hover:shadow-gold-lg hover:-translate-y-0.5 btn-cta-glow"
               >
-                Jetzt kostenloses Angebot
+                {cityPageContent.bottomCtaButton}
                 <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>

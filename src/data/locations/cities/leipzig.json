@@ -12,8 +12,8 @@
     "lng": 12.3731
   },
   "meta": {
-    "title": "KFZ Ankauf Leipzig — Kostenlose Bewertung & Abholung",
-    "description": "KFZ Ankauf Leipzig — die boomende Messestadt bietet starke Nachfrage und beste Preise für Ihren Gebrauchtwagen. Porsche- und BMW-Stadt mit Experten-Bewertung.",
+    "title": "Autoankauf Leipzig - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Leipzig: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 04103–04357 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Leipzig",
       "Auto verkaufen Leipzig",
@@ -21,12 +21,163 @@
       "Fahrzeugankauf Leipzig",
       "Auto sofort verkaufen Leipzig",
       "Autoverkauf Leipzig",
-      "Gebrauchtwagenhandel Leipzig"
+      "Gebrauchtwagenhandel Leipzig",
+      "Autoankauf nahe Völkerschlachtdenkmal Leipzig"
     ]
   },
   "content": {
     "heroDescription": "Leipzig boomt — und der Automarkt boomt mit. In Sachsens größter Stadt erhalten Sie Top-Preise durch die starke Nachfrage und unsere professionelle Bewertung.",
-    "localContent": "Leipzig ist mit rund 616.000 Einwohnern die größte Stadt Sachsens und eine der am schnellsten wachsenden Metropolen Deutschlands. Als Standort der Porsche- und BMW-Werke ist Leipzig ein gewichtiger Automobilstandort. Die Thomaskirche, in der Johann Sebastian Bach wirkte, und das Gewandhaus-Orchester machen Leipzig auch kulturell erstklassig. Die A9, A14 und A38 kreuzen sich bei Leipzig und schaffen einen zentralen Handelsknoten für Mitteldeutschland."
+    "localContent": "Leipzig ist mit rund 616.000 Einwohnern die größte Stadt Sachsens und eine der am schnellsten wachsenden Metropolen Deutschlands. Als Standort der Porsche- und BMW-Werke ist Leipzig ein gewichtiger Automobilstandort. Die Thomaskirche, in der Johann Sebastian Bach wirkte, und das Gewandhaus-Orchester machen Leipzig auch kulturell erstklassig. Die A9, A14 und A38 kreuzen sich bei Leipzig und schaffen einen zentralen Handelsknoten für Mitteldeutschland.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Leipzig",
+        "Auto verkaufen Leipzig",
+        "KFZ Ankauf Leipzig",
+        "Gebrauchtwagen verkaufen Leipzig"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Leipzig kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Leipzig — So einfach geht's",
+      "localHooksTitle": "Warum viele in Leipzig ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 04103–04357 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Völkerschlachtdenkmal werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Leipzig entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Leipzig wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Sachsen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Leipzig gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Leipzig",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Leipzig",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Leipzig, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Leipzig erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Leipzig",
+        "Unfallwagen verkaufen Leipzig",
+        "Motorschaden Ankauf Leipzig",
+        "Leasingrückläufer in Leipzig ankaufen",
+        "Firmenwagen in Leipzig bewerten",
+        "Auto sofort verkaufen Leipzig"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Leipzig?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Leipzig",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Leipzig",
+        "Auto verkaufen Leipzig",
+        "KFZ Ankauf Leipzig",
+        "Wagen verkaufen Leipzig",
+        "Gebrauchtwagen Ankauf Leipzig",
+        "Auto ohne TÜV verkaufen Leipzig",
+        "Unfallwagen verkaufen Leipzig",
+        "Motorschaden Ankauf Leipzig",
+        "PKW verkaufen Sachsen",
+        "PKW Ankauf Leipzig",
+        "Fahrzeugankauf Leipzig",
+        "Auto sofort verkaufen Leipzig"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Leipzig",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Leipzig, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Sachsen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Leipzig — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 04103–04357",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Leipzig — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Leipzig",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Leipzig wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Leipzig zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Sachsen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Leipzig",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Völkerschlachtdenkmal",
@@ -41,8 +192,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Leipzig verkaufen?",
-      "answer": "Schnelligkeit ist unser Markenzeichen: In Leipzig schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
+      "question": "Wie kurzfristig kann ich in Leipzig einen verbindlichen Ankaufstermin bekommen?",
+      "answer": "In vielen Fällen sehr kurzfristig: Für das Gebiet 04103–04357 vergeben wir auf Wunsch Express-Slots. Rund um das Völkerschlachtdenkmal ist eine Besichtigung häufig noch am selben Tag realisierbar."
     },
     {
       "question": "Bieten Sie einen kostenlosen Abholservice in Leipzig an?",

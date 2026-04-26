@@ -12,8 +12,8 @@
     "lng": 10.6866
   },
   "meta": {
-    "title": "Auto verkaufen in Lübeck | Sofortzahlung & Top-Service",
-    "description": "Auto verkaufen in Lübeck — die Königin der Hanse bietet hanseatisch faire Konditionen. UNESCO-Welterbestadt mit Top-Service: Gratis-Bewertung und Sofortzahlung.",
+    "title": "Autoankauf Lübeck - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Lübeck: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 23552–23570 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Lübeck",
       "Auto verkaufen Lübeck",
@@ -21,12 +21,163 @@
       "Wagen verkaufen Lübeck",
       "Auto Export Lübeck",
       "Motorschaden Ankauf Lübeck",
-      "PKW verkaufen Lübeck"
+      "PKW verkaufen Lübeck",
+      "Autoankauf nahe Holstentor Lübeck"
     ]
   },
   "content": {
     "heroDescription": "Die Königin der Hanse steht für Handelskunst seit Jahrhunderten. Profitieren Sie von dieser Tradition und verkaufen Sie Ihr Auto in Lübeck zum fairen hanseatischen Preis.",
-    "localContent": "Lübeck ist die Königin der Hanse und UNESCO-Welterbestadt. Das Holstentor, das Marzipan und die gotische Backsteinarchitektur machen die Stadt weltberühmt. Die rund 217.000 Einwohner zählende Hafenstadt an der Trave hat eine jahrhundertealte Handelstradition, die sich auch im fairen und professionellen Umgang beim Fahrzeughandel widerspiegelt. Die A1 und A20 verbinden Lübeck mit Hamburg und dem gesamten norddeutschen Raum."
+    "localContent": "Lübeck ist die Königin der Hanse und UNESCO-Welterbestadt. Das Holstentor, das Marzipan und die gotische Backsteinarchitektur machen die Stadt weltberühmt. Die rund 217.000 Einwohner zählende Hafenstadt an der Trave hat eine jahrhundertealte Handelstradition, die sich auch im fairen und professionellen Umgang beim Fahrzeughandel widerspiegelt. Die A1 und A20 verbinden Lübeck mit Hamburg und dem gesamten norddeutschen Raum.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Lübeck",
+        "Auto verkaufen Lübeck",
+        "KFZ Ankauf Lübeck",
+        "Gebrauchtwagen verkaufen Lübeck"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Lübeck kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Lübeck — So einfach geht's",
+      "localHooksTitle": "Warum viele in Lübeck ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 23552–23570 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Holstentor werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Lübeck entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Lübeck wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Schleswig-Holstein",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Lübeck gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Lübeck",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Lübeck",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Lübeck, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Lübeck erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Lübeck",
+        "Unfallwagen verkaufen Lübeck",
+        "Motorschaden Ankauf Lübeck",
+        "Leasingrückläufer in Lübeck ankaufen",
+        "Firmenwagen in Lübeck bewerten",
+        "Auto sofort verkaufen Lübeck"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Lübeck?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Lübeck",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Lübeck",
+        "Auto verkaufen Lübeck",
+        "KFZ Ankauf Lübeck",
+        "Wagen verkaufen Lübeck",
+        "Gebrauchtwagen Ankauf Lübeck",
+        "Auto ohne TÜV verkaufen Lübeck",
+        "Unfallwagen verkaufen Lübeck",
+        "Motorschaden Ankauf Lübeck",
+        "PKW verkaufen Schleswig-Holstein",
+        "Auto Export Lübeck",
+        "PKW verkaufen Lübeck",
+        "Autoankauf nahe Holstentor Lübeck"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Lübeck",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Lübeck, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Schleswig-Holstein",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Lübeck — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 23552–23570",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Lübeck — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Lübeck",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Lübeck wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Lübeck zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Schleswig-Holstein ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Lübeck",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Holstentor",
@@ -40,15 +191,15 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Lübeck verkaufen?",
-      "answer": "Wir wickeln den Autoankauf in Lübeck meist innerhalb von 24 bis 48 Stunden ab. Kontaktieren Sie uns am Morgen — oft können wir noch am selben Tag ein verbindliches Angebot machen."
+      "question": "Wie schnell kann ich in Lübeck einen verbindlichen Verkaufstermin erhalten?",
+      "answer": "Im Gebiet 23552–23570 sind kurzfristige Termine häufig möglich. Rund um das Holstentor können wir Besichtigung und Kaufabschluss oft in kurzer Zeit organisieren."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Lübeck?",
       "answer": "Selbstverständlich! Auch Unfallwagen, Fahrzeuge mit Motorschaden oder abgelaufenem TÜV kaufen wir in Lübeck gerne an. Beschreiben Sie uns den Zustand und Sie erhalten umgehend eine Bewertung."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Lübeck?",
       "answer": "Nach Ihrer Online-Anfrage erhalten Sie ein vorläufiges Angebot. Stimmen die Angaben mit dem Fahrzeugzustand überein, wird dieses zum Festpreis. Dann erfolgt die Abholung und Sofortauszahlung in Lübeck."
     },
     {

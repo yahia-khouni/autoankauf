@@ -12,8 +12,8 @@
     "lng": 8.4452
   },
   "meta": {
-    "title": "Autoankauf Ludwigshafen am Rhein | Professionell & Fair",
-    "description": "Autoankauf Ludwigshafen — die BASF-Stadt bietet industriestarke Ankaufspreise. Professionelle Fahrzeugbewertung, Express-Abholung und sofortige Auszahlung am Rhein.",
+    "title": "Autoankauf Ludwigshafen am Rhein - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Ludwigshafen am Rhein: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 67059–67071 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Ludwigshafen am Rhein",
       "Auto verkaufen Ludwigshafen am Rhein",
@@ -21,12 +21,163 @@
       "Gebrauchtwagen verkaufen Ludwigshafen am Rhein",
       "Fahrzeugankauf Ludwigshafen am Rhein",
       "Motorschaden Ankauf Ludwigshafen am Rhein",
-      "PKW verkaufen Ludwigshafen am Rhein"
+      "PKW verkaufen Ludwigshafen am Rhein",
+      "Autoankauf nahe BASF Ludwigshafen"
     ]
   },
   "content": {
     "heroDescription": "Gegenüber von Mannheim am Rhein bieten wir in Ludwigshafen professionellen Autoankauf mit kurzen Wegen. Bewertung, Abholung und Bezahlung aus einer Hand.",
-    "localContent": "Ludwigshafen am Rhein ist als Stammsitz des Chemiegiganten BASF einer der wichtigsten Industriestandorte Deutschlands. Die rund 173.000 Einwohner zählende Stadt liegt direkt gegenüber von Mannheim und bildet mit ihr ein Städtepaar am Rhein. Die starke industrielle Prägung sorgt für solide Einkommen und einen aktiven Gebrauchtwagenmarkt. Die B9 und die Rheinbrücke sowie die Nähe zur A6 und A61 verbinden Ludwigshafen mit dem gesamten Rhein-Neckar-Dreieck."
+    "localContent": "Ludwigshafen am Rhein ist als Stammsitz des Chemiegiganten BASF einer der wichtigsten Industriestandorte Deutschlands. Die rund 173.000 Einwohner zählende Stadt liegt direkt gegenüber von Mannheim und bildet mit ihr ein Städtepaar am Rhein. Die starke industrielle Prägung sorgt für solide Einkommen und einen aktiven Gebrauchtwagenmarkt. Die B9 und die Rheinbrücke sowie die Nähe zur A6 und A61 verbinden Ludwigshafen mit dem gesamten Rhein-Neckar-Dreieck.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Ludwigshafen am Rhein",
+        "Auto verkaufen Ludwigshafen am Rhein",
+        "KFZ Ankauf Ludwigshafen am Rhein",
+        "Gebrauchtwagen verkaufen Ludwigshafen am Rhein"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Ludwigshafen am Rhein kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Ludwigshafen am Rhein — So einfach geht's",
+      "localHooksTitle": "Warum viele in Ludwigshafen am Rhein ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 67059–67071 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um BASF werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Ludwigshafen am Rhein entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Ludwigshafen am Rhein wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Rheinland-Pfalz",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Ludwigshafen am Rhein gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Ludwigshafen am Rhein",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Ludwigshafen am Rhein",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Ludwigshafen am Rhein, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Ludwigshafen am Rhein erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Ludwigshafen am Rhein",
+        "Unfallwagen verkaufen Ludwigshafen am Rhein",
+        "Motorschaden Ankauf Ludwigshafen am Rhein",
+        "Leasingrückläufer in Ludwigshafen am Rhein ankaufen",
+        "Firmenwagen in Ludwigshafen am Rhein bewerten",
+        "Auto sofort verkaufen Ludwigshafen am Rhein"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Ludwigshafen am Rhein?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Ludwigshafen am Rhein",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Ludwigshafen am Rhein",
+        "Auto verkaufen Ludwigshafen am Rhein",
+        "KFZ Ankauf Ludwigshafen am Rhein",
+        "Wagen verkaufen Ludwigshafen am Rhein",
+        "Gebrauchtwagen Ankauf Ludwigshafen am Rhein",
+        "Auto ohne TÜV verkaufen Ludwigshafen am Rhein",
+        "Unfallwagen verkaufen Ludwigshafen am Rhein",
+        "Motorschaden Ankauf Ludwigshafen am Rhein",
+        "PKW verkaufen Rheinland-Pfalz",
+        "Gebrauchtwagen verkaufen Ludwigshafen am Rhein",
+        "Fahrzeugankauf Ludwigshafen am Rhein",
+        "PKW verkaufen Ludwigshafen am Rhein"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Ludwigshafen am Rhein",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Ludwigshafen am Rhein, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Rheinland-Pfalz",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Ludwigshafen am Rhein — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 67059–67071",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Ludwigshafen am Rhein — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Ludwigshafen am Rhein",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Ludwigshafen am Rhein wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Ludwigshafen am Rhein zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Rheinland-Pfalz ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Ludwigshafen am Rhein",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "BASF",
@@ -41,8 +192,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Ludwigshafen am Rhein an?",
-      "answer": "Unser kostenloser Abholservice deckt Ludwigshafen am Rhein und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
+      "question": "Welche Zonen in Ludwigshafen am Rhein deckt Ihr Abholservice ab?",
+      "answer": "Wir holen Fahrzeuge im gesamten Bereich 67059–67071 kostenlos ab. Ob in der Innenstadt oder in der Nähe von BASF: In Ludwigshafen am Rhein bleiben Anfahrt und Abholung für Sie kostenfrei."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Ludwigshafen am Rhein?",

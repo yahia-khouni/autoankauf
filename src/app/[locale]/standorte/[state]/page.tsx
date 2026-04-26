@@ -28,6 +28,15 @@ type Props = {
   params: Promise<{ locale: Locale; state: string }>;
 };
 
+function getCityAnchorText(
+  city: { name: string; content: { page: { linkAnchors: string[] } } },
+  index: number,
+): string {
+  const anchors = city.content.page.linkAnchors;
+  if (!Array.isArray(anchors) || anchors.length === 0) return city.name;
+  return anchors[index % anchors.length];
+}
+
 export async function generateStaticParams() {
   const params: { locale: string; state: string }[] = [];
   locales.forEach((locale) => {
@@ -63,6 +72,8 @@ export default async function StatePage({ params }: Props) {
   const allStatesData = getAllStates();
   const totalPop = cities.reduce((s, c) => s + c.population, 0);
   const maxPop = cities.length > 0 ? Math.max(...cities.map((c) => c.population)) : 0;
+  const statePageContent = state.content.page;
+  const topLinkedCities = [...cities].sort((a, b) => b.population - a.population).slice(0, 12);
 
   const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
 
@@ -104,7 +115,7 @@ export default async function StatePage({ params }: Props) {
         ]}
       />
       <LocalBusinessSchema
-        name={`Autoankauf ${state.name}`}
+        name={statePageContent.localBusinessName}
         description={state.meta.description}
         url={`${baseUrl}/standorte/${state.slug}`}
         areaServed={state.name}
@@ -158,7 +169,7 @@ export default async function StatePage({ params }: Props) {
               </h1>
 
               <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-[80%]">
-                {state.content.heroDescription}
+                {state.content.heroDescription} {statePageContent.heroHighlight}
               </p>
 
               {/* Mini stats */}
@@ -301,18 +312,11 @@ export default async function StatePage({ params }: Props) {
                     <Shield className="h-5 w-5 text-navy-900" />
                   </div>
                   <h3 className="text-xl font-bold text-navy-900">
-                    Ihre Vorteile beim Autoankauf in {state.name}
+                    {statePageContent.benefitsTitle}
                   </h3>
                 </div>
                 <div className="grid sm:grid-cols-2 gap-3">
-                  {[
-                    "Kostenlose Fahrzeugbewertung vor Ort",
-                    "Faire Preise basierend auf aktuellem Marktwert",
-                    "Sofortige Barzahlung oder Überweisung",
-                    "Kostenlose Abholung Ihres Fahrzeugs",
-                    "Alle Marken und Modelle",
-                    "Auch Fahrzeuge mit Mängeln oder Unfallschäden",
-                  ].map((benefit, i) => (
+                  {statePageContent.benefits.map((benefit, i) => (
                     <div key={i} className="flex items-start gap-3">
                       <CheckCircle className="h-5 w-5 text-emerald-500 flex-shrink-0 mt-0.5" />
                       <span className="text-sm text-slate-700">{benefit}</span>
@@ -324,26 +328,10 @@ export default async function StatePage({ params }: Props) {
               {/* Process Steps */}
               <div className="bg-gradient-to-br from-gold-50 to-amber-50 rounded-3xl border border-gold-200 p-6 lg:p-8">
                 <h3 className="text-xl font-bold text-navy-900 mb-6">
-                  So funktioniert der Autoankauf in {state.name}
+                  {statePageContent.processTitle}
                 </h3>
                 <div className="space-y-5">
-                  {[
-                    {
-                      step: "01",
-                      title: "Anfrage stellen",
-                      desc: `Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten.`,
-                    },
-                    {
-                      step: "02",
-                      title: "Angebot erhalten",
-                      desc: `Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege.`,
-                    },
-                    {
-                      step: "03",
-                      title: "Fahrzeug übergeben & Geld erhalten",
-                      desc: `Bei Einigung kommen wir zu Ihnen nach ${state.name}, prüfen das Fahrzeug und zahlen sofort aus.`,
-                    },
-                  ].map((item, i) => (
+                  {statePageContent.processSteps.map((item, i) => (
                     <div key={i} className="flex items-start gap-4 group">
                       <div className="w-12 h-12 rounded-2xl bg-gradient-gold flex items-center justify-center font-bold text-navy-900 flex-shrink-0 shadow-gold text-sm group-hover:scale-105 transition-transform">
                         {item.step}
@@ -357,6 +345,24 @@ export default async function StatePage({ params }: Props) {
                 </div>
               </div>
 
+              {/* State-level market depth */}
+              <div className="bg-white rounded-3xl border border-slate-100 p-6 lg:p-8 shadow-sm">
+                <h3 className="text-xl font-bold text-navy-900 mb-3">
+                  {statePageContent.marketDepthTitle}
+                </h3>
+                <p className="text-slate-600 leading-relaxed mb-5">
+                  {statePageContent.marketDepthIntro}
+                </p>
+                <div className="grid md:grid-cols-3 gap-3">
+                  {statePageContent.marketSignals.map((signal, i) => (
+                    <div key={i} className="rounded-2xl border border-slate-100 bg-slate-50 p-4">
+                      <p className="text-sm font-semibold text-navy-900 mb-1">{signal.title}</p>
+                      <p className="text-xs text-slate-600 leading-relaxed">{signal.copy}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               {/* SEO Content */}
               <div className="bg-white rounded-3xl border border-slate-100 p-8 lg:p-10 shadow-sm mt-12 space-y-8">
                 <div>
@@ -364,7 +370,7 @@ export default async function StatePage({ params }: Props) {
                     <div className="w-8 h-8 rounded-lg bg-gold-400/20 flex items-center justify-center flex-shrink-0">
                       <Star className="h-4 w-4 text-gold-600" />
                     </div>
-                    Warum Autoankauf in {state.name}?
+                    {statePageContent.seoSectionTitle}
                   </h2>
                   <p className="text-slate-600 leading-relaxed">
                     {state.content.seoText}
@@ -378,17 +384,10 @@ export default async function StatePage({ params }: Props) {
                     <div className="w-8 h-8 rounded-lg bg-gold-400/20 flex items-center justify-center flex-shrink-0">
                       <Car className="h-4 w-4 text-gold-600" />
                     </div>
-                    Welche Fahrzeuge kaufen wir in {state.name}?
+                    {statePageContent.vehicleTypesTitle}
                   </h3>
                   <ul className="grid sm:grid-cols-2 gap-3 mt-4">
-                    {[
-                      "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
-                      "Volkswagen, Opel, Ford und andere Volumenmarken",
-                      "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
-                      "Nutzfahrzeuge, Transporter und Kombis",
-                      "Fahrzeuge mit hoher Laufleistung oder Mängeln",
-                      "Unfallfahrzeuge und nicht fahrtüchtige Autos"
-                    ].map((item, idx) => (
+                    {statePageContent.vehicleTypes.map((item, idx) => (
                       <li key={idx} className="flex items-start gap-3">
                         <CheckCircle className="h-5 w-5 text-gold-500 flex-shrink-0 mt-0.5" />
                         <span className="text-slate-600">{item}</span>
@@ -404,14 +403,73 @@ export default async function StatePage({ params }: Props) {
                     <div className="w-8 h-8 rounded-lg bg-gold-400/20 flex items-center justify-center flex-shrink-0">
                       <Euro className="h-4 w-4 text-gold-600" />
                     </div>
-                    Sofort-Auszahlung in {state.name}
+                    {statePageContent.payoutTitle}
                   </h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar
-                    oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine
-                    Ausreden. Das ist unser Versprechen an alle Kunden in {state.name}.
+                    {statePageContent.payoutText}
                   </p>
                 </div>
+              </div>
+
+              {/* Semantic keyword section */}
+              <div className="bg-white rounded-3xl border border-slate-100 p-6 lg:p-8 shadow-sm">
+                <h3 className="text-xl font-bold text-navy-900 mb-3">
+                  {statePageContent.semanticTitle}
+                </h3>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  {statePageContent.semanticIntro}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {statePageContent.semanticQueries.map((query, i) => (
+                    <span
+                      key={i}
+                      className="text-xs px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-700"
+                    >
+                      {query}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Internal linking with keyword anchors */}
+              {topLinkedCities.length > 0 && (
+                <div className="bg-gradient-to-br from-navy-50 to-slate-50 rounded-3xl border border-navy-100 p-6 lg:p-8">
+                  <h3 className="text-xl font-bold text-navy-900 mb-3">
+                    {statePageContent.cityLinksTitle}
+                  </h3>
+                  <p className="text-slate-600 leading-relaxed mb-4">
+                    {statePageContent.cityLinksIntro}
+                  </p>
+                  <div className="flex flex-wrap gap-2.5">
+                    {topLinkedCities.map((city, index) => (
+                      <Link
+                        key={city.slug}
+                        href={`/standorte/${state.slug}/${city.slug}`}
+                        className="group inline-flex items-center gap-1.5 px-4 py-2.5 bg-white border border-slate-200 hover:border-gold-300 hover:bg-gold-50 rounded-xl text-sm font-medium text-navy-700 hover:text-gold-700 transition-all shadow-sm hover:shadow-md"
+                      >
+                        <MapPin className="h-3.5 w-3.5 text-slate-400 group-hover:text-gold-500 transition-colors" />
+                        {getCityAnchorText(city, index)}
+                        <ArrowRight className="h-3.5 w-3.5 text-slate-300 group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all" />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Trust block */}
+              <div className="bg-navy-900 rounded-3xl border border-navy-800 p-6 lg:p-8 text-white">
+                <h3 className="text-xl font-bold mb-4">{statePageContent.trustTitle}</h3>
+                <div className="grid sm:grid-cols-3 gap-3 mb-4">
+                  {statePageContent.trustFacts.map((fact, i) => (
+                    <div key={i} className="rounded-2xl bg-white/5 border border-white/10 p-4">
+                      <p className="text-xl font-bold text-gold-400">{fact.value}</p>
+                      <p className="text-xs text-slate-300 uppercase tracking-wide">{fact.label}</p>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-sm text-slate-300 leading-relaxed">
+                  {statePageContent.trustDescription}
+                </p>
               </div>
             </div>
 
@@ -430,14 +488,14 @@ export default async function StatePage({ params }: Props) {
                     <div className="flex items-center gap-2 mb-1">
                       <Star className="h-4 w-4 text-gold-500 fill-gold-500" />
                       <span className="text-xs font-semibold text-gold-600 uppercase tracking-wide">
-                        Premium Service
+                        {statePageContent.sidebarBadge}
                       </span>
                     </div>
                     <h3 className="text-2xl font-bold text-navy-900 mb-1">
-                      Kostenloses Angebot
+                      {statePageContent.sidebarTitle}
                     </h3>
                     <p className="text-sm text-slate-500 mb-6">
-                      Für Ihr Auto in {state.name} — unverbindlich & schnell
+                      {statePageContent.sidebarSubtitle}
                     </p>
 
                     <LeadForm />
@@ -445,11 +503,7 @@ export default async function StatePage({ params }: Props) {
                     {/* Trust signals below form */}
                     <div className="mt-6 pt-5 border-t border-slate-100">
                       <div className="space-y-2.5">
-                        {[
-                          "Keine Provision, kein Risiko",
-                          `Abholung in ganz ${state.name}`,
-                          "Sofortige Auszahlung garantiert",
-                        ].map((t, i) => (
+                        {statePageContent.sidebarTrustItems.map((t, i) => (
                           <div key={i} className="flex items-center gap-2.5">
                             <CheckCircle className="h-4 w-4 text-emerald-500 flex-shrink-0" />
                             <span className="text-xs text-slate-600">{t}</span>

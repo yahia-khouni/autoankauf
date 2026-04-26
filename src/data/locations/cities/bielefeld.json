@@ -12,8 +12,8 @@
     "lng": 8.5325
   },
   "meta": {
-    "title": "Ihr Autoankauf in Bielefeld | Bestpreis-Garantie",
-    "description": "Autoankauf Bielefeld — Ostwestfalens größte Stadt bietet starke Ankaufspreise. Persönliche Bewertung, Gratis-Abholung am Teutoburger Wald und garantierte Sofortzahlung.",
+    "title": "Autoankauf Bielefeld - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Bielefeld: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 33602–33739 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Bielefeld",
       "Auto verkaufen Bielefeld",
@@ -21,12 +21,163 @@
       "Gebrauchtwagen verkaufen Bielefeld",
       "Auto sofort verkaufen Bielefeld",
       "Motorschaden Ankauf Bielefeld",
-      "PKW verkaufen Bielefeld"
+      "PKW verkaufen Bielefeld",
+      "Autoankauf nahe Sparrenburg Bielefeld"
     ]
   },
   "content": {
     "heroDescription": "Am Teutoburger Wald und im wirtschaftsstarken Ostwestfalen-Lippe bieten wir Ihnen einen zuverlässigen Autoankauf mit Bestpreisgarantie und persönlichem Service.",
-    "localContent": "Bielefeld am Teutoburger Wald ist mit rund 334.000 Einwohnern die größte Stadt in Ostwestfalen-Lippe und ein bedeutender Wirtschaftsstandort. Bekannte Unternehmen wie Dr. Oetker, Schüco und Böllhoff haben hier ihren Sitz. Die Sparrenburg thront über der Stadt und erinnert an die mittelalterlichen Wurzeln. Als östlicher Brückenkopf zwischen Ruhrgebiet und Norddeutschland profitiert Bielefeld von der A2."
+    "localContent": "Bielefeld am Teutoburger Wald ist mit rund 334.000 Einwohnern die größte Stadt in Ostwestfalen-Lippe und ein bedeutender Wirtschaftsstandort. Bekannte Unternehmen wie Dr. Oetker, Schüco und Böllhoff haben hier ihren Sitz. Die Sparrenburg thront über der Stadt und erinnert an die mittelalterlichen Wurzeln. Als östlicher Brückenkopf zwischen Ruhrgebiet und Norddeutschland profitiert Bielefeld von der A2.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Bielefeld",
+        "Auto verkaufen Bielefeld",
+        "KFZ Ankauf Bielefeld",
+        "Gebrauchtwagen verkaufen Bielefeld"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Bielefeld kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Bielefeld — So einfach geht's",
+      "localHooksTitle": "Warum viele in Bielefeld ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 33602–33739 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Sparrenburg werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Bielefeld entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Bielefeld wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Nordrhein-Westfalen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Bielefeld gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Bielefeld",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Bielefeld",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Bielefeld, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Bielefeld erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Bielefeld",
+        "Unfallwagen verkaufen Bielefeld",
+        "Motorschaden Ankauf Bielefeld",
+        "Leasingrückläufer in Bielefeld ankaufen",
+        "Firmenwagen in Bielefeld bewerten",
+        "Auto sofort verkaufen Bielefeld"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Bielefeld?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Bielefeld",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Bielefeld",
+        "Auto verkaufen Bielefeld",
+        "KFZ Ankauf Bielefeld",
+        "Wagen verkaufen Bielefeld",
+        "Gebrauchtwagen Ankauf Bielefeld",
+        "Auto ohne TÜV verkaufen Bielefeld",
+        "Unfallwagen verkaufen Bielefeld",
+        "Motorschaden Ankauf Bielefeld",
+        "PKW verkaufen Nordrhein-Westfalen",
+        "PKW Ankauf Bielefeld",
+        "Gebrauchtwagen verkaufen Bielefeld",
+        "Auto sofort verkaufen Bielefeld"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Bielefeld",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Bielefeld, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Nordrhein-Westfalen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Bielefeld — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 33602–33739",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Bielefeld — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Bielefeld",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Bielefeld wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Bielefeld zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Nordrhein-Westfalen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Bielefeld",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Sparrenburg",
@@ -41,8 +192,8 @@
   ],
   "faq": [
     {
-      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Bielefeld?",
-      "answer": "Für den Verkauf in Bielefeld benötigen Sie: Fahrzeugbrief (Zulassungsbescheinigung Teil II), Fahrzeugschein (Teil I), Ihren gültigen Personalausweis und alle Fahrzeugschlüssel. Serviceheft und TÜV-Bericht sind hilfreich, aber nicht zwingend erforderlich."
+      "question": "Welche Dokumente beschleunigen den Autoverkauf in Bielefeld am stärksten?",
+      "answer": "Bringen Sie idealerweise Zulassungsbescheinigung Teil I und II, Ausweis und Schlüssel mit. Im Bereich 33602–33739 können wir so schnell bewerten und den Ankauf kurzfristig abschließen."
     },
     {
       "question": "Kaufen Sie auch Firmenwagen und Flottenfahrzeuge in Bielefeld?",

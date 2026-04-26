@@ -12,20 +12,170 @@
     "lng": 9.9158
   },
   "meta": {
-    "title": "Autoankauf Göttingen | Professionell & Fair",
-    "description": "Autoankauf Göttingen — die Universitätsstadt bietet kurze Wege zum professionellen Fahrzeugverkauf. Faire Preise, kostenlose Abholung und sofortige Bezahlung.",
+    "title": "Autoankauf Göttingen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Göttingen: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 37073–37085 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Göttingen",
       "Auto verkaufen Göttingen",
       "Gebrauchtwagen Ankauf Göttingen",
       "Unfallwagen verkaufen Göttingen",
       "Fahrzeug verkaufen Göttingen",
-      "Auto ohne TÜV verkaufen Göttingen"
+      "Auto ohne TÜV verkaufen Göttingen",
+      "Autoankauf nahe Gänseliesel Göttingen"
     ]
   },
   "content": {
     "heroDescription": "Die traditionsreiche Universitätsstadt Göttingen verbindet Wissen mit Service. Profitieren Sie von einer datenbasierten Fahrzeugbewertung und sofortiger Auszahlung.",
-    "localContent": "Göttingen ist eine renommierte Universitätsstadt in Südniedersachsen, deren Georg-August-Universität zahlreiche Nobelpreisträger hervorgebracht hat. Die rund 118.000 Einwohner zählende Stadt ist geprägt von Forschung und Wissenschaft mit dem Max-Planck-Campus und dem DLR. Der hohe Anteil an Wissenschaftlern und Studierenden sorgt für einen regen Fahrzeugmarkt. Die A7 als Nord-Süd-Verbindung macht Göttingen zum Bindeglied zwischen Hannover und Kassel."
+    "localContent": "Göttingen ist eine renommierte Universitätsstadt in Südniedersachsen, deren Georg-August-Universität zahlreiche Nobelpreisträger hervorgebracht hat. Die rund 118.000 Einwohner zählende Stadt ist geprägt von Forschung und Wissenschaft mit dem Max-Planck-Campus und dem DLR. Der hohe Anteil an Wissenschaftlern und Studierenden sorgt für einen regen Fahrzeugmarkt. Die A7 als Nord-Süd-Verbindung macht Göttingen zum Bindeglied zwischen Hannover und Kassel.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Göttingen",
+        "Auto verkaufen Göttingen",
+        "KFZ Ankauf Göttingen",
+        "Gebrauchtwagen verkaufen Göttingen"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Göttingen kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Göttingen — So einfach geht's",
+      "localHooksTitle": "Warum viele in Göttingen ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 37073–37085 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Gänseliesel werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Göttingen entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Göttingen wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Niedersachsen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Göttingen gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Göttingen",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Göttingen",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Göttingen, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Göttingen erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Göttingen",
+        "Unfallwagen verkaufen Göttingen",
+        "Motorschaden Ankauf Göttingen",
+        "Leasingrückläufer in Göttingen ankaufen",
+        "Firmenwagen in Göttingen bewerten",
+        "Auto sofort verkaufen Göttingen"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Göttingen?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Göttingen",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Göttingen",
+        "Auto verkaufen Göttingen",
+        "KFZ Ankauf Göttingen",
+        "Wagen verkaufen Göttingen",
+        "Gebrauchtwagen Ankauf Göttingen",
+        "Auto ohne TÜV verkaufen Göttingen",
+        "Unfallwagen verkaufen Göttingen",
+        "Motorschaden Ankauf Göttingen",
+        "PKW verkaufen Niedersachsen",
+        "Fahrzeug verkaufen Göttingen",
+        "Autoankauf nahe Gänseliesel Göttingen"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Göttingen",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Göttingen, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Niedersachsen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Göttingen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 37073–37085",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Göttingen — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Göttingen",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Göttingen wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Göttingen zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Niedersachsen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Göttingen",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Gänseliesel",
@@ -40,15 +190,15 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Göttingen an?",
-      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Göttingen ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
+      "question": "Wie flexibel ist die kostenlose Fahrzeugabholung in Göttingen?",
+      "answer": "Wir holen Fahrzeuge im gesamten PLZ-Korridor 37073–37085 kostenfrei ab. Von Terminen rund um das Gänseliesel bis in Randlagen passen wir uns Ihrer Verfügbarkeit an."
     },
     {
       "question": "Kann ich ein Auto ohne gültigen TÜV in Göttingen verkaufen?",
       "answer": "Selbstverständlich. Viele Verkäufer in Göttingen möchten kein Geld mehr in den TÜV investieren — das verstehen wir und kaufen Ihr Auto auch ohne gültige HU an."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Göttingen?",
       "answer": "Die Online-Bewertung gibt Ihnen eine erste Preisindikation. Bei einem kurzen Vor-Ort-Termin in Göttingen prüfen wir das Fahrzeug und nennen Ihnen den verbindlichen Ankaufspreis."
     },
     {

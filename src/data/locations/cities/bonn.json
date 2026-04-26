@@ -12,8 +12,8 @@
     "lng": 7.0982
   },
   "meta": {
-    "title": "Fahrzeugankauf Bonn | Alle Marken & Zustände",
-    "description": "Fahrzeugankauf Bonn — die Beethovenstadt bietet erstklassige Konditionen. UN-Stadt mit internationalem Flair: Alle Marken und alle Zustände willkommen.",
+    "title": "Autoankauf Bonn - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Bonn: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 53111–53229 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Bonn",
       "Auto verkaufen Bonn",
@@ -21,12 +21,163 @@
       "Unfallwagen verkaufen Bonn",
       "Autoverkauf Bonn",
       "Fahrzeugbewertung Bonn",
-      "Autoankauf in der Nähe Bonn"
+      "Autoankauf in der Nähe Bonn",
+      "Autoankauf nahe Beethoven-Haus Bonn"
     ]
   },
   "content": {
     "heroDescription": "Die ehemalige Bundeshauptstadt und heutige UN-Stadt bietet international faire Konditionen auch beim Autoverkauf. Schnell, professionell und mit Sofortzahlung.",
-    "localContent": "Bonn ist die ehemalige Bundeshauptstadt Deutschlands und heute zweiter Regierungssitz sowie Standort zahlreicher UN-Organisationen. Die rund 333.000 Einwohner zählende Beethovenstadt am Rhein verbindet politische Bedeutung mit kulturellem Reichtum. Die Museumsmeile und die Universität Bonn ziehen Menschen aus aller Welt an. Der gehobene Lebensstandard sorgt für einen Premiumfahrzeugmarkt, während die A555 und A565 Bonn nahtlos mit dem Kölner Markt verbinden."
+    "localContent": "Bonn ist die ehemalige Bundeshauptstadt Deutschlands und heute zweiter Regierungssitz sowie Standort zahlreicher UN-Organisationen. Die rund 333.000 Einwohner zählende Beethovenstadt am Rhein verbindet politische Bedeutung mit kulturellem Reichtum. Die Museumsmeile und die Universität Bonn ziehen Menschen aus aller Welt an. Der gehobene Lebensstandard sorgt für einen Premiumfahrzeugmarkt, während die A555 und A565 Bonn nahtlos mit dem Kölner Markt verbinden.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Bonn",
+        "Auto verkaufen Bonn",
+        "KFZ Ankauf Bonn",
+        "Gebrauchtwagen verkaufen Bonn"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Bonn kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Bonn — So einfach geht's",
+      "localHooksTitle": "Warum viele in Bonn ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 53111–53229 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Beethoven-Haus werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Bonn entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Bonn wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Nordrhein-Westfalen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Bonn gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Bonn",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Bonn",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Bonn, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Bonn erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Bonn",
+        "Unfallwagen verkaufen Bonn",
+        "Motorschaden Ankauf Bonn",
+        "Leasingrückläufer in Bonn ankaufen",
+        "Firmenwagen in Bonn bewerten",
+        "Auto sofort verkaufen Bonn"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Bonn?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Bonn",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Bonn",
+        "Auto verkaufen Bonn",
+        "KFZ Ankauf Bonn",
+        "Wagen verkaufen Bonn",
+        "Gebrauchtwagen Ankauf Bonn",
+        "Auto ohne TÜV verkaufen Bonn",
+        "Unfallwagen verkaufen Bonn",
+        "Motorschaden Ankauf Bonn",
+        "PKW verkaufen Nordrhein-Westfalen",
+        "Autoverkauf Bonn",
+        "Fahrzeugbewertung Bonn",
+        "Autoankauf in der Nähe Bonn"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Bonn",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Bonn, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Nordrhein-Westfalen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Bonn — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 53111–53229",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Bonn — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Bonn",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Bonn wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Bonn zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Nordrhein-Westfalen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Bonn",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Beethoven-Haus",
@@ -41,8 +192,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Bonn verkaufen?",
-      "answer": "Wir wickeln den Autoankauf in Bonn meist innerhalb von 24 bis 48 Stunden ab. Kontaktieren Sie uns am Morgen — oft können wir noch am selben Tag ein verbindliches Angebot machen."
+      "question": "Wie kurzfristig kann ein Fahrzeugverkauf in Bonn abgeschlossen werden?",
+      "answer": "Bei vollständigen Angaben gelingt der Verkauf in Bonn oft in 24 bis 48 Stunden. Für den Bereich 53111–53229 können wir zügige Vor-Ort-Termine und eine direkte Auszahlung einplanen."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Bonn?",

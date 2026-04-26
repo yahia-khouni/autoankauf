@@ -12,8 +12,8 @@
     "lng": 9.732
   },
   "meta": {
-    "title": "Auto verkaufen Hannover — Schnell, sicher & unkompliziert",
-    "description": "Auto verkaufen in Hannover — die Messestadt bietet Top-Konditionen für Ihren Gebrauchtwagen. Express-Bewertung, kostenlose Abholung und sichere Sofortauszahlung.",
+    "title": "Autoankauf Hannover - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Hannover: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 30159–30659 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Hannover",
       "Auto verkaufen Hannover",
@@ -21,12 +21,163 @@
       "Gebrauchtwagen Ankauf Hannover",
       "Autoverkauf Hannover",
       "Fahrzeugbewertung Hannover",
-      "Autoankauf in der Nähe Hannover"
+      "Autoankauf in der Nähe Hannover",
+      "Autoankauf nahe Herrenhäuser Gärten Hannover"
     ]
   },
   "content": {
     "heroDescription": "In der niedersächsischen Landeshauptstadt profitieren Sie von unserer Messekompetenz: schnelle Bewertungen, transparente Prozesse und sofortige Auszahlung für Ihr Fahrzeug.",
-    "localContent": "Hannover ist die Landeshauptstadt Niedersachsens und weltbekannt als Messestadt mit der größten Industriemesse der Welt. Mit rund 545.000 Einwohnern ist die Stadt ein bedeutender Verkehrsknotenpunkt im Herzen Norddeutschlands. Die Automobilindustrie ist mit VW Nutzfahrzeuge und Continental stark vertreten. Das Autobahnkreuz Hannover, wo sich A2, A7 und A37 treffen, macht die Messestadt zum logistischen Zentrum Niedersachsens."
+    "localContent": "Hannover ist die Landeshauptstadt Niedersachsens und weltbekannt als Messestadt mit der größten Industriemesse der Welt. Mit rund 545.000 Einwohnern ist die Stadt ein bedeutender Verkehrsknotenpunkt im Herzen Norddeutschlands. Die Automobilindustrie ist mit VW Nutzfahrzeuge und Continental stark vertreten. Das Autobahnkreuz Hannover, wo sich A2, A7 und A37 treffen, macht die Messestadt zum logistischen Zentrum Niedersachsens.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Hannover",
+        "Auto verkaufen Hannover",
+        "KFZ Ankauf Hannover",
+        "Gebrauchtwagen verkaufen Hannover"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Hannover kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Hannover — So einfach geht's",
+      "localHooksTitle": "Warum viele in Hannover ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 30159–30659 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Herrenhäuser Gärten werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Hannover entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Hannover wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Niedersachsen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Hannover gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Hannover",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Hannover",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Hannover, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Hannover erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Hannover",
+        "Unfallwagen verkaufen Hannover",
+        "Motorschaden Ankauf Hannover",
+        "Leasingrückläufer in Hannover ankaufen",
+        "Firmenwagen in Hannover bewerten",
+        "Auto sofort verkaufen Hannover"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Hannover?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Hannover",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Hannover",
+        "Auto verkaufen Hannover",
+        "KFZ Ankauf Hannover",
+        "Wagen verkaufen Hannover",
+        "Gebrauchtwagen Ankauf Hannover",
+        "Auto ohne TÜV verkaufen Hannover",
+        "Unfallwagen verkaufen Hannover",
+        "Motorschaden Ankauf Hannover",
+        "PKW verkaufen Niedersachsen",
+        "PKW Ankauf Hannover",
+        "Autoverkauf Hannover",
+        "Fahrzeugbewertung Hannover"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Hannover",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Hannover, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Niedersachsen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Hannover — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 30159–30659",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Hannover — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Hannover",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Hannover wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Hannover zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Niedersachsen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Hannover",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Herrenhäuser Gärten",
@@ -41,15 +192,15 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Hannover verkaufen?",
-      "answer": "Schnelligkeit ist unser Markenzeichen: In Hannover schaffen wir es regelmäßig, den Ankauf in unter 48 Stunden komplett abzuwickeln — von der ersten Bewertung bis zur Barauszahlung."
+      "question": "Wie schnell erhalten Verkäufer in Hannover ein verbindliches Angebot?",
+      "answer": "Meist noch am selben oder nächsten Werktag. Im Korridor 30159–30659 planen wir zügige Vor-Ort-Termine; in der Nähe der Herrenhäuser Gärten sind kurzfristige Slots regelmäßig verfügbar."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Hannover berechnet?",
       "answer": "Unser Bewertungsverfahren in Hannover basiert auf der Schwacke-Liste, aktuellen Marktpreisen und dem individuellen Zustand Ihres Fahrzeugs. So garantieren wir einen marktgerechten Ankaufspreis."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Hannover?",
       "answer": "Sie erhalten zunächst eine unverbindliche Online-Schätzung. Im nächsten Schritt besichtigen wir das Fahrzeug in Hannover, bestätigen den Preis und zahlen sofort — bar oder per Echtzeitüberweisung."
     },
     {

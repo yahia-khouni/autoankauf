@@ -8,13 +8,127 @@
   "population": 8027031,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Niedersachsen | Auto verkaufen in Niedersachsen",
-    "description": "Verkaufen Sie Ihr Auto in Niedersachsen. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Hannover, Braunschweig, Osnabrück und 3 weiteren Städten.",
-    "keywords": ["Autoankauf Niedersachsen", "Auto verkaufen Niedersachsen", "PKW Ankauf NI", "Gebrauchtwagen Ankauf Hannover", "KFZ Ankauf Braunschweig"]
+    "title": "Autoankauf Niedersachsen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Niedersachsen: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Hannover, Braunschweig, Osnabrück. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Niedersachsen",
+      "Auto verkaufen Niedersachsen",
+      "PKW Ankauf NI",
+      "Gebrauchtwagen Ankauf Hannover",
+      "KFZ Ankauf Braunschweig"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Niedersachsen zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Hannover bis Wolfsburg, in allen Städten des Bundeslandes.",
-    "seoText": "Niedersachsen ist das zweitgrößte Bundesland Deutschlands und Heimat des Volkswagen-Konzerns in Wolfsburg. Von der Messestadt Hannover über das Forschungszentrum Braunschweig bis zum Osnabrücker Land — wir kaufen Ihr Fahrzeug in ganz Niedersachsen zu fairen Konditionen."
+    "seoText": "Niedersachsen ist das zweitgrößte Bundesland Deutschlands und Heimat des Volkswagen-Konzerns in Wolfsburg. Von der Messestadt Hannover über das Forschungszentrum Braunschweig bis zum Osnabrücker Land — wir kaufen Ihr Fahrzeug in ganz Niedersachsen zu fairen Konditionen.",
+    "page": {
+      "heroHighlight": "In ganz Niedersachsen kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Niedersachsen",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Niedersachsen",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Niedersachsen, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Niedersachsen aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Niedersachsen täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Niedersachsen entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Hannover sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Niedersachsen bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Niedersachsen?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Niedersachsen",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Niedersachsen.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Niedersachsen",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Niedersachsen tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Niedersachsen",
+        "Auto verkaufen Niedersachsen",
+        "KFZ Ankauf Niedersachsen",
+        "Wagen verkaufen Niedersachsen",
+        "Gebrauchtwagen Ankauf Niedersachsen",
+        "Auto ohne TÜV verkaufen Niedersachsen",
+        "Unfallwagen verkaufen Niedersachsen",
+        "Motorschaden Ankauf Niedersachsen",
+        "PKW Ankauf NI",
+        "Gebrauchtwagen Ankauf Hannover",
+        "KFZ Ankauf Braunschweig"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Niedersachsen",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Niedersachsen",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Niedersachsen. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Niedersachsen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Niedersachsen inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Niedersachsen",
+      "seoSectionTitle": "Warum Autoankauf in Niedersachsen?"
+    }
   },
-  "cities": ["hannover", "braunschweig", "osnabrueck", "oldenburg", "wolfsburg", "goettingen"]
+  "cities": [
+    "hannover",
+    "braunschweig",
+    "osnabrueck",
+    "oldenburg",
+    "wolfsburg",
+    "goettingen"
+  ]
 }

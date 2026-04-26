@@ -12,8 +12,8 @@
     "lng": 7.6261
   },
   "meta": {
-    "title": "Autoankauf Münster — Ihr lokaler Partner für Autoverkauf",
-    "description": "Autoankauf Münster — die lebenswerteste Stadt der Welt bietet auch die angenehmste Verkaufserfahrung. Persönlicher Service, faire Preise und sofortige Auszahlung.",
+    "title": "Autoankauf Münster - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Münster: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 48143–48167 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Münster",
       "Auto verkaufen Münster",
@@ -21,12 +21,163 @@
       "Wagen verkaufen Münster",
       "Fahrzeug verkaufen Münster",
       "Auto ohne TÜV verkaufen Münster",
-      "Auto Bewertung Münster"
+      "Auto Bewertung Münster",
+      "Autoankauf nahe Prinzipalmarkt Münster"
     ]
   },
   "content": {
     "heroDescription": "In Münster, der lebenswertesten Stadt der Welt, erleben Sie auch den angenehmsten Autoverkauf: persönlich, fair und mit sofortiger Auszahlung.",
-    "localContent": "Münster wurde mehrfach als lebenswerteste Stadt der Welt ausgezeichnet und ist mit rund 318.000 Einwohnern eine der beliebtesten Universitätsstädte Deutschlands. Die Fahrradstadt am Aasee ist bekannt für den historischen Prinzipalmarkt und das reiche studentische Leben. Die hohe Lebensqualität zieht kaufkräftige Bewohner an, was sich in einem lebendigen Markt für Gebraucht- und Premiumfahrzeuge niederschlägt. Die A1 und A43 verbinden Münster mit dem Ruhrgebiet und Bremen."
+    "localContent": "Münster wurde mehrfach als lebenswerteste Stadt der Welt ausgezeichnet und ist mit rund 318.000 Einwohnern eine der beliebtesten Universitätsstädte Deutschlands. Die Fahrradstadt am Aasee ist bekannt für den historischen Prinzipalmarkt und das reiche studentische Leben. Die hohe Lebensqualität zieht kaufkräftige Bewohner an, was sich in einem lebendigen Markt für Gebraucht- und Premiumfahrzeuge niederschlägt. Die A1 und A43 verbinden Münster mit dem Ruhrgebiet und Bremen.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Münster",
+        "Auto verkaufen Münster",
+        "KFZ Ankauf Münster",
+        "Gebrauchtwagen verkaufen Münster"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Münster kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Münster — So einfach geht's",
+      "localHooksTitle": "Warum viele in Münster ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 48143–48167 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Prinzipalmarkt werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Münster entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Münster wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Nordrhein-Westfalen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Münster gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Münster",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Münster",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Münster, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Münster erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Münster",
+        "Unfallwagen verkaufen Münster",
+        "Motorschaden Ankauf Münster",
+        "Leasingrückläufer in Münster ankaufen",
+        "Firmenwagen in Münster bewerten",
+        "Auto sofort verkaufen Münster"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Münster?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Münster",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Münster",
+        "Auto verkaufen Münster",
+        "KFZ Ankauf Münster",
+        "Wagen verkaufen Münster",
+        "Gebrauchtwagen Ankauf Münster",
+        "Auto ohne TÜV verkaufen Münster",
+        "Unfallwagen verkaufen Münster",
+        "Motorschaden Ankauf Münster",
+        "PKW verkaufen Nordrhein-Westfalen",
+        "Fahrzeug verkaufen Münster",
+        "Auto Bewertung Münster",
+        "Autoankauf nahe Prinzipalmarkt Münster"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Münster",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Münster, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Nordrhein-Westfalen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Münster — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 48143–48167",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Münster — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Münster",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Münster wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Münster zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Nordrhein-Westfalen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Münster",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Prinzipalmarkt",
@@ -41,15 +192,15 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Münster an?",
-      "answer": "Absolut. In Münster und dem gesamten Umkreis bieten wir eine kostenlose Fahrzeugabholung an. Sie müssen keinen Meter fahren — wir kommen zu Ihnen."
+      "question": "Übernehmen Sie in Münster die Abholung auch in Randlagen und Umlandnähe?",
+      "answer": "Ja, wir holen Fahrzeuge in ganz Münster ab, inklusive Randgebieten im PLZ-Bereich 48143–48167. Ob nahe Prinzipalmarkt oder außerhalb des Rings: Die Abholung bleibt kostenfrei."
     },
     {
       "question": "Kann ich ein Auto ohne gültigen TÜV in Münster verkaufen?",
       "answer": "Ja, auch Fahrzeuge ohne gültige Hauptuntersuchung kaufen wir in Münster an. Der abgelaufene TÜV wird in der Bewertung berücksichtigt, ist aber kein Hindernis für den Verkauf."
     },
     {
-      "question": "Was passiert nach der Online-Bewertung meines Autos?",
+      "question": "Was passiert nach der Online-Bewertung meines Autos in Münster?",
       "answer": "Sie erhalten zunächst eine unverbindliche Online-Schätzung. Im nächsten Schritt besichtigen wir das Fahrzeug in Münster, bestätigen den Preis und zahlen sofort — bar oder per Echtzeitüberweisung."
     },
     {

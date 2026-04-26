@@ -12,8 +12,8 @@
     "lng": 7.8421
   },
   "meta": {
-    "title": "KFZ Ankauf Freiburg im Breisgau — Kostenlose Bewertung & Abholung",
-    "description": "KFZ Ankauf Freiburg — verkaufen Sie Ihr Auto in der Schwarzwald-Metropole ohne Aufwand. Kostenlose Bewertung, Abholung vor Ort und Sofortzahlung. Jetzt anfragen!",
+    "title": "Autoankauf Freiburg im Breisgau - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Freiburg im Breisgau: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 79098–79117 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Freiburg im Breisgau",
       "Auto verkaufen Freiburg im Breisgau",
@@ -21,12 +21,162 @@
       "Unfallwagen verkaufen Freiburg im Breisgau",
       "Wagen verkaufen Freiburg im Breisgau",
       "Motorschaden Ankauf Freiburg im Breisgau",
-      "Autoankauf in der Nähe Freiburg im Breisgau"
+      "Autoankauf in der Nähe Freiburg im Breisgau",
+      "Autoankauf nahe Freiburger Münster"
     ]
   },
   "content": {
     "heroDescription": "Im sonnigen Breisgau erhalten Sie für Ihr Fahrzeug einen fairen Preis — ganz ohne Stress. Wir bewerten, holen ab und zahlen sofort aus, direkt in Freiburg.",
-    "localContent": "Freiburg im Breisgau ist die südlichste Großstadt Deutschlands und liegt malerisch am Fuße des Schwarzwalds. Mit rund 231.000 Einwohnern ist die Universitätsstadt bekannt für ihre hohe Lebensqualität und das mildeste Klima der Republik. Die Nähe zur Schweiz und zu Frankreich macht Freiburg zu einem grenzüberschreitenden Handelsstandort. Als umweltbewusste Stadt mit starker Kaufkraft besteht ein reger Markt für den Fahrzeugankauf und -verkauf."
+    "localContent": "Freiburg im Breisgau ist die südlichste Großstadt Deutschlands und liegt malerisch am Fuße des Schwarzwalds. Mit rund 231.000 Einwohnern ist die Universitätsstadt bekannt für ihre hohe Lebensqualität und das mildeste Klima der Republik. Die Nähe zur Schweiz und zu Frankreich macht Freiburg zu einem grenzüberschreitenden Handelsstandort. Als umweltbewusste Stadt mit starker Kaufkraft besteht ein reger Markt für den Fahrzeugankauf und -verkauf.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Freiburg im Breisgau",
+        "Auto verkaufen Freiburg im Breisgau",
+        "KFZ Ankauf Freiburg im Breisgau",
+        "Gebrauchtwagen verkaufen Freiburg im Breisgau"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Freiburg im Breisgau kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Freiburg im Breisgau — So einfach geht's",
+      "localHooksTitle": "Warum viele in Freiburg im Breisgau ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 79098–79117 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Freiburger Münster werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Freiburg im Breisgau entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Freiburg im Breisgau wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Freiburg im Breisgau gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Freiburg im Breisgau",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Freiburg im Breisgau",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Freiburg im Breisgau, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Freiburg im Breisgau erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Freiburg im Breisgau",
+        "Unfallwagen verkaufen Freiburg im Breisgau",
+        "Motorschaden Ankauf Freiburg im Breisgau",
+        "Leasingrückläufer in Freiburg im Breisgau ankaufen",
+        "Firmenwagen in Freiburg im Breisgau bewerten",
+        "Auto sofort verkaufen Freiburg im Breisgau"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Freiburg im Breisgau?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Freiburg im Breisgau",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Freiburg im Breisgau",
+        "Auto verkaufen Freiburg im Breisgau",
+        "KFZ Ankauf Freiburg im Breisgau",
+        "Wagen verkaufen Freiburg im Breisgau",
+        "Gebrauchtwagen Ankauf Freiburg im Breisgau",
+        "Auto ohne TÜV verkaufen Freiburg im Breisgau",
+        "Unfallwagen verkaufen Freiburg im Breisgau",
+        "Motorschaden Ankauf Freiburg im Breisgau",
+        "PKW verkaufen Baden-Württemberg",
+        "Autoankauf in der Nähe Freiburg im Breisgau",
+        "Autoankauf nahe Freiburger Münster"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Freiburg im Breisgau",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Freiburg im Breisgau, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Freiburg im Breisgau — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 79098–79117",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Freiburg im Breisgau — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Freiburg im Breisgau",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Freiburg im Breisgau wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Freiburg im Breisgau zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Freiburg im Breisgau",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Freiburger Münster",
@@ -41,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Freiburg im Breisgau an?",
-      "answer": "Natürlich! Wir holen Ihr Auto kostenfrei in ganz Freiburg im Breisgau ab. Vereinbaren Sie einfach einen Termin, und unser Fahrer ist zur abgesprochenen Zeit bei Ihnen vor Ort."
+      "question": "Bieten Sie in Freiburg im Breisgau auch Abholung in Hanglagen und Randbezirken an?",
+      "answer": "Ja, wir holen Fahrzeuge im kompletten Bereich 79098–79117 kostenfrei ab. Ob Innenstadt nahe Freiburger Münster oder Randlagen am Stadtrand: Wir kommen zum vereinbarten Termin."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Freiburg im Breisgau berechnet?",

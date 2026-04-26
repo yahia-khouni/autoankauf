@@ -12,8 +12,8 @@
     "lng": 13.7373
   },
   "meta": {
-    "title": "Autoankauf Dresden | Sofort Bargeld für Ihr Fahrzeug",
-    "description": "Autoankauf Dresden — im Elbflorenz erwartet Sie ein stilvoller Verkaufsprozess. Gläserne Transparenz bei der Bewertung, kostenlose Abholung und Sofortauszahlung.",
+    "title": "Autoankauf Dresden - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Dresden: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 01067–01328 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Dresden",
       "Auto verkaufen Dresden",
@@ -21,12 +21,163 @@
       "Gebrauchtwagen Ankauf Dresden",
       "Unfallwagen verkaufen Dresden",
       "Fahrzeug verkaufen Dresden",
-      "Fahrzeugbewertung Dresden"
+      "Fahrzeugbewertung Dresden",
+      "Autoankauf nahe Frauenkirche Dresden"
     ]
   },
   "content": {
     "heroDescription": "Im Elbflorenz bieten wir einen Autoankauf, der so transparent ist wie die Gläserne Manufaktur: offene Preisfindung, persönlicher Service und sofortige Bezahlung.",
-    "localContent": "Dresden ist die Landeshauptstadt Sachsens und als Elbflorenz weltweit für seine barocke Pracht bekannt. Die wiederaufgebaute Frauenkirche, der Zwinger und die Semperoper ziehen Millionen Besucher an. Mit rund 563.000 Einwohnern und der Gläsernen Manufaktur von Volkswagen verbindet Dresden Kultur mit Hightech. Die Chipindustrie im Silicon Saxony sorgt für gut bezahlte Arbeitsplätze und einen gehobenen Fahrzeugmarkt. Die A4, A13 und A17 machen Dresden zur Drehscheibe zwischen Berlin, Prag und Leipzig."
+    "localContent": "Dresden ist die Landeshauptstadt Sachsens und als Elbflorenz weltweit für seine barocke Pracht bekannt. Die wiederaufgebaute Frauenkirche, der Zwinger und die Semperoper ziehen Millionen Besucher an. Mit rund 563.000 Einwohnern und der Gläsernen Manufaktur von Volkswagen verbindet Dresden Kultur mit Hightech. Die Chipindustrie im Silicon Saxony sorgt für gut bezahlte Arbeitsplätze und einen gehobenen Fahrzeugmarkt. Die A4, A13 und A17 machen Dresden zur Drehscheibe zwischen Berlin, Prag und Leipzig.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Dresden",
+        "Auto verkaufen Dresden",
+        "KFZ Ankauf Dresden",
+        "Gebrauchtwagen verkaufen Dresden"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Dresden kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Dresden — So einfach geht's",
+      "localHooksTitle": "Warum viele in Dresden ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 01067–01328 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Frauenkirche werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Dresden entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Dresden wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Sachsen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Dresden gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Dresden",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Dresden",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Dresden, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Dresden erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Dresden",
+        "Unfallwagen verkaufen Dresden",
+        "Motorschaden Ankauf Dresden",
+        "Leasingrückläufer in Dresden ankaufen",
+        "Firmenwagen in Dresden bewerten",
+        "Auto sofort verkaufen Dresden"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Dresden?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Dresden",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Dresden",
+        "Auto verkaufen Dresden",
+        "KFZ Ankauf Dresden",
+        "Wagen verkaufen Dresden",
+        "Gebrauchtwagen Ankauf Dresden",
+        "Auto ohne TÜV verkaufen Dresden",
+        "Unfallwagen verkaufen Dresden",
+        "Motorschaden Ankauf Dresden",
+        "PKW verkaufen Sachsen",
+        "Fahrzeug verkaufen Dresden",
+        "Fahrzeugbewertung Dresden",
+        "Autoankauf nahe Frauenkirche Dresden"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Dresden",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Dresden, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Sachsen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Dresden — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 01067–01328",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Dresden — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Dresden",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Dresden wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Dresden zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Sachsen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Dresden",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Frauenkirche",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Dresden?",
-      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
+      "question": "Welche Papiere sollte ich in Dresden bereithalten, damit der Verkauf ohne Verzögerung läuft?",
+      "answer": "Optimal sind Zulassungsbescheinigung Teil I und II, ein gültiger Ausweis, alle Schlüssel sowie vorhandene HU- und Serviceunterlagen. Für Termine im Bereich 01067–01328 prüfen wir die Unterlagen direkt vor Ort."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Dresden berechnet?",

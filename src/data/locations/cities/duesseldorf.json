@@ -12,8 +12,8 @@
     "lng": 6.7735
   },
   "meta": {
-    "title": "Autoankauf Düsseldorf — Faire Preise & Sofortzahlung",
-    "description": "Autoankauf Düsseldorf — faire Preise in der Landeshauptstadt. Auf der Kö wird stilvoll eingekauft, bei uns stilvoll verkauft: Gratis-Bewertung und Sofortzahlung.",
+    "title": "Autoankauf Düsseldorf - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Düsseldorf: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 40210–40629 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Düsseldorf",
       "Auto verkaufen Düsseldorf",
@@ -21,12 +21,163 @@
       "Auto sofort verkaufen Düsseldorf",
       "Autoverkauf Düsseldorf",
       "Gebrauchtwagenhandel Düsseldorf",
-      "Auto Bewertung Düsseldorf"
+      "Auto Bewertung Düsseldorf",
+      "Autoankauf nahe Königsallee Düsseldorf"
     ]
   },
   "content": {
     "heroDescription": "Die Rheinmetropole Düsseldorf steht für Premium und Stil — genau das bieten wir beim Autoankauf. Verkaufen Sie Ihr Fahrzeug in der Landeshauptstadt zum Bestpreis.",
-    "localContent": "Düsseldorf ist die Landeshauptstadt Nordrhein-Westfalens und eine internationale Mode- und Messestadt mit rund 622.000 Einwohnern. Die Königsallee, der Medienhafen und zahlreiche internationale Konzerne wie Henkel und Vodafone prägen das gehobene Profil der Stadt. Der Premiummarkt für Gebrauchtwagen ist hier besonders ausgeprägt. Die Autobahnen A3, A44, A46 und A57 machen Düsseldorf zum bestangebundenen Automarkt am Rhein."
+    "localContent": "Düsseldorf ist die Landeshauptstadt Nordrhein-Westfalens und eine internationale Mode- und Messestadt mit rund 622.000 Einwohnern. Die Königsallee, der Medienhafen und zahlreiche internationale Konzerne wie Henkel und Vodafone prägen das gehobene Profil der Stadt. Der Premiummarkt für Gebrauchtwagen ist hier besonders ausgeprägt. Die Autobahnen A3, A44, A46 und A57 machen Düsseldorf zum bestangebundenen Automarkt am Rhein.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Düsseldorf",
+        "Auto verkaufen Düsseldorf",
+        "KFZ Ankauf Düsseldorf",
+        "Gebrauchtwagen verkaufen Düsseldorf"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Düsseldorf kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Düsseldorf — So einfach geht's",
+      "localHooksTitle": "Warum viele in Düsseldorf ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 40210–40629 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Königsallee werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Düsseldorf entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Düsseldorf wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Nordrhein-Westfalen",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Düsseldorf gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Düsseldorf",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Düsseldorf",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Düsseldorf, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Düsseldorf erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Düsseldorf",
+        "Unfallwagen verkaufen Düsseldorf",
+        "Motorschaden Ankauf Düsseldorf",
+        "Leasingrückläufer in Düsseldorf ankaufen",
+        "Firmenwagen in Düsseldorf bewerten",
+        "Auto sofort verkaufen Düsseldorf"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Düsseldorf?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Düsseldorf",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Düsseldorf",
+        "Auto verkaufen Düsseldorf",
+        "KFZ Ankauf Düsseldorf",
+        "Wagen verkaufen Düsseldorf",
+        "Gebrauchtwagen Ankauf Düsseldorf",
+        "Auto ohne TÜV verkaufen Düsseldorf",
+        "Unfallwagen verkaufen Düsseldorf",
+        "Motorschaden Ankauf Düsseldorf",
+        "PKW verkaufen Nordrhein-Westfalen",
+        "Auto sofort verkaufen Düsseldorf",
+        "Autoverkauf Düsseldorf",
+        "Gebrauchtwagenhandel Düsseldorf"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Düsseldorf",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Düsseldorf, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Nordrhein-Westfalen",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Düsseldorf — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 40210–40629",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Düsseldorf — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Düsseldorf",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Düsseldorf wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Düsseldorf zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Nordrhein-Westfalen ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Düsseldorf",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Königsallee",
@@ -43,8 +194,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Düsseldorf an?",
-      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Düsseldorf ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
+      "question": "Welche Bereiche in Düsseldorf deckt Ihr Abholservice konkret ab?",
+      "answer": "Wir sind im kompletten PLZ-Gebiet 40210–40629 unterwegs. Von Terminen rund um die Königsallee bis in die Außenbezirke bleibt die Fahrzeugabholung in Düsseldorf für Sie kostenlos."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Düsseldorf berechnet?",

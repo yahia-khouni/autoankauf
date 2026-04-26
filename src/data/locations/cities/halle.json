@@ -12,8 +12,8 @@
     "lng": 11.9688
   },
   "meta": {
-    "title": "Ihr Autoankauf in Halle (Saale) | Bestpreis-Garantie",
-    "description": "Autoankauf Halle (Saale) — in Händels Geburtsstadt bieten wir den perfekten Akkord aus fairem Preis, schneller Abwicklung und kostenloser Fahrzeugabholung.",
+    "title": "Autoankauf Halle (Saale) - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Halle (Saale): kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 06108–06132 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Halle (Saale)",
       "Auto verkaufen Halle (Saale)",
@@ -21,12 +21,163 @@
       "Fahrzeugankauf Halle (Saale)",
       "Fahrzeug verkaufen Halle (Saale)",
       "Auto ohne TÜV verkaufen Halle (Saale)",
-      "Gebrauchtwagenhandel Halle (Saale)"
+      "Gebrauchtwagenhandel Halle (Saale)",
+      "Autoankauf nahe Marktkirche Halle (Saale)"
     ]
   },
   "content": {
     "heroDescription": "In der Saalestadt Halle verbinden wir mitteldeutsche Bodenständigkeit mit professionellem Autoankauf. Faire Bewertung, persönlicher Service und sofortige Auszahlung.",
-    "localContent": "Halle (Saale) ist die größte Stadt Sachsen-Anhalts und Geburtsstadt des Komponisten Georg Friedrich Händel. Die rund 242.000 Einwohner zählende Universitätsstadt liegt an der Saale und bildet mit dem nahegelegenen Leipzig einen gemeinsamen Wirtschaftsraum. Die Martin-Luther-Universität und zahlreiche Forschungsinstitute sorgen für akademische Prägung und Kaufkraft. Die A9, A14 und A38 verbinden Halle optimal mit Berlin, Leipzig und dem mitteldeutschen Raum."
+    "localContent": "Halle (Saale) ist die größte Stadt Sachsen-Anhalts und Geburtsstadt des Komponisten Georg Friedrich Händel. Die rund 242.000 Einwohner zählende Universitätsstadt liegt an der Saale und bildet mit dem nahegelegenen Leipzig einen gemeinsamen Wirtschaftsraum. Die Martin-Luther-Universität und zahlreiche Forschungsinstitute sorgen für akademische Prägung und Kaufkraft. Die A9, A14 und A38 verbinden Halle optimal mit Berlin, Leipzig und dem mitteldeutschen Raum.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Halle (Saale)",
+        "Auto verkaufen Halle (Saale)",
+        "KFZ Ankauf Halle (Saale)",
+        "Gebrauchtwagen verkaufen Halle (Saale)"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Halle (Saale) kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Halle (Saale) — So einfach geht's",
+      "localHooksTitle": "Warum viele in Halle (Saale) ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 06108–06132 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Marktkirche werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Halle (Saale) entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Halle (Saale) wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Sachsen-Anhalt",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Halle (Saale) gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Halle (Saale)",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Halle (Saale)",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Halle (Saale), prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Halle (Saale) erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Halle (Saale)",
+        "Unfallwagen verkaufen Halle (Saale)",
+        "Motorschaden Ankauf Halle (Saale)",
+        "Leasingrückläufer in Halle (Saale) ankaufen",
+        "Firmenwagen in Halle (Saale) bewerten",
+        "Auto sofort verkaufen Halle (Saale)"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Halle (Saale)?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Halle (Saale)",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Halle (Saale)",
+        "Auto verkaufen Halle (Saale)",
+        "KFZ Ankauf Halle (Saale)",
+        "Wagen verkaufen Halle (Saale)",
+        "Gebrauchtwagen Ankauf Halle (Saale)",
+        "Auto ohne TÜV verkaufen Halle (Saale)",
+        "Unfallwagen verkaufen Halle (Saale)",
+        "Motorschaden Ankauf Halle (Saale)",
+        "PKW verkaufen Sachsen-Anhalt",
+        "Fahrzeugankauf Halle (Saale)",
+        "Fahrzeug verkaufen Halle (Saale)",
+        "Gebrauchtwagenhandel Halle (Saale)"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Halle (Saale)",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Halle (Saale), wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Sachsen-Anhalt",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Halle (Saale) — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 06108–06132",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Halle (Saale) — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Halle (Saale)",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Halle (Saale) wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Halle (Saale) zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Sachsen-Anhalt ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Halle (Saale)",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Marktkirche",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Halle (Saale) an?",
-      "answer": "Ja, selbstverständlich! Unser Team holt Ihr Fahrzeug kostenlos direkt bei Ihnen in Halle (Saale) ab — ob zu Hause, am Arbeitsplatz oder an einem anderen Wunschort."
+      "question": "Welche Bereiche in Halle (Saale) bedienen Sie bei der kostenlosen Abholung?",
+      "answer": "Wir decken den kompletten Bereich 06108–06132 ab. Ob Innenstadt nahe Marktkirche oder äußere Wohngebiete: Die Fahrzeugabholung in Halle (Saale) ist für Sie kostenlos."
     },
     {
       "question": "Welche Unterlagen benötige ich für den Autoverkauf in Halle (Saale)?",

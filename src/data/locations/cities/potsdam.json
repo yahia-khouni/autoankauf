@@ -12,8 +12,8 @@
     "lng": 13.0645
   },
   "meta": {
-    "title": "Auto verkaufen Potsdam — Schnell, sicher & unkompliziert",
-    "description": "Auto verkaufen in Potsdam — die Schlösserstadt vor den Toren Berlins bietet bequemen Service. Schnelle Abwicklung, persönliche Bewertung und Sofortzahlung garantiert.",
+    "title": "Autoankauf Potsdam - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Potsdam: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 14467–14482 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Potsdam",
       "Auto verkaufen Potsdam",
@@ -21,12 +21,163 @@
       "Gebrauchtwagen verkaufen Potsdam",
       "Auto sofort verkaufen Potsdam",
       "Autoverkauf Potsdam",
-      "Fahrzeugbewertung Potsdam"
+      "Fahrzeugbewertung Potsdam",
+      "Autoankauf nahe Schloss Sanssouci Potsdam"
     ]
   },
   "content": {
     "heroDescription": "Vor den Toren Berlins bietet Potsdam ideale Bedingungen für den schnellen Autoverkauf. Nutzen Sie unsere persönliche Bewertung und erhalten Sie Ihr Geld noch am selben Tag.",
-    "localContent": "Potsdam ist die Landeshauptstadt Brandenburgs und liegt unmittelbar südwestlich von Berlin. Die Stadt der Schlösser und Gärten ist UNESCO-Welterbe und zieht mit ihrer kulturellen Vielfalt stetig neue Einwohner an — aktuell rund 183.000 Menschen. Als wachsende Stadt mit starker Anbindung an die Hauptstadt profitiert Potsdam von einem dynamischen Fahrzeugmarkt. Die Nähe zur A10 und A115 macht Potsdam zu einem idealen Ausgangspunkt für den Autoankauf in Brandenburg."
+    "localContent": "Potsdam ist die Landeshauptstadt Brandenburgs und liegt unmittelbar südwestlich von Berlin. Die Stadt der Schlösser und Gärten ist UNESCO-Welterbe und zieht mit ihrer kulturellen Vielfalt stetig neue Einwohner an — aktuell rund 183.000 Menschen. Als wachsende Stadt mit starker Anbindung an die Hauptstadt profitiert Potsdam von einem dynamischen Fahrzeugmarkt. Die Nähe zur A10 und A115 macht Potsdam zu einem idealen Ausgangspunkt für den Autoankauf in Brandenburg.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Potsdam",
+        "Auto verkaufen Potsdam",
+        "KFZ Ankauf Potsdam",
+        "Gebrauchtwagen verkaufen Potsdam"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Potsdam kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Potsdam — So einfach geht's",
+      "localHooksTitle": "Warum viele in Potsdam ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 14467–14482 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Schloss Sanssouci werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Potsdam entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Potsdam wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Brandenburg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Potsdam gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Potsdam",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Potsdam",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Potsdam, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Potsdam erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Potsdam",
+        "Unfallwagen verkaufen Potsdam",
+        "Motorschaden Ankauf Potsdam",
+        "Leasingrückläufer in Potsdam ankaufen",
+        "Firmenwagen in Potsdam bewerten",
+        "Auto sofort verkaufen Potsdam"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Potsdam?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Potsdam",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Potsdam",
+        "Auto verkaufen Potsdam",
+        "KFZ Ankauf Potsdam",
+        "Wagen verkaufen Potsdam",
+        "Gebrauchtwagen Ankauf Potsdam",
+        "Auto ohne TÜV verkaufen Potsdam",
+        "Unfallwagen verkaufen Potsdam",
+        "Motorschaden Ankauf Potsdam",
+        "PKW verkaufen Brandenburg",
+        "Gebrauchtwagen verkaufen Potsdam",
+        "Auto sofort verkaufen Potsdam",
+        "Autoverkauf Potsdam"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Potsdam",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Potsdam, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Brandenburg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Potsdam — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 14467–14482",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Potsdam — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Potsdam",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Potsdam wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Potsdam zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Brandenburg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Potsdam",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Schloss Sanssouci",
@@ -40,12 +191,12 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Potsdam verkaufen?",
-      "answer": "Der gesamte Verkaufsprozess in Potsdam dauert in der Regel 1 bis 3 Werktage. In eiligen Fällen ist auch eine Expressabwicklung am selben Tag möglich."
+      "question": "Wie kurzfristig sind in Potsdam Besichtigung und Ankauf möglich?",
+      "answer": "Im Bereich 14467–14482 können wir meist sehr schnell reagieren. Rund um Schloss Sanssouci sind kurzfristige Termine für Bewertung und Ankauf häufig verfügbar."
     },
     {
       "question": "Welche Unterlagen benötige ich für den Autoverkauf in Potsdam?",
-      "answer": "Halten Sie bitte folgende Dokumente bereit: Zulassungsbescheinigung Teil I und Teil II, Personalausweis oder Reisepass sowie alle vorhandenen Schlüssel. Falls vorhanden, bringen Sie auch den letzten HU-Bericht und Wartungsbelege mit."
+      "answer": "Bitte bringen Sie Zulassungsbescheinigung Teil I und II, einen gültigen Ausweis und alle Schlüssel mit. Für Termine im Bereich 14467–14482 in Potsdam sind HU-Bericht und Serviceheft hilfreich, damit wir schneller ein verbindliches Angebot geben können."
     },
     {
       "question": "Wie erfolgt die Bezahlung beim Autoankauf in Potsdam?",

@@ -29,7 +29,10 @@ export function CityCard({ stateSlug, slug, name, population, maxPopulation, ind
         </div>
         <div className="flex-1 min-w-0">
           <div className="font-semibold text-navy-900 group-hover:text-gold-700 transition-colors text-sm truncate">
-            {name}
+            Autoankauf {name}
+          </div>
+          <div className="text-[11px] text-slate-500 truncate">
+            Auto verkaufen {name}
           </div>
           <div className="flex items-center gap-2 mt-1">
             <div className="flex items-center gap-1 text-xs text-slate-400">

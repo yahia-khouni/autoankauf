@@ -12,20 +12,171 @@
     "lng": 10.9888
   },
   "meta": {
-    "title": "KFZ Ankauf Fürth — Kostenlose Bewertung & Abholung",
-    "description": "KFZ Ankauf in Fürth — direkt neben Nürnberg gelegen, bieten wir schnellen Service und faire Preise. Kostenlose Bewertung, Abholung und Zahlung am selben Tag.",
+    "title": "Autoankauf Fürth - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Fürth: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 90762–90768 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Fürth",
       "Auto verkaufen Fürth",
       "PKW Ankauf Fürth",
       "Unfallwagen verkaufen Fürth",
       "Autoverkauf Fürth",
-      "Motorschaden Ankauf Fürth"
+      "Motorschaden Ankauf Fürth",
+      "Autoankauf nahe Stadttheater Fürth"
     ]
   },
   "content": {
     "heroDescription": "In der Kleeblattstadt werden Qualität und Fairness großgeschrieben — auch beim Autoankauf. Wir bieten Ihnen in Fürth Bestpreise mit komfortablem Rundum-Service.",
-    "localContent": "Fürth grenzt unmittelbar an Nürnberg und bildet mit ihr einen gemeinsamen Ballungsraum in der Metropolregion. Die rund 128.500 Einwohner zählende Stadt ist eng mit der Geschichte der Eisenbahn verbunden — hier fuhr 1835 die erste deutsche Eisenbahn. Heute zeichnet sich die Kleeblattstadt durch eine vielfältige Wirtschaftsstruktur mit Schwerpunkten in Solarenergie und Medien aus. Die enge Verzahnung mit Nürnberg und Erlangen schafft einen der aktivsten Fahrzeugmärkte Frankens."
+    "localContent": "Fürth grenzt unmittelbar an Nürnberg und bildet mit ihr einen gemeinsamen Ballungsraum in der Metropolregion. Die rund 128.500 Einwohner zählende Stadt ist eng mit der Geschichte der Eisenbahn verbunden — hier fuhr 1835 die erste deutsche Eisenbahn. Heute zeichnet sich die Kleeblattstadt durch eine vielfältige Wirtschaftsstruktur mit Schwerpunkten in Solarenergie und Medien aus. Die enge Verzahnung mit Nürnberg und Erlangen schafft einen der aktivsten Fahrzeugmärkte Frankens.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Fürth",
+        "Auto verkaufen Fürth",
+        "KFZ Ankauf Fürth",
+        "Gebrauchtwagen verkaufen Fürth"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Fürth kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Fürth — So einfach geht's",
+      "localHooksTitle": "Warum viele in Fürth ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 90762–90768 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Stadttheater werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Fürth entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Fürth wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Bayern",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Fürth gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Fürth",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Fürth",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Fürth, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Fürth erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Fürth",
+        "Unfallwagen verkaufen Fürth",
+        "Motorschaden Ankauf Fürth",
+        "Leasingrückläufer in Fürth ankaufen",
+        "Firmenwagen in Fürth bewerten",
+        "Auto sofort verkaufen Fürth"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Fürth?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Fürth",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Fürth",
+        "Auto verkaufen Fürth",
+        "KFZ Ankauf Fürth",
+        "Wagen verkaufen Fürth",
+        "Gebrauchtwagen Ankauf Fürth",
+        "Auto ohne TÜV verkaufen Fürth",
+        "Unfallwagen verkaufen Fürth",
+        "Motorschaden Ankauf Fürth",
+        "PKW verkaufen Bayern",
+        "PKW Ankauf Fürth",
+        "Autoverkauf Fürth",
+        "Autoankauf nahe Stadttheater Fürth"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Fürth",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Fürth, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Bayern",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Fürth — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 90762–90768",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Fürth — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Fürth",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Fürth wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Fürth zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Bayern ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Fürth",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Stadttheater",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell kann ich mein Auto in Fürth verkaufen?",
-      "answer": "Wir wickeln den Autoankauf in Fürth meist innerhalb von 24 bis 48 Stunden ab. Kontaktieren Sie uns am Morgen — oft können wir noch am selben Tag ein verbindliches Angebot machen."
+      "question": "Wie schnell kann ein Autoverkauf in Fürth abgeschlossen werden?",
+      "answer": "Im Bereich 90762–90768 sind zügige Abläufe gut planbar. Je nach Fahrzeugdaten können wir rund um das Stadttheater oft innerhalb kurzer Zeit besichtigen und den Ankauf abschließen."
     },
     {
       "question": "Wie erfolgt die Bezahlung beim Autoankauf in Fürth?",

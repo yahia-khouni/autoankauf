@@ -8,13 +8,126 @@
   "population": 4106485,
   "isStateCity": false,
   "meta": {
-    "title": "Autoankauf Rheinland-Pfalz | Auto verkaufen in Rheinland-Pfalz",
-    "description": "Verkaufen Sie Ihr Auto in Rheinland-Pfalz. Schnell, fair und unkompliziert. Kostenlose Bewertung und sofortige Auszahlung in Mainz, Ludwigshafen, Koblenz und Trier.",
-    "keywords": ["Autoankauf Rheinland-Pfalz", "Auto verkaufen Rheinland-Pfalz", "PKW Ankauf RP", "Gebrauchtwagen Ankauf Mainz", "KFZ Ankauf Koblenz"]
+    "title": "Autoankauf Rheinland-Pfalz - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Rheinland-Pfalz: kostenlose Bewertung in 2 Minuten, Abholung in allen Regionen und Sofortauszahlung. Service in Mainz, Ludwigshafen am Rhein, Koblenz. Auch ohne TÜV oder mit Schäden.",
+    "keywords": [
+      "Autoankauf Rheinland-Pfalz",
+      "Auto verkaufen Rheinland-Pfalz",
+      "PKW Ankauf RP",
+      "Gebrauchtwagen Ankauf Mainz",
+      "KFZ Ankauf Koblenz"
+    ]
   },
   "content": {
     "heroDescription": "Wir kaufen Ihr Auto in Rheinland-Pfalz zu fairen Marktpreisen. Schnell, unkompliziert und mit sofortiger Auszahlung — von Mainz bis Trier, in allen Städten des Bundeslandes.",
-    "seoText": "Rheinland-Pfalz liegt im Südwesten Deutschlands und ist bekannt für seine Weinregionen und die romantische Rheinlandschaft. Die Landeshauptstadt Mainz und die Industriestadt Ludwigshafen bilden zusammen mit dem hessischen Frankfurt einen bedeutenden Wirtschaftsraum. Wir kaufen Ihr Auto in der gesamten Region."
+    "seoText": "Rheinland-Pfalz liegt im Südwesten Deutschlands und ist bekannt für seine Weinregionen und die romantische Rheinlandschaft. Die Landeshauptstadt Mainz und die Industriestadt Ludwigshafen bilden zusammen mit dem hessischen Frankfurt einen bedeutenden Wirtschaftsraum. Wir kaufen Ihr Auto in der gesamten Region.",
+    "page": {
+      "heroHighlight": "In ganz Rheinland-Pfalz kaufen wir auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden schnell und transparent an.",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Rheinland-Pfalz",
+      "benefits": [
+        "Kostenlose Fahrzeugbewertung vor Ort",
+        "Faire Preise basierend auf aktuellem Marktwert",
+        "Sofortige Barzahlung oder Überweisung",
+        "Kostenlose Abholung Ihres Fahrzeugs",
+        "Alle Marken und Modelle",
+        "Auch Fahrzeuge mit Mängeln oder Unfallschäden"
+      ],
+      "processTitle": "So funktioniert der Autoankauf in Rheinland-Pfalz",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser kurzes Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & Geld erhalten",
+          "desc": "Bei Einigung kommen wir zu Ihnen nach Rheinland-Pfalz, prüfen das Fahrzeug und zahlen sofort aus."
+        }
+      ],
+      "marketDepthTitle": "Warum viele Fahrzeughalter in Rheinland-Pfalz aktuell verkaufen",
+      "marketDepthIntro": "Wir sehen in Rheinland-Pfalz täglich ähnliche Verkaufssituationen: steigende Betriebskosten, anstehende Reparaturen und kurzfristige Mobilitätswechsel. Deshalb sind schnelle, faire und verbindliche Ankaufslösungen besonders gefragt.",
+      "marketSignals": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "In Rheinland-Pfalz entscheiden sich viele Halter gegen weitere Investitionen in ältere Fahrzeuge und bevorzugen einen schnellen Verkauf mit sicherer Auszahlung."
+        },
+        {
+          "title": "Zeitdruck bei Umzug oder Fahrzeugwechsel",
+          "copy": "Gerade im Umfeld von Mainz sind kurzfristige Verkäufe häufig. Entscheidend sind transparente Angebote und eine zuverlässige Abholung vor Ort."
+        },
+        {
+          "title": "Aktive Nachfrage in regionalen Märkten",
+          "copy": "Der Markt in Rheinland-Pfalz bleibt dynamisch: von gepflegten Gebrauchtwagen bis zu Fahrzeugen mit Mängeln besteht kontinuierliche Nachfrage."
+        }
+      ],
+      "vehicleTypesTitle": "Welche Fahrzeuge kaufen wir in Rheinland-Pfalz?",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (BMW, Mercedes-Benz, Audi, Porsche)",
+        "Volkswagen, Opel, Ford und andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, Kia u.v.m.)",
+        "Nutzfahrzeuge, Transporter und Kombis",
+        "Fahrzeuge mit hoher Laufleistung oder Mängeln",
+        "Unfallfahrzeuge und nicht fahrtüchtige Autos"
+      ],
+      "payoutTitle": "Sofort-Auszahlung in Rheinland-Pfalz",
+      "payoutText": "Nach der Fahrzeugübergabe erhalten Sie Ihren Kaufbetrag sofort — entweder bar oder per sofortiger Banküberweisung. Keine Wartezeiten, keine Schecks, keine Ausreden. Das ist unser Versprechen an alle Kunden in Rheinland-Pfalz.",
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Rheinland-Pfalz",
+      "semanticIntro": "Diese Suchphrasen decken die zentralen Verkaufsintentionen ab und zeigen, wonach Fahrzeughalter in Rheinland-Pfalz tatsächlich suchen.",
+      "semanticQueries": [
+        "Autoankauf Rheinland-Pfalz",
+        "Auto verkaufen Rheinland-Pfalz",
+        "KFZ Ankauf Rheinland-Pfalz",
+        "Wagen verkaufen Rheinland-Pfalz",
+        "Gebrauchtwagen Ankauf Rheinland-Pfalz",
+        "Auto ohne TÜV verkaufen Rheinland-Pfalz",
+        "Unfallwagen verkaufen Rheinland-Pfalz",
+        "Motorschaden Ankauf Rheinland-Pfalz",
+        "PKW Ankauf RP",
+        "Gebrauchtwagen Ankauf Mainz",
+        "KFZ Ankauf Koblenz"
+      ],
+      "cityLinksTitle": "Direkte Einstiege nach Stadt in Rheinland-Pfalz",
+      "cityLinksIntro": "Nutzen Sie die passenden Stadtseiten, wenn Sie den Autoankauf regional präzise suchen. So gelangen Sie direkt zur richtigen Anfrage in Ihrer Nähe.",
+      "trustTitle": "Vertrauen und Erfahrung in Rheinland-Pfalz",
+      "trustDescription": "Sie profitieren von nachvollziehbaren Angeboten, rechtssicherer Abwicklung und einem klar strukturierten Verkaufsprozess in ganz Rheinland-Pfalz. Genau das schafft Vertrauen bei zeitkritischen Fahrzeugverkäufen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Rheinland-Pfalz — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "Abholung in ganz Rheinland-Pfalz inklusive Umland",
+        "Sofortige Auszahlung und transparente Verträge",
+        "Bewertung auch bei Fahrzeugen mit Schäden oder ohne TÜV"
+      ],
+      "localBusinessName": "Autoankauf Rheinland-Pfalz",
+      "seoSectionTitle": "Warum Autoankauf in Rheinland-Pfalz?"
+    }
   },
-  "cities": ["mainz", "ludwigshafen", "koblenz", "trier", "kaiserslautern"]
+  "cities": [
+    "mainz",
+    "ludwigshafen",
+    "koblenz",
+    "trier",
+    "kaiserslautern"
+  ]
 }

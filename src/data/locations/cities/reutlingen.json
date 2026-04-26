@@ -12,20 +12,171 @@
     "lng": 9.2148
   },
   "meta": {
-    "title": "Autoankauf Reutlingen — Ihr lokaler Partner für Autoverkauf",
-    "description": "Autoankauf Reutlingen — Ihr Fahrzeug am Fuße der Schwäbischen Alb zum Bestpreis verkaufen. Lokaler Partner mit kostenloser Bewertung, Abholung und Sofortauszahlung.",
+    "title": "Autoankauf Reutlingen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Reutlingen: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 72760–72770 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Reutlingen",
       "Auto verkaufen Reutlingen",
       "Gebrauchtwagen Ankauf Reutlingen",
       "Wagen verkaufen Reutlingen",
       "Auto sofort verkaufen Reutlingen",
-      "PKW verkaufen Reutlingen"
+      "PKW verkaufen Reutlingen",
+      "Autoankauf nahe Achalm Reutlingen"
     ]
   },
   "content": {
     "heroDescription": "Am Fuße der Schwäbischen Alb erhalten Sie für Ihr Auto den besten Preis — lokal, persönlich und ohne Umwege. Unser Service in Reutlingen überzeugt durch Schnelligkeit und Fairness.",
-    "localContent": "Reutlingen liegt am Fuße der Schwäbischen Alb und beherbergt mit der Spreuerhofstraße die engste Straße der Welt. Die rund 117.000 Einwohner zählende Großstadt ist fest in der schwäbischen Wirtschaftslandschaft verankert und als Textilstandort historisch bedeutsam. Die Nähe zu Stuttgart und Tübingen sowie die Anbindung an die B27 und B28 machen Reutlingen zu einem wichtigen Knotenpunkt in der Region Neckar-Alb."
+    "localContent": "Reutlingen liegt am Fuße der Schwäbischen Alb und beherbergt mit der Spreuerhofstraße die engste Straße der Welt. Die rund 117.000 Einwohner zählende Großstadt ist fest in der schwäbischen Wirtschaftslandschaft verankert und als Textilstandort historisch bedeutsam. Die Nähe zu Stuttgart und Tübingen sowie die Anbindung an die B27 und B28 machen Reutlingen zu einem wichtigen Knotenpunkt in der Region Neckar-Alb.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Reutlingen",
+        "Auto verkaufen Reutlingen",
+        "KFZ Ankauf Reutlingen",
+        "Gebrauchtwagen verkaufen Reutlingen"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Reutlingen kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Reutlingen — So einfach geht's",
+      "localHooksTitle": "Warum viele in Reutlingen ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 72760–72770 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Marienkirche werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Reutlingen entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Reutlingen wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Baden-Württemberg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Reutlingen gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Reutlingen",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Reutlingen",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Reutlingen, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Reutlingen erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Reutlingen",
+        "Unfallwagen verkaufen Reutlingen",
+        "Motorschaden Ankauf Reutlingen",
+        "Leasingrückläufer in Reutlingen ankaufen",
+        "Firmenwagen in Reutlingen bewerten",
+        "Auto sofort verkaufen Reutlingen"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Reutlingen?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Reutlingen",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Reutlingen",
+        "Auto verkaufen Reutlingen",
+        "KFZ Ankauf Reutlingen",
+        "Wagen verkaufen Reutlingen",
+        "Gebrauchtwagen Ankauf Reutlingen",
+        "Auto ohne TÜV verkaufen Reutlingen",
+        "Unfallwagen verkaufen Reutlingen",
+        "Motorschaden Ankauf Reutlingen",
+        "PKW verkaufen Baden-Württemberg",
+        "Auto sofort verkaufen Reutlingen",
+        "PKW verkaufen Reutlingen",
+        "Autoankauf nahe Achalm Reutlingen"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Reutlingen",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Reutlingen, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Baden-Württemberg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Reutlingen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 72760–72770",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Reutlingen — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Reutlingen",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Reutlingen wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Reutlingen zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Baden-Württemberg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Reutlingen",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Marienkirche",
@@ -40,8 +191,8 @@
   ],
   "faq": [
     {
-      "question": "Welche Unterlagen benötige ich für den Autoverkauf in Reutlingen?",
-      "answer": "Sie brauchen den Fahrzeugbrief, den Fahrzeugschein, Ihren Ausweis und die Autoschlüssel. Alles Weitere — etwa die Abmeldung oder fehlende Papiere — klären wir gemeinsam vor Ort in Reutlingen."
+      "question": "Welche Unterlagen sollte ich in Reutlingen für einen reibungslosen Verkauf vorbereiten?",
+      "answer": "Bitte bringen Sie Zulassungsbescheinigung Teil I und II, einen gültigen Ausweis und alle Schlüssel mit. Im Bereich 72760–72770 prüfen wir die Unterlagen direkt beim Termin und beschleunigen so den Ablauf."
     },
     {
       "question": "Wie wird der Ankaufspreis für mein Auto in Reutlingen berechnet?",

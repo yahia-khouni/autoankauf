@@ -12,20 +12,171 @@
     "lng": 14.3329
   },
   "meta": {
-    "title": "Ihr Autoankauf in Cottbus | Bestpreis-Garantie",
-    "description": "Autoankauf Cottbus — in der Lausitz erhalten Sie Bestpreise für Ihr Fahrzeug. Persönliche Beratung, kostenlose Begutachtung und Barauszahlung bei Fahrzeugübergabe.",
+    "title": "Autoankauf Cottbus - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Cottbus: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 03042–03055 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
     "keywords": [
       "Autoankauf Cottbus",
       "Auto verkaufen Cottbus",
       "PKW Ankauf Cottbus",
       "Wagen verkaufen Cottbus",
       "Auto ohne TÜV verkaufen Cottbus",
-      "PKW verkaufen Cottbus"
+      "PKW verkaufen Cottbus",
+      "Autoankauf nahe Branitzer Park Cottbus"
     ]
   },
   "content": {
     "heroDescription": "Im Herzen der Lausitz verkaufen Sie Ihr Auto zu fairen Bedingungen — mit kostenloser Bewertung, Gratis-Abholung und sofortiger Bezahlung direkt in Cottbus.",
-    "localContent": "Cottbus ist die zweitgrößte Stadt Brandenburgs und das wirtschaftliche Zentrum der Lausitz. Mit rund 100.000 Einwohnern befindet sich die Stadt im Strukturwandel und entwickelt sich vom Kohlestandort zum Innovations- und Wissenschaftszentrum. Die Brandenburgische Technische Universität und neue Ansiedlungen bringen frischen Wind in die Region. Die A15 und B97 verbinden Cottbus mit Dresden und Berlin."
+    "localContent": "Cottbus ist die zweitgrößte Stadt Brandenburgs und das wirtschaftliche Zentrum der Lausitz. Mit rund 100.000 Einwohnern befindet sich die Stadt im Strukturwandel und entwickelt sich vom Kohlestandort zum Innovations- und Wissenschaftszentrum. Die Brandenburgische Technische Universität und neue Ansiedlungen bringen frischen Wind in die Region. Die A15 und B97 verbinden Cottbus mit Dresden und Berlin.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Cottbus",
+        "Auto verkaufen Cottbus",
+        "KFZ Ankauf Cottbus",
+        "Gebrauchtwagen verkaufen Cottbus"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Cottbus kombinieren wir schnelle Terminvergabe mit transparenter Preisermittlung. Unser Fokus: verbindliche Angebote und Sofortauszahlung ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Cottbus — So einfach geht's",
+      "localHooksTitle": "Warum viele in Cottbus ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 03042–03055 sehen wir täglich ähnliche Verkaufsmotive: laufende Kosten senken, Zeit sparen und den Verkauf sicher abschließen. Rund um Branitzer Park werden deshalb besonders häufig schnelle Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Fahrzeughalter in Cottbus entscheiden sich gegen neue Investitionen in ältere Autos und nutzen stattdessen einen direkten Verkauf zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "Ob Umzug, Arbeitgeberwechsel oder neuer Wagen: In Cottbus wird häufig eine schnelle, verlässliche Abwicklung mit Sofortauszahlung benötigt."
+        },
+        {
+          "title": "Aktiver regionaler Markt in Brandenburg",
+          "copy": "Die Nachfrage nach gepflegten Fahrzeugen und auch nach Autos mit Mängeln ist stabil. Das schafft in Cottbus gute Bedingungen für einen zügigen Ankauf."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Cottbus",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Cottbus",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Cottbus, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV abläuft oder ein Fahrzeugwechsel bevorsteht, ist ein schneller Verkauf oft die wirtschaftlichere Entscheidung. In Cottbus erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Cottbus",
+        "Unfallwagen verkaufen Cottbus",
+        "Motorschaden Ankauf Cottbus",
+        "Leasingrückläufer in Cottbus ankaufen",
+        "Firmenwagen in Cottbus bewerten",
+        "Auto sofort verkaufen Cottbus"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Cottbus?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Cottbus",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Cottbus",
+        "Auto verkaufen Cottbus",
+        "KFZ Ankauf Cottbus",
+        "Wagen verkaufen Cottbus",
+        "Gebrauchtwagen Ankauf Cottbus",
+        "Auto ohne TÜV verkaufen Cottbus",
+        "Unfallwagen verkaufen Cottbus",
+        "Motorschaden Ankauf Cottbus",
+        "PKW verkaufen Brandenburg",
+        "PKW Ankauf Cottbus",
+        "PKW verkaufen Cottbus",
+        "Autoankauf nahe Branitzer Park Cottbus"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Cottbus",
+      "trustDescription": "Sie erhalten bei uns transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Cottbus, wenn es um einen sicheren Verkauf ohne Risiko geht.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Brandenburg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Cottbus — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 03042–03055",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Cottbus — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Cottbus",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Cottbus wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Cottbus zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Brandenburg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Cottbus",
+      "heroTitlePrefix": "Autoankauf"
+    }
   },
   "landmarks": [
     "Branitzer Park",
@@ -39,8 +190,8 @@
   ],
   "faq": [
     {
-      "question": "Bieten Sie einen kostenlosen Abholservice in Cottbus an?",
-      "answer": "Unser kostenloser Abholservice deckt Cottbus und die umliegenden Gemeinden ab. Wir passen uns Ihrem Zeitplan an — auch abends oder am Wochenende."
+      "question": "Welche Stadtteile und Randlagen in Cottbus deckt Ihr Abholservice ab?",
+      "answer": "Wir bedienen den gesamten Bereich 03042–03055 inklusive Umland. Ob nahe Branitzer Park oder in äußeren Wohnlagen: Die Abholung ist in Cottbus für Sie kostenlos."
     },
     {
       "question": "Kaufen Sie auch Autos mit Schäden oder Mängeln in Cottbus?",
