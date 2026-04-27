@@ -4,6 +4,9 @@ export default function LocaleNotFound() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: `
+        html, body {
+          overflow: hidden !important;
+        }
         .e4-wrap {
           position: fixed;
           inset: 0;
@@ -14,8 +17,11 @@ export default function LocaleNotFound() {
           padding: 4rem 1.5rem;
           background: #050B14;
           overflow-y: auto;
+          -ms-overflow-style: none;
+          scrollbar-width: none;
           font-family: Inter, system-ui, -apple-system, sans-serif;
         }
+        .e4-wrap::-webkit-scrollbar { display: none; }
         .e4-orb {
           position: absolute;
           border-radius: 50%;

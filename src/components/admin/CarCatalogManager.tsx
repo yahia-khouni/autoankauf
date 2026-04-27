@@ -402,10 +402,13 @@ export default function CarCatalogManager() {
     <section className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-100">
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="text-base font-semibold text-slate-800">
+          <p className="inline-flex items-center rounded-full border border-indigo-200/80 bg-indigo-50 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-indigo-700">
+            Formular-Konfiguration
+          </p>
+          <h2 className="mt-2 text-lg font-semibold tracking-tight text-slate-900">
             Free-Offer-Formular: Marken und Modelle
           </h2>
-          <p className="mt-1 text-sm text-slate-500">
+          <p className="mt-1.5 text-sm text-slate-500">
             Verwalten Sie die Fahrzeugmarken und Modelle, die im Formular angezeigt werden.
           </p>
         </div>

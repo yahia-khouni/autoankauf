@@ -54,9 +54,12 @@ export default function ChangePasswordForm() {
 
   return (
     <div className="rounded-xl bg-white p-6 shadow-sm">
-      <h2 className="mb-4 text-base font-semibold text-slate-700">
-        Passwort ändern
-      </h2>
+      <div className="mb-4 border-b border-slate-100 pb-3">
+        <h2 className="text-base font-semibold tracking-tight text-slate-900">
+          Passwort ändern
+        </h2>
+        <p className="mt-1 text-xs text-slate-500">Zugangsdaten sicher aktualisieren.</p>
+      </div>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label className="mb-1 block text-sm font-medium text-slate-600">

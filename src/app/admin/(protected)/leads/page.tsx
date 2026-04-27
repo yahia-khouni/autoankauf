@@ -68,7 +68,17 @@ export default async function LeadsPage({ searchParams }: PageProps) {
   return (
     <div>
       <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-slate-800">Leads</h1>
+        <div>
+          <p className="inline-flex items-center rounded-full border border-indigo-200/80 bg-indigo-50 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-indigo-700">
+            Anfrageverwaltung
+          </p>
+          <h1 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
+            Leads
+          </h1>
+          <p className="mt-1.5 text-sm text-slate-500">
+            Alle eingehenden Anfragen auf einen Blick.
+          </p>
+        </div>
         <span className="rounded-full bg-indigo-50 px-3 py-1 text-sm font-medium text-indigo-700">
           {total} gesamt
         </span>

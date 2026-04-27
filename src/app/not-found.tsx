@@ -4,14 +4,22 @@ export default function RootNotFound() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: `
+        html, body {
+          overflow: hidden !important;
+        }
         .r4-wrap {
-          min-height: 100dvh;
+          position: fixed;
+          inset: 0;
+          z-index: 100;
           display:flex; align-items:center; justify-content:center;
           padding:4rem 1.5rem;
           background:#050B14;
-          overflow:hidden; position:relative;
+          overflow-y:auto;
+          -ms-overflow-style:none;
+          scrollbar-width:none;
           font-family:Inter,system-ui,-apple-system,sans-serif;
         }
+        .r4-wrap::-webkit-scrollbar { display:none; }
         .r4-orb {
           position:absolute; border-radius:50%;
           filter:blur(90px); pointer-events:none;

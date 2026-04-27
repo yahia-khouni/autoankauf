@@ -76,11 +76,13 @@ export default async function DashboardPage() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-indigo-500">
+          <p className="inline-flex items-center rounded-full border border-indigo-200/80 bg-indigo-50 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-indigo-700">
             Übersicht
           </p>
-          <h1 className="mt-0.5 text-2xl font-bold text-slate-800">Dashboard</h1>
-          <p className="mt-1 text-sm text-slate-400">
+          <h1 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
+            Dashboard
+          </h1>
+          <p className="mt-1.5 text-sm text-slate-500">
             {new Date().toLocaleDateString("de-DE", {
               weekday: "long",
               day: "numeric",
