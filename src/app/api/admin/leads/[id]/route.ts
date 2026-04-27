@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getAdminSession } from "@/lib/auth-utils";
 import { prisma } from "@/lib/db";
 import { z } from "zod";
+import { logger } from "@/lib/logger";
 
 const leadIdParamsSchema = z.object({
   id: z.string().min(1),
@@ -43,7 +44,7 @@ export async function GET(
 
     return NextResponse.json({ lead, clientHistory });
   } catch (error) {
-    console.error("[GET /api/admin/leads/[id]]", error);
+    logger.error("[GET /api/admin/leads/[id]]", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
@@ -78,7 +79,7 @@ export async function DELETE(
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("[DELETE /api/admin/leads/[id]]", error);
+    logger.error("[DELETE /api/admin/leads/[id]]", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

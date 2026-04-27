@@ -1,11 +1,12 @@
 import { getAdminSession } from "@/lib/auth-utils";
 import ChangePasswordForm from "@/components/admin/ChangePasswordForm";
+import CarCatalogManager from "@/components/admin/CarCatalogManager";
 
 export default async function SettingsPage() {
   const session = await getAdminSession();
 
   return (
-    <div>
+    <div className="space-y-6">
       <h1 className="mb-6 text-2xl font-bold text-slate-800">Einstellungen</h1>
 
       <div className="grid gap-6 lg:grid-cols-2">
@@ -45,6 +46,8 @@ export default async function SettingsPage() {
         {/* Change Password */}
         <ChangePasswordForm />
       </div>
+
+      <CarCatalogManager />
     </div>
   );
 }

@@ -1,4 +1,5 @@
-import { NextResponse } from "next/server";
+﻿import { NextResponse } from "next/server";
+import { logger } from "@/lib/logger";
 import { getAdminSession } from "@/lib/auth-utils";
 import { prisma } from "@/lib/db";
 import { LEAD_STATUSES } from "@/lib/validations/admin";
@@ -56,7 +57,8 @@ export async function GET() {
       recentLeads,
     });
   } catch (error) {
-    console.error("[GET /api/admin/stats]", error);
+    logger.error("[GET /api/admin/stats]", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
+

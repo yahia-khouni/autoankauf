@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
+import { logger } from "@/lib/logger";
 import { getAdminSession } from "@/lib/auth-utils";
 import { prisma } from "@/lib/db";
 import { statusUpdateSchema } from "@/lib/validations/admin";
@@ -66,7 +67,7 @@ export async function PATCH(
 
     return NextResponse.json(updatedLead);
   } catch (error) {
-    console.error("[PATCH /api/admin/leads/[id]/status]", error);
+    logger.error("[PATCH /api/admin/leads/[id]/status]", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { LogoSVG } from "./LogoSVG";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import { useState, useEffect } from "react";
@@ -135,41 +136,28 @@ export function Header() {
         {/* ── LOGO ── */}
         <Link
           href={getLocalizedHref("/")}
-          className="flex items-center gap-3 sm:gap-4 group flex-shrink-0 self-stretch -ml-8 sm:ml-0"
+          className="flex items-center gap-1.5 sm:gap-2 group flex-shrink-0"
           aria-label="Autoankauf Deutschland – Ihr Premium Autoankauf"
         >
-          {/* Logo image — flush left on mobile, rounded on desktop */}
-          <div className={cn(
-            "relative flex-shrink-0 self-stretch overflow-hidden transition-all duration-300",
-            "w-[140px] sm:w-[120px]",
-            "rounded-none sm:rounded-xl",
-            "group-hover:shadow-[0_0_0_2px_rgba(251,191,36,0.6)]",
-            "bg-black shadow-[0_4px_14px_rgba(0,0,0,0.35)] ring-1",
-            isScrolled ? "ring-black/10" : "ring-white/15"
-          )}>
-            <Image
-              src="/images/LOGO-SVG.svg"
-              alt="Autoankauf Deutschland Logo"
-              fill
-              className="object-contain"
-              priority
-              sizes="132px"
-            />
-          </div>
+          {/* LogoSVG — no background, blends with navbar */}
+          <LogoSVG className={cn(
+            "h-[52px] sm:h-[62px] w-auto transition-all duration-300",
+            isScrolled ? "text-navy-900" : "text-white"
+          )} />
 
           {/* Wordmark + Tagline */}
-          <div className="flex flex-col leading-none gap-[3px]">
+          <div className="flex flex-col leading-none gap-[2px]">
             {/* Brand name – two-tone */}
             <div className="flex items-baseline gap-0">
               <span className={cn(
-                "text-[15px] sm:text-[23px] font-black tracking-tight transition-colors duration-300",
+                "text-[13px] sm:text-[16px] font-black tracking-tight transition-colors duration-300",
                 isScrolled ? "text-navy-900" : "text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.45)]"
               )}>Auto</span>
-              <span className="text-[15px] sm:text-[23px] font-black tracking-tight text-gold-400 drop-shadow-[0_1px_6px_rgba(251,191,36,0.35)]">ankauf</span>
+              <span className="text-[13px] sm:text-[16px] font-black tracking-tight text-gold-400 drop-shadow-[0_1px_6px_rgba(251,191,36,0.35)]">ankauf</span>
             </div>
-            {/* Tagline — visible on all screens, no decorative lines */}
+            {/* Tagline */}
             <span className={cn(
-              "text-[6px] sm:text-[8.5px] font-bold uppercase tracking-[0.18em] transition-colors duration-300",
+              "text-[5.5px] sm:text-[6.5px] font-bold uppercase tracking-[0.18em] transition-colors duration-300",
               isScrolled ? "text-slate-400" : "text-white/55"
             )}>Ihr Premium Autoankauf</span>
           </div>

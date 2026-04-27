@@ -150,11 +150,10 @@ export default function DeleteLeadButton({
         createPortal(
           <div className="pointer-events-none fixed right-4 top-4 z-[10001]">
             <div
-              className={`pointer-events-auto flex items-center gap-3 rounded-xl border border-emerald-200 bg-white px-4 py-3 shadow-lg ring-1 ring-emerald-100 duration-300 ${
-                toastClosing
+              className={`pointer-events-auto flex items-center gap-3 rounded-xl border border-emerald-200 bg-white px-4 py-3 shadow-lg ring-1 ring-emerald-100 duration-300 ${toastClosing
                   ? "animate-out fade-out slide-out-to-top-2"
                   : "animate-in fade-in slide-in-from-top-2"
-              }`}
+                }`}
             >
               <span className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-100 text-emerald-600">
                 <CheckCircle2 className="h-4.5 w-4.5" />

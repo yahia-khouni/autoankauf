@@ -1,16 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { carMakes, getModelsByMake } from "@/data/car-makes";
 import { getYearRange } from "@/lib/utils";
 import { Loader2, CheckCircle, ChevronLeft, Car, User } from "lucide-react";
 
 const years = getYearRange();
+
+interface MakeOption {
+  id: string;
+  name: string;
+}
+
+interface ModelOption {
+  id: string;
+  name: string;
+}
+
+const CATALOG_REFRESH_INTERVAL_MS = 10000;
 
 export function LeadForm() {
   const t = useTranslations("form");
@@ -19,6 +30,11 @@ export function LeadForm() {
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [catalogError, setCatalogError] = useState<string | null>(null);
+  const [isCatalogLoading, setIsCatalogLoading] = useState(true);
+  const [isModelsLoading, setIsModelsLoading] = useState(false);
+  const [makes, setMakes] = useState<MakeOption[]>([]);
+  const [models, setModels] = useState<ModelOption[]>([]);
 
   const contactMethods = [
     { value: "phone", label: t("phone") },
@@ -27,8 +43,8 @@ export function LeadForm() {
   ];
 
   const [formData, setFormData] = useState({
-    make: "",
-    model: "",
+    makeId: "",
+    modelId: "",
     year: "",
     mileage: "",
     offeredPrice: "",
@@ -41,16 +57,139 @@ export function LeadForm() {
     privacyAccepted: false,
   });
 
-  const models = formData.make ? getModelsByMake(formData.make) : [];
-
   const updateField = (field: string, value: string | boolean) => {
-    setFormData((prev) => ({ ...prev, [field]: value }));
-    if (field === "make") {
-      setFormData((prev) => ({ ...prev, model: "" }));
-    }
+    setFormData((prev) => {
+      if (field === "makeId") {
+        return { ...prev, makeId: value as string, modelId: "" };
+      }
+      return { ...prev, [field]: value };
+    });
   };
 
-  const canProceedStep1 = formData.make && formData.model && formData.year && formData.mileage && formData.offeredPrice;
+  useEffect(() => {
+    let isMounted = true;
+    let intervalId: number | null = null;
+
+    async function loadMakes(showLoading: boolean) {
+      if (showLoading) {
+        setIsCatalogLoading(true);
+      }
+      setCatalogError(null);
+
+      try {
+        const res = await fetch("/api/cars/makes", { cache: "no-store" });
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data?.error || "Failed to load makes");
+        }
+
+        if (isMounted) {
+          setMakes(Array.isArray(data?.makes) ? data.makes : []);
+        }
+      } catch {
+        if (isMounted) {
+          setCatalogError("Fahrzeugdaten konnten nicht geladen werden. Bitte versuchen Sie es erneut.");
+          setMakes([]);
+        }
+      } finally {
+        if (isMounted && showLoading) {
+          setIsCatalogLoading(false);
+        }
+      }
+    }
+
+    void loadMakes(true);
+    intervalId = window.setInterval(() => {
+      void loadMakes(false);
+    }, CATALOG_REFRESH_INTERVAL_MS);
+
+    return () => {
+      isMounted = false;
+      if (intervalId !== null) {
+        window.clearInterval(intervalId);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!formData.makeId) return;
+    if (!makes.some((item) => item.id === formData.makeId)) {
+      setFormData((prev) => ({ ...prev, makeId: "", modelId: "" }));
+      setModels([]);
+    }
+  }, [makes, formData.makeId]);
+
+  useEffect(() => {
+    let isMounted = true;
+    let intervalId: number | null = null;
+
+    async function loadModels(showLoading: boolean) {
+      if (!formData.makeId) {
+        setModels([]);
+        setIsModelsLoading(false);
+        return;
+      }
+
+      if (showLoading) {
+        setIsModelsLoading(true);
+      }
+      setCatalogError(null);
+
+      try {
+        const res = await fetch(`/api/cars/makes/${encodeURIComponent(formData.makeId)}/models`, {
+          cache: "no-store",
+        });
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data?.error || "Failed to load models");
+        }
+
+        if (isMounted) {
+          setModels(Array.isArray(data?.models) ? data.models : []);
+        }
+      } catch {
+        if (isMounted) {
+          setCatalogError("Modelldaten konnten nicht geladen werden. Bitte versuchen Sie es erneut.");
+          setModels([]);
+        }
+      } finally {
+        if (isMounted && showLoading) {
+          setIsModelsLoading(false);
+        }
+      }
+    }
+
+    void loadModels(true);
+    intervalId = window.setInterval(() => {
+      void loadModels(false);
+    }, CATALOG_REFRESH_INTERVAL_MS);
+
+    return () => {
+      isMounted = false;
+      if (intervalId !== null) {
+        window.clearInterval(intervalId);
+      }
+    };
+  }, [formData.makeId]);
+
+  useEffect(() => {
+    if (!formData.modelId) return;
+    if (!models.some((item) => item.id === formData.modelId)) {
+      setFormData((prev) => ({ ...prev, modelId: "" }));
+    }
+  }, [models, formData.modelId]);
+
+  const selectedMake = makes.find((entry) => entry.id === formData.makeId);
+  const selectedModel = models.find((entry) => entry.id === formData.modelId);
+
+  const canProceedStep1 =
+    formData.makeId &&
+    formData.modelId &&
+    formData.year &&
+    formData.mileage &&
+    formData.offeredPrice;
   const canProceedStep2 = formData.firstName && formData.lastName && formData.email && formData.phone && formData.privacyAccepted;
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -62,7 +201,13 @@ export function LeadForm() {
       const response = await fetch("/api/leads/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          makeId: formData.makeId,
+          modelId: formData.modelId,
+          make: selectedMake?.name ?? "",
+          model: selectedModel?.name ?? "",
+        }),
       });
 
       const data = await response.json();
@@ -128,40 +273,62 @@ export function LeadForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <div className="space-y-1.5 sm:space-y-2">
               <Label htmlFor="make" className="text-xs sm:text-sm font-medium text-navy-700">{t("carMake")} *</Label>
-              <Select value={formData.make} onValueChange={(v) => updateField("make", v)}>
+              <Select
+                value={formData.makeId}
+                onValueChange={(v) => updateField("makeId", v)}
+                disabled={isCatalogLoading}
+              >
                 <SelectTrigger className="h-12 sm:h-12 text-sm border-2 border-slate-200 hover:border-gold-300 focus:border-gold-400 focus:ring-4 focus:ring-gold-400/20 transition-all rounded-xl bg-white active:scale-[0.98]">
-                  <SelectValue placeholder={tCommon("select")} />
+                  <SelectValue
+                    placeholder={isCatalogLoading ? "Wird geladen..." : tCommon("select")}
+                  />
                 </SelectTrigger>
                 <SelectContent className="rounded-xl border-2 shadow-premium max-h-[40vh]">
-                  {carMakes.map((make) => (
-                    <SelectItem key={make.id} value={make.id} className="rounded-lg py-3 sm:py-2">
-                      {make.name}
-                    </SelectItem>
-                  ))}
+                  {makes.length === 0 && !isCatalogLoading ? (
+                    <div className="px-3 py-2 text-xs text-slate-500">Keine Marken verfugbar</div>
+                  ) : (
+                    makes.map((make) => (
+                      <SelectItem key={make.id} value={make.id} className="rounded-lg py-3 sm:py-2">
+                        {make.name}
+                      </SelectItem>
+                    ))
+                  )}
                 </SelectContent>
               </Select>
             </div>
 
             <div className="space-y-1.5 sm:space-y-2">
               <Label htmlFor="model" className="text-xs sm:text-sm font-medium text-navy-700">{t("carModel")} *</Label>
-              <Select 
-                value={formData.model} 
-                onValueChange={(v) => updateField("model", v)}
-                disabled={!formData.make}
+              <Select
+                value={formData.modelId}
+                onValueChange={(v) => updateField("modelId", v)}
+                disabled={!formData.makeId || isModelsLoading || isCatalogLoading}
               >
                 <SelectTrigger className="h-12 sm:h-12 text-sm border-2 border-slate-200 hover:border-gold-300 focus:border-gold-400 focus:ring-4 focus:ring-gold-400/20 transition-all rounded-xl bg-white disabled:opacity-50 active:scale-[0.98]">
-                  <SelectValue placeholder={tCommon("select")} />
+                  <SelectValue
+                    placeholder={isModelsLoading ? "Wird geladen..." : tCommon("select")}
+                  />
                 </SelectTrigger>
                 <SelectContent className="rounded-xl border-2 shadow-premium max-h-[40vh]">
-                  {models.map((model) => (
-                    <SelectItem key={model} value={model} className="rounded-lg py-3 sm:py-2">
-                      {model}
-                    </SelectItem>
-                  ))}
+                  {models.length === 0 && formData.makeId && !isModelsLoading ? (
+                    <div className="px-3 py-2 text-xs text-slate-500">Keine Modelle verfugbar</div>
+                  ) : (
+                    models.map((model) => (
+                      <SelectItem key={model.id} value={model.id} className="rounded-lg py-3 sm:py-2">
+                        {model.name}
+                      </SelectItem>
+                    ))
+                  )}
                 </SelectContent>
               </Select>
             </div>
           </div>
+
+          {catalogError && (
+            <p className="text-xs text-red-600 bg-red-50 border border-red-100 rounded-lg px-3 py-2">
+              {catalogError}
+            </p>
+          )}
 
           {/* Year & Mileage - Stack on Mobile */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">

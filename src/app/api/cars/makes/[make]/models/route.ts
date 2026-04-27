@@ -1,12 +1,24 @@
-import { NextRequest, NextResponse } from "next/server";
-import { getModelsByMake } from "@/data/car-makes";
+﻿import { NextRequest, NextResponse } from "next/server";
+import { logger } from "@/lib/logger";
+import { prisma } from "@/lib/db";
+import { ensureCarCatalogInitialized } from "@/lib/car-catalog";
 
 export async function GET(
-  request: NextRequest,
-  { params }: { params: Promise<{ make: string }> }
+  _request: NextRequest,
+  { params }: { params: { make: string } }
 ) {
-  const { make } = await params;
-  const models = getModelsByMake(make);
-  
-  return NextResponse.json({ models });
+  try {
+    await ensureCarCatalogInitialized();
+
+    const models = await prisma.carModel.findMany({
+      where: { makeId: params.make },
+      select: { id: true, name: true },
+      orderBy: { name: "asc" },
+    });
+
+    return NextResponse.json({ models });
+  } catch (error) {
+    logger.error("[GET /api/cars/makes/[make]/models]", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }

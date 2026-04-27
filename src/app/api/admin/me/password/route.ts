@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
+import { logger } from "@/lib/logger";
 import { getAdminSession } from "@/lib/auth-utils";
 import { prisma } from "@/lib/db";
 import { changePasswordSchema } from "@/lib/validations/admin";
@@ -49,7 +50,8 @@ export async function PATCH(request: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("[PATCH /api/admin/me/password]", error);
+    logger.error("[PATCH /api/admin/me/password]", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
+

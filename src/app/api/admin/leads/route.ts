@@ -3,6 +3,7 @@ import { getAdminSession } from "@/lib/auth-utils";
 import { prisma } from "@/lib/db";
 import { leadsQuerySchema } from "@/lib/validations/admin";
 import { Prisma } from "@prisma/client";
+import { logger } from "@/lib/logger";
 
 export async function GET(request: NextRequest) {
   const session = await getAdminSession();
@@ -74,7 +75,7 @@ export async function GET(request: NextRequest) {
       totalPages: Math.ceil(total / limit),
     });
   } catch (error) {
-    console.error("[GET /api/admin/leads]", error);
+    logger.error("[GET /api/admin/leads]", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

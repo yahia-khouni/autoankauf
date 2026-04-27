@@ -2,6 +2,8 @@ import { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
+import { isLoginLocked, recordFailedLogin, clearLoginAttempts } from "@/lib/login-limiter";
+import { logger } from "@/lib/logger";
 
 export const authOptions: NextAuthOptions = {
   session: {
@@ -10,6 +12,7 @@ export const authOptions: NextAuthOptions = {
   },
   pages: {
     signIn: "/admin/login",
+    error: "/admin/login",
   },
   providers: [
     CredentialsProvider({
@@ -23,11 +26,20 @@ export const authOptions: NextAuthOptions = {
           return null;
         }
 
+        const email = credentials.email.toLowerCase().trim();
+
+        // Brute-force protection: block if too many recent failures
+        if (isLoginLocked(email)) {
+          logger.warn(`[Auth] Login blocked — too many attempts for: ${email}`);
+          throw new Error("TOO_MANY_ATTEMPTS");
+        }
+
         const admin = await prisma.admin.findUnique({
-          where: { email: credentials.email },
+          where: { email },
         });
 
         if (!admin) {
+          recordFailedLogin(email);
           return null;
         }
 
@@ -37,8 +49,15 @@ export const authOptions: NextAuthOptions = {
         );
 
         if (!passwordValid) {
+          const locked = recordFailedLogin(email);
+          if (locked) {
+            logger.warn(`[Auth] Account locked after repeated failures: ${email}`);
+          }
           return null;
         }
+
+        // Successful login — clear failure counter
+        clearLoginAttempts(email);
 
         // Update lastLoginAt
         await prisma.admin.update({
