@@ -15,7 +15,7 @@ This is an SEO-optimized website designed to:
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS + shadcn/ui components
 - **Database**: PostgreSQL with Prisma ORM
-- **Email**: Resend
+- **Email**: SMTP (Nodemailer + Handlebars templates)
 - **i18n**: next-intl (German, English, French)
 - **Hosting**: Vercel (recommended)
 
@@ -47,9 +47,10 @@ npm install
 cp .env.example .env
 
 # Edit .env with your values:
-# - DATABASE_URL (PostgreSQL connection string)
-# - RESEND_API_KEY (from resend.com)
+# - DATABASE_URL (MySQL connection string)
+# - SMTP_HOST, SMTP_PORT, SMTP_SECURE, SMTP_USER, SMTP_PASS, SMTP_FROM
 # - ADMIN_EMAIL (notification recipient)
+# - SETUP_ADMIN_TOKEN (one-time admin setup secret)
 ```
 
 ### Step 4: Setup Database
@@ -147,12 +148,12 @@ npm run db:studio      # Open Prisma Studio
 npm run db:seed        # Seed database with data
 ```
 
-## 📧 Email Setup (Resend)
+## 📧 Email Setup (SMTP)
 
-1. Sign up at [resend.com](https://resend.com)
-2. Add and verify your domain
-3. Copy your API key to `.env`
-4. Configure email templates in the API routes
+1. Configure SMTP credentials in `.env` (`SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`)
+2. Set `SMTP_FROM` to your sender identity
+3. Set `ADMIN_EMAIL` for lead notifications
+4. Test lead submission to confirm both customer and admin emails are delivered
 
 ## 🚀 Deployment (Vercel)
 
@@ -160,6 +161,23 @@ npm run db:seed        # Seed database with data
 2. Import project in Vercel
 3. Add environment variables
 4. Deploy
+
+### One-Time Admin Setup (after deployment)
+
+There is no signup flow. Create the first and only bootstrap admin via the setup API:
+
+1. Check setup state (requires setup token header):
+```bash
+curl -H "x-setup-token: <SETUP_ADMIN_TOKEN>" https://your-domain.com/api/setup/status
+```
+2. Create first admin (works only once):
+```bash
+curl -X POST https://your-domain.com/api/setup/create-first-admin \
+  -H "Content-Type: application/json" \
+  -H "x-setup-token: <SETUP_ADMIN_TOKEN>" \
+  -d '{"firstName":"Admin","lastName":"User","email":"admin@autoankauf.de","password":"YourStrongPassword123!"}'
+```
+3. Login at `/admin/login` and rotate credentials as needed.
 
 Vercel automatically:
 - Builds and deploys on push
@@ -171,7 +189,7 @@ Vercel automatically:
 
 ### Phase 2: Core Functionality
 - [ ] Connect lead form to database
-- [ ] Implement email sending with Resend
+- [ ] Implement email delivery via SMTP templates
 - [ ] Add file upload for car photos
 - [ ] Build admin dashboard
 

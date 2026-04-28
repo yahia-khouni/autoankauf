@@ -1,5 +1,4 @@
 import { PrismaClient } from "@prisma/client";
-import bcrypt from "bcryptjs";
 import { carMakes } from "../src/data/car-makes";
 
 const prisma = new PrismaClient();
@@ -10,33 +9,6 @@ function toSlug(value: string) {
     .trim()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
-}
-
-async function ensureAdminUser() {
-  const email = "admin@autoankauf.de";
-  const password = "admin123"; // Change this after first login
-
-  const existing = await prisma.admin.findUnique({ where: { email } });
-
-  if (existing) {
-    console.log(`Admin already exists: ${email}`);
-    return;
-  }
-
-  const passwordHash = await bcrypt.hash(password, 12);
-
-  const admin = await prisma.admin.create({
-    data: {
-      email,
-      passwordHash,
-      name: "Admin",
-      role: "ADMIN",
-    },
-  });
-
-  console.log(`✓ Admin created: ${admin.email}`);
-  console.log(`  Password: ${password}`);
-  console.log(`  → Change your password after first login!`);
 }
 
 async function ensureCarCatalog() {
@@ -78,7 +50,6 @@ async function ensureCarCatalog() {
 }
 
 async function main() {
-  await ensureAdminUser();
   await ensureCarCatalog();
 }
 

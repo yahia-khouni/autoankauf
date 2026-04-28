@@ -1,11 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
-import { Resend } from "resend";
 import { rateLimit } from "@/lib/rate-limit";
-import { escapeHtml, stripTags, sanitizeString, isValidEmail, isValidPhone } from "@/lib/sanitize";
+import { stripTags, sanitizeString, isValidEmail, isValidPhone } from "@/lib/sanitize";
 import { logger } from "@/lib/logger";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import {
+  sendLeadAdminNotificationEmail,
+  sendLeadCustomerConfirmationEmail,
+} from "@/lib/email/lead-emails";
 
 // CSRF: allowed origins — add your production domain here
 const ALLOWED_ORIGINS = [
@@ -191,66 +192,28 @@ export async function POST(request: NextRequest) {
       },
     });
 
-    // HTML-escape ALL user values before injecting into email templates
-    const safeFirstName     = escapeHtml(cleanFirstName);
-    const safeLastName      = escapeHtml(cleanLastName);
-    const safeMake          = escapeHtml(resolvedMake);
-    const safeModel         = escapeHtml(resolvedModel);
-    const safeNotes         = escapeHtml(cleanNotes);
-    const safeEmail         = escapeHtml(cleanEmail);
-    const safePhone         = escapeHtml(cleanPhone);
-    const safeContactMethod = escapeHtml(
-      typeof contactMethod === "string" ? contactMethod : ""
-    );
-
     try {
-      // Customer confirmation email
-      await resend.emails.send({
-        from:    process.env.EMAIL_FROM || "noreply@autoankauf.de",
-        to:      cleanEmail,
-        subject: "Ihre Anfrage bei Autoankauf Deutschland",
-        html: `
-          <h1>Vielen Dank für Ihre Anfrage!</h1>
-          <p>Hallo ${safeFirstName},</p>
-          <p>wir haben Ihre Anfrage für Ihr Fahrzeug erhalten:</p>
-          <ul>
-            <li><strong>Marke:</strong> ${safeMake}</li>
-            <li><strong>Modell:</strong> ${safeModel}</li>
-            <li><strong>Baujahr:</strong> ${parsedYear}</li>
-            <li><strong>Kilometerstand:</strong> ${parsedMileage.toLocaleString("de-DE")} km</li>
-            <li><strong>Ihr Preisvorschlag:</strong> ${parsedOfferedPrice.toLocaleString("de-DE")} EUR</li>
-          </ul>
-          <p>Wir werden uns innerhalb von 24 Stunden mit einem Angebot bei Ihnen melden.</p>
-          <p>Mit freundlichen Grüßen,<br>Ihr Autoankauf Deutschland Team</p>
-        `,
-      });
+      const emailPayload = {
+        leadId: lead.id,
+        firstName: cleanFirstName,
+        lastName: cleanLastName,
+        email: cleanEmail,
+        phone: cleanPhone,
+        preferredContact:
+          typeof contactMethod === "string" && contactMethod.trim()
+            ? contactMethod
+            : "PHONE",
+        carMake: resolvedMake,
+        carModel: resolvedModel,
+        carYear: parsedYear,
+        carMileage: parsedMileage,
+        offeredPrice: parsedOfferedPrice,
+        notes: cleanNotes,
+        submittedAt: lead.createdAt,
+      };
 
-      // Admin notification email
-      await resend.emails.send({
-        from:    process.env.EMAIL_FROM || "noreply@autoankauf.de",
-        to:      process.env.ADMIN_EMAIL || "admin@autoankauf.de",
-        subject: `Neue Anfrage: ${safeMake} ${safeModel} (${parsedYear})`,
-        html: `
-          <h1>Neue Lead-Anfrage</h1>
-          <h2>Fahrzeugdaten:</h2>
-          <ul>
-            <li><strong>Marke:</strong> ${safeMake}</li>
-            <li><strong>Modell:</strong> ${safeModel}</li>
-            <li><strong>Baujahr:</strong> ${parsedYear}</li>
-            <li><strong>Kilometerstand:</strong> ${parsedMileage.toLocaleString("de-DE")} km</li>
-            <li><strong>Preisvorschlag Kunde:</strong> ${parsedOfferedPrice.toLocaleString("de-DE")} EUR</li>
-          </ul>
-          <h2>Kontaktdaten:</h2>
-          <ul>
-            <li><strong>Name:</strong> ${safeFirstName} ${safeLastName}</li>
-            <li><strong>E-Mail:</strong> ${safeEmail}</li>
-            <li><strong>Telefon:</strong> ${safePhone}</li>
-            <li><strong>Bevorzugter Kontakt:</strong> ${safeContactMethod}</li>
-          </ul>
-          ${safeNotes ? `<h2>Anmerkungen:</h2><p>${safeNotes}</p>` : ""}
-          <p><a href="${process.env.NEXT_PUBLIC_URL}/admin/leads/${lead.id}">Lead im Admin-Bereich ansehen</a></p>
-        `,
-      });
+      await sendLeadCustomerConfirmationEmail(emailPayload);
+      await sendLeadAdminNotificationEmail(emailPayload);
     } catch (emailError) {
       logger.error("Email sending failed:", emailError);
     }

@@ -1844,9 +1844,7 @@ export function LeadForm() {
 
 files["src/app/api/leads/submit/route.ts"] = '''import { NextResponse } from "next/server";
 // import { prisma } from "@/lib/db";
-// import { Resend } from "resend";
-
-// const resend = new Resend(process.env.RESEND_API_KEY);
+// import { sendLeadCustomerConfirmationEmail, sendLeadAdminNotificationEmail } from "@/lib/email/lead-emails";
 
 export async function POST(request: Request) {
   try {
@@ -1882,21 +1880,11 @@ export async function POST(request: Request) {
     //   },
     // });
 
-    // TODO: Send confirmation email to user
-    // await resend.emails.send({
-    //   from: process.env.FROM_EMAIL!,
-    //   to: body.email,
-    //   subject: "Ihre Anfrage bei Autoankauf — Wir melden uns!",
-    //   html: `...`,
-    // });
+    // TODO: Send confirmation email to user via SMTP template
+    // await sendLeadCustomerConfirmationEmail({ ... });
 
-    // TODO: Send notification email to admin
-    // await resend.emails.send({
-    //   from: process.env.FROM_EMAIL!,
-    //   to: process.env.ADMIN_EMAIL!,
-    //   subject: `🚗 Neue Anfrage: ${body.makeId} aus PLZ ${body.postalCode}`,
-    //   html: `...`,
-    // });
+    // TODO: Send notification email to admin via SMTP template
+    // await sendLeadAdminNotificationEmail({ ... });
 
     console.log("Lead received:", body);
 
