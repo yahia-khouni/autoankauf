@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function StatePage({ params }: Props) {
   const { locale, state: stateSlug } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("locations");
+  const t = await getTranslations({ locale: "de", namespace: "locations" });
 
   const state = getStateBySlug(stateSlug);
   if (!state) notFound();
@@ -523,7 +523,7 @@ export default async function StatePage({ params }: Props) {
       <section className="py-12 lg:py-16 bg-slate-50 border-t border-slate-100">
         <div className="container">
           <div className="flex items-center justify-between mb-6">
-            <h3 className="text-lg font-bold text-navy-900">Weitere Bundesländer</h3>
+            <h3 className="text-lg font-bold text-navy-900">Weitere Bundeslaender</h3>
             <Link
               href="/standorte"
               className="text-sm text-gold-600 hover:text-gold-700 font-semibold flex items-center gap-1"

@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
-import { getNationData, getAllStates, getCitiesByState } from "@/data/location-data";
-import { MapPin, ArrowRight, Shield, Zap, Star, TrendingUp, Phone, CheckCircle } from "lucide-react";
+import { getNationData, getAllStates, getCitiesByState, getStateBySlug } from "@/data/location-data";
+import { MapPin, MapPinned, ArrowRight, Shield, Zap, Star, TrendingUp, Phone, CheckCircle } from "lucide-react";
 import { locales, type Locale } from "@/lib/i18n";
 import { StatsCounter } from "@/components/locations/stats-counter";
 import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
@@ -38,7 +38,18 @@ export default async function StandortePage({
   setRequestLocale(locale);
   const t = await getTranslations("locations");
 
-  const states = getAllStates();
+  const statesFromOrder = getAllStates();
+  const requiredStateSlugs = ["hamburg", "berlin", "saarland"] as const;
+  const requiredStates = requiredStateSlugs
+    .map((slug) => getStateBySlug(slug))
+    .filter((state): state is NonNullable<typeof state> => !!state);
+
+  const states = [...statesFromOrder];
+  for (const requiredState of requiredStates) {
+    if (!states.some((state) => state.slug === requiredState.slug)) {
+      states.push(requiredState);
+    }
+  }
   const totalCities = states.reduce((sum, state) => sum + state.cities.length, 0);
 
   // Build state cards data with city names for pills
@@ -62,8 +73,8 @@ export default async function StandortePage({
       {/* Schema.org Breadcrumb */}
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: baseUrl },
-          { name: "Standorte", url: `${baseUrl}/standorte` },
+          { name: t("homeLabel"), url: baseUrl },
+          { name: t("locationsLabel"), url: `${baseUrl}/standorte` },
         ]}
       />
 
@@ -84,8 +95,8 @@ export default async function StandortePage({
           {/* Breadcrumb */}
           <LocationBreadcrumb
             items={[
-              { label: "Home", href: "/" },
-              { label: "Standorte" },
+              { label: t("homeLabel"), href: "/" },
+              { label: t("locationsLabel") },
             ]}
           />
 
@@ -127,7 +138,15 @@ export default async function StandortePage({
           selectStateTitle: t("selectStateTitle"),
           selectStateDesc: t("selectStateDesc"),
           searchPlaceholder: t("searchCity") || "Stadt suchen...",
-          noResults: t("noResults") || "Keine Ergebnisse gefunden"
+          noResults: t("noResults") || "Keine Ergebnisse gefunden",
+          closeLabel: t("closeLabel"),
+          backLabel: t("backLabel"),
+          citiesInLabel: t("citiesInLabel"),
+          searchResultsLabel: t("searchResultsLabel"),
+          availableLocationsLabel: t("availableLocationsLabel"),
+          viewStatePageLabel: t("viewStatePageLabel"),
+          citySingularLabel: t("citySingular"),
+          cityPluralLabel: t("cities"),
         }}
       />
 
@@ -248,8 +267,8 @@ export default async function StandortePage({
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/10" />
 
               <div className="relative z-10 flex flex-col items-center max-w-2xl mx-auto">
-                <AnimateOnScroll delay={100} className="w-20 h-20 rounded-2xl bg-navy-800 border border-navy-700 flex items-center justify-center mb-8 shadow-sm hover:scale-105 transition-transform duration-500 group">
-                  <MapPin className="h-10 w-10 text-gold-400 group-hover:fill-gold-400/20 transition-all duration-500" />
+                <AnimateOnScroll delay={100} className="w-20 h-20 rounded-2xl bg-gradient-to-br from-navy-800 to-navy-900 border border-gold-400/35 flex items-center justify-center mb-8 shadow-[0_10px_30px_rgba(212,175,55,0.18)] animate-float motion-reduce:animate-none hover:scale-105 transition-transform duration-500 group">
+                  <MapPinned className="h-10 w-10 text-gold-300 drop-shadow-[0_0_10px_rgba(251,191,36,0.45)] group-hover:scale-105 group-hover:text-gold-200 transition-all duration-500" />
                 </AnimateOnScroll>
                 
                 <AnimateOnScroll delay={200}>

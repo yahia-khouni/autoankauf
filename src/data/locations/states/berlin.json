@@ -121,5 +121,9 @@
       "seoSectionTitle": "Warum Autoankauf in Berlin?"
     }
   },
-  "cities": []
+  "cities": [
+    "berlin",
+    "berlin-mitte",
+    "berlin-spandau"
+  ]
 }

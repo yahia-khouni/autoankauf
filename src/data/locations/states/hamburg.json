@@ -121,5 +121,9 @@
       "seoSectionTitle": "Warum Autoankauf in Hamburg?"
     }
   },
-  "cities": []
+  "cities": [
+    "hamburg",
+    "hamburg-altona",
+    "hamburg-bergedorf"
+  ]
 }

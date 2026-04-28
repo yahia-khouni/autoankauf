@@ -1,0 +1,214 @@
+{
+  "id": "berlin-mitte",
+  "name": "Berlin-Mitte",
+  "slug": "berlin-mitte",
+  "stateSlug": "berlin",
+  "stateCode": "BE",
+  "stateName": "Berlin",
+  "population": 397000,
+  "postalCodeRange": "10115–10179",
+  "coordinates": {
+    "lat": 52.52,
+    "lng": 13.405
+  },
+  "meta": {
+    "title": "Autoankauf Berlin-Mitte - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Berlin-Mitte: kostenlose Bewertung in 2 Minuten, schnelle Abholung und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
+    "keywords": [
+      "Autoankauf Berlin-Mitte",
+      "Auto verkaufen Berlin-Mitte",
+      "KFZ Ankauf Berlin-Mitte",
+      "Gebrauchtwagen verkaufen Berlin-Mitte",
+      "Auto sofort verkaufen Berlin-Mitte",
+      "Fahrzeugbewertung Berlin-Mitte",
+      "Autoankauf nahe Alexanderplatz"
+    ]
+  },
+  "content": {
+    "heroDescription": "In Berlin-Mitte verkaufen Sie Ihr Auto schnell, transparent und ohne Umwege. Wir bewerten fair und zahlen sofort aus.",
+    "localContent": "Berlin-Mitte ist das historische und wirtschaftliche Zentrum der Hauptstadt. Zwischen Alexanderplatz, Hauptbahnhof und Regierungsviertel ist die Nachfrage nach flexibler Mobilität besonders hoch. Viele Halter möchten ihr Fahrzeug kurzfristig und rechtssicher verkaufen. Genau dafür bieten wir in Berlin-Mitte einen schnellen Ankaufservice mit klarer Preisermittlung.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Berlin-Mitte",
+        "Auto verkaufen Berlin-Mitte",
+        "KFZ Ankauf Berlin-Mitte",
+        "Gebrauchtwagen verkaufen Berlin-Mitte"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Berlin-Mitte erhalten Sie ein verbindliches Angebot mit nachvollziehbarer Bewertung — ohne versteckte Kosten.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Berlin-Mitte — So einfach geht's",
+      "localHooksTitle": "Warum viele in Berlin-Mitte ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 10115–10179 sehen wir täglich ähnliche Verkaufsmotive: hohe Unterhaltskosten, Reparaturen und schneller Fahrzeugwechsel. Rund um den Alexanderplatz werden besonders häufig kurzfristige Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Halter in Berlin-Mitte verzichten auf weitere Investitionen in ältere Fahrzeuge und verkaufen direkt zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck im urbanen Alltag",
+          "copy": "Wer in Berlin-Mitte lebt oder arbeitet, braucht einen klaren und schnellen Verkaufsprozess ohne lange Wartezeiten."
+        },
+        {
+          "title": "Hohe regionale Nachfrage",
+          "copy": "Die Nachfrage nach Gebrauchtwagen ist in zentralen Berliner Lagen konstant hoch — auch bei Fahrzeugen mit Mängeln."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Berlin-Mitte",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Berlin-Mitte",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Berlin-Mitte, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen oder ein Fahrzeugwechsel geplant ist, ist ein schneller Verkauf oft die bessere Entscheidung. In Berlin-Mitte erhalten Sie ein transparentes Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Berlin-Mitte",
+        "Unfallwagen verkaufen Berlin-Mitte",
+        "Motorschaden Ankauf Berlin-Mitte",
+        "Leasingrückläufer in Berlin-Mitte ankaufen",
+        "Firmenwagen in Berlin-Mitte bewerten",
+        "Auto sofort verkaufen Berlin-Mitte"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Berlin-Mitte?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Berlin-Mitte",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Berlin-Mitte",
+        "Auto verkaufen Berlin-Mitte",
+        "KFZ Ankauf Berlin-Mitte",
+        "Wagen verkaufen Berlin-Mitte",
+        "Gebrauchtwagen Ankauf Berlin-Mitte",
+        "Auto ohne TÜV verkaufen Berlin-Mitte",
+        "Unfallwagen verkaufen Berlin-Mitte",
+        "Motorschaden Ankauf Berlin-Mitte",
+        "PKW verkaufen Berlin-Mitte",
+        "Auto sofort verkaufen Berlin-Mitte",
+        "Fahrzeugbewertung Berlin-Mitte",
+        "Autoankauf Alexanderplatz"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Berlin-Mitte",
+      "trustDescription": "Sie erhalten transparente Verträge, klare Preisbegründungen und eine sichere Übergabe. Genau darauf kommt es beim Autoankauf in Berlin-Mitte an.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Berlin",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Berlin-Mitte — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 10115–10179",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Berlin-Mitte — ein starker urbaner Automarkt mit hoher Nachfrage.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Berlin-Mitte",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Berlin-Mitte wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Berlin-Mitte zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Berlin ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Berlin-Mitte",
+      "heroTitlePrefix": "Autoankauf"
+    }
+  },
+  "landmarks": [
+    "Alexanderplatz",
+    "Brandenburger Tor",
+    "Unter den Linden",
+    "Hauptbahnhof Berlin"
+  ],
+  "nearbyCities": [
+    "berlin",
+    "potsdam",
+    "frankfurt-oder"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Berlin-Mitte verkaufen?",
+      "answer": "In Berlin-Mitte erhalten Sie in der Regel innerhalb von 24 Stunden ein verbindliches Angebot. Kurzfristige Termine sind häufig möglich."
+    },
+    {
+      "question": "Welche Unterlagen sollte ich in Berlin-Mitte bereithalten?",
+      "answer": "Bitte halten Sie Zulassungsbescheinigung Teil I und II, Ihren Ausweis sowie alle Fahrzeugschlüssel bereit. Das beschleunigt die Abwicklung."
+    },
+    {
+      "question": "Kaufen Sie in Berlin-Mitte auch Fahrzeuge ohne TÜV?",
+      "answer": "Ja, wir kaufen auch Fahrzeuge ohne TÜV sowie Autos mit Motorschaden oder Unfallschaden in Berlin-Mitte an."
+    },
+    {
+      "question": "Wie erfolgt die Auszahlung beim Autoankauf in Berlin-Mitte?",
+      "answer": "Nach Abschluss des Kaufvertrags zahlen wir sofort aus — bar oder per Überweisung, je nach Wunsch."
+    },
+    {
+      "question": "Ist die Abholung in Berlin-Mitte kostenlos?",
+      "answer": "Ja, die Abholung in Berlin-Mitte ist kostenlos. Wir kommen direkt zu Ihrem Standort."
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import {
   Euro,
   Car,
   Star,
+  ShieldCheck,
   Shield,
   CheckCircle,
   Users,
@@ -68,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function CityPage({ params }: Props) {
   const { locale, state: stateSlug, city: citySlug } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("locations");
+  const t = await getTranslations({ locale: "de", namespace: "locations" });
 
   const featureCards = [
     { icon: Clock, title: t("featureClockTitle"), desc: t("featureClockDesc"), gradient: "from-gold-400 to-gold-600" },
@@ -460,7 +461,7 @@ export default async function CityPage({ params }: Props) {
                         href={`/standorte/${stateSlug}`}
                         className="inline-flex items-center gap-1 px-4 py-2.5 text-gold-600 hover:text-gold-700 text-sm font-bold transition-colors"
                       >
-                        Alle Städte in {state.name}
+                        {`Alle Staedte in ${state.name}`}
                         <ArrowRight className="h-4 w-4" />
                       </Link>
                     )}
@@ -560,11 +561,11 @@ export default async function CityPage({ params }: Props) {
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-28 bg-gold-400/10 rounded-full blur-3xl pointer-events-none" />
 
             <div className="relative">
-              <div className="inline-flex items-center gap-1.5 bg-gold-400/20 border border-gold-400/30 text-gold-300 rounded-full px-4 py-1.5 text-sm font-medium mb-4">
-                <Zap className="h-3.5 w-3.5" />
+              <div className="inline-flex items-center gap-1.5 bg-gold-400/20 border border-gold-400/30 text-navy-900 rounded-full px-4 py-1.5 text-sm font-semibold mb-4">
+                <ShieldCheck className="h-3.5 w-3.5 text-navy-900" />
                 {cityPageContent.bottomCtaBadge}
               </div>
-              <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
+              <h2 className="text-2xl lg:text-3xl font-bold text-navy-900 mb-4">
                 {cityPageContent.bottomCtaTitle}
               </h2>
               <p className="text-slate-400 max-w-lg mx-auto mb-8">

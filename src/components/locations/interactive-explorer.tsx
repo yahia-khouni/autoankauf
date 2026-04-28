@@ -28,6 +28,14 @@ interface InteractiveLocationsExplorerProps {
     selectStateDesc: string;
     searchPlaceholder: string;
     noResults: string;
+    closeLabel: string;
+    backLabel: string;
+    citiesInLabel: string;
+    searchResultsLabel: string;
+    availableLocationsLabel: string;
+    viewStatePageLabel: string;
+    citySingularLabel: string;
+    cityPluralLabel: string;
   };
 }
 
@@ -91,7 +99,7 @@ export function InteractiveLocationsExplorer({ states, translations }: Interacti
               <button
                 onClick={() => setSelectedStateSlug(null)}
                 className="absolute top-4 right-4 p-2 flex items-center justify-center bg-navy-800/50 hover:bg-navy-700/80 text-slate-400 hover:text-white rounded-full transition-colors z-20"
-                aria-label="Schließen"
+                aria-label={translations.closeLabel}
               >
                 <X className="h-5 w-5" />
               </button>
@@ -102,13 +110,16 @@ export function InteractiveLocationsExplorer({ states, translations }: Interacti
                     onClick={() => setSelectedStateSlug(null)}
                     className="flex items-center gap-2 text-sm font-semibold text-slate-400 hover:text-white transition-colors mb-2 lg:hidden"
                   >
-                    <ArrowLeft className="h-4 w-4" /> ZURÜCK
+                    <ArrowLeft className="h-4 w-4" /> {translations.backLabel}
                   </button>
                   <h3 className="text-2xl font-bold text-white leading-tight">
-                    Städte in <br /><span className="text-gold-400">{selectedState.name}</span>
+                    {translations.citiesInLabel} <br />
+                    <span className="text-gold-400">{selectedState.name}</span>
                   </h3>
                   <p className="text-slate-400 font-medium mt-2">
-                    {query.length > 0 ? "Suchergebnisse" : "Verfügbare Standorte"}
+                    {query.length > 0
+                      ? translations.searchResultsLabel
+                      : translations.availableLocationsLabel}
                   </p>
                 </div>
                 
@@ -116,7 +127,7 @@ export function InteractiveLocationsExplorer({ states, translations }: Interacti
                   href={`/standorte/${selectedState.slug}`}
                   className="inline-flex w-fit mt-2 items-center justify-center gap-2 bg-gold-500 text-navy-950 hover:bg-gold-400 font-bold py-2.5 px-6 rounded-xl transition-all duration-300 shadow-sm"
                 >
-                  Zur Seite
+                  {translations.viewStatePageLabel}
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
@@ -226,7 +237,10 @@ export function InteractiveLocationsExplorer({ states, translations }: Interacti
                               <span className={`text-xs font-medium transition-colors ${
                                 isSelected ? "text-slate-400" : "text-slate-500 group-hover:text-slate-600"
                               }`}>
-                                {state.cityCount} {state.cityCount === 1 ? "Stadt" : "Städte"}
+                                {state.cityCount}{" "}
+                                {state.cityCount === 1
+                                  ? translations.citySingularLabel
+                                  : translations.cityPluralLabel}
                               </span>
                               
                               {/* Cities Micro-Chips (Only visible on large spanned cards) */}

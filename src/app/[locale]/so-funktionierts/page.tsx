@@ -226,6 +226,67 @@ function ComparisonSection({ t, leadFormHref }: { t: TFn; leadFormHref: string }
   );
 }
 
+function TimelineItem({
+  item,
+  index,
+  total,
+  visible,
+  connectorVisible,
+}: {
+  item: { icon: React.ElementType; time: string; title: string; desc: string };
+  index: number;
+  total: number;
+  visible: boolean;
+  connectorVisible: boolean;
+}) {
+  return (
+    <div className="group relative flex items-start gap-5 sm:gap-6">
+      {index < total - 1 && (
+        <div
+          className="hidden sm:block absolute left-8 top-[calc(4rem+1px)] -bottom-5 w-px origin-top bg-gradient-to-b from-gold-400/45 via-gold-400/25 to-transparent pointer-events-none"
+          style={{
+            transform: connectorVisible ? "scaleY(1)" : "scaleY(0)",
+            opacity: connectorVisible ? 1 : 0.35,
+            transition: "transform 640ms cubic-bezier(.22,1,.36,1) 50ms, opacity 360ms ease 50ms",
+          }}
+        />
+      )}
+
+      {/* icon node */}
+      <div
+        className="relative flex-shrink-0 z-10 transition-all duration-500"
+        style={{
+          opacity: visible ? 1 : 0,
+          transform: visible ? "translateY(0) scale(1)" : "translateY(8px) scale(0.96)",
+          transition: "opacity 520ms cubic-bezier(.22,1,.36,1) 160ms, transform 520ms cubic-bezier(.22,1,.36,1) 160ms",
+        }}
+      >
+        <div className="w-16 h-16 rounded-2xl bg-white/6 backdrop-blur-md border border-white/12 flex items-center justify-center group-hover:bg-white/12 group-hover:border-gold-400/40 transition-all duration-500 shadow-lg">
+          <item.icon className="h-7 w-7 text-gold-400 transition-transform duration-500 group-hover:scale-110" />
+        </div>
+        {/* step badge */}
+        <div className="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-gradient-gold flex items-center justify-center text-[9px] font-black text-navy-900 shadow-gold">
+          {index + 1}
+        </div>
+      </div>
+
+      {/* content */}
+      <div
+        className="flex-1 min-w-0 bg-white/5 backdrop-blur-sm border border-white/8 group-hover:border-gold-400/20 group-hover:bg-white/8 rounded-2xl px-5 py-4 transition-all duration-500"
+        style={{
+          opacity: visible ? 1 : 0,
+          transform: visible ? "translateX(0)" : "translateX(-14px)",
+          transition: "opacity 560ms cubic-bezier(.22,1,.36,1) 220ms, transform 560ms cubic-bezier(.22,1,.36,1) 220ms",
+        }}
+      >
+        <p className="text-[10px] font-black text-gold-400/80 uppercase tracking-[0.15em] mb-1">{item.time}</p>
+        <h3 className="text-base sm:text-lg font-bold text-white mb-1 leading-snug">{item.title}</h3>
+        <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">{item.desc}</p>
+      </div>
+    </div>
+  );
+}
+
 /* ══════════════════════════════════════════════
    PAGE
    ══════════════════════════════════════════════ */
@@ -293,7 +354,6 @@ export default function SoFunktioniertsPage() {
     { q: t("faq1Q"), a: t("faq1A") }, { q: t("faq2Q"), a: t("faq2A") },
     { q: t("faq3Q"), a: t("faq3A") }, { q: t("faq4Q"), a: t("faq4A") },
     { q: t("faq5Q"), a: t("faq5A") }, { q: t("faq6Q"), a: t("faq6A") },
-    { q: t("faq7Q"), a: t("faq7A") },
   ];
 
   const tlItems = [
@@ -302,6 +362,47 @@ export default function SoFunktioniertsPage() {
     { icon: Handshake, time: t("tl3Time"), title: t("tl3Title"), desc: t("tl3Desc") },
     { icon: CreditCard, time: t("tl4Time"), title: t("tl4Title"), desc: t("tl4Desc") },
   ];
+  const timelineRef = useRef<HTMLDivElement>(null);
+  const [timelinePhase, setTimelinePhase] = useState(-1);
+
+  useEffect(() => {
+    const el = timelineRef.current;
+    if (!el) return;
+
+    const maxPhase = (tlItems.length - 1) * 2;
+    let intervalId: number | null = null;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+
+        setTimelinePhase((prev) => (prev < 0 ? 0 : prev));
+        if (intervalId !== null) return;
+
+        intervalId = window.setInterval(() => {
+          setTimelinePhase((prev) => {
+            if (prev >= maxPhase) {
+              if (intervalId !== null) {
+                window.clearInterval(intervalId);
+                intervalId = null;
+              }
+              return prev;
+            }
+            return prev + 1;
+          });
+        }, 680);
+
+        observer.disconnect();
+      },
+      { threshold: 0.28, rootMargin: "0px 0px -60px 0px" },
+    );
+
+    observer.observe(el);
+    return () => {
+      observer.disconnect();
+      if (intervalId !== null) window.clearInterval(intervalId);
+    };
+  }, [tlItems.length]);
 
   /* ════════════════════════════════════════════════
      ① HERO
@@ -432,33 +533,17 @@ export default function SoFunktioniertsPage() {
           </Reveal>
 
           {/* Timeline: vertical connector line + staggered cards */}
-          <div className="relative max-w-3xl mx-auto">
-            {/* Vertical line desktop */}
-            <div className="hidden sm:block absolute left-[2.1rem] top-10 bottom-10 w-px bg-gradient-to-b from-gold-400/10 via-gold-400/40 to-gold-400/10" />
-
+          <div ref={timelineRef} className="relative max-w-3xl mx-auto">
             <div className="space-y-6 sm:space-y-5">
               {tlItems.map((item, i) => (
-                <Reveal key={i} delay={120 + i * 110} dir="left">
-                  <div className="group flex items-start gap-5 sm:gap-6">
-                    {/* icon node */}
-                    <div className="relative flex-shrink-0">
-                      <div className="w-17 w-16 h-16 rounded-2xl bg-white/6 backdrop-blur-md border border-white/12 flex items-center justify-center group-hover:bg-white/12 group-hover:border-gold-400/40 transition-all duration-500 shadow-lg">
-                        <item.icon className="h-7 w-7 text-gold-400 transition-transform duration-500 group-hover:scale-110" />
-                      </div>
-                      {/* step badge */}
-                      <div className="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-gradient-gold flex items-center justify-center text-[9px] font-black text-navy-900 shadow-gold">
-                        {i + 1}
-                      </div>
-                    </div>
-
-                    {/* content */}
-                    <div className="flex-1 min-w-0 bg-white/5 backdrop-blur-sm border border-white/8 group-hover:border-gold-400/20 group-hover:bg-white/8 rounded-2xl px-5 py-4 transition-all duration-500">
-                      <p className="text-[10px] font-black text-gold-400/80 uppercase tracking-[0.15em] mb-1">{item.time}</p>
-                      <h3 className="text-base sm:text-lg font-bold text-white mb-1 leading-snug">{item.title}</h3>
-                      <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                </Reveal>
+                <TimelineItem
+                  key={i}
+                  item={item}
+                  index={i}
+                  total={tlItems.length}
+                  visible={timelinePhase >= i * 2}
+                  connectorVisible={timelinePhase >= i * 2 + 1}
+                />
               ))}
             </div>
           </div>

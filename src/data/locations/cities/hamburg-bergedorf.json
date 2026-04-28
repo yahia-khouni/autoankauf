@@ -1,0 +1,214 @@
+{
+  "id": "hamburg-bergedorf",
+  "name": "Hamburg-Bergedorf",
+  "slug": "hamburg-bergedorf",
+  "stateSlug": "hamburg",
+  "stateCode": "HH",
+  "stateName": "Hamburg",
+  "population": 131000,
+  "postalCodeRange": "21029–21039",
+  "coordinates": {
+    "lat": 53.49,
+    "lng": 10.2092
+  },
+  "meta": {
+    "title": "Autoankauf Hamburg-Bergedorf - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Hamburg-Bergedorf: kostenlose Bewertung in 2 Minuten, Abholung vor Ort und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
+    "keywords": [
+      "Autoankauf Hamburg-Bergedorf",
+      "Auto verkaufen Hamburg-Bergedorf",
+      "KFZ Ankauf Hamburg-Bergedorf",
+      "Gebrauchtwagen verkaufen Hamburg-Bergedorf",
+      "Auto sofort verkaufen Hamburg-Bergedorf",
+      "Fahrzeugbewertung Hamburg-Bergedorf",
+      "Autoankauf nahe Schloss Bergedorf"
+    ]
+  },
+  "content": {
+    "heroDescription": "In Hamburg-Bergedorf verkaufen Sie Ihr Auto schnell und sicher mit fairer Bewertung und sofortiger Auszahlung.",
+    "localContent": "Hamburg-Bergedorf verbindet städtische Infrastruktur mit weitläufigen Wohn- und Gewerbegebieten. Die Nähe zur A25 und die gute Erreichbarkeit innerhalb der Metropolregion machen den Bezirk für den Fahrzeughandel attraktiv. Viele Fahrzeughalter suchen hier eine unkomplizierte, schnelle und transparente Lösung für den Autoverkauf.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Hamburg-Bergedorf",
+        "Auto verkaufen Hamburg-Bergedorf",
+        "KFZ Ankauf Hamburg-Bergedorf",
+        "Gebrauchtwagen verkaufen Hamburg-Bergedorf"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Hamburg-Bergedorf erhalten Sie ein verbindliches Angebot mit transparenter Preisermittlung und schneller Auszahlung.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Hamburg-Bergedorf — So einfach geht's",
+      "localHooksTitle": "Warum viele in Hamburg-Bergedorf ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 21029–21039 sehen wir täglich ähnliche Verkaufsmotive: höhere Betriebskosten, Reparaturbedarf und geplanter Fahrzeugwechsel. Rund um Schloss Bergedorf werden oft kurzfristige Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Halter in Hamburg-Bergedorf reduzieren Kosten, indem sie ältere Fahrzeuge frühzeitig verkaufen."
+        },
+        {
+          "title": "Schnelle Entscheidungen gefragt",
+          "copy": "Bei Umzug oder Fahrzeugwechsel zählt in Bergedorf vor allem eine schnelle und sichere Abwicklung."
+        },
+        {
+          "title": "Gute regionale Marktbedingungen",
+          "copy": "Die Nachfrage nach Gebrauchtwagen ist im Hamburger Osten stabil — auch bei Autos mit Mängeln."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Hamburg-Bergedorf",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Hamburg-Bergedorf",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Hamburg-Bergedorf, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn TÜV oder Reparaturen anstehen, ist ein schneller Verkauf oft die wirtschaftlich bessere Wahl. In Hamburg-Bergedorf erhalten Sie ein klares Angebot ohne versteckte Abzüge.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Hamburg-Bergedorf",
+        "Unfallwagen verkaufen Hamburg-Bergedorf",
+        "Motorschaden Ankauf Hamburg-Bergedorf",
+        "Leasingrückläufer in Hamburg-Bergedorf ankaufen",
+        "Firmenwagen in Hamburg-Bergedorf bewerten",
+        "Auto sofort verkaufen Hamburg-Bergedorf"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Hamburg-Bergedorf?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Hamburg-Bergedorf",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Hamburg-Bergedorf",
+        "Auto verkaufen Hamburg-Bergedorf",
+        "KFZ Ankauf Hamburg-Bergedorf",
+        "Wagen verkaufen Hamburg-Bergedorf",
+        "Gebrauchtwagen Ankauf Hamburg-Bergedorf",
+        "Auto ohne TÜV verkaufen Hamburg-Bergedorf",
+        "Unfallwagen verkaufen Hamburg-Bergedorf",
+        "Motorschaden Ankauf Hamburg-Bergedorf",
+        "PKW verkaufen Hamburg-Bergedorf",
+        "Auto sofort verkaufen Hamburg-Bergedorf",
+        "Fahrzeugbewertung Hamburg-Bergedorf",
+        "Autoankauf Schloss Bergedorf"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Hamburg-Bergedorf",
+      "trustDescription": "Sie erhalten transparente Verträge, klare Preisbegründungen und eine sichere Übergabe. Genau das ist beim Autoankauf in Hamburg-Bergedorf entscheidend.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Hamburg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Hamburg-Bergedorf — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 21029–21039",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Hamburg-Bergedorf — ein stabiler regionaler Automarkt.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Hamburg-Bergedorf",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Hamburg-Bergedorf wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Hamburg-Bergedorf zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Hamburg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Hamburg-Bergedorf",
+      "heroTitlePrefix": "Autoankauf"
+    }
+  },
+  "landmarks": [
+    "Schloss Bergedorf",
+    "Bergedorfer Schlosspark",
+    "Billewanderweg",
+    "Sternwarte Bergedorf"
+  ],
+  "nearbyCities": [
+    "hamburg",
+    "hamburg-altona",
+    "luebeck"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Hamburg-Bergedorf verkaufen?",
+      "answer": "In Hamburg-Bergedorf erhalten Sie meist innerhalb von 24 Stunden ein Angebot und einen zeitnahen Termin."
+    },
+    {
+      "question": "Welche Unterlagen brauche ich in Hamburg-Bergedorf?",
+      "answer": "Für einen schnellen Verkauf benötigen Sie Zulassungsbescheinigung Teil I und II, Ausweis und alle Schlüssel."
+    },
+    {
+      "question": "Kaufen Sie in Hamburg-Bergedorf auch Fahrzeuge mit Schäden?",
+      "answer": "Ja, wir kaufen auch Unfallfahrzeuge, Autos ohne TÜV und Fahrzeuge mit Motorschaden in Hamburg-Bergedorf."
+    },
+    {
+      "question": "Wie läuft die Bezahlung in Hamburg-Bergedorf ab?",
+      "answer": "Die Auszahlung erfolgt sofort nach Vertragsabschluss — bar oder per Überweisung."
+    },
+    {
+      "question": "Ist die Abholung in Hamburg-Bergedorf kostenlos?",
+      "answer": "Ja, die Abholung in Hamburg-Bergedorf ist kostenlos und flexibel terminierbar."
+    }
+  ]
+}

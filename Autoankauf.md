@@ -13,7 +13,7 @@ Goal of this guide:
 
 Your project is not only a website. It is two systems in one Next.js app:
 
-1. Public acquisition website
+1. Public acquisition web
 - SEO pages for Germany states/cities
 - Multi-language content (de/en/fr)
 - Lead form for car selling

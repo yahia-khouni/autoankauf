@@ -1,0 +1,214 @@
+{
+  "id": "hamburg-altona",
+  "name": "Hamburg-Altona",
+  "slug": "hamburg-altona",
+  "stateSlug": "hamburg",
+  "stateCode": "HH",
+  "stateName": "Hamburg",
+  "population": 275000,
+  "postalCodeRange": "22765–22769",
+  "coordinates": {
+    "lat": 53.5518,
+    "lng": 9.9357
+  },
+  "meta": {
+    "title": "Autoankauf Hamburg-Altona - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Hamburg-Altona: kostenlose Bewertung in 2 Minuten, schnelle Abholung und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
+    "keywords": [
+      "Autoankauf Hamburg-Altona",
+      "Auto verkaufen Hamburg-Altona",
+      "KFZ Ankauf Hamburg-Altona",
+      "Gebrauchtwagen verkaufen Hamburg-Altona",
+      "Auto sofort verkaufen Hamburg-Altona",
+      "Fahrzeugbewertung Hamburg-Altona",
+      "Autoankauf nahe Elbstrand Altona"
+    ]
+  },
+  "content": {
+    "heroDescription": "In Hamburg-Altona verkaufen Sie Ihr Auto schnell, seriös und zum fairen Marktpreis. Wir kümmern uns um die komplette Abwicklung.",
+    "localContent": "Hamburg-Altona ist ein dicht besiedelter Bezirk mit hoher Mobilitätsdynamik. Zwischen Elbvororten, Ottensen und Altona-Altstadt wechseln Fahrzeuge häufig den Besitzer. Gute Verkehrsanbindungen und ein aktiver regionaler Markt schaffen ideale Bedingungen für einen schnellen Autoverkauf. Genau dafür bieten wir in Hamburg-Altona einen klaren Ankaufprozess mit transparenter Preisermittlung.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Hamburg-Altona",
+        "Auto verkaufen Hamburg-Altona",
+        "KFZ Ankauf Hamburg-Altona",
+        "Gebrauchtwagen verkaufen Hamburg-Altona"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Hamburg-Altona erhalten Sie ein verbindliches Angebot mit transparenter Bewertung und sofortiger Auszahlung.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Hamburg-Altona — So einfach geht's",
+      "localHooksTitle": "Warum viele in Hamburg-Altona ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 22765–22769 sehen wir häufig dieselben Verkaufsmotive: hohe Kosten, anstehende Reparaturen und schneller Fahrzeugwechsel. Rund um den Elbstrand werden besonders oft kurzfristige Termine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Halter in Hamburg-Altona entscheiden sich gegen weitere Investitionen in ältere Fahrzeuge und verkaufen frühzeitig."
+        },
+        {
+          "title": "Schneller Fahrzeugwechsel",
+          "copy": "Gerade im urbanen Umfeld von Altona ist ein schneller und planbarer Verkauf besonders wichtig."
+        },
+        {
+          "title": "Aktive regionale Nachfrage",
+          "copy": "Die Nachfrage nach Gebrauchtwagen ist in Hamburg-Altona stabil — auch für Fahrzeuge mit Mängeln."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Hamburg-Altona",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Hamburg-Altona",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Hamburg-Altona, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen oder ein Fahrzeugwechsel ansteht, ist ein schneller Verkauf oft die wirtschaftlichere Lösung. In Hamburg-Altona bieten wir einen klaren Ablauf ohne versteckte Kosten.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Hamburg-Altona",
+        "Unfallwagen verkaufen Hamburg-Altona",
+        "Motorschaden Ankauf Hamburg-Altona",
+        "Leasingrückläufer in Hamburg-Altona ankaufen",
+        "Firmenwagen in Hamburg-Altona bewerten",
+        "Auto sofort verkaufen Hamburg-Altona"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Hamburg-Altona?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Hamburg-Altona",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Hamburg-Altona",
+        "Auto verkaufen Hamburg-Altona",
+        "KFZ Ankauf Hamburg-Altona",
+        "Wagen verkaufen Hamburg-Altona",
+        "Gebrauchtwagen Ankauf Hamburg-Altona",
+        "Auto ohne TÜV verkaufen Hamburg-Altona",
+        "Unfallwagen verkaufen Hamburg-Altona",
+        "Motorschaden Ankauf Hamburg-Altona",
+        "PKW verkaufen Hamburg-Altona",
+        "Auto sofort verkaufen Hamburg-Altona",
+        "Fahrzeugbewertung Hamburg-Altona",
+        "Autoankauf Elbstrand"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Hamburg-Altona",
+      "trustDescription": "Sie erhalten transparente Verträge, klare Preisbegründungen und eine sichere Übergabe. Genau das zählt beim Autoankauf in Hamburg-Altona.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Hamburg",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Hamburg-Altona — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 22765–22769",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Hamburg-Altona — ein dynamischer lokaler Automarkt.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Hamburg-Altona",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Hamburg-Altona wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Hamburg-Altona zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Hamburg ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Hamburg-Altona",
+      "heroTitlePrefix": "Autoankauf"
+    }
+  },
+  "landmarks": [
+    "Elbstrand",
+    "Fischmarkt",
+    "Ottensen",
+    "Altonaer Balkon"
+  ],
+  "nearbyCities": [
+    "hamburg",
+    "hamburg-bergedorf",
+    "luebeck"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Hamburg-Altona verkaufen?",
+      "answer": "In Hamburg-Altona erhalten Sie üblicherweise innerhalb von 24 Stunden ein verbindliches Angebot und oft einen kurzfristigen Termin."
+    },
+    {
+      "question": "Welche Unterlagen brauche ich in Hamburg-Altona?",
+      "answer": "Bitte halten Sie Zulassungsbescheinigung Teil I und II, Ihren Ausweis und alle Fahrzeugschlüssel bereit."
+    },
+    {
+      "question": "Kaufen Sie in Hamburg-Altona auch Autos ohne TÜV?",
+      "answer": "Ja, wir kaufen in Hamburg-Altona auch Fahrzeuge ohne TÜV sowie Autos mit Unfallschaden oder Motorschaden."
+    },
+    {
+      "question": "Wie erfolgt die Bezahlung in Hamburg-Altona?",
+      "answer": "Nach Vertragsabschluss zahlen wir den vereinbarten Betrag sofort aus — bar oder per Überweisung."
+    },
+    {
+      "question": "Ist die Abholung in Hamburg-Altona kostenlos?",
+      "answer": "Ja, die Abholung in Hamburg-Altona ist kostenlos und wird flexibel mit Ihnen abgestimmt."
+    }
+  ]
+}

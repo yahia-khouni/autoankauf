@@ -123,6 +123,8 @@
     }
   },
   "cities": [
-    "saarbruecken"
+    "saarbruecken",
+    "neunkirchen-saar",
+    "homburg-saar"
   ]
 }

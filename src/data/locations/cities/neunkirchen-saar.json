@@ -1,0 +1,214 @@
+{
+  "id": "neunkirchen-saar",
+  "name": "Neunkirchen",
+  "slug": "neunkirchen-saar",
+  "stateSlug": "saarland",
+  "stateCode": "SL",
+  "stateName": "Saarland",
+  "population": 46500,
+  "postalCodeRange": "66538–66540",
+  "coordinates": {
+    "lat": 49.3501,
+    "lng": 7.1782
+  },
+  "meta": {
+    "title": "Autoankauf Neunkirchen - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Neunkirchen: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 66538–66540 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
+    "keywords": [
+      "Autoankauf Neunkirchen",
+      "Auto verkaufen Neunkirchen",
+      "KFZ Ankauf Neunkirchen",
+      "Gebrauchtwagen verkaufen Neunkirchen",
+      "Auto sofort verkaufen Neunkirchen",
+      "Fahrzeugbewertung Neunkirchen",
+      "Autoankauf nahe Stummplatz Neunkirchen"
+    ]
+  },
+  "content": {
+    "heroDescription": "In Neunkirchen verkaufen Sie Ihr Auto schnell, fair und ohne Umwege. Wir bieten eine transparente Bewertung und sofortige Auszahlung.",
+    "localContent": "Neunkirchen ist ein wichtiger Wirtschaftsstandort im Saarland mit guter Verkehrsanbindung über A8 und A6. Viele Fahrzeughalter suchen hier eine schnelle und sichere Lösung für den Autoverkauf. Durch die Nähe zu Saarbrücken und die enge Verflechtung im regionalen Markt bestehen gute Bedingungen für einen fairen und zügigen Ankauf.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Neunkirchen",
+        "Auto verkaufen Neunkirchen",
+        "KFZ Ankauf Neunkirchen",
+        "Gebrauchtwagen verkaufen Neunkirchen"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Neunkirchen erhalten Sie ein verbindliches Angebot mit klarer Bewertung und schneller Auszahlung.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Neunkirchen — So einfach geht's",
+      "localHooksTitle": "Warum viele in Neunkirchen ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 66538–66540 sehen wir häufig ähnliche Verkaufsmotive: hohe laufende Kosten, Reparaturbedarf und schneller Fahrzeugwechsel. Rund um den Stummplatz werden häufig kurzfristige Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Halter in Neunkirchen vermeiden weitere Investitionen in ältere Fahrzeuge und verkaufen stattdessen direkt."
+        },
+        {
+          "title": "Schneller Fahrzeugwechsel",
+          "copy": "Wenn ein neues Fahrzeug ansteht, zählt eine schnelle und sichere Abwicklung ohne unnötige Verzögerung."
+        },
+        {
+          "title": "Regionale Nachfrage vorhanden",
+          "copy": "In und um Neunkirchen besteht eine stabile Nachfrage nach Gebrauchtwagen, auch mit Mängeln."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Neunkirchen",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Neunkirchen",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Neunkirchen, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen oder ein Fahrzeugwechsel geplant ist, ist ein schneller Verkauf oft die bessere Entscheidung. In Neunkirchen erhalten Sie ein transparentes Angebot ohne versteckte Abzüge.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Neunkirchen",
+        "Unfallwagen verkaufen Neunkirchen",
+        "Motorschaden Ankauf Neunkirchen",
+        "Leasingrückläufer in Neunkirchen ankaufen",
+        "Firmenwagen in Neunkirchen bewerten",
+        "Auto sofort verkaufen Neunkirchen"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Neunkirchen?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Neunkirchen",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Neunkirchen",
+        "Auto verkaufen Neunkirchen",
+        "KFZ Ankauf Neunkirchen",
+        "Wagen verkaufen Neunkirchen",
+        "Gebrauchtwagen Ankauf Neunkirchen",
+        "Auto ohne TÜV verkaufen Neunkirchen",
+        "Unfallwagen verkaufen Neunkirchen",
+        "Motorschaden Ankauf Neunkirchen",
+        "PKW verkaufen Neunkirchen",
+        "Auto sofort verkaufen Neunkirchen",
+        "Fahrzeugbewertung Neunkirchen",
+        "Autoankauf Saarland Neunkirchen"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Neunkirchen",
+      "trustDescription": "Sie erhalten transparente Verträge, nachvollziehbare Preise und eine sichere Übergabe. Genau das zählt beim Autoankauf in Neunkirchen.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Saarland",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Neunkirchen — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 66538–66540",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Neunkirchen — ein stabiler regionaler Automarkt.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Neunkirchen",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Neunkirchen wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Neunkirchen zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Saarland ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Neunkirchen",
+      "heroTitlePrefix": "Autoankauf"
+    }
+  },
+  "landmarks": [
+    "Stummplatz",
+    "Altes HüttenAreal",
+    "Bliespromenade",
+    "Zoo Neunkirchen"
+  ],
+  "nearbyCities": [
+    "saarbruecken",
+    "homburg-saar",
+    "kaiserslautern"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Neunkirchen verkaufen?",
+      "answer": "In Neunkirchen erhalten Sie in der Regel innerhalb von 24 Stunden ein verbindliches Angebot und auf Wunsch einen schnellen Termin."
+    },
+    {
+      "question": "Welche Unterlagen sind in Neunkirchen erforderlich?",
+      "answer": "Sie benötigen Zulassungsbescheinigung Teil I und II, Ausweis und alle Fahrzeugschlüssel."
+    },
+    {
+      "question": "Kaufen Sie in Neunkirchen auch Fahrzeuge ohne TÜV?",
+      "answer": "Ja, wir kaufen in Neunkirchen auch Fahrzeuge ohne TÜV, mit Unfallschaden oder Motorschaden."
+    },
+    {
+      "question": "Wie erfolgt die Auszahlung in Neunkirchen?",
+      "answer": "Die Auszahlung erfolgt sofort nach Vertragsabschluss — bar oder per Überweisung."
+    },
+    {
+      "question": "Ist die Abholung in Neunkirchen kostenlos?",
+      "answer": "Ja, die Abholung in Neunkirchen ist kostenlos und wird direkt mit Ihnen abgestimmt."
+    }
+  ]
+}

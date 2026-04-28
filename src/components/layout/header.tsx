@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { LogoSVG } from "./LogoSVG";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import { useState, useEffect } from "react";
@@ -130,36 +129,50 @@ export function Header() {
 
       {/* Main Nav */}
       <div className={cn(
-        "container flex items-center justify-between transition-all duration-500 ease-in-out",
+        "container pl-0 pr-2 sm:px-4 flex items-center justify-between transition-all duration-500 ease-in-out",
         isScrolled ? "h-[60px]" : "h-[64px] md:h-[70px]"
       )}>
         {/* ── LOGO ── */}
         <Link
           href={getLocalizedHref("/")}
-          className="flex items-center gap-1.5 sm:gap-2 group flex-shrink-0"
+          className="group flex items-center gap-1.5 sm:gap-2 flex-shrink-0 min-w-0 max-w-[calc(100%-104px)] sm:max-w-[calc(100%-120px)] xl:max-w-none"
           aria-label="Autoankauf Deutschland – Ihr Premium Autoankauf"
         >
-          {/* LogoSVG — no background, blends with navbar */}
-          <LogoSVG className={cn(
-            "h-[52px] sm:h-[62px] w-auto transition-all duration-300",
-            isScrolled ? "text-navy-900" : "text-white"
-          )} />
-
-          {/* Wordmark + Tagline */}
-          <div className="flex flex-col leading-none gap-[2px]">
-            {/* Brand name – two-tone */}
-            <div className="flex items-baseline gap-0">
-              <span className={cn(
-                "text-[13px] sm:text-[16px] font-black tracking-tight transition-colors duration-300",
-                isScrolled ? "text-navy-900" : "text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.45)]"
-              )}>Auto</span>
-              <span className="text-[13px] sm:text-[16px] font-black tracking-tight text-gold-400 drop-shadow-[0_1px_6px_rgba(251,191,36,0.35)]">ankauf</span>
-            </div>
-            {/* Tagline */}
-            <span className={cn(
-              "text-[5.5px] sm:text-[6.5px] font-bold uppercase tracking-[0.18em] transition-colors duration-300",
-              isScrolled ? "text-slate-400" : "text-white/55"
-            )}>Ihr Premium Autoankauf</span>
+          <Image
+            src="/images/logo.png"
+            alt="Autoankauf Deutschland"
+            width={320}
+            height={100}
+            priority
+            className={cn(
+              "w-auto object-contain shrink-0 rounded-2xl transition-all duration-300",
+              isScrolled
+                ? "h-[46px] shadow-[0_2px_8px_rgba(15,23,42,0.12)]"
+                : "h-[50px] md:h-[56px] shadow-[0_8px_22px_rgba(15,23,42,0.28)]"
+            )}
+          />
+          <div className="min-w-0 flex flex-col leading-none gap-[1px]">
+            <span className="flex items-baseline gap-0">
+              <span
+                className={cn(
+                  "text-[14px] sm:text-[16px] md:text-[17px] font-black tracking-tight transition-colors duration-300",
+                  isScrolled ? "text-navy-900" : "text-white"
+                )}
+              >
+                Auto
+              </span>
+              <span className="text-[14px] sm:text-[16px] md:text-[17px] font-black tracking-tight text-gold-400">
+                ankauf
+              </span>
+            </span>
+            <span
+              className={cn(
+                "text-[7px] sm:text-[8px] md:text-[9px] font-bold uppercase tracking-[0.12em] sm:tracking-[0.14em] transition-colors duration-300",
+                isScrolled ? "text-slate-500" : "text-white/65"
+              )}
+            >
+              Ihr <span className="text-gold-400">Premium</span> Autoankauf
+            </span>
           </div>
         </Link>
 
@@ -193,14 +206,14 @@ export function Header() {
           <Link
             href={leadFormHref}
             className={cn(
-              "group inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-sm transition-all duration-300 hover:scale-105 hover:shadow-gold-lg",
+              "group inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300",
               isScrolled
-                ? "bg-gradient-gold text-navy-900"
-                : "bg-white text-navy-900 border border-white/20 hover:bg-gradient-gold hover:border-gold-400 shadow-[0_4px_14px_rgba(0,0,0,0.1)]"
+                ? "bg-gradient-gold text-navy-900 shadow-[0_6px_18px_rgba(212,175,55,0.3)] hover:shadow-[0_8px_22px_rgba(212,175,55,0.38)]"
+                : "bg-white/95 text-navy-900 border border-white/35 backdrop-blur-sm hover:bg-gradient-gold hover:border-gold-300 shadow-[0_6px_16px_rgba(2,6,23,0.18)] hover:shadow-[0_8px_22px_rgba(212,175,55,0.34)]"
             )}
           >
             {tHero("cta")}
-            <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
           </Link>
         </div>
 
@@ -264,16 +277,19 @@ export function Header() {
 
           {/* Panel header */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/8 shrink-0">
-            {/* Wordmark only — no image in side panel */}
-            <div className="flex flex-col leading-none gap-1">
-              <div className="flex items-baseline">
-                <span className="text-[19px] font-black tracking-tight text-white">Auto</span>
-                <span className="text-[19px] font-black tracking-tight text-gold-400">ankauf</span>
-              </div>
-              <div className="flex items-center gap-1.5">
-                <div className="h-px w-3 rounded-full bg-gold-400/50" />
-                <span className="text-[8px] font-bold uppercase tracking-[0.2em] text-white/50">Ihr Premium Autoankauf</span>
-                <div className="h-px w-3 rounded-full bg-gold-400/50" />
+            <div className="flex items-center gap-2.5">
+              <div className="flex flex-col leading-none gap-[2px]">
+                <span className="flex items-baseline gap-0">
+                  <span className="text-[12px] font-black tracking-tight text-white">
+                    Auto
+                  </span>
+                  <span className="text-[12px] font-black tracking-tight text-gold-400">
+                    ankauf
+                  </span>
+                </span>
+                <span className="text-[7px] font-bold uppercase tracking-[0.16em] text-white/60">
+                  Ihr <span className="text-gold-400">Premium</span> Autoankauf
+                </span>
               </div>
             </div>
             <button
@@ -395,10 +411,10 @@ export function Header() {
             <Link
               href={leadFormHref}
               onClick={() => setIsOpen(false)}
-              className="group flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl font-bold text-navy-900 bg-gradient-gold hover:shadow-gold transition-all duration-300 active:scale-[0.98]"
+              className="group flex items-center justify-center gap-1.5 w-full px-5 py-3 rounded-xl font-semibold text-sm text-navy-900 bg-gradient-gold shadow-[0_8px_20px_rgba(212,175,55,0.3)] hover:shadow-[0_10px_24px_rgba(212,175,55,0.38)] transition-all duration-300 active:scale-[0.98]"
             >
               {tHero("cta")}
-              <ArrowRight className="h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
+              <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
         </div>

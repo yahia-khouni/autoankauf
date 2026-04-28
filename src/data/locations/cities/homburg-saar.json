@@ -1,0 +1,214 @@
+{
+  "id": "homburg-saar",
+  "name": "Homburg",
+  "slug": "homburg-saar",
+  "stateSlug": "saarland",
+  "stateCode": "SL",
+  "stateName": "Saarland",
+  "population": 42000,
+  "postalCodeRange": "66424–66427",
+  "coordinates": {
+    "lat": 49.3167,
+    "lng": 7.3333
+  },
+  "meta": {
+    "title": "Autoankauf Homburg - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Homburg: kostenlose Bewertung in 2 Minuten, Abholung im PLZ-Bereich 66424–66427 und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
+    "keywords": [
+      "Autoankauf Homburg",
+      "Auto verkaufen Homburg",
+      "KFZ Ankauf Homburg",
+      "Gebrauchtwagen verkaufen Homburg",
+      "Auto sofort verkaufen Homburg",
+      "Fahrzeugbewertung Homburg",
+      "Autoankauf nahe Schlossberg Homburg"
+    ]
+  },
+  "content": {
+    "heroDescription": "In Homburg verkaufen Sie Ihr Auto schnell, transparent und mit sofortiger Auszahlung. Wir bieten faire Preise und klare Abläufe.",
+    "localContent": "Homburg ist ein bedeutender Standort im Saarpfalz-Kreis mit guter Anbindung an A6 und B423. Die Stadt ist wirtschaftlich geprägt durch Industrie, Gesundheitswesen und regionale Dienstleistungen. Das sorgt für einen aktiven lokalen Fahrzeugmarkt. Für Fahrzeughalter in Homburg sind vor allem schnelle, sichere und nachvollziehbare Verkaufsprozesse wichtig.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Homburg",
+        "Auto verkaufen Homburg",
+        "KFZ Ankauf Homburg",
+        "Gebrauchtwagen verkaufen Homburg"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Homburg erhalten Sie ein verbindliches Angebot mit transparenter Bewertung und schneller Auszahlung.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Homburg — So einfach geht's",
+      "localHooksTitle": "Warum viele in Homburg ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 66424–66427 sehen wir häufig ähnliche Verkaufsmotive: hohe Betriebskosten, Reparaturbedarf und geplanter Fahrzeugwechsel. Rund um den Schlossberg werden besonders oft schnelle Termine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Halter in Homburg reduzieren laufende Kosten, indem sie ältere Fahrzeuge frühzeitig verkaufen."
+        },
+        {
+          "title": "Zeitkritische Wechsel",
+          "copy": "Bei neuem Job, Umzug oder Fahrzeugwechsel zählt eine zügige, rechtssichere Abwicklung."
+        },
+        {
+          "title": "Stabile Nachfrage im Umland",
+          "copy": "In und um Homburg ist die Nachfrage nach Gebrauchtwagen stabil — auch bei Autos mit Mängeln."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Homburg",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Homburg",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Homburg, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen oder TÜV anstehen, ist ein schneller Verkauf oft die wirtschaftlich bessere Lösung. In Homburg erhalten Sie ein klares Angebot ohne versteckte Kosten.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Homburg",
+        "Unfallwagen verkaufen Homburg",
+        "Motorschaden Ankauf Homburg",
+        "Leasingrückläufer in Homburg ankaufen",
+        "Firmenwagen in Homburg bewerten",
+        "Auto sofort verkaufen Homburg"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Homburg?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Homburg",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Homburg",
+        "Auto verkaufen Homburg",
+        "KFZ Ankauf Homburg",
+        "Wagen verkaufen Homburg",
+        "Gebrauchtwagen Ankauf Homburg",
+        "Auto ohne TÜV verkaufen Homburg",
+        "Unfallwagen verkaufen Homburg",
+        "Motorschaden Ankauf Homburg",
+        "PKW verkaufen Homburg",
+        "Auto sofort verkaufen Homburg",
+        "Fahrzeugbewertung Homburg",
+        "Autoankauf Saarland Homburg"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Homburg",
+      "trustDescription": "Sie erhalten transparente Verträge, klare Preisbegründungen und eine sichere Übergabe. Genau das ist beim Autoankauf in Homburg entscheidend.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Saarland",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Homburg — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 66424–66427",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Homburg — ein relevanter regionaler Automarkt.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Homburg",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Homburg wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Homburg zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Saarland ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Homburg",
+      "heroTitlePrefix": "Autoankauf"
+    }
+  },
+  "landmarks": [
+    "Schlossberg-Höhlen",
+    "Universitätsklinikum des Saarlandes",
+    "Homburger Marktplatz",
+    "Waldstadion Homburg"
+  ],
+  "nearbyCities": [
+    "saarbruecken",
+    "neunkirchen-saar",
+    "kaiserslautern"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Homburg verkaufen?",
+      "answer": "In Homburg erhalten Sie in der Regel innerhalb von 24 Stunden ein verbindliches Angebot und oft zeitnahe Termine."
+    },
+    {
+      "question": "Welche Unterlagen brauche ich in Homburg?",
+      "answer": "Sie benötigen Zulassungsbescheinigung Teil I und II, Ausweis und alle Fahrzeugschlüssel für eine schnelle Abwicklung."
+    },
+    {
+      "question": "Kaufen Sie in Homburg auch Fahrzeuge mit Schäden?",
+      "answer": "Ja, wir kaufen in Homburg auch Unfallwagen, Fahrzeuge ohne TÜV und Autos mit Motorschaden."
+    },
+    {
+      "question": "Wie läuft die Auszahlung in Homburg ab?",
+      "answer": "Nach Vertragsabschluss zahlen wir sofort aus — bar oder per Überweisung, je nach Wunsch."
+    },
+    {
+      "question": "Ist die Abholung in Homburg kostenlos?",
+      "answer": "Ja, die Abholung in Homburg ist kostenlos und erfolgt flexibel nach Terminabsprache."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import {
   Phone,
@@ -40,19 +41,20 @@ export function Footer() {
           <div className="col-span-2 lg:col-span-1 mb-4 lg:mb-0">
             <Link
               href={getLocalizedHref("/")}
-              className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6"
+              className="inline-flex items-center gap-2.5 sm:gap-3 mb-4 sm:mb-6"
             >
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-gold flex items-center justify-center shadow-gold">
-                <span className="text-lg sm:text-xl font-bold text-navy-900">
-                  A
-                </span>
+              <div className="relative h-[54px] sm:h-16 w-[124px] sm:w-[138px] overflow-hidden rounded-none bg-white/95 border border-white/20 shadow-[0_6px_18px_rgba(2,6,23,0.3)]">
+                <Image
+                  src="/images/logo.png"
+                  alt="Autoankauf Deutschland"
+                  fill
+                  sizes="(max-width: 640px) 124px, 138px"
+                  className="object-cover object-center scale-[1.26]"
+                />
               </div>
-              <div>
-                <span className="text-lg sm:text-xl font-bold text-white">
-                  Autoankauf
-                </span>
-                <span className="block text-gold-400 text-xs sm:text-sm font-medium">
-                  Deutschland
+              <div className="leading-none">
+                <span className="text-[18px] sm:text-[20px] font-black tracking-tight text-white">
+                  Auto<span className="text-gold-400">ankauf</span>
                 </span>
               </div>
             </Link>
@@ -146,6 +148,7 @@ export function Footer() {
                 { href: getLocalizedHref("/standorte"), label: tNav("locations") },
                 { href: getLocalizedHref("/so-funktionierts"), label: tNav("howItWorks") },
                 { href: getLocalizedHref("/ueber-uns"), label: tNav("about") },
+                { href: getLocalizedHref("/blog"), label: tNav("blog") },
                 { href: getLocalizedHref("/kontakt"), label: tNav("contact") },
               ].map((link) => (
                 <li key={link.href}>

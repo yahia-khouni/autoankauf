@@ -23,7 +23,7 @@ export function HeroSection() {
           <div className="space-y-6 sm:space-y-8 text-white text-center lg:text-left">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold-500/20 to-gold-400/10 border border-gold-400/30 px-4 sm:px-5 py-2 backdrop-blur-sm animate-fade-in-up">
-              <Star className="h-4 w-4 text-gold-400 fill-gold-400" />
+              <Star className="h-4 w-4 text-gold-300 fill-gold-400/25 stroke-[2.2] drop-shadow-[0_0_8px_rgba(251,191,36,0.35)]" />
               <span className="text-xs sm:text-sm font-medium text-gold-300">
                 Premium Autoankauf Service
               </span>
@@ -84,10 +84,10 @@ export function HeroSection() {
             <div className="lg:hidden pt-4 animate-fade-in-up animation-delay-500">
               <Link
                 href="#lead-form"
-                className="group flex items-center justify-center gap-3 w-full py-4 rounded-2xl bg-gradient-gold text-navy-900 font-bold text-base shadow-gold-lg active:scale-[0.98] transition-transform hover:shadow-[0_6px_24px_rgba(212,175,55,0.45)]"
+                className="group flex items-center justify-center gap-2.5 w-full py-3.5 rounded-xl bg-gradient-gold text-navy-900 font-semibold text-[15px] shadow-[0_8px_20px_rgba(212,175,55,0.32)] active:scale-[0.98] transition-all duration-300 hover:shadow-[0_10px_24px_rgba(212,175,55,0.4)]"
               >
                 <span>{t("cta")}</span>
-                <ArrowDown className="h-5 w-5 animate-bounce" />
+                <ArrowDown className="h-4 w-4" />
               </Link>
             </div>
           </div>

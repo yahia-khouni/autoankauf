@@ -128,7 +128,6 @@ export function TestimonialsSection({
         ...testimonials.slice(0, manualStartIndex),
       ]
     : testimonials;
-
   const allTestimonials = [...orderedTestimonials, ...orderedTestimonials];
 
   return (

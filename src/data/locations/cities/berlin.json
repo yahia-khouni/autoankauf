@@ -1,0 +1,214 @@
+{
+  "id": "berlin",
+  "name": "Berlin",
+  "slug": "berlin",
+  "stateSlug": "berlin",
+  "stateCode": "BE",
+  "stateName": "Berlin",
+  "population": 3677472,
+  "postalCodeRange": "10115–14199",
+  "coordinates": {
+    "lat": 52.52,
+    "lng": 13.405
+  },
+  "meta": {
+    "title": "Autoankauf Berlin - Auto sofort verkaufen & Bestpreis in 24h",
+    "description": "Auto verkaufen in Berlin: kostenlose Bewertung in 2 Minuten, Abholung im gesamten Stadtgebiet und Sofortauszahlung. Auch ohne TÜV, mit Motorschaden oder Unfallschaden.",
+    "keywords": [
+      "Autoankauf Berlin",
+      "Auto verkaufen Berlin",
+      "KFZ Ankauf Berlin",
+      "Gebrauchtwagen verkaufen Berlin",
+      "Auto sofort verkaufen Berlin",
+      "Fahrzeugbewertung Berlin",
+      "Autoankauf nahe Alexanderplatz Berlin"
+    ]
+  },
+  "content": {
+    "heroDescription": "In Berlin verkaufen Sie Ihr Auto schnell, fair und ohne Umwege. Wir bewerten transparent und zahlen direkt aus.",
+    "localContent": "Berlin ist mit rund 3,68 Millionen Einwohnern die größte Stadt Deutschlands und ein zentraler Markt für Gebrauchtwagen. Von Mitte über Charlottenburg bis Neukölln sind Fahrzeuge täglich im Umlauf. Durch Ringbahn, Stadtautobahn A100 und die direkte Anbindung an Brandenburg ist der regionale Fahrzeughandel besonders aktiv. Genau hier setzen wir mit einem schnellen und rechtssicheren Ankauf an.",
+    "page": {
+      "linkAnchors": [
+        "Autoankauf Berlin",
+        "Auto verkaufen Berlin",
+        "KFZ Ankauf Berlin",
+        "Gebrauchtwagen verkaufen Berlin"
+      ],
+      "heroTrustPills": [
+        "24h Angebot",
+        "100% Kostenlos",
+        "Sofortzahlung"
+      ],
+      "heroCardRatingText": "5.0 Sterne Bewertung",
+      "heroCardDescription": "In Berlin erhalten Sie ein klares Angebot mit nachvollziehbarer Bewertung. Ohne versteckte Gebühren und mit schneller Auszahlung.",
+      "heroCardStats": [
+        {
+          "value": "24h",
+          "label": "Angebot"
+        },
+        {
+          "value": "0€",
+          "label": "Provision"
+        },
+        {
+          "value": "Bar",
+          "label": "Zahlung"
+        }
+      ],
+      "heroCardCtaText": "Jetzt Angebot erhalten",
+      "introTitle": "Auto verkaufen in Berlin — So einfach geht's",
+      "localHooksTitle": "Warum viele in Berlin ihr Auto heute verkaufen",
+      "localHooksIntro": "Im PLZ-Bereich 10115–14199 sehen wir täglich ähnliche Verkaufsmotive: hohe laufende Kosten, anstehende Reparaturen und schneller Fahrzeugwechsel. Rund um den Alexanderplatz werden daher besonders oft kurzfristige Ankaufstermine angefragt.",
+      "localHooks": [
+        {
+          "title": "Steigende Unterhaltskosten",
+          "copy": "Viele Halter in Berlin vermeiden weitere Investitionen in ältere Fahrzeuge und verkaufen lieber direkt zum aktuellen Marktwert."
+        },
+        {
+          "title": "Zeitdruck bei Fahrzeugwechsel",
+          "copy": "In einer dynamischen Stadt wie Berlin ist eine zügige Abwicklung entscheidend. Wir liefern ein verbindliches Angebot ohne lange Wartezeit."
+        },
+        {
+          "title": "Hohe Nachfrage im regionalen Markt",
+          "copy": "Die Nachfrage nach gepflegten Autos und auch nach Fahrzeugen mit Mängeln ist in Berlin konstant hoch."
+        }
+      ],
+      "landmarksTitle": "Bekannt in Berlin",
+      "benefitsTitle": "Ihre Vorteile beim Autoankauf in Berlin",
+      "benefits": [
+        "Lokaler Service direkt zu Ihnen",
+        "Kostenlose professionelle Bewertung",
+        "Sofortige Zahlung bar oder per Überweisung",
+        "Kostenlose Abholung vor Ort",
+        "Alle Marken: BMW, Mercedes, VW, Audi",
+        "Auch Fahrzeuge mit Schäden"
+      ],
+      "processTitle": "Der Ablauf — In 3 Schritten zum Verkauf",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Anfrage stellen",
+          "desc": "Füllen Sie unser Formular mit den wichtigsten Daten Ihres Fahrzeugs aus. Dauert nur 2 Minuten."
+        },
+        {
+          "step": "02",
+          "title": "Angebot erhalten",
+          "desc": "Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot von uns — direkt und ohne Umwege."
+        },
+        {
+          "step": "03",
+          "title": "Fahrzeug übergeben & kassieren",
+          "desc": "Bei Einigung kommen wir zu Ihnen in Berlin, prüfen das Fahrzeug und bezahlen sofort aus."
+        }
+      ],
+      "conversionTitle": "Heute verkaufen statt weiter investieren",
+      "conversionIntro": "Wenn Reparaturen anstehen, der TÜV ausläuft oder ein Fahrzeugwechsel geplant ist, ist ein schneller Verkauf oft die bessere Entscheidung. In Berlin erhalten Sie ein klares Angebot und auf Wunsch eine zügige Abholung.",
+      "conversionItems": [
+        "Auto ohne TÜV verkaufen Berlin",
+        "Unfallwagen verkaufen Berlin",
+        "Motorschaden Ankauf Berlin",
+        "Leasingrückläufer in Berlin ankaufen",
+        "Firmenwagen in Berlin bewerten",
+        "Auto sofort verkaufen Berlin"
+      ],
+      "vehicleTypesTitle": "Welche Autos kaufen wir in Berlin?",
+      "vehicleTypesIntro": "Wir kaufen Fahrzeuge aller Art — vom gepflegten Gebrauchtwagen bis zum Unfallfahrzeug. Besonders interessiert sind wir an:",
+      "vehicleTypes": [
+        "Deutsche Premiummarken (Audi, BMW, Mercedes, Porsche)",
+        "Volkswagen, Opel, Ford & andere Volumenmarken",
+        "Importfahrzeuge (Toyota, Honda, Hyundai, etc.)",
+        "Nutzfahrzeuge und Transporter",
+        "Fahrzeuge mit hoher Laufleistung",
+        "Unfallfahrzeuge & Fahrzeuge mit Mängeln"
+      ],
+      "semanticTitle": "Häufige Suchanfragen zum Autoankauf in Berlin",
+      "semanticIntro": "Diese Suchbegriffe decken die wichtigsten Verkaufsabsichten ab — von schneller Auszahlung bis zum Verkauf von Fahrzeugen mit Mängeln.",
+      "semanticQueries": [
+        "Autoankauf Berlin",
+        "Auto verkaufen Berlin",
+        "KFZ Ankauf Berlin",
+        "Wagen verkaufen Berlin",
+        "Gebrauchtwagen Ankauf Berlin",
+        "Auto ohne TÜV verkaufen Berlin",
+        "Unfallwagen verkaufen Berlin",
+        "Motorschaden Ankauf Berlin",
+        "PKW verkaufen Berlin",
+        "Auto sofort verkaufen Berlin",
+        "Gebrauchtwagen verkaufen Berlin",
+        "Fahrzeugbewertung Berlin"
+      ],
+      "trustTitle": "Vertrauen und Erfahrung in Berlin",
+      "trustDescription": "Sie erhalten transparente Verträge, klare Preisbegründungen und eine dokumentierte Übergabe. Genau das erwarten Fahrzeughalter in Berlin bei einem sicheren Autoverkauf.",
+      "trustFacts": [
+        {
+          "value": "50.000+",
+          "label": "gekaufte Fahrzeuge"
+        },
+        {
+          "value": "7+",
+          "label": "Jahre Autoankauf"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Kundenbewertung"
+        }
+      ],
+      "nearbyIntro": "Wir sind auch in diesen Städten für Sie da:",
+      "otherCitiesTitle": "Weitere Städte in Berlin",
+      "sidebarBadge": "Premium Service",
+      "sidebarTitle": "Kostenloses Angebot",
+      "sidebarSubtitle": "Für Ihr Auto in Berlin — unverbindlich & schnell",
+      "sidebarTrustItems": [
+        "Über 50.000 Fahrzeuge deutschlandweit angekauft",
+        "7+ Jahre Erfahrung im Autoankauf",
+        "Abholung im gesamten Bereich 10115–14199",
+        "Sofortige Auszahlung und rechtssichere Abwicklung"
+      ],
+      "populationCardTitle": "Lokaler Markt",
+      "populationCardDescription": "Einwohner in Berlin — ein großer lokaler Automarkt mit echtem Bedarf.",
+      "testimonialsTitle": "Das sagen unsere Kunden",
+      "testimonialsBadge": "Bewertungen",
+      "faqTitle": "Häufig gestellte Fragen zum Autoankauf in Berlin",
+      "faqSubtitle": "Alles was Sie über den Autoverkauf in Berlin wissen müssen",
+      "bottomCtaBadge": "Jetzt starten",
+      "bottomCtaTitle": "Bereit Ihr Auto in Berlin zu verkaufen?",
+      "bottomCtaDescription": "Starten Sie jetzt — kostenlos, unverbindlich und in unter 2 Minuten. Unser Team in Berlin ist für Sie da.",
+      "bottomCtaButton": "Jetzt kostenloses Angebot",
+      "localBusinessName": "Autoankauf Berlin",
+      "heroTitlePrefix": "Autoankauf"
+    }
+  },
+  "landmarks": [
+    "Alexanderplatz",
+    "Brandenburger Tor",
+    "Kurfürstendamm",
+    "East Side Gallery"
+  ],
+  "nearbyCities": [
+    "potsdam",
+    "frankfurt-oder",
+    "cottbus"
+  ],
+  "faq": [
+    {
+      "question": "Wie schnell kann ich mein Auto in Berlin verkaufen?",
+      "answer": "In Berlin erhalten Sie in der Regel innerhalb von 24 Stunden ein verbindliches Angebot. Im Bereich 10115–14199 sind kurzfristige Termine oft möglich."
+    },
+    {
+      "question": "Welche Unterlagen brauche ich für den Verkauf in Berlin?",
+      "answer": "Bitte halten Sie Zulassungsbescheinigung Teil I und II, Ausweis und alle Fahrzeugschlüssel bereit. Optional helfen Serviceheft und HU-Bericht für eine schnellere Bewertung."
+    },
+    {
+      "question": "Kaufen Sie in Berlin auch Autos ohne TÜV oder mit Schäden?",
+      "answer": "Ja, wir kaufen in Berlin auch Fahrzeuge ohne TÜV, mit Motorschaden oder Unfallschäden. Sie erhalten trotzdem ein faires, marktorientiertes Angebot."
+    },
+    {
+      "question": "Wie läuft die Bezahlung beim Autoankauf in Berlin?",
+      "answer": "Nach Vertragsabschluss zahlen wir den vereinbarten Betrag sofort aus — bar oder per Überweisung, je nach Wunsch."
+    },
+    {
+      "question": "Ist die Abholung meines Autos in Berlin kostenlos?",
+      "answer": "Ja, die Abholung in Berlin ist für Sie kostenlos. Wir kommen direkt zu Ihrem Standort und übernehmen die Abwicklung vor Ort."
+    }
+  ]
+}
