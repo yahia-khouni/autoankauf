@@ -40,6 +40,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       "Fahrzeug verkaufen",
     ],
     authors: [{ name: "Autoankauf Deutschland" }],
+    icons: {
+      icon: "/images/logo.png",
+      shortcut: "/images/logo.png",
+      apple: "/images/logo.png",
+    },
     openGraph: {
       title: titles[locale],
       description: descriptions[locale],
