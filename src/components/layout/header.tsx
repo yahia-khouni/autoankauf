@@ -158,7 +158,7 @@ export function Header() {
                 isScrolled ? "text-navy-900" : "text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.35)]"
               )}
             >
-              AUTOANKAUF
+              AUTOANKAUF-SR
             </span>
             {/* Gold separator rule */}
             <div
@@ -284,7 +284,7 @@ export function Header() {
             <div className="flex items-center gap-2.5">
               <div className="flex flex-col leading-none gap-[3px]">
                 <span className="text-[11px] font-black tracking-[0.1em] text-white uppercase">
-                  AUTOANKAUF
+                  AUTOANKAUF-SR
                 </span>
                 <div className="h-px w-full bg-gradient-to-r from-gold-400/90 via-gold-300/60 to-transparent" />
                 <span className="text-[6.5px] font-extrabold uppercase tracking-[0.18em] text-gold-300/95">

@@ -52,9 +52,13 @@ export function Footer() {
                   className="object-cover object-center scale-[1.26]"
                 />
               </div>
-              <div className="leading-none">
-                <span className="text-[18px] sm:text-[20px] font-black tracking-tight text-white">
-                  Auto<span className="text-gold-400">ankauf</span>
+              <div className="min-w-0 flex flex-col leading-none gap-[2px] sm:gap-[3px]">
+                <span className="text-[16px] sm:text-[18px] font-black uppercase tracking-[0.1em] truncate text-white">
+                  AUTOANKAUF-SR
+                </span>
+                <div className="h-px w-full bg-gradient-to-r from-gold-400/90 via-gold-300/60 to-transparent" />
+                <span className="text-[7px] sm:text-[8px] font-extrabold uppercase tracking-[0.18em] sm:tracking-[0.22em] truncate text-gold-300/95">
+                  FAIR · SCHNELL · ZUVERLÄSSIG
                 </span>
               </div>
             </Link>
