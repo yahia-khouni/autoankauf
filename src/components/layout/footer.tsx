@@ -12,6 +12,7 @@ import {
   Award,
   ArrowRight,
 } from "lucide-react";
+import { COMPANY } from "@/lib/company";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -46,7 +47,7 @@ export function Footer() {
               <div className="relative h-[54px] sm:h-16 w-[124px] sm:w-[138px] overflow-hidden rounded-none bg-white/95 border border-white/20 shadow-[0_6px_18px_rgba(2,6,23,0.3)]">
                 <Image
                   src="/images/logo.png"
-                  alt="Autoankauf Deutschland"
+                  alt={COMPANY.legalName}
                   fill
                   sizes="(max-width: 640px) 124px, 138px"
                   className="object-cover object-center scale-[1.26]"
@@ -83,7 +84,7 @@ export function Footer() {
             <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm">
               <li>
                 <a
-                  href="tel:+4912345678900"
+                  href={COMPANY.phoneHref}
                   className="group flex items-center gap-2 sm:gap-3 text-slate-400 hover:text-white transition-colors active:scale-[0.98]"
                 >
                   <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-gold-400/20 transition-colors">
@@ -94,14 +95,14 @@ export function Footer() {
                       {t("phone")}
                     </span>
                     <span className="font-medium text-xs sm:text-sm">
-                      +49 123 456 789
+                      {COMPANY.phoneDisplayIntl}
                     </span>
                   </div>
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/4912345678900"
+                  href={COMPANY.whatsAppHref}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-2 sm:gap-3 text-slate-400 hover:text-white transition-colors active:scale-[0.98]"
@@ -121,7 +122,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@autoankauf.de"
+                  href={`mailto:${COMPANY.email}`}
                   className="group flex items-center gap-2 sm:gap-3 text-slate-400 hover:text-white transition-colors active:scale-[0.98]"
                 >
                   <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-gold-400/20 transition-colors">
@@ -132,7 +133,7 @@ export function Footer() {
                       E-Mail
                     </span>
                     <span className="font-medium text-xs sm:text-sm">
-                      info@autoankauf.de
+                      {COMPANY.email}
                     </span>
                   </div>
                 </a>

@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone, MessageCircle, Star, ArrowRight, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { COMPANY } from "@/lib/company";
 import { LanguageSwitcher } from "./language-switcher";
 
 export function Header() {
@@ -100,13 +101,13 @@ export function Header() {
         <div className="bg-black border-b border-white/10 text-white/90 py-1.5">
           <div className="container flex justify-between items-center text-xs font-medium tracking-wide">
             <div className="flex items-center gap-6">
-              <a href="tel:+4912345678900" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
+              <a href={COMPANY.phoneHref} className="flex items-center gap-2 hover:text-gold-400 transition-colors">
                 <Phone className="h-3.5 w-3.5 text-gold-400" />
-                +49 123 456 789 00
+                {COMPANY.phoneDisplayIntl}
               </a>
               <div className="w-px h-3 bg-white/20" />
               <a
-                href="https://wa.me/4912345678900"
+                href={COMPANY.whatsAppHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-gold-400 transition-colors"
@@ -136,11 +137,11 @@ export function Header() {
         <Link
           href={getLocalizedHref("/")}
           className="group flex items-center gap-1.5 sm:gap-2 flex-shrink-0 min-w-0 max-w-[calc(100%-104px)] sm:max-w-[calc(100%-120px)] xl:max-w-none"
-          aria-label="Autoankauf Deutschland – Ihr Premium Autoankauf"
+          aria-label={`${COMPANY.legalName} – Ihr Premium Autoankauf`}
         >
           <Image
             src="/images/logo.png"
-            alt="Autoankauf Deutschland"
+            alt={COMPANY.legalName}
             width={320}
             height={100}
             priority
@@ -369,7 +370,7 @@ export function Header() {
               }}
             >
               <a
-                href="tel:+49123456789"
+                href={COMPANY.phoneHref}
                 className="group flex items-center gap-3.5 py-3.5 px-4 rounded-xl hover:bg-white/6 text-white/75 hover:text-white transition-all active:scale-[0.98]"
               >
                 <div className="w-9 h-9 rounded-xl bg-white/6 border border-white/8 flex items-center justify-center text-gold-400 flex-shrink-0">
@@ -377,12 +378,12 @@ export function Header() {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-white/30 uppercase tracking-wider">Telefon</p>
-                  <p className="text-sm font-semibold text-white/85">+49 (0) 123 456 789</p>
+                  <p className="text-sm font-semibold text-white/85">{COMPANY.phoneDisplayIntl}</p>
                 </div>
               </a>
 
               <a
-                href="https://wa.me/49123456789"
+                href={COMPANY.whatsAppHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3.5 py-3.5 px-4 rounded-xl hover:bg-white/6 text-white/75 hover:text-white transition-all active:scale-[0.98]"

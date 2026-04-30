@@ -1,8 +1,9 @@
 import { MetadataRoute } from "next";
 import { getAllStates, getCitiesByState } from "@/data/location-data";
+import { getBaseUrl } from "@/lib/company";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
+  const baseUrl = getBaseUrl();
   const locales = ["de", "en", "fr"];
 
   const staticPages = [

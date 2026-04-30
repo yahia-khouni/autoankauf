@@ -1,7 +1,8 @@
 import { MetadataRoute } from "next";
+import { getBaseUrl } from "@/lib/company";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
+  const baseUrl = getBaseUrl();
 
   return {
     rules: [

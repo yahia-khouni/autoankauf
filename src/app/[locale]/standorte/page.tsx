@@ -13,6 +13,7 @@ import { InteractiveLocationsExplorer } from "@/components/locations/interactive
 import { MagneticButton } from "@/components/ui/magnetic-button";
 import { AnimateOnScroll } from "@/components/ui/animate-on-scroll";
 import { formatNumber } from "@/lib/utils";
+import { getBaseUrl } from "@/lib/company";
 
 const nation = getNationData();
 
@@ -66,7 +67,7 @@ export default async function StandortePage({
     };
   });
 
-  const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
+  const baseUrl = getBaseUrl();
 
   return (
     <div className="relative overflow-hidden">

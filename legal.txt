@@ -1,0 +1,243 @@
+ Datenschutzerklärung
+
+1. Verantwortlicher
+Verantwortlich für die Datenverarbeitung auf dieser Website ist:
+
+Autoankauf SR
+Sulterkamp 70
+45356 Essen
+Deutschland
+Telefon: 01521 3107213
+E-Mail: info@autoankauf-sr.de
+Website: www.autoankauf-sr.de⁠
+
+2. Allgemeine Hinweise zur Datenverarbeitung
+Wir nehmen den Schutz Ihrer personenbezogenen Daten ernst. Personenbezogene Daten sind alle Informationen, mit denen Sie persönlich identifiziert werden können, zum Beispiel Name, Telefonnummer, E-Mail-Adresse, Fahrzeugdaten oder IP-Adresse.
+Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bereitstellung unserer Website, zur Bearbeitung von Anfragen, zur Durchführung vorvertraglicher Maßnahmen oder zur Erfüllung rechtlicher Pflichten erforderlich ist.
+Rechtsgrundlagen der Verarbeitung sind insbesondere Art. 6 Abs. 1 lit. a, b, c und f DSGVO.
+
+3. Zugriffsdaten und Server-Logfiles
+Beim Besuch unserer Website werden automatisch Informationen durch den Webserver erfasst. Dazu können gehören:
+IP-Adresse
+Datum und Uhrzeit des Zugriffs
+aufgerufene Seite
+Browsertyp und Browserversion
+verwendetes Betriebssystem
+Referrer-URL
+Hostname des zugreifenden Rechners
+Diese Daten dienen der technischen Bereitstellung, Sicherheit und Stabilität der Website. Eine Zusammenführung mit anderen Datenquellen erfolgt nicht, soweit dies nicht zur Aufklärung missbräuchlicher Nutzung erforderlich ist.
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt in der sicheren und fehlerfreien Bereitstellung unserer Website.
+
+4. Kontaktaufnahme per Formular, E-Mail oder Telefon
+Wenn Sie uns per Kontaktformular, E-Mail oder Telefon kontaktieren, verarbeiten wir die von Ihnen übermittelten Daten zur Bearbeitung Ihrer Anfrage.
+Bei einer Fahrzeugankaufsanfrage können insbesondere folgende Daten verarbeitet werden:
+
+Name
+Telefonnummer
+E-Mail-Adresse
+Fahrzeugmarke und Modell
+Baujahr / Erstzulassung
+Kilometerstand
+Kraftstoffart
+Getriebeart
+Fahrzeugzustand
+Angaben zu TÜV, Schäden, Unfall, Motorschaden oder sonstigen Mängeln
+gewünschter Verkaufspreis
+
+hochgeladene Fahrzeugbilder
+sonstige Angaben, die Sie freiwillig machen
+Die Verarbeitung erfolgt zur Bearbeitung Ihrer Anfrage, zur Bewertung Ihres Fahrzeugs und zur Kontaktaufnahme bezüglich eines möglichen Fahrzeugankaufs.
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Anfrage auf einen möglichen Vertragsschluss gerichtet ist. In sonstigen Fällen erfolgt die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
+
+5. Fahrzeugbilder und Uploads
+Wenn Sie über unsere Website Bilder Ihres Fahrzeugs hochladen, werden diese ausschließlich zur Bewertung des Fahrzeugs und zur Bearbeitung Ihrer Anfrage verwendet.
+Bitte achten Sie darauf, keine unnötigen personenbezogenen Daten auf den Bildern sichtbar zu machen, zum Beispiel Ausweisdokumente, private Unterlagen oder fremde Personen. Kennzeichen können sichtbar sein, soweit dies für die Fahrzeugbewertung erforderlich ist.
+
+6. Double-Opt-In / Bestätigung der Anfrage
+Sofern wir zur Bestätigung Ihrer Anfrage ein Double-Opt-In-Verfahren verwenden, erhalten Sie nach Absenden des Formulars eine Bestätigungs-E-Mail. Erst nach Bestätigung des Links wird Ihre Anfrage vollständig verarbeitet oder bestätigt.
+Dabei können Zeitpunkt der Anmeldung, Zeitpunkt der Bestätigung und die IP-Adresse gespeichert werden, um die Einwilligung beziehungsweise die Anfrage nachweisen zu können. Double-Opt-In ist in Deutschland nicht ausdrücklich als Begriff gesetzlich vorgeschrieben, wird aber als rechtssichere Nachweismethode empfohlen, insbesondere bei Einwilligungen und E-Mail-Kommunikation. 
+simon-erklaert.com +1
+
+7. Speicherung und Löschung
+Wir speichern personenbezogene Daten nur so lange, wie dies für die Bearbeitung Ihrer Anfrage, die Vertragsanbahnung, den Vertragsschluss oder gesetzliche Aufbewahrungspflichten erforderlich ist.
+Kommt kein Vertrag zustande, löschen wir Ihre Anfrage in der Regel nach angemessener Frist, sofern keine gesetzlichen Pflichten oder berechtigten Interessen entgegenstehen.
+Bei Vertragsschluss können Daten aufgrund steuer- und handelsrechtlicher Aufbewahrungspflichten länger gespeichert werden.
+
+8. Weitergabe von Daten
+Eine Weitergabe Ihrer personenbezogenen Daten an Dritte erfolgt nur, wenn dies erforderlich ist oder Sie eingewilligt haben.
+Eine Weitergabe kann insbesondere erfolgen an:
+IT- und Hosting-Dienstleister
+E-Mail-Dienstleister
+Steuerberater oder Buchhaltung
+Behörden, soweit gesetzlich erforderlich
+Transport- oder Abschleppdienstleister, falls eine Abholung vereinbart wird
+Eine Weitergabe zu Werbezwecken an Dritte erfolgt nicht.
+
+9. Hosting
+Unsere Website wird bei einem externen Hosting-Anbieter betrieben. Der Hosting-Anbieter verarbeitet technische Zugriffsdaten, Server-Logfiles und gegebenenfalls Formulardaten, soweit dies zur Bereitstellung der Website erforderlich ist.
+Mit dem Hosting-Anbieter wird, soweit gesetzlich erforderlich, ein Vertrag zur Auftragsverarbeitung gemäß Art. 28 DSGVO geschlossen.
+Hinweis: Hier bitte den konkreten Anbieter eintragen, zum Beispiel Webflow, Vercel, Lima-City oder ein anderer Hoster.
+
+10. Cookies und ähnliche Technologien
+Unsere Website kann Cookies oder ähnliche Technologien verwenden. Cookies sind kleine Dateien, die auf Ihrem Endgerät gespeichert werden.
+Technisch notwendige Cookies dienen der Funktion der Website. Für nicht notwendige Cookies, insbesondere für Statistik, Marketing, Tracking oder externe Medien, holen wir vorab Ihre Einwilligung ein.
+Rechtsgrundlage für technisch notwendige Cookies ist Art. 6 Abs. 1 lit. f DSGVO. Für nicht notwendige Cookies ist die Rechtsgrundlage Art. 6 Abs. 1 lit. a DSGVO sowie § 25 TDDDG. Nach dem TDDDG ist der Zugriff auf Informationen im Endgerät oder deren Speicherung grundsätzlich einwilligungspflichtig, soweit keine technische Erforderlichkeit vorliegt. 
+usercentrics.com +1
+
+11. Externe Dienste
+Wenn externe Dienste wie Google Maps, Google Fonts, YouTube, Google Analytics, Meta Pixel, WhatsApp, reCAPTCHA oder ähnliche Tools eingesetzt werden, können personenbezogene Daten an diese Anbieter übertragen werden.
+Aktuell verwendete externe Dienste:
+Sofern externe Dienste nicht technisch notwendig sind, werden sie nur nach Ihrer Einwilligung geladen.
+
+12. WhatsApp-Kontakt
+Wenn Sie uns über WhatsApp kontaktieren, verarbeitet WhatsApp beziehungsweise Meta eigene personenbezogene Daten. Wir haben keinen vollständigen Einfluss auf die Datenverarbeitung durch WhatsApp.
+Wir verwenden Ihre WhatsApp-Nachricht ausschließlich zur Bearbeitung Ihrer Anfrage und zur Kommunikation mit Ihnen.
+Wenn Sie keine Kommunikation über WhatsApp wünschen, können Sie uns alternativ per Telefon oder E-Mail kontaktieren.
+
+13. Ihre Rechte
+Sie haben nach der DSGVO folgende Rechte:
+Recht auf Auskunft über Ihre gespeicherten Daten
+Recht auf Berichtigung unrichtiger Daten
+Recht auf Löschung
+Recht auf Einschränkung der Verarbeitung
+Recht auf Datenübertragbarkeit
+Recht auf Widerspruch gegen bestimmte Verarbeitungen
+Recht auf Widerruf einer Einwilligung mit Wirkung für die Zukunft
+Recht auf Beschwerde bei einer Datenschutzaufsichtsbehörde
+Zur Ausübung Ihrer Rechte können Sie uns jederzeit kontaktieren:
+info@autoankauf-sr.de
+
+14. SSL-/TLS-Verschlüsselung
+Unsere Website nutzt aus Sicherheitsgründen eine SSL-/TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers mit „https://“⁠� beginnt und ein Schloss-Symbol angezeigt wird.
+
+15. Änderung dieser Datenschutzerklärung
+Wir behalten uns vor, diese Datenschutzerklärung anzupassen, wenn sich technische, rechtliche oder organisatorische Änderungen ergeben.
+Stand: April 2026
+
+--------
+Allgemeine Geschäftsbedingungen — AGB
+
+1. Anbieter
+Diese Allgemeinen Geschäftsbedingungen gelten für die Nutzung der Website und die Anbahnung von Fahrzeugankäufen durch:
+Autoankauf SR
+Sulterkamp 70
+45356 Essen
+Deutschland
+Telefon: 01521 3107213
+E-Mail: info@autoankauf-sr.de
+Website: www.autoankauf-sr.de⁠
+
+2. Geltungsbereich
+Diese AGB gelten für alle Anfragen, Angebote, Vorbewertungen und Fahrzeugankäufe, die über unsere Website, per Telefon, per E-Mail, per WhatsApp oder persönlich angebahnt werden.
+Unser Angebot richtet sich an private und gewerbliche Fahrzeugverkäufer.
+
+3. Leistungen von Autoankauf SR
+Autoankauf SR bietet den Ankauf von gebrauchten Fahrzeugen an, insbesondere:
+Gebrauchtwagen
+Unfallwagen
+Fahrzeuge mit Motorschaden
+Fahrzeuge ohne TÜV
+Fahrzeuge mit hoher Laufleistung
+Exportfahrzeuge
+Transporter und Nutzfahrzeuge
+Fahrzeuge mit technischen oder optischen Mängeln
+Über die Website können Nutzer Fahrzeugdaten übermitteln und eine unverbindliche Einschätzung oder ein Ankaufangebot anfragen.
+
+4. Anfrage über die Website
+Die Übermittlung einer Anfrage über die Website stellt noch kein verbindliches Verkaufsangebot und keinen Kaufvertrag dar.
+Der Nutzer gibt Fahrzeugdaten nach bestem Wissen an. Dazu können insbesondere Marke, Modell, Baujahr, Kilometerstand, Zustand, Schäden, TÜV-Status, Bilder und Preisvorstellung gehören.
+Autoankauf SR prüft die Angaben und kann daraufhin Kontakt aufnehmen, Rückfragen stellen oder ein unverbindliches Angebot abgeben.
+
+5. Unverbindlichkeit der Online-Bewertung
+Alle online, telefonisch, per E-Mail oder WhatsApp genannten Preiseinschätzungen sind zunächst unverbindlich, solange das Fahrzeug nicht besichtigt und geprüft wurde.
+Ein endgültiger Ankaufspreis kann erst nach Prüfung des Fahrzeugs, der Fahrzeugpapiere, des Zustands, der Laufleistung, der Vorschäden und der Eigentumsverhältnisse festgelegt werden.
+
+6. Vertragsschluss
+Ein Kaufvertrag kommt erst zustande, wenn beide Parteien den Verkauf ausdrücklich vereinbaren und die wesentlichen Vertragsbestandteile feststehen, insbesondere:
+Fahrzeug
+Verkäufer
+Käufer
+Kaufpreis
+Übergabezeitpunkt
+Fahrzeugpapiere
+Zahlungsart
+Die bloße Übermittlung eines Formulars, eine automatische Bestätigungsmail oder eine erste Preiseinschätzung führt noch nicht zum Vertragsschluss.
+
+7. Pflichten des Verkäufers
+Der Verkäufer verpflichtet sich, alle Angaben zum Fahrzeug vollständig und wahrheitsgemäß zu machen.
+Insbesondere sind mitzuteilen:
+Unfallschäden
+Motorschäden
+Getriebeschäden
+Manipulationen am Kilometerstand
+bekannte technische Mängel
+fehlende Fahrzeugpapiere
+bestehende Finanzierung, Sicherungsübereignung oder Eigentumsvorbehalt
+Import-/Exportstatus
+Anzahl der Fahrzeughalter, soweit bekannt
+abgelaufener TÜV
+sonstige erhebliche Mängel
+Der Verkäufer versichert, verfügungsberechtigt zu sein und das Fahrzeug verkaufen zu dürfen.
+
+8. Fahrzeugpapiere und Eigentum
+Der Verkäufer muss bei Verkauf grundsätzlich folgende Unterlagen vorlegen:
+Zulassungsbescheinigung Teil I, soweit vorhanden
+Zulassungsbescheinigung Teil II
+gültiger Ausweis oder Identitätsnachweis
+vorhandene Schlüssel
+Serviceheft, Rechnungen oder sonstige Unterlagen, soweit vorhanden
+Fehlen Fahrzeugpapiere, ist dies vor Vertragsschluss mitzuteilen. Autoankauf SR ist nicht verpflichtet, ein Fahrzeug ohne vollständige Unterlagen anzukaufen.
+
+9. Kaufpreis und Zahlung
+Der Kaufpreis wird individuell vereinbart.
+Die Zahlung erfolgt je nach Vereinbarung bar, per Echtzeitüberweisung oder per Banküberweisung. Eine Übergabe des Fahrzeugs erfolgt grundsätzlich erst nach Zahlung oder nach verbindlicher Zahlungsvereinbarung.
+
+10. Abholung und Übergabe
+Eine Fahrzeugabholung kann nach Vereinbarung erfolgen. Ort und Zeitpunkt der Abholung werden individuell abgestimmt.
+Der Verkäufer ist verpflichtet, das Fahrzeug zum vereinbarten Zeitpunkt zugänglich zu machen und alle vereinbarten Unterlagen bereitzuhalten.
+Entstehen durch falsche Angaben, Nichterscheinen oder fehlende Unterlagen unnötige Kosten, kann Autoankauf SR den Ankauf ablehnen.
+
+11. Abmeldung des Fahrzeugs
+Die Abmeldung des Fahrzeugs erfolgt je nach Vereinbarung durch den Verkäufer oder durch Autoankauf SR.
+Wird vereinbart, dass Autoankauf SR die Abmeldung übernimmt, erfolgt diese innerhalb angemessener Frist. Bis zur tatsächlichen Abmeldung können Pflichten aus Versicherung, Steuer oder Halterverantwortung grundsätzlich beim bisherigen Halter verbleiben, soweit gesetzlich nichts anderes gilt.
+
+12. Haftung für falsche Angaben
+Macht der Verkäufer vorsätzlich oder fahrlässig falsche Angaben zum Fahrzeug, insbesondere zu Unfallschäden, Kilometerstand, Eigentum, Finanzierung oder erheblichen Mängeln, kann Autoankauf SR vom Vertrag zurücktreten oder Schadensersatz geltend machen.
+
+13. Gewährleistung beim Ankauf
+Beim Ankauf durch Autoankauf SR gelten die gesetzlichen Regelungen.
+Bei Verkäufen durch Verbraucher an Unternehmer ist ein Gewährleistungsausschluss zugunsten des Verkäufers grundsätzlich möglich, soweit gesetzlich zulässig und individuell vereinbart.
+Diese AGB begründen keine automatische Garantie oder Beschaffenheitsvereinbarung.
+
+14. Widerrufsrecht
+Soweit Verbraucher über die Website einen Fernabsatzvertrag schließen, können gesetzliche Widerrufsrechte bestehen.
+Da über diese Website in der Regel zunächst nur eine unverbindliche Anfrage gestellt wird und der Kaufvertrag erst nach individueller Prüfung und Vereinbarung zustande kommt, entsteht durch das Absenden des Formulars noch kein Kaufvertrag.
+Falls künftig direkt online verbindliche Verträge mit Verbrauchern abgeschlossen werden, müssen die gesetzlichen Informationspflichten, eine Widerrufsbelehrung und ab dem 19. Juni 2026 gegebenenfalls ein Widerrufsbutton umgesetzt werden. 
+Verbraucherzentrale.de +1
+
+15. Keine Pflicht zum Ankauf
+Autoankauf SR ist nicht verpflichtet, jedes angebotene Fahrzeug anzukaufen. Ein Ankauf kann insbesondere abgelehnt werden, wenn:
+Angaben unvollständig oder falsch sind
+Fahrzeugpapiere fehlen
+Eigentumsverhältnisse unklar sind
+der Zustand erheblich von den Angaben abweicht
+der Verkäufer nicht verfügungsberechtigt ist
+wirtschaftliche oder rechtliche Gründe entgegenstehen
+
+16. Nutzung der Website
+Die Website darf nur rechtmäßig genutzt werden. Es ist untersagt, falsche Daten einzugeben, fremde Identitäten zu verwenden oder die Website technisch zu missbrauchen.
+Autoankauf SR bemüht sich um eine ständige Verfügbarkeit der Website, übernimmt jedoch keine Garantie für ununterbrochene Erreichbarkeit.
+
+17. Datenschutz
+Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer Datenschutzerklärung.
+
+18. Streitbeilegung
+Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit.
+Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen, sofern keine gesetzliche Pflicht besteht.
+
+19. Anwendbares Recht
+Es gilt das Recht der Bundesrepublik Deutschland.
+Bei Verbrauchern gilt diese Rechtswahl nur, soweit dadurch keine zwingenden Verbraucherschutzvorschriften des Staates eingeschränkt werden, in dem der Verbraucher seinen gewöhnlichen Aufenthalt hat.
+
+20. Salvatorische Klausel
+Sollte eine Bestimmung dieser AGB unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Anstelle der unwirksamen Regelung gelten die gesetzlichen Vorschriften.

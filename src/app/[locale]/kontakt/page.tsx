@@ -19,6 +19,7 @@ import {
   Send,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { COMPANY } from "@/lib/company";
 
 /* ─── reusable reveal animation ─── */
 function Reveal({
@@ -240,10 +241,10 @@ export default function KontaktPage() {
       iconColor: "text-navy-700",
       accentBar: "from-navy-700 to-navy-500",
       title: t("phoneTitle"),
-      primary: t("phoneNumber"),
+      primary: COMPANY.phoneDisplayIntl,
       secondary: t("phoneHours"),
       action: t("phoneAction"),
-      href: "tel:+4912345678900",
+      href: COMPANY.phoneHref,
       isExternal: false,
     },
     {
@@ -253,10 +254,10 @@ export default function KontaktPage() {
       iconColor: "text-green-600",
       accentBar: "from-green-500 to-green-400",
       title: t("waTitle"),
-      primary: "+49 123 456 789 00",
+      primary: COMPANY.phoneDisplayIntl,
       secondary: t("waDesc"),
       action: t("waAction"),
-      href: "https://wa.me/4912345678900",
+      href: COMPANY.whatsAppHref,
       isExternal: true,
     },
     {
@@ -266,10 +267,10 @@ export default function KontaktPage() {
       iconColor: "text-gold-600",
       accentBar: "from-gold-500 to-gold-400",
       title: t("emailTitle"),
-      primary: t("emailAddress"),
+      primary: COMPANY.email,
       secondary: t("emailDesc"),
       action: t("emailAction"),
-      href: "mailto:info@autoankauf.de",
+      href: `mailto:${COMPANY.email}`,
       isExternal: false,
     },
     {
@@ -343,14 +344,14 @@ export default function KontaktPage() {
           <Reveal delay={220}>
             <div className="flex flex-wrap items-center justify-center gap-3 mt-8">
               <a
-                href="tel:+4912345678900"
+                href={COMPANY.phoneHref}
                 className="inline-flex items-center gap-2 bg-gradient-gold text-navy-900 font-bold px-5 py-2.5 rounded-full text-sm shadow-gold hover:shadow-gold-lg transition-all hover:scale-105 active:scale-95"
               >
                 <Phone className="h-4 w-4" />
                 {t("phoneAction")}
               </a>
               <a
-                href="https://wa.me/4912345678900"
+                href={COMPANY.whatsAppHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/25 text-white font-semibold px-5 py-2.5 rounded-full text-sm backdrop-blur-sm transition-all"

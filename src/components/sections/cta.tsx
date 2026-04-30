@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { ArrowRight, Sparkles, Phone } from "lucide-react";
 import { MagneticButton } from "@/components/ui/magnetic-button";
+import { COMPANY } from "@/lib/company";
 
 export function CTASection() {
   const t = useTranslations("cta");
@@ -63,11 +64,11 @@ export function CTASection() {
 
             {/* Phone CTA - Prominent on Mobile */}
             <a
-              href="tel:+4930123456789"
+              href={COMPANY.phoneHref}
               className="inline-flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white/10 hover:bg-white hover:text-navy-900 hover:border-white backdrop-blur-sm border border-white/20 rounded-xl sm:rounded-2xl text-white font-semibold text-sm sm:text-base transition-all active:scale-[0.98]"
             >
               <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-gold-400" />
-              <span>030 123 456 789</span>
+              <span>{COMPANY.phoneDisplayIntl}</span>
             </a>
           </div>
 

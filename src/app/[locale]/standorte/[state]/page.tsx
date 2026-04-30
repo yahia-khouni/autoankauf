@@ -18,6 +18,7 @@ import {
   Clock,
 } from "lucide-react";
 import { formatNumber } from "@/lib/utils";
+import { getBaseUrl } from "@/lib/company";
 import { LeadForm } from "@/components/forms/lead-form";
 import { locales, type Locale } from "@/lib/i18n";
 import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
@@ -75,7 +76,7 @@ export default async function StatePage({ params }: Props) {
   const statePageContent = state.content.page;
   const topLinkedCities = [...cities].sort((a, b) => b.population - a.population).slice(0, 12);
 
-  const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
+  const baseUrl = getBaseUrl();
 
   const featureCards = [
     {

@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
+import { COMPANY, getBaseUrl } from "@/lib/company";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import "@/app/globals.css";
@@ -12,11 +13,12 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
+  const baseUrl = getBaseUrl();
   
   const titles: Record<Locale, string> = {
-    de: "Autoankauf Deutschland - Schnell, Fair & Unkompliziert | Ihr Auto verkaufen",
-    en: "Car Purchase Germany - Fast, Fair & Easy | Sell Your Car",
-    fr: "Achat de voiture Allemagne - Rapide, juste et facile | Vendez votre voiture",
+    de: "Autoankauf SR - Schnell, Fair & Unkompliziert | Ihr Auto verkaufen",
+    en: "Autoankauf SR - Fast, Fair & Easy | Sell Your Car in Germany",
+    fr: "Autoankauf SR - Rapide, juste et simple | Vendez votre voiture en Allemagne",
   };
 
   const descriptions: Record<Locale, string> = {
@@ -28,8 +30,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
   return {
     title: {
       default: titles[locale],
-      template: `%s | Autoankauf Deutschland`,
+      template: `%s | ${COMPANY.legalName}`,
     },
+    metadataBase: new URL(baseUrl),
     description: descriptions[locale],
     keywords: [
       "Autoankauf",
@@ -39,11 +42,21 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       "Auto Ankauf Deutschland",
       "Fahrzeug verkaufen",
     ],
-    authors: [{ name: "Autoankauf Deutschland" }],
+    authors: [{ name: COMPANY.legalName }],
+    alternates: {
+      canonical: locale === "de" ? "/" : `/${locale}`,
+      languages: {
+        de: "/",
+        en: "/en",
+        fr: "/fr",
+      },
+    },
     openGraph: {
       title: titles[locale],
       description: descriptions[locale],
       type: "website",
+      url: locale === "de" ? baseUrl : `${baseUrl}/${locale}`,
+      siteName: COMPANY.legalName,
       locale: locale === "de" ? "de_DE" : locale === "en" ? "en_US" : "fr_FR",
     },
   };
