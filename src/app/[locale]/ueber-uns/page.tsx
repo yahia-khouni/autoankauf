@@ -6,7 +6,7 @@ import Link from "next/link";
 import {
   Users, Award, Clock, Car, Euro, Shield, Heart,
   MapPin, TrendingUp, CheckCircle, ArrowRight,
-  Star, Sparkles, Phone, Zap, Lock, ThumbsUp,
+  Star, Sparkles, Phone, Lock, ThumbsUp,
 } from "lucide-react";
 
 /* ══════════════════════════════════════════════
@@ -151,11 +151,12 @@ export default function UeberUnsPage() {
     t("why5"), t("why6"), t("why7"), t("why8"),
   ];
 
-  const team = [
-    { initial: "MK", name: t("team1Name"), role: t("team1Role"), exp: t("team1Exp") },
-    { initial: "AW", name: t("team2Name"), role: t("team2Role"), exp: t("team2Exp") },
-    { initial: "SB", name: t("team3Name"), role: t("team3Role"), exp: t("team3Exp") },
+  const ctaHighlights = [
+    { icon: ThumbsUp, text: t("ctaFeat1") },
+    { icon: Shield, text: t("ctaFeat2") },
+    { icon: Clock, text: t("ctaFeat3") },
   ];
+
 
   return (
     <div className="antialiased">
@@ -414,47 +415,6 @@ export default function UeberUnsPage() {
         </div>
       </section>
 
-      {/* ─── ⑥ TEAM ──────────────────────────────────────── */}
-      <section className="py-16 sm:py-24 bg-white relative overflow-hidden">
-        <div className="absolute top-1/4 -right-20 w-[32rem] h-[32rem] bg-gold-400/[0.05] rounded-full blur-[80px] pointer-events-none" />
-        <div className="container relative z-10 px-4 sm:px-6">
-          <Reveal delay={0} className="text-center mb-12 sm:mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-gold-50 border border-gold-200 px-4 py-1.5 mb-4">
-              <Users className="h-3.5 w-3.5 text-gold-600" />
-              <span className="text-xs font-bold text-gold-700">{t("teamBadge")}</span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-navy-900 tracking-tight mb-3">{t("teamTitle")}</h2>
-            <p className="text-slate-500 text-sm sm:text-base max-w-xl mx-auto">{t("teamSubtitle")}</p>
-          </Reveal>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {team.map((member, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className={`group relative flex flex-col items-center text-center bg-white border border-slate-100 rounded-3xl p-7 sm:p-8 hover:shadow-[0_8px_40px_rgba(10,25,41,0.08)] hover:border-gold-200/60 transition-all duration-500 ${i === 1 ? "sm:translate-y-6" : ""}`}>
-                  {/* Watermark */}
-                  <div className="absolute top-4 right-5 text-5xl font-serif text-slate-100 group-hover:text-gold-100 transition-colors leading-none select-none">"</div>
-                  {/* Avatar */}
-                  <div className="relative mb-5">
-                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-navy-800 to-navy-950 flex items-center justify-center text-gold-400 font-black text-2xl shadow-[0_8px_24px_rgba(10,25,41,0.2)]">
-                      {member.initial}
-                    </div>
-                    <div className="absolute -bottom-2 -right-2 w-7 h-7 rounded-full bg-gold-50 border-2 border-white flex items-center justify-center shadow-sm">
-                      <Zap className="h-3.5 w-3.5 text-gold-600" />
-                    </div>
-                  </div>
-                  <h3 className="font-bold text-navy-900 text-lg mb-0.5">{member.name}</h3>
-                  <p className="text-gold-600 text-xs font-bold uppercase tracking-wider mb-3">{member.role}</p>
-                  <p className="text-sm text-slate-500 leading-relaxed">{member.exp}</p>
-                  <div className="flex gap-0.5 mt-4">
-                    {[...Array(5)].map((_, k) => <Star key={k} className="h-3.5 w-3.5 fill-gold-400 text-gold-400" />)}
-                  </div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ─── ⑦ TRUST STRIP ──────────────────────────────── */}
       <section className="py-10 sm:py-12 bg-slate-50 border-y border-slate-100">
         <div className="container px-4 sm:px-6">
@@ -481,67 +441,75 @@ export default function UeberUnsPage() {
       </section>
 
       {/* ─── ⑧ CTA ────────────────────────────────────────── */}
-      <section className="py-16 sm:py-28 relative overflow-hidden">
-        <div className="absolute inset-0 gradient-premium" />
-        <div className="absolute inset-0 bg-hero-pattern opacity-25" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold-400/50 to-transparent" />
-        <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div className="absolute top-10 right-16 w-56 h-56 bg-gold-400/15 rounded-full blur-3xl animate-pulse-glow" />
-          <div className="absolute bottom-10 left-12 w-64 h-64 bg-gold-400/8 rounded-full blur-3xl" />
-        </div>
+      <section className="py-20 sm:py-32 relative overflow-hidden bg-[#f8f6ef]">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.1),transparent_55%)]" />
+        <div className="absolute -top-24 right-0 w-80 h-80 bg-gold-400/12 rounded-full blur-3xl" />
+        <div className="absolute -bottom-24 left-0 w-80 h-80 bg-navy-900/5 rounded-full blur-3xl" />
 
-        <div className="container relative z-10 px-4 sm:px-6 max-w-3xl mx-auto text-center">
-          <Reveal delay={0}>
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/8 border border-white/15 backdrop-blur-sm px-4 py-1.5 mb-7">
-              <Sparkles className="h-3.5 w-3.5 text-gold-400" />
-              <span className="text-xs font-bold text-gold-300 tracking-[0.12em] uppercase">{t("ctaBadge")}</span>
-            </div>
-          </Reveal>
-          <Reveal delay={60}>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-5 leading-tight tracking-tight">
-              {t("ctaTitle")}
-            </h2>
-          </Reveal>
-          <Reveal delay={120}>
-            <p className="text-base sm:text-xl text-slate-300 mx-auto mb-10 leading-relaxed max-w-xl">
-              {t("ctaSubtitle")}
-            </p>
-          </Reveal>
-          <Reveal delay={180}>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link
-                href={leadFormHref}
-                className="group relative w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl font-bold text-base overflow-hidden btn-cta-glow"
-              >
-                <div className="absolute inset-0 bg-gradient-gold" />
-                <div className="absolute inset-0 bg-gradient-gold-shine bg-[length:200%_100%] animate-shine opacity-40" />
-                <span className="relative text-navy-900 text-lg">{t("ctaBtn")}</span>
-                <ArrowRight className="relative h-5 w-5 text-navy-900 group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <a
-                href="tel:+4912345678900"
-                className="group w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl bg-white/8 hover:bg-white/15 border border-white/15 hover:border-white/30 text-white font-semibold text-base transition-all backdrop-blur-sm"
-              >
-                <Phone className="h-4 w-4 text-gold-400" />
-                +49 123 456 789 00
-              </a>
+        <div className="container relative z-10 px-4 sm:px-6 max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-20 items-center">
+            <div className="text-center lg:text-left">
+              <Reveal delay={0}>
+                <div className="inline-flex items-center gap-2 rounded-full bg-white border border-gold-200 px-4 py-1.5 shadow-sm mb-6">
+                  <Sparkles className="h-3.5 w-3.5 text-gold-600" />
+                  <span className="text-xs font-bold text-gold-700 tracking-[0.12em] uppercase">{t("ctaBadge")}</span>
+                </div>
+              </Reveal>
+              <Reveal delay={60}>
+                <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-navy-900 mb-5 leading-tight tracking-tight">
+                  {t("ctaTitle")}
+                </h2>
+              </Reveal>
+              <Reveal delay={120}>
+                <p className="text-base sm:text-lg text-slate-600 mx-auto lg:mx-0 leading-relaxed max-w-xl">
+                  {t("ctaSubtitle")}
+                </p>
+              </Reveal>
+              <Reveal delay={160}>
+                <div className="mt-8 grid sm:grid-cols-2 gap-4">
+                  {ctaHighlights.map((item, i) => (
+                    <div
+                      key={i}
+                      className="group flex items-center gap-3 rounded-2xl border border-white/70 bg-white/70 px-4 py-3 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_24px_rgba(15,23,42,0.08)]"
+                    >
+                      <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gold-50 border border-gold-200 text-gold-600 transition-all duration-300 group-hover:bg-gold-400 group-hover:text-navy-900 group-hover:shadow-gold">
+                        <item.icon className="h-4 w-4" />
+                      </span>
+                      <span className="text-sm font-semibold text-navy-900">{item.text}</span>
+                      <span className="ml-auto h-2.5 w-2.5 rounded-full bg-gold-400/60 motion-safe:animate-pulse" />
+                    </div>
+                  ))}
+                </div>
+              </Reveal>
             </div>
 
-            {[t("ctaFeat1"), t("ctaFeat2"), t("ctaFeat3")].length > 0 && (
-              <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
-                {[t("ctaFeat1"), t("ctaFeat2"), t("ctaFeat3")].map((feat, i) => (
-                  <span key={i} className="flex items-center gap-2 text-xs sm:text-sm text-slate-400">
-                    <span className="w-4 h-4 rounded-full bg-gold-400/20 border border-gold-400/30 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="h-2.5 w-2.5 text-gold-400" />
-                    </span>
-                    {feat}
-                  </span>
-                ))}
+            <Reveal delay={200} className="w-full">
+              <div className="group relative w-full rounded-3xl bg-white/90 border border-slate-200/80 shadow-[0_18px_45px_rgba(15,23,42,0.12)] p-8 sm:p-10 overflow-hidden transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_26px_60px_rgba(15,23,42,0.16)]">
+                <div className="absolute inset-0 bg-gradient-to-br from-gold-50 via-white to-white opacity-90" />
+                <div className="absolute -top-20 -right-16 w-52 h-52 bg-gold-400/12 rounded-full blur-3xl" />
+                <div className="absolute -bottom-20 -left-10 w-48 h-48 bg-navy-900/5 rounded-full blur-3xl" />
+                <div className="relative flex flex-col gap-5">
+                  <Link
+                    href={leadFormHref}
+                    className="group relative w-full inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl font-bold text-base overflow-hidden btn-cta-glow"
+                  >
+                    <div className="absolute inset-0 bg-gradient-gold" />
+                    <div className="absolute inset-0 bg-gradient-gold-shine bg-[length:200%_100%] animate-shine opacity-40" />
+                    <span className="relative text-navy-900 text-lg">{t("ctaBtn")}</span>
+                    <ArrowRight className="relative h-5 w-5 text-navy-900 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                  <a
+                    href="tel:+4912345678900"
+                    className="group w-full inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl bg-navy-900 text-white font-semibold text-base transition-all hover:bg-navy-800"
+                  >
+                    <Phone className="h-4 w-4 text-gold-400" />
+                    +49 123 456 789 00
+                  </a>
+                </div>
               </div>
-            )}
-          </Reveal>
+            </Reveal>
+          </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold-400/50 to-transparent" />
       </section>
     </div>
   );
