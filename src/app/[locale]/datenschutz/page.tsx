@@ -4,10 +4,12 @@ import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 import { locales, type Locale } from "@/lib/i18n";
 import { LegalPageShell } from "@/components/legal/legal-page-shell";
+import { COMPANY } from "@/lib/company";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Autoankauf Deutschland",
-  description: "Privacy policy and data protection information for Autoankauf Deutschland.",
+  title: `Datenschutz | ${COMPANY.legalName}`,
+  description: "Datenschutzinformationen gemaess DSGVO fuer Autoankauf SR.",
+  keywords: ["Datenschutz", "DSGVO", "Autoankauf SR", "TDDDG", "personenbezogene Daten"],
 };
 
 export function generateStaticParams() {
@@ -22,6 +24,284 @@ type LocalizedCopy = {
   legalInfoLabel: string;
   sections: Array<{ id: string; title: string; content: ReactNode }>;
 };
+
+const deSections: Array<{ id: string; title: string; content: ReactNode }> = [
+  {
+    id: "verantwortlicher",
+    title: "1. Verantwortlicher",
+    content: (
+      <p>
+        Verantwortlich fuer die Datenverarbeitung auf dieser Website ist:
+        <br />
+        {COMPANY.legalName}
+        <br />
+        {COMPANY.streetAddress}
+        <br />
+        {COMPANY.postalCode} {COMPANY.city}
+        <br />
+        Deutschland
+        <br />
+        Telefon: {COMPANY.phoneDisplay}
+        <br />
+        E-Mail: {COMPANY.email}
+        <br />
+        Website: {COMPANY.websiteHost}
+      </p>
+    ),
+  },
+  {
+    id: "allgemeine-hinweise",
+    title: "2. Allgemeine Hinweise zur Datenverarbeitung",
+    content: (
+      <>
+        <p>
+          Wir nehmen den Schutz Ihrer personenbezogenen Daten ernst. Personenbezogene Daten sind alle
+          Informationen, mit denen Sie persoenlich identifiziert werden koennen.
+        </p>
+        <p>
+          Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bereitstellung unserer Website,
+          zur Bearbeitung von Anfragen, zur Durchfuehrung vorvertraglicher Massnahmen oder zur
+          Erfuellung rechtlicher Pflichten erforderlich ist.
+        </p>
+        <p>Rechtsgrundlagen sind insbesondere Art. 6 Abs. 1 lit. a, b, c und f DSGVO.</p>
+      </>
+    ),
+  },
+  {
+    id: "zugriffsdaten",
+    title: "3. Zugriffsdaten und Server-Logfiles",
+    content: (
+      <>
+        <p>Beim Besuch unserer Website werden automatisch technische Informationen erfasst, z. B.:</p>
+        <ul>
+          <li>IP-Adresse</li>
+          <li>Datum und Uhrzeit des Zugriffs</li>
+          <li>aufgerufene Seite</li>
+          <li>Browsertyp und Browserversion</li>
+          <li>verwendetes Betriebssystem</li>
+          <li>Referrer-URL</li>
+          <li>Hostname des zugreifenden Rechners</li>
+        </ul>
+        <p>
+          Diese Daten dienen der technischen Bereitstellung, Sicherheit und Stabilitaet der Website.
+          Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "kontaktaufnahme",
+    title: "4. Kontaktaufnahme per Formular, E-Mail oder Telefon",
+    content: (
+      <>
+        <p>
+          Wenn Sie uns per Kontaktformular, E-Mail, Telefon oder WhatsApp kontaktieren, verarbeiten
+          wir die uebermittelten Daten zur Bearbeitung Ihrer Anfrage.
+        </p>
+        <p>Bei einer Fahrzeugankaufsanfrage koennen insbesondere folgende Daten verarbeitet werden:</p>
+        <ul>
+          <li>Name, Telefonnummer, E-Mail-Adresse</li>
+          <li>Fahrzeugmarke und Modell</li>
+          <li>Baujahr / Erstzulassung</li>
+          <li>Kilometerstand</li>
+          <li>gewuenschter Verkaufspreis</li>
+          <li>freiwillige Zusatzangaben in Nachrichtenfeldern</li>
+        </ul>
+        <p>
+          Die Verarbeitung erfolgt zur Bearbeitung Ihrer Anfrage und fuer die Kommunikation ueber einen
+          moeglichen Fahrzeugankauf (Art. 6 Abs. 1 lit. b DSGVO, ansonsten Art. 6 Abs. 1 lit. f DSGVO).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "bilder-uploads",
+    title: "5. Fahrzeugbilder und Uploads",
+    content: (
+      <>
+        <p>
+          Sofern im Rahmen einer Anfrage Fahrzeugbilder uebermittelt werden (z. B. per E-Mail oder
+          Messenger), verwenden wir diese ausschliesslich zur Bewertung des Fahrzeugs und zur
+          Bearbeitung Ihrer Anfrage.
+        </p>
+        <p>
+          Bitte uebermitteln Sie keine unnoetigen personenbezogenen Inhalte auf Bildern (z. B.
+          Ausweisdokumente oder Daten Dritter).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "double-opt-in",
+    title: "6. Double-Opt-In / Bestaetigung der Anfrage",
+    content: (
+      <>
+        <p>
+          Sofern wir zur Bestaetigung bestimmter Einwilligungen oder Kommunikationsprozesse ein
+          Double-Opt-In-Verfahren einsetzen, speichern wir zu Nachweiszwecken Zeitpunkt der Anmeldung,
+          Zeitpunkt der Bestaetigung und IP-Adresse.
+        </p>
+        <p>
+          Das Verfahren dient der rechtssicheren Dokumentation einer erklaerten Einwilligung.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "speicherung",
+    title: "7. Speicherung und Loeschung",
+    content: (
+      <>
+        <p>
+          Wir speichern personenbezogene Daten nur so lange, wie dies fuer die Bearbeitung Ihrer
+          Anfrage, die Vertragsanbahnung, den Vertragsschluss oder gesetzliche Aufbewahrungspflichten
+          erforderlich ist.
+        </p>
+        <p>
+          Kommt kein Vertrag zustande, werden Anfragedaten nach angemessener Frist geloescht, sofern
+          keine gesetzlichen Pflichten oder berechtigten Interessen entgegenstehen.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "weitergabe",
+    title: "8. Weitergabe von Daten",
+    content: (
+      <>
+        <p>
+          Eine Weitergabe personenbezogener Daten an Dritte erfolgt nur, wenn dies erforderlich ist
+          oder Sie eingewilligt haben.
+        </p>
+        <p>Empfaenger koennen insbesondere sein:</p>
+        <ul>
+          <li>IT- und Hosting-Dienstleister</li>
+          <li>E-Mail-Dienstleister</li>
+          <li>Steuerberater/Buchhaltung</li>
+          <li>Behoerden (bei gesetzlicher Pflicht)</li>
+          <li>Transport- oder Abschleppdienstleister bei vereinbarter Abholung</li>
+        </ul>
+        <p>Eine Weitergabe zu Werbezwecken an Dritte erfolgt nicht.</p>
+      </>
+    ),
+  },
+  {
+    id: "hosting",
+    title: "9. Hosting",
+    content: (
+      <>
+        <p>
+          Unsere Website wird bei einem externen Hosting-Anbieter betrieben. Der Anbieter verarbeitet
+          technische Zugriffsdaten und gegebenenfalls Formulardaten, soweit dies zur Bereitstellung
+          der Website erforderlich ist.
+        </p>
+        <p>
+          Sofern gesetzlich erforderlich, wird mit dem Hosting-Anbieter ein Vertrag zur
+          Auftragsverarbeitung gemaess Art. 28 DSGVO geschlossen.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "cookies",
+    title: "10. Cookies und aehnliche Technologien",
+    content: (
+      <>
+        <p>
+          Unsere Website kann Cookies oder aehnliche Technologien verwenden. Technisch notwendige
+          Cookies dienen der Funktion der Website.
+        </p>
+        <p>
+          Fuer nicht notwendige Cookies (z. B. Statistik, Marketing, Tracking, externe Medien) holen
+          wir vorab Ihre Einwilligung ein.
+        </p>
+        <p>
+          Rechtsgrundlagen: Art. 6 Abs. 1 lit. f DSGVO (notwendige Cookies), Art. 6 Abs. 1 lit. a
+          DSGVO sowie § 25 TDDDG (einwilligungspflichtige Speicher-/Zugriffsvorgaenge).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "externe-dienste",
+    title: "11. Externe Dienste",
+    content: (
+      <>
+        <p>
+          Wenn externe Dienste eingebunden werden (z. B. Karten, Videos, Analyse-Tools oder
+          Messenger), koennen personenbezogene Daten an diese Anbieter uebertragen werden.
+        </p>
+        <p>
+          Nicht technisch notwendige externe Dienste werden erst nach Ihrer Einwilligung geladen.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "whatsapp",
+    title: "12. WhatsApp-Kontakt",
+    content: (
+      <>
+        <p>
+          Wenn Sie uns ueber WhatsApp kontaktieren, verarbeitet WhatsApp bzw. Meta eigene
+          personenbezogene Daten. Wir haben keinen vollstaendigen Einfluss auf diese Verarbeitung.
+        </p>
+        <p>
+          Wir verwenden Ihre WhatsApp-Nachrichten ausschliesslich zur Bearbeitung Ihrer Anfrage. Falls
+          Sie keine WhatsApp-Kommunikation wuenschen, koennen Sie uns alternativ per Telefon oder
+          E-Mail kontaktieren.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "rechte",
+    title: "13. Ihre Rechte",
+    content: (
+      <>
+        <p>Sie haben nach DSGVO insbesondere folgende Rechte:</p>
+        <ul>
+          <li>Auskunft (Art. 15 DSGVO)</li>
+          <li>Berichtigung (Art. 16 DSGVO)</li>
+          <li>Loeschung (Art. 17 DSGVO)</li>
+          <li>Einschraenkung der Verarbeitung (Art. 18 DSGVO)</li>
+          <li>Datenuebertragbarkeit (Art. 20 DSGVO)</li>
+          <li>Widerspruch (Art. 21 DSGVO)</li>
+          <li>Widerruf erteilter Einwilligungen mit Wirkung fuer die Zukunft</li>
+          <li>Beschwerde bei einer Datenschutzaufsichtsbehoerde</li>
+        </ul>
+        <p>
+          Zur Ausuebung Ihrer Rechte erreichen Sie uns unter:
+          <br />
+          {COMPANY.email}
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "tls",
+    title: "14. SSL-/TLS-Verschluesselung",
+    content: (
+      <p>
+        Unsere Website nutzt aus Sicherheitsgruenden eine SSL-/TLS-Verschluesselung. Eine
+        verschluesselte Verbindung erkennen Sie an der Browserzeile mit "https://" und dem
+        Schloss-Symbol.
+      </p>
+    ),
+  },
+  {
+    id: "aenderungen",
+    title: "15. Aenderung dieser Datenschutzerklaerung",
+    content: (
+      <p>
+        Wir behalten uns vor, diese Datenschutzerklaerung anzupassen, wenn sich technische, rechtliche
+        oder organisatorische Rahmenbedingungen aendern.
+        <br />
+        Stand: April 2026
+      </p>
+    ),
+  },
+];
 
 export default async function DatenschutzPage({
   params,
@@ -40,129 +320,18 @@ export default async function DatenschutzPage({
     de: {
       eyebrow: "Privacy Policy",
       title: "Datenschutzerklaerung",
-      description:
-        "Informationen zur Verarbeitung personenbezogener Daten bei der Nutzung unserer Website und Services.",
+      description: "Datenschutzinformationen gemaess DSGVO fuer die Nutzung unserer Website.",
       tocLabel: "Inhaltsverzeichnis",
       legalInfoLabel: "Datenschutzinformationen gemaess DSGVO",
       sections: [
+        ...deSections,
         {
-          id: "ueberblick",
-          title: "1. Datenschutz auf einen Blick",
-          content: (
-            <>
-              <p>
-                Wir verarbeiten personenbezogene Daten nur, soweit dies fuer den Betrieb unserer
-                Website, die Bearbeitung von Anfragen und die Anbahnung oder Abwicklung von
-                Geschaeftsbeziehungen erforderlich ist.
-              </p>
-              <p>
-                Personenbezogene Daten sind alle Informationen, mit denen Sie persoenlich identifiziert
-                werden koennen.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "verantwortliche-stelle",
-          title: "2. Verantwortliche Stelle",
-          content: (
-            <>
-              <p>
-                Verantwortlich fuer die Datenverarbeitung:
-                <br />
-                Autoankauf Deutschland
-                <br />
-                [Name der juristischen Person]
-                <br />
-                [Strasse und Hausnummer], [PLZ] [Ort]
-                <br />
-                E-Mail: datenschutz@autoankauf.de
-              </p>
-              <p>
-                Weitere Anbieterangaben finden Sie im{" "}
-                <Link href={getLocalizedHref("/impressum")}>Impressum</Link>.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "rechtsgrundlagen",
-          title: "3. Rechtsgrundlagen",
-          content: (
-            <ul>
-              <li>Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung und Vertragserfuellung)</li>
-              <li>Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtungen)</li>
-              <li>Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)</li>
-              <li>Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</li>
-            </ul>
-          ),
-        },
-        {
-          id: "datenquellen",
-          title: "4. Welche Daten wir verarbeiten",
-          content: (
-            <>
-              <p>
-                <strong>Technische Daten:</strong> z. B. IP-Adresse, Browsertyp, Datum/Uhrzeit,
-                Logdaten beim Aufruf der Website.
-              </p>
-              <p>
-                <strong>Kontakt- und Formulardaten:</strong> z. B. Name, Telefonnummer, E-Mail,
-                Fahrzeugangaben und Nachrichtentexte.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "zwecke",
-          title: "5. Zwecke der Datenverarbeitung",
-          content: (
-            <ul>
-              <li>Bereitstellung und Sicherheit der Website</li>
-              <li>Bearbeitung von Kontakt- und Angebotsanfragen</li>
-              <li>Kundenkommunikation und Terminabstimmung</li>
-              <li>Erfuellung gesetzlicher Dokumentationspflichten</li>
-            </ul>
-          ),
-        },
-        {
-          id: "empfaenger",
-          title: "6. Empfaenger und Speicherdauer",
-          content: (
-            <>
-              <p>
-                Wir setzen Auftragsverarbeiter ein (z. B. Hosting oder E-Mail-Versand), die Daten
-                ausschliesslich auf Grundlage unserer Weisungen verarbeiten.
-              </p>
-              <p>
-                Daten werden nur so lange gespeichert, wie es fuer den jeweiligen Zweck erforderlich
-                ist oder gesetzliche Aufbewahrungspflichten bestehen.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "rechte",
-          title: "7. Ihre Rechte",
-          content: (
-            <ul>
-              <li>Auskunft (Art. 15 DSGVO)</li>
-              <li>Berichtigung (Art. 16 DSGVO)</li>
-              <li>Loeschung (Art. 17 DSGVO)</li>
-              <li>Einschraenkung (Art. 18 DSGVO)</li>
-              <li>Datenuebertragbarkeit (Art. 20 DSGVO)</li>
-              <li>Widerspruch (Art. 21 DSGVO)</li>
-            </ul>
-          ),
-        },
-        {
-          id: "kontakt",
-          title: "8. Datenschutz-Kontakt",
+          id: "impressum-link",
+          title: "Weitere rechtliche Angaben",
           content: (
             <p>
-              Bei Fragen zum Datenschutz erreichen Sie uns unter:
-              <br />
-              datenschutz@autoankauf.de
+              Weitere Anbieterangaben finden Sie im{" "}
+              <Link href={getLocalizedHref("/impressum")}>Impressum</Link>.
             </p>
           ),
         },
@@ -172,126 +341,29 @@ export default async function DatenschutzPage({
       eyebrow: "Privacy Policy",
       title: "Privacy Policy",
       description:
-        "Information about how we process personal data when you use our website and services.",
+        "GDPR-related privacy information. The complete legal wording below is provided in German.",
       tocLabel: "Contents",
-      legalInfoLabel: "Data protection information under GDPR",
+      legalInfoLabel: "Data protection information (GDPR)",
       sections: [
         {
-          id: "overview",
-          title: "1. Data protection at a glance",
-          content: (
-            <>
-              <p>
-                We process personal data only to the extent necessary to operate our website, respond
-                to enquiries, and prepare or perform contractual relationships.
-              </p>
-              <p>
-                Personal data means any information that can identify you directly or indirectly.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "controller",
-          title: "2. Data controller",
-          content: (
-            <>
-              <p>
-                Responsible for data processing:
-                <br />
-                Autoankauf Deutschland
-                <br />
-                [Legal entity name]
-                <br />
-                [Street and number], [ZIP] [City]
-                <br />
-                E-mail: datenschutz@autoankauf.de
-              </p>
-              <p>
-                Further provider details are available in the{" "}
-                <Link href={getLocalizedHref("/impressum")}>Imprint</Link>.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "legal-basis",
-          title: "3. Legal basis",
-          content: (
-            <ul>
-              <li>Art. 6(1)(b) GDPR (pre-contractual and contractual measures)</li>
-              <li>Art. 6(1)(c) GDPR (legal obligations)</li>
-              <li>Art. 6(1)(f) GDPR (legitimate interests)</li>
-              <li>Art. 6(1)(a) GDPR (consent, where required)</li>
-            </ul>
-          ),
-        },
-        {
-          id: "data-categories",
-          title: "4. Data we process",
-          content: (
-            <>
-              <p>
-                <strong>Technical data:</strong> e.g. IP address, browser type, date/time, server log
-                data.
-              </p>
-              <p>
-                <strong>Contact and form data:</strong> e.g. name, phone number, e-mail, vehicle data,
-                and messages.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "purposes",
-          title: "5. Processing purposes",
-          content: (
-            <ul>
-              <li>Website operation and security</li>
-              <li>Handling contact and quote requests</li>
-              <li>Customer communication and scheduling</li>
-              <li>Compliance with legal retention duties</li>
-            </ul>
-          ),
-        },
-        {
-          id: "recipients",
-          title: "6. Recipients and retention",
-          content: (
-            <>
-              <p>
-                We use processors (e.g. hosting and e-mail providers) who process data solely under our
-                instructions.
-              </p>
-              <p>
-                Data is retained only as long as necessary for the specific purpose or as required by
-                law.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "rights",
-          title: "7. Your rights",
-          content: (
-            <ul>
-              <li>Access (Art. 15 GDPR)</li>
-              <li>Rectification (Art. 16 GDPR)</li>
-              <li>Erasure (Art. 17 GDPR)</li>
-              <li>Restriction (Art. 18 GDPR)</li>
-              <li>Data portability (Art. 20 GDPR)</li>
-              <li>Objection (Art. 21 GDPR)</li>
-            </ul>
-          ),
-        },
-        {
-          id: "contact",
-          title: "8. Privacy contact",
+          id: "notice",
+          title: "Important note",
           content: (
             <p>
-              For privacy-related questions, contact us at:
-              <br />
-              datenschutz@autoankauf.de
+              This page contains the full legal privacy text in German to ensure legal consistency with
+              the business location and governing law. For privacy-related questions, contact us at{" "}
+              {COMPANY.email}.
+            </p>
+          ),
+        },
+        ...deSections,
+        {
+          id: "imprint-link",
+          title: "Further legal details",
+          content: (
+            <p>
+              Further provider details are available in the{" "}
+              <Link href={getLocalizedHref("/impressum")}>Imprint</Link>.
             </p>
           ),
         },
@@ -301,127 +373,29 @@ export default async function DatenschutzPage({
       eyebrow: "Politique de confidentialite",
       title: "Politique de confidentialite",
       description:
-        "Informations sur le traitement des donnees personnelles lors de l'utilisation de notre site et de nos services.",
+        "Informations de protection des donnees (RGPD). Le texte juridique complet ci-dessous est fourni en allemand.",
       tocLabel: "Sommaire",
-      legalInfoLabel: "Informations de protection des donnees selon le RGPD",
+      legalInfoLabel: "Informations de protection des donnees (RGPD)",
       sections: [
         {
-          id: "apercu",
-          title: "1. Protection des donnees en bref",
-          content: (
-            <>
-              <p>
-                Nous traitons les donnees personnelles uniquement dans la mesure necessaire pour
-                exploiter le site, traiter les demandes et preparer ou executer des relations
-                contractuelles.
-              </p>
-              <p>
-                Les donnees personnelles sont toutes les informations permettant de vous identifier.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "responsable",
-          title: "2. Responsable du traitement",
-          content: (
-            <>
-              <p>
-                Responsable du traitement:
-                <br />
-                Autoankauf Deutschland
-                <br />
-                [Raison sociale]
-                <br />
-                [Rue et numero], [Code postal] [Ville]
-                <br />
-                E-mail: datenschutz@autoankauf.de
-              </p>
-              <p>
-                Les informations legales complementaires figurent dans les{" "}
-                <Link href={getLocalizedHref("/impressum")}>mentions legales</Link>.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "bases-legales",
-          title: "3. Bases legales",
-          content: (
-            <ul>
-              <li>Art. 6(1)(b) RGPD (mesures precontractuelles et contractuelles)</li>
-              <li>Art. 6(1)(c) RGPD (obligations legales)</li>
-              <li>Art. 6(1)(f) RGPD (interets legitimes)</li>
-              <li>Art. 6(1)(a) RGPD (consentement, si necessaire)</li>
-            </ul>
-          ),
-        },
-        {
-          id: "donnees",
-          title: "4. Donnees traitees",
-          content: (
-            <>
-              <p>
-                <strong>Donnees techniques:</strong> adresse IP, type de navigateur, date/heure,
-                journaux serveur.
-              </p>
-              <p>
-                <strong>Donnees de contact et formulaires:</strong> nom, telephone, e-mail,
-                informations vehicule et messages.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "finalites",
-          title: "5. Finalites du traitement",
-          content: (
-            <ul>
-              <li>Exploitation et securite du site</li>
-              <li>Traitement des demandes de contact et d'offre</li>
-              <li>Communication client et planification</li>
-              <li>Respect des obligations legales de conservation</li>
-            </ul>
-          ),
-        },
-        {
-          id: "destinataires",
-          title: "6. Destinataires et conservation",
-          content: (
-            <>
-              <p>
-                Nous faisons appel a des sous-traitants (hebergement, e-mail) qui traitent les donnees
-                uniquement selon nos instructions.
-              </p>
-              <p>
-                Les donnees sont conservees uniquement pendant la duree necessaire ou imposee par la
-                loi.
-              </p>
-            </>
-          ),
-        },
-        {
-          id: "droits",
-          title: "7. Vos droits",
-          content: (
-            <ul>
-              <li>Acces (Art. 15 RGPD)</li>
-              <li>Rectification (Art. 16 RGPD)</li>
-              <li>Effacement (Art. 17 RGPD)</li>
-              <li>Limitation (Art. 18 RGPD)</li>
-              <li>Portabilite des donnees (Art. 20 RGPD)</li>
-              <li>Opposition (Art. 21 RGPD)</li>
-            </ul>
-          ),
-        },
-        {
-          id: "contact",
-          title: "8. Contact protection des donnees",
+          id: "notice",
+          title: "Information importante",
           content: (
             <p>
-              Pour toute question relative aux donnees personnelles:
-              <br />
-              datenschutz@autoankauf.de
+              Cette page contient le texte juridique complet en allemand afin d'assurer la coherence
+              juridique avec le droit applicable. Pour toute question sur la protection des donnees,
+              contactez-nous a l'adresse {COMPANY.email}.
+            </p>
+          ),
+        },
+        ...deSections,
+        {
+          id: "impressum-link",
+          title: "Informations legales complementaires",
+          content: (
+            <p>
+              Les informations legales complementaires figurent dans les{" "}
+              <Link href={getLocalizedHref("/impressum")}>mentions legales</Link>.
             </p>
           ),
         },

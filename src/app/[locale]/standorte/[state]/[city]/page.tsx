@@ -21,6 +21,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { formatNumber } from "@/lib/utils";
+import { getBaseUrl } from "@/lib/company";
 import { LeadForm } from "@/components/forms/lead-form";
 import { locales, type Locale } from "@/lib/i18n";
 import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
@@ -97,7 +98,7 @@ export default async function CityPage({ params }: Props) {
   const cityPageContent = city.content.page;
   const heroPillIcons = [Zap, Shield, TrendingUp];
 
-  const baseUrl = process.env.NEXT_PUBLIC_URL || "https://autoankauf.de";
+  const baseUrl = getBaseUrl();
 
   return (
     <div className="relative overflow-hidden">
