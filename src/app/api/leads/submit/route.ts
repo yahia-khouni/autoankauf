@@ -8,12 +8,50 @@ import {
   sendLeadCustomerConfirmationEmail,
 } from "@/lib/email/lead-emails";
 
-// CSRF: allowed origins — add your production domain here
-const ALLOWED_ORIGINS = [
-  process.env.NEXT_PUBLIC_URL,
-  "http://localhost:3000",
-  "http://localhost:3001",
-].filter(Boolean) as string[];
+function normalizeOrigin(input?: string | null): string | null {
+  const value = input?.trim();
+  if (!value) return null;
+
+  const withProtocol = /^https?:\/\//i.test(value)
+    ? value
+    : /^(localhost|127\.0\.0\.1)(:\d+)?$/i.test(value)
+      ? `http://${value}`
+      : `https://${value}`;
+
+  try {
+    return new URL(withProtocol).origin;
+  } catch {
+    return null;
+  }
+}
+
+function getRequestOrigin(request: NextRequest): string | null {
+  const origin = request.headers.get("origin");
+  if (origin) {
+    const normalized = normalizeOrigin(origin);
+    if (normalized) return normalized;
+  }
+
+  const referer = request.headers.get("referer");
+  if (referer) {
+    const normalized = normalizeOrigin(referer);
+    if (normalized) return normalized;
+  }
+
+  return null;
+}
+
+const ALLOWED_ORIGINS = new Set(
+  [
+    process.env.NEXT_PUBLIC_URL,
+    process.env.VERCEL_PROJECT_PRODUCTION_URL,
+    process.env.VERCEL_URL,
+    "http://localhost:3000",
+    "http://localhost:3001",
+  ]
+    .map(normalizeOrigin)
+    .filter((origin): origin is string => Boolean(origin))
+);
 
 function getClientIp(request: NextRequest): string {
   return (
@@ -25,10 +63,16 @@ function getClientIp(request: NextRequest): string {
 
 export async function POST(request: NextRequest) {
   // ── CSRF: Origin check ────────────────────────────────────────────────────
-  const origin = request.headers.get("origin") || request.headers.get("referer") || "";
-  const isAllowedOrigin = ALLOWED_ORIGINS.some((allowed) => origin.startsWith(allowed));
+  const requestOrigin = getRequestOrigin(request);
+  const hostOrigin = request.nextUrl.origin;
+  const isAllowedOrigin =
+    requestOrigin !== null &&
+    (requestOrigin === hostOrigin || ALLOWED_ORIGINS.has(requestOrigin));
+
   if (!isAllowedOrigin) {
-    logger.warn(`[Submit] CSRF blocked — origin: ${origin}`);
+    logger.warn(
+      `[Submit] CSRF blocked — origin: ${requestOrigin ?? "missing"}, host: ${hostOrigin}`
+    );
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }
 
