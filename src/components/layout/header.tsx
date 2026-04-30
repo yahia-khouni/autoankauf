@@ -8,7 +8,6 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone, MessageCircle, Star, ArrowRight, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { COMPANY } from "@/lib/company";
 import { LanguageSwitcher } from "./language-switcher";
 
 export function Header() {
@@ -101,13 +100,13 @@ export function Header() {
         <div className="bg-black border-b border-white/10 text-white/90 py-1.5">
           <div className="container flex justify-between items-center text-xs font-medium tracking-wide">
             <div className="flex items-center gap-6">
-              <a href={COMPANY.phoneHref} className="flex items-center gap-2 hover:text-gold-400 transition-colors">
+              <a href="tel:+4912345678900" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
                 <Phone className="h-3.5 w-3.5 text-gold-400" />
-                {COMPANY.phoneDisplayIntl}
+                +49 123 456 789 00
               </a>
               <div className="w-px h-3 bg-white/20" />
               <a
-                href={COMPANY.whatsAppHref}
+                href="https://wa.me/4912345678900"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-gold-400 transition-colors"
@@ -136,12 +135,12 @@ export function Header() {
         {/* ── LOGO ── */}
         <Link
           href={getLocalizedHref("/")}
-          className="group flex items-center gap-1.5 sm:gap-2 flex-shrink-0 min-w-0 max-w-[calc(100%-104px)] sm:max-w-[calc(100%-120px)] xl:max-w-none"
-          aria-label={`${COMPANY.legalName} – Ihr Premium Autoankauf`}
+          className="group flex items-center gap-1.5 sm:gap-2 flex-shrink-0 min-w-0 max-w-[calc(100%-124px)] sm:max-w-[calc(100%-136px)] xl:max-w-none"
+          aria-label="AUTOANKAUF FAIR · SCHNELL · ZUVERLÄSSIG"
         >
           <Image
             src="/images/logo.png"
-            alt={COMPANY.legalName}
+            alt="Autoankauf Deutschland"
             width={320}
             height={100}
             priority
@@ -152,27 +151,31 @@ export function Header() {
                 : "h-[50px] md:h-[56px] shadow-[0_8px_22px_rgba(15,23,42,0.28)]"
             )}
           />
-          <div className="min-w-0 flex flex-col leading-none gap-[1px]">
-            <span className="flex items-baseline gap-0">
-              <span
-                className={cn(
-                  "text-[14px] sm:text-[16px] md:text-[17px] font-black tracking-tight transition-colors duration-300",
-                  isScrolled ? "text-navy-900" : "text-white"
-                )}
-              >
-                Auto
-              </span>
-              <span className="text-[14px] sm:text-[16px] md:text-[17px] font-black tracking-tight text-gold-400">
-                ankauf
-              </span>
-            </span>
+          <div className="min-w-0 flex flex-col leading-none gap-[3px]">
             <span
               className={cn(
-                "text-[7px] sm:text-[8px] md:text-[9px] font-bold uppercase tracking-[0.12em] sm:tracking-[0.14em] transition-colors duration-300",
-                isScrolled ? "text-slate-500" : "text-white/65"
+                "text-[12px] sm:text-[14px] md:text-[16px] font-black uppercase tracking-[0.1em] transition-colors duration-300 truncate",
+                isScrolled ? "text-navy-900" : "text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.35)]"
               )}
             >
-              Ihr <span className="text-gold-400">Premium</span> Autoankauf
+              AUTOANKAUF
+            </span>
+            {/* Gold separator rule */}
+            <div
+              className={cn(
+                "h-px w-full transition-all duration-300",
+                isScrolled
+                  ? "bg-gradient-to-r from-gold-400 via-gold-300 to-transparent"
+                  : "bg-gradient-to-r from-gold-400/90 via-gold-300/60 to-transparent"
+              )}
+            />
+            <span
+              className={cn(
+                "text-[6.5px] sm:text-[7.5px] md:text-[8.5px] font-extrabold uppercase tracking-[0.18em] sm:tracking-[0.22em] transition-colors duration-300 truncate",
+                isScrolled ? "text-gold-600" : "text-gold-300/95 drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+              )}
+            >
+              FAIR · SCHNELL · ZUVERLÄSSIG
             </span>
           </div>
         </Link>
@@ -279,17 +282,13 @@ export function Header() {
           {/* Panel header */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/8 shrink-0">
             <div className="flex items-center gap-2.5">
-              <div className="flex flex-col leading-none gap-[2px]">
-                <span className="flex items-baseline gap-0">
-                  <span className="text-[12px] font-black tracking-tight text-white">
-                    Auto
-                  </span>
-                  <span className="text-[12px] font-black tracking-tight text-gold-400">
-                    ankauf
-                  </span>
+              <div className="flex flex-col leading-none gap-[3px]">
+                <span className="text-[11px] font-black tracking-[0.1em] text-white uppercase">
+                  AUTOANKAUF
                 </span>
-                <span className="text-[7px] font-bold uppercase tracking-[0.16em] text-white/60">
-                  Ihr <span className="text-gold-400">Premium</span> Autoankauf
+                <div className="h-px w-full bg-gradient-to-r from-gold-400/90 via-gold-300/60 to-transparent" />
+                <span className="text-[6.5px] font-extrabold uppercase tracking-[0.18em] text-gold-300/95">
+                  FAIR · SCHNELL · ZUVERLÄSSIG
                 </span>
               </div>
             </div>
@@ -370,7 +369,7 @@ export function Header() {
               }}
             >
               <a
-                href={COMPANY.phoneHref}
+                href="tel:+49123456789"
                 className="group flex items-center gap-3.5 py-3.5 px-4 rounded-xl hover:bg-white/6 text-white/75 hover:text-white transition-all active:scale-[0.98]"
               >
                 <div className="w-9 h-9 rounded-xl bg-white/6 border border-white/8 flex items-center justify-center text-gold-400 flex-shrink-0">
@@ -378,12 +377,12 @@ export function Header() {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-white/30 uppercase tracking-wider">Telefon</p>
-                  <p className="text-sm font-semibold text-white/85">{COMPANY.phoneDisplayIntl}</p>
+                  <p className="text-sm font-semibold text-white/85">+49 (0) 123 456 789</p>
                 </div>
               </a>
 
               <a
-                href={COMPANY.whatsAppHref}
+                href="https://wa.me/49123456789"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3.5 py-3.5 px-4 rounded-xl hover:bg-white/6 text-white/75 hover:text-white transition-all active:scale-[0.98]"
