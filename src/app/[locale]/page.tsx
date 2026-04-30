@@ -1,5 +1,6 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { HeroSection } from "@/components/sections/hero";
+import { WhoWeAreSection } from "@/components/sections/who-we-are";
 import { HowItWorksSection } from "@/components/sections/how-it-works";
 import { WhyUsSection } from "@/components/sections/why-us";
 import { TestimonialsSection } from "@/components/sections/testimonials";
@@ -19,15 +20,28 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const faqT = await getTranslations({ locale, namespace: "faq" });
+
+  const homeFaqs = [
+    { q: faqT("homeQ1"), a: faqT("homeA1") },
+    { q: faqT("homeQ2"), a: faqT("homeA2") },
+    { q: faqT("homeQ3"), a: faqT("homeA3") },
+    { q: faqT("homeQ4"), a: faqT("homeA4") },
+    { q: faqT("homeQ5"), a: faqT("homeA5") },
+    { q: faqT("homeQ6"), a: faqT("homeA6") },
+    { q: faqT("homeQ7"), a: faqT("homeA7") },
+    { q: faqT("homeQ8"), a: faqT("homeA8") },
+  ];
 
   return (
     <>
       <HeroSection />
+      <WhoWeAreSection />
       <HowItWorksSection />
       <WhyUsSection />
       <TestimonialsSection />
       <LocationsMapSection />
-      <FAQSection />
+      <FAQSection faqs={homeFaqs} />
       <CTASection />
     </>
   );
