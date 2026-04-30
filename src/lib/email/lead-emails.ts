@@ -1,5 +1,5 @@
 import { renderEmailTemplate } from "@/lib/email/templates";
-import { sendSmtpEmail } from "@/lib/email/smtp";
+import { sendResendEmail } from "@/lib/email/resend";
 
 const CONTACT_METHOD_LABELS: Record<string, string> = {
   PHONE: "Telefon",
@@ -61,7 +61,7 @@ export async function sendLeadCustomerConfirmationEmail(payload: LeadEmailPayloa
     offeredPrice: payload.offeredPrice,
   });
 
-  return sendSmtpEmail({
+  return sendResendEmail({
     to: payload.email,
     subject: "Vielen Dank fur Ihre Anfrage bei Autoankauf Deutschland",
     html,
@@ -88,7 +88,7 @@ export async function sendLeadAdminNotificationEmail(payload: LeadEmailPayload) 
     adminLeadUrl: getAdminLeadUrl(payload.leadId),
   });
 
-  return sendSmtpEmail({
+  return sendResendEmail({
     to: getAdminEmailRecipient(),
     subject: `Neue Anfrage: ${payload.carMake} ${payload.carModel} (${payload.carYear})`,
     html,

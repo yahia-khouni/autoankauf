@@ -15,7 +15,7 @@ This is an SEO-optimized website designed to:
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS + shadcn/ui components
 - **Database**: PostgreSQL with Prisma ORM
-- **Email**: SMTP (Nodemailer + Handlebars templates)
+- **Email**: Resend API + Handlebars templates
 - **i18n**: next-intl (German, English, French)
 - **Hosting**: Vercel (recommended)
 
@@ -43,12 +43,13 @@ npm install
 ### Step 3: Configure Environment
 
 ```bash
-# Copy example env file
+# Copy example env file (or use .env.local for local development)
 cp .env.example .env
 
 # Edit .env with your values:
-# - DATABASE_URL (MySQL connection string)
-# - SMTP_HOST, SMTP_PORT, SMTP_SECURE, SMTP_USER, SMTP_PASS, SMTP_FROM
+# - DATABASE_URL (Supabase pooler connection string, pgbouncer=true)
+# - DIRECT_URL (Supabase direct connection for Prisma migrations)
+# - RESEND_API_KEY, RESEND_FROM
 # - ADMIN_EMAIL (notification recipient)
 # - SETUP_ADMIN_TOKEN (one-time admin setup secret)
 ```
@@ -62,7 +63,7 @@ npx prisma generate
 # Push schema to database (development)
 npx prisma db push
 
-# Or run migrations (production)
+# Or run migrations (production, uses DIRECT_URL)
 npx prisma migrate dev
 ```
 
@@ -148,10 +149,10 @@ npm run db:studio      # Open Prisma Studio
 npm run db:seed        # Seed database with data
 ```
 
-## 📧 Email Setup (SMTP)
+## 📧 Email Setup (Resend)
 
-1. Configure SMTP credentials in `.env` (`SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`)
-2. Set `SMTP_FROM` to your sender identity
+1. Add `RESEND_API_KEY` to `.env`
+2. Set `RESEND_FROM` to a verified sender/domain in Resend
 3. Set `ADMIN_EMAIL` for lead notifications
 4. Test lead submission to confirm both customer and admin emails are delivered
 
@@ -159,7 +160,7 @@ npm run db:seed        # Seed database with data
 
 1. Push to GitHub
 2. Import project in Vercel
-3. Add environment variables
+3. Add all environment variables from `.env.example` in Vercel Project Settings
 4. Deploy
 
 ### One-Time Admin Setup (after deployment)
@@ -189,7 +190,7 @@ Vercel automatically:
 
 ### Phase 2: Core Functionality
 - [ ] Connect lead form to database
-- [ ] Implement email delivery via SMTP templates
+- [ ] Implement email delivery via Resend templates
 - [ ] Add file upload for car photos
 - [ ] Build admin dashboard
 
