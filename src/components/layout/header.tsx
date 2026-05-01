@@ -139,7 +139,7 @@ export function Header() {
           aria-label="AUTOANKAUF FAIR · SCHNELL · ZUVERLÄSSIG"
         >
           <Image
-            src="/images/logo.png"
+            src="/images/LOGO.png"
             alt="Autoankauf Deutschland"
             width={320}
             height={100}

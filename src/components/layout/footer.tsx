@@ -46,7 +46,7 @@ export function Footer() {
             >
               <div className="relative h-[54px] sm:h-16 w-[124px] sm:w-[138px] overflow-hidden rounded-none bg-white/95 border border-white/20 shadow-[0_6px_18px_rgba(2,6,23,0.3)]">
                 <Image
-                  src="/images/logo.png"
+                  src="/images/LOGO.png"
                   alt={COMPANY.legalName}
                   fill
                   sizes="(max-width: 640px) 124px, 138px"
