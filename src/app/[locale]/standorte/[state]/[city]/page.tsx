@@ -21,7 +21,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { formatNumber } from "@/lib/utils";
-import { getBaseUrl } from "@/lib/company";
+import { getBaseUrl, COMPANY } from "@/lib/company";
 import { LeadForm } from "@/components/forms/lead-form";
 import { locales, type Locale } from "@/lib/i18n";
 import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
@@ -116,6 +116,7 @@ export default async function CityPage({ params }: Props) {
         description={city.meta.description}
         url={`${baseUrl}/standorte/${state.slug}/${city.slug}`}
         areaServed={city.name}
+        telephone={COMPANY.phoneDisplayIntl}
         address={{
           addressLocality: city.name,
           addressRegion: state.name,

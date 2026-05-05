@@ -12,6 +12,7 @@ import {
   HelpCircle, XCircle, ThumbsUp, ChevronDown,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { COMPANY } from "@/lib/company";
 import { AnimateOnScroll } from "@/components/ui/animate-on-scroll";
 import { FaqContactCard } from "@/components/sections/faq-contact-card";
 
@@ -662,8 +663,8 @@ export default function SoFunktioniertsPage() {
                   title={t("faqContact")}
                   description={t("faqContactDesc")}
                   ctaLabel={t("faqCall")}
-                  phoneDisplay="+49 123 456 789 00"
-                  phoneHref="tel:+4912345678900"
+                  phoneDisplay={COMPANY.phoneDisplayIntl}
+                  phoneHref={COMPANY.phoneHref}
                 />
               </AnimateOnScroll>
             </div>
@@ -799,12 +800,12 @@ export default function SoFunktioniertsPage() {
               </Link>
 
               <a
-                href="tel:+4912345678900"
+                href={COMPANY.phoneHref}
                 id="cta-phone-link"
                 className="group w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl bg-white/8 hover:bg-white/15 border border-white/15 hover:border-white/30 text-white font-semibold text-base transition-all backdrop-blur-sm"
               >
                 <Phone className="h-4.5 h-4 w-4 text-gold-400" />
-                +49 123 456 789 00
+                {COMPANY.phoneDisplayIntl}
               </a>
             </div>
 

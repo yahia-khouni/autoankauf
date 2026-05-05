@@ -6,8 +6,8 @@ import { LegalPageShell } from "@/components/legal/legal-page-shell";
 import { COMPANY } from "@/lib/company";
 
 export const metadata: Metadata = {
-  title: `Imprint | ${COMPANY.legalName}`,
-  description: "Legal provider information and mandatory disclosures under German law.",
+  title: `Impressum | ${COMPANY.legalName}`,
+  description: "Rechtliche Pflichtangaben und Anbieterkennzeichnung gemäß deutschem Recht für Autoankauf SR.",
   keywords: ["Impressum", "Anbieterkennzeichnung", "Autoankauf SR", "rechtliche Angaben"],
 };
 

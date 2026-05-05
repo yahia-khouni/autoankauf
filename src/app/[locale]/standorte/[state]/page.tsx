@@ -18,7 +18,7 @@ import {
   Clock,
 } from "lucide-react";
 import { formatNumber } from "@/lib/utils";
-import { getBaseUrl } from "@/lib/company";
+import { getBaseUrl, COMPANY } from "@/lib/company";
 import { LeadForm } from "@/components/forms/lead-form";
 import { locales, type Locale } from "@/lib/i18n";
 import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
@@ -120,6 +120,7 @@ export default async function StatePage({ params }: Props) {
         description={state.meta.description}
         url={`${baseUrl}/standorte/${state.slug}`}
         areaServed={state.name}
+        telephone={COMPANY.phoneDisplayIntl}
         address={{
           addressLocality: state.capital,
           addressRegion: state.name,

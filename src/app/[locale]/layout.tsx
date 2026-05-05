@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
+import { getBaseUrl } from "@/lib/company";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import "@/app/globals.css";
@@ -12,7 +13,8 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
-  
+  const baseUrl = getBaseUrl();
+
   const titles: Record<Locale, string> = {
     de: "Autoankauf Deutschland - Schnell, Fair & Unkompliziert | Ihr Auto verkaufen",
     en: "Car Purchase Germany - Fast, Fair & Easy | Sell Your Car",
@@ -25,7 +27,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     fr: "Vendez votre voiture rapidement et a des prix equitables. Evaluation gratuite, paiement immediat, service dans toute l'Allemagne.",
   };
 
+  const canonicalUrl = locale === "de" ? baseUrl : `${baseUrl}/${locale}`;
+
   return {
+    metadataBase: new URL(baseUrl),
     title: {
       default: titles[locale],
       template: `%s | Autoankauf Deutschland`,
@@ -45,11 +50,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       shortcut: "/images/LOGO.png",
       apple: "/images/LOGO.png",
     },
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        "de": baseUrl,
+        "en": `${baseUrl}/en`,
+        "fr": `${baseUrl}/fr`,
+        "x-default": baseUrl,
+      },
+    },
     openGraph: {
       title: titles[locale],
       description: descriptions[locale],
       type: "website",
       locale: locale === "de" ? "de_DE" : locale === "en" ? "en_US" : "fr_FR",
+      url: canonicalUrl,
+      siteName: "Autoankauf SR",
     },
   };
 }

@@ -12,6 +12,7 @@ import {
   Wrench, BarChart2, Users, List, BookMarked, Tag,
   Lightbulb, Info,
 } from "lucide-react";
+import { COMPANY } from "@/lib/company";
 
 /* ════════════════════════════════════════════════════════════
    REVEAL — intersection-observer fade + slide
@@ -1080,8 +1081,8 @@ export default function BlogPage() {
                 title={t("faqContactTitle")}
                 description={t("faqContactDesc")}
                 ctaLabel={t("faqCall")}
-                phoneDisplay="+49 123 456 789 00"
-                phoneHref="tel:+4912345678900"
+                phoneDisplay={COMPANY.phoneDisplayIntl}
+                phoneHref={COMPANY.phoneHref}
               />
             </div>
 
@@ -1219,9 +1220,9 @@ export default function BlogPage() {
                 <span className="relative text-navy-900 text-lg">{t("ctaBtn")}</span>
                 <ArrowRight className="relative h-5 w-5 text-navy-900 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <a href="tel:+4912345678900"
+              <a href={COMPANY.phoneHref}
                 className="group w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl bg-white/8 hover:bg-white/15 border border-white/15 hover:border-white/30 text-white font-semibold text-base transition-all backdrop-blur-sm">
-                <Phone className="h-4 w-4 text-gold-400" />+49 123 456 789 00
+                <Phone className="h-4 w-4 text-gold-400" />{COMPANY.phoneDisplayIntl}
               </a>
             </div>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">

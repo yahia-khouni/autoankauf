@@ -5,6 +5,17 @@ import { getBaseUrl } from "@/lib/company";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
   const locales = ["de", "en", "fr"];
+  const lastModified = new Date("2026-05-05");
+
+  function buildAlternates(path: string) {
+    return {
+      languages: {
+        de: `${baseUrl}${path}`,
+        en: `${baseUrl}/en${path}`,
+        fr: `${baseUrl}/fr${path}`,
+      },
+    };
+  }
 
   const staticPages = [
     "",
@@ -28,9 +39,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       
       sitemap.push({
         url,
-        lastModified: new Date(),
+        lastModified,
         changeFrequency: page === "" ? "weekly" : "monthly",
         priority: page === "" ? 1 : page === "/standorte" ? 0.9 : 0.7,
+        alternates: buildAlternates(page || "/"),
       });
     });
   });
@@ -39,28 +51,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   states.forEach((state) => {
     locales.forEach((locale) => {
+      const statePath = `/standorte/${state.slug}`;
       const stateUrl = locale === "de"
-        ? `${baseUrl}/standorte/${state.slug}`
-        : `${baseUrl}/${locale}/standorte/${state.slug}`;
+        ? `${baseUrl}${statePath}`
+        : `${baseUrl}/${locale}${statePath}`;
 
       sitemap.push({
         url: stateUrl,
-        lastModified: new Date(),
+        lastModified,
         changeFrequency: "monthly",
         priority: 0.8,
+        alternates: buildAlternates(statePath),
       });
 
       const cities = getCitiesByState(state.slug);
       cities.forEach((city) => {
+        const cityPath = `/standorte/${state.slug}/${city.slug}`;
         const cityUrl = locale === "de"
-          ? `${baseUrl}/standorte/${state.slug}/${city.slug}`
-          : `${baseUrl}/${locale}/standorte/${state.slug}/${city.slug}`;
+          ? `${baseUrl}${cityPath}`
+          : `${baseUrl}/${locale}${cityPath}`;
 
         sitemap.push({
           url: cityUrl,
-          lastModified: new Date(),
+          lastModified,
           changeFrequency: "monthly",
           priority: 0.7,
+          alternates: buildAlternates(cityPath),
         });
       });
     });
@@ -68,3 +84,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return sitemap;
 }
+

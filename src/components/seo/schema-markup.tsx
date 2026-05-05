@@ -3,6 +3,8 @@
  * Renders JSON-LD <script> tags with structured data.
  */
 
+import { COMPANY } from "@/lib/company";
+
 interface BreadcrumbItem {
   name: string;
   url: string;
@@ -104,3 +106,39 @@ export function FAQSchema({ items }: { items: FAQItem[] }) {
     />
   );
 }
+
+/**
+ * Organization schema for the homepage — enables Google Knowledge Panel.
+ */
+export function OrganizationSchema() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AutoDealer",
+    name: COMPANY.legalName,
+    url: COMPANY.websiteUrl,
+    telephone: COMPANY.phoneDisplayIntl,
+    email: COMPANY.email,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: COMPANY.streetAddress,
+      addressLocality: COMPANY.city,
+      postalCode: COMPANY.postalCode,
+      addressCountry: COMPANY.countryCode,
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Deutschland",
+    },
+    priceRange: "$$",
+    description:
+      "Autoankauf SR kauft Ihr Auto schnell, fair und unkompliziert. Deutschlandweiter Service mit sofortiger Auszahlung.",
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+

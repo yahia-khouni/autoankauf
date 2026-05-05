@@ -8,6 +8,7 @@ import {
   MapPin, TrendingUp, CheckCircle, ArrowRight,
   Star, Sparkles, Phone, Lock, ThumbsUp,
 } from "lucide-react";
+import { COMPANY } from "@/lib/company";
 
 /* ══════════════════════════════════════════════
    REVEAL — intersection-observer fade+slide
@@ -212,11 +213,11 @@ export default function UeberUnsPage() {
                   <ArrowRight className="relative h-5 w-5 text-navy-900 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <a
-                  href="tel:+4912345678900"
+                  href={COMPANY.phoneHref}
                   className="inline-flex items-center gap-2 px-6 py-4 rounded-2xl bg-white/8 hover:bg-white/15 border border-white/15 text-white font-semibold transition-all backdrop-blur-sm"
                 >
                   <Phone className="h-4 w-4 text-gold-400" />
-                  +49 123 456 789 00
+                  {COMPANY.phoneDisplayIntl}
                 </a>
               </div>
             </Reveal>
@@ -499,11 +500,11 @@ export default function UeberUnsPage() {
                     <ArrowRight className="relative h-5 w-5 text-navy-900 group-hover:translate-x-1 transition-transform" />
                   </Link>
                   <a
-                    href="tel:+4912345678900"
+                    href={COMPANY.phoneHref}
                     className="group w-full inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl bg-navy-900 text-white font-semibold text-base transition-all hover:bg-navy-800"
                   >
                     <Phone className="h-4 w-4 text-gold-400" />
-                    +49 123 456 789 00
+                    {COMPANY.phoneDisplayIntl}
                   </a>
                 </div>
               </div>

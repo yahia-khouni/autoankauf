@@ -318,7 +318,7 @@ export default async function DatenschutzPage({
 
   const copyByLocale: Record<Locale, LocalizedCopy> = {
     de: {
-      eyebrow: "Privacy Policy",
+      eyebrow: "Datenschutz",
       title: "Datenschutzerklaerung",
       description: "Datenschutzinformationen gemaess DSGVO fuer die Nutzung unserer Website.",
       tocLabel: "Inhaltsverzeichnis",
