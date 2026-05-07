@@ -133,9 +133,9 @@ const BLOG_POSTS: BlogPost[] = [
       {
         heading: { de: "4. Das einfachste: Direkt an uns verkaufen", en: "4. The Easiest Option: Sell Directly to Us", fr: "4. L'option la plus simple : nous vendre directement" },
         body: {
-          de: "Sie möchten keinen Aufwand? Verkaufen Sie Ihr Auto direkt an autoankauf.de — kostenlos, ohne Insertionsgebühren, ohne Besichtigungstourismus. Wir kommen zu Ihnen, prüfen das Fahrzeug und zahlen sofort. Das gesamte Prozess dauert oft nur 48 Stunden.",
-          en: "Don't want the hassle? Sell your car directly to autoankauf.de — free of charge, no listing fees, no tire-kickers. We come to you, inspect the vehicle and pay on the spot. The entire process often takes just 48 hours.",
-          fr: "Vous ne voulez pas de tracas ? Vendez votre voiture directement à autoankauf.de — gratuitement, sans frais de vente, sans les curieux. Nous venons chez vous, inspectons le véhicule et payons sur place. Le processus complet prend souvent seulement 48 heures.",
+          de: "Sie möchten keinen Aufwand? Verkaufen Sie Ihr Auto direkt an autoankaufsr.de — kostenlos, ohne Insertionsgebühren, ohne Besichtigungstourismus. Wir kommen zu Ihnen, prüfen das Fahrzeug und zahlen sofort. Das gesamte Prozess dauert oft nur 48 Stunden.",
+          en: "Don't want the hassle? Sell your car directly to autoankaufsr.de — free of charge, no listing fees, no tire-kickers. We come to you, inspect the vehicle and pay on the spot. The entire process often takes just 48 hours.",
+          fr: "Vous ne voulez pas de tracas ? Vendez votre voiture directement à autoankaufsr.de — gratuitement, sans frais de vente, sans les curieux. Nous venons chez vous, inspectons le véhicule et payons sur place. Le processus complet prend souvent seulement 48 heures.",
         },
       },
     ],
@@ -271,9 +271,9 @@ const BLOG_POSTS: BlogPost[] = [
       {
         heading: { de: "Wir kaufen auch Unfallwagen", en: "We Also Buy Damaged Vehicles", fr: "Nous achetons aussi les véhicules accidentés" },
         body: {
-          de: "Bei autoankauf.de kaufen wir Fahrzeuge in jedem Zustand — mit Unfallschäden, Motorschäden, hoher Laufleistung oder technischen Problemen. Jedes Fahrzeug erhält eine faire, individuelle Bewertung basierend auf seinem tatsächlichen Marktwert. Füllen Sie einfach unser Formular aus und erhalten Sie innerhalb von 24 Stunden ein Angebot.",
-          en: "At autoankauf.de we buy vehicles in any condition — with accident damage, engine damage, high mileage or technical problems. Every vehicle receives a fair, individual valuation based on its actual market value. Simply fill out our form and receive an offer within 24 hours.",
-          fr: "Chez autoankauf.de, nous achetons des véhicules dans n'importe quel état — avec des dommages d'accident, des dommages moteur, un kilométrage élevé ou des problèmes techniques. Chaque véhicule reçoit une évaluation équitable et individuelle.",
+          de: "Bei autoankaufsr.de kaufen wir Fahrzeuge in jedem Zustand — mit Unfallschäden, Motorschäden, hoher Laufleistung oder technischen Problemen. Jedes Fahrzeug erhält eine faire, individuelle Bewertung basierend auf seinem tatsächlichen Marktwert. Füllen Sie einfach unser Formular aus und erhalten Sie innerhalb von 24 Stunden ein Angebot.",
+          en: "At autoankaufsr.de we buy vehicles in any condition — with accident damage, engine damage, high mileage or technical problems. Every vehicle receives a fair, individual valuation based on its actual market value. Simply fill out our form and receive an offer within 24 hours.",
+          fr: "Chez autoankaufsr.de, nous achetons des véhicules dans n'importe quel état — avec des dommages d'accident, des dommages moteur, un kilométrage élevé ou des problèmes techniques. Chaque véhicule reçoit une évaluation équitable et individuelle.",
         },
       },
     ],
@@ -304,14 +304,14 @@ const BLOG_POSTS: BlogPost[] = [
       {
         heading: { de: "Wann und warum abmelden?", en: "When and Why Deregister?", fr: "Quand et pourquoi désinscrire ?" },
         body: {
-          de: "Nach dem Verkauf Ihres Fahrzeugs müssen Sie es bei der Zulassungsstelle abmelden — oder der Käufer übernimmt es auf seinen Namen um. Die Abmeldung ist wichtig, damit Sie nicht mehr für Steuern und Versicherung haften. Bei autoankauf.de übernehmen wir die Abmeldung kostenlos für Sie — Sie müssen sich um nichts kümmern.",
-          en: "After selling your vehicle, you must deregister it at the registration office — or the buyer registers it in their name. Deregistration is important so you are no longer liable for taxes and insurance. At autoankauf.de, we handle the deregistration for you free of charge — you don't need to worry about anything.",
-          fr: "Après avoir vendu votre véhicule, vous devez le désinscrire à la préfecture — ou l'acheteur le réenregistre à son nom. La désinscription est importante pour que vous ne soyez plus responsable des taxes et de l'assurance. Chez autoankauf.de, nous nous occupons de la désinscription gratuitement pour vous.",
+          de: "Nach dem Verkauf Ihres Fahrzeugs müssen Sie es bei der Zulassungsstelle abmelden — oder der Käufer übernimmt es auf seinen Namen um. Die Abmeldung ist wichtig, damit Sie nicht mehr für Steuern und Versicherung haften. Bei autoankaufsr.de übernehmen wir die Abmeldung kostenlos für Sie — Sie müssen sich um nichts kümmern.",
+          en: "After selling your vehicle, you must deregister it at the registration office — or the buyer registers it in their name. Deregistration is important so you are no longer liable for taxes and insurance. At autoankaufsr.de, we handle the deregistration for you free of charge — you don't need to worry about anything.",
+          fr: "Après avoir vendu votre véhicule, vous devez le désinscrire à la préfecture — ou l'acheteur le réenregistre à son nom. La désinscription est importante pour que vous ne soyez plus responsable des taxes et de l'assurance. Chez autoankaufsr.de, nous nous occupons de la désinscription gratuitement pour vous.",
         },
         tip: {
-          de: "Kostenlos: Bei autoankauf.de erledigen wir die KFZ-Abmeldung vollständig und kostenlos für Sie.",
-          en: "Free of charge: At autoankauf.de, we handle the vehicle deregistration completely and free of charge for you.",
-          fr: "Gratuit : Chez autoankauf.de, nous nous occupons de la désinscription totalement et gratuitement pour vous.",
+          de: "Kostenlos: Bei autoankaufsr.de erledigen wir die KFZ-Abmeldung vollständig und kostenlos für Sie.",
+          en: "Free of charge: At autoankaufsr.de, we handle the vehicle deregistration completely and free of charge for you.",
+          fr: "Gratuit : Chez autoankaufsr.de, nous nous occupons de la désinscription totalement et gratuitement pour vous.",
         },
       },
       {
@@ -409,9 +409,9 @@ const BLOG_POSTS: BlogPost[] = [
           fr: "Faites toujours inspecter le véhicule par un expert ADAC ou TÜV indépendant — même si le vendeur montre un TÜV valide. Une inspection indépendante coûte environ 100 € et peut vous faire économiser des milliers d'euros.",
         },
         tip: {
-          de: "Gut zu wissen: Alle Fahrzeuge bei autoankauf.de durchlaufen eine 150-Punkte-Prüfung — Sie kaufen mit voller Sicherheit.",
-          en: "Good to know: All vehicles at autoankauf.de go through a 150-point inspection — you buy with full confidence.",
-          fr: "Bon à savoir : Tous les véhicules chez autoankauf.de passent une inspection en 150 points — vous achetez en toute sécurité.",
+          de: "Gut zu wissen: Alle Fahrzeuge bei autoankaufsr.de durchlaufen eine 150-Punkte-Prüfung — Sie kaufen mit voller Sicherheit.",
+          en: "Good to know: All vehicles at autoankaufsr.de go through a 150-point inspection — you buy with full confidence.",
+          fr: "Bon à savoir : Tous les véhicules chez autoankaufsr.de passent une inspection en 150 points — vous achetez en toute sécurité.",
         },
       },
     ],
@@ -447,9 +447,9 @@ const BLOG_POSTS: BlogPost[] = [
           fr: "Oui, il est possible de vendre une voiture qui n'est pas encore entièrement remboursée — mais cela nécessite quelques étapes. Premièrement : Contactez votre banque ou votre prestataire de financement et demandez le solde restant actuel et tout frais de remboursement anticipé.",
         },
         tip: {
-          de: "Wir helfen: Bei autoankauf.de können wir die Restfinanzierung direkt mit Ihrer Bank abwickeln — Sie erhalten den Differenzbetrag sofort.",
-          en: "We help: At autoankauf.de we can settle the remaining financing directly with your bank — you receive the difference amount immediately.",
-          fr: "Nous aidons : Chez autoankauf.de, nous pouvons régler le financement restant directement avec votre banque — vous recevez immédiatement le montant de la différence.",
+          de: "Wir helfen: Bei autoankaufsr.de können wir die Restfinanzierung direkt mit Ihrer Bank abwickeln — Sie erhalten den Differenzbetrag sofort.",
+          en: "We help: At autoankaufsr.de we can settle the remaining financing directly with your bank — you receive the difference amount immediately.",
+          fr: "Nous aidons : Chez autoankaufsr.de, nous pouvons régler le financement restant directement avec votre banque — vous recevez immédiatement le montant de la différence.",
         },
       },
     ],

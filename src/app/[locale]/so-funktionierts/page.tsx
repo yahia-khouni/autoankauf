@@ -157,7 +157,7 @@ function ComparisonSection({ t, leadFormHref }: { t: TFn; leadFormHref: string }
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-navy-900 tracking-tight mb-3">
             {(() => {
               const title = t("cmpTitle");
-              const hl = "autoankauf.de";
+              const hl = "autoankaufsr.de";
               const idx = title.indexOf(hl);
               if (idx === -1) return title;
               return (<>{title.slice(0, idx)}<span className="text-gold-gradient">{hl}</span>{title.slice(idx + hl.length)}</>);
@@ -635,7 +635,7 @@ export default function SoFunktioniertsPage() {
         </div>
       </section>
 
-      {/* ─── ⑥ COMPARISON — Traditional vs autoankauf.de ── */}
+      {/* ─── ⑥ COMPARISON — Traditional vs autoankaufsr.de ── */}
       <ComparisonSection t={t} leadFormHref={leadFormHref} />
 
       {/* ─── ⑦ FAQ — same layout as homepage FAQSection ──────────── */}

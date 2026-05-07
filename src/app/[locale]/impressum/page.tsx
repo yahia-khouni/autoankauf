@@ -3,13 +3,44 @@ import { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { locales, type Locale } from "@/lib/i18n";
 import { LegalPageShell } from "@/components/legal/legal-page-shell";
-import { COMPANY } from "@/lib/company";
+import { COMPANY, getBaseUrl } from "@/lib/company";
 
-export const metadata: Metadata = {
-  title: `Impressum | ${COMPANY.legalName}`,
-  description: "Rechtliche Pflichtangaben und Anbieterkennzeichnung gemäß deutschem Recht für Autoankauf SR.",
-  keywords: ["Impressum", "Anbieterkennzeichnung", "Autoankauf SR", "rechtliche Angaben"],
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const baseUrl = getBaseUrl();
+  const path = "/impressum";
+  const localizedPath = locale === "de" ? path : `/${locale}${path}`;
+  const canonicalUrl = `${baseUrl}${localizedPath}`;
+  const title = `Impressum | ${COMPANY.legalName}`;
+  const description =
+    "Rechtliche Pflichtangaben und Anbieterkennzeichnung gemäß deutschem Recht für Autoankauf SR.";
+
+  return {
+    title,
+    description,
+    keywords: ["Impressum", "Anbieterkennzeichnung", "Autoankauf SR", "rechtliche Angaben"],
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        de: `${baseUrl}${path}`,
+        en: `${baseUrl}/en${path}`,
+        fr: `${baseUrl}/fr${path}`,
+        "x-default": `${baseUrl}${path}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: canonicalUrl,
+      siteName: "Autoankauf SR",
+    },
+  };
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

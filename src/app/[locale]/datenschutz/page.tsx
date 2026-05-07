@@ -4,13 +4,43 @@ import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 import { locales, type Locale } from "@/lib/i18n";
 import { LegalPageShell } from "@/components/legal/legal-page-shell";
-import { COMPANY } from "@/lib/company";
+import { COMPANY, getBaseUrl } from "@/lib/company";
 
-export const metadata: Metadata = {
-  title: `Datenschutz | ${COMPANY.legalName}`,
-  description: "Datenschutzinformationen gemaess DSGVO fuer Autoankauf SR.",
-  keywords: ["Datenschutz", "DSGVO", "Autoankauf SR", "TDDDG", "personenbezogene Daten"],
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const baseUrl = getBaseUrl();
+  const path = "/datenschutz";
+  const localizedPath = locale === "de" ? path : `/${locale}${path}`;
+  const canonicalUrl = `${baseUrl}${localizedPath}`;
+  const title = `Datenschutz | ${COMPANY.legalName}`;
+  const description = "Datenschutzinformationen gemaess DSGVO fuer Autoankauf SR.";
+
+  return {
+    title,
+    description,
+    keywords: ["Datenschutz", "DSGVO", "Autoankauf SR", "TDDDG", "personenbezogene Daten"],
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        de: `${baseUrl}${path}`,
+        en: `${baseUrl}/en${path}`,
+        fr: `${baseUrl}/fr${path}`,
+        "x-default": `${baseUrl}${path}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: canonicalUrl,
+      siteName: "Autoankauf SR",
+    },
+  };
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

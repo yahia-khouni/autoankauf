@@ -27,8 +27,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     fr: "Vendez votre voiture rapidement et a des prix equitables. Evaluation gratuite, paiement immediat, service dans toute l'Allemagne.",
   };
 
-  const canonicalUrl = locale === "de" ? baseUrl : `${baseUrl}/${locale}`;
-
   return {
     metadataBase: new URL(baseUrl),
     title: {
@@ -51,21 +49,31 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       apple: "/images/LOGO.png",
     },
     alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        "de": baseUrl,
-        "en": `${baseUrl}/en`,
-        "fr": `${baseUrl}/fr`,
-        "x-default": baseUrl,
-      },
+      canonical: "./",
     },
     openGraph: {
       title: titles[locale],
       description: descriptions[locale],
       type: "website",
       locale: locale === "de" ? "de_DE" : locale === "en" ? "en_US" : "fr_FR",
-      url: canonicalUrl,
+      url: "./",
       siteName: "Autoankauf SR",
+      images: [
+        {
+          url: "/images/LOGO.png",
+          alt: "Autoankauf SR",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: titles[locale],
+      description: descriptions[locale],
+      images: ["/images/LOGO.png"],
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }

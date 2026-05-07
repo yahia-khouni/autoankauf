@@ -17,11 +17,39 @@ import { getBaseUrl } from "@/lib/company";
 
 const nation = getNationData();
 
-export const metadata: Metadata = {
-  title: nation.meta.title,
-  description: nation.meta.description,
-  keywords: nation.meta.keywords,
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const baseUrl = getBaseUrl();
+  const path = "/standorte";
+  const localizedPath = locale === "de" ? path : `/${locale}${path}`;
+  const canonicalUrl = `${baseUrl}${localizedPath}`;
+
+  return {
+    title: nation.meta.title,
+    description: nation.meta.description,
+    keywords: nation.meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        de: `${baseUrl}${path}`,
+        en: `${baseUrl}/en${path}`,
+        fr: `${baseUrl}/fr${path}`,
+        "x-default": `${baseUrl}${path}`,
+      },
+    },
+    openGraph: {
+      title: nation.meta.title,
+      description: nation.meta.description,
+      type: "website",
+      url: canonicalUrl,
+      siteName: "Autoankauf SR",
+    },
+  };
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

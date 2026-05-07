@@ -4,13 +4,43 @@ import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 import { locales, type Locale } from "@/lib/i18n";
 import { LegalPageShell } from "@/components/legal/legal-page-shell";
-import { COMPANY } from "@/lib/company";
+import { COMPANY, getBaseUrl } from "@/lib/company";
 
-export const metadata: Metadata = {
-  title: `AGB | ${COMPANY.legalName}`,
-  description: "Allgemeine Geschaeftsbedingungen fuer Anfragen, Angebote und Fahrzeugankauf.",
-  keywords: ["AGB", "Autoankauf", "Fahrzeugankauf", "Vertragsbedingungen", "Autoankauf SR"],
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const baseUrl = getBaseUrl();
+  const path = "/agb";
+  const localizedPath = locale === "de" ? path : `/${locale}${path}`;
+  const canonicalUrl = `${baseUrl}${localizedPath}`;
+  const title = `AGB | ${COMPANY.legalName}`;
+  const description = "Allgemeine Geschaeftsbedingungen fuer Anfragen, Angebote und Fahrzeugankauf.";
+
+  return {
+    title,
+    description,
+    keywords: ["AGB", "Autoankauf", "Fahrzeugankauf", "Vertragsbedingungen", "Autoankauf SR"],
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        de: `${baseUrl}${path}`,
+        en: `${baseUrl}/en${path}`,
+        fr: `${baseUrl}/fr${path}`,
+        "x-default": `${baseUrl}${path}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: canonicalUrl,
+      siteName: "Autoankauf SR",
+    },
+  };
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

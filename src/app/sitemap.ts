@@ -5,14 +5,16 @@ import { getBaseUrl } from "@/lib/company";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
   const locales = ["de", "en", "fr"];
-  const lastModified = new Date("2026-05-05");
+  const lastModified = new Date();
 
   function buildAlternates(path: string) {
+    const normalizedPath = path === "/" ? "" : path;
     return {
       languages: {
-        de: `${baseUrl}${path}`,
-        en: `${baseUrl}/en${path}`,
-        fr: `${baseUrl}/fr${path}`,
+        de: `${baseUrl}${normalizedPath}`,
+        en: `${baseUrl}/en${normalizedPath}`,
+        fr: `${baseUrl}/fr${normalizedPath}`,
+        "x-default": `${baseUrl}${normalizedPath}`,
       },
     };
   }
@@ -42,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified,
         changeFrequency: page === "" ? "weekly" : "monthly",
         priority: page === "" ? 1 : page === "/standorte" ? 0.9 : 0.7,
-        alternates: buildAlternates(page || "/"),
+        alternates: buildAlternates(page),
       });
     });
   });

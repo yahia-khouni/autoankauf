@@ -55,15 +55,36 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { state: stateSlug, city: citySlug } = await params;
+  const { locale, state: stateSlug, city: citySlug } = await params;
   const city = getCityBySlug(stateSlug, citySlug);
 
   if (!city) return { title: "Nicht gefunden" };
+
+  const baseUrl = getBaseUrl();
+  const path = `/standorte/${stateSlug}/${city.slug}`;
+  const localizedPath = locale === "de" ? path : `/${locale}${path}`;
+  const canonicalUrl = `${baseUrl}${localizedPath}`;
 
   return {
     title: city.meta.title,
     description: city.meta.description,
     keywords: city.meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        de: `${baseUrl}${path}`,
+        en: `${baseUrl}/en${path}`,
+        fr: `${baseUrl}/fr${path}`,
+        "x-default": `${baseUrl}${path}`,
+      },
+    },
+    openGraph: {
+      title: city.meta.title,
+      description: city.meta.description,
+      type: "website",
+      url: canonicalUrl,
+      siteName: "Autoankauf SR",
+    },
   };
 }
 

@@ -176,7 +176,7 @@ curl -H "x-setup-token: <SETUP_ADMIN_TOKEN>" https://your-domain.com/api/setup/s
 curl -X POST https://your-domain.com/api/setup/create-first-admin \
   -H "Content-Type: application/json" \
   -H "x-setup-token: <SETUP_ADMIN_TOKEN>" \
-  -d '{"firstName":"Admin","lastName":"User","email":"admin@autoankauf.de","password":"YourStrongPassword123!"}'
+  -d '{"firstName":"Admin","lastName":"User","email":"admin@autoankaufsr.de","password":"YourStrongPassword123!"}'
 ```
 3. Login at `/admin/login` and rotate credentials as needed.
 
