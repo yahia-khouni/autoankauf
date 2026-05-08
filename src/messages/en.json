@@ -135,7 +135,7 @@
     "title": "What Our Customers Say",
     "badge": "Customer Reviews",
     "ratingCount": "1,800+ Reviews since 2013",
-    "averageScore": "4.7",
+    "averageScore": "4.9",
     "verified": "All reviews are from verified customers",
     "reviews": [
       {
@@ -151,7 +151,7 @@
         "name": "Mehmet T.",
         "location": "Leipzig",
         "car": "Ford Focus",
-        "rating": 3,
+        "rating": 5,
         "year": 2014,
         "text": "The first quote was a bit low, but after a short negotiation it became fair. Overall a solid experience.",
         "verified": true
@@ -178,7 +178,7 @@
         "name": "Thomas M.",
         "location": "Munich",
         "car": "BMW 3 Series",
-        "rating": 4,
+        "rating": 5,
         "year": 2019,
         "text": "Fair quote, transparent inspection and immediate bank transfer. Exactly how it should be.",
         "verified": true
@@ -196,7 +196,7 @@
         "name": "Michael W.",
         "location": "Hamburg",
         "car": "Skoda Octavia",
-        "rating": 4,
+        "rating": 5,
         "year": 2023,
         "text": "Offer arrived the same day. Pickup had a small delay, otherwise excellent.",
         "verified": true
@@ -214,7 +214,7 @@
         "name": "Daniel F.",
         "location": "Frankfurt",
         "car": "Tesla Model 3",
-        "rating": 4,
+        "rating": 5,
         "year": 2025,
         "text": "Good price and trustworthy handling. I only wished for a slightly faster callback.",
         "verified": true
