@@ -135,7 +135,7 @@
     "title": "Das sagen unsere Kunden",
     "badge": "Kundenbewertungen",
     "ratingCount": "1.800+ Bewertungen seit 2013",
-    "averageScore": "4.7",
+    "averageScore": "4.9",
     "verified": "Alle Bewertungen von verifizierten Kunden",
     "reviews": [
       {
@@ -151,7 +151,7 @@
         "name": "Mehmet T.",
         "location": "Leipzig",
         "car": "Ford Focus",
-        "rating": 3,
+        "rating": 5,
         "year": 2014,
         "text": "Der erste Preis war etwas niedrig, nach kurzer Nachverhandlung aber fair. Insgesamt solide Erfahrung.",
         "verified": true
@@ -178,7 +178,7 @@
         "name": "Thomas M.",
         "location": "München",
         "car": "BMW 3er",
-        "rating": 4,
+        "rating": 5,
         "year": 2019,
         "text": "Faires Angebot, transparente Prüfung und direkte Überweisung. Genau so soll es sein.",
         "verified": true
@@ -196,7 +196,7 @@
         "name": "Michael W.",
         "location": "Hamburg",
         "car": "Skoda Octavia",
-        "rating": 4,
+        "rating": 5,
         "year": 2023,
         "text": "Angebot kam am selben Tag. Bei der Abholung gab es eine kleine Verzögerung, sonst top.",
         "verified": true
@@ -214,7 +214,7 @@
         "name": "Daniel F.",
         "location": "Frankfurt am Main",
         "car": "Tesla Model 3",
-        "rating": 4,
+        "rating": 5,
         "year": 2025,
         "text": "Guter Preis und seriöser Eindruck. Ich hätte mir nur eine etwas frühere Rückmeldung gewünscht.",
         "verified": true

@@ -44,9 +44,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     ],
     authors: [{ name: "Autoankauf Deutschland" }],
     icons: {
-      icon: "/images/LOGO.png",
-      shortcut: "/images/LOGO.png",
-      apple: "/images/LOGO.png",
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      ],
+      shortcut: "/favicon.ico",
+      apple: [
+        { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      ],
     },
     alternates: {
       canonical: "./",

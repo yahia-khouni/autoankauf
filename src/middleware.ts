@@ -19,6 +19,15 @@ export async function middleware(request: NextRequest) {
       req: request,
       secret: process.env.NEXTAUTH_SECRET,
     });
+    const adminLoginToken = process.env.ADMIN_LOGIN_TOKEN?.trim();
+    const accessToken = request.nextUrl.searchParams.get("token")?.trim();
+    const requiresLoginToken = Boolean(adminLoginToken);
+    const hasValidLoginToken =
+      requiresLoginToken && accessToken === adminLoginToken;
+
+    if (!token && requiresLoginToken && !hasValidLoginToken) {
+      return new NextResponse(null, { status: 404 });
+    }
 
     // If on login page with valid token → redirect to dashboard
     if (pathname === "/admin/login" || pathname === "/admin/login/") {
@@ -30,6 +39,12 @@ export async function middleware(request: NextRequest) {
 
     // All other /admin/* paths require auth
     if (!token) {
+      if (hasValidLoginToken && accessToken) {
+        const loginUrl = new URL("/admin/login", request.url);
+        loginUrl.searchParams.set("token", accessToken);
+        return NextResponse.redirect(loginUrl);
+      }
+
       return NextResponse.redirect(new URL("/admin/login", request.url));
     }
 
