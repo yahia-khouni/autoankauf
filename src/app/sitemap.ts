@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { getAllStates, getCitiesByState } from "@/data/location-data";
+import { blogPosts } from "@/data/blog-posts";
 import { getBaseUrl } from "@/lib/company";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -80,6 +81,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
           priority: 0.7,
           alternates: buildAlternates(cityPath),
         });
+      });
+    });
+  });
+
+  blogPosts.forEach((post) => {
+    locales.forEach((locale) => {
+      const blogPostPath = `/blog/${post.slug}`;
+      const blogPostUrl = locale === "de"
+        ? `${baseUrl}${blogPostPath}`
+        : `${baseUrl}/${locale}${blogPostPath}`;
+
+      sitemap.push({
+        url: blogPostUrl,
+        lastModified,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: buildAlternates(blogPostPath),
       });
     });
   });
