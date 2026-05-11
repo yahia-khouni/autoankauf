@@ -314,7 +314,7 @@ const deSections: Array<{ id: string; title: string; content: ReactNode }> = [
     content: (
       <p>
         Unsere Website nutzt aus Sicherheitsgruenden eine SSL-/TLS-Verschluesselung. Eine
-        verschluesselte Verbindung erkennen Sie an der Browserzeile mit "https://" und dem
+        verschluesselte Verbindung erkennen Sie an der Browserzeile mit &quot;https://&quot; und dem
         Schloss-Symbol.
       </p>
     ),
@@ -412,9 +412,9 @@ export default async function DatenschutzPage({
           title: "Information importante",
           content: (
             <p>
-              Cette page contient le texte juridique complet en allemand afin d'assurer la coherence
+              Cette page contient le texte juridique complet en allemand afin d&apos;assurer la coherence
               juridique avec le droit applicable. Pour toute question sur la protection des donnees,
-              contactez-nous a l'adresse {COMPANY.email}.
+              contactez-nous a l&apos;adresse {COMPANY.email}.
             </p>
           ),
         },

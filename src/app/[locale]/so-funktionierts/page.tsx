@@ -295,7 +295,7 @@ export default function SoFunktioniertsPage() {
   const t = useTranslations("soFunktionierts");
   const locale = useLocale();
   const leadFormHref = locale === "de" ? "/#lead-form" : `/${locale}/#lead-form`;
-  const [tab, setTab] = useState<"seller" | "buyer">("seller");
+  const [tab] = useState<"seller" | "buyer">("seller");
   const [faqOpenIndex, setFaqOpenIndex] = useState<number | null>(null);
   const pendingFaqScrollY = useRef<number | null>(null);
 
@@ -328,10 +328,6 @@ export default function SoFunktioniertsPage() {
     { icon: ShieldCheck, num: "03", title: t("buyerStep3Title"), sub: t("buyerStep3Sub"), desc: t("buyerStep3Desc"), details: [t("buyerStep3D1"), t("buyerStep3D2"), t("buyerStep3D3"), t("buyerStep3D4")] },
     { icon: Banknote, num: "04", title: t("buyerStep4Title"), sub: t("buyerStep4Sub"), desc: t("buyerStep4Desc"), details: [t("buyerStep4D1"), t("buyerStep4D2"), t("buyerStep4D3"), t("buyerStep4D4")] },
   ];
-
-  const handleTabChange = useCallback((newTab: "seller" | "buyer") => {
-    setTab(newTab);
-  }, []);
 
   const steps = tab === "seller" ? sellerSteps : buyerSteps;
 

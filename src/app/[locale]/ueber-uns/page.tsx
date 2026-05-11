@@ -71,8 +71,6 @@ function CountUp({ end, suffix = "" }: { end: number; suffix?: string }) {
 /* ══════════════════════════════════════════════
    VALUE CARD — animated scroll-reveal item
    ══════════════════════════════════════════════ */
-type ValItem = { icon: React.ElementType; title: string; desc: string; color: "gold" | "navy" };
-
 function ValCard({ icon: Icon, title, desc, delay }: { icon: React.ElementType; title: string; desc: string; delay: number }) {
   const ref = useRef<HTMLDivElement>(null);
   const [v, setV] = useState(false);

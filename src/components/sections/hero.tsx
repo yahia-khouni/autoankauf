@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { LeadForm } from "@/components/forms/lead-form";
-import { Star, Shield, Banknote, ArrowDown } from "lucide-react";
+import { Star, ArrowDown } from "lucide-react";
 import Link from "next/link";
 import { AnimatedWord } from "@/components/ui/animated-word";
 

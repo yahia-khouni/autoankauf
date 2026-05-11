@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Search, MapPin, ChevronRight, ArrowLeft, ArrowRight, X } from "lucide-react";
-import { AnimateOnScroll } from "@/components/ui/animate-on-scroll";
 
 interface CityItem {
   slug: string;

@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   AlertTriangle,
-  Car,
   Pencil,
   Plus,
   RefreshCw,

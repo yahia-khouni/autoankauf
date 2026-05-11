@@ -299,7 +299,6 @@ function SlideCard({ slide, stepLabel }: { slide: Slide; stepLabel: string }) {
 // ─── Main Gallery Section ────────────────────────────────────────────────────
 
 const SLIDES_PER_PAGE_DESKTOP = 3;
-const SLIDES_PER_PAGE_MOBILE = 1;
 
 export function PhotoGallerySection() {
   const t = useTranslations("gallery");

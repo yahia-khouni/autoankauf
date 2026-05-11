@@ -93,7 +93,7 @@ export function WhoWeAreSection() {
 
         <AnimateOnScroll delay={140}>
           <div className="mt-10 sm:mt-14 grid sm:grid-cols-3 gap-4 sm:gap-5">
-            {process.map((step, i) => (
+            {process.map((step) => (
               <div
                 key={step.title}
                 className="group relative rounded-2xl border border-slate-200/80 bg-white shadow-[0_8px_24px_rgba(15,23,42,0.07)] hover:shadow-[0_12px_32px_rgba(212,175,55,0.18)] hover:border-gold-300/50 transition-all duration-300 p-5 flex items-center gap-4 overflow-hidden"

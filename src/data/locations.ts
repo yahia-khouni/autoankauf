@@ -8,7 +8,7 @@
  * @deprecated — Prefer importing from "@/data/location-data" directly.
  */
 
-import { getAllStates, getStateBySlug as _getStateBySlug, getCityBySlug as _getCityBySlug, getAllLocations as _getAllLocations } from "./location-data";
+import { getAllStates, getStateBySlug as _getStateBySlug, getAllLocations as _getAllLocations } from "./location-data";
 
 // ─── Legacy interface (matches old shape) ────────────────────
 export interface StateData {

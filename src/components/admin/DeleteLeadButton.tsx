@@ -35,8 +35,6 @@ export default function DeleteLeadButton({
   }, []);
 
   async function handleDelete() {
-    const target = customerName ? customerName : "diesen Lead";
-
     setError("");
     setLoading(true);
 

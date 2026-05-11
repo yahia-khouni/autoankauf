@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
 import { getNationData, getAllStates, getCitiesByState, getStateBySlug } from "@/data/location-data";
-import { MapPin, MapPinned, ArrowRight, Shield, Zap, Star, TrendingUp, Phone, CheckCircle } from "lucide-react";
+import { MapPin, MapPinned, ArrowRight, Shield, Zap, Star, TrendingUp, Phone } from "lucide-react";
 import { locales, type Locale } from "@/lib/i18n";
 import { StatsCounter } from "@/components/locations/stats-counter";
 import { LocationBreadcrumb } from "@/components/locations/breadcrumb";
