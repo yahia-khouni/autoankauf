@@ -5,6 +5,7 @@ import { locales, type Locale } from "@/lib/i18n";
 import { getBaseUrl } from "@/lib/company";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { AnalyticsProvider } from "@/components/analytics/analytics-provider";
 import "@/app/globals.css";
 
 export function generateStaticParams() {
@@ -76,6 +77,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       description: descriptions[locale],
       images: ["/images/LOGO.png"],
     },
+    verification: {
+      google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+    },
     robots: {
       index: true,
       follow: true,
@@ -105,6 +109,7 @@ export default async function LocaleLayout({
     <html lang={locale} suppressHydrationWarning>
       <body className="min-h-screen bg-background font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
+          <AnalyticsProvider />
           <div className="relative flex min-h-screen flex-col">
             <Header />
             <main className="flex-1">{children}</main>

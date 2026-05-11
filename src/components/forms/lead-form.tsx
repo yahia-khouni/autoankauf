@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { getYearRange } from "@/lib/utils";
+import { detectLandingPageType, trackEvent } from "@/lib/analytics";
 import { Loader2, CheckCircle, ChevronLeft, Car, User } from "lucide-react";
 
 const years = getYearRange();
@@ -23,9 +24,41 @@ interface ModelOption {
 
 const CATALOG_REFRESH_INTERVAL_MS = 10000;
 
+type LeadAttributionPayload = {
+  sourcePage: string;
+  utmSource?: string;
+  utmMedium?: string;
+  utmCampaign?: string;
+  landingPageType: string;
+  locale: string;
+};
+
+function getLeadAttribution(locale: string): LeadAttributionPayload {
+  if (typeof window === "undefined") {
+    return {
+      sourcePage: "/",
+      landingPageType: "other",
+      locale,
+    };
+  }
+
+  const { pathname, search } = window.location;
+  const params = new URLSearchParams(search);
+
+  return {
+    sourcePage: `${pathname}${search}`,
+    utmSource: params.get("utm_source") || undefined,
+    utmMedium: params.get("utm_medium") || undefined,
+    utmCampaign: params.get("utm_campaign") || undefined,
+    landingPageType: detectLandingPageType(pathname),
+    locale,
+  };
+}
+
 export function LeadForm() {
   const t = useTranslations("form");
   const tCommon = useTranslations("common");
+  const locale = useLocale();
   const [step, setStep] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -198,6 +231,8 @@ export function LeadForm() {
     setError(null);
 
     try {
+      const attribution = getLeadAttribution(locale);
+
       const response = await fetch("/api/leads/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -207,6 +242,7 @@ export function LeadForm() {
           modelId: formData.modelId,
           make: selectedMake?.name ?? "",
           model: selectedModel?.name ?? "",
+          ...attribution,
         }),
       });
 
@@ -217,6 +253,13 @@ export function LeadForm() {
       }
 
       setIsSuccess(true);
+      trackEvent("generate_lead", {
+        locale,
+        landing_page_type: attribution.landingPageType,
+        preferred_contact: formData.contactMethod,
+        car_make: selectedMake?.name ?? "unknown",
+        car_model: selectedModel?.name ?? "unknown",
+      });
     } catch (err) {
       setError(err instanceof Error ? err.message : tCommon("error"));
     } finally {

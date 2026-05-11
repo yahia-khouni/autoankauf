@@ -61,6 +61,55 @@ function getClientIp(request: NextRequest): string {
   );
 }
 
+function getHostname(url?: string | null): string | null {
+  if (!url) return null;
+
+  try {
+    return new URL(url).hostname.toLowerCase();
+  } catch {
+    return null;
+  }
+}
+
+function hasPaidClickId(sourcePage?: string | null): boolean {
+  if (!sourcePage) return false;
+
+  const queryString = sourcePage.split("?")[1] ?? "";
+  if (!queryString) return false;
+
+  const params = new URLSearchParams(queryString);
+  return ["gclid", "gbraid", "wbraid", "msclkid"].some((key) => params.has(key));
+}
+
+function inferLeadChannel(input: {
+  utmSource?: string | null;
+  utmMedium?: string | null;
+  sourcePage?: string | null;
+  referer?: string | null;
+}): "direct" | "organic" | "paid" | "social" | "email" | "referral" | "campaign" {
+  const utmSource = input.utmSource?.toLowerCase() ?? "";
+  const utmMedium = input.utmMedium?.toLowerCase() ?? "";
+
+  if (utmSource || utmMedium) {
+    if (/(cpc|ppc|paid|display|retargeting|remarketing)/.test(utmMedium)) return "paid";
+    if (/(social|social-paid|paid-social)/.test(utmMedium)) return "social";
+    if (utmMedium.includes("email")) return "email";
+    if (/(organic|seo)/.test(utmMedium)) return "organic";
+    if (/(google|bing|yahoo|duckduckgo)/.test(utmSource) && utmMedium.length === 0) return "organic";
+    return "campaign";
+  }
+
+  if (hasPaidClickId(input.sourcePage)) return "paid";
+
+  const refererHost = getHostname(input.referer);
+  if (!refererHost) return "direct";
+
+  if (/(google\.|bing\.|duckduckgo\.|yahoo\.)/.test(refererHost)) return "organic";
+  if (/(facebook\.com|instagram\.com|linkedin\.com|tiktok\.com|twitter\.com|x\.com)/.test(refererHost)) return "social";
+
+  return "referral";
+}
+
 export async function POST(request: NextRequest) {
   // ── CSRF: Origin check ────────────────────────────────────────────────────
   const requestOrigin = getRequestOrigin(request);
@@ -111,6 +160,12 @@ export async function POST(request: NextRequest) {
       contactMethod,
       notes,
       privacyAccepted,
+      sourcePage,
+      utmSource,
+      utmMedium,
+      utmCampaign,
+      landingPageType,
+      locale,
     } = body;
 
     let resolvedMake = sanitizeString(make, 100);
@@ -180,6 +235,25 @@ export async function POST(request: NextRequest) {
     const cleanLastName  = sanitizeString(lastName, 100);
     const cleanEmail     = sanitizeString(email, 254);
     const cleanPhone     = sanitizeString(phone, 30);
+    const cleanSourcePage = sanitizeString(sourcePage, 1000);
+    const cleanUtmSource = sanitizeString(utmSource, 100);
+    const cleanUtmMedium = sanitizeString(utmMedium, 100);
+    const cleanUtmCampaign = sanitizeString(utmCampaign, 150);
+    const rawLandingPageType = sanitizeString(landingPageType, 40).toLowerCase();
+    const cleanLandingPageType =
+      /^[a-z0-9_-]+$/.test(rawLandingPageType) && rawLandingPageType.length > 0
+        ? rawLandingPageType
+        : "other";
+    const cleanLocale = sanitizeString(locale, 10).toLowerCase();
+    const normalizedLocale =
+      cleanLocale && ["de", "en", "fr"].includes(cleanLocale) ? cleanLocale : "de";
+    const leadChannel = inferLeadChannel({
+      utmSource: cleanUtmSource,
+      utmMedium: cleanUtmMedium,
+      sourcePage: cleanSourcePage,
+      referer: request.headers.get("referer"),
+    });
+    const resolvedSource = `website:${leadChannel}:${cleanLandingPageType}:${normalizedLocale}`;
 
     if (!cleanFirstName || !cleanLastName || !cleanEmail || !cleanPhone) {
       return NextResponse.json(
@@ -231,7 +305,11 @@ export async function POST(request: NextRequest) {
           ? contactMethod.toUpperCase().slice(0, 20)
           : "PHONE",
         notes:  combinedNotes,
-        source: "website",
+        source: resolvedSource,
+        sourcePage: cleanSourcePage,
+        utmSource: cleanUtmSource,
+        utmMedium: cleanUtmMedium,
+        utmCampaign: cleanUtmCampaign,
         status: "NEW",
       },
     });

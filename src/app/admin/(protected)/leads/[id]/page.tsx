@@ -158,10 +158,34 @@ export default async function LeadDetailPage({ params }: PageProps) {
                   {new Date(lead.closedAt).toLocaleString("de-DE")}
                 </p>
               )}
+              {lead.source && (
+                <p className="break-all">
+                  <span className="font-medium text-slate-600">Quelle: </span>
+                  {lead.source}
+                </p>
+              )}
+              {lead.sourcePage && (
+                <p className="break-all">
+                  <span className="font-medium text-slate-600">Landing Page: </span>
+                  {lead.sourcePage}
+                </p>
+              )}
               {lead.utmSource && (
                 <p>
                   <span className="font-medium text-slate-600">UTM Source: </span>
                   {lead.utmSource}
+                </p>
+              )}
+              {lead.utmMedium && (
+                <p>
+                  <span className="font-medium text-slate-600">UTM Medium: </span>
+                  {lead.utmMedium}
+                </p>
+              )}
+              {lead.utmCampaign && (
+                <p>
+                  <span className="font-medium text-slate-600">UTM Campaign: </span>
+                  {lead.utmCampaign}
                 </p>
               )}
             </div>

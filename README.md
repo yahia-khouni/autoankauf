@@ -156,6 +156,23 @@ npm run db:seed        # Seed database with data
 3. Set `ADMIN_EMAIL` for lead notifications
 4. Test lead submission to confirm both customer and admin emails are delivered
 
+## 📊 SEO Measurement Stack (GA4 + GTM + Search Console)
+
+Set these environment variables:
+
+- `NEXT_PUBLIC_GTM_ID` (recommended primary integration)
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` (fallback if GTM is not configured)
+- `GOOGLE_SITE_VERIFICATION` (adds Search Console verification meta tag)
+
+Implemented tracking events:
+
+- `page_view` (with `locale` + `landing_page_type`)
+- `generate_lead` (lead form conversion)
+- `contact_phone_click`
+- `contact_whatsapp_click`
+
+Lead attribution is persisted to the database (`source`, `sourcePage`, `utmSource`, `utmMedium`, `utmCampaign`) and visible in the admin lead detail page.
+
 ## 🚀 Deployment (Vercel)
 
 1. Push to GitHub
