@@ -5,18 +5,26 @@ import { getBaseUrl } from "@/lib/company";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
-  const locales = ["de", "en", "fr"];
+  const locales = ["de", "en", "fr"] as const;
   const lastModified = new Date();
 
-  function buildAlternates(path: string) {
+  function buildAlternates(path: string, alternateLocales: readonly string[] = locales) {
     const normalizedPath = path === "/" ? "" : path;
+    const languages: Record<string, string> = {};
+
+    alternateLocales.forEach((locale) => {
+      languages[locale] =
+        locale === "de"
+          ? `${baseUrl}${normalizedPath}`
+          : `${baseUrl}/${locale}${normalizedPath}`;
+    });
+
+    if (languages.de) {
+      languages["x-default"] = languages.de;
+    }
+
     return {
-      languages: {
-        de: `${baseUrl}${normalizedPath}`,
-        en: `${baseUrl}/en${normalizedPath}`,
-        fr: `${baseUrl}/fr${normalizedPath}`,
-        "x-default": `${baseUrl}${normalizedPath}`,
-      },
+      languages,
     };
   }
 
@@ -66,21 +74,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
         alternates: buildAlternates(statePath),
       });
+    });
 
-      const cities = getCitiesByState(state.slug);
-      cities.forEach((city) => {
-        const cityPath = `/standorte/${state.slug}/${city.slug}`;
-        const cityUrl = locale === "de"
-          ? `${baseUrl}${cityPath}`
-          : `${baseUrl}/${locale}${cityPath}`;
+    // City pages are only included for German to avoid duplicate EN/FR city URLs in sitemap.
+    const cities = getCitiesByState(state.slug);
+    cities.forEach((city) => {
+      const cityPath = `/standorte/${state.slug}/${city.slug}`;
 
-        sitemap.push({
-          url: cityUrl,
-          lastModified,
-          changeFrequency: "monthly",
-          priority: 0.7,
-          alternates: buildAlternates(cityPath),
-        });
+      sitemap.push({
+        url: `${baseUrl}${cityPath}`,
+        lastModified,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: buildAlternates(cityPath, ["de"]),
       });
     });
   });
