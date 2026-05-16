@@ -1,5 +1,5 @@
 import { AnimateOnScroll } from "@/components/ui/animate-on-scroll";
-import { BadgeCheck, Car, MapPin, ShieldCheck, ClipboardList, BadgeDollarSign, BadgeCheck as BadgeCheckSolid } from "lucide-react";
+import { BadgeCheck, Car, MapPin, ShieldCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 
@@ -22,12 +22,6 @@ export function WhoWeAreSection() {
       title: t("highlight3Title"),
       text: t("highlight3Text"),
     },
-  ];
-
-  const process = [
-    { icon: ClipboardList, title: t("process1"), step: "01" },
-    { icon: BadgeCheckSolid, title: t("process2"), step: "02" },
-    { icon: BadgeDollarSign, title: t("process3"), step: "03" },
   ];
 
   return (
@@ -91,29 +85,6 @@ export function WhoWeAreSection() {
           </AnimateOnScroll>
         </div>
 
-        <AnimateOnScroll delay={140}>
-          <div className="mt-10 sm:mt-14 grid sm:grid-cols-3 gap-4 sm:gap-5">
-            {process.map((step) => (
-              <div
-                key={step.title}
-                className="group relative rounded-2xl border border-slate-200/80 bg-white shadow-[0_8px_24px_rgba(15,23,42,0.07)] hover:shadow-[0_12px_32px_rgba(212,175,55,0.18)] hover:border-gold-300/50 transition-all duration-300 p-5 flex items-center gap-4 overflow-hidden"
-              >
-                {/* Subtle gradient background on hover */}
-                <div className="absolute inset-0 bg-gradient-to-br from-gold-50/0 to-gold-100/0 group-hover:from-gold-50/40 group-hover:to-gold-100/20 transition-all duration-300 rounded-2xl pointer-events-none" />
-
-                {/* Icon badge */}
-                <div className="relative w-11 h-11 rounded-xl bg-gradient-to-br from-navy-900 to-navy-800 flex items-center justify-center flex-shrink-0 shadow-[0_4px_12px_rgba(15,23,42,0.25)] group-hover:shadow-[0_4px_14px_rgba(212,175,55,0.35)] group-hover:from-navy-800 group-hover:to-navy-900 transition-all duration-300">
-                  <step.icon className="h-5 w-5 text-gold-400" />
-                </div>
-
-                <div className="min-w-0">
-                  <p className="text-[10px] font-bold text-gold-500 uppercase tracking-[0.14em] mb-0.5">{step.step}</p>
-                  <span className="text-sm font-bold text-navy-900 leading-tight block">{step.title}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </AnimateOnScroll>
       </div>
     </section>
   );

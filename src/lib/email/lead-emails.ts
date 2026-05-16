@@ -8,7 +8,7 @@ const CONTACT_METHOD_LABELS: Record<string, string> = {
 };
 
 function getBrandName(): string {
-  return process.env.EMAIL_BRAND_NAME?.trim() || "Autoankauf Deutschland";
+  return process.env.EMAIL_BRAND_NAME?.trim() || "Autoankauf SR";
 }
 
 function getAdminEmailRecipient(): string {
@@ -63,7 +63,7 @@ export async function sendLeadCustomerConfirmationEmail(payload: LeadEmailPayloa
 
   return sendResendEmail({
     to: payload.email,
-    subject: "Vielen Dank fur Ihre Anfrage bei Autoankauf Deutschland",
+    subject: "Vielen Dank fur Ihre Anfrage bei Autoankauf SR",
     html,
   });
 }

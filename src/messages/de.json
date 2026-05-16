@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Autoankauf Deutschland - Wir kaufen Ihr Auto",
+    "title": "Autoankauf SR - Wir kaufen Ihr Auto",
     "description": "Verkaufen Sie Ihr Auto schnell und unkompliziert. Faire Preise, sofortige Abwicklung, deutschlandweiter Service."
   },
   "nav": {
@@ -88,8 +88,8 @@
     "card2Description": "Unsere Experten analysieren Ihr Fahrzeug anhand aktueller Marktdaten und erstellen ein faires, unverbindliches Gutachten.",
     "card2Alt": "Mechaniker prüft ein Auto",
     "card3Title": "Sofortangebot erhalten",
-    "card3Subtitle": "Binnen 30 Minuten",
-    "card3Description": "Sie erhalten Ihr persönliches Kaufangebot direkt per E-Mail oder Telefon – ohne Wartezeit und ohne versteckte Abzüge.",
+    "card3Subtitle": "Meist in 30 Min. – spätestens in 24 Std.",
+    "card3Description": "Sie erhalten Ihr persönliches Kaufangebot direkt per E-Mail oder Telefon – transparent und ohne versteckte Abzüge.",
     "card3Alt": "Handschlag zur Angebotsbestätigung",
     "card4Title": "Termin vereinbaren",
     "card4Subtitle": "Flexibel & bequem",
@@ -117,7 +117,7 @@
     "card9Alt": "Handschlag über Vertragsunterlagen"
   },
   "whyUs": {
-    "title": "Warum Autoankauf Deutschland?",
+    "title": "Warum Autoankauf SR?",
     "reason1Title": "Faire Preise",
     "reason1Description": "Keine algorithmische Abwertung - echte Menschen, echte Bewertungen.",
     "reason2Title": "Schnelle Abwicklung",
@@ -145,15 +145,6 @@
         "rating": 4,
         "year": 2013,
         "text": "Abholung und Abmeldung liefen sauber. Das Angebot war in Ordnung und wurde wie zugesagt ausgezahlt.",
-        "verified": true
-      },
-      {
-        "name": "Mehmet T.",
-        "location": "Leipzig",
-        "car": "Ford Focus",
-        "rating": 5,
-        "year": 2014,
-        "text": "Der erste Preis war etwas niedrig, nach kurzer Nachverhandlung aber fair. Insgesamt solide Erfahrung.",
         "verified": true
       },
       {
@@ -193,6 +184,15 @@
         "verified": true
       },
       {
+        "name": "Patrick H.",
+        "location": "Essen",
+        "car": "Hyundai i30",
+        "rating": 5,
+        "year": 2020,
+        "text": "Vom Erstkontakt bis zur Auszahlung lief alles reibungslos. Sehr transparent und freundlich.",
+        "verified": true
+      },
+      {
         "name": "Michael W.",
         "location": "Hamburg",
         "car": "Skoda Octavia",
@@ -211,84 +211,12 @@
         "verified": true
       },
       {
-        "name": "Daniel F.",
-        "location": "Frankfurt am Main",
-        "car": "Tesla Model 3",
-        "rating": 5,
-        "year": 2025,
-        "text": "Guter Preis und seriöser Eindruck. Ich hätte mir nur eine etwas frühere Rückmeldung gewünscht.",
-        "verified": true
-      },
-      {
         "name": "Elena S.",
         "location": "Dresden",
         "car": "Renault Clio",
         "rating": 5,
         "year": 2026,
         "text": "Schnell, freundlich und verbindlich. Der Vertrag war klar und die Zahlung kam sofort.",
-        "verified": true
-      },
-      {
-        "name": "Patrick H.",
-        "location": "Essen",
-        "car": "Hyundai i30",
-        "rating": 5,
-        "year": 2020,
-        "text": "Vom Erstkontakt bis zur Auszahlung lief alles reibungslos. Sehr transparent und freundlich.",
-        "verified": true
-      },
-      {
-        "name": "Miriam N.",
-        "location": "Bremen",
-        "car": "Peugeot 208",
-        "rating": 5,
-        "year": 2021,
-        "text": "Schnelle Rückmeldung, faires Angebot und pünktliche Abholung. Genau wie versprochen.",
-        "verified": true
-      },
-      {
-        "name": "Andre S.",
-        "location": "Nürnberg",
-        "car": "Seat Leon",
-        "rating": 5,
-        "year": 2022,
-        "text": "Die Übergabe war unkompliziert und die Zahlung sofort auf dem Konto. Top Ablauf.",
-        "verified": true
-      },
-      {
-        "name": "Celina V.",
-        "location": "Dortmund",
-        "car": "Mazda 3",
-        "rating": 5,
-        "year": 2023,
-        "text": "Sehr professionelles Team und klare Kommunikation in jedem Schritt.",
-        "verified": true
-      },
-      {
-        "name": "Tobias E.",
-        "location": "Mainz",
-        "car": "Skoda Fabia",
-        "rating": 5,
-        "year": 2024,
-        "text": "Online angefragt, schnell bewertet und ohne Diskussion verkauft. Klare Empfehlung.",
-        "verified": true
-      },
-      {
-        "name": "Yasmin D.",
-        "location": "Kassel",
-        "car": "Fiat 500",
-        "rating": 5,
-        "year": 2025,
-        "text": "Sehr angenehmer Kontakt und ein wirklich transparenter Prozess von Anfang bis Ende.",
-        "verified": true
-      },
-      {
-        "name": "Karim A.",
-        "location": "Augsburg",
-        "car": "Kia Ceed",
-        "rating": 5,
-        "year": 2026,
-        "text": "Bester Service, den ich beim Autoverkauf erlebt habe. Schnell, fair und zuverlässig.",
         "verified": true
       }
     ]
@@ -466,7 +394,7 @@
     "privacy": "Datenschutz",
     "imprint": "Impressum",
     "terms": "AGB",
-    "copyright": "© {year} Autoankauf Deutschland. Alle Rechte vorbehalten.",
+    "copyright": "© {year} Autoankauf SR. Alle Rechte vorbehalten.",
     "quickLinks": "Schnellzugriff",
     "phone": "Telefon",
     "chat": "Jetzt chatten",
@@ -493,7 +421,7 @@
   },
   "soFunktionierts": {
     "meta": {
-      "title": "So funktioniert's | Autoankauf Deutschland",
+      "title": "So funktioniert's | Autoankauf SR",
       "description": "Erfahren Sie, wie einfach Autoverkauf und Autokauf bei uns funktioniert. In nur 4 Schritten zum Erfolg – schnell, fair und unkompliziert."
     },
     "heroBadge": "Einfach. Schnell. Sicher.",
@@ -670,7 +598,7 @@
   },
   "kontaktPage": {
     "meta": {
-      "title": "Kontakt | Autoankauf Deutschland",
+      "title": "Kontakt | Autoankauf SR",
       "description": "Kontaktieren Sie uns für ein kostenloses Angebot. Telefon, WhatsApp, E-Mail oder Formular — wir sind 7 Tage für Sie da."
     },
     "heroBadge": "Wir sind für Sie da",
@@ -755,7 +683,7 @@
     "storyBadge1": "4,9 Sterne Bewertung",
     "storyBadge": "Unsere Geschichte",
     "storyTitle": "Mehr als ein Autoankauf",
-    "storyP1": "Autoankauf Deutschland wurde mit einer einfachen Mission gegründet: den Autoverkauf so einfach und fair wie möglich zu gestalten. Was als kleines Unternehmen in Berlin begann, ist heute zu einem bundesweiten Premium-Service gewachsen.",
+    "storyP1": "Autoankauf SR wurde mit einer einfachen Mission gegründet: den Autoverkauf so einfach und fair wie möglich zu gestalten. Was als kleines Unternehmen in Essen begann, ist heute zu einem bundesweiten Premium-Service gewachsen.",
     "storyP2": "Im Gegensatz zu großen anonymen Plattformen setzen wir auf persönlichen Kontakt und individuelle Beratung. Bei uns sind Sie keine Nummer — Sie sind unser geschätzter Kunde. Jedes Fahrzeug erhält eine faire, marktgerechte Bewertung durch unsere Experten.",
     "storyP3": "Unser Erfolgsrezept: Transparenz, Schnelligkeit und echtes Engagement für unsere Kunden. Mehr als 5.000 erfolgreich abgewickelte Fahrzeuge sprechen für uns.",
     "why1": "Faire und transparente Preise",

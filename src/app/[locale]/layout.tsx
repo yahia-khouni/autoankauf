@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
   const baseUrl = getBaseUrl();
 
   const titles: Record<Locale, string> = {
-    de: "Autoankauf Deutschland - Schnell, Fair & Unkompliziert | Ihr Auto verkaufen",
+    de: "Autoankauf SR - Schnell, Fair & Unkompliziert | Ihr Auto verkaufen",
     en: "Car Purchase Germany - Fast, Fair & Easy | Sell Your Car",
     fr: "Achat de voiture Allemagne - Rapide, juste et facile | Vendez votre voiture",
   };
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     metadataBase: new URL(baseUrl),
     title: {
       default: titles[locale],
-      template: `%s | Autoankauf Deutschland`,
+      template: `%s | Autoankauf SR`,
     },
     description: descriptions[locale],
     keywords: [
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       "Auto Ankauf Deutschland",
       "Fahrzeug verkaufen",
     ],
-    authors: [{ name: "Autoankauf Deutschland" }],
+    authors: [{ name: "Autoankauf SR" }],
     icons: {
       icon: [
         { url: "/favicon.ico", sizes: "any" },

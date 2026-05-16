@@ -141,7 +141,7 @@ export function Header() {
         >
           <Image
             src="/images/LOGO.png"
-            alt="Autoankauf Deutschland"
+            alt="Autoankauf SR"
             width={320}
             height={100}
             priority
