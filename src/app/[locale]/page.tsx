@@ -6,6 +6,7 @@ import { WhyUsSection } from "@/components/sections/why-us";
 import { TestimonialsSection } from "@/components/sections/testimonials";
 import { LocationsMapSection } from "@/components/sections/locations-map";
 import { FAQSection } from "@/components/sections/faq";
+import { PhotoGallerySection } from "@/components/sections/photo-gallery";
 import { CTASection } from "@/components/sections/cta";
 import { OrganizationSchema, FAQSchema } from "@/components/seo/schema-markup";
 import { locales, type Locale } from "@/lib/i18n";
@@ -44,6 +45,7 @@ export default async function HomePage({
       <WhyUsSection />
       <TestimonialsSection />
       <LocationsMapSection />
+      <PhotoGallerySection />
       <FAQSection faqs={homeFaqs} />
       <CTASection />
     </>
