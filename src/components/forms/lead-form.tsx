@@ -326,7 +326,7 @@ export function LeadForm() {
                     placeholder={isCatalogLoading ? "Wird geladen..." : tCommon("select")}
                   />
                 </SelectTrigger>
-                <SelectContent className="rounded-xl border-2 shadow-premium max-h-[40vh]">
+                <SelectContent className="rounded-xl border-2 shadow-premium max-h-[40vh] custom-scrollbar">
                   {makes.length === 0 && !isCatalogLoading ? (
                     <div className="px-3 py-2 text-xs text-slate-500">Keine Marken verfugbar</div>
                   ) : (
@@ -352,7 +352,7 @@ export function LeadForm() {
                     placeholder={isModelsLoading ? "Wird geladen..." : tCommon("select")}
                   />
                 </SelectTrigger>
-                <SelectContent className="rounded-xl border-2 shadow-premium max-h-[40vh]">
+                <SelectContent className="rounded-xl border-2 shadow-premium max-h-[40vh] custom-scrollbar">
                   {models.length === 0 && formData.makeId && !isModelsLoading ? (
                     <div className="px-3 py-2 text-xs text-slate-500">Keine Modelle verfugbar</div>
                   ) : (
