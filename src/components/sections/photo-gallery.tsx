@@ -74,8 +74,7 @@ const slideMeta: SlideMeta[] = [
     id: 4,
     step: "04",
     icon: CalendarCheck,
-    image:
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/img4.jpeg",
     gradient: "from-[#1a0a2e] via-[#16213e] to-[#0f3460]",
     accentGradient: "from-purple-400 to-gold-400",
     glowColor: "rgba(167,139,250,0.12)",
@@ -85,8 +84,7 @@ const slideMeta: SlideMeta[] = [
     id: 5,
     step: "05",
     icon: Car,
-    image:
-      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/img5.jpeg",
     gradient: "from-[#0d1f2d] via-[#1a2f42] to-[#243b53]",
     accentGradient: "from-gold-300 to-gold-500",
     glowColor: "rgba(251,191,36,0.20)",
@@ -96,8 +94,7 @@ const slideMeta: SlideMeta[] = [
   id: 6,
   step: "06",
   icon: Banknote,
-  image:
-    "https://images.pexels.com/photos/3943729/pexels-photo-3943729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  image: "/images/img6.jpeg",
   gradient: "from-[#0a2218] via-[#0f3527] to-[#1a4733]",
   accentGradient: "from-green-300 to-gold-400",
   glowColor: "rgba(74,222,128,0.18)",
@@ -107,8 +104,7 @@ const slideMeta: SlideMeta[] = [
     id: 7,
     step: "07",
     icon: FileText,
-    image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/img7.jpeg",
     gradient: "from-[#0b1f2a] via-[#133044] to-[#1b4258]",
     accentGradient: "from-gold-400 to-gold-300",
     glowColor: "rgba(251,191,36,0.16)",
@@ -118,8 +114,7 @@ const slideMeta: SlideMeta[] = [
     id: 8,
     step: "08",
     icon: Truck,
-    image:
-      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/img8.jpeg",
     gradient: "from-[#0a1b2a] via-[#102c3f] to-[#1b3d52]",
     accentGradient: "from-gold-400 to-gold-500",
     glowColor: "rgba(212,175,55,0.14)",
