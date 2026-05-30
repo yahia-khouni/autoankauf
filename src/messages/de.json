@@ -48,7 +48,8 @@
     "next": "Weiter",
     "back": "Zurück",
     "successTitle": "Anfrage erfolgreich!",
-    "successMessage": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+    "successMessage": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    "customModelPlaceholder": "Modellname eingeben..."
   },
   "howItWorks": {
     "title": "So funktioniert's",

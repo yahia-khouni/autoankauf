@@ -1,7 +1,7 @@
 import { carMakes } from "@/data/car-makes";
 import { prisma } from "@/lib/db";
 
-const CATALOG_INIT_KEY = "car_catalog_initialized_v1";
+const CATALOG_INIT_KEY = "car_catalog_initialized_v2";
 
 let bootstrappingPromise: Promise<void> | null = null;
 

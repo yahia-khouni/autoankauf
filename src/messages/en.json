@@ -48,7 +48,8 @@
     "next": "Next",
     "back": "Back",
     "successTitle": "Request Successful!",
-    "successMessage": "Thank you! We will contact you within 24 hours."
+    "successMessage": "Thank you! We will contact you within 24 hours.",
+    "customModelPlaceholder": "Enter model name..."
   },
   "howItWorks": {
     "title": "How it Works",

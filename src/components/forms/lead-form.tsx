@@ -23,6 +23,7 @@ interface ModelOption {
 }
 
 const CATALOG_REFRESH_INTERVAL_MS = 10000;
+const SONSTIGES_MODEL_NAME = "Sonstiges";
 
 type LeadAttributionPayload = {
   sourcePage: string;
@@ -78,6 +79,7 @@ export function LeadForm() {
   const [formData, setFormData] = useState({
     makeId: "",
     modelId: "",
+    customModel: "",
     year: "",
     mileage: "",
     offeredPrice: "",
@@ -93,11 +95,16 @@ export function LeadForm() {
   const updateField = (field: string, value: string | boolean) => {
     setFormData((prev) => {
       if (field === "makeId") {
-        return { ...prev, makeId: value as string, modelId: "" };
+        return { ...prev, makeId: value as string, modelId: "", customModel: "" };
+      }
+      if (field === "modelId") {
+        return { ...prev, modelId: value as string, customModel: "" };
       }
       return { ...prev, [field]: value };
     });
   };
+
+  const isOtherModelSelected = models.find((m) => m.id === formData.modelId)?.name === SONSTIGES_MODEL_NAME;
 
   useEffect(() => {
     let isMounted = true;
@@ -220,6 +227,7 @@ export function LeadForm() {
   const canProceedStep1 =
     formData.makeId &&
     formData.modelId &&
+    (!isOtherModelSelected || formData.customModel.trim()) &&
     formData.year &&
     formData.mileage &&
     formData.offeredPrice;
@@ -241,7 +249,8 @@ export function LeadForm() {
           makeId: formData.makeId,
           modelId: formData.modelId,
           make: selectedMake?.name ?? "",
-          model: selectedModel?.name ?? "",
+          model: isOtherModelSelected ? formData.customModel.trim() : (selectedModel?.name ?? ""),
+          customModel: isOtherModelSelected ? formData.customModel.trim() : undefined,
           ...attribution,
         }),
       });
@@ -370,6 +379,21 @@ export function LeadForm() {
                   )}
                 </SelectContent>
               </Select>
+
+              {/* Custom model text input — shown when "Sonstiges" is selected */}
+              {isOtherModelSelected && (
+                <div className="mt-2 animate-fade-in">
+                  <Input
+                    id="customModel"
+                    type="text"
+                    placeholder={t("customModelPlaceholder")}
+                    className="h-12 sm:h-12 text-sm border-2 border-gold-300 hover:border-gold-400 focus:border-gold-500 focus:ring-4 focus:ring-gold-400/20 transition-all rounded-xl bg-gold-50/30"
+                    value={formData.customModel}
+                    onChange={(e) => updateField("customModel", e.target.value)}
+                    autoFocus
+                  />
+                </div>
+              )}
             </div>
           </div>
 

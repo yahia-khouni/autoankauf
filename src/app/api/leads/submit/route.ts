@@ -170,6 +170,7 @@ export async function POST(request: NextRequest) {
 
     let resolvedMake = sanitizeString(make, 100);
     let resolvedModel = sanitizeString(model, 100);
+    const cleanCustomModel = typeof body.customModel === "string" ? sanitizeString(body.customModel, 100) : "";
 
     if (typeof makeId === "string" && makeId && typeof modelId === "string" && modelId) {
       const makeRecord = await prisma.carMake.findUnique({
@@ -197,7 +198,13 @@ export async function POST(request: NextRequest) {
       }
 
       resolvedMake = makeRecord.name;
-      resolvedModel = modelRecord.name;
+
+      // When the user chose "Sonstiges" (Other), use the custom model text instead
+      if (modelRecord.name === "Sonstiges" && cleanCustomModel) {
+        resolvedModel = cleanCustomModel;
+      } else {
+        resolvedModel = modelRecord.name;
+      }
     }
 
     if (!resolvedMake || !resolvedModel || !year || !mileage || !offeredPrice) {

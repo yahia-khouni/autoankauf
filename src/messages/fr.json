@@ -48,7 +48,8 @@
     "next": "Suivant",
     "back": "Retour",
     "successTitle": "Demande envoyée !",
-    "successMessage": "Merci ! Nous vous contacterons sous 24 heures."
+    "successMessage": "Merci ! Nous vous contacterons sous 24 heures.",
+    "customModelPlaceholder": "Saisir le nom du modèle..."
   },
   "howItWorks": {
     "title": "Comment ça marche",
