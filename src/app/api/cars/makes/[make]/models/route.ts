@@ -1,15 +1,14 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { logger } from "@/lib/logger";
 import { prisma } from "@/lib/db";
-import { ensureCarCatalogInitialized } from "@/lib/car-catalog";
+
+export const dynamic = "force-dynamic";
 
 export async function GET(
   _request: NextRequest,
   { params }: { params: { make: string } }
 ) {
   try {
-    await ensureCarCatalogInitialized();
-
     const models = await prisma.carModel.findMany({
       where: { makeId: params.make },
       select: { id: true, name: true },
@@ -22,3 +21,4 @@ export async function GET(
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
+

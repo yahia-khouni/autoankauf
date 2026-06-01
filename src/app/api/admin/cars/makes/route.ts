@@ -1,9 +1,9 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { logger } from "@/lib/logger";
 import { Prisma } from "@prisma/client";
 import { getAdminSession } from "@/lib/auth-utils";
 import { prisma } from "@/lib/db";
-import { ensureCarCatalogInitialized } from "@/lib/car-catalog";
+
 import { createMakeSchema, makesQuerySchema } from "@/lib/validations/admin";
 
 export async function GET(request: NextRequest) {
@@ -13,7 +13,6 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    await ensureCarCatalogInitialized();
 
     const { searchParams } = request.nextUrl;
     const parsed = makesQuerySchema.safeParse({
