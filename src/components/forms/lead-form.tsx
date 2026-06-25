@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { getYearRange } from "@/lib/utils";
-import { detectLandingPageType, trackEvent } from "@/lib/analytics";
+import { detectLandingPageType, trackEvent, trackGoogleAdsConversion } from "@/lib/analytics";
 import { Loader2, CheckCircle, ChevronLeft, Car, User } from "lucide-react";
 
 const years = getYearRange();
@@ -262,6 +262,7 @@ export function LeadForm() {
       }
 
       setIsSuccess(true);
+      trackGoogleAdsConversion();
       trackEvent("generate_lead", {
         locale,
         landing_page_type: attribution.landingPageType,

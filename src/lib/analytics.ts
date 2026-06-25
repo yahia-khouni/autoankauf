@@ -78,3 +78,19 @@ export function trackEvent(eventName: string, params: AnalyticsParams = {}) {
   }
 }
 
+/**
+ * Fire a Google Ads conversion event (send_to: AW-XXXXXXX/label).
+ * Should be called immediately after a successful lead form submission.
+ */
+export function trackGoogleAdsConversion(params: { value?: number; currency?: string } = {}) {
+  if (typeof window === "undefined") return;
+  if (!analyticsConfig.hasGoogleAds) return;
+  if (typeof window.gtag !== "function") return;
+
+  window.gtag("event", "conversion", {
+    send_to: `${analyticsConfig.googleAdsId}/oVp-CPHZ17ocEI3_y_BD`,
+    value: params.value ?? 1.0,
+    currency: params.currency ?? "EUR",
+  });
+}
+

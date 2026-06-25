@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { COMPANY } from "@/lib/company";
+import { trackGoogleAdsConversion } from "@/lib/analytics";
 
 /* ─── reusable reveal animation ─── */
 function Reveal({
@@ -94,6 +95,7 @@ function GeneralContactForm() {
     setLoading(true);
     await new Promise((r) => setTimeout(r, 1200)); // simulated
     setLoading(false);
+    trackGoogleAdsConversion();
     setSuccess(true);
   };
 
