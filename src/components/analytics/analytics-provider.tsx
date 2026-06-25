@@ -108,6 +108,23 @@ gtag('config', '${analyticsConfig.gaMeasurementId}', { send_page_view: false });
           </Script>
         </>
       )}
+
+      {analyticsConfig.hasGoogleAds && (
+        <>
+          <Script
+            id="google-ads-loader"
+            src={`https://www.googletagmanager.com/gtag/js?id=${analyticsConfig.googleAdsId}`}
+            strategy="afterInteractive"
+          />
+          <Script id="google-ads-init" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+window.gtag = gtag;
+gtag('js', new Date());
+gtag('config', '${analyticsConfig.googleAdsId}');`}
+          </Script>
+        </>
+      )}
     </>
   );
 }

@@ -21,12 +21,15 @@ declare global {
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID?.trim() ?? "";
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim() ?? "";
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID?.trim() ?? "";
 
 export const analyticsConfig = {
   gtmId: GTM_ID,
   gaMeasurementId: GA_MEASUREMENT_ID,
+  googleAdsId: GOOGLE_ADS_ID,
   hasGtm: GTM_ID.length > 0,
   hasDirectGa: GTM_ID.length === 0 && GA_MEASUREMENT_ID.length > 0,
+  hasGoogleAds: GOOGLE_ADS_ID.length > 0,
 };
 
 function normalizeParams(params: AnalyticsParams): Record<string, AnalyticsPrimitive> {
